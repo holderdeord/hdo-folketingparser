@@ -1,0 +1,102 @@
+#!/usr/bin/perl
+
+use warnings;
+use strict;
+
+use LWP::Simple;
+use HTML::TreeBuilder;
+
+sub stortinget_url {
+    my ($period, $page) = @_;
+    return "http://www.stortinget.no/no/Representanter-og-komiteer/Representantene/Innvalgte-fra-1945--/?pid=$period&page=$page";
+}
+
+my @periods = (
+    '1945-49',
+    '1950-53',
+    '1954-57',
+    '1958-61',
+    '1961-65',
+    '1965-69',
+    '1969-73',
+    '1973-77',
+    '1977-81',
+    '1981-85',
+    '1985-89',
+    '1989-93',
+    '1993-97',
+    '1997-2001',
+    '2001-2005',
+    '2005-2009',
+    '2009-2013',
+    );
+
+my %member;
+for my $period (@periods) {
+    print STDERR "Loading $period\n";
+    for my $page (1 .. 10) {
+        my $url = stortinget_url($period, $page);
+
+        # Change 1981-85 to 1981-1985
+        $period =~ s/(\d{4})-(\d{2})$/$1-19$2/;
+
+#        print "$url\n";
+        my $j = LWP::Simple::get($url);
+        my $name;
+        if ($j) {
+#            print "HTML: '$j'\n";
+            my $tree = HTML::TreeBuilder->new_from_content($j);
+            my @entries = $tree->look_down(_tag => 'li');
+            my $perid;
+            my $name;
+            for my $entry (@entries) {
+                my $url = get_url($entry);
+#                print "U: '$url'\n";
+                if (defined $url &&
+                    $url =~ m%/no/Representanter-og-komiteer/Representantene/Representantfordeling/Representant/\?perid=(.+)%) {
+                    $perid = $1;
+                    $name = $entry->look_down( _tag => 'a')->as_text;
+                    my $party = $entry->as_text;
+                    $party =~ s%\d+\. $name\s*%%;
+                    my ($last_name, $first_name) = split(/,\s*/, $name);
+#                    print "N: '$first_name $last_name' '$party' $perid\n";
+                    if (exists $member{$perid}) {
+                        $member{$perid}->{periods}->{$period} = $party;
+                    } else {
+                        $member{$perid} =
+                            {
+                                first_name => $first_name,
+                                last_name => $last_name,
+                                periods => { $period => $party },
+                            };
+                    }
+                }
+            }
+            $tree->delete;
+        }
+        sleep 2;
+    }
+}
+
+print "<persons>\n\n";
+for my $perid (sort keys %member) {
+    my $info = $member{$perid};
+    print "<person stortinget-perid=\"$perid\">\n";
+    print "  <first_name>$info->{first_name}</first_name>\n";
+    print "  <last_name>$info->{last_name}</last_name>\n";
+    for my $period (sort keys %{$info->{periods}}) {
+        my $party = $info->{periods}->{$period};
+        print "  <period party=\"$party\">$period</period>\n";
+    }
+    print "</person>\n\n";
+}
+print "</persons>\n";
+
+sub get_url {
+    my $node = shift;
+    my @hrefs = $node->look_down( _tag => 'a');
+    return unless @hrefs;
+    my $url = $hrefs[0]->attr('href');
+    $url =~ s/\s+$//;
+    return $url;
+}

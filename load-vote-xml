@@ -1,0 +1,61 @@
+#!/usr/bin/perl
+
+use warnings;
+use strict;
+
+use CGI;
+use DBI;
+use FindBin;
+use XML::Simple;
+use Data::Dumper;
+
+use open OUT => ':utf8';
+
+use vars qw($dbh);
+
+my $xmlfilename = shift;
+my $voteinfo = XMLin($xmlfilename, KeyAttr => []);
+
+my $dbh = db_connect();
+
+$dbh->do('BEGIN TRANSACTION');
+
+my $division_id = ($dbh->selectrow_array('select max(id)+1 from division'))[0]
+    || 1;
+for my $division (@{$voteinfo->{division}}) {
+    my $map = $division->{map};
+    my $id = $division->{id};
+    my $whenvoted = $division->{'when-voted'};
+    my $description = $division->{description};
+    # FIXME Add support for total count, and where everyone vote 'yes'
+    $dbh->do("INSERT INTO division (id, description, when_divided, yes_count, no_count) VALUES (?, ?, ?, ?, ?)",
+             {}, $division_id, $description, $whenvoted, 0, 0);
+    for my $mp (@{$division->{mpname}}) {
+        my $name = $mp->{content};
+        my $perid = $mp->{perid};
+        my $vote = $mp->{vote};
+        if ('PRESIDENT' eq $perid || 'SECRETARY' eq $perid) {
+            # FIXME figure out how to look up these
+        } else {
+            $dbh->do("INSERT INTO vote (vote, division_id, person_id) SELECT ?, ?, person_id from person_ref where type = 'stortinget-perid' and ref = ?",
+                     {}, $vote, $division_id, $perid) or
+                         die "Unable to insert vote";
+        }
+    }
+    $division_id++;
+}
+$dbh->do('END TRANSACTION');
+
+db_disconnect();
+
+sub db_connect {
+    my $dbfile = "$FindBin::Bin/prototype.sqlite";
+    my $dbh = DBI->connect("dbi:SQLite:dbname=$dbfile", "", "");
+}
+
+sub db_disconnect {
+    if ($dbh) {
+        $dbh->disconnect or warn $dbh->errstr;
+        $dbh = undef;
+    }
+}

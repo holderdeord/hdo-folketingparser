@@ -1,0 +1,53 @@
+#!/usr/bin/perl
+
+use warnings;
+use strict;
+
+use CGI;
+use DBI;
+use FindBin;
+use XML::Simple;
+use Data::Dumper;
+
+use open OUT => ':utf8';
+
+use vars qw($dbh);
+
+my $xmlfilename = shift;
+my $personinfo = XMLin($xmlfilename, KeyAttr => []);
+
+#print Dumper($personinfo);
+#exit 0;
+
+my $dbh = db_connect();
+
+$dbh->do('BEGIN TRANSACTION');
+
+my $person_id = ($dbh->selectrow_array('select max(id)+1 from person'))[0]
+    || 1;
+for my $person (@{$personinfo->{person}}) {
+    my $first_name = $person->{first_name};
+    my $last_name = $person->{last_name};
+    my $perid = $person->{'stortinget-perid'};
+
+    $dbh->do("INSERT INTO person (id, first_name, last_name) VALUES (?, ?, ?)",
+             {}, $person_id, $first_name, $last_name) || die "Unable to add $first_name $last_name\n";
+    $dbh->do("INSERT INTO person_ref (person_id, type, ref) VALUES (?, ?, ?)",
+             {}, $person_id, 'stortinget-perid', $perid) || die "Unable to add ref for $first_name $last_name\n";
+    $person_id++;
+}
+$dbh->do('END TRANSACTION');
+
+db_disconnect();
+
+sub db_connect {
+    my $dbfile = "$FindBin::Bin/prototype.sqlite";
+    my $dbh = DBI->connect("dbi:SQLite:dbname=$dbfile", "", "");
+}
+
+sub db_disconnect {
+    if ($dbh) {
+        $dbh->disconnect or warn $dbh->errstr;
+        $dbh = undef;
+    }
+}

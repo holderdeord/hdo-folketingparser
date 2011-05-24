@@ -1,0 +1,110 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use XML::Simple;
+
+use open IN  => ":encoding(iso-8859-1)", OUT => ":utf8";
+use open ':std';
+
+my $votemap = {
+    'For' => 'yes',
+    'Mot' => 'no',
+    '---' => 'absent'
+};
+
+my $timestamp;
+my $kart;
+my $sak;
+my $description;
+my $fylke;
+
+my %member;
+
+my %entries = load_member_list();
+
+print "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
+print "<vote-list>\n";
+my $votefilename = shift;
+open(my $fh, '<', $votefilename) || die "Unable to read from $votefilename";
+while (<$fh>) {
+    chomp;
+    next if (/^\s*$/);
+    if (m/Voteringsresultat Storting/) {
+        $timestamp = <$fh>;
+        chomp $timestamp;
+        $timestamp =~ s/^\s+(\d{2})\.(\d{2})\.(\d{4}) (\d{2}:\d{2}:\d{2})\s*$/$3-$2-$1T$4/;
+    }
+    $kart = $1 if (m/Kart: (\d+)\s/);
+    if (m/Sak: (\d+)\s/) {
+        $sak = $1;
+        $description = <$fh>;
+        chomp $description;
+    }
+    $fylke = $1 if (m/^([^:]+)$/);
+    if (m/ +\d+\s+ : /) { # Single vote
+        my $line = $_;
+#        print "L: '$line'\n";
+        while ($line) {
+#            print "FF\n";
+            my $first = substr($line, 0, 60, '');
+#            print "F: '$first' '$line'\n";
+            my ($id, $name, $group, $vote) =
+                $first =~ m/^\s+(\d+)\s+: (\S+.*\S+)\s+(\S+)\s+(For|Mot|---)/;
+#            print "P: '$id' '$name' '$group' '$vote'\n";
+            my $xmlvote = $votemap->{$vote};
+
+            if (exists $member{$id}) {
+                unless ($name eq $member{$id}->{name}) {
+                    print STDERR "WARNING: Member $id of parlament changed name! '$name' != '$member{$id}->{name}'\n";
+                }
+            } else {
+                $member{$id} =
+                {
+                    name => $name,
+                    group => $group,
+                    fylke => $fylke,
+                };
+            }
+
+            if (1 == $id) {
+                print "  <division>\n";
+                print "    <when-voted>$timestamp</when-voted>\n";
+                print "    <map>$kart</map>\n";
+                print "    <id>$sak</id>\n";
+                print "    <description>$description</description>\n";
+            }
+            my $perid = $entries{$name};
+            print "    <mpname perid=\"$perid\" vote=\"$xmlvote\">$name</mpname>\n";
+        }
+    }
+    if (m/Enstemmig vedtatt/) {
+                print "  <division>\n";
+                print "    <when-voted>$timestamp</when-voted>\n";
+                print "    <map>$kart</map>\n";
+                print "    <id>$sak</id>\n";
+                print "    <description>$description</description>\n";
+                print "    <all-in-favor/>\n";
+    }
+
+    if (m/President: (For|Mot|---)\s+Sekret.r: (For|Mot|---)/) {
+        my $presidentvote = $votemap->{$1};
+        my $secretaryvote = $votemap->{$2};
+        print "    <mpname perid=\"PRESIDENT\" vote=\"$presidentvote\"/>\n";
+        print "    <mpname perid=\"SECRETARY\" vote=\"$secretaryvote\"/>\n";
+        print "  </division>\n";
+    }
+}
+close $fh;
+print "</vote-list>\n";
+
+sub load_member_list {
+    my $file = 'stortinget-persons-scraped.xml';
+    my $xmlparlament = XMLin($file, KeyAttr => []);
+    my %entries;
+    for my $person (@{$xmlparlament->{person}}) {
+        my $name = $person->{first_name} . ' ' . $person->{last_name};
+        $entries{$name} = $person->{'stortinget-perid'};
+    }
+    return %entries;
+}

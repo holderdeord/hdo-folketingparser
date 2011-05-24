@@ -1,0 +1,87 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use XML::Simple;
+use Text::CSV;
+use utf8;
+use open IN  => ":utf8", OUT => ":utf8";
+use open ':std';
+
+my $votemap = {
+    'For' => 'yes',
+    'Mot' => 'no',
+    '---' => 'absent'
+};
+
+my $timestamp;
+my $kart;
+my $sak;
+my $description;
+my $fylke;
+
+my %member;
+
+my %entries = load_member_list();
+
+my $votefilename = shift;
+open(my $fh, '<', $votefilename) || die "Unable to read from $votefilename";
+my $csv = Text::CSV->new({binary => 1});
+$csv->column_names($csv->getline($fh));
+my %persons;
+while (my $ref = $csv->getline_hr($fh)) {
+    my $name = $ref->{Navn};
+    my $perid = $entries{$name};
+    my $vote1 = $votemap->{$ref->{'Tilrådingens punkt A'}};
+    my $vote2 = $votemap->{$ref->{'Lovens overskrift og loven i sin helhet'}};
+    $persons{$name} = {
+        perid => $perid,
+        vote1 => $vote1,
+        vote2 => $vote2,
+    };
+}
+
+close $fh;
+print "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
+print "<vote-list>\n";
+print <<EOF;
+  <division>
+    <when-voted>2011-04-04T21:44:54</when-voted>
+    <map>?</map>
+    <id>1</id>
+    <description>Datalagringsdirektivet: Tilrådingens punkt A</description>
+EOF
+for my $name (sort keys %persons) {
+    my $perid = $persons{$name}->{perid};
+    my $vote = $persons{$name}->{vote1};
+    print "    <mpname perid=\"$perid\" vote=\"$vote\">$name</mpname>\n";
+}
+print "  </division>\n";
+
+print <<EOF;
+  <division>
+    <when-voted>2011-04-04T21:45:27</when-voted>
+    <map>?</map>
+    <id>2</id>
+    <description>Datalagringsdirektivet: Lovens overskrift og loven i sin helhet</description>
+EOF
+for my $name (sort keys %persons) {
+    my $perid = $persons{$name}->{perid};
+    my $vote = $persons{$name}->{vote2};
+    print STDERR "$name missing perid\n" unless $perid;
+    print "    <mpname perid=\"$perid\" vote=\"$vote\">$name</mpname>\n";
+}
+print "  </division>\n";
+
+print "</vote-list>\n";
+
+sub load_member_list {
+    my $file = 'stortinget-persons-scraped.xml';
+    my $xmlparlament = XMLin($file, KeyAttr => []);
+    my %entries;
+    for my $person (@{$xmlparlament->{person}}) {
+        my $name = $person->{first_name} . ' ' . $person->{last_name};
+        $entries{$name} = $person->{'stortinget-perid'};
+    }
+    return %entries;
+}
