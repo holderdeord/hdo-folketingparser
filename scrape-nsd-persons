@@ -51,7 +51,6 @@ for my $id (1 .. 20500) {
     if ($name) {
         print "<person polsys-person-id=\"$id\">\n";
         print "  <name>$name</name>\n";
-        print "  <polsys-url>$url</polsys-url>\n";
         map { print "  <period>$_</period>\n" } @periods;
         print "</person>\n\n";
     }
