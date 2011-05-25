@@ -49,10 +49,10 @@ sub print_html_footer {
         ' og ' .
         $q->a({href => 'http://www.theyworkforyou.com/'},
               'TheyWorkForYou') .
-        '.  Kontakt ' .
-        $q->a({href => 'http://www.hungry.com/~pere/'},
-              'Petter Reinholdtsen') .
-        ' hvis du vil bidra.'
+        '.  Basert på ' .
+        $q->a({href => 'https://gitorious.org/nuug/folketingparser'},
+              'snedig fri programvare') .
+        '.'
         ), "\n";
     print "</body>\n";
     print "</html>\n";
