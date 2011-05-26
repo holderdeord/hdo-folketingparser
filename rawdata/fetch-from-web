@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+
+URLPATH=www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representantfordeling/
+GET http://$URLPATH > ${URLPATH}index.html
