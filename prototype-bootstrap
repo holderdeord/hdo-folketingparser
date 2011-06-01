@@ -5,4 +5,5 @@ sqlite3 prototype.sqlite < prototype-schema.sql
 ./load-people-xml stortinget-persons-scraped.xml  
 ./load-vote-xml votering-2011-03-21.xml
 ./load-vote-xml votering-2011-04-04-dld.xml
+./load-vote-xml votering-2011-04-11.xml
 sqlite3 prototype.sqlite < prototype-data.sql

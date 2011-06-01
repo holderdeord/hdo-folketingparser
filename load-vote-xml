@@ -15,6 +15,7 @@ use vars qw($dbh);
 
 my $xmlfilename = shift;
 my $voteinfo = XMLin($xmlfilename, KeyAttr => []);
+#print Dumper($voteinfo);
 
 my $dbh = db_connect();
 
@@ -22,7 +23,9 @@ $dbh->do('BEGIN TRANSACTION');
 
 my $division_id = ($dbh->selectrow_array('select max(id)+1 from division'))[0]
     || 1;
-for my $division (@{$voteinfo->{division}}) {
+for my $division ('ARRAY' eq ref $voteinfo->{division} ?
+                  @{$voteinfo->{division}} :
+                  $voteinfo->{division}) {
     my $map = $division->{map};
     my $id = $division->{id};
     my $whenvoted = $division->{'when-voted'};
