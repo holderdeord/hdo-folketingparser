@@ -1,0 +1,29 @@
+#!/bin/sh
+
+fetch() {
+    url="$1"
+    file="$url"
+    case "$url" in
+	*/)
+	    file="${url}index.html"
+	    ;;
+	*/?*)
+	    file=$(echo "$url" | sed s%/?%/index.html?%)
+	    ;;
+	*)
+	    ;;
+    esac
+    GET "http://$url" > "$file"
+}
+
+current_sessions() {
+    grep id data.stortinget.no/sesjoner/index.html | cut -d'<' -f2|cut -d'>' -f2|sort -u
+}
+
+fetch data.stortinget.no/sesjoner/
+
+for id in $(current_sessions); do
+    fetch "data.stortinget.no/saker/?sesjonid=$id"
+    fetch "data.stortinget.no/partier/?sesjonid=$id"
+    echo got $id 
+done
