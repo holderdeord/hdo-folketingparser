@@ -20,6 +20,8 @@ current_sessions() {
     grep id data.stortinget.no/sesjoner/index.html | cut -d'<' -f2|cut -d'>' -f2|sort -u
 }
 
+fetch data.stortinget.no/
+fetch data.stortinget.no/dagensrepresentanter/
 fetch data.stortinget.no/sesjoner/
 
 for id in $(current_sessions); do
