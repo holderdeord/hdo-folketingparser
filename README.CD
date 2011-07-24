@@ -10,11 +10,16 @@ and OK10S1.R03 have the voting information for the 153th parlament day
 10 case 1. (FIXME: Not sure what the R03 part represent)
 
 The *.R* files contain a long line with the voters IDs, names and
-party.  The charset seem to be IBM PC Codepage 865.  The data set is
-actually two columns of names.  The first two bytes in the file (two
-spaces) should be skipped, and then a new line should be inserted
-every 70 bytes to see the columns.  When this splitting is done, the
-result will look like this:
+party.  The charset seem to be IBM PC Codepage 865 from 1990 to 1999
+(session 144, to and including day 12), and ISO-8859-1 after this
+time.
+
+The early data sets (at least session 135), consist of 4 columns.
+
+Some of the data set is actually two columns of names.  The first two
+bytes in the file (two spaces) should be skipped, and then a new line
+should be inserted every 70 bytes to see the columns.  When this
+splitting is done, the result will look like this:
 
 Aust-Agder                         Hordaland                          
    1: F. de Ruiter           A       49: O. Akselsen            A     
