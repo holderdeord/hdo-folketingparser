@@ -160,15 +160,14 @@ $| = 1;
 
 load_persons('stortinget-persons-scraped.xml');
 
-for my $basename ('OK10S1', 'SK112S10') {
+@ARGV = ('OK10S1', 'SK112S10') unless (@ARGV);
+
+for my $basename ( @ARGV ) {
     my $votersfilename;
     my $votefilename;
     my $session;
 
     my ($map, $id) = $basename =~ m/..(\d+)S(\d+)/;
-
-    my $fakeyear = 1855 + $session;
-    my $date = "$fakeyear-?-$map";
 
     my @files = <$basename.???>;
     print STDERR "F:",  join(" ", @files),"\n";
@@ -179,6 +178,9 @@ for my $basename ('OK10S1', 'SK112S10') {
             $votefilename = $filename;
         }
     }
+
+    my $fakeyear = 1855 + $session;
+    my $date = "$fakeyear-?-$map";
 
     # Some files use Codepage 865, while others use ISO-8859-1.
     # The change happened session 144, between day 12 and day 17.
@@ -194,7 +196,7 @@ for my $basename ('OK10S1', 'SK112S10') {
 
     my @votelist = load_votes($votefilename);
 
-    open(my $fh, ">:encoding(utf-8)", "$basename.xml") ||
+    open(my $fh, ">:encoding(utf-8)", "votering-$session-$basename.xml") ||
         die "Unable to write to $basename.xml";
 
     print $fh <<EOF;
