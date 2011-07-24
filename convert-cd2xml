@@ -1,0 +1,255 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use utf8;
+
+use open ':locale';
+
+use XML::Simple;
+use Data::Dumper;
+
+my %personmap;
+
+sub load_votes {
+    my ($filename) = @_;
+    open(my $fh, "<", $filename) || die "Unable to read $filename";
+    my $line = <$fh>;
+    close($line);
+    my @votelist;
+    while ($line =~ m/^\d/) {
+        my ($time, $votestr, $rest) =
+            $line =~ m/^(\d{2}:\d{2}:\d{2})([MF-]+)(\d+.+)?$/;
+        my @votes = split(//, $votestr);
+        push @votelist, [$time, @votes];
+        $line = $rest || '';
+#        print "REST: '$rest'\n";
+    }
+    return @votelist;
+}
+
+sub load_voters_row {
+    my ($entry) = @_;
+    my ($region, $id, $name, $party);
+    if (' ' eq substr($entry, 0, 1)) {
+        ($id) = $entry =~ m/^\s+(\d+):/;
+        if ($id) {
+            $name = substr($entry, 6, 23);
+            $party = substr($entry, 29, 6);
+            $name =~ s/\s+$//;
+            $party =~ s/\s+$//;
+        }
+    } else {
+        $region = $entry;
+        $region =~ s/\s+$//;
+    }
+    return ($region, $id, $name, $party);
+}
+
+sub load_voter {
+    my ($arrayref, $region, $id, $name, $party) = @_;
+    print STDERR "N: $name\n" unless defined $id;
+    $arrayref->[$id] = {
+        region => $region,
+        name => $name,
+        party => $party,
+    };
+}
+
+sub load_voters {
+    my ($filename, $encoding) = @_;
+
+    my @voter;
+
+    open(my $fh, "<:encoding($encoding)", $filename) || die "Unable to read $filename";
+    my $line;
+    read $fh, $line, 2;
+    my ($region1, $region2);
+    while (read $fh, $line, 70) {
+        my $row1 = substr $line, 0, 35;
+        my $row2 = substr $line, 35, 35;
+
+        my ($region, $id, $name, $party) = load_voters_row($row1);
+        $region1 = $region if ($region);
+#        print STDERR "$id $name\n" if $id;
+        load_voter(\@voter, $region1, $id, $name, $party) if $id;
+
+        ($region, $id, $name, $party) = load_voters_row($row2);
+        $region2 = $region if ($region);
+#        print STDERR "$id $name\n" if $id;
+        load_voter(\@voter, $region2, $id, $name, $party) if $id;
+
+    }
+    close($fh);
+    return @voter;
+}
+
+sub load_persons {
+    my ($filename) = @_;
+    my $personinfo = XMLin($filename, KeyAttr => []);
+    for my $person (@{$personinfo->{person}}) {
+        my $first_name = $person->{first_name};
+        my $last_name = $person->{last_name};
+        my $perid = $person->{'stortinget-perid'};
+
+        my @list = ($last_name);
+        my %variants;
+        my $initials = $first_name;
+        while ($initials =~ s/([A-ZÆØÅ])[\w]+(\s?)/$1.$2/) {
+            my $str = "$initials $last_name";
+            unless (exists $variants{$str}) {
+                $variants{$str} = 1;
+                push @list, $str;
+            }
+        }
+        for my $str ( @list ) {
+#            print STDERR "Mapping '$str'\n";
+            my $duplicate;
+            if (exists $personmap{$str}) {
+                warn "error: Duplicate name string '$str'";
+                $duplicate = 1;
+            } else {
+                $duplicate = 0;
+            }
+            $personmap{$str} =
+            {
+                first_name => $first_name,
+                last_name => $last_name,
+                perid => $perid,
+                duplicate => $duplicate,
+            };
+        }
+    }
+}
+
+sub find_person_from_shortname {
+    my ($shortname) = @_;
+    $shortname =~ s/([A-Z]\.)([A-Z])/$1 $2/g;
+
+    my ($last_name) = $shortname =~ m/ (\S+)$/;
+    my $first_name;
+    my $perid;
+    my $match = $last_name;
+    if (defined $shortname && exists $personmap{$shortname}) {
+        $match = $shortname;
+    } elsif (defined $last_name && exists $personmap{$last_name}) {
+        $match = $last_name;
+    } else {
+        ($last_name) = $shortname =~ m/ (\S+ \S+)$/;
+        if (defined $last_name && exists $personmap{$last_name}) {
+            $match = $last_name;
+        } else {
+            warn "error: Unable to find ID for '$shortname'";
+            return undef;
+        }
+    }
+
+    $perid = $personmap{$match}->{perid};
+    $first_name = $personmap{$match}->{first_name};
+    $last_name = $personmap{$match}->{last_name};
+
+    if ($personmap{$match}->{duplicate}) {
+        warn "error: Several persons with last name $last_name (from $shortname), need better matching logic.";
+        return undef;
+    }
+
+    return ($perid, $first_name, $last_name);
+}
+
+$| = 1;
+
+load_persons('stortinget-persons-scraped.xml');
+
+for my $basename ('OK10S1', 'SK112S10') {
+    my $votersfilename;
+    my $votefilename;
+    my $session;
+
+    my ($map, $id) = $basename =~ m/..(\d+)S(\d+)/;
+
+    my $fakeyear = 1855 + $session;
+    my $date = "$fakeyear-?-$map";
+
+    my @files = <$basename.???>;
+    print STDERR "F:",  join(" ", @files),"\n";
+    for my $filename (@files) {
+        $votersfilename = $filename if ($filename =~ m/\.R\d*$/);
+        if ($filename =~ m/\.(\d{3})$/) {
+            $session = $1;
+            $votefilename = $filename;
+        }
+    }
+
+    # Some files use Codepage 865, while others use ISO-8859-1.
+    # The change happened session 144, between day 12 and day 17.
+    my $fileinfo = `file $votersfilename`;
+    my $charset;
+    if ($fileinfo =~ m/Non-ISO extended-ASCII/) {
+        $charset = 'CP865';
+    } else {
+        $charset = 'iso8859-1';
+    }
+
+    my @voter = load_voters($votersfilename, $charset);
+
+    my @votelist = load_votes($votefilename);
+
+    open(my $fh, ">:encoding(utf-8)", "$basename.xml") ||
+        die "Unable to write to $basename.xml";
+
+    print $fh <<EOF;
+<?xml version="1.0" encoding="UTF-8"?>
+<vote-list>
+EOF
+
+    for my $votesref (@votelist) {
+        my ($time, @votes) = @{$votesref};
+
+        print $fh <<EOF;
+  <division>
+    <session>$session</session>
+    <when-voted>${date}T$time</when-voted>
+    <map>$map</map>
+    <id>$id</id>
+    <description>?</description>
+EOF
+
+          for my $count (0 .. scalar @votes - 1) {
+              my $id = $count + 1;
+              my $shortname = $voter[$id]->{name};
+              my $party = $voter[$id]->{party};
+              my $partyname = $party;
+              if (defined $party) {
+                  $partyname = {
+                      'A'   => 'Arbeiderpartiet',
+                      'FRP' => 'Fremskrittspartiet',
+                      'H'   => 'Høyre',
+                      'SP'  => 'Senterpartiet',
+                      'SV'  => 'Sosialistisk Venstreparti',
+                      'V'   => 'Venstre',
+                      'KRF' => 'Kristelig Folkeparti',
+#Kystpartiet
+#Norges Kommunistiske Parti
+#Rød Valgallianse
+#Sosialistisk Folkeparti
+#Sosialistisk Valgforbund
+                  }->{$party};
+              } else {
+                  warn "error: Missing party definition for '$party'\n" if $party;
+              }
+              next unless defined $shortname;
+
+              my ($perid, $first_name, $last_name) =
+                  find_person_from_shortname($shortname);
+              my $vote = {F => 'yes', M=>'no', '-'=>'absent'}->{$votes[$count]};
+              if (defined $perid) {
+                  print $fh "    <mpname seatid=\"$id\" perid=\"$perid\" vote=\"$vote\" party=\"$partyname\">$first_name $last_name</mpname>\n";
+              } else {
+                  print $fh "    <mpname seatid=\"$id\" vote=\"$vote\" party=\"$partyname\">$shortname</mpname>\n";
+              }
+        }
+        print $fh "  </division>\n";
+    }
+    print $fh "</vote-list>\n";
+    close $fh;
+}
