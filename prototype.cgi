@@ -101,7 +101,7 @@ sub show_division {
                    'WHERE division.id = vote.division_id '.
                    '  AND person.id = vote.person_id '.
                    '  AND division_id = ? '.
-                   'ORDER BY vote DESC, last_name, first_name', $division_id);
+                   'ORDER BY vote DESC, party, last_name, first_name', $division_id);
 
     print $q->start_table({border=>1, cellpadding=>2, cellspacing=>0}), "\n";
     print $q->Tr({}, $q->th({}, ['Hvem', 'Parti', 'Stemme'])), "\n";
