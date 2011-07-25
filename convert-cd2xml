@@ -204,7 +204,7 @@ for my $basename ( keys %basenames ) {
 
     my ($map, $id) = $basename =~ m/..(\d+)S([\d ()]+)$/;
 
-    my ($session) = $votersfilename =~ m/\.(\d{3})$/;
+    my ($session) = $votefilename =~ m/\.(\d{3})$/;
 
     my $fakeyear = 1855 + $session;
     my $date = "$fakeyear-?-$map";
