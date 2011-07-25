@@ -152,6 +152,19 @@ sub show_person {
     }
 
     print $q->h2('Voteringer'), "\n";
+
+    my $count = select_all('SELECT COUNT(*) as count FROM vote WHERE person_id = ?',
+                           $person_id);
+    my $absent = select_all('SELECT COUNT(*) as count FROM vote '.
+                            '  WHERE person_id = ? '.
+                            '        AND vote = "absent"',
+                            $person_id,);
+    if ($count->[0]->{count}) {
+        print $q->p(sprintf('Fraværende på %d av %d (%.0f%%) av voteringene.',
+                            $absent->[0]->{count},$count->[0]->{count},
+                            100*$absent->[0]->{count}/$count->[0]->{count}));
+    }
+
     my $votes =
         select_all('SELECT id, description, when_divided, vote '.
                    'FROM division, vote '.
@@ -193,7 +206,9 @@ sub show_frontpage {
 
     print($q->h2('Representanter'), "\n");
 
-    my $people = select_all('SELECT id, first_name, last_name FROM person WHERE id in (select person_id from vote) ORDER BY last_name, first_name');
+    my $people = select_all('SELECT id, first_name, last_name FROM person '.
+                            'WHERE id in (SELECT person_id FROM vote) '.
+                            'ORDER BY last_name, first_name');
     print($q->ul(
               map { ($q->li($q->a({href => $q->url(-path_info=>1) .
                                        '?person_id=' . $_->{id}},
