@@ -85,20 +85,32 @@ sub show_division {
                         $division->[0]->{yes_count},
                         $division->[0]->{no_count})), "\n");
 
+    my $votecount =
+        select_all('SELECT vote, count(*) AS count FROM vote '.
+                   'WHERE division_id = ? '.
+                   'ORDER BY count DESC', $division_id);
+    my %count;
+    map { $count{$_->{vote}} = $_->{count}; } @{$votecount};
+    printf($q->p(
+               sprintf('Databasen inneholder %d for, %d mot og %d fraværende.',
+                       $count{'yes'}, $count{'no'}, $count{'absent'})));
+
     my $votes =
-        select_all('SELECT person_id, vote, first_name, last_name '.
+        select_all('SELECT person_id, vote, first_name, last_name, party '.
                    'FROM division, vote, person '.
                    'WHERE division.id = vote.division_id '.
                    '  AND person.id = vote.person_id '.
                    '  AND division_id = ? '.
                    'ORDER BY vote DESC, last_name, first_name', $division_id);
+
     print $q->start_table({border=>1, cellpadding=>2, cellspacing=>0}), "\n";
-    print $q->Tr({}, $q->th({}, ['Hvem', 'Stemme'])), "\n";
+    print $q->Tr({}, $q->th({}, ['Hvem', 'Parti', 'Stemme'])), "\n";
     map {
         print $q->Tr({}, $q->td({}, [ $q->a({href => $q->url(-path_info=>1) .
                                                  '?person_id=' . $_->{person_id}},
                                             $_->{first_name} . ' ' .
                                             $_->{last_name} ),
+                                      $_->{party},
                                       $_->{vote} ])), "\n";
     } @{$votes};
     print $q->end_table(), "\n";

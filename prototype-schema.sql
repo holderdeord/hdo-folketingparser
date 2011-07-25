@@ -68,5 +68,6 @@ INSERT INTO vote_types values ('absent');
 CREATE TABLE vote (
   division_id int NOT NULL REFERENCES division(id),
   person_id int NOT NULL REFERENCES person(id),
-  vote NOT NULL REFERENCES vote_types(vote)
+  vote NOT NULL REFERENCES vote_types(vote),
+  party varchar(100)
 );
