@@ -160,7 +160,7 @@ sub show_person {
                             '        AND vote = "absent"',
                             $person_id,);
     if ($count->[0]->{count}) {
-        print $q->p(sprintf('Fraværende på %d av %d (%.0f%%) av voteringene.',
+        print $q->p(sprintf('Fraværende på %d av %d (%.0f%%) voteringer.',
                             $absent->[0]->{count},$count->[0]->{count},
                             100*$absent->[0]->{count}/$count->[0]->{count}));
     }
