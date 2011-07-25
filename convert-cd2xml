@@ -57,11 +57,21 @@ sub load_voter {
 }
 
 sub load_voters {
-    my ($filename, $encoding) = @_;
+    my ($filename) = @_;
+
+    # Some files use Codepage 865, while others use ISO-8859-1.
+    # The change happened session 144, between day 12 and day 17.
+    my $fileinfo = `file $votersfilename`;
+    my $charset;
+    if ($fileinfo =~ m/Non-ISO extended-ASCII/) {
+        $charset = 'CP865';
+    } else {
+        $charset = 'iso8859-1';
+    }
 
     my @voter;
 
-    open(my $fh, "<:encoding($encoding)", $filename) || die "Unable to read $filename";
+    open(my $fh, "<:encoding($charset)", $filename) || die "Unable to read $filename";
     my $line;
     read $fh, $line, 2;
     my ($region1, $region2);
@@ -182,17 +192,7 @@ for my $basename ( @ARGV ) {
     my $fakeyear = 1855 + $session;
     my $date = "$fakeyear-?-$map";
 
-    # Some files use Codepage 865, while others use ISO-8859-1.
-    # The change happened session 144, between day 12 and day 17.
-    my $fileinfo = `file $votersfilename`;
-    my $charset;
-    if ($fileinfo =~ m/Non-ISO extended-ASCII/) {
-        $charset = 'CP865';
-    } else {
-        $charset = 'iso8859-1';
-    }
-
-    my @voter = load_voters($votersfilename, $charset);
+    my @voter = load_voters($votersfilename);
 
     my @votelist = load_votes($votefilename);
 
