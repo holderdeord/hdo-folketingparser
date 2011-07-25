@@ -87,7 +87,7 @@ sub show_division {
 
     my $votecount =
         select_all('SELECT vote, count(*) AS count FROM vote '.
-                   'WHERE division_id = ? '.
+                   'WHERE division_id = ? GROUP BY vote'.
                    'ORDER BY count DESC', $division_id);
     my %count;
     map { $count{$_->{vote}} = $_->{count}; } @{$votecount};
