@@ -171,25 +171,40 @@ $| = 1;
 
 load_persons('stortinget-persons-scraped.xml');
 
-@ARGV = ('OK10S1', 'SK112S10') unless (@ARGV);
-
-for my $basename ( @ARGV ) {
-    my $votersfilename;
-    my $votefilename;
-    my $session;
-
-    my ($map, $id) = $basename =~ m/..(\d+)S([\d ()]+)/;
-
-    my @files = <$basename.???>;
-    print STDERR "F:",  join(" ", @files),"\n";
-    for my $filename (@files) {
-        $votersfilename = $filename if ($filename =~ m/\.R\d*$/);
-        if ($filename =~ m/\.(\d{3})$/) {
-            $session = $1;
-            $votefilename = $filename;
+my @votefiles;
+@ARGV = ('.') unless (@ARGV);
+my %basenames;
+for my $dir (@ARGV) {
+    opendir(DIR, $dir) || die "opendir $dir failed";
+    for my $filename (readdir DIR) {
+        print STDERR "F: $filename\n";
+        if (-f "$dir/$filename") {
+            if ($filename =~ m/..\d+S\d+.*\.\d{3}$/) {
+                print STDERR "V: $filename\n";
+                my ($basename) = $filename =~ m/^(.+)\.\d+$/;
+                $basenames{$basename}{votes} = "$dir/$filename";
+            }
+            if ($filename =~ m/..\d+S\d+.*\.R\d*$/) {
+                print STDERR "VV: $filename\n";
+                my ($basename) = $filename =~ m/^(.+)\.R\d*$/;
+                $basenames{$basename}{voters} = "$dir/$filename";
+            }
         }
     }
-    my $filelist = join(", ", @files);
+    closedir(DIR);
+}
+print Dumper(%basenames);
+
+for my $basename ( keys %basenames ) {
+    print "Base: $basename\n";
+    my $votersfilename = $basenames{$basename}{voters};
+    my $votefilename = $basenames{$basename}{votes};
+    my $filelist = "'$votersfilename' '$votefilename'";
+    print "Filelist: $filelist\n";
+
+    my ($map, $id) = $basename =~ m/..(\d+)S([\d ()]+)$/;
+
+    my ($session) = $votersfilename =~ m/\.(\d{3})$/;
 
     my $fakeyear = 1855 + $session;
     my $date = "$fakeyear-?-$map";
