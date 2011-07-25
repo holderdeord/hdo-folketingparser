@@ -188,6 +188,7 @@ for my $basename ( @ARGV ) {
             $votefilename = $filename;
         }
     }
+    $filelist = join(", ", @files);
 
     my $fakeyear = 1855 + $session;
     my $date = "$fakeyear-?-$map";
@@ -213,7 +214,7 @@ EOF
     <when-voted>${date}T$time</when-voted>
     <map>$map</map>
     <id>$id</id>
-    <description>?</description>
+    <description>Files: $filelist</description>
 EOF
 
           for my $count (0 .. scalar @votes - 1) {
