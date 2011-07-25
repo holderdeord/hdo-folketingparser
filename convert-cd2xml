@@ -61,7 +61,8 @@ sub load_voters {
 
     # Some files use Codepage 865, while others use ISO-8859-1.
     # The change happened session 144, between day 12 and day 17.
-    my $fileinfo = `file $votersfilename`;
+    print STDERR "Loading $filename";
+    my $fileinfo = `file "$filename"`;
     my $charset;
     if ($fileinfo =~ m/Non-ISO extended-ASCII/) {
         $charset = 'CP865';
@@ -177,7 +178,7 @@ for my $basename ( @ARGV ) {
     my $votefilename;
     my $session;
 
-    my ($map, $id) = $basename =~ m/..(\d+)S(\d+)/;
+    my ($map, $id) = $basename =~ m/..(\d+)S([\d ()]+)/;
 
     my @files = <$basename.???>;
     print STDERR "F:",  join(" ", @files),"\n";
@@ -188,7 +189,7 @@ for my $basename ( @ARGV ) {
             $votefilename = $filename;
         }
     }
-    $filelist = join(", ", @files);
+    my $filelist = join(", ", @files);
 
     my $fakeyear = 1855 + $session;
     my $date = "$fakeyear-?-$map";
