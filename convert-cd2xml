@@ -207,7 +207,7 @@ for my $basename ( keys %basenames ) {
     my ($session) = $votefilename =~ m/\.(\d{3})$/;
 
     my $fakeyear = 1855 + $session;
-    my $date = "$fakeyear-?-$map";
+    my $date = sprintf("%4d-?-%03d", $fakeyear, $map);
 
     my @voter = load_voters($votersfilename);
 
