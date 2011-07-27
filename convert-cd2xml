@@ -166,9 +166,27 @@ sub find_person_from_shortname {
     my ($shortname, $session, $partyname) = @_;
     $shortname =~ s/([A-Z]\.)([A-Z])/$1 $2/g;
 
+    # Convert S. LAST to S. Last
+    $shortname =~ s/(\w+)/\u\L$1/g;
+
     # Changed name since then
-    $shortname = 'K. Bekkemellem'
-        if 'K. Bekkemellem Orheim' eq $shortname;
+    my %renames = (
+        'K. Bekkemellem Orheim' => 'K. Bekkemellem',
+        'S. Mandt-Bartholsen' => 'S. Mandt',
+        'H. Magnusson Lydvo' => 'H. Magnusson',
+        'S. Brenden Klemetrud' => 'S. Brenden',
+        'S. Brenden Klemetrud' => 'S. Brenden',
+        'L. C. Hofstad' => 'L. C. Hofstad Helleland',
+        'S. Kristoffersen Kosm' => 'S. Kristoffersen Kosmo', # Typo?
+        'M. G. Neergaard Aksne' => 'M. G. Neergaard Aksnes', # Typo?
+        'A. Enger Lahnstein' => 'A. Enger',
+        'K. E. Schjøtt-Pederse' => 'K. E. Schjøtt-Pedersen', # Typo?
+        'T. Riis Johansen' => 'T. Riis-Johansen',
+        'S. Skaare Kleiven' => 'S. Skaare',
+        'T. Nordli' => 'T. Nordli Ødegård',
+        'F. De Ruiter' => 'F. de Ruiter',
+        );
+    $shortname = $renames{$shortname} if exists $renames{$shortname};
 
     my ($last_name) = $shortname =~ m/ (\S+)$/;
     my $first_name;
@@ -252,7 +270,7 @@ for my $dir (@ARGV) {
     }
     closedir(DIR);
 }
-print Dumper(%basenames);
+#print Dumper(%basenames);
 
 for my $basename ( keys %basenames ) {
     print "Base: $basename\n";
@@ -301,11 +319,13 @@ EOF
                   $partyname = {
                       'A'   => 'Arbeiderpartiet',
                       'FRP' => 'Fremskrittspartiet',
+                      'UAH' => 'Fremskrittspartiet', # Always?
                       'H'   => 'Høyre',
                       'SP'  => 'Senterpartiet',
                       'SV'  => 'Sosialistisk Venstreparti',
                       'V'   => 'Venstre',
                       'KRF' => 'Kristelig Folkeparti',
+                      'TF'  => 'Tverrpolitisk Folkevalgte (Kystpartiet)',
 #Kystpartiet
 #Norges Kommunistiske Parti
 #Rød Valgallianse
