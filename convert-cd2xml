@@ -9,6 +9,32 @@ use open ':locale';
 use XML::Simple;
 use Data::Dumper;
 
+my %sessionmap = (
+    135 => '1989-1993',
+    136 => '1989-1993',
+    137 => '1989-1993',
+
+    138 => '1993-1997',
+    139 => '1993-1997',
+    140 => '1993-1997',
+    141 => '1993-1997',
+
+    142 => '1997-2001',
+    143 => '1997-2001',
+    144 => '1997-2001',
+    145 => '1997-2001',
+
+    146 => '2001-2005',
+    147 => '2001-2005',
+    148 => '2001-2005',
+    149 => '2001-2005',
+
+    150 => '2005-2009',
+    151 => '2005-2009',
+    152 => '2005-2009',
+    153 => '2005-2009',
+    );
+
 my %personmap;
 
 sub load_votes {
@@ -99,8 +125,10 @@ sub load_persons {
     my ($filename) = @_;
     my $personinfo = XMLin($filename, KeyAttr => []);
     for my $person (@{$personinfo->{person}}) {
+#        print Dumper($person);
         my $first_name = $person->{first_name};
         my $last_name = $person->{last_name};
+        my $period = $person->{period};
         my $perid = $person->{'stortinget-perid'};
 
         my @list = ($last_name);
@@ -118,7 +146,7 @@ sub load_persons {
             my $duplicate;
             if (exists $personmap{$str}) {
                 warn "error: Duplicate name string '$str'";
-                $duplicate = 1;
+                $duplicate = $personmap{$str};
             } else {
                 $duplicate = 0;
             }
@@ -128,14 +156,19 @@ sub load_persons {
                 last_name => $last_name,
                 perid => $perid,
                 duplicate => $duplicate,
+                period => $period,
             };
         }
     }
 }
 
 sub find_person_from_shortname {
-    my ($shortname) = @_;
+    my ($shortname, $session, $partyname) = @_;
     $shortname =~ s/([A-Z]\.)([A-Z])/$1 $2/g;
+
+    # Changed name since then
+    $shortname = 'K. Bekkemellem'
+        if 'K. Bekkemellem Orheim' eq $shortname;
 
     my ($last_name) = $shortname =~ m/ (\S+)$/;
     my $first_name;
@@ -160,6 +193,32 @@ sub find_person_from_shortname {
     $last_name = $personmap{$match}->{last_name};
 
     if ($personmap{$match}->{duplicate}) {
+        my $person = $personmap{$match};
+        while ($person) {
+            if ('ARRAY' eq ref $person->{period}) {
+                for my $period (@{$person->{period}}) {
+                    if ($partyname eq $period->{party} &&
+                        $sessionmap{$session} eq $period->{content}) {
+                        $perid = $person->{perid};
+                        $first_name = $person->{first_name};
+                        $last_name = $person->{last_name};
+                        return ($perid, $first_name, $last_name);
+
+                    }
+                }
+            } else {
+                my $period = $person->{period};
+                if ($partyname eq $period->{party} &&
+                    $sessionmap{$session} eq $period->{content}) {
+                    $perid = $person->{perid};
+                    $first_name = $person->{first_name};
+                    $last_name = $person->{last_name};
+                    return ($perid, $first_name, $last_name);
+
+                }
+            }
+            $person = $person->{duplicate};
+        }
         warn "error: Several persons with last name $last_name (from $shortname), need better matching logic.";
         return undef;
     }
@@ -259,7 +318,7 @@ EOF
               next unless defined $shortname;
 
               my ($perid, $first_name, $last_name) =
-                  find_person_from_shortname($shortname);
+                  find_person_from_shortname($shortname, $session, $partyname);
               my $vote = {F => 'yes', M=>'no', '-'=>'absent'}->{$votes[$count]};
               if (defined $perid) {
                   print $fh "    <mpname seatid=\"$id\" perid=\"$perid\" vote=\"$vote\" party=\"$partyname\">$first_name $last_name</mpname>\n";
