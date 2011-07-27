@@ -87,7 +87,7 @@ sub load_voters {
 
     # Some files use Codepage 865, while others use ISO-8859-1.
     # The change happened session 144, between day 12 and day 17.
-    print STDERR "Loading $filename";
+    print STDERR "Loading $filename\n";
     my $fileinfo = `file "$filename"`;
     my $charset;
     if ($fileinfo =~ m/Non-ISO extended-ASCII/) {
@@ -171,6 +171,7 @@ sub find_person_from_shortname {
 
     # Changed name since then
     my %renames = (
+        'K. Bekkemellom Orheim' => 'K. Bekkemellem', # Typo?
         'K. Bekkemellem Orheim' => 'K. Bekkemellem',
         'S. Mandt-Bartholsen' => 'S. Mandt',
         'H. Magnusson Lydvo' => 'H. Magnusson',
@@ -276,8 +277,12 @@ for my $basename ( keys %basenames ) {
     print "Base: $basename\n";
     my $votersfilename = $basenames{$basename}{voters};
     my $votefilename = $basenames{$basename}{votes};
+    unless ( $votersfilename && $votefilename) {
+        warn "Unable to find both viltes for basename $basename";
+        next;
+    }
     my $filelist = "'$votersfilename' '$votefilename'";
-    print "Filelist: $filelist\n";
+    print STDERR "Filelist: $filelist\n";
 
     my ($map, $id) = $basename =~ m/..(\d+)S([\d ()]+)$/;
 
@@ -320,6 +325,7 @@ EOF
                       'A'   => 'Arbeiderpartiet',
                       'FRP' => 'Fremskrittspartiet',
                       'UAH' => 'Fremskrittspartiet', # Always?
+                      'UAV' => 'Fremskrittspartiet', # Always?
                       'H'   => 'Høyre',
                       'SP'  => 'Senterpartiet',
                       'SV'  => 'Sosialistisk Venstreparti',
