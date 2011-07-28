@@ -9,6 +9,8 @@ use open ':locale';
 use XML::Simple;
 use Data::Dumper;
 
+my %notfound;
+
 my %sessionmap = (
     135 => '1989-1993',
     136 => '1989-1993',
@@ -87,7 +89,7 @@ sub load_voters {
 
     # Some files use Codepage 865, while others use ISO-8859-1.
     # The change happened session 144, between day 12 and day 17.
-    print STDERR "Loading $filename\n";
+#    print STDERR "Loading $filename\n";
     my $fileinfo = `file "$filename"`;
     my $charset;
     if ($fileinfo =~ m/Non-ISO extended-ASCII/) {
@@ -172,32 +174,34 @@ sub find_person_from_shortname {
     # Changed name since then
     my %renames = (
         'A. Aune' => 'A. J. Aune',
-        'A. Bjørnflaten' => 'Anne Marit Bjørnflaten',
+        'A. Bjørnflaten' => 'A. M. Bjørnflaten',
         'A. Enger Lahnstein' => 'A. Enger',
-        'A. Samuelsen' => 'Alf Ivar Samuelsen',
+        'A. Samuelsen' => 'A. I. Samuelsen',
         'B. Brørby Larsen' => 'Berit Brørby',
         'F. De Ruiter' => 'F. de Ruiter',
         'F. S. Hultgren' => 'F. S. Hultgreen',
+        'H. Lydvo', 'H. Magnusson',
         'H. Magnusson Lydvo' => 'H. Magnusson',
         'I. Dag Steen' => 'Inger Dag',
-        'J. Fredriksen' => 'Jan-Henrik Fredriksen',
-        'J. Gåsvatn' => 'Jon Jæger Gåsvatn',
+        'J. Fredriksen' => 'J.-H. Fredriksen',
+        'J. Gåsvatn' => 'J. J. Gåsvatn',
         'K. Bekkemellem Orheim' => 'K. Bekkemellem',
         'K. Bekkemellom Orheim' => 'K. Bekkemellem', # Typo?
         'K. Bondevik' => 'Kjell Magne Bondevik', # Typo, missing middle name.  Only safe for sessions 135-153.
         'K. E. Schjøtt-Pederse' => 'K. E. Schjøtt-Pedersen', # Typo?
         'L. C. Hofstad' => 'L. C. Hofstad Helleland',
-        'L. Hofstad' => 'Linda C. Hofstad Hellelannd',
+        'L. Hofstad'    => 'L. C. Hofstad Helleland',
         'M. G. Neergaard Aksne' => 'M. G. Neergaard Aksnes', # Typo?
+        'P. Henriksen' => 'P. R. Henriksen',
         'R. Kleppe' => 'Ruth Kleppe Aakvaag',
-        'S. Brenden Klemetrud' => 'S. Brenden',
         'S. Brenden Klemetrud' => 'S. Brenden',
         'S. Kristoffersen Kosm' => 'S. Kristoffersen Kosmo', # Typo?
         'S. Mandt-Bartholsen' => 'S. Mandt',
         'S. Skaare Kleiven' => 'S. Skaare',
         'S. Torsvik    X' => 'Solveig Torsvik', # No idea why the X is there
-        'T. Aasland Houg' => 'Tora Aasland',
+        'T. Aasland Houg' => 'T. Aasland',
         'T. Kalstø Storø' => 'Torhild Kalstø',
+        'T. Knutsen' => 'T. K. Knutsen',
         'T. Nordli' => 'T. Nordli Ødegård',
         'T. Riis Johansen' => 'T. Riis-Johansen',
         );
@@ -216,7 +220,9 @@ sub find_person_from_shortname {
         if (defined $last_name && exists $personmap{$last_name}) {
             $match = $last_name;
         } else {
-            warn "error: Unable to find ID for '$shortname'";
+            warn "error: Unable to find ID for '$shortname'"
+                unless exists $notfound{$shortname};
+            $notfound{$shortname} = 1;
             return undef;
         }
     }
@@ -269,15 +275,15 @@ my %basenames;
 for my $dir (@ARGV) {
     opendir(DIR, $dir) || die "opendir $dir failed";
     for my $filename (readdir DIR) {
-        print STDERR "F: $filename\n";
+#        print STDERR "F: $filename\n";
         if (-f "$dir/$filename") {
             if ($filename =~ m/..\d+S\d+.*\.\d{3}$/) {
-                print STDERR "V: $filename\n";
+#                print STDERR "V: $filename\n";
                 my ($basename) = $filename =~ m/^(.+)\.\d+$/;
                 $basenames{$basename}{votes} = "$dir/$filename";
             }
             if ($filename =~ m/..\d+S\d+.*\.R\d*$/) {
-                print STDERR "VV: $filename\n";
+#                print STDERR "VV: $filename\n";
                 my ($basename) = $filename =~ m/^(.+)\.R\d*$/;
                 $basenames{$basename}{voters} = "$dir/$filename";
             }
@@ -287,8 +293,8 @@ for my $dir (@ARGV) {
 }
 #print Dumper(%basenames);
 
-for my $basename (sort keys %basenames ) {
-    print "Base: $basename\n";
+for my $basename (sort {$basenames{$a}{voters} cmp $basenames{$b}{voters} } keys %basenames ) {
+#    print "Base: $basename\n";
     my $votersfilename = $basenames{$basename}{voters};
     my $votefilename = $basenames{$basename}{votes};
     unless ( $votersfilename && $votefilename) {
@@ -346,12 +352,12 @@ EOF
                       'V'   => 'Venstre',
                       'KRF' => 'Kristelig Folkeparti',
                       'TF'  => 'Tverrpolitisk Folkevalgte (Kystpartiet)',
-#Kystpartiet
+                      'KP'  => 'Kystpartiet',
+                      'RV'  => 'Rød Valgallianse',
 #Norges Kommunistiske Parti
-#Rød Valgallianse
 #Sosialistisk Folkeparti
 #Sosialistisk Valgforbund
-                  }->{$party};
+                  }->{$party} || $party;
               } else {
                   warn "error: Missing party definition for '$party'\n" if $party;
               }
