@@ -187,7 +187,7 @@ sub find_person_from_shortname {
         'T. Nordli' => 'T. Nordli Ødegård',
         'F. De Ruiter' => 'F. de Ruiter',
         'F. S. Hultgren' => 'F. S. Hultgreen',
-        'Kjell Bondevik' => 'Kjell Magne Bondevik', # Typo, missing middle name
+        'K. Bondevik' => 'Kjell Magne Bondevik', # Typo, missing middle name.  Only safe for sessions 135-153.
         'B. Brørby Larsen' => 'Berit Brørby',
         'A. Aune' => 'A. J. Aune',
         'T. Aasland Houg' => 'Tora Aasland',
@@ -282,7 +282,7 @@ for my $dir (@ARGV) {
 }
 #print Dumper(%basenames);
 
-for my $basename ( keys %basenames ) {
+for my $basename (sort keys %basenames ) {
     print "Base: $basename\n";
     my $votersfilename = $basenames{$basename}{voters};
     my $votefilename = $basenames{$basename}{votes};
