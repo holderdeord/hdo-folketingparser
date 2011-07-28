@@ -171,30 +171,35 @@ sub find_person_from_shortname {
 
     # Changed name since then
     my %renames = (
-        'K. Bekkemellom Orheim' => 'K. Bekkemellem', # Typo?
-        'K. Bekkemellem Orheim' => 'K. Bekkemellem',
-        'S. Mandt-Bartholsen' => 'S. Mandt',
-        'H. Magnusson Lydvo' => 'H. Magnusson',
-        'S. Brenden Klemetrud' => 'S. Brenden',
-        'S. Brenden Klemetrud' => 'S. Brenden',
-        'L. C. Hofstad' => 'L. C. Hofstad Helleland',
-        'S. Kristoffersen Kosm' => 'S. Kristoffersen Kosmo', # Typo?
-        'M. G. Neergaard Aksne' => 'M. G. Neergaard Aksnes', # Typo?
+        'A. Aune' => 'A. J. Aune',
+        'A. Bjørnflaten' => 'Anne Marit Bjørnflaten',
         'A. Enger Lahnstein' => 'A. Enger',
-        'K. E. Schjøtt-Pederse' => 'K. E. Schjøtt-Pedersen', # Typo?
-        'T. Riis Johansen' => 'T. Riis-Johansen',
-        'S. Skaare Kleiven' => 'S. Skaare',
-        'T. Nordli' => 'T. Nordli Ødegård',
+        'A. Samuelsen' => 'Alf Ivar Samuelsen',
+        'B. Brørby Larsen' => 'Berit Brørby',
         'F. De Ruiter' => 'F. de Ruiter',
         'F. S. Hultgren' => 'F. S. Hultgreen',
-        'K. Bondevik' => 'Kjell Magne Bondevik', # Typo, missing middle name.  Only safe for sessions 135-153.
-        'B. Brørby Larsen' => 'Berit Brørby',
-        'A. Aune' => 'A. J. Aune',
-        'T. Aasland Houg' => 'Tora Aasland',
+        'H. Magnusson Lydvo' => 'H. Magnusson',
         'I. Dag Steen' => 'Inger Dag',
-        'T. Kalstø Storø' => 'Torhild Kalstø',
+        'J. Fredriksen' => 'Jan-Henrik Fredriksen',
+        'J. Gåsvatn' => 'Jon Jæger Gåsvatn',
+        'K. Bekkemellem Orheim' => 'K. Bekkemellem',
+        'K. Bekkemellom Orheim' => 'K. Bekkemellem', # Typo?
+        'K. Bondevik' => 'Kjell Magne Bondevik', # Typo, missing middle name.  Only safe for sessions 135-153.
+        'K. E. Schjøtt-Pederse' => 'K. E. Schjøtt-Pedersen', # Typo?
+        'L. C. Hofstad' => 'L. C. Hofstad Helleland',
+        'L. Hofstad' => 'Linda C. Hofstad Hellelannd',
+        'M. G. Neergaard Aksne' => 'M. G. Neergaard Aksnes', # Typo?
         'R. Kleppe' => 'Ruth Kleppe Aakvaag',
+        'S. Brenden Klemetrud' => 'S. Brenden',
+        'S. Brenden Klemetrud' => 'S. Brenden',
+        'S. Kristoffersen Kosm' => 'S. Kristoffersen Kosmo', # Typo?
+        'S. Mandt-Bartholsen' => 'S. Mandt',
+        'S. Skaare Kleiven' => 'S. Skaare',
         'S. Torsvik    X' => 'Solveig Torsvik', # No idea why the X is there
+        'T. Aasland Houg' => 'Tora Aasland',
+        'T. Kalstø Storø' => 'Torhild Kalstø',
+        'T. Nordli' => 'T. Nordli Ødegård',
+        'T. Riis Johansen' => 'T. Riis-Johansen',
         );
     $shortname = $renames{$shortname} if exists $renames{$shortname};
 
