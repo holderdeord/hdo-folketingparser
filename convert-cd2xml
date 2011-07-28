@@ -186,6 +186,15 @@ sub find_person_from_shortname {
         'S. Skaare Kleiven' => 'S. Skaare',
         'T. Nordli' => 'T. Nordli Ødegård',
         'F. De Ruiter' => 'F. de Ruiter',
+        'F. S. Hultgren' => 'F. S. Hultgreen',
+        'Kjell Bondevik' => 'Kjell Magne Bondevik', # Typo, missing middle name
+        'B. Brørby Larsen' => 'Berit Brørby',
+        'A. Aune' => 'A. J. Aune',
+        'T. Aasland Houg' => 'Tora Aasland',
+        'I. Dag Steen' => 'Inger Dag',
+        'T. Kalstø Storø' => 'Torhild Kalstø',
+        'R. Kleppe' => 'Ruth Kleppe Aakvaag',
+        'S. Torsvik    X' => 'Solveig Torsvik', # No idea why the X is there
         );
     $shortname = $renames{$shortname} if exists $renames{$shortname};
 
