@@ -104,7 +104,13 @@ sub load_voters {
     my $line;
     read $fh, $line, 2;
     my ($region1, $region2);
+    my $firstline = 1;
     while (read $fh, $line, 70) {
+        if ($firstline && ':' eq substr($line, 4, 1)) {
+            print STDERR "Not the expected format\n";
+            return;
+        }
+        $firstline = 0;
         my $row1 = substr $line, 0, 35;
         my $row2 = substr $line, 35, 35;
 
@@ -318,6 +324,11 @@ for my $basepath (sort keys %basepaths ) {
 
     my @voter = load_voters($votersfilename);
 
+    unless (@voter) {
+        print STDERR "Unable to parse the voters list $votersfilename\n";
+        next
+    }
+
     my @votelist = load_votes($votefilename);
 
     my $outfile = "votering-$session-$basename.xml";
@@ -361,6 +372,7 @@ EOF
                       'TF'  => 'Tverrpolitisk Folkevalgte (Kystpartiet)',
                       'KP'  => 'Kystpartiet',
                       'RV'  => 'Rød Valgallianse',
+                      'FFF' => 'Framtid for Finnmark',
 #Norges Kommunistiske Parti
 #Sosialistisk Folkeparti
 #Sosialistisk Valgforbund
