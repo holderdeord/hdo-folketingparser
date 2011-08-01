@@ -271,7 +271,7 @@ load_persons('stortinget-persons-scraped.xml');
 
 my @votefiles;
 @ARGV = ('.') unless (@ARGV);
-my %basenames;
+my %basepaths;
 for my $dir (@ARGV) {
     opendir(DIR, $dir) || die "opendir $dir failed";
     for my $filename (readdir DIR) {
@@ -280,12 +280,16 @@ for my $dir (@ARGV) {
             if ($filename =~ m/..\d+S\d+.*\.\d{3}$/) {
 #                print STDERR "V: $filename\n";
                 my ($basename) = $filename =~ m/^(.+)\.\d+$/;
-                $basenames{$basename}{votes} = "$dir/$filename";
+                my $basepath = "$dir/$basename";
+                $basepaths{$basepath}{votes} = "$dir/$filename";
+                $basepaths{$basepath}{basename} = $basename;
             }
             if ($filename =~ m/..\d+S\d+.*\.R\d*$/) {
 #                print STDERR "VV: $filename\n";
                 my ($basename) = $filename =~ m/^(.+)\.R\d*$/;
-                $basenames{$basename}{voters} = "$dir/$filename";
+                my $basepath = "$dir/$basename";
+                $basepaths{$basepath}{voters} = "$dir/$filename";
+                $basepaths{$basepath}{basename} = $basename;
             }
         }
     }
@@ -293,12 +297,13 @@ for my $dir (@ARGV) {
 }
 #print Dumper(%basenames);
 
-for my $basename (sort {$basenames{$a}{voters} cmp $basenames{$b}{voters} } keys %basenames ) {
-#    print "Base: $basename\n";
-    my $votersfilename = $basenames{$basename}{voters};
-    my $votefilename = $basenames{$basename}{votes};
+for my $basepath (sort keys %basepaths ) {
+#    print "Base: $basepath\n";
+    my $votersfilename = $basepaths{$basepath}{voters};
+    my $votefilename = $basepaths{$basepath}{votes};
+    my $basename = $basepaths{$basepath}{basename};
     unless ( $votersfilename && $votefilename) {
-        warn "Unable to find both viltes for basename $basename";
+        warn "Unable to find both filtes for basename $basename";
         next;
     }
     my $filelist = "'$votersfilename' '$votefilename'";
@@ -315,8 +320,10 @@ for my $basename (sort {$basenames{$a}{voters} cmp $basenames{$b}{voters} } keys
 
     my @votelist = load_votes($votefilename);
 
-    open(my $fh, ">:encoding(utf-8)", "votering-$session-$basename.xml") ||
-        die "Unable to write to $basename.xml";
+    my $outfile = "votering-$session-$basename.xml";
+    print STDERR "Writing $outfile\n";
+    open(my $fh, ">:encoding(utf-8)", $outfile) ||
+        die "Unable to write to $outfile";
 
     print $fh <<EOF;
 <?xml version="1.0" encoding="UTF-8"?>
