@@ -325,11 +325,16 @@ for my $basepath (sort keys %basepaths ) {
     my @voter = load_voters($votersfilename);
 
     unless (@voter) {
-        print STDERR "Unable to parse the voters list $votersfilename\n";
+        print STDERR "error: Unable to parse the voters list $votersfilename\n";
         next
     }
 
     my @votelist = load_votes($votefilename);
+
+    unless (@votelist) {
+        print STDERR "error: Unable to parse the votes file $votefilename\n";
+        next
+    }
 
     my $outfile = "votering-$session-$basename.xml";
     print STDERR "Writing $outfile\n";
@@ -343,6 +348,17 @@ EOF
 
     for my $votesref (@votelist) {
         my ($time, @votes) = @{$votesref};
+
+        # FIXME Neet to figure out why the two arrays do not have the
+        # same number of elements.
+        if (0) {
+            if (scalar @votes != scalar @voter + 1 # President?
+                && scalar @votes != scalar @voter + 2) { # President and secretary?
+                printf(STDERR "error: Not the same number of votes (%d) and voters (%d)\n",
+                       scalar @votes, scalar @voter);
+                exit 0;
+            }
+        }
 
         print $fh <<EOF;
   <division>
@@ -386,7 +402,7 @@ EOF
                   find_person_from_shortname($shortname, $session, $partyname);
               my $vote = {F => 'yes', M=>'no', '-'=>'absent'}->{$votes[$count]};
               if (defined $perid) {
-                  print $fh "    <mpname seatid=\"$id\" perid=\"$perid\" vote=\"$vote\" party=\"$partyname\">$first_name $last_name</mpname>\n";
+                  print $fh "    <mpname seatid=\"$id\" perid=\"$perid\" vote=\"$vote\" party=\"$partyname\" origname=\"$shortname\">$first_name $last_name</mpname>\n";
               } else {
                   print $fh "    <mpname seatid=\"$id\" vote=\"$vote\" party=\"$partyname\">$shortname</mpname>\n";
               }
