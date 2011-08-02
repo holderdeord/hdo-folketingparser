@@ -170,6 +170,25 @@ sub load_persons {
     }
 }
 
+sub person_period_match {
+    my ($session, $partyname, $person) = @_;
+    if ('ARRAY' eq ref $person->{period}) {
+        for my $period (@{$person->{period}}) {
+            if ($partyname eq $period->{party} &&
+                $sessionmap{$session} eq $period->{content}) {
+                return 1;
+            }
+        }
+    } else {
+        my $period = $person->{period};
+        if ($partyname eq $period->{party} &&
+            $sessionmap{$session} eq $period->{content}) {
+            return 1;
+        }
+    }
+    return 0;
+}
+
 sub find_person_from_shortname {
     my ($shortname, $session, $partyname) = @_;
     $shortname =~ s/([A-Z]\.)([A-Z])/$1 $2/g;
@@ -189,6 +208,7 @@ sub find_person_from_shortname {
         'H. Lydvo', 'H. Magnusson',
         'H. Magnusson Lydvo' => 'H. Magnusson',
         'I. Dag Steen' => 'Inger Dag',
+        'I. M. Eriksen' => 'I. M. E. Søreide',
         'J. Fredriksen' => 'J.-H. Fredriksen',
         'J. Gåsvatn' => 'J. J. Gåsvatn',
         'K. Bekkemellem Orheim' => 'K. Bekkemellem',
@@ -217,13 +237,18 @@ sub find_person_from_shortname {
     my $first_name;
     my $perid;
     my $match = $last_name;
-    if (defined $shortname && exists $personmap{$shortname}) {
+    if (defined $shortname && exists $personmap{$shortname}
+        && person_period_match($session, $partyname, $personmap{$shortname})) {
         $match = $shortname;
-    } elsif (defined $last_name && exists $personmap{$last_name}) {
+    } elsif (defined $last_name && exists $personmap{$last_name}
+             && person_period_match($session, $partyname,
+                                    $personmap{$last_name})) {
         $match = $last_name;
     } else {
         ($last_name) = $shortname =~ m/ (\S+ \S+)$/;
-        if (defined $last_name && exists $personmap{$last_name}) {
+        if (defined $last_name && exists $personmap{$last_name}
+            && person_period_match($session, $partyname,
+                                   $personmap{$last_name})) {
             $match = $last_name;
         } else {
             warn "error: Unable to find ID for '$shortname'"
@@ -240,27 +265,11 @@ sub find_person_from_shortname {
     if ($personmap{$match}->{duplicate}) {
         my $person = $personmap{$match};
         while ($person) {
-            if ('ARRAY' eq ref $person->{period}) {
-                for my $period (@{$person->{period}}) {
-                    if ($partyname eq $period->{party} &&
-                        $sessionmap{$session} eq $period->{content}) {
-                        $perid = $person->{perid};
-                        $first_name = $person->{first_name};
-                        $last_name = $person->{last_name};
-                        return ($perid, $first_name, $last_name);
-
-                    }
-                }
-            } else {
-                my $period = $person->{period};
-                if ($partyname eq $period->{party} &&
-                    $sessionmap{$session} eq $period->{content}) {
-                    $perid = $person->{perid};
-                    $first_name = $person->{first_name};
-                    $last_name = $person->{last_name};
-                    return ($perid, $first_name, $last_name);
-
-                }
+            if (person_period_match($session, $partyname, $person)) {
+                $perid = $person->{perid};
+                $first_name = $person->{first_name};
+                $last_name = $person->{last_name};
+                return ($perid, $first_name, $last_name);
             }
             $person = $person->{duplicate};
         }
