@@ -204,6 +204,7 @@ sub find_person_from_shortname {
         'A. Samuelsen' => 'A. I. Samuelsen',
         'A. Skjelstad' => 'A. N. Skjelstad',
         'B. Brørby Larsen' => 'Berit Brørby',
+        'B. Jørgensen' => 'Brit Hoel', # Changed name
         'E. K. Sund' => 'E. Sund', # Stortingsidene nevner ikke mellomnavnet Kristin
         'F. De Ruiter' => 'F. de Ruiter',
         'F. S. Hultgren' => 'F. S. Hultgreen',
@@ -216,6 +217,7 @@ sub find_person_from_shortname {
         'K. Bekkemellem Orheim' => 'K. Bekkemellem',
         'K. Bekkemellom Orheim' => 'K. Bekkemellem', # Typo?
         'K. Bondevik' => 'Kjell Magne Bondevik', # Typo, missing middle name.  Only safe for sessions 135-153.
+        'K. E. Schjøtt Pedersen' => 'K. E. Schjøtt-Pedersen',
         'K. E. Schjøtt-Pederse' => 'K. E. Schjøtt-Pedersen', # Typo?
         'L. C. Hofstad' => 'L. C. Hofstad Helleland',
         'L. Hjemdal' => 'L. H. Hjemdal',
