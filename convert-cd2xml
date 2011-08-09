@@ -234,6 +234,7 @@ sub find_person_from_shortname {
         'T. Knutsen' => 'T. K. Knutsen',
         'T. Nordli' => 'T. Nordli Ødegård',
         'T. Riis Johansen' => 'T. Riis-Johansen',
+        'T. Vedum' => 'T. S. Vedum',
         'Å. M. Schmidt' => 'Å. Michaelsen',
         );
     $shortname = $renames{$shortname} if exists $renames{$shortname};
@@ -355,15 +356,13 @@ EOF
     for my $votesref (@votelist) {
         my ($time, @votes) = @{$votesref};
 
-        # FIXME Neet to figure out why the two arrays do not have the
-        # same number of elements.
-        if (0) {
-            if (scalar @votes != scalar @voter + 1 # President?
-                && scalar @votes != scalar @voter + 2) { # President and secretary?
-                printf(STDERR "error: Not the same number of votes (%d) and voters (%d)\n",
-                       scalar @votes, scalar @voter);
-                exit 0;
-            }
+        # There are two extra votes without person information, the
+        # president and the secretary.  The voter array start on 1 and
+        # not 0, leading to this strange calculation.
+        if (scalar @votes != (scalar @voter-1) + 2) { # President and secretary
+            printf(STDERR "error: Not the same number of votes (%d) and voters (%d)\n",
+                   scalar @votes, scalar @voter-1 + 2);
+#            exit 0;
         }
 
         print $fh <<EOF;
@@ -374,6 +373,9 @@ EOF
     <id>$id</id>
     <description>Files: $filelist</description>
 EOF
+
+        $voter[scalar @votes - 1]->{name} = 'president';
+        $voter[scalar @votes    ]->{name} = 'sekretær';
 
           for my $count (0 .. scalar @votes - 1) {
               my $id = $count + 1;
@@ -402,10 +404,12 @@ EOF
               } else {
                   warn "error: Missing party definition for '$party'\n" if $party;
               }
-              next unless defined $shortname;
 
-              my ($perid, $first_name, $last_name) =
-                  find_person_from_shortname($shortname, $session, $partyname);
+              my ($perid, $first_name, $last_name);
+              if (defined $shortname) {
+                  ($perid, $first_name, $last_name) =
+                      find_person_from_shortname($shortname, $session, $partyname)
+              }
               my $vote = {F => 'yes', M=>'no', '-'=>'absent'}->{$votes[$count]};
               if (defined $perid) {
                   print $fh "    <mpname seatid=\"$id\" perid=\"$perid\" vote=\"$vote\" party=\"$partyname\" first_name=\"$first_name\" last_name=\"$last_name\">$shortname</mpname>\n";
