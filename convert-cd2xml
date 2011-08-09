@@ -45,9 +45,9 @@ sub load_votes {
     my $line = <$fh>;
     close($line);
     my @votelist;
-    while ($line =~ m/^\d/) {
+    while ($line =~ m/^[ \d]/) {
         my ($time, $votestr, $rest) =
-            $line =~ m/^(\d{2}:\d{2}:\d{2})([MF-]+)(\d+.+)?$/;
+            $line =~ m/^([ \d]{2}:\d{2}:\d{2})([MF-]+)([ \d]+.+)?$/;
         my @votes = split(//, $votestr);
         push @votelist, [$time, @votes];
         $line = $rest || '';
@@ -139,7 +139,7 @@ sub load_persons {
         my $period = $person->{period};
         my $perid = $person->{'stortinget-perid'};
 
-        my @list = ($last_name);
+        my @list = ($last_name, "$first_name $last_name");
         my %variants;
         my $initials = $first_name;
         while ($initials =~ s/([A-ZÆØÅ])[\w]+(\s?)/$1.$2/) {
@@ -151,12 +151,10 @@ sub load_persons {
         }
         for my $str ( @list ) {
 #            print STDERR "Mapping '$str'\n";
-            my $duplicate;
+            my $duplicate = 0;
             if (exists $personmap{$str}) {
                 warn "error: Duplicate name string '$str'";
                 $duplicate = $personmap{$str};
-            } else {
-                $duplicate = 0;
             }
             $personmap{$str} =
             {
@@ -200,9 +198,13 @@ sub find_person_from_shortname {
     my %renames = (
         'A. Aune' => 'A. J. Aune',
         'A. Bjørnflaten' => 'A. M. Bjørnflaten',
+        'A. C. Brustad' => 'A. C. Brustad Moe',
         'A. Enger Lahnstein' => 'A. Enger',
+        'A. Kvalvik' => 'A. H. Kvalvik',
         'A. Samuelsen' => 'A. I. Samuelsen',
+        'A. Skjelstad' => 'A. N. Skjelstad',
         'B. Brørby Larsen' => 'Berit Brørby',
+        'E. K. Sund' => 'E. Sund', # Stortingsidene nevner ikke mellomnavnet Kristin
         'F. De Ruiter' => 'F. de Ruiter',
         'F. S. Hultgren' => 'F. S. Hultgreen',
         'H. Lydvo', 'H. Magnusson',
@@ -216,7 +218,9 @@ sub find_person_from_shortname {
         'K. Bondevik' => 'Kjell Magne Bondevik', # Typo, missing middle name.  Only safe for sessions 135-153.
         'K. E. Schjøtt-Pederse' => 'K. E. Schjøtt-Pedersen', # Typo?
         'L. C. Hofstad' => 'L. C. Hofstad Helleland',
+        'L. Hjemdal' => 'L. H. Hjemdal',
         'L. Hofstad'    => 'L. C. Hofstad Helleland',
+        'M. Aasen Agdestein' => 'M. Aasen',
         'M. G. Neergaard Aksne' => 'M. G. Neergaard Aksnes', # Typo?
         'P. Henriksen' => 'P. R. Henriksen',
         'R. Kleppe' => 'Ruth Kleppe Aakvaag',
@@ -230,54 +234,47 @@ sub find_person_from_shortname {
         'T. Knutsen' => 'T. K. Knutsen',
         'T. Nordli' => 'T. Nordli Ødegård',
         'T. Riis Johansen' => 'T. Riis-Johansen',
+        'Å. M. Schmidt' => 'Å. Michaelsen',
         );
     $shortname = $renames{$shortname} if exists $renames{$shortname};
 
-    my ($last_name) = $shortname =~ m/ (\S+)$/;
-    my $first_name;
     my $perid;
-    my $match = $last_name;
-    if (defined $shortname && exists $personmap{$shortname}
-        && person_period_match($session, $partyname, $personmap{$shortname})) {
-        $match = $shortname;
-    } elsif (defined $last_name && exists $personmap{$last_name}
-             && person_period_match($session, $partyname,
-                                    $personmap{$last_name})) {
-        $match = $last_name;
-    } else {
-        ($last_name) = $shortname =~ m/ (\S+ \S+)$/;
-        if (defined $last_name && exists $personmap{$last_name}
-            && person_period_match($session, $partyname,
-                                   $personmap{$last_name})) {
-            $match = $last_name;
-        } else {
-            warn "error: Unable to find ID for '$shortname'"
-                unless exists $notfound{$shortname};
-            $notfound{$shortname} = 1;
-            return undef;
-        }
-    }
+    my $first_name;
 
-    $perid = $personmap{$match}->{perid};
-    $first_name = $personmap{$match}->{first_name};
-    $last_name = $personmap{$match}->{last_name};
+    my @possibilities = $shortname;
+    my ($last_name) = $shortname =~ m/ (\S+)$/;
+    push(@possibilities, $last_name) if defined $last_name;
+    ($last_name) = $shortname =~ m/ (\S+ \S+)$/;
+    push(@possibilities, $last_name) if $last_name;
 
-    if ($personmap{$match}->{duplicate}) {
-        my $person = $personmap{$match};
-        while ($person) {
-            if (person_period_match($session, $partyname, $person)) {
-                $perid = $person->{perid};
-                $first_name = $person->{first_name};
-                $last_name = $person->{last_name};
-                return ($perid, $first_name, $last_name);
+    my $person;
+    outer: for my $match (@possibilities) {
+#        print STDERR "Match: '$shortname' '$match' '$personmap{$match}'\n";
+        if (exists $personmap{$match} && $personmap{$match}->{duplicate}) {
+            $person = $personmap{$match};
+            while ($person) {
+                if (person_period_match($session, $partyname, $person)) {
+                    last outer;
+                }
+                $person = $person->{duplicate};
             }
-            $person = $person->{duplicate};
+        } elsif (exists $personmap{$match}
+            && person_period_match($session, $partyname,
+                                   $personmap{$match})) {
+            $person = $personmap{$match};
+            last outer;
         }
-        warn "error: Several persons with last name $last_name (from $shortname), need better matching logic.";
-        return undef;
     }
-
-    return ($perid, $first_name, $last_name);
+    if ($person) {
+        $perid = $person->{perid};
+        $first_name = $person->{first_name};
+        $last_name = $person->{last_name};
+        return ($perid, $first_name, $last_name);
+    }
+    warn "error: Unable to find ID for '$shortname' session '$session' and party '$partyname'"
+        unless exists $notfound{$shortname};
+    $notfound{$shortname} = 1;
+    return undef;
 }
 
 $| = 1;
@@ -318,7 +315,7 @@ for my $basepath (sort keys %basepaths ) {
     my $votefilename = $basepaths{$basepath}{votes};
     my $basename = $basepaths{$basepath}{basename};
     unless ( $votersfilename && $votefilename) {
-        warn "Unable to find both filtes for basename $basename";
+        warn "Unable to find both files for basename $basename";
         next;
     }
     my $filelist = "'$votersfilename' '$votefilename'";
@@ -411,7 +408,7 @@ EOF
                   find_person_from_shortname($shortname, $session, $partyname);
               my $vote = {F => 'yes', M=>'no', '-'=>'absent'}->{$votes[$count]};
               if (defined $perid) {
-                  print $fh "    <mpname seatid=\"$id\" perid=\"$perid\" vote=\"$vote\" party=\"$partyname\" origname=\"$shortname\">$first_name $last_name</mpname>\n";
+                  print $fh "    <mpname seatid=\"$id\" perid=\"$perid\" vote=\"$vote\" party=\"$partyname\" first_name=\"$first_name\" last_name=\"$last_name\">$shortname</mpname>\n";
               } else {
                   print $fh "    <mpname seatid=\"$id\" vote=\"$vote\" party=\"$partyname\">$shortname</mpname>\n";
               }
