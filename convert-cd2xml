@@ -375,7 +375,9 @@ EOF
 EOF
 
         $voter[scalar @votes - 1]->{name} = 'president';
+        $voter[scalar @votes - 1]->{party} = 'unknown';
         $voter[scalar @votes    ]->{name} = 'sekretær';
+        $voter[scalar @votes    ]->{party} = 'unknown';
 
           for my $count (0 .. scalar @votes - 1) {
               my $id = $count + 1;
