@@ -35,6 +35,11 @@ my %sessionmap = (
     151 => '2005-2009',
     152 => '2005-2009',
     153 => '2005-2009',
+
+#    154 => '2009-2013',
+#    155 => '2009-2013',
+#    156 => '2009-2013',
+#    157 => '2009-2013',
     );
 
 my %personmap;
@@ -172,14 +177,14 @@ sub person_period_match {
     my ($session, $partyname, $person) = @_;
     if ('ARRAY' eq ref $person->{period}) {
         for my $period (@{$person->{period}}) {
-            if ($partyname eq $period->{party} &&
+            if (($partyname eq "Uavhengig" || $partyname eq $period->{party}) &&
                 $sessionmap{$session} eq $period->{content}) {
                 return 1;
             }
         }
     } else {
         my $period = $person->{period};
-        if ($partyname eq $period->{party} &&
+        if (($partyname eq "Uavhengig" || $partyname eq $period->{party}) &&
             $sessionmap{$session} eq $period->{content}) {
             return 1;
         }
@@ -203,6 +208,7 @@ sub find_person_from_shortname {
         'A. Kvalvik' => 'A. H. Kvalvik',
         'A. Samuelsen' => 'A. I. Samuelsen',
         'A. Skjelstad' => 'A. N. Skjelstad',
+        'B. Andre' => 'B. André',
         'B. Bjørnstad' => 'B. Ø. Sveum', # Changed name
         'B. Brørby Larsen' => 'Berit Brørby',
         'B. Jørgensen' => 'Brit Hoel', # Changed name
@@ -393,8 +399,8 @@ EOF
                   $partyname = {
                       'A'   => 'Arbeiderpartiet',
                       'FRP' => 'Fremskrittspartiet',
-                      'UAH' => 'Fremskrittspartiet', # Always?
-                      'UAV' => 'Fremskrittspartiet', # Always?
+                      'UAH' => 'Uavhengig',
+                      'UAV' => 'Uavhengig',
                       'H'   => 'Høyre',
                       'SP'  => 'Senterpartiet',
                       'SV'  => 'Sosialistisk Venstreparti',
