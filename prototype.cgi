@@ -191,11 +191,11 @@ sub show_frontpage {
     print($q->p('Nettsted som lar deg følge de folkevalgte fra dag til dag.  Dette er en proof-of-concept-løsning som demonstrerer hva som kan vises frem når voterings-data fra Stortinget blir tilgjengelig.'),
           "\n");
 
-    print($q->h2('Siste 10 voteringer'), "\n");
+    print($q->h2('Siste 20 voteringer'), "\n");
 
     my $divisions =
         select_all('SELECT id, when_divided, description FROM division '.
-                   'ORDER BY when_divided DESC LIMIT 10');
+                   'ORDER BY when_divided DESC LIMIT 20');
     print($q->ul(
               map { ($q->li($_->{when_divided} . ' ' .
                             $q->a({href => $q->url(-path_info=>1) .
