@@ -38,7 +38,8 @@ for my $division ('ARRAY' eq ref $voteinfo->{division} ?
         my $perid = $mp->{perid};
         my $vote = $mp->{vote};
         my $party = $mp->{party} || 'unknown';
-        if ('PRESIDENT' eq $perid || 'SECRETARY' eq $perid) {
+        if (defined $perid &&
+            ('PRESIDENT' eq $perid || 'SECRETARY' eq $perid)) {
             # FIXME figure out how to look up these
         } else {
             $dbh->do("INSERT INTO vote (vote, division_id, party, person_id) SELECT ?, ?, ?, person_id from person_ref where type = 'stortinget-perid' and ref = ?",
