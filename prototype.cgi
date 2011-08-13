@@ -68,7 +68,7 @@ sub show_division {
     print $q->h2('Votering'), "\n";
     my $division =
         select_all('SELECT id, description, when_divided, heading_id, '.
-                   '  yes_count, no_count ' .
+                   '  map_num, topic_num, yes_count, no_count ' .
                    '  FROM division '.
                    '  WHERE id = ? ', $division_id);
     print $q->p('Tema: ' .
@@ -81,6 +81,25 @@ sub show_division {
         my $link = "http://www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=$heading_id";
         print $q->p($q->a({href => $link}, 'Saksinfo fra stortinget')), "\n";
     }
+    if ($division->[0]->{when_divided} =~ m/^(\d{4})-(\d{2})-(\d{2})T/) {
+        my ($year, $month, $day) = ($1, $2, $3);
+        $year =~ s/^..//;
+        my $session_num = $division->[0]->{session_num};
+        my $topic_num = $division->[0]->{topic_num};
+        my %sessionmap = (
+            '150' => '2005-2006',
+            '151' => '2006-2007',
+            '152' => '2007-2008',
+            '153' => '2008-2009',
+            );
+        my $yearstr = $sessionmap{$session_num};
+        if (defined $yearstr) {
+            my $link = "http://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/$yearstr/$year$month$day/$topicid/";
+            print $q->p($q->a({href => $link}, 'Referat fra stortinget')), "\n";
+        }
+    }
+
+
     print($q->p(sprintf('Opptelling gav %d for og %d mot.',
                         $division->[0]->{yes_count},
                         $division->[0]->{no_count})), "\n");

@@ -28,11 +28,12 @@ for my $division ('ARRAY' eq ref $voteinfo->{division} ?
                   $voteinfo->{division}) {
     my $map = $division->{map};
     my $id = $division->{id};
+    my $session = $division->{session};
     my $whenvoted = $division->{'when-voted'};
     my $description = $division->{description};
     # FIXME Add support for total count, and where everyone vote 'yes'
-    $dbh->do("INSERT INTO division (id, description, when_divided, yes_count, no_count) VALUES (?, ?, ?, ?, ?)",
-             {}, $division_id, $description, $whenvoted, 0, 0);
+    $dbh->do("INSERT INTO division (id, description, when_divided, session_num, map_num, topic_num, yes_count, no_count) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+             {}, $division_id, $description, $whenvoted, $session, $map, $id, 0, 0);
     for my $mp (@{$division->{mpname}}) {
         my $name = $mp->{content};
         my $perid = $mp->{perid};

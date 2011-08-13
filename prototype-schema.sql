@@ -54,6 +54,9 @@ CREATE TABLE division (
   description text,
   heading_id int,
   when_divided timedate NOT NULL,
+  session_num int,
+  map_num int,
+  topic_num int,
   yes_count int NOT NULL,
   no_count int NOT NULL
 );
