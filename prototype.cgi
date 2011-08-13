@@ -76,6 +76,8 @@ sub show_division {
                            '?division_id=' . $division_id},
                       $division->[0]->{description})), "\n";
 
+    print $q->p('Tidspunkt: ' . $division->[0]->{when_divided}), "\n";
+
     if ($division->[0]->{heading_id}) {
         my $heading_id = $division->[0]->{heading_id};
         my $link = "http://www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=$heading_id";
