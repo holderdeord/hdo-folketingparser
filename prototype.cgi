@@ -68,7 +68,7 @@ sub show_division {
     print $q->h2('Votering'), "\n";
     my $division =
         select_all('SELECT id, description, when_divided, heading_id, '.
-                   '  map_num, topic_num, yes_count, no_count ' .
+                   '  session_num, map_num, topic_num, yes_count, no_count ' .
                    '  FROM division '.
                    '  WHERE id = ? ', $division_id);
     print $q->p('Tema: ' .
