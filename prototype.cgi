@@ -94,7 +94,7 @@ sub show_division {
             );
         my $yearstr = $sessionmap{$session_num};
         if (defined $yearstr) {
-            my $link = "http://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/$yearstr/$year$month$day/$topicid/";
+            my $link = "http://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/$yearstr/$year$month$day/$topic_num/";
             print $q->p($q->a({href => $link}, 'Referat fra stortinget')), "\n";
         }
     }
