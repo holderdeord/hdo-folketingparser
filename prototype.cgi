@@ -210,7 +210,7 @@ sub show_frontpage {
     print_html_header($q);
     print($q->h1('Valgt av folket'), "\n");
     print($q->p('Nettsted som lar deg følge de folkevalgte fra dag til dag.  Dette er en proof-of-concept-løsning som demonstrerer hva som kan vises frem når voterings-data fra Stortinget blir tilgjengelig.'),
-          "\n");
+          "\n\n");
 
     print($q->h2('Siste 20 voteringer'), "\n");
 
