@@ -179,8 +179,8 @@ sub load_session_dates {
     my %sessionmapmap;
     while (my $line = <$fh>) {
         chomp $line;
-        my ($session, $mapnum, $date) = split(/\t/, $line);
-        $sessionmapmap{"$session-$mapnum"} = $date;
+        my ($session, $parlament, $mapnum, $date) = split(/\t/, $line);
+        $sessionmapmap{"$session-$parlament-$mapnum"} = $date;
     }
     close $fh;
     return \%sessionmapmap;
@@ -347,14 +347,15 @@ for my $basepath (sort keys %basepaths ) {
     my $filelist = "'$votersfilename' '$votefilename'";
     print STDERR "Filelist: $filelist\n";
 
-    my ($map, $id) = $basename =~ m/..(\d+)S([\d ()]+)$/;
+    my ($parlament, $map, $id) = $basename =~ m/(.)K(\d+)S([\d ()]+)$/;
+    $parlament = lc($parlament);
 
     my ($session) = $votefilename =~ m/\.(\d{3})$/;
 
     my $fakeyear = 1855 + $session;
     my $date;
-    if (exists $sessionmapmapref->{"$session-$map"}) {
-        $date = $sessionmapmapref->{"$session-$map"};
+    if (exists $sessionmapmapref->{"$session-$parlament-$map"}) {
+        $date = $sessionmapmapref->{"$session-$parlament-$map"};
     } else {
         $date = sprintf("%4d-?-%03d", $fakeyear, $map);
     }
