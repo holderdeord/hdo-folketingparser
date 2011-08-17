@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <voteringsresultat_oversikt xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://data.stortinget.no">
   <versjon>1.0</versjon>
-  <votering_id>570</votering_id>
+  <votering_id>36</votering_id>
   <voteringsresultat_liste>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -26,7 +26,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>mot</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -51,7 +51,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -76,7 +76,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -101,6 +101,39 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
+      <votering>ikke_tilstede</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Arnem</etternavn>
+        <foedselsdato>1986-01-27T00:00:00</foedselsdato>
+        <fornavn>Mari Lund</fornavn>
+        <id>MLA</id>
+        <kjoenn>kvinne</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Os</id>
+          <navn>Oslo</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>SV</id>
+          <navn>Sosialistisk Venstreparti</navn>
+        </parti>
+      </representant>
+      <vara_for>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Chaudhry</etternavn>
+        <foedselsdato>1961-07-23T00:00:00</foedselsdato>
+        <fornavn>Akhtar</fornavn>
+        <id>AC</id>
+        <kjoenn>mann</kjoenn>
+      </vara_for>
       <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
@@ -126,7 +159,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -151,7 +184,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>mot</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -201,7 +234,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -226,7 +259,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -251,7 +284,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -284,7 +317,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -309,7 +342,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -334,7 +367,40 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Bojanowski</etternavn>
+        <foedselsdato>1966-05-16T00:00:00</foedselsdato>
+        <fornavn>Marion Gunstveit</fornavn>
+        <id>MGB</id>
+        <kjoenn>kvinne</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>AA</id>
+          <navn>Aust-Agder</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+        </parti>
+      </representant>
+      <vara_for>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Ropstad</etternavn>
+        <foedselsdato>1985-06-01T00:00:00</foedselsdato>
+        <fornavn>Kjell Ingolf</fornavn>
+        <id>KJR</id>
+        <kjoenn>mann</kjoenn>
+      </vara_for>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -359,7 +425,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -392,7 +458,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -417,7 +483,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -442,7 +508,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>mot</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -467,7 +533,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -492,7 +558,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -517,40 +583,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Halvorsen</etternavn>
-        <foedselsdato>1960-09-02T00:00:00</foedselsdato>
-        <fornavn>Kristin</fornavn>
-        <id>KHA</id>
-        <kjoenn>kvinne</kjoenn>
-      </fast_vara_for>
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Chaudhry</etternavn>
-        <foedselsdato>1961-07-23T00:00:00</foedselsdato>
-        <fornavn>Akhtar</fornavn>
-        <id>AC</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Os</id>
-          <navn>Oslo</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>SV</id>
-          <navn>Sosialistisk Venstreparti</navn>
-        </parti>
-      </representant>
-      <vara_for i:nil="true" />
-      <votering>ikke_tilstede</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -583,7 +616,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -608,7 +641,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -633,7 +666,40 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Dale</etternavn>
+        <foedselsdato>1984-06-16T00:00:00</foedselsdato>
+        <fornavn>Jon Georg</fornavn>
+        <id>JGD</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>MR</id>
+          <navn>Møre og Romsdal</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+        </parti>
+      </representant>
+      <vara_for>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Grimstad</etternavn>
+        <foedselsdato>1954-11-08T00:00:00</foedselsdato>
+        <fornavn>Oskar J.</fornavn>
+        <id>OG</id>
+        <kjoenn>mann</kjoenn>
+      </vara_for>
+      <votering>mot</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -658,7 +724,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -683,7 +749,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -708,32 +774,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Eldegard</etternavn>
-        <foedselsdato>1963-04-14T00:00:00</foedselsdato>
-        <fornavn>Gunvor</fornavn>
-        <id>GUE</id>
-        <kjoenn>kvinne</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Ak</id>
-          <navn>Akershus</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>A</id>
-          <navn>Arbeiderpartiet</navn>
-        </parti>
-      </representant>
-      <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -758,7 +799,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -783,7 +824,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -808,7 +849,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>mot</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -833,7 +874,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -858,7 +899,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -883,7 +924,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -908,7 +949,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -933,32 +974,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Gitmark</etternavn>
-        <foedselsdato>1977-04-15T00:00:00</foedselsdato>
-        <fornavn>Peter Skovholt</fornavn>
-        <id>PEG</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>VA</id>
-          <navn>Vest-Agder</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>H</id>
-          <navn>Høyre</navn>
-        </parti>
-      </representant>
-      <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>mot</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -983,7 +999,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1008,7 +1024,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1033,7 +1049,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1058,7 +1074,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1083,32 +1099,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Grimstad</etternavn>
-        <foedselsdato>1954-11-08T00:00:00</foedselsdato>
-        <fornavn>Oskar J.</fornavn>
-        <id>OG</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>MR</id>
-          <navn>Møre og Romsdal</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>FrP</id>
-          <navn>Fremskrittspartiet</navn>
-        </parti>
-      </representant>
-      <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1133,7 +1124,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1166,6 +1157,31 @@
       <representant>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Gustavsen</etternavn>
+        <foedselsdato>1973-10-24T00:00:00</foedselsdato>
+        <fornavn>Laila</fornavn>
+        <id>LAG</id>
+        <kjoenn>kvinne</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Bu</id>
+          <navn>Buskerud</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>A</id>
+          <navn>Arbeiderpartiet</navn>
+        </parti>
+      </representant>
+      <vara_for i:nil="true" />
+      <votering>for</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Gåsvatn</etternavn>
         <foedselsdato>1954-06-19T00:00:00</foedselsdato>
         <fornavn>Jon Jæger</fornavn>
@@ -1183,7 +1199,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>mot</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1208,7 +1224,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1233,7 +1249,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>ikke_tilstede</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1258,7 +1274,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1308,7 +1324,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>mot</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1333,7 +1349,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1358,40 +1374,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Hansen</etternavn>
-        <foedselsdato>1957-05-05T00:00:00</foedselsdato>
-        <fornavn>Kjell Børre</fornavn>
-        <id>KBH</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Bu</id>
-          <navn>Buskerud</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>A</id>
-          <navn>Arbeiderpartiet</navn>
-        </parti>
-      </representant>
-      <vara_for>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Micaelsen</etternavn>
-        <foedselsdato>1979-05-20T00:00:00</foedselsdato>
-        <fornavn>Torgeir</fornavn>
-        <id>TMI</id>
-        <kjoenn>mann</kjoenn>
-      </vara_for>
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1416,7 +1399,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1441,7 +1424,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1466,7 +1449,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1516,7 +1499,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1549,7 +1532,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1582,7 +1565,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1607,7 +1590,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1632,7 +1615,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1657,7 +1640,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>ikke_tilstede</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1690,7 +1673,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1715,7 +1698,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1740,7 +1723,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1765,7 +1748,40 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>mot</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Holen</etternavn>
+        <foedselsdato>1958-03-29T00:00:00</foedselsdato>
+        <fornavn>Ida Marie</fornavn>
+        <id>IDH</id>
+        <kjoenn>kvinne</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Bu</id>
+          <navn>Buskerud</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+        </parti>
+      </representant>
+      <vara_for>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Rytman</etternavn>
+        <foedselsdato>1977-05-04T00:00:00</foedselsdato>
+        <fornavn>Jørund</fornavn>
+        <id>JHR</id>
+        <kjoenn>mann</kjoenn>
+      </vara_for>
+      <votering>mot</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1790,7 +1806,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1815,7 +1831,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1840,32 +1856,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Høglund</etternavn>
-        <foedselsdato>1965-07-16T00:00:00</foedselsdato>
-        <fornavn>Morten</fornavn>
-        <id>MORH</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Ak</id>
-          <navn>Akershus</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>FrP</id>
-          <navn>Fremskrittspartiet</navn>
-        </parti>
-      </representant>
-      <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>mot</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1915,7 +1906,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -1973,7 +1964,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2006,6 +1997,39 @@
       <representant>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Iversen</etternavn>
+        <foedselsdato>1977-11-14T00:00:00</foedselsdato>
+        <fornavn>Hanne C.S.</fornavn>
+        <id>HCI</id>
+        <kjoenn>kvinne</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Tr</id>
+          <navn>Troms</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+        </parti>
+      </representant>
+      <vara_for>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Korsberg</etternavn>
+        <foedselsdato>1960-01-31T00:00:00</foedselsdato>
+        <fornavn>Øyvind</fornavn>
+        <id>OYK</id>
+        <kjoenn>mann</kjoenn>
+      </vara_for>
+      <votering>ikke_tilstede</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Jensen</etternavn>
         <foedselsdato>1969-06-01T00:00:00</foedselsdato>
         <fornavn>Siv</fornavn>
@@ -2023,32 +2047,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Johansen</etternavn>
-        <foedselsdato>1961-01-07T00:00:00</foedselsdato>
-        <fornavn>Irene</fornavn>
-        <id>IJ</id>
-        <kjoenn>kvinne</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Øs</id>
-          <navn>Østfold</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>A</id>
-          <navn>Arbeiderpartiet</navn>
-        </parti>
-      </representant>
-      <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2073,39 +2072,6 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Johnsen</etternavn>
-        <foedselsdato>1976-10-17T00:00:00</foedselsdato>
-        <fornavn>Espen Granberg</fornavn>
-        <id>EJ</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Op</id>
-          <navn>Oppland</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>A</id>
-          <navn>Arbeiderpartiet</navn>
-        </parti>
-      </representant>
-      <vara_for>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Rudihagen</etternavn>
-        <foedselsdato>1951-08-14T00:00:00</foedselsdato>
-        <fornavn>Torstein</fornavn>
-        <id>TR</id>
-        <kjoenn>mann</kjoenn>
-      </vara_for>
       <votering>mot</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
@@ -2131,7 +2097,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2156,7 +2122,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2181,7 +2147,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>mot</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2206,7 +2172,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2231,7 +2197,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2256,7 +2222,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2278,31 +2244,6 @@
           <versjon>1.0</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
-        </parti>
-      </representant>
-      <vara_for i:nil="true" />
-      <votering>mot</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Korsberg</etternavn>
-        <foedselsdato>1960-01-31T00:00:00</foedselsdato>
-        <fornavn>Øyvind</fornavn>
-        <id>OYK</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Tr</id>
-          <navn>Troms</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>FrP</id>
-          <navn>Fremskrittspartiet</navn>
         </parti>
       </representant>
       <vara_for i:nil="true" />
@@ -2331,7 +2272,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2356,7 +2297,73 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Kristoffersen</etternavn>
+        <foedselsdato>1970-11-08T00:00:00</foedselsdato>
+        <fornavn>Janne Fardal</fornavn>
+        <id>JFK</id>
+        <kjoenn>kvinne</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>VA</id>
+          <navn>Vest-Agder</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+        </parti>
+      </representant>
+      <vara_for>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Gitmark</etternavn>
+        <foedselsdato>1977-04-15T00:00:00</foedselsdato>
+        <fornavn>Peter Skovholt</fornavn>
+        <id>PEG</id>
+        <kjoenn>mann</kjoenn>
+      </vara_for>
+      <votering>for</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Kvalvik</etternavn>
+        <foedselsdato>1956-12-18T00:00:00</foedselsdato>
+        <fornavn>Aud Herbjørg</fornavn>
+        <id>AHK</id>
+        <kjoenn>kvinne</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>ST</id>
+          <navn>Sør-Trøndelag</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>SV</id>
+          <navn>Sosialistisk Venstreparti</navn>
+        </parti>
+      </representant>
+      <vara_for>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Valen</etternavn>
+        <foedselsdato>1984-09-16T00:00:00</foedselsdato>
+        <fornavn>Snorre Serigstad</fornavn>
+        <id>SNV</id>
+        <kjoenn>mann</kjoenn>
+      </vara_for>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2381,7 +2388,73 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Langsåvold</etternavn>
+        <foedselsdato>1952-01-31T00:00:00</foedselsdato>
+        <fornavn>Bård</fornavn>
+        <id>BAAL</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>NT</id>
+          <navn>Nord-Trøndelag</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>A</id>
+          <navn>Arbeiderpartiet</navn>
+        </parti>
+      </representant>
+      <vara_for>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Stokkan-Grande</etternavn>
+        <foedselsdato>1978-04-05T00:00:00</foedselsdato>
+        <fornavn>Arild</fornavn>
+        <id>AAST</id>
+        <kjoenn>mann</kjoenn>
+      </vara_for>
+      <votering>for</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Lauvås</etternavn>
+        <foedselsdato>1965-05-03T00:00:00</foedselsdato>
+        <fornavn>Stein Erik</fornavn>
+        <id>SEL</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Øs</id>
+          <navn>Østfold</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>A</id>
+          <navn>Arbeiderpartiet</navn>
+        </parti>
+      </representant>
+      <vara_for>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Johansen</etternavn>
+        <foedselsdato>1961-01-07T00:00:00</foedselsdato>
+        <fornavn>Irene</fornavn>
+        <id>IJ</id>
+        <kjoenn>kvinne</kjoenn>
+      </vara_for>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2406,7 +2479,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2431,7 +2504,40 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>mot</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Liljeroth</etternavn>
+        <foedselsdato>1975-03-19T00:00:00</foedselsdato>
+        <fornavn>Tone</fornavn>
+        <id>TOIL</id>
+        <kjoenn>kvinne</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Ak</id>
+          <navn>Akershus</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+        </parti>
+      </representant>
+      <vara_for>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Høglund</etternavn>
+        <foedselsdato>1965-07-16T00:00:00</foedselsdato>
+        <fornavn>Morten</fornavn>
+        <id>MORH</id>
+        <kjoenn>mann</kjoenn>
+      </vara_for>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2464,7 +2570,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2489,7 +2595,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2511,31 +2617,6 @@
           <versjon>1.0</versjon>
           <id>Sp</id>
           <navn>Senterpartiet</navn>
-        </parti>
-      </representant>
-      <vara_for i:nil="true" />
-      <votering>mot</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Lødemel</etternavn>
-        <foedselsdato>1958-08-19T00:00:00</foedselsdato>
-        <fornavn>Bjørn</fornavn>
-        <id>BLO</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>SF</id>
-          <navn>Sogn og Fjordane</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>H</id>
-          <navn>Høyre</navn>
         </parti>
       </representant>
       <vara_for i:nil="true" />
@@ -2564,7 +2645,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2589,7 +2670,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2614,40 +2695,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Mathisen</etternavn>
-        <foedselsdato>1956-02-01T00:00:00</foedselsdato>
-        <fornavn>Bente Stein</fornavn>
-        <id>BEM</id>
-        <kjoenn>kvinne</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Ak</id>
-          <navn>Akershus</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>H</id>
-          <navn>Høyre</navn>
-        </parti>
-      </representant>
-      <vara_for>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Sjøli</etternavn>
-        <foedselsdato>1949-06-06T00:00:00</foedselsdato>
-        <fornavn>Sonja Irene</fornavn>
-        <id>SONS</id>
-        <kjoenn>kvinne</kjoenn>
-      </vara_for>
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2669,6 +2717,31 @@
           <versjon>1.0</versjon>
           <id>H</id>
           <navn>Høyre</navn>
+        </parti>
+      </representant>
+      <vara_for i:nil="true" />
+      <votering>for</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Micaelsen</etternavn>
+        <foedselsdato>1979-05-20T00:00:00</foedselsdato>
+        <fornavn>Torgeir</fornavn>
+        <id>TMI</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Bu</id>
+          <navn>Buskerud</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>A</id>
+          <navn>Arbeiderpartiet</navn>
         </parti>
       </representant>
       <vara_for i:nil="true" />
@@ -2697,40 +2770,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Mjøberg</etternavn>
-        <foedselsdato>1964-04-18T00:00:00</foedselsdato>
-        <fornavn>Nina</fornavn>
-        <id>NIMJ</id>
-        <kjoenn>kvinne</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Bu</id>
-          <navn>Buskerud</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>A</id>
-          <navn>Arbeiderpartiet</navn>
-        </parti>
-      </representant>
-      <vara_for>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Gustavsen</etternavn>
-        <foedselsdato>1973-10-24T00:00:00</foedselsdato>
-        <fornavn>Laila</fornavn>
-        <id>LAG</id>
-        <kjoenn>kvinne</kjoenn>
-      </vara_for>
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2755,7 +2795,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2780,7 +2820,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>mot</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2830,7 +2870,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2855,7 +2895,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2880,7 +2920,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2905,7 +2945,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2930,7 +2970,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2955,7 +2995,40 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Nødseth</etternavn>
+        <foedselsdato>1988-06-24T00:00:00</foedselsdato>
+        <fornavn>Jacob</fornavn>
+        <id>JAN</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>SF</id>
+          <navn>Sogn og Fjordane</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+        </parti>
+      </representant>
+      <vara_for>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Lødemel</etternavn>
+        <foedselsdato>1958-08-19T00:00:00</foedselsdato>
+        <fornavn>Bjørn</fornavn>
+        <id>BLO</id>
+        <kjoenn>mann</kjoenn>
+      </vara_for>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -2980,7 +3053,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>ikke_tilstede</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3005,7 +3078,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3038,7 +3111,7 @@
         <id>ESAN</id>
         <kjoenn>mann</kjoenn>
       </vara_for>
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3063,7 +3136,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3088,7 +3161,40 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Orlund</etternavn>
+        <foedselsdato>1964-09-07T00:00:00</foedselsdato>
+        <fornavn>Anita</fornavn>
+        <id>AOR</id>
+        <kjoenn>kvinne</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Ak</id>
+          <navn>Akershus</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>A</id>
+          <navn>Arbeiderpartiet</navn>
+        </parti>
+      </representant>
+      <vara_for>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Eldegard</etternavn>
+        <foedselsdato>1963-04-14T00:00:00</foedselsdato>
+        <fornavn>Gunvor</fornavn>
+        <id>GUE</id>
+        <kjoenn>kvinne</kjoenn>
+      </vara_for>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3097,10 +3203,10 @@
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Pedersen</etternavn>
-        <foedselsdato>1973-01-13T00:00:00</foedselsdato>
-        <fornavn>Helga</fornavn>
-        <id>HPED</id>
-        <kjoenn>kvinne</kjoenn>
+        <foedselsdato>1981-11-01T00:00:00</foedselsdato>
+        <fornavn>Willy</fornavn>
+        <id>WAP</id>
+        <kjoenn>mann</kjoenn>
         <fylke>
           <versjon>1.0</versjon>
           <id>Fi</id>
@@ -3112,8 +3218,49 @@
           <navn>Arbeiderpartiet</navn>
         </parti>
       </representant>
-      <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <vara_for>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Pedersen</etternavn>
+        <foedselsdato>1973-01-13T00:00:00</foedselsdato>
+        <fornavn>Helga</fornavn>
+        <id>HPED</id>
+        <kjoenn>kvinne</kjoenn>
+      </vara_for>
+      <votering>for</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Pettersen</etternavn>
+        <foedselsdato>1972-07-25T00:00:00</foedselsdato>
+        <fornavn>Tage</fornavn>
+        <id>TAGP</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Øs</id>
+          <navn>Østfold</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+        </parti>
+      </representant>
+      <vara_for>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Schou</etternavn>
+        <foedselsdato>1955-01-20T00:00:00</foedselsdato>
+        <fornavn>Ingjerd</fornavn>
+        <id>ISC</id>
+        <kjoenn>kvinne</kjoenn>
+      </vara_for>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3146,7 +3293,40 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>ikke_tilstede</votering>
+      <votering>for</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Raja</etternavn>
+        <foedselsdato>1975-11-05T00:00:00</foedselsdato>
+        <fornavn>Abid Q.</fornavn>
+        <id>ABIR</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Ak</id>
+          <navn>Akershus</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>V</id>
+          <navn>Venstre</navn>
+        </parti>
+      </representant>
+      <vara_for>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Tenden</etternavn>
+        <foedselsdato>1951-06-23T00:00:00</foedselsdato>
+        <fornavn>Borghild</fornavn>
+        <id>BT</id>
+        <kjoenn>kvinne</kjoenn>
+      </vara_for>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3179,7 +3359,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3204,6 +3384,39 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
+      <votering>ikke_tilstede</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Rindal</etternavn>
+        <foedselsdato>1984-02-22T00:00:00</foedselsdato>
+        <fornavn>Johannes</fornavn>
+        <id>JRI</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Op</id>
+          <navn>Oppland</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>Sp</id>
+          <navn>Senterpartiet</navn>
+        </parti>
+      </representant>
+      <vara_for>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Wøien</etternavn>
+        <foedselsdato>1965-06-18T00:00:00</foedselsdato>
+        <fornavn>Anne Tingelstad</fornavn>
+        <id>ATW</id>
+        <kjoenn>kvinne</kjoenn>
+      </vara_for>
       <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
@@ -3229,57 +3442,32 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Ropstad</etternavn>
-        <foedselsdato>1985-06-01T00:00:00</foedselsdato>
-        <fornavn>Kjell Ingolf</fornavn>
-        <id>KJR</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>AA</id>
-          <navn>Aust-Agder</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>KrF</id>
-          <navn>Kristelig Folkeparti</navn>
-        </parti>
-      </representant>
-      <vara_for i:nil="true" />
-      <votering>mot</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Rytman</etternavn>
-        <foedselsdato>1977-05-04T00:00:00</foedselsdato>
-        <fornavn>Jørund</fornavn>
-        <id>JHR</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Bu</id>
-          <navn>Buskerud</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>FrP</id>
-          <navn>Fremskrittspartiet</navn>
-        </parti>
-      </representant>
-      <vara_for i:nil="true" />
       <votering>for</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Rudihagen</etternavn>
+        <foedselsdato>1951-08-14T00:00:00</foedselsdato>
+        <fornavn>Torstein</fornavn>
+        <id>TR</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Op</id>
+          <navn>Oppland</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>A</id>
+          <navn>Arbeiderpartiet</navn>
+        </parti>
+      </representant>
+      <vara_for i:nil="true" />
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3304,7 +3492,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3321,31 +3509,6 @@
           <versjon>1.0</versjon>
           <id>Ak</id>
           <navn>Akershus</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>H</id>
-          <navn>Høyre</navn>
-        </parti>
-      </representant>
-      <vara_for i:nil="true" />
-      <votering>for</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Schou</etternavn>
-        <foedselsdato>1955-01-20T00:00:00</foedselsdato>
-        <fornavn>Ingjerd</fornavn>
-        <id>ISC</id>
-        <kjoenn>kvinne</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Øs</id>
-          <navn>Østfold</navn>
         </fylke>
         <parti>
           <versjon>1.0</versjon>
@@ -3379,7 +3542,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3404,7 +3567,32 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.0</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Sjøli</etternavn>
+        <foedselsdato>1949-06-06T00:00:00</foedselsdato>
+        <fornavn>Sonja Irene</fornavn>
+        <id>SONS</id>
+        <kjoenn>kvinne</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Ak</id>
+          <navn>Akershus</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+        </parti>
+      </representant>
+      <vara_for i:nil="true" />
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3429,7 +3617,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3454,7 +3642,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>ikke_tilstede</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3479,7 +3667,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3504,7 +3692,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3529,7 +3717,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>mot</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3551,31 +3739,6 @@
           <versjon>1.0</versjon>
           <id>FrP</id>
           <navn>Fremskrittspartiet</navn>
-        </parti>
-      </representant>
-      <vara_for i:nil="true" />
-      <votering>for</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Stokkan-Grande</etternavn>
-        <foedselsdato>1978-04-05T00:00:00</foedselsdato>
-        <fornavn>Arild</fornavn>
-        <id>AAST</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>NT</id>
-          <navn>Nord-Trøndelag</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>A</id>
-          <navn>Arbeiderpartiet</navn>
         </parti>
       </representant>
       <vara_for i:nil="true" />
@@ -3612,7 +3775,7 @@
         <id>PO</id>
         <kjoenn>mann</kjoenn>
       </vara_for>
-      <votering>for</votering>
+      <votering>mot</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3637,7 +3800,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3662,7 +3825,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3687,7 +3850,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>mot</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3712,7 +3875,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3737,7 +3900,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3762,7 +3925,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3787,7 +3950,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3812,32 +3975,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Tenden</etternavn>
-        <foedselsdato>1951-06-23T00:00:00</foedselsdato>
-        <fornavn>Borghild</fornavn>
-        <id>BT</id>
-        <kjoenn>kvinne</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Ak</id>
-          <navn>Akershus</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>V</id>
-          <navn>Venstre</navn>
-        </parti>
-      </representant>
-      <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3862,7 +4000,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>ikke_tilstede</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3912,7 +4050,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -3962,7 +4100,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>mot</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -4012,7 +4150,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -4037,7 +4175,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -4062,7 +4200,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -4087,7 +4225,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -4109,31 +4247,6 @@
           <versjon>1.0</versjon>
           <id>FrP</id>
           <navn>Fremskrittspartiet</navn>
-        </parti>
-      </representant>
-      <vara_for i:nil="true" />
-      <votering>for</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Valen</etternavn>
-        <foedselsdato>1984-09-16T00:00:00</foedselsdato>
-        <fornavn>Snorre Serigstad</fornavn>
-        <id>SNV</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>ST</id>
-          <navn>Sør-Trøndelag</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>SV</id>
-          <navn>Sosialistisk Venstreparti</navn>
         </parti>
       </representant>
       <vara_for i:nil="true" />
@@ -4162,7 +4275,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -4195,7 +4308,7 @@
         <id>GUO</id>
         <kjoenn>kvinne</kjoenn>
       </vara_for>
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -4245,7 +4358,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>for</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -4278,7 +4391,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>for</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -4300,31 +4413,6 @@
           <versjon>1.0</versjon>
           <id>FrP</id>
           <navn>Fremskrittspartiet</navn>
-        </parti>
-      </representant>
-      <vara_for i:nil="true" />
-      <votering>for</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.0</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Wøien</etternavn>
-        <foedselsdato>1965-06-18T00:00:00</foedselsdato>
-        <fornavn>Anne Tingelstad</fornavn>
-        <id>ATW</id>
-        <kjoenn>kvinne</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Op</id>
-          <navn>Oppland</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>Sp</id>
-          <navn>Senterpartiet</navn>
         </parti>
       </representant>
       <vara_for i:nil="true" />
@@ -4353,7 +4441,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
     <representant_voteringsresultat>
       <versjon>1.0</versjon>
@@ -4378,7 +4466,7 @@
         </parti>
       </representant>
       <vara_for i:nil="true" />
-      <votering>mot</votering>
+      <votering>ikke_tilstede</votering>
     </representant_voteringsresultat>
   </voteringsresultat_liste>
 </voteringsresultat_oversikt>
