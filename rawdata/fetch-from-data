@@ -39,3 +39,6 @@ for sakid in 48650 49355 49975 47553 50319 50705 40970 40971 48718 45513 48577 4
 	echo "got voteringsresultat for sakid=$sakid voteringsid=$vid"
     done
 done
+
+# Remove "empty" XML files.
+rm $(grep -l '<voteringsresultat_liste />' data.stortinget.no/voteringsresultat/index.html\?voteringid\=*)
