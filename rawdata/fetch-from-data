@@ -30,8 +30,9 @@ for id in $(current_sessions); do
     echo got $id 
 done
 
+sakidwithvotes="48650 49355 49975 47553 50319 50705 40970 40971 48718 45513 48577 46647 46623 49366 47162 49978 47793 48141"
 # The ones with votes in the beta data set.
-for sakid in 48650 49355 49975 47553 50319 50705 40970 40971 48718 45513 48577 46647 46623 49366 47162 49978 47793 48141 ; do
+for sakid in $sakidwithvotes; do
     echo "got votering for sakid=$sakid"
     fetch "data.stortinget.no/voteringer/?sakid=$sakid"
     for vid in $(GET "http://data.stortinget.no/voteringer/?sakid=$sakid" |grep '<votering_id>' |sed 's%.*id>\(.*\)</.*%\1%') ; do
@@ -42,3 +43,6 @@ done
 
 # Remove "empty" XML files.
 rm $(grep -l '<voteringsresultat_liste />' data.stortinget.no/voteringsresultat/index.html\?voteringid\=*)
+
+today=$(date +%Y-%m-%d)
+git commit -m "Inn med data fra $today." data.stortinget.no
