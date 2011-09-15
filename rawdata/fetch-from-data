@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 fetch() {
     url="$1"
     file="$url"
@@ -13,11 +15,16 @@ fetch() {
 	*)
 	    ;;
     esac
-    GET "http://$url" > "$file"
+    if GET "http://$url" > "$file".new ; then
+	mv "$file".new "$file"
+    else
+	return false
+    fi
 }
 
 current_sessions() {
-    grep id data.stortinget.no/sesjoner/index.html | cut -d'<' -f2|cut -d'>' -f2|sort -u
+    grep id data.stortinget.no/sesjoner/index.html | \
+	cut -d'<' -f2 | cut -d'>' -f2|sort -u
 }
 
 fetch data.stortinget.no/
