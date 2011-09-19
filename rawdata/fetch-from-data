@@ -18,7 +18,8 @@ fetch() {
     if GET "http://$url" > "$file".new ; then
 	mv "$file".new "$file"
     else
-	return false
+	echo "Unable to fetch $url. aborting"
+	false
     fi
 }
 
