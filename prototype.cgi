@@ -93,6 +93,8 @@ sub show_division {
             '151' => '2006-2007',
             '152' => '2007-2008',
             '153' => '2008-2009',
+            '154' => '2009-2010',
+            '155' => '2010-2011',
             );
         my $yearstr = $sessionmap{$session_num};
         if (defined $yearstr) {
