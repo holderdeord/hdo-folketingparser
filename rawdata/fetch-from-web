@@ -4,4 +4,4 @@ set -e
 today=$(date +%Y-%m-%d)
 URLPATH=www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representantfordeling/
 GET http://$URLPATH > ${URLPATH}index.html &&
-  git commit -m "Inn med data fra $today." www.stortinget.no
+  git commit -m "Inn med web page data fra $today." www.stortinget.no
