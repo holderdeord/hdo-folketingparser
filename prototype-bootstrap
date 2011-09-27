@@ -3,6 +3,10 @@ set -e
 rm prototype.sqlite
 sqlite3 prototype.sqlite < prototype-schema.sql
 ./load-people-xml stortinget-persons-scraped.xml  
-./load-vote-xml votering-2011-03-21.xml votering-2011-04-04-dld.xml \
-    votering-2011-04-11.xml
+./load-vote-xml \
+    votering-2010-11-19.xml \
+    votering-2011-04-11.xml \
+    votering-2011-03-21.xml \
+    votering-2011-04-04-dld.xml \
+    votering-2011-04-11.xml 
 sqlite3 prototype.sqlite < prototype-data.sql
