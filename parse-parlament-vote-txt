@@ -7,6 +7,8 @@ use XML::Simple;
 use open IN  => ":encoding(iso-8859-1)", OUT => ":utf8";
 use open ':std';
 
+use utf8;
+
 my $votemap = {
     'For' => 'yes',
     'Mot' => 'no',
@@ -20,6 +22,16 @@ my $description;
 my $fylke;
 
 my %member;
+
+my %groupmap = (
+    'H' => 'Høyre',
+    'A' => 'Arbeiderpartiet',
+    'FrP' => 'Fremskrittspartiet',
+    'SV' => 'Sosialistisk Venstreparti',
+    'Sp' => 'Senterpartiet',
+    'KrF' => 'Kristelig Folkeparti',
+    'V' => 'Venstre',
+    );
 
 my %entries = load_member_list();
 
@@ -75,7 +87,8 @@ while (<$fh>) {
                 print "    <description>$description</description>\n";
             }
             my $perid = $entries{$name};
-            print "    <mpname perid=\"$perid\" vote=\"$xmlvote\">$name</mpname>\n";
+            my $party = exists $groupmap{$group} ? $groupmap{$group} : 'unknown';
+            print "    <mpname perid=\"$perid\" vote=\"$xmlvote\" party=\"$party\">$name</mpname>\n";
         }
     }
     if (m/Enstemmig vedtatt/) {
