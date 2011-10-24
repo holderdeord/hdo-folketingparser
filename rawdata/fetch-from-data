@@ -57,4 +57,5 @@ done
 rm $(grep -l '<voteringsresultat_liste />' data.stortinget.no/voteringsresultat/index.html\?voteringid\=*) || true
 
 today=$(date +%Y-%m-%d)
+git add data.stortinget.no
 git commit -m "Inn med data fra $today." data.stortinget.no
