@@ -207,7 +207,22 @@
     </sak>
     <sak>
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>66</id>
+          <navn>SYKDOMMER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:8 S (2011-2012)</henvisning>
       <id>51595</id>
       <komite i:nil="true" />
@@ -220,7 +235,15 @@
     </sak>
     <sak>
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:10 S (2011-2012)</henvisning>
       <id>51577</id>
       <komite i:nil="true" />
@@ -233,7 +256,15 @@
     </sak>
     <sak>
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>143</id>
+          <navn>SJØFART</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:9 S (2011-2012)</henvisning>
       <id>51578</id>
       <komite i:nil="true" />
@@ -9886,11 +9917,11 @@ Norge og Ukraina, begge av 24. juni 2010
         <representant>
           <versjon>1.0</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Hagen</etternavn>
-          <foedselsdato>1953-10-04T00:00:00</foedselsdato>
-          <fornavn>Aksel</fornavn>
-          <id>AKSH</id>
-          <kjoenn>mann</kjoenn>
+          <etternavn>Kvam</etternavn>
+          <foedselsdato>1989-04-17T00:00:00</foedselsdato>
+          <fornavn>Kristine</fornavn>
+          <id>KRK</id>
+          <kjoenn>kvinne</kjoenn>
           <fylke>
             <versjon>1.0</versjon>
             <id>Op</id>
