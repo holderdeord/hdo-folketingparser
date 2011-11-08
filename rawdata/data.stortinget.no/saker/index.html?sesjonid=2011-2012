@@ -258,6 +258,38 @@
       <type>alminneligsak</type>
     </sak>
     <sak>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S Tillegg 1 (2011-2012)</henvisning>
+      <id>51628</id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S om statsbudsjettet for 2012</korttittel>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2011-10-27T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S om statsbudsjettet for 2012 under Forsvarsdepartementet</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste>
         <emne>
@@ -468,38 +500,6 @@
       <type>alminneligsak</type>
     </sak>
     <sak>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>185</id>
-          <navn>STATSBUDSJETTET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 1 S Tillegg 1 (2011-2012)</henvisning>
-      <id>51628</id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>FINANS</id>
-        <navn>Finanskomiteen</navn>
-      </komite>
-      <korttittel>Endring av Prop. 1 S om statsbudsjettet for 2012</korttittel>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2011-10-27T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endring av Prop. 1 S om statsbudsjettet for 2012 under Forsvarsdepartementet</tittel>
-      <type>budsjett</type>
-    </sak>
-    <sak>
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste>
         <emne>
@@ -659,7 +659,22 @@
     </sak>
     <sak>
       <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>171</id>
+          <navn>NORDISK SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Meld. St. 5 (2011-2012)</henvisning>
       <id>51433</id>
       <komite>
@@ -975,9 +990,33 @@
       </emne_liste>
       <henvisning>Dokument 8:12 S (2011-2012)</henvisning>
       <id>51647</id>
-      <komite i:nil="true" />
+      <komite>
+        <versjon>1.0</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
       <korttittel>Representantforslag om umiddelbar oppfølging av tiltakene for bekjempelse av voldtekt slik skissert i NOU 2008:4 (Voldtektsutvalget)</korttittel>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Klinge</etternavn>
+          <foedselsdato>1975-11-28T00:00:00</foedselsdato>
+          <fornavn>Jenny</fornavn>
+          <id>JKL</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>MR</id>
+            <navn>Møre og Romsdal</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2011-10-26T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Representantforslag fra stortingsrepresentantene Trine Skei Grande og  Borghild Tenden om umiddelbar oppfølging av tiltakene for bekjempelse av voldtekt slik skissert i NOU 2008:4 (Voldtektsutvalget)</tittel>
@@ -1052,9 +1091,33 @@
       </emne_liste>
       <henvisning>Dokument 8:14 S (2011-2012)</henvisning>
       <id>51651</id>
-      <komite i:nil="true" />
+      <komite>
+        <versjon>1.0</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
       <korttittel>Representantforslag om et opprør mot voldtektsbølgen</korttittel>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Klinge</etternavn>
+          <foedselsdato>1975-11-28T00:00:00</foedselsdato>
+          <fornavn>Jenny</fornavn>
+          <id>JKL</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>MR</id>
+            <navn>Møre og Romsdal</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2011-10-26T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Representantforslag fra stortingsrepresentantene Siv Jensen, Mette Hanekamhaug, Åse Michaelsen, Bente Thorsen, Solveig Horne, Kari Kjønaas Kjos,  Karin S. Woldseth, Siv Aida Rui Skattem, Åshild Karoline Haugland og  Laila Marie Reiertsen om et opprør mot voldtektsbølgen</tittel>
@@ -1093,34 +1156,6 @@
       <sist_oppdatert_dato>2011-10-25T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Årsrapport fra Stortingets delegasjon for arktisk parlamentarisk samarbeid for perioden 15. september 2010 til 1. oktober 2011</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>180</id>
-          <navn>FREDSARBEID</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning i:nil="true" />
-      <id>51589</id>
-      <komite i:nil="true" />
-      <korttittel>Den Norske Nobelkomité meddeler at Nobels fredspris for 2011 er tildelt Ellen Johnson Sirleaf, Leymah Gbowee og Tawakkul Karman</korttittel>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2011-10-20T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Den Norske Nobelkomité meddeler at Nobels fredspris for 2011 er tildelt Ellen Johnson Sirleaf, Leymah Gbowee og Tawakkul Karman</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -1233,6 +1268,34 @@
       <sist_oppdatert_dato>2011-10-20T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Robert Eriksson, Laila Marie Reiertsen og Vigdis Giltun om å nedsette et offentlig utvalg for å utrede lovfestet minstelønn - tiltak mot uønskede arbeidsbetingelser i det norske arbeidsmarkedet</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>180</id>
+          <navn>FREDSARBEID</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning i:nil="true" />
+      <id>51589</id>
+      <komite i:nil="true" />
+      <korttittel>Den Norske Nobelkomité meddeler at Nobels fredspris for 2011 er tildelt Ellen Johnson Sirleaf, Leymah Gbowee og Tawakkul Karman</korttittel>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2011-10-20T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Den Norske Nobelkomité meddeler at Nobels fredspris for 2011 er tildelt Ellen Johnson Sirleaf, Leymah Gbowee og Tawakkul Karman</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -1359,6 +1422,58 @@
       <sist_oppdatert_dato>2011-10-12T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Representantforslag fra stortingsrepresentantene Erna Solberg, Bent Høie og Sonja Irene Sjøli om bedre kvalitet og pasientsikkerhet i helsetjenesten</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>68</id>
+          <navn>KUNST</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:2 S (2011-2012)</henvisning>
+      <id>51396</id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FAMKULT</id>
+        <navn>Familie- og kulturkomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om profesjonalisering og utvikling av kor- og vokalmusikken i Norge</korttittel>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Helleland</etternavn>
+          <foedselsdato>1977-08-26T00:00:00</foedselsdato>
+          <fornavn>Linda C. Hofstad</fornavn>
+          <id>LCH</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>ST</id>
+            <navn>Sør-Trøndelag</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2011-10-11T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Øyvind Håbrekke, Knut Arild Hareide, Dagrun Eriksen, Rigmor Andersen Eide om profesjonalisering og utvikling av kor- og vokalmusikken i Norge</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -1534,58 +1649,6 @@
 Norge og Ukraina, begge av 24. juni 2010
 
 </tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>6</id>
-          <navn>KULTUR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>68</id>
-          <navn>KUNST</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:2 S (2011-2012)</henvisning>
-      <id>51396</id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>FAMKULT</id>
-        <navn>Familie- og kulturkomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om profesjonalisering og utvikling av kor- og vokalmusikken i Norge</korttittel>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Helleland</etternavn>
-          <foedselsdato>1977-08-26T00:00:00</foedselsdato>
-          <fornavn>Linda C. Hofstad</fornavn>
-          <id>LCH</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>ST</id>
-            <navn>Sør-Trøndelag</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2011-10-11T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Øyvind Håbrekke, Knut Arild Hareide, Dagrun Eriksen, Rigmor Andersen Eide om profesjonalisering og utvikling av kor- og vokalmusikken i Norge</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -6110,32 +6173,6 @@ Norge og Ukraina, begge av 24. juni 2010
       <type>alminneligsak</type>
     </sak>
     <sak>
-      <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Dokument 13 (2011-2012)</henvisning>
-      <id>51541</id>
-      <komite i:nil="true" />
-      <korttittel>Årsrapport fra Stortingets delegasjon til Nordisk Råd for 2. halvår 2010-1. halvår 2011</korttittel>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2011-10-01T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Årsrapport fra Stortingets delegasjon til Nordisk Råd for 2. halvår 2010-1. halvår 2011</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <dokumentgruppe>redegjørelse</dokumentgruppe>
-      <emne_liste />
-      <henvisning i:nil="true" />
-      <id>51777</id>
-      <komite i:nil="true" />
-      <korttittel>Redegjørelse av utenriksministeren om viktige EU- og EØS saker</korttittel>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2011-10-01T00:00:00</sist_oppdatert_dato>
-      <status>varslet</status>
-      <tittel>Redegjørelse av utenriksministeren om viktige EU- og EØS saker</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
       <dokumentgruppe>innstillingssaker</dokumentgruppe>
       <emne_liste>
         <emne>
@@ -6227,6 +6264,32 @@ Norge og Ukraina, begge av 24. juni 2010
       <status>mottatt</status>
       <tittel>Valg av et varamedlem til Stortingets delegasjon til EFTA- parlamentarikerkomiteen og Den felles EØS-parlamentarikerkomiteen
 </tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <dokumentgruppe>redegjørelse</dokumentgruppe>
+      <emne_liste />
+      <henvisning i:nil="true" />
+      <id>51777</id>
+      <komite i:nil="true" />
+      <korttittel>Redegjørelse av utenriksministeren om viktige EU- og EØS saker</korttittel>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2011-10-01T00:00:00</sist_oppdatert_dato>
+      <status>varslet</status>
+      <tittel>Redegjørelse av utenriksministeren om viktige EU- og EØS saker</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <dokumentgruppe>dokumentserien</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 13 (2011-2012)</henvisning>
+      <id>51541</id>
+      <komite i:nil="true" />
+      <korttittel>Årsrapport fra Stortingets delegasjon til Nordisk Råd for 2. halvår 2010-1. halvår 2011</korttittel>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2011-10-01T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Årsrapport fra Stortingets delegasjon til Nordisk Råd for 2. halvår 2010-1. halvår 2011</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
