@@ -218,10 +218,14 @@
     <sak>
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste />
-      <henvisning>Prop. 19 S (2011-2012)</henvisning>
+      <henvisning>Prop. 19 S (2011-2012), unntatt kap. 821, 822, 3821 og 3822</henvisning>
       <id>51426</id>
-      <komite i:nil="true" />
-      <korttittel>Endringar i statsbudsjettet 2011 under Barne-, likestillings- og inkluderingsdepartementet</korttittel>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KOMMFORV</id>
+        <navn>Kommunal- og forvaltningskomiteen</navn>
+      </komite>
+      <korttittel>Endringar i statsbudsjettet 2011, unntatt kap. 821, 822, 3821 og 3822</korttittel>
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2011-11-18T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
@@ -244,7 +248,7 @@
     <sak>
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste />
-      <henvisning>Prop. 25 LS (2011-2012), Prop. 25 S (2011-2012)</henvisning>
+      <henvisning>Prop. 25 S (2011-2012)</henvisning>
       <id>51449</id>
       <komite>
         <versjon>1.0</versjon>
@@ -644,9 +648,13 @@
     <sak>
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste />
-      <henvisning>Prop. 18 S (2011-2012)</henvisning>
+      <henvisning>Prop. 18 S (2011-2012), unntatt kap. 490, 3490, 491, 456, 3456 og 480</henvisning>
       <id>51922</id>
-      <komite i:nil="true" />
+      <komite>
+        <versjon>1.0</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
       <korttittel>Endringar i statsbudsjettet for 2011 under Justis- og politidepartementet</korttittel>
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2011-11-18T00:00:00</sist_oppdatert_dato>
@@ -657,14 +665,14 @@
     <sak>
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste />
-      <henvisning>Prop. 22 S (2011-2012)</henvisning>
+      <henvisning>Prop. 22 S (2011-2012), unntatt kap. 310</henvisning>
       <id>51923</id>
       <komite>
         <versjon>1.0</versjon>
         <id>FAMKULT</id>
         <navn>Familie- og kulturkomiteen</navn>
       </komite>
-      <korttittel>Endringer i statsbudsjettet for 2011 under Kulturdepartementet</korttittel>
+      <korttittel>Endringer i statsbudsjettet for 2011, unntatt kap. 310</korttittel>
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2011-11-18T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
@@ -735,6 +743,91 @@
       <status>mottatt</status>
       <tittel>Endringar i statsbudsjettet for 2011 under Samferdselsdepartementet</tittel>
       <type>budsjett</type>
+    </sak>
+    <sak>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 19 S (2011-2012), kap. 821, 822, 3821 og 3822</henvisning>
+      <id>51938</id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FAMKULT</id>
+        <navn>Familie- og kulturkomiteen</navn>
+      </komite>
+      <korttittel>Endringar i statsbudsjettet 2011, kap. 821, 822, 3821 og 3822</korttittel>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2011-11-18T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Endringar i statsbudsjettet 2011 under Barne-, likestillings- og inkluderingsdepartementet</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 22 S (2011-2012), kap. 310</henvisning>
+      <id>51939</id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KIRKE</id>
+        <navn>Kirke-, utdannings- og forskningskomiteen</navn>
+      </komite>
+      <korttittel>Endringer i statsbudsjettet for 2011, kap. 310</korttittel>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2011-11-18T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Endringer i statsbudsjettet for 2011 under Kulturdepartementet</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 18 S (2011-2012), kap. 490, 3490 og 491</henvisning>
+      <id>51940</id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KOMMFORV</id>
+        <navn>Kommunal- og forvaltningskomiteen</navn>
+      </komite>
+      <korttittel>Endringar i statsbudsjettet for 2011under Justis- og politidepartementet</korttittel>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2011-11-18T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Endringar i statsbudsjettet for 2011 under Justis- og politidepartementet</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 18 S (2011-2012), kap. 456 og 3456</henvisning>
+      <id>51941</id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>TRANSKOM</id>
+        <navn>Transport- og kommunikasjonskomiteen</navn>
+      </komite>
+      <korttittel>Endringar i statsbudsjettet for 2011 under Justis- og politidepartementet</korttittel>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2011-11-18T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Endringar i statsbudsjettet for 2011 under Justis- og politidepartementet</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 18 S (2011-2012), kap 480</henvisning>
+      <id>51942</id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>UFK</id>
+        <navn>Utenriks- og forsvarskomiteen</navn>
+      </komite>
+      <korttittel>Endringar i statsbudsjettet for 2011 under Justis- og politidepartementet</korttittel>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2011-11-18T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Endringar i statsbudsjettet for 2011 under Justis- og politidepartementet</tittel>
+      <type>alminneligsak</type>
     </sak>
     <sak>
       <dokumentgruppe>redegjørelse</dokumentgruppe>
@@ -9953,6 +10046,19 @@ Norge og Ukraina, begge av 24. juni 2010</tittel>
       <sist_oppdatert_dato>2011-11-16T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Valg av medlemmer og varamedlemmer til Nobelkomiteen</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <dokumentgruppe>dokumentserien</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 1 (2011-2012)</henvisning>
+      <id>51944</id>
+      <komite i:nil="true" />
+      <korttittel>Riksrevisjonens rapport om den årlige revisjon og kontroll for budsjettåret 2010</korttittel>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2011-10-01T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Riksrevisjonens rapport om den årlige revisjon og kontroll for budsjettåret 2010</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
