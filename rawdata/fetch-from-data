@@ -64,6 +64,6 @@ done
 # Remove "empty" XML files.  Keep going if no files are empty
 rm $(grep -l '<voteringsresultat_liste />' data.stortinget.no/eksport/voteringsresultat/index.html\?voteringid\=*) || true
 
-today=$(date +%Y-%m-%d)
+today=$(date +%Y-%m-%dT%H%M)
 git add data.stortinget.no
 git commit -m "Inn med data fra $today." data.stortinget.no
