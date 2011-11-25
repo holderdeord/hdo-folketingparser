@@ -1,48 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="no" xmlns="http://www.w3.org/1999/xhtml">
 
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Forsiden - data.stortinget.no</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="/Content/Site.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="/favicon.ico" />
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" >
-<head><title>
-	Stortingets data service
-</title></head>
+<script type="text/javascript" src="/N2/Resources/Js/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="/N2/Resources/Js/jquery.ui.ashx?v=2.2.0.0"></script>
+<script type="text/javascript" src="/Scripts/effects.js"></script>
+<script type="text/javascript" src="/Scripts/SyntaxHighlighter/shCore.js"></script>
+<script type="text/javascript" src="/Scripts/SyntaxHighlighter/shAutoloader.js"></script>
+<script type="text/javascript" src="/Scripts/stickysidebar.jquery.js"></script>	
+</head>
 <body>
-    <form name="form1" method="post" action="default.aspx" id="form1">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNzgzNDMwNTMzZGQltDeiWr5anwqmzgYrdWR9tQvTHQ==" />
-
-        <div>
-            <h2>Dette er startsiden til Stortingets dataservice</h2>
-
-            <p>Stortinges dataservice er nylig startet i en beta-fase, og vil blir jevnlig oppdatert.</p>
-
-            <p>Dette er en testløsning, kun til bruk for testformål. Stortingets administrasjon tar ikke ansvar for konsekvenser som følge av feil i systemet.</p>
-
-            <p>I starten er det bare forespørsler etter data på xml-format som er tilgjengelig, men etter hvert vil det komme mer innhold av andre typer.</p>
-
-	    <ul>
-                <li><a href="http://data.stortinget.no/partier/">Partier som er representert på Stortinget inneværende valgperiode</a></li>
-
-                <li><a href="http://data.stortinget.no/dagensrepresentanter/">Dagens møtende representanter</a></li>
-
-                <li><a href="http://data.stortinget.no/sesjoner/">Sesjoner som har data tilgjengelig</a></li>
-
-                <li><a href="http://data.stortinget.no/saker/">Saker for inneværende sesjon</a></li>
-
-                <li><a href="http://data.stortinget.no/saker/?sesjonid=2008-2009">Saker for 2008-2009 sesjonen</a></li>
-
-                <li><a href="http://data.stortinget.no/voteringer/?sakid=51207">Voteringer for sak med sakid=51207</a></li>
-
-                <li><a href="http://data.stortinget.no/voteringsresultat/?voteringid=1465">Voteringsresultat for votering med voteringid=1465</a></li>
-            </ul>
-
-            <br/>
-
-            <p>Teknisk dokumentasjon for Stortingets dataservice utsendes etter forespørsel.</p>
-
-            <p>Kontaktinformasjon: <a href="mailto:web@stortinget.no">web@stortinget.no</a></p>
-
-            <p><em>Siden ble sist oppdatert: 6. oktober 2011</em></p>
+    
+	<div id="topwrapper">
+        <div id="topbg">
+            <div id="top"><ul>
+<li><a href="/" title="Forsiden" class="logotype"><img alt="" src="/upload/Site/logo_72dpi-01.png" /></a></li>
+</ul>
+</div>
         </div>
-    </form>
+        <div id="topmenubg">
+            <div class="nav">
+                <div id="topnav"><ul id="menu" class="topmenu">
+        <li class="topcell">
+            <a href="/om-tjenesten">Om tjenesten</a>
+
+        </li>
+        <li class="topcell">
+            <a href="/endringer">Endringer</a>
+
+        </li>
+        <li class="topcell">
+            <a href="/hvordan-bruke-tjenesten">Hvordan bruke tjenesten</a>
+
+        </li>
+        <li class="topcell">
+            <a href="/eksempler">Eksempler</a>
+
+        </li>
+        <li class="topcell">
+            <a href="/ofte-stilte-sporsmal">Ofte stilte spørsmål</a>
+
+        </li>
+	
+</ul>
+</div>
+            </div>
+        </div>
+        <div id="submenubg">
+            <div class="nav">
+                <div id="subnav">    <ul class="submenu">
+    
+    
+    <li class="search"><form action="/Search" id="sitesearch" method="get">      <div id="searchwrapper">
+        <input id="searchbutton" type="submit" value=""/>
+        <input id="searchfield" name="q" type="text" value="Søk" />
+      </div>
+</form></li>
+    </ul>
+</div>
+            </div>
+        </div>
+    </div>
+        <div id="mainwrapper">
+	        <div id="breadcrumb"><span>Du er her: </span>Forsiden</div>            
+
+<div id="main" class="clearfix">
+	<div id="content"><h2><span style="text-decoration: underline;">Stortingets datatjeneste</span></h2>
+<h3><strong></strong>&nbsp;</h3>
+<p><strong>Hva er dette?</strong></p>
+<p>&nbsp;</p>
+<p>Denne datatjenesten tilbyr uttrekk av data fra databaser som benyttes i Stortingets&nbsp; parlamentariske saksbehandling. Forel&oslash;pig tilbys data om voteringer, enkelte data om saker og enkelte data om representanter. Etter hvert vil flere dataelementer bli tilgjengeliggjort gjennom tjenesten. (Komplett oversikt over <a href="/upload/elementliste.pdf">tilgjengelige dataelementer pr. i dag</a>)</p>
+<p>&nbsp;</p>
+<p>Tjenesten driftes av <a href="http://www.stortinget.no/no/Stortinget-og-demokratiet/Administrasjonen/Avdelinger-og-seksjoner/Informasjons--og-dokumentasjonsavdelingen-/">Stortingets nettredaksjon</a>.</p>
+<p>&nbsp;</p>
+<p><strong>Hvordan ta i bruk dataene?</strong></p>
+<p><strong></strong>&nbsp;</p>
+<p>I f&oslash;rste versjon kan data hentes ut i xml-format ved hjelp av forh&aring;ndsdefinerte foresp&oslash;rsler, for eksempel URIen <a href="/eksport/representanter?stortingsperiodeid=2005-2009">http://data.stortinget.no/eksport/representanter?stortingsperiodeid=2005-2009</a> som returnerer et xml-dokument som respons, i dette eksempelet en oversikt over alle innvalgte representanter for&nbsp; stortingsperioden 2005-2009. Etter hvert vil det bli mulig &aring; velge blant flere returnerte formater.</p>
+<p>&nbsp;</p>
+<p>(<a href="/eksport">Liste med eksisterende&nbsp;foresp&oslash;rsler</a>)</p>
+<p>&nbsp;</p>
+<p>(<a href="/upload/TekniskDokumentasjon.pdf">Teknisk dokumentasjon</a>&nbsp;med komplett API)</p>
+<p>&nbsp;</p>
+<p><strong>Vilk&aring;r for bruk</strong></p>
+<p><strong></strong>&nbsp;</p>
+<p>Stortinget skal oppgis som kilde n&aring;r data fra stortingets datatjeneste blir presentert. Stortingets administrasjon tar ikke ansvar for konsekvenser som f&oslash;lge av feil i systemet. Det komplette sett med vilk&aring;r defineres i den nye standardiserte lisensen NLOD &ndash; <a href="http://data.norge.no/blogg/2011/03/norsk-lisens-for-offentlige-data-nlod-skal-pa-h%C3%B8ring/">Norsk lisens for offentlige data (NLOD)</a>. Les den n&oslash;ye f&oslash;r du tar i bruk tjenesten. (NLOD er pr. &nbsp;22.11.2011 ikke helt publiseringsklar)</p>
+<p>&nbsp;</p>
+<p><strong>Tilgjengeliggj&oslash;ring av data</strong></p>
+<p><strong></strong>&nbsp;</p>
+<p>Data i denne tjenesten skal v&aelig;re tilgjengelige like raskt som dataene p&aring; stortingets egne nettsider,&nbsp; stortinget.no. Noen dataelementer blir offentlig tilgjengelige fortl&oslash;pende ved registering, mens andre data gjennomg&aring;r en kontroll etter registering f&oslash;r de blir publisert. Voteringsresultatene offentliggj&oslash;res samlet etter m&oslash;teslutt, men forsinkelser kan forekomme.</p>
+<p>&nbsp;</p>
+<p><strong>Versjonering </strong></p>
+<p><strong></strong>&nbsp;</p>
+<p>APIet blir versjonert. Alle dataobjekter vil inneholde et element som gir versjonsinformasjon. Ved antatt kompatibilitetsbrudd beholdes tidligere versjoner i en periode. Det vil informeres om endringer i APIet og varsles om utfasing av versjoner under fanen&nbsp;<a href="/endringer">Endringer</a>. Se ogs&aring; <a href="/upload/TekniskDokumentasjon.pdf">Teknisk dokumentasjon</a> for informasjon om versjonsh&aring;ndtering. Dokumentasjon og data versjoneres ikke.</p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Stortingets egen bruk av tjenesten</strong></p>
+<p><strong></strong>&nbsp;</p>
+<p>Stortingets eget nettsted presenterer voteringsdata og statistikkdata som baserer seg p&aring; tjenestens API. Grafen som viser oppsummert voteringsresultat for &nbsp;<a href="http://beta.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/Voteringsoversikt/?p=51207&amp;dnid=1">f&oslash;rste votering i trontaledebatten</a>&nbsp;er et eksempel p&aring; dette.</p>
+<p>&nbsp;</p>
+<p><strong>Databygger</strong></p>
+<p><strong></strong>&nbsp;</p>
+<p>S&aring;kalte databyggere er utviklet for &aring; presentere disse statistikkene. De tilbyr varierende visning av gitte datasett med mulighet for filtrering. Resultatet av en valgt visning kan dessuten innbakes &nbsp;(embedded) &nbsp;p&aring; brukerens egen nettside. Ved &aring; klikke p&aring; presentasjonen av en slik statistikk p&aring; stortinget.no f&aring;r man opp valgene som er gjort for nettopp denne statistikken.&nbsp; Brukeren gis ogs&aring; muligheten til &aring; endre disse valgene og s&aring;ledes tilpasse visningen/filtreringen til eget behov. Se en <a href="/bygger">komplett oversikt over tilgjengelige databyggere.</a></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Eksempler</strong></p>
+<p><strong></strong>&nbsp;</p>
+<p>Du kan laste ned komplette programmeringseksempler fra fanen <a href="/eksempler">Eksempler</a>. Databyggerne er ogs&aring; eksempler p&aring; applikasjoner som benytter&nbsp; tjenestens API, men programmeringskoden for disse er ikke publisert.</p>
+<p>&nbsp;</p></div>
+</div>
+            <div id="aside">
+<div class="outTextbox">
+    <div class="textbox">
+        <div class="textboxheading"><h2>Nyhetsliste</h2></div>
+        <div class="textcontainer">
+          
+
+
+             
+            
+                          <p style="text-align: right" id="containerlink">
+                <a href="/endringer/2011">Nyhetsarkivet</a></p>
+        </div>
+    </div>
+</div>
+<div class="triangle">
+    <div class="innerTriangle">
+    </div>
+</div>
+<div class="padding">
+</div>
+            </div>
+            <div class="clearer"></div>
+        </div>
+    <div id="bottomwrapper">
+        <div id="footerbg">
+            <div id="footer">
+                <div class="inner-background">
+        <div class="column1">
+            <div class="column1-1">
+                <div class="about-title">Om tjenesten</div>
+                <div class="about-text">Tjenesten data.stortinget.no tilbyr uttrekk av data fra databaser som benyttes i Stortingets parlamentariske saksbehandling.</div>
+            </div>
+                <div class="column1-2"><img alt="footerlogo" id="footerlogo" src="/upload/Site/logo_stortinget-01.png"/></div>
+        </div>
+        <div class="column2">
+            <div class="column2-1">
+                <div class="linked-list-title">Eksempler</div>
+                <ul class="linked-list">
+                    <li><a href="/eksempler/java">Java</a></li>
+                    <li><a href="/eksempler/xml">XML</a></li>
+                </ul>
+            </div>
+            <div class="column2-2">
+                <ul class="contact-info">
+                    <li>
+                        Telefon
+                        23 31 33 33
+                    </li>
+                    <li><a href="mailto:web@stortinget.no">Kontakt nettredaksjonen</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="column3">
+            <div class="column3-1">
+            <div class="calendar-title"> </div>
+            </div>
+            <div class="column3-2">
+                <ul class="editor-webmaster">
+                    <li>
+                        :
+                        
+                    </li>
+                    <li>
+                        Nettredakt&#248;r:
+                        Lars Henie Barstad
+                    </li>
+                </ul>
+            </div>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    </script>
 </body>
 </html>
