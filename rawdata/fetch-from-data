@@ -30,11 +30,17 @@ current_sessions() {
 
 fetch data.stortinget.no/
 fetch data.stortinget.no/eksport/dagensrepresentanter/
+fetch data.stortinget.no/eksport/fylker/
+fetch data.stortinget.no/eksport/emner/
+fetch data.stortinget.no/eksport/saksganger/
+fetch data.stortinget.no/eksport/stortingsperioder/
 fetch data.stortinget.no/eksport/sesjoner/
+fetch data.stortinget.no/eksport/allekomiteer/
 
 for id in $(current_sessions); do
     fetch "data.stortinget.no/eksport/saker/?sesjonid=$id"
     fetch "data.stortinget.no/eksport/partier/?sesjonid=$id"
+    fetch "data.stortinget.no/eksport/komiteer?SesjonId=$id"
     echo got $id 
 done
 
@@ -48,6 +54,8 @@ for sakid in $sakids; do
     echo "got votering for sakid=$sakid"
     fetch "data.stortinget.no/eksport/voteringer/?sakid=$sakid"
     for vid in $(GET "http://data.stortinget.no/eksport/voteringer/?sakid=$sakid" |grep '<votering_id>' |sed 's%.*id>\(.*\)</.*%\1%') ; do
+	fetch "data.stortinget.no/eksport/voteringsforslag?voteringid=$vid"
+	echo "got voteringsforslag for sakid=$sakid voteringsid=$vid"
 	fetch "data.stortinget.no/eksport/voteringsresultat/?voteringid=$vid"
 	echo "got voteringsresultat for sakid=$sakid voteringsid=$vid"
     done
