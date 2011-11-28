@@ -236,7 +236,43 @@
     </sak>
     <sak>
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>38</id>
+          <navn>BOLIGSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>136</id>
+          <navn>BYGNINGSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>191</id>
+          <navn>SÆRAVGIFTER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:29 S (2011-2012)</henvisning>
       <id>51880</id>
       <komite>
@@ -309,6 +345,66 @@
       <sist_oppdatert_dato>2011-11-25T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Riksrevisjonens rapport om den årlige revisjon og kontroll for budsjettåret 2010</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>47</id>
+          <navn>VEGTRAFIKK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>94</id>
+          <navn>ARBEIDSVILKÅR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>191</id>
+          <navn>SÆRAVGIFTER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:30 S (2011-2012)</henvisning>
+      <id>51958</id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>TRANSKOM</id>
+        <navn>Transport- og kommunikasjonskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag  om en bedre hverdag for yrkessjåførene</korttittel>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2011-11-25T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Bård Hoksrud, Jan-Henrik Fredriksen, Ingebjørg Godskesen og Arne Sortevik om en bedre hverdag for yrkessjåførene</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -476,23 +572,6 @@
       <sist_oppdatert_dato>2011-11-25T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Samtykke til å sette i kraft en endringsprotokoll til skatteavtalen mellom Norge og Barbados, undertegnet i Paris 3. november 2011</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Dokument 8:30 S (2011-2012)</henvisning>
-      <id>51958</id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>TRANSKOM</id>
-        <navn>Transport- og kommunikasjonskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag  om en bedre hverdag for yrkessjåførene</korttittel>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2011-11-25T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Bård Hoksrud, Jan-Henrik Fredriksen, Ingebjørg Godskesen og Arne Sortevik om en bedre hverdag for yrkessjåførene</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -4091,38 +4170,6 @@
       <type>alminneligsak</type>
     </sak>
     <sak>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>58</id>
-          <navn>SKATTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:23 S (2011-2012)</henvisning>
-      <id>51840</id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>FINANS</id>
-        <navn>Finanskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om frihet til å bestemme skattemessig bopel ut fra faktiske forhold</korttittel>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2011-11-18T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Christian Tybring-Gjedde og Terje Halleland om frihet til å bestemme skattemessig bopel ut fra faktiske forhold</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
       <dokumentgruppe>innberetning</dokumentgruppe>
       <emne_liste>
         <emne>
@@ -4410,7 +4457,22 @@
     </sak>
     <sak>
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>8</id>
+          <navn>FISKERIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>92</id>
+          <navn>HAVBRUK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:26 S (2011-2012)</henvisning>
       <id>51844</id>
       <komite>
@@ -4443,6 +4505,38 @@
       <sist_oppdatert_dato>2011-11-18T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Harald T. Nesvik, Per Roar Bredvold, Torgeir Trældal, Arne Sortevik, Ketil Solvik-Olsen og Oskar J. Grimstad om utsettelse av forskrift om særskilte krav til akvakulturrelatert virksomhet i Hardangerfjorden</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>58</id>
+          <navn>SKATTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:23 S (2011-2012)</henvisning>
+      <id>51840</id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om frihet til å bestemme skattemessig bopel ut fra faktiske forhold</korttittel>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2011-11-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Christian Tybring-Gjedde og Terje Halleland om frihet til å bestemme skattemessig bopel ut fra faktiske forhold</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>

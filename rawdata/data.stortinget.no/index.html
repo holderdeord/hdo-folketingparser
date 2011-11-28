@@ -27,26 +27,6 @@
         <div id="topmenubg">
             <div class="nav">
                 <div id="topnav"><ul id="menu" class="topmenu">
-        <li class="topcell">
-            <a href="/om-tjenesten">Om tjenesten</a>
-
-        </li>
-        <li class="topcell">
-            <a href="/endringer">Endringer</a>
-
-        </li>
-        <li class="topcell">
-            <a href="/hvordan-bruke-tjenesten">Hvordan bruke tjenesten</a>
-
-        </li>
-        <li class="topcell">
-            <a href="/eksempler">Eksempler</a>
-
-        </li>
-        <li class="topcell">
-            <a href="/ofte-stilte-sporsmal">Ofte stilte spørsmål</a>
-
-        </li>
 	
 </ul>
 </div>
@@ -75,64 +55,18 @@
 <h3><strong></strong>&nbsp;</h3>
 <p><strong>Hva er dette?</strong></p>
 <p>&nbsp;</p>
-<p>Denne datatjenesten tilbyr uttrekk av data fra databaser som benyttes i Stortingets&nbsp; parlamentariske saksbehandling. Forel&oslash;pig tilbys data om voteringer, enkelte data om saker og enkelte data om representanter. Etter hvert vil flere dataelementer bli tilgjengeliggjort gjennom tjenesten. (Komplett oversikt over <a href="/upload/elementliste.pdf">tilgjengelige dataelementer pr. i dag</a>)</p>
-<p>&nbsp;</p>
-<p>Tjenesten driftes av <a href="http://www.stortinget.no/no/Stortinget-og-demokratiet/Administrasjonen/Avdelinger-og-seksjoner/Informasjons--og-dokumentasjonsavdelingen-/">Stortingets nettredaksjon</a>.</p>
+<p>Datatjenesten er i en "beta" fase, og er tilgjengelig for inviterte brukere.</p>
 <p>&nbsp;</p>
 <p><strong>Hvordan ta i bruk dataene?</strong></p>
-<p><strong></strong>&nbsp;</p>
-<p>I f&oslash;rste versjon kan data hentes ut i xml-format ved hjelp av forh&aring;ndsdefinerte foresp&oslash;rsler, for eksempel URIen <a href="/eksport/representanter?stortingsperiodeid=2005-2009">http://data.stortinget.no/eksport/representanter?stortingsperiodeid=2005-2009</a> som returnerer et xml-dokument som respons, i dette eksempelet en oversikt over alle innvalgte representanter for&nbsp; stortingsperioden 2005-2009. Etter hvert vil det bli mulig &aring; velge blant flere returnerte formater.</p>
+<p>&nbsp;</p>
+<p>Data kan&nbsp;hentes ut i xml-format ved hjelp av forh&aring;ndsdefinerte foresp&oslash;rsler</p>
 <p>&nbsp;</p>
 <p>(<a href="/eksport">Liste med eksisterende&nbsp;foresp&oslash;rsler</a>)</p>
 <p>&nbsp;</p>
 <p>(<a href="/upload/TekniskDokumentasjon.pdf">Teknisk dokumentasjon</a>&nbsp;med komplett API)</p>
-<p>&nbsp;</p>
-<p><strong>Vilk&aring;r for bruk</strong></p>
-<p><strong></strong>&nbsp;</p>
-<p>Stortinget skal oppgis som kilde n&aring;r data fra stortingets datatjeneste blir presentert. Stortingets administrasjon tar ikke ansvar for konsekvenser som f&oslash;lge av feil i systemet. Det komplette sett med vilk&aring;r defineres i den nye standardiserte lisensen NLOD &ndash; <a href="http://data.norge.no/blogg/2011/03/norsk-lisens-for-offentlige-data-nlod-skal-pa-h%C3%B8ring/">Norsk lisens for offentlige data (NLOD)</a>. Les den n&oslash;ye f&oslash;r du tar i bruk tjenesten. (NLOD er pr. &nbsp;22.11.2011 ikke helt publiseringsklar)</p>
-<p>&nbsp;</p>
-<p><strong>Tilgjengeliggj&oslash;ring av data</strong></p>
-<p><strong></strong>&nbsp;</p>
-<p>Data i denne tjenesten skal v&aelig;re tilgjengelige like raskt som dataene p&aring; stortingets egne nettsider,&nbsp; stortinget.no. Noen dataelementer blir offentlig tilgjengelige fortl&oslash;pende ved registering, mens andre data gjennomg&aring;r en kontroll etter registering f&oslash;r de blir publisert. Voteringsresultatene offentliggj&oslash;res samlet etter m&oslash;teslutt, men forsinkelser kan forekomme.</p>
-<p>&nbsp;</p>
-<p><strong>Versjonering </strong></p>
-<p><strong></strong>&nbsp;</p>
-<p>APIet blir versjonert. Alle dataobjekter vil inneholde et element som gir versjonsinformasjon. Ved antatt kompatibilitetsbrudd beholdes tidligere versjoner i en periode. Det vil informeres om endringer i APIet og varsles om utfasing av versjoner under fanen&nbsp;<a href="/endringer">Endringer</a>. Se ogs&aring; <a href="/upload/TekniskDokumentasjon.pdf">Teknisk dokumentasjon</a> for informasjon om versjonsh&aring;ndtering. Dokumentasjon og data versjoneres ikke.</p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>Stortingets egen bruk av tjenesten</strong></p>
-<p><strong></strong>&nbsp;</p>
-<p>Stortingets eget nettsted presenterer voteringsdata og statistikkdata som baserer seg p&aring; tjenestens API. Grafen som viser oppsummert voteringsresultat for &nbsp;<a href="http://beta.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/Voteringsoversikt/?p=51207&amp;dnid=1">f&oslash;rste votering i trontaledebatten</a>&nbsp;er et eksempel p&aring; dette.</p>
-<p>&nbsp;</p>
-<p><strong>Databygger</strong></p>
-<p><strong></strong>&nbsp;</p>
-<p>S&aring;kalte databyggere er utviklet for &aring; presentere disse statistikkene. De tilbyr varierende visning av gitte datasett med mulighet for filtrering. Resultatet av en valgt visning kan dessuten innbakes &nbsp;(embedded) &nbsp;p&aring; brukerens egen nettside. Ved &aring; klikke p&aring; presentasjonen av en slik statistikk p&aring; stortinget.no f&aring;r man opp valgene som er gjort for nettopp denne statistikken.&nbsp; Brukeren gis ogs&aring; muligheten til &aring; endre disse valgene og s&aring;ledes tilpasse visningen/filtreringen til eget behov. Se en <a href="/bygger">komplett oversikt over tilgjengelige databyggere.</a></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>Eksempler</strong></p>
-<p><strong></strong>&nbsp;</p>
-<p>Du kan laste ned komplette programmeringseksempler fra fanen <a href="/eksempler">Eksempler</a>. Databyggerne er ogs&aring; eksempler p&aring; applikasjoner som benytter&nbsp; tjenestens API, men programmeringskoden for disse er ikke publisert.</p>
-<p>&nbsp;</p></div>
+<p>&nbsp;<strong></strong><strong></strong></p></div>
 </div>
             <div id="aside">
-<div class="outTextbox">
-    <div class="textbox">
-        <div class="textboxheading"><h2>Nyhetsliste</h2></div>
-        <div class="textcontainer">
-          
-
-
-             
-            
-                          <p style="text-align: right" id="containerlink">
-                <a href="/endringer/2011">Nyhetsarkivet</a></p>
-        </div>
-    </div>
-</div>
-<div class="triangle">
-    <div class="innerTriangle">
-    </div>
-</div>
-<div class="padding">
-</div>
             </div>
             <div class="clearer"></div>
         </div>
@@ -142,8 +76,8 @@
                 <div class="inner-background">
         <div class="column1">
             <div class="column1-1">
-                <div class="about-title">Om tjenesten</div>
-                <div class="about-text">Tjenesten data.stortinget.no tilbyr uttrekk av data fra databaser som benyttes i Stortingets parlamentariske saksbehandling.</div>
+                <div class="about-title">Om tjenesten (Beta)</div>
+                <div class="about-text">Tjenesten data.stortinget.no tilbyr uttrekk av data fra databaser som benyttes i Stortingets parlamentariske saksbehandling. Tjenesten er i en "beta" fase og er tilgjengelig for inviterte brukere.</div>
             </div>
                 <div class="column1-2"><img alt="footerlogo" id="footerlogo" src="/upload/Site/logo_stortinget-01.png"/></div>
         </div>
@@ -151,8 +85,6 @@
             <div class="column2-1">
                 <div class="linked-list-title">Eksempler</div>
                 <ul class="linked-list">
-                    <li><a href="/eksempler/java">Java</a></li>
-                    <li><a href="/eksempler/xml">XML</a></li>
                 </ul>
             </div>
             <div class="column2-2">
