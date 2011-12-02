@@ -183,7 +183,36 @@
     </sak>
     <sak>
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 45 S (2011-2012)</henvisning>
       <id>51430</id>
       <komite i:nil="true" />
@@ -193,7 +222,7 @@
       <status>mottatt</status>
       <tittel>Ny saldering av statsbudsjettet 2011
 </tittel>
-      <type>alminneligsak</type>
+      <type>budsjett</type>
     </sak>
     <sak>
       <dokumentgruppe>melding</dokumentgruppe>
@@ -258,7 +287,29 @@
     </sak>
     <sak>
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 44 S (2011-2012)</henvisning>
       <id>52084</id>
       <komite i:nil="true" />
@@ -271,7 +322,36 @@
     </sak>
     <sak>
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>86</id>
+          <navn>STATSLÅN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>99</id>
+          <navn>UTENRIKSHANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 42 S (2011-2012)</henvisning>
       <id>52085</id>
       <komite i:nil="true" />
@@ -280,7 +360,7 @@
       <sist_oppdatert_dato>2011-12-02T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Endringer i Prop. 34 S (2011-2012). Eksportfinansiering</tittel>
-      <type>alminneligsak</type>
+      <type>budsjett</type>
     </sak>
     <sak>
       <dokumentgruppe>proposisjon</dokumentgruppe>
@@ -5162,7 +5242,113 @@ Norge og Ukraina, begge av 24. juni 2010</tittel>
     </sak>
     <sak>
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>51</id>
+          <navn>DEPARTEMENTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>69</id>
+          <navn>LANDBRUKSPRODUKTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>80</id>
+          <navn>AVGIFTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>83</id>
+          <navn>PRISER OG KONKURRANSEFORHOLD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>86</id>
+          <navn>STATSLÅN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>128</id>
+          <navn>JORDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>129</id>
+          <navn>HUSDYR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>131</id>
+          <navn>NATURSKADER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>133</id>
+          <navn>VETERINÆRVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>157</id>
+          <navn>STATSEIENDOMMER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>196</id>
+          <navn>SKOGBRUK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 31 S (2011-2012)</henvisning>
       <id>51925</id>
       <komite>
