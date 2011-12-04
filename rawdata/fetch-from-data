@@ -1,6 +1,19 @@
 #!/bin/sh
 
+date
+
 set -e
+set -x
+
+fetch_if_success() {
+    thisurl="$1"
+    thisfile="$2"
+    if GET "$thisurl" > "$thisfile".new ; then
+	mv "$thisfile".new "$thisfile"
+    else
+	false
+    fi
+}
 
 fetch() {
     url="$1"
@@ -15,11 +28,17 @@ fetch() {
 	*)
 	    ;;
     esac
-    if GET "http://$url" > "$file".new ; then
-	mv "$file".new "$file"
-    else
-	echo "Unable to fetch $url. aborting"
-	false
+
+    # Try three times, some times the first time fail
+    if ! fetch_if_success "http://$url" "$file" ; then
+	sleep 2
+        if ! fetch_if_success "http://$url" "$file" ; then
+	sleep 2
+            if ! fetch_if_success "http://$url" "$file" ; then
+	        echo "Unable to fetch $url. aborting"
+        	false
+            fi
+        fi
     fi
 }
 
