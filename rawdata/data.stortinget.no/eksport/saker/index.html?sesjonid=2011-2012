@@ -89,7 +89,22 @@
     <sak>
       <versjon>1.0</versjon>
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 52 S (2011-2012)</henvisning>
       <id>51463</id>
       <komite i:nil="true" />
@@ -440,7 +455,29 @@
     <sak>
       <versjon>1.0</versjon>
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>75</id>
+          <navn>OLJEOMSETNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>190</id>
+          <navn>OLJEUTVINNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 53 S (2011-2012)</henvisning>
       <id>52238</id>
       <komite i:nil="true" />
