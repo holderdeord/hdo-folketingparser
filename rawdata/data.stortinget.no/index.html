@@ -5,7 +5,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Forsiden - data.stortinget.no</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link href="/Content/Site.css" rel="stylesheet" type="text/css" />
+<link href="/Styles/style.css" rel="stylesheet" type="text/css" />
+
 <link rel="shortcut icon" href="/favicon.ico" />
 
 <script type="text/javascript" src="/N2/Resources/Js/jquery-1.6.1.min.js"></script>
@@ -14,53 +15,100 @@
 <script type="text/javascript" src="/Scripts/SyntaxHighlighter/shCore.js"></script>
 <script type="text/javascript" src="/Scripts/SyntaxHighlighter/shAutoloader.js"></script>
 <script type="text/javascript" src="/Scripts/stickysidebar.jquery.js"></script>	
+
+    <!-- fancybox -->
+    <script type="text/javascript" src="/Scripts/fancybox/jquery.fancybox-1.3.4.js"></script>
+    <script type="text/javascript" src="/Scripts/fancybox/jquery.easing-1.3.pack.js"></script>
+    <script type="text/javascript" src="/Scripts/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    <link rel="stylesheet" href="/Scripts/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+    
+
 </head>
 <body>
     
-	<div id="topwrapper">
-        <div id="topbg">
-            <div id="top"><ul>
-<li><a href="/" title="Forsiden" class="logotype"><img alt="" src="/upload/Site/logo_72dpi-01.png" /></a></li>
-</ul>
-</div>
-        </div>
-        <div id="topmenubg">
-            <div class="nav">
-                <div id="topnav"><ul id="menu" class="topmenu">
-        <li class="topcell">
-            <a href="/om-tjenesten">Om tjenesten</a>
+    
+    <div id="headerWrapper clearfix">
+        <div id="header" class="clearfix">
+            <a href="/" id="logo">
+                <img src="/Media/logo.png" alt="Logo" />
+            </a>
+            <div id="mainMenu">
+                <div class="topShadow"></div>
+    <ul>
+        
+            <li class="">
+                <a href="/om-tjenesten">
+                    <div class="leftShadow"></div>
+                    <div class="topShadow"></div>
+                    
 
-        </li>
-        <li class="topcell">
-            <a href="/kodeeksempler">Kodeeksempler</a>
+                    <span>Om tjenesten</span>
+                    
 
-        </li>
-        <li class="topcell">
-            <a href="/databyggere">Databyggere</a>
+                </a>
+            </li>       
+            <li class="">
+                <a href="/eksport">
+                    <div class="leftShadow"></div>
+                    <div class="topShadow"></div>
+                    
 
-        </li>
-	
-</ul>
-</div>
+                    <span>Dataeksport</span>
+                    
+
+                </a>
+            </li>       
+            <li class="">
+                <a href="/kodeeksempler">
+                    <div class="leftShadow"></div>
+                    <div class="topShadow"></div>
+                    
+
+                    <span>Kodeeksempler</span>
+                    
+
+                </a>
+            </li>       
+            <li class="">
+                <a href="/bygger">
+                    <div class="leftShadow"></div>
+                    <div class="topShadow"></div>
+                    
+                        <div class="rightShadow"></div>
+
+                    <span>Databyggere</span>
+                    
+
+                </a>
+            </li>       
+ 
+    </ul>
             </div>
-        </div>
-        <div id="submenubg">
-            <div class="nav">
-                <div id="subnav">    <ul class="submenu">
+            <div id="subMenu">
+                <div class="nav">
+                    <div id="subnav">    <ul class="submenu">
     
     
-    <li class="search"><form action="/Search" id="sitesearch" method="get">      <div id="searchwrapper">
-        <input id="searchbutton" type="submit" value=""/>
-        <input id="searchfield" name="q" type="text" value="Søk" />
-      </div>
-</form></li>
+
+
+
     </ul>
 </div>
+                </div>
             </div>
         </div>
     </div>
+
+    
+    
+
         <div id="mainwrapper">
-	        <div id="breadcrumb"><span>Du er her: </span>Forsiden</div>            
+            
+                <div class="redHeading">
+                    [dataeksporttjeneste]
+                </div>
+
+            <div id="breadcrumb"><span>Du er her: </span>Forsiden</div>            
 
 <div id="main" class="clearfix">
 	<div id="content"><h2><span style="text-decoration: underline;">Stortingets datatjeneste</span></h2>
@@ -91,53 +139,59 @@
             </div>
             <div class="clearer"></div>
         </div>
+
     <div id="bottomwrapper">
-        <div id="footerbg">
-            <div id="footer">
-                <div class="inner-background">
-        <div class="column1">
-            <div class="column1-1">
-                <div class="about-title">Om tjenesten (Beta)</div>
-                <div class="about-text">Tjenesten data.stortinget.no tilbyr uttrekk av data fra databaser som benyttes i Stortingets parlamentariske saksbehandling. Tjenesten er i en "beta" fase og er tilgjengelig for inviterte brukere.</div>
-            </div>
-                <div class="column1-2"><img alt="footerlogo" id="footerlogo" src="/upload/Site/logo_stortinget-01.png"/></div>
-        </div>
-        <div class="column2">
-            <div class="column2-1">
-                <div class="linked-list-title">Eksempler</div>
-                <ul class="linked-list">
-                </ul>
-            </div>
-            <div class="column2-2">
-                <ul class="contact-info">
-                    <li>
-                        Telefon
-                        23 31 33 33
-                    </li>
-                    <li><a href="mailto:web@stortinget.no">Kontakt nettredaksjonen</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="column3">
-            <div class="column3-1">
-            <div class="calendar-title"> </div>
-            </div>
-            <div class="column3-2">
-                <ul class="editor-webmaster">
-                    <li>
-                        :
-                        
-                    </li>
-                    <li>
-                        Nettredakt&#248;r:
-                        Lars Henie Barstad
-                    </li>
-                </ul>
-            </div>
-        </div>
+        
+        <div id="footer" class="clearfix"><!-- footer -->
+            <div class="container">
+                <div class="watermark"></div>
+                <div class="column1">
+                    <h2>Stortingets administrasjon</h2>
+                    <p>Postadresse:<br />Stortinget, 0026 Oslo</p>
+                    <p>Sentralbord: 23 31 30 50</p>
+                </div>
+                <div class="column2">
+                    <h2>Stortingets informasjonshjørne</h2>
+                    <p>Åpent alle ukedager 10–15</p>
+                    <p>Telefon: 23 31 35 96</p>
+                    <p>(telefontid 9–16, fredager 9–15)</p>
+                    <p>Faks: 23 31 38 17</p>
+                    <a href="mailto:info@stortinget.no">info@stortinget.no</a>
+                </div>
+                <div class="column3">
+                    <p>Ansvarlig redaktør:<br />Eli Pauline Fiskvik</p>
+                    <div class="column3-1">
+                        <p>Nettredaktør:<br />Lars Henie Barstad</p>
+                        <br />
+                        <a href="http://www.stortinget.no/no/Stottemeny/Hjelp/Om-nettstedet/">Om Stortinget.no</a>
+                    </div>
+                </div>
+                <div class="column4">
+                    <p>Følg Stortinget på</p>
+                    <ul class="social">
+                        <li class="twitter">
+                            <a href="#">
+                                <img src="/Media/_0046_Twitter.png" alt="Twitter"/>
+                            </a>
+                        </li>
+                        <li class="flickr">
+                            <a href="#">
+                                <img src="/Media/_0000_Flickr.png" alt="Flickr" />
+                            </a>
+                        </li>
+                        <li class="rss">
+                            <a href="#">
+                                <img src="/Media/_0044_RSS.png" alt="RSS" />
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </div><!-- end footer -->
+        
+
+
+
     </div>
     <script type="text/javascript">
     </script>
