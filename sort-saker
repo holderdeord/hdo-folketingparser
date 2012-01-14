@@ -1,0 +1,15 @@
+#!/bin/sh
+#
+# apt-get install libxml-filter-sort-perl
+
+cd rawdata/data.stortinget.no/eksport/saker
+
+fil="index.html?sesjonid\=2011-2012"
+
+git log $fil
+git checkout 4b96311319e417a694d07dee74bf682cbb9f002b 
+xmlsort -r /saker_oversikt/saker_liste/sak -k ./id,n,a "$fil" > first
+git checkout HEAD "$fil"
+xmlsort -r /saker_oversikt/saker_liste/sak -k ./id,n,a "$fil" > second
+diff -uw first second
+
