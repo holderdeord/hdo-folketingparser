@@ -41,7 +41,7 @@ $dbh->do('END TRANSACTION');
 db_disconnect();
 
 sub db_connect {
-    my $dbfile = "$FindBin::Bin/prototype.sqlite";
+    my $dbfile = "$FindBin::Bin/../prototype.sqlite";
     my $dbh = DBI->connect("dbi:SQLite:dbname=$dbfile", "", "");
 }
 
