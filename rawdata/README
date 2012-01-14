@@ -1,0 +1,20 @@
+# Hva er dette?
+
+Denne katalogen inneholde forskjellige rådata som brukes. For tiden
+er dette en del dumpeplass.
+
+Programmer som bruker noen av disse dataene:
+
+   tools/convert-cd2xml
+
+# TODO
+
+www.stortinget.no/
+   - Data om stortingsrepresentanter må parses og lagres som xml
+
+data.stortinget.no/
+   - Ikke parset og brukt enda
+   - Fjerne testdata
+
+arkiv/
+   - Ymse historiske inndata fått av Stortinget
