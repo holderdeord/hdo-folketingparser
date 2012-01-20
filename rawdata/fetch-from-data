@@ -40,6 +40,15 @@ fetch() {
             fi
         fi
     fi
+    case "$url" in
+	*/saker/*)
+	    echo "sorting $url"
+            xmlsort -r /saker_oversikt/saker_liste/sak \
+		-k ./id,n,a "$file" > "$file".new && \
+		mv "$file".new "$file"
+            todos "$file"
+	    ;;
+    esac
 }
 
 current_sessions() {
