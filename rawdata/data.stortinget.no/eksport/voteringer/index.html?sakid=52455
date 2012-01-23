@@ -2,5 +2,84 @@
 <sak_votering_oversikt xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://data.stortinget.no">
   <versjon>1.0</versjon>
   <sak_id>52455</sak_id>
-  <sak_votering_liste />
+  <sak_votering_liste>
+    <sak_votering>
+      <versjon>1.0</versjon>
+      <alternativ_votering_id>1974</alternativ_votering_id>
+      <antall_for>60</antall_for>
+      <antall_ikke_tilstede>59</antall_ikke_tilstede>
+      <antall_mot>50</antall_mot>
+      <behandlingsrekkefoelge>1</behandlingsrekkefoelge>
+      <dagsorden_sak_nummer>4</dagsorden_sak_nummer>
+      <fri_votering>true</fri_votering>
+      <kommentar i:nil="true" />
+      <personlig_votering>true</personlig_votering>
+      <president>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Andersen</etternavn>
+        <foedselsdato>1957-05-27T00:00:00</foedselsdato>
+        <fornavn>Dag Terje</fornavn>
+        <id>DTA</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Ve</id>
+          <navn>Vestfold</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>A</id>
+          <navn>Arbeiderpartiet</navn>
+        </parti>
+      </president>
+      <sak_id>52455</sak_id>
+      <vedtatt>true</vedtatt>
+      <votering_id>1975</votering_id>
+      <votering_metode>ikke_spesifisert</votering_metode>
+      <votering_resultat_type>ikke_spesifisert</votering_resultat_type>
+      <votering_resultat_type_tekst i:nil="true" />
+      <votering_tema>Alternativ votering mellom: Nærings- og handelsministerens redegjørelse  vedlegges protokollen og Nærings- og handelsministerens redegjørelse sendes kontroll- og konstitusjonskomiteen.</votering_tema>
+      <votering_tid>2012-01-19T13:46:39.257</votering_tid>
+    </sak_votering>
+    <sak_votering>
+      <versjon>1.0</versjon>
+      <alternativ_votering_id>1975</alternativ_votering_id>
+      <antall_for>50</antall_for>
+      <antall_ikke_tilstede>59</antall_ikke_tilstede>
+      <antall_mot>60</antall_mot>
+      <behandlingsrekkefoelge>1</behandlingsrekkefoelge>
+      <dagsorden_sak_nummer>4</dagsorden_sak_nummer>
+      <fri_votering>true</fri_votering>
+      <kommentar i:nil="true" />
+      <personlig_votering>true</personlig_votering>
+      <president>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Andersen</etternavn>
+        <foedselsdato>1957-05-27T00:00:00</foedselsdato>
+        <fornavn>Dag Terje</fornavn>
+        <id>DTA</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Ve</id>
+          <navn>Vestfold</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>A</id>
+          <navn>Arbeiderpartiet</navn>
+        </parti>
+      </president>
+      <sak_id>52455</sak_id>
+      <vedtatt>false</vedtatt>
+      <votering_id>1974</votering_id>
+      <votering_metode>ikke_spesifisert</votering_metode>
+      <votering_resultat_type>ikke_spesifisert</votering_resultat_type>
+      <votering_resultat_type_tekst i:nil="true" />
+      <votering_tema>Alternativ votering mellom: Nærings- og handelsministerens redegjørelse  vedlegges protokollen og Nærings- og handelsministerens redegjørelse sendes kontroll- og konstitusjonskomiteen.</votering_tema>
+      <votering_tid>2012-01-19T13:46:39.257</votering_tid>
+    </sak_votering>
+  </sak_votering_liste>
 </sak_votering_oversikt>
