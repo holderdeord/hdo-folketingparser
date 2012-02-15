@@ -626,7 +626,7 @@
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2012-02-07T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
-      <tittel>Endringer i utlendingsloven (innføring av Schengen-standardisert oppholdskort med biometri)</tittel>
+      <tittel>Endringer i _utlendingsloven_ (innføring av Schengen-standardisert oppholdskort med biometri)</tittel>
       <type>lovsak</type>
     </sak>
     <sak>
@@ -9871,8 +9871,15 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>58</id>
-          <navn>SKATTER</navn>
+          <id>53</id>
+          <navn>SKATTEADMINISTRASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>136</id>
+          <navn>BYGNINGSVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -9887,6 +9894,13 @@
           <er_hovedemne>false</er_hovedemne>
           <id>140</id>
           <navn>KARTVERK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
         </emne>
         <emne>
