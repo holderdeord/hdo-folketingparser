@@ -7,6 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link href="/Styles/style.css" rel="stylesheet" type="text/css" />
 
+
+
 <link rel="shortcut icon" href="/favicon.ico" />
 
 <script type="text/javascript" src="/N2/Resources/Js/jquery-1.6.1.min.js"></script>
@@ -14,30 +16,37 @@
 <script type="text/javascript" src="/Scripts/effects.js"></script>
 <script type="text/javascript" src="/Scripts/SyntaxHighlighter/shCore.js"></script>
 <script type="text/javascript" src="/Scripts/SyntaxHighlighter/shAutoloader.js"></script>
-<script type="text/javascript" src="/Scripts/stickysidebar.jquery.js"></script>	
-
-    <!-- fancybox -->
-    <script type="text/javascript" src="/Scripts/fancybox/jquery.fancybox-1.3.4.js"></script>
-    <script type="text/javascript" src="/Scripts/fancybox/jquery.easing-1.3.pack.js"></script>
-    <script type="text/javascript" src="/Scripts/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-    <link rel="stylesheet" href="/Scripts/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
-    
+<script type="text/javascript" src="/Scripts/stickysidebar.jquery.js"></script>    
+<script type="text/javascript" src="/Scripts/init_N2.js"></script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-28618260-1']);
+        _gaq.push(['_gat._anonymizeIp']);
+        _gaq.push(['_setDomainName', '.stortinget.no']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
 
 </head>
 <body>
     
-    
-    <div id="headerWrapper clearfix">
+    <div class="headerWrapper clearfix">
         <div id="header" class="clearfix">
+            
             <a href="/" id="logo">
                 <img src="/Media/logo.png" alt="Logo" />
             </a>
+
             <div id="mainMenu">
                 <div class="topShadow"></div>
     <ul>
         
-            <li class="">
-                <a href="/om-tjenesten">
+            <li>
+                <a class="" href="/om-tjenesten">
                     <div class="leftShadow"></div>
                     <div class="topShadow"></div>
                     
@@ -47,8 +56,8 @@
 
                 </a>
             </li>       
-            <li class="">
-                <a href="/eksport">
+            <li>
+                <a class="" href="/eksport">
                     <div class="leftShadow"></div>
                     <div class="topShadow"></div>
                     
@@ -58,8 +67,8 @@
 
                 </a>
             </li>       
-            <li class="">
-                <a href="/kodeeksempler">
+            <li>
+                <a class="" href="/kodeeksempler">
                     <div class="leftShadow"></div>
                     <div class="topShadow"></div>
                     
@@ -69,8 +78,8 @@
 
                 </a>
             </li>       
-            <li class="">
-                <a href="/bygger">
+            <li>
+                <a class="" href="/bygger">
                     <div class="leftShadow"></div>
                     <div class="topShadow"></div>
                     
@@ -84,34 +93,48 @@
  
     </ul>
             </div>
-            <div id="subMenu">
-                <div class="nav">
-                    <div id="subnav">    <ul class="submenu">
+
+        </div>
+    </div>
+
+    <div class="dropShadow floatLeft"></div>    
+
+        <div id="mainwrapper" class="clearfix">
+            
+            <div class="subMenuWrapper">
+                
+                <div class="redHeading">[data.stortinget.no]</div>
+            
+    <ul class="subMenu">
     
     
 
 
 
     </ul>
-</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    
-    
-
-        <div id="mainwrapper">
             
-                <div class="redHeading">
-                    [dataeksporttjeneste]
-                </div>
+            </div>
+                                                                                                             
+            <div class="breadcrumb"><span class="smalltext">Du er her:&nbsp;</span>
 
-            <div id="breadcrumb"><span>Du er her: </span>Forsiden</div>            
 
-<div id="main" class="clearfix">
-	<div id="content"><h2><span style="text-decoration: underline;">Stortingets datatjeneste</span></h2>
+
+
+       <span class="smalltext">Forsiden</span>
+</div>    
+            
+            <div class="articleContainer clearfix">
+                
+                <div class="shadowSides leftShadow"></div>
+                <div class="shadow topShadowMain"></div>
+                <div class="shadowSides rightShadowMain"></div>
+                <div class="shadow bottomShadowMain"></div>
+                
+                <div class="clear"></div>
+
+                    <div class="articleContent">
+
+        <div id="content"><h2><span style="text-decoration: underline;">Stortingets datatjeneste</span></h2>
 <p>&nbsp;</p>
 <p><strong>Hva er dette?</strong></p>
 <p>&nbsp;</p>
@@ -134,66 +157,38 @@
 <p>&nbsp;</p>
 <p>Fra torsdag 24. november er det en endring i url for foresp&oslash;rsler. Det er lagt til et ekstra niv&aring;, slik at url n&aring; skal starte med "data.stortinget.no/eksport/". Se listen med eksisterende foresp&oslash;rsler.</p>
 <p>&nbsp;</p></div>
+
 </div>
-            <div id="aside">
+
+                <div class="rightColumn clearfix"></div>
+
             </div>
-            <div class="clearer"></div>
+            
         </div>
+        <div class="clear"></div>
 
     <div id="bottomwrapper">
         
-        <div id="footer" class="clearfix"><!-- footer -->
+        <div id="footer" class="clearfix">
             <div class="container">
                 <div class="watermark"></div>
                 <div class="column1">
                     <h2>Stortingets administrasjon</h2>
-                    <p>Postadresse:<br />Stortinget, 0026 Oslo</p>
-                    <p>Sentralbord: 23 31 30 50</p>
+                    <p>Postadresse:<br/>Stortinget, 0026 Oslo<br/>Sentralbord: 23 31 30 50</p>
                 </div>
                 <div class="column2">
                     <h2>Stortingets informasjonshjørne</h2>
-                    <p>Åpent alle ukedager 10–15</p>
-                    <p>Telefon: 23 31 35 96</p>
-                    <p>(telefontid 9–16, fredager 9–15)</p>
-                    <p>Faks: 23 31 38 17</p>
-                    <a href="mailto:info@stortinget.no">info@stortinget.no</a>
+                    <p>
+                        Telefon: 23 31 35 96<br/>(telefontid 9-16, fredager 9-15)<br/><a href="mailto:info@stortinget.no">info@stortinget.no</a>
+                    </p>
                 </div>
                 <div class="column3">
-                    <p>Ansvarlig redaktør:<br />Eli Pauline Fiskvik</p>
-                    <div class="column3-1">
-                        <p>Nettredaktør:<br />Lars Henie Barstad</p>
-                        <br />
-                        <a href="http://www.stortinget.no/no/Stottemeny/Hjelp/Om-nettstedet/">Om Stortinget.no</a>
-                    </div>
-                </div>
-                <div class="column4">
-                    <p>Følg Stortinget på</p>
-                    <ul class="social">
-                        <li class="twitter">
-                            <a href="#">
-                                <img src="/Media/_0046_Twitter.png" alt="Twitter"/>
-                            </a>
-                        </li>
-                        <li class="flickr">
-                            <a href="#">
-                                <img src="/Media/_0000_Flickr.png" alt="Flickr" />
-                            </a>
-                        </li>
-                        <li class="rss">
-                            <a href="#">
-                                <img src="/Media/_0044_RSS.png" alt="RSS" />
-                            </a>
-                        </li>
-                    </ul>
+                    <a href="http://www.stortinget.no" target="_blank" class="greenLink">Til Stortinget.no</a>
                 </div>
             </div>
         </div><!-- end footer -->
         
+    </div><!-- end bottomwrapper -->
 
-
-
-    </div>
-    <script type="text/javascript">
-    </script>
 </body>
 </html>
