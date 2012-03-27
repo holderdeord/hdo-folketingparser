@@ -356,7 +356,27 @@
       </komite>
       <korttittel>Representantforslag om å styrke korpsbevegelsen i Norge</korttittel>
       <sak_fremmet_id>53181</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Thomsen</etternavn>
+          <foedselsdato>1961-10-06T00:00:00</foedselsdato>
+          <fornavn>Ib</fornavn>
+          <id>IBTH</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2012-03-26T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Øyvind Håbrekke, Hans Olav Syversen, Rigmor Andersen Eide og Line Henriette Hjemdal om å styrke korpsbevegelsen i Norge</tittel>
@@ -15384,13 +15404,6 @@
           <er_hovedemne>false</er_hovedemne>
           <id>176</id>
           <navn>SVALBARD</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>178</id>
-          <navn>STATOIL ASA</navn>
           <underemne_liste />
         </emne>
         <emne>
