@@ -280,7 +280,22 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 80 S (2011-2012)</henvisning>
       <id>53377</id>
       <innstilling_id>-1</innstilling_id>
@@ -2065,7 +2080,27 @@
       </komite>
       <korttittel>Endringer i folketrygdloven</korttittel>
       <sak_fremmet_id>53263</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Pollestad</etternavn>
+          <foedselsdato>1978-08-13T00:00:00</foedselsdato>
+          <fornavn>Geir</fornavn>
+          <id>GP</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2012-03-26T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i folketrygdloven</tittel>
