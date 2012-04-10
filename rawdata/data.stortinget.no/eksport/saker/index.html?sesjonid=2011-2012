@@ -224,7 +224,29 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>75</id>
+          <navn>OLJEOMSETNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>190</id>
+          <navn>OLJEUTVINNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 85 S (2011-2012)</henvisning>
       <id>53375</id>
       <innstilling_id>-1</innstilling_id>
@@ -27029,7 +27051,7 @@ Norge og Ukraina, begge av 24. juni 2010</tittel>
       <id>53398</id>
       <innstilling_id>-1</innstilling_id>
       <komite i:nil="true" />
-      <korttittel>Melding for året 2010 fra Sivilombudsmannen</korttittel>
+      <korttittel>Melding for året 2011 fra Sivilombudsmannen</korttittel>
       <sak_fremmet_id>53398</sak_fremmet_id>
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2011-10-01T00:00:00</sist_oppdatert_dato>
