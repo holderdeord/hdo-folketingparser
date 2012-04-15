@@ -14,6 +14,16 @@ my $votemap = {
     '---' => 'absent'
 };
 
+my $partymap = {
+    'A' => 'Arbeiderpartiet',
+    'KrF' => 'Kristelig Folkeparti',
+    'H' => 'Høyre',
+    'FrP' => 'Fremskrittspartiet',
+    'SV' => 'Sosialistisk Venstreparti',
+    'Sp' => 'Senterpartiet',
+    'V' => 'Venstre',
+};
+
 my $timestamp;
 my $kart;
 my $sak;
@@ -32,12 +42,14 @@ my %persons;
 while (my $ref = $csv->getline_hr($fh)) {
     my $name = $ref->{Navn};
     my $perid = $entries{$name};
+    my $party = $partymap->{$ref->{Parti}};
     my $vote1 = $votemap->{$ref->{'Tilrådingens punkt A'}};
     my $vote2 = $votemap->{$ref->{'Lovens overskrift og loven i sin helhet'}};
     $persons{$name} = {
         perid => $perid,
         vote1 => $vote1,
         vote2 => $vote2,
+        party => $party
     };
 }
 
@@ -54,7 +66,8 @@ EOF
 for my $name (sort keys %persons) {
     my $perid = $persons{$name}->{perid};
     my $vote = $persons{$name}->{vote1};
-    print "    <mpname perid=\"$perid\" vote=\"$vote\">$name</mpname>\n";
+    my $party = $persons{$name}->{party};
+    print "    <mpname perid=\"$perid\" vote=\"$vote\" party=\"$party\">$name</mpname>\n";
 }
 print "  </division>\n";
 
@@ -68,15 +81,16 @@ EOF
 for my $name (sort keys %persons) {
     my $perid = $persons{$name}->{perid};
     my $vote = $persons{$name}->{vote2};
+    my $party = $persons{$name}->{party};
     print STDERR "$name missing perid\n" unless $perid;
-    print "    <mpname perid=\"$perid\" vote=\"$vote\">$name</mpname>\n";
+    print "    <mpname perid=\"$perid\" vote=\"$vote\" party=\"$party\">$name</mpname>\n";
 }
 print "  </division>\n";
 
 print "</vote-list>\n";
 
 sub load_member_list {
-    my $file = 'stortinget-persons-scraped.xml';
+    my $file = 'data/stortinget-persons-scraped.xml';
     my $xmlparlament = XMLin($file, KeyAttr => []);
     my %entries;
     for my $person (@{$xmlparlament->{person}}) {
