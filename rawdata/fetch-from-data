@@ -3,7 +3,7 @@
 date
 
 set -e
-set -x
+#set -x
 
 fetch_if_success() {
     thisurl="$1"
@@ -83,9 +83,9 @@ for sakid in $sakids; do
     echo "got votering for sakid=$sakid"
     fetch "data.stortinget.no/eksport/voteringer/?sakid=$sakid"
     for vid in $(GET "http://data.stortinget.no/eksport/voteringer/?sakid=$sakid" |grep '<votering_id>' |sed 's%.*id>\(.*\)</.*%\1%') ; do
-	fetch "data.stortinget.no/eksport/voteringsforslag/?voteringid=$vid"
+	fetch "data.stortinget.no/eksport/voteringsforslag/?voteringid=$vid" || true
 	echo "got voteringsforslag for sakid=$sakid voteringsid=$vid"
-	fetch "data.stortinget.no/eksport/voteringsresultat/?voteringid=$vid"
+	fetch "data.stortinget.no/eksport/voteringsresultat/?voteringid=$vid" || true
 	echo "got voteringsresultat for sakid=$sakid voteringsid=$vid"
     done
 done
