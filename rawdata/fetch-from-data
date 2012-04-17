@@ -73,7 +73,7 @@ current_periods() {
 
 for id in $(current_periods); do
     fetch data.stortinget.no/eksport/representanter/?StortingsPeriodeId=$id
-    got $id
+    echo got $id
 done
 
 for id in $(current_sessions); do
