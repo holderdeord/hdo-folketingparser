@@ -9,8 +9,8 @@ use open IN  => ":utf8", OUT => ":utf8";
 use open ':std';
 
 my $votemap = {
-    'For' => 'yes',
-    'Mot' => 'no',
+    'For' => 'for',
+    'Mot' => 'against',
     '---' => 'absent'
 };
 
@@ -41,7 +41,7 @@ $csv->column_names($csv->getline($fh));
 my %persons;
 while (my $ref = $csv->getline_hr($fh)) {
     my $name = $ref->{Navn};
-    my $perid = $entries{$name};
+    my $perid = $entries{$name}->{perid};
     my $party = $partymap->{$ref->{Parti}};
     my $vote1 = $votemap->{$ref->{'Tilrådingens punkt A'}};
     my $vote2 = $votemap->{$ref->{'Lovens overskrift og loven i sin helhet'}};
@@ -49,45 +49,90 @@ while (my $ref = $csv->getline_hr($fh)) {
         perid => $perid,
         vote1 => $vote1,
         vote2 => $vote2,
-        party => $party
+        party => $party,
+        first_name => $entries{$name}->{first_name},
+        last_name => $entries{$name}->{last_name},
     };
 }
 
 close $fh;
 print "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
-print "<vote-list>\n";
+#print "<votes>\n";
 print <<EOF;
-  <division>
-    <when-voted>2011-04-04T21:44:54</when-voted>
+  <vote>
+    <time>2011-04-04T21:44:54</time>
     <map>?</map>
     <id>1</id>
-    <description>Datalagringsdirektivet: Tilrådingens punkt A</description>
+    <subject>Datalagringsdirektivet: Tilrådingens punkt A</subject>
+    <externalId>?</externalId>
+    <externalIssueId>48717</externalIssueId>
+    <counts>
+      <for>89</for>
+      <against>80</against>
+      <absent>0</absent>
+    </counts>
+    <method>ikke_spesifisert</method>
+    <resultType>ikke_spesifisert</resultType>
+    <representatives>
 EOF
 for my $name (sort keys %persons) {
     my $perid = $persons{$name}->{perid};
     my $vote = $persons{$name}->{vote1};
     my $party = $persons{$name}->{party};
-    print "    <mpname perid=\"$perid\" vote=\"$vote\" party=\"$party\">$name</mpname>\n";
+    my $firstname = $persons{$name}->{first_name};
+    my $lastname = $persons{$name}->{last_name};
+
+    print <<EOF;
+      <representative>
+        <externalId>$perid</externalId>
+        <firstName>$firstname</firstName>
+        <lastName>$lastname</lastName>
+        <party>$party</party>
+        <voteResult>$vote</voteResult>
+      </representative>
+EOF
 }
-print "  </division>\n";
+print "  </representatives>\n";
+print "  </vote>\n";
 
 print <<EOF;
-  <division>
-    <when-voted>2011-04-04T21:45:27</when-voted>
+  <vote>
+    <time>2011-04-04T21:45:27</time>
     <map>?</map>
     <id>2</id>
-    <description>Datalagringsdirektivet: Lovens overskrift og loven i sin helhet</description>
+    <subject>Datalagringsdirektivet: Lovens overskrift og loven i sin helhet</su
+    <externalId>?</externalId>
+    <externalIssueId>48717</externalIssueId>
+    <counts>
+      <for>89</for>
+      <against>80</against>
+      <absent>0</absent>
+    </counts>
+    <method>ikke_spesifisert</method>
+    <resultType>ikke_spesifisert</resultType>
+    <representatives>
 EOF
 for my $name (sort keys %persons) {
     my $perid = $persons{$name}->{perid};
     my $vote = $persons{$name}->{vote2};
     my $party = $persons{$name}->{party};
+    my $firstname = $persons{$name}->{first_name};
+    my $lastname = $persons{$name}->{last_name};
     print STDERR "$name missing perid\n" unless $perid;
-    print "    <mpname perid=\"$perid\" vote=\"$vote\" party=\"$party\">$name</mpname>\n";
+    print <<EOF;
+      <representative>
+        <externalId>$perid</externalId>
+        <firstName>$firstname</firstName>
+        <lastName>$lastname</lastName>
+        <party>$party</party>
+        <voteResult>$vote</voteResult>
+      </representative>
+EOF
 }
-print "  </division>\n";
+print "  </representatives>\n";
+print "  </vote>\n";
 
-print "</vote-list>\n";
+#print "</votes>\n";
 
 sub load_member_list {
     my $file = 'data/stortinget-persons-scraped.xml';
@@ -95,7 +140,11 @@ sub load_member_list {
     my %entries;
     for my $person (@{$xmlparlament->{person}}) {
         my $name = $person->{first_name} . ' ' . $person->{last_name};
-        $entries{$name} = $person->{'stortinget-perid'};
+        $entries{$name} = {
+            perid => $person->{'stortinget-perid'},
+            first_name => $person->{first_name},
+            last_name => $person->{last_name},
+        };
     }
     return %entries;
 }
