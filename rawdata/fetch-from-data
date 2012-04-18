@@ -85,7 +85,7 @@ done
 
 saksid=""
 for id in "2010-2011" "2011-2012" ; do
-    sakids="$saksid $(perl -MXML::Simple -MData::Dumper -e 'my $xml = XMLin(\"data.stortinget.no/eksport/saker/index.html?sesjonid=$id\"); print join(\" \", sort keys %{$xml->{saker_liste}->{sak}})')"
+    sakids="$saksid `perl -MXML::Simple -MData::Dumper -e \"my \\\$xml = XMLin('data.stortinget.no/eksport/saker/index.html?sesjonid=$id'); print join(' ', sort keys %{\\\$xml->{saker_liste}->{sak}})\"`"
 done
 
 #sakidwithvotes="48650 49355 49975 47553 50319 50705 40970 40971 48718 45513 48577 46647 46623 49366 47162 49978 47793 48141"
