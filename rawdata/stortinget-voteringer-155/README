@@ -1,0 +1,46 @@
+Hei!
+
+Jeg sender deg data med voteringsresultat i 3 omganger. Håper filene ikke er for store nå.
+
+Nedenfor er en liste over de kolonner filene inneholder, separert med semikolon.
+Si fra hvis du finner noe uforståelig eller mangelfullt, så vi får avklart / rettet opp i dette.
+
+Vær oppmerksom på at disse data er fra første sesjons bruk av nytt system, og kan således inneholde noen unøyaktigheter  og vise noe inkonsistent bruk av systemet. Men ikke noe som har påvirket utfallet av voteringene med hensyn på om et forslag har blitt bifalt eller forkastet.
+
+Mvh Sissel Solvin
+
+
+
+·         Dato  (8)                                              -Møtedato
+
+·         KartNr                                                  -Kartnr (møtekartnr)
+
+·         SakskartNr                                          -Saksnr på kartet
+
+·         VoteringsTidspunkt
+
+·         VoteringsTema  maks (255)
+
+·         AlternativVotering  maks (13)         -Tekst hvis alternativ votering
+
+·         ResultatKode  maks (255)               -Resultatet hvor voteringsknappene ikke er benyttet
+
+·         AntallFor                                             -Totalt antall FOR, inneholder ikke verdi når resultatkoden="Enstemmig vedtatt"
+
+·         AntallMot                                            -Totalt antall MOT , inneholder ikke verdi når resultatkoden="Enstemmig vedtatt"
+
+·         Navn  maks (82)
+
+·         ReprNr
+
+·         PersonId  maks (8)
+
+·         Parti  maks (8)
+
+·         Fylkeskode  maks (8)
+
+·         ReprBifalt (1)                                     - J/N for bifalt / ikke bifalt (FOR /MOT), Blank hvis ikke tilstede
+
+·         VoteringsGruppeId                            - Alternativvoteringsnr (Alternativ 1 eller 2)
+
+
