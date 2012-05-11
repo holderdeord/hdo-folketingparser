@@ -336,7 +336,22 @@ Hvilke erfaringer er gjort så langt med Ny GIV, og hvilke andre og mer permanen
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-04-13T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>16</id>
+          <navn>KRIMINALOMSORG</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53467</id>
@@ -377,8 +392,7 @@ Hvilke erfaringer er gjort så langt med Ny GIV, og hvilke andre og mer permanen
       <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I 2008 la regjeringa fram St.meld. nr. 37 for 2007-2008 Straff som virker - mindre kriminalitet - tryggere samfunn. Stortingsmeldinga pekte ut en retning i kriminalomsorgen med hovedfokus på endringsarbeid, rehabilitering og tilbakeføring av de straffedømte til et liv uten kriminalitet etter endt soning. Meldinga ble meget godt mottatt, spesielt i kriminalomsorgen, men også i samfunnet for øvrig. Meldinga var og gjenstand for grundig politisk behandling i Stortinget. 
-Hvordan er meldinga fulgt opp og implementert i kriminalomsorgen og hos de aktuelle samarbeidspartene?</tittel>
+      <tittel>om _hvordan St.meld. 37 (2007-2008) er fulgt opp og implementert i kriminalomsorgen_ og hos de aktuelle samarbeidspartene</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
@@ -462,7 +476,29 @@ Hvilke tanker gjør statsråden seg om disse forslagene, og deler statsråden de
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-03-29T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>43</id>
+          <navn>BARNEVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53341</id>
@@ -503,8 +539,7 @@ Hvilke tanker gjør statsråden seg om disse forslagene, og deler statsråden de
       <sporsmal_til_minister_id>BLID</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>barne-, likestillings- og inkluderingsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Undertegnede viser til den organisasjon og struktur som eksisterer knyttet til å ivareta barns rettssikkerhet i møte med barnevernet. Det er, slik jeg ser det, viktig at man igangsetter en debatt knyttet til om dagens struktur og organisering er den optimale, for å ta hensyn til barnas rettssikkerhet. Det vises i denne sammenheng blant annet til den praksis som eksisterer knyttet til sakkyndige, ankeprosesser og fylkesnemndene som avgjørende myndighet. Barnevernets viktigste jobb er å ivareta barn. Barns rettssikkerhet er et område man derfor bør ha et sterkt søkelys på.
-Hvordan vurderer statsråden situasjonen knyttet til barns rettssikkerhet, og hvilke strukturelle og organisatoriske grep vil hun foreta seg med tanke på eventuelle forbedringer?</tittel>
+      <tittel>om organisasjon og struktur knyttet til å ivareta _barns rettssikkerhet i møte med barnevernet_, bl.a. med henvisning til praksis mht. sakkyndige, ankeprosesser og fylkesnemndene som avgjørende myndighet</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
@@ -932,7 +967,57 @@ Hvordan vil statsråden sikre at alle med behov for synsrehabilitering får et t
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-03-08T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>66</id>
+          <navn>SYKDOMMER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>80</id>
+          <navn>AVGIFTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>83</id>
+          <navn>PRISER OG KONKURRANSEFORHOLD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>188</id>
+          <navn>FOLKEHELSE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>191</id>
+          <navn>SÆRAVGIFTER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53106</id>
@@ -973,8 +1058,7 @@ Hvordan vil statsråden sikre at alle med behov for synsrehabilitering får et t
       <sporsmal_til_minister_id>FIN</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>finansministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Livsstil er hovedårsaken til svært mange av våre alvorligste sykdommer. Nasjonalt råd for ernæring og Helsedirektoratet oppfordret myndighetene til aktivt å ta i bruk prispolitikken for å stimulere til et sunt kosthold. Sunn mat må bli billigere og usunn mat dyrere er budskapet. I NOU 2007:8 "En vurdering av særavgiftene" blir helse- og sosialrelaterte avgifter vurdert som virkemidler i helsepolitikken. Helse- og omsorgskomiteen har også i sin innstilling på årets budsjett understreket dette. Staten må ta i bruk prisvirkemidler langt mer, og aktivt, for å oppnå disse endringer, og viser til merknader om dette i tidligere budsjettinnstillinger.
-I hvilken grad er prisvirkemidler egnede virkemidler for å bedre kosthold, og i så fall, hvilke tiltak bør prioriteres?</tittel>
+      <tittel>om bruk av _prisvirkemidler for å stimulere til et bedre kosthold_, med henvisning bl.a. til en offentlig utredning om særavgiftene som virkemidler i helsepolitikken</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
@@ -1402,7 +1486,22 @@ I hvilken grad er prisvirkemidler egnede virkemidler for å bedre kosthold, og i
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-02-23T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>98</id>
+          <navn>FORBRUKERSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>52949</id>
@@ -1443,8 +1542,7 @@ I hvilken grad er prisvirkemidler egnede virkemidler for å bedre kosthold, og i
       <sporsmal_til_minister_id>BLID</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>barne-, likestillings- og inkluderingsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I Oslo og andre storbyer får stadig flere betalingsproblemer. Mange inngår avtale om gjeldsordning i henhold til gjeldsordningsloven, noe som innebærer å leve under et svært stramt regime i årevis. Det bygger seg også opp en større gruppe gjeldsofre som tidligere har fått innvilget gjeldsordning, men som nå faller utenfor loven på grunn av formuleringen i fortolkningen av § 1-4 fjerde ledd om mulig annen gangs gjeldsordning. En del mennesker i slike umenneskelige situasjoner faller etter hvert utenfor arbeidslivet og blir uføretrygdet. Loven ble til i kjølvannet av byfornyelsessakene på slutten av 1980-tallet. 
-Vil statsråden evaluere gjeldsordningsloven etter 20 år, og finnes det også andre verktøy for gjeldsofre for eksempel gjeldsforhandlinger i kommunene?</tittel>
+      <tittel>om å _evaluere gjeldsordningsloven_, bl.a. fordi det bygger seg opp en større gruppe som tidligere har fått innvilget gjeldsordning, men som nå faller utenfor loven</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
