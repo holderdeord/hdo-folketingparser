@@ -623,7 +623,22 @@ På hvilken måte forholder Norge seg til de temaene som reises på NATOs toppm�
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-03-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>49</id>
+          <navn>FUNKSJONSHEMMEDE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53327</id>
@@ -664,8 +679,7 @@ På hvilken måte forholder Norge seg til de temaene som reises på NATOs toppm�
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Dokumentasjon fra Norges Blindeforbund viser at de som får synsrehabilitering i gjennomsnitt får dette 5 år etter synstap, og altfor ofte får man opplæring mange år etter at synet har blitt kraftig redusert. De fleste får det dessverre ikke i det hele tatt. Dette fører til at mange får unødvendig nedsatt livskvalitet, en del faller ut av arbeidslivet, noen får livsstilssykdommer og depresjoner, ekteskap blir oppløst og det blir vanskelig å komme opp på det funksjonsnivået som ville vært mulig med rask rehabilitering. Det finnes ikke henvisningsrutiner om rehabilitering som fungerer, og ofte er det tilfeldigheter som fører til at personen får hjelp.
-Hvordan vil statsråden sikre at alle med behov for synsrehabilitering får et tilstrekkelig tilbud om dette når synet svikter?</tittel>
+      <tittel>om å sikre at alle med behov for _synsrehabilitering_ får et tilstrekkelig tilbud om dette når synet svikter</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
