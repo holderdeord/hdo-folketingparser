@@ -413,7 +413,36 @@ Hvilke erfaringer er gjort så langt med Ny GIV, og hvilke andre og mer permanen
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-04-10T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>31</id>
+          <navn>SKOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>158</id>
+          <navn>VIDEREGÅENDE SKOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>159</id>
+          <navn>HØYERE UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53404</id>
@@ -454,8 +483,7 @@ Hvilke erfaringer er gjort så langt med Ny GIV, og hvilke andre og mer permanen
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>Karlsen-utvalget, som St.meld. nr. 44 (2008-2009) Utdanningslinja bygger på, foreslo i sin NOU at fullført videregående opplæring skal gjøre elevene generelt studieforberedt uavhengig av utdanningsprogram. Utvalget foreslo også å bygge ut Y-veien til flere fagområder. Både LOs og NHOs representanter i NOUen stilte seg bak dette forslaget. Noe av bakgrunnen for forslaget var at utvalget mente at dette kunne bidra til å øke statusen til fag og yrkesopplæringen. Elever fra flere sosiale lag vil lettere kunne velge et yrkesfaglig tilbud på videregående opplæring. I dag velger nesten ni av ti elever med foreldre som har høyere utdanning å begynne på studiespesialisering. Utvalget mente også at styrkingen av basiskompetansen i skolen kunne forsvare at flere ville være studieforberedt.
-Hvilke tanker gjør statsråden seg om disse forslagene, og deler statsråden det synspunkt at man gjennom å likestille de to løpene i videregående opplæring hever statusen?</tittel>
+      <tittel>om synspunktet om at man gjennom å _likestille de to løpene i videregående opplæring_ ville heve statusen til fag- og yrkesopplæringen, med henvisning til Karlsen-utvalgets forslag om at fullført opplæring skal gjøre elevene studieforberedt, uavhengig av utdanningsprogram</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
