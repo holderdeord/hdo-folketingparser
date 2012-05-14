@@ -2844,7 +2844,22 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 95 L (2011-2012)</henvisning>
       <id>52725</id>
       <innstilling_id>-1</innstilling_id>
@@ -7513,7 +7528,7 @@
         <id>PRES</id>
         <navn>Stortingets presidentskap</navn>
       </komite>
-      <korttittel>Representantforslag om endring av Stortingets forretningsorden § 53</korttittel>
+      <korttittel>Representantforslag om å endre Stortingets forretningsorden § 53 Spørretime</korttittel>
       <sak_fremmet_id>53229</sak_fremmet_id>
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2012-05-10T00:00:00</sist_oppdatert_dato>
@@ -18339,6 +18354,13 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>51</id>
           <navn>DEPARTEMENTER</navn>
@@ -18493,6 +18515,13 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>157</id>
+          <navn>STATSEIENDOMMER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>163</id>
           <navn>UTENRIKSSAKER</navn>
@@ -18545,6 +18574,13 @@
           <er_hovedemne>false</er_hovedemne>
           <id>189</id>
           <navn>VEGVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>196</id>
+          <navn>SKOGBRUK</navn>
           <underemne_liste />
         </emne>
         <emne>
