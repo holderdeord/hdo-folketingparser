@@ -21,7 +21,22 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-10T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>64</id>
+          <navn>HELSEPERSONELL</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53736</id>
@@ -62,8 +77,7 @@
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>Statsråden svarte på skriftlig spørsmål nr. 1 306 for 2011-2012 blant annet at statsråden vil "følge opp dette videre for å sikre at de regionale helseforetakene iverksetter nødvendige tiltak for å sikre at regelverket overholdes, herunder sørge for at ansatte får nødvendig opplæring og at det blir satt i verk korrigerende tiltak dersom det avdekkes at regelverket ikke overholdes".
-Hvilke virkemidler vil statsråden ta i bruk for å sørge for at det ikke trikses med ventelister, og sørge for at pasientene får den behandling de har krav på?</tittel>
+      <tittel>om hvilke virkemidler statsråden vil ta i bruk for å sørge for at det ikke _trikses med ventelister_, og sørge for at pasientene får den behandling de har krav på</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -84,7 +98,22 @@ Hvilke virkemidler vil statsråden ta i bruk for å sørge for at det ikke triks
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-10T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>66</id>
+          <navn>SYKDOMMER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53735</id>
@@ -125,8 +154,7 @@ Hvilke virkemidler vil statsråden ta i bruk for å sørge for at det ikke triks
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>8. mai 2012 meldte Dagens Næringsliv om alvorlig kapasitetsmangel i norske patologiavdelinger, som kan gi ventetider på opptil 2 måneder for analyse av vevsprøver som kan inneholde kreft. Sjef ved patologisk avdeling ved Oslo universitetssykehus, Inger Nina Farstad, sier situasjonen er vanskelig "ved nesten samtlige 17 patologiske sykehusavdelinger". Ifølge avdelingsleder Harald Aarset ved St. Olavs Hospital risikerer systemet å bryte sammen.
-Hvordan vurderer statsråden situasjonen, og prospektene videre, og hva vil hun foreta seg for raskt å få ned de lange ventetidene?</tittel>
+      <tittel>om alvorlig _kapasitetsmangel i norske patologiavdelinger_, og hva statsråden vil foreta seg for raskt å få ned de lange ventetidene</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -147,7 +175,29 @@ Hvordan vurderer statsråden situasjonen, og prospektene videre, og hva vil hun 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-10T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>159</id>
+          <navn>HØYERE UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>160</id>
+          <navn>HØGSKOLER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53734</id>
@@ -188,8 +238,7 @@ Hvordan vurderer statsråden situasjonen, og prospektene videre, og hva vil hun 
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>NOKUT har en viktig funksjon som kvalitetssikrer eksisterende og nye utdanningstilbud. Lang behandlingstid har fra mange hold vært tatt opp som en stor utfordring for dem som ønsker å sette i gang nye tilbud. Høyskoler har tatt dette opp som en stor utfordring i arbeidet med å videreutvikle tilbudet til studentene.
-Er statsråden fornøyd med situasjonen, hvilken saksbehandlingstid mener statsråden er akseptabel, og hvilke initiativ vil statsråden ta for å sikre rask og god behandling hos NOKUT?</tittel>
+      <tittel>om å sikre rask og god _saksbehandling hos NOKUT_, med bakgrunn i at lang behandlingstid er en stor utfordring for dem som ønsker å sette i gang nye utdanningstilbud</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -210,7 +259,22 @@ Er statsråden fornøyd med situasjonen, hvilken saksbehandlingstid mener statsr
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-10T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>37</id>
+          <navn>FYLKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53733</id>
@@ -251,8 +315,7 @@ Er statsråden fornøyd med situasjonen, hvilken saksbehandlingstid mener statsr
       <sporsmal_til_minister_id>MD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>miljøvernministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>Det vises til spørsmål og svar på skriftlig spørsmål nr. 1 319 for 2011-2012. Statsråden sier i svaret at han "har ingen planer om å la private konsulenter overta denne myndighetsutøvelsen". Det lå heller ingen slik antydning i spørsmålet. Rolleblandingen spørsmålet henviser til er snarere egnet til å undergrave myndighetsrollen.
-Ser ikke statsråden at det er svært uheldig at fylkeskommunen gjennom konsulentoppdrag bringer seg selv i en situasjon der mange vil si at de får et ansvar, og vil det ikke være bedre for myndighetsutøvelsen at rollene skilles?</tittel>
+      <tittel>om at _fylkeskommunen gjennom konsulentoppdrag_ bringer seg selv i en situasjon der myndighetsrollen undergraves, og om ikke det vil være bedre for myndighetsutøvelsen at rollene skilles</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -273,7 +336,29 @@ Ser ikke statsråden at det er svært uheldig at fylkeskommunen gjennom konsulen
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-10T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>107</id>
+          <navn>JERNBANER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53737</id>
@@ -314,8 +399,7 @@ Ser ikke statsråden at det er svært uheldig at fylkeskommunen gjennom konsulen
       <sporsmal_til_minister_id>FIN</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>finansministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>I en kronikk i Aftenposten 12. februar 2008 skrev daværende fylkesmann Sigbjørn Johnsen at Jernbaneverket bør omdannes til statsforetak eller heleid statlig aksjeselskap. Formålet var å styrke muligheten til å bygge jernbane. Johnsen brukte Avinors organisering og rolle innen luftfarten som forbilde. Avinor har fått tilført oljepenger utenfor statsbudsjettet, kan planlegge langsiktig og kan sikre lånefinansiering ved behov.
-Vil finansminister Johnsen ta et initiativ overfor Jernbaneverket i tråd med fylkesmann Johnsens anbefaling?</tittel>
+      <tittel>om finansminister Johnsen vil ta initiativ til å _omdanne Jernbaneverket til statsforetak_ eller heleid statlig aksjeselskap, i tråd med fylkesmann Johnsens anbefaling</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -336,7 +420,29 @@ Vil finansminister Johnsen ta et initiativ overfor Jernbaneverket i tråd med fy
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-10T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53738</id>
@@ -377,8 +483,7 @@ Vil finansminister Johnsen ta et initiativ overfor Jernbaneverket i tråd med fy
       <sporsmal_til_minister_id>FIN</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>finansministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>I en kronikk i Aftenposten 12. februar 2008 skrev daværende fylkesmann Sigbjørn Johnsen at Statens vegvesen bør omdannes til statsforetak eller heleid statlig aksjeselskap. Formålet var å styrke muligheten til å bygge veier. Johnsen brukte Avinors organisering og rolle innen luftfarten som forbilde. Avinor har fått tilført oljepenger utenfor statsbudsjettet, kan planlegge langsiktig og kan sikre lånefinansiering ved behov.
-Vil finansminister Johnsen ta et initiativ overfor Statens vegvesen i tråd med fylkesmann Johnsens anbefaling?</tittel>
+      <tittel>om finansminister Johnsen vil ta initiativ til å _omdanne Statens vegvesen til statsforetak_ eller heleid statlig aksjeselskap, i tråd med fylkesmann Johnsens anbefaling</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -399,7 +504,43 @@ Vil finansminister Johnsen ta et initiativ overfor Statens vegvesen i tråd med 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-10T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>107</id>
+          <navn>JERNBANER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53739</id>
@@ -440,8 +581,7 @@ Vil finansminister Johnsen ta et initiativ overfor Statens vegvesen i tråd med 
       <sporsmal_til_minister_id>FIN</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>finansministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>Regjeringen har to tappekraner til Oljefondet: én gir penger til statsbudsjettet, og én gir penger til såkalt formueomplassering. Regjeringen tillater bruk av oljepenger utenfor handlingsregelens begrensninger, til bygging og drift av flyplassinfrastruktur, men ekskluderer vei- og jernbaneinfrastruktur fra samme finansieringsmulighet.
-Hvorfor er flyplassinfrastruktur unntatt handlingsregelen, mens vei- og jernbaneinfrastruktur omfattes av handlingsregelen?</tittel>
+      <tittel>om hvorfor flyplassinfrastruktur er unntatt handlingsregelen, mens _vei- og jernbaneinfrastruktur omfattes av handlingsregelen_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -462,7 +602,36 @@ Hvorfor er flyplassinfrastruktur unntatt handlingsregelen, mens vei- og jernbane
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-10T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53740</id>
@@ -503,8 +672,7 @@ Hvorfor er flyplassinfrastruktur unntatt handlingsregelen, mens vei- og jernbane
       <sporsmal_til_minister_id>FIN</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>finansministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>I en kronikk i Aftenposten 12. februar 2008 skrev fylkesmann Sigbjørn Johnsen at OPS-prosjekter gir dyr finansiering, men at 'mye tas igjen ved raskere og mer effektiv utbygging'. Dette reflekterer en tankegang om at utbyggingstempo og organisering er viktig for å sikre gode prosjekter. I Aftenposten 10. mai 2012 fremkommer det at uforutsigbarhet i finansiering gir merkostnad i milliardklassen. Trygg finansiering gir mer vei for pengene.
-Vil statsråden sikre at igangsatte prosjekter realiseres uten utsettelse?</tittel>
+      <tittel>om å sikre at igangsatte _veiprosjekter realiseres_ uten utsettelse, med henvisning til at uforutsigbarhet i finansiering gir merkostnad i milliardklassen</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -609,7 +777,29 @@ Vil statsråden sikre at igangsatte prosjekter realiseres uten utsettelse?</titt
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-09T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>211</id>
+          <navn>RUSMIDLER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53725</id>
@@ -650,8 +840,7 @@ Vil statsråden sikre at igangsatte prosjekter realiseres uten utsettelse?</titt
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>Mange rusmiddelavhengige har en traumatisert oppveksthistorie. De trenger et helhetlig og langvarig behandlingsopplegg som kan møte både avhengigheten og mennesket bak avhengigheten. Dette krever et opplegg der den syke trenger å få tilhørighet til stabile voksne og relasjonskompetente personer over lang tid. Denne gruppen er ikke satt høyt nok på dagsordenen. Dette er kjernen i et debattinnlegg rettet mot helseministeren i Dagbladet 25. februar i år.
-Hvordan vil denne gruppen bli ivaretatt i regjeringens politikk fremover?</tittel>
+      <tittel>om hvordan _rusmiddelavhengige vil bli ivaretatt_ i regjeringens politikk fremover</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -672,7 +861,22 @@ Hvordan vil denne gruppen bli ivaretatt i regjeringens politikk fremover?</titte
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-09T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>31</id>
+          <navn>SKOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53721</id>
@@ -713,8 +917,7 @@ Hvordan vil denne gruppen bli ivaretatt i regjeringens politikk fremover?</titte
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>Tilpasset opplæring innebærer at alle barn har krav på en skole som utfordrer og løfter dem kunnskapsmessig. Nå opplever foreldre med høyt begavede barn at lovverket ikke gir disse barna de samme rettigheter til tilpasset opplæring og har fått vite at opplæringslova § 5-1 ikke kommer til anvendelse dersom mistilpasningen er høy begavelse.
-Er dette en riktig fortolkning av § 5-1, og hvis ikke, hvilken lovregel i opplæringslova kommer da til anvendelse for disse elevene?</tittel>
+      <tittel>om hvilken lovregel i opplæringslova som kan komme til anvendelse for _elever med høy begavelse_, med henvisning til at lovverket ikke gir disse barna de samme rettigheter til tilpasset opplæring</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -896,7 +1099,22 @@ Er dette en riktig fortolkning av § 5-1, og hvis ikke, hvilken lovregel i oppl�
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-09T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53716</id>
@@ -937,8 +1155,7 @@ Er dette en riktig fortolkning av § 5-1, og hvis ikke, hvilken lovregel i oppl�
       <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>Statsråden skriver i en kronikk i dagsavisen Fremover onsdag 9. mai 2012: "Ingen kutt i Midtre Hålogaland".
-Kan statsråden redegjøre for hvorfor man må nedbemanne ca. 20 stillinger over en 3-årsperiode, samtidig som statsråden hevder at det ikke blir noen kutt?</tittel>
+      <tittel>om å redegjøre for hvorfor man _nedbemanner i Midtre Hålogaland_ med ca. 20 stillinger over en 3-årsperiode, samtidig som statsråden hevder at det ikke blir noen kutt</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1141,7 +1358,50 @@ Kan statsråden redegjøre for hvorfor man må nedbemanne ca. 20 stillinger over
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-09T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>115</id>
+          <navn>BERGVERK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>223</id>
+          <navn>INDUSTRI</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53720</id>
@@ -1182,8 +1442,7 @@ Kan statsråden redegjøre for hvorfor man må nedbemanne ca. 20 stillinger over
       <sporsmal_til_minister_id>NHD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>nærings- og handelsministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>Mineralnæringen i Norge har store vekstmuligheter. Dette gjelder alt fra vanlig grus til edle stener, men ofte blir mulighetene for denne type næringsutvikling stoppet av miljøbestemmelser.
-Hvordan ser statsråden for eksempel på ny gruvedrift i Røros-regionen?</tittel>
+      <tittel>om hvordan statsråden ser på _ny gruvedrift i Røros-regionen_, med bakgrunn i at mulighetene for denne type næringsutvikling ofte blir stoppet av miljøbestemmelser</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1204,7 +1463,43 @@ Hvordan ser statsråden for eksempel på ny gruvedrift i Røros-regionen?</titte
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-09T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>52</id>
+          <navn>KOMMUNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53705</id>
@@ -1245,8 +1540,7 @@ Hvordan ser statsråden for eksempel på ny gruvedrift i Røros-regionen?</titte
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>Bergen bystyre ønsker å doble bompengetakstene i Bergensprogrammet, men er avhengig av at Stortinget gir sin tilslutning til dette. En saktegående saksbehandling fra Samferdselsdepartementet betyr at viktige transporttiltak som vil bedre fremkommeligheten og bymiljøet i Bergen, vil bli satt på vent.
-Hvorfor bruker statsråden så lang tid på å få behandlet en helt ordinær bompengesøknad, og når vil regjeringen legge frem bompengesøknaden for Stortinget?</tittel>
+      <tittel>om hvorfor statsråden bruker så lang tid på å få behandlet en helt ordinær _bompengesøknad fra Bergen bystyre_, med henvisning til at viktige transporttiltak blir satt på vent</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1267,7 +1561,22 @@ Hvorfor bruker statsråden så lang tid på å få behandlet en helt ordinær bo
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-08T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53693</id>
@@ -1308,8 +1617,7 @@ Hvorfor bruker statsråden så lang tid på å få behandlet en helt ordinær bo
       <sporsmal_til_minister_id>MD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>miljøvernministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>Ifølge Sunnmørsposten 7. mai lekker det olje fra en russisk tråler som havarerte ved kai i Hundeidvika i Sykkylven kommune under orkanen 1. juledag i fjor. Båtvraket ligger på bunnen ca. 30 meter fra land og har lekket olje i 5 måneder uten at noe er skjedd. Sykkylven kommune og Kystverket krever nå at båten sikres mot ytterligere oljesøl, og at den fjernes.
-Hva vil statsråden gjøre for å få fortgang i arbeidet med å sikre mot ytterligere oljesøl og en rask fjerning av vraket?</tittel>
+      <tittel>om å få fortgang i arbeidet med å sikre mot ytterligere oljesøl og en rask _fjerning av vraket av en russisk tråler_ som havarerte ved kai i Hundeidvika i Sykkylven kommune under orkanen 1. juledag i fjor</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1330,7 +1638,22 @@ Hva vil statsråden gjøre for å få fortgang i arbeidet med å sikre mot ytter
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-08T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53696</id>
@@ -1371,8 +1694,7 @@ Hva vil statsråden gjøre for å få fortgang i arbeidet med å sikre mot ytter
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>Osebergfunnet er verdens største samling av tregjenstander fra vikingtiden. Således er det både en viktig nasjonalskatt og et viktig europeisk kulturminne, fra en tid som formet det Europa vi kjenner i dag. Både Universitetet i Oslo, eieren av Kulturhistorisk museum, og den internasjonale ekspertrapporten om Osebergfunnet slår fast at situasjonen er kritisk og at kulturminnene kan gå tapt for ettertiden.
-Når lokaliseringsdebatten nå er avklart, hva vil statsråden foreta seg for å sikre disse viktige kulturminnene for ettertiden?</tittel>
+      <tittel>om å sikre de viktige _kulturminnene fra Osebergfunnet_ for ettertiden, med henvisning til at Universitetet i Oslo, eieren av Kulturhistorisk museum, slår fast at situasjonen er kritisk </tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1393,7 +1715,29 @@ Når lokaliseringsdebatten nå er avklart, hva vil statsråden foreta seg for å
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-04T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>31</id>
+          <navn>SKOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>183</id>
+          <navn>GRUNNSKOLE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53667</id>
@@ -1434,8 +1778,7 @@ Når lokaliseringsdebatten nå er avklart, hva vil statsråden foreta seg for å
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>Til høsten innføres, som kjent, valgfag for 8. trinn i grunnskolen. Likevel er ennå ikke læreplaner og vurderingskriterier på plass.
-Når vil læreplanene og vurderingskriteriene være klare, og når forventer statsråden at skolene skal ha planlagt lærerressurser, timeplanlegging og gjennomføring av disse fagene?</tittel>
+      <tittel>om når statsråden forventer at skolene skal ha planlagt lærerressurser, timeplanlegging og gjennomføring av _valgfag for 8. trinn i grunnskolen_, med henvisning til at læreplaner og vurderingskriterier ennå ikke er på plass</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -2514,29 +2857,7 @@ Når vil læreplanene og vurderingskriteriene være klare, og når forventer sta
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-04-27T00:00:00</datert_dato>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>32</id>
-          <navn>UTDANNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>183</id>
-          <navn>GRUNNSKOLE</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
+      <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53625</id>
@@ -2577,7 +2898,8 @@ Når vil læreplanene og vurderingskriteriene være klare, og når forventer sta
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>bortfalt</status>
-      <tittel>om når statsråden forventer at skolene skal ha planlagt lærerressurser, timeplanlegging og gjennomføring av _valgfag for 8. trinn i grunnskolen_, med henvisning til at læreplaner og vurderingskriterier ennå ikke er på plass</tittel>
+      <tittel>Til høsten innføres, som kjent, valgfag for 8. trinn i grunnskolen. Likevel er ennå ikke læreplaner og vurderingskriterier på plass.
+Når vil læreplanene og vurderingskriteriene være klare, og når forventer statsråden at skolene skal ha planlagt lærerressurser, timeplanlegging og gjennomføring av disse fagene?</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
