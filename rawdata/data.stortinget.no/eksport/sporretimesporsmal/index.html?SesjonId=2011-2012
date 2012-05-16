@@ -115,7 +115,17 @@
         </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
-      <fremsatt_av_annen i:nil="true" />
+      <fremsatt_av_annen>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Høie</etternavn>
+        <foedselsdato>1971-05-04T00:00:00</foedselsdato>
+        <fornavn>Bent</fornavn>
+        <id>BENH</id>
+        <kjoenn>mann</kjoenn>
+        <fylke i:nil="true" />
+        <parti i:nil="true" />
+      </fremsatt_av_annen>
       <id>53735</id>
       <rette_vedkommende i:nil="true" />
       <rette_vedkommende_minister_id i:nil="true" />
@@ -1086,83 +1096,6 @@
       <besvart_av>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Faremo</etternavn>
-        <foedselsdato>1955-06-16T00:00:00</foedselsdato>
-        <fornavn>Grete</fornavn>
-        <id>GREF</id>
-        <kjoenn>kvinne</kjoenn>
-      </besvart_av>
-      <besvart_av_minister_id>JBD</besvart_av_minister_id>
-      <besvart_av_minister_tittel>justis- og beredskapsministeren</besvart_av_minister_tittel>
-      <besvart_dato>2012-05-16T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av i:nil="true" />
-      <besvart_pa_vegne_av_minister_id i:nil="true" />
-      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
-      <datert_dato>2012-05-09T00:00:00</datert_dato>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>141</id>
-          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <flyttet_til>ikke_spesifisert</flyttet_til>
-      <fremsatt_av_annen i:nil="true" />
-      <id>53716</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
-      <sesjon_id>2011-2012</sesjon_id>
-      <sporsmal_fra>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Trældal</etternavn>
-        <foedselsdato>1965-01-02T00:00:00</foedselsdato>
-        <fornavn>Torgeir</fornavn>
-        <id>TOT</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>No</id>
-          <navn>Nordland</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>FrP</id>
-          <navn>Fremskrittspartiet</navn>
-        </parti>
-      </sporsmal_fra>
-      <sporsmal_nummer>3</sporsmal_nummer>
-      <sporsmal_til>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Faremo</etternavn>
-        <foedselsdato>1955-06-16T00:00:00</foedselsdato>
-        <fornavn>Grete</fornavn>
-        <id>GREF</id>
-        <kjoenn>kvinne</kjoenn>
-      </sporsmal_til>
-      <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
-      <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
-      <tittel>om å redegjøre for hvorfor man _nedbemanner i Midtre Hålogaland_ med ca. 20 stillinger over en 3-årsperiode, samtidig som statsråden hevder at det ikke blir noen kutt</tittel>
-      <type>sporretime_sporsmal</type>
-    </sporsmal>
-    <sporsmal>
-      <versjon>1.0</versjon>
-      <besvart_av>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solhjell</etternavn>
         <foedselsdato>1971-12-22T00:00:00</foedselsdato>
         <fornavn>Bård Vegar</fornavn>
@@ -1345,109 +1278,16 @@
       <besvart_av>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Giske</etternavn>
-        <foedselsdato>1966-11-07T00:00:00</foedselsdato>
-        <fornavn>Trond</fornavn>
-        <id>TG</id>
-        <kjoenn>mann</kjoenn>
+        <etternavn>Strøm-Erichsen</etternavn>
+        <foedselsdato>1949-10-21T00:00:00</foedselsdato>
+        <fornavn>Anne-Grete</fornavn>
+        <id>ANS</id>
+        <kjoenn>kvinne</kjoenn>
       </besvart_av>
-      <besvart_av_minister_id>NHD</besvart_av_minister_id>
-      <besvart_av_minister_tittel>nærings- og handelsministeren</besvart_av_minister_tittel>
+      <besvart_av_minister_id>HOD</besvart_av_minister_id>
+      <besvart_av_minister_tittel>helse- og omsorgsministeren</besvart_av_minister_tittel>
       <besvart_dato>2012-05-16T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av i:nil="true" />
-      <besvart_pa_vegne_av_minister_id i:nil="true" />
-      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
-      <datert_dato>2012-05-09T00:00:00</datert_dato>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>21</id>
-          <navn>FORURENSNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>113</id>
-          <navn>NÆRINGSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>114</id>
-          <navn>NÆRINGSUTVIKLING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>115</id>
-          <navn>BERGVERK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>139</id>
-          <navn>MILJØVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>223</id>
-          <navn>INDUSTRI</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <flyttet_til>ikke_spesifisert</flyttet_til>
-      <fremsatt_av_annen i:nil="true" />
-      <id>53720</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
-      <sesjon_id>2011-2012</sesjon_id>
-      <sporsmal_fra>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Bredvold</etternavn>
-        <foedselsdato>1957-03-05T00:00:00</foedselsdato>
-        <fornavn>Per Roar</fornavn>
-        <id>PB</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>He</id>
-          <navn>Hedmark</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>FrP</id>
-          <navn>Fremskrittspartiet</navn>
-        </parti>
-      </sporsmal_fra>
-      <sporsmal_nummer>8</sporsmal_nummer>
-      <sporsmal_til>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Giske</etternavn>
-        <foedselsdato>1966-11-07T00:00:00</foedselsdato>
-        <fornavn>Trond</fornavn>
-        <id>TG</id>
-        <kjoenn>mann</kjoenn>
-      </sporsmal_til>
-      <sporsmal_til_minister_id>NHD</sporsmal_til_minister_id>
-      <sporsmal_til_minister_tittel>nærings- og handelsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
-      <tittel>om hvordan statsråden ser på _ny gruvedrift i Røros-regionen_, med bakgrunn i at mulighetene for denne type næringsutvikling ofte blir stoppet av miljøbestemmelser</tittel>
-      <type>sporretime_sporsmal</type>
-    </sporsmal>
-    <sporsmal>
-      <versjon>1.0</versjon>
-      <besvart_av>
+      <besvart_pa_vegne_av>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Kleppa</etternavn>
@@ -1455,13 +1295,9 @@
         <fornavn>Magnhild Meltveit</fornavn>
         <id>MMK</id>
         <kjoenn>kvinne</kjoenn>
-      </besvart_av>
-      <besvart_av_minister_id>SD</besvart_av_minister_id>
-      <besvart_av_minister_tittel>samferdselsministeren</besvart_av_minister_tittel>
-      <besvart_dato>2012-05-16T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av i:nil="true" />
-      <besvart_pa_vegne_av_minister_id i:nil="true" />
-      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
+      </besvart_pa_vegne_av>
+      <besvart_pa_vegne_av_minister_id>SD</besvart_pa_vegne_av_minister_id>
+      <besvart_pa_vegne_av_minister_tittel>samferdselsministeren</besvart_pa_vegne_av_minister_tittel>
       <datert_dato>2012-05-09T00:00:00</datert_dato>
       <emne_liste>
         <emne>
@@ -1548,14 +1384,14 @@
       <besvart_av>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Solhjell</etternavn>
-        <foedselsdato>1971-12-22T00:00:00</foedselsdato>
-        <fornavn>Bård Vegar</fornavn>
-        <id>BVS</id>
-        <kjoenn>mann</kjoenn>
+        <etternavn>Berg-Hansen</etternavn>
+        <foedselsdato>1963-03-14T00:00:00</foedselsdato>
+        <fornavn>Lisbeth</fornavn>
+        <id>LIB</id>
+        <kjoenn>kvinne</kjoenn>
       </besvart_av>
-      <besvart_av_minister_id>MD</besvart_av_minister_id>
-      <besvart_av_minister_tittel>miljøvernministeren</besvart_av_minister_tittel>
+      <besvart_av_minister_id>FKD</besvart_av_minister_id>
+      <besvart_av_minister_tittel>fiskeri- og kystministeren</besvart_av_minister_tittel>
       <besvart_dato>2012-05-16T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
@@ -1577,12 +1413,20 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <flyttet_til>ikke_spesifisert</flyttet_til>
+      <flyttet_til>rette_vedkommende</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53693</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
+      <rette_vedkommende>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Berg-Hansen</etternavn>
+        <foedselsdato>1963-03-14T00:00:00</foedselsdato>
+        <fornavn>Lisbeth</fornavn>
+        <id>LIB</id>
+        <kjoenn>kvinne</kjoenn>
+      </rette_vedkommende>
+      <rette_vedkommende_minister_id>FKD</rette_vedkommende_minister_id>
+      <rette_vedkommende_minister_tittel>fiskeri- og kystministeren</rette_vedkommende_minister_tittel>
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2011-2012</sesjon_id>
       <sporsmal_fra>
