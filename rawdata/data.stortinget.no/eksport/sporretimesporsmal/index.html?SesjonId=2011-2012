@@ -1501,7 +1501,22 @@ Hva er regjeringens tiltak på kort og på lang sikt gjennom politiske prioriter
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-09T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53801</id>
@@ -1542,8 +1557,7 @@ Hva er regjeringens tiltak på kort og på lang sikt gjennom politiske prioriter
       <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>Statsråden skriver i en kronikk i dagsavisen Fremover onsdag 9. mai 2012: "Ingen kutt i Midtre Hålogaland".
-Kan statsråden redegjøre for hvorfor man må nedbemanne ca. 20 stillinger over en 3-årsperiode, samtidig som statsråden hevder at det ikke blir noen kutt?</tittel>
+      <tittel>om å redegjøre for hvorfor man må _nedbemanne i Midtre Hålogaland_, samtidig som statsråden hevder at det ikke blir noen kutt</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
