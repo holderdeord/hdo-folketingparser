@@ -885,90 +885,6 @@ Kan statsråden forsvare tilskudd til skoler som bryter så grunnleggende med id
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>167</id>
-          <navn>MENNESKERETTIGHETER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>200</id>
-          <navn>INTERNASJONAL RETT</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <flyttet_til>ikke_spesifisert</flyttet_til>
-      <fremsatt_av_annen i:nil="true" />
-      <id>17001</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
-      <sesjon_id>1998-99</sesjon_id>
-      <sporsmal_fra>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Danielsen</etternavn>
-        <foedselsdato>1955-04-08T00:00:00</foedselsdato>
-        <fornavn>Dag</fornavn>
-        <id>DAD</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Os</id>
-          <navn>Oslo</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>FrP</id>
-          <navn>Fremskrittspartiet</navn>
-        </parti>
-      </sporsmal_fra>
-      <sporsmal_nummer>48</sporsmal_nummer>
-      <sporsmal_til>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Vollebæk</etternavn>
-        <foedselsdato>1946-02-11T00:00:00</foedselsdato>
-        <fornavn>Knut</fornavn>
-        <id>KVO</id>
-        <kjoenn>mann</kjoenn>
-      </sporsmal_til>
-      <sporsmal_til_minister_id>UD</sporsmal_til_minister_id>
-      <sporsmal_til_minister_tittel>utenriksministeren</sporsmal_til_minister_tittel>
-      <status>besvart</status>
-      <tittel>om hvilken strategi Regjeringen har for å styrke _menneskerettighetenes stilling i Kina_</tittel>
-      <type>interpellasjon</type>
-    </sporsmal>
-    <sporsmal>
-      <versjon>1.0</versjon>
-      <besvart_av>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Vollebæk</etternavn>
-        <foedselsdato>1946-02-11T00:00:00</foedselsdato>
-        <fornavn>Knut</fornavn>
-        <id>KVO</id>
-        <kjoenn>mann</kjoenn>
-      </besvart_av>
-      <besvart_av_minister_id>UD</besvart_av_minister_id>
-      <besvart_av_minister_tittel>utenriksministeren</besvart_av_minister_tittel>
-      <besvart_dato>1999-04-27T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av i:nil="true" />
-      <besvart_pa_vegne_av_minister_id i:nil="true" />
-      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
-      <datert_dato>1999-03-26T00:00:00</datert_dato>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>22</id>
           <navn>INTERNASJONALT SAMARBEID</navn>
@@ -1051,6 +967,90 @@ Kan statsråden forsvare tilskudd til skoler som bryter så grunnleggende med id
       <sporsmal_til_minister_tittel>utenriksministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
       <tittel>om et nødrettsinstitutt som skal sikre et mandat for _intervensjon i konflikter_ hvor det foregår brudd på menneskerettighetene som har karakter av folkemord, som i Kosovo</tittel>
+      <type>interpellasjon</type>
+    </sporsmal>
+    <sporsmal>
+      <versjon>1.0</versjon>
+      <besvart_av>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Vollebæk</etternavn>
+        <foedselsdato>1946-02-11T00:00:00</foedselsdato>
+        <fornavn>Knut</fornavn>
+        <id>KVO</id>
+        <kjoenn>mann</kjoenn>
+      </besvart_av>
+      <besvart_av_minister_id>UD</besvart_av_minister_id>
+      <besvart_av_minister_tittel>utenriksministeren</besvart_av_minister_tittel>
+      <besvart_dato>1999-04-27T00:00:00</besvart_dato>
+      <besvart_pa_vegne_av i:nil="true" />
+      <besvart_pa_vegne_av_minister_id i:nil="true" />
+      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
+      <datert_dato>1999-03-26T00:00:00</datert_dato>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>200</id>
+          <navn>INTERNASJONAL RETT</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <flyttet_til>ikke_spesifisert</flyttet_til>
+      <fremsatt_av_annen i:nil="true" />
+      <id>17001</id>
+      <rette_vedkommende i:nil="true" />
+      <rette_vedkommende_minister_id i:nil="true" />
+      <rette_vedkommende_minister_tittel i:nil="true" />
+      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sesjon_id>1998-99</sesjon_id>
+      <sporsmal_fra>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Danielsen</etternavn>
+        <foedselsdato>1955-04-08T00:00:00</foedselsdato>
+        <fornavn>Dag</fornavn>
+        <id>DAD</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Os</id>
+          <navn>Oslo</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+        </parti>
+      </sporsmal_fra>
+      <sporsmal_nummer>48</sporsmal_nummer>
+      <sporsmal_til>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Vollebæk</etternavn>
+        <foedselsdato>1946-02-11T00:00:00</foedselsdato>
+        <fornavn>Knut</fornavn>
+        <id>KVO</id>
+        <kjoenn>mann</kjoenn>
+      </sporsmal_til>
+      <sporsmal_til_minister_id>UD</sporsmal_til_minister_id>
+      <sporsmal_til_minister_tittel>utenriksministeren</sporsmal_til_minister_tittel>
+      <status>besvart</status>
+      <tittel>om hvilken strategi Regjeringen har for å styrke _menneskerettighetenes stilling i Kina_</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
@@ -1442,6 +1442,112 @@ Kan statsråden forsvare tilskudd til skoler som bryter så grunnleggende med id
       <versjon>1.0</versjon>
       <besvart_av>
         <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Dørum</etternavn>
+        <foedselsdato>1943-10-12T00:00:00</foedselsdato>
+        <fornavn>Odd Einar</fornavn>
+        <id>ODDØ</id>
+        <kjoenn>mann</kjoenn>
+      </besvart_av>
+      <besvart_av_minister_id>JD</besvart_av_minister_id>
+      <besvart_av_minister_tittel>justisministeren</besvart_av_minister_tittel>
+      <besvart_dato>1999-04-13T00:00:00</besvart_dato>
+      <besvart_pa_vegne_av>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Høybråten</etternavn>
+        <foedselsdato>1957-12-02T00:00:00</foedselsdato>
+        <fornavn>Dagfinn</fornavn>
+        <id>DH</id>
+        <kjoenn>mann</kjoenn>
+      </besvart_pa_vegne_av>
+      <besvart_pa_vegne_av_minister_id i:nil="true" />
+      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
+      <datert_dato>1999-03-02T00:00:00</datert_dato>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>12</id>
+          <navn>DOMSTOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>26</id>
+          <navn>STORTINGSREPRESENTANTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>154</id>
+          <navn>POLITISKE PARTIER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <flyttet_til>ikke_spesifisert</flyttet_til>
+      <fremsatt_av_annen i:nil="true" />
+      <id>16766</id>
+      <rette_vedkommende i:nil="true" />
+      <rette_vedkommende_minister_id i:nil="true" />
+      <rette_vedkommende_minister_tittel i:nil="true" />
+      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sesjon_id>1998-99</sesjon_id>
+      <sporsmal_fra>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Hove</etternavn>
+        <foedselsdato>1949-01-10T00:00:00</foedselsdato>
+        <fornavn>Harald</fornavn>
+        <id>HHO</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Ho</id>
+          <navn>Hordaland</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>V</id>
+          <navn>Venstre</navn>
+        </parti>
+      </sporsmal_fra>
+      <sporsmal_nummer>42</sporsmal_nummer>
+      <sporsmal_til>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Høybråten</etternavn>
+        <foedselsdato>1957-12-02T00:00:00</foedselsdato>
+        <fornavn>Dagfinn</fornavn>
+        <id>DH</id>
+        <kjoenn>mann</kjoenn>
+      </sporsmal_til>
+      <sporsmal_til_minister_id>JD</sporsmal_til_minister_id>
+      <sporsmal_til_minister_tittel>justisministeren</sporsmal_til_minister_tittel>
+      <status>besvart</status>
+      <tittel>om dagens praksis for _utvelgelse av lekdommere_, og tiltak for å hindre at bestemte grupper eller partier påvirker dem</tittel>
+      <type>interpellasjon</type>
+    </sporsmal>
+    <sporsmal>
+      <versjon>1.0</versjon>
+      <besvart_av>
+        <versjon>1.0</versjon>
         <doedsdato>2006-08-21T00:00:00</doedsdato>
         <etternavn>Lilletun</etternavn>
         <foedselsdato>1945-10-23T00:00:00</foedselsdato>
@@ -1562,196 +1668,6 @@ Kan statsråden forsvare tilskudd til skoler som bryter så grunnleggende med id
       <besvart_av>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Dørum</etternavn>
-        <foedselsdato>1943-10-12T00:00:00</foedselsdato>
-        <fornavn>Odd Einar</fornavn>
-        <id>ODDØ</id>
-        <kjoenn>mann</kjoenn>
-      </besvart_av>
-      <besvart_av_minister_id>JD</besvart_av_minister_id>
-      <besvart_av_minister_tittel>justisministeren</besvart_av_minister_tittel>
-      <besvart_dato>1999-04-13T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Høybråten</etternavn>
-        <foedselsdato>1957-12-02T00:00:00</foedselsdato>
-        <fornavn>Dagfinn</fornavn>
-        <id>DH</id>
-        <kjoenn>mann</kjoenn>
-      </besvart_pa_vegne_av>
-      <besvart_pa_vegne_av_minister_id i:nil="true" />
-      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
-      <datert_dato>1999-03-02T00:00:00</datert_dato>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>12</id>
-          <navn>DOMSTOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>26</id>
-          <navn>STORTINGSREPRESENTANTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>151</id>
-          <navn>STATSFORFATNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>154</id>
-          <navn>POLITISKE PARTIER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <flyttet_til>ikke_spesifisert</flyttet_til>
-      <fremsatt_av_annen i:nil="true" />
-      <id>16766</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
-      <sesjon_id>1998-99</sesjon_id>
-      <sporsmal_fra>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Hove</etternavn>
-        <foedselsdato>1949-01-10T00:00:00</foedselsdato>
-        <fornavn>Harald</fornavn>
-        <id>HHO</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Ho</id>
-          <navn>Hordaland</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>V</id>
-          <navn>Venstre</navn>
-        </parti>
-      </sporsmal_fra>
-      <sporsmal_nummer>42</sporsmal_nummer>
-      <sporsmal_til>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Høybråten</etternavn>
-        <foedselsdato>1957-12-02T00:00:00</foedselsdato>
-        <fornavn>Dagfinn</fornavn>
-        <id>DH</id>
-        <kjoenn>mann</kjoenn>
-      </sporsmal_til>
-      <sporsmal_til_minister_id>JD</sporsmal_til_minister_id>
-      <sporsmal_til_minister_tittel>justisministeren</sporsmal_til_minister_tittel>
-      <status>besvart</status>
-      <tittel>om dagens praksis for _utvelgelse av lekdommere_, og tiltak for å hindre at bestemte grupper eller partier påvirker dem</tittel>
-      <type>interpellasjon</type>
-    </sporsmal>
-    <sporsmal>
-      <versjon>1.0</versjon>
-      <besvart_av>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Haugland</etternavn>
-        <foedselsdato>1956-08-23T00:00:00</foedselsdato>
-        <fornavn>Valgerd Svarstad</fornavn>
-        <id>VSH</id>
-        <kjoenn>kvinne</kjoenn>
-      </besvart_av>
-      <besvart_av_minister_id>BFD</besvart_av_minister_id>
-      <besvart_av_minister_tittel>barne- og familieministeren</besvart_av_minister_tittel>
-      <besvart_dato>1999-04-20T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av i:nil="true" />
-      <besvart_pa_vegne_av_minister_id i:nil="true" />
-      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
-      <datert_dato>1999-02-26T00:00:00</datert_dato>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>6</id>
-          <navn>KULTUR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>40</id>
-          <navn>FAMILIE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>125</id>
-          <navn>UNGDOMSARBEID</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <flyttet_til>ikke_spesifisert</flyttet_til>
-      <fremsatt_av_annen i:nil="true" />
-      <id>16735</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
-      <sesjon_id>1998-99</sesjon_id>
-      <sporsmal_fra>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Knudsen</etternavn>
-        <foedselsdato>1940-10-13T00:00:00</foedselsdato>
-        <fornavn>Grete</fornavn>
-        <id>GK</id>
-        <kjoenn>kvinne</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Ho</id>
-          <navn>Hordaland</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>A</id>
-          <navn>Arbeiderpartiet</navn>
-        </parti>
-      </sporsmal_fra>
-      <sporsmal_nummer>39</sporsmal_nummer>
-      <sporsmal_til>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Haugland</etternavn>
-        <foedselsdato>1956-08-23T00:00:00</foedselsdato>
-        <fornavn>Valgerd Svarstad</fornavn>
-        <id>VSH</id>
-        <kjoenn>kvinne</kjoenn>
-      </sporsmal_til>
-      <sporsmal_til_minister_id>BFD</sporsmal_til_minister_id>
-      <sporsmal_til_minister_tittel>barne- og familieministeren</sporsmal_til_minister_tittel>
-      <status>besvart</status>
-      <tittel>om å legge frem en egen sak om _homofiles livssituasjon_, da en av fire under 24 år har forsøkt å ta sitt eget liv</tittel>
-      <type>interpellasjon</type>
-    </sporsmal>
-    <sporsmal>
-      <versjon>1.0</versjon>
-      <besvart_av>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Kleppa</etternavn>
         <foedselsdato>1948-11-12T00:00:00</foedselsdato>
         <fornavn>Magnhild Meltveit</fornavn>
@@ -1843,6 +1759,90 @@ Kan statsråden forsvare tilskudd til skoler som bryter så grunnleggende med id
       <besvart_av>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Haugland</etternavn>
+        <foedselsdato>1956-08-23T00:00:00</foedselsdato>
+        <fornavn>Valgerd Svarstad</fornavn>
+        <id>VSH</id>
+        <kjoenn>kvinne</kjoenn>
+      </besvart_av>
+      <besvart_av_minister_id>BFD</besvart_av_minister_id>
+      <besvart_av_minister_tittel>barne- og familieministeren</besvart_av_minister_tittel>
+      <besvart_dato>1999-04-20T00:00:00</besvart_dato>
+      <besvart_pa_vegne_av i:nil="true" />
+      <besvart_pa_vegne_av_minister_id i:nil="true" />
+      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
+      <datert_dato>1999-02-26T00:00:00</datert_dato>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>125</id>
+          <navn>UNGDOMSARBEID</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <flyttet_til>ikke_spesifisert</flyttet_til>
+      <fremsatt_av_annen i:nil="true" />
+      <id>16735</id>
+      <rette_vedkommende i:nil="true" />
+      <rette_vedkommende_minister_id i:nil="true" />
+      <rette_vedkommende_minister_tittel i:nil="true" />
+      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sesjon_id>1998-99</sesjon_id>
+      <sporsmal_fra>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Knudsen</etternavn>
+        <foedselsdato>1940-10-13T00:00:00</foedselsdato>
+        <fornavn>Grete</fornavn>
+        <id>GK</id>
+        <kjoenn>kvinne</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Ho</id>
+          <navn>Hordaland</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>A</id>
+          <navn>Arbeiderpartiet</navn>
+        </parti>
+      </sporsmal_fra>
+      <sporsmal_nummer>39</sporsmal_nummer>
+      <sporsmal_til>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Haugland</etternavn>
+        <foedselsdato>1956-08-23T00:00:00</foedselsdato>
+        <fornavn>Valgerd Svarstad</fornavn>
+        <id>VSH</id>
+        <kjoenn>kvinne</kjoenn>
+      </sporsmal_til>
+      <sporsmal_til_minister_id>BFD</sporsmal_til_minister_id>
+      <sporsmal_til_minister_tittel>barne- og familieministeren</sporsmal_til_minister_tittel>
+      <status>besvart</status>
+      <tittel>om å legge frem en egen sak om _homofiles livssituasjon_, da en av fire under 24 år har forsøkt å ta sitt eget liv</tittel>
+      <type>interpellasjon</type>
+    </sporsmal>
+    <sporsmal>
+      <versjon>1.0</versjon>
+      <besvart_av>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høybråten</etternavn>
         <foedselsdato>1957-12-02T00:00:00</foedselsdato>
         <fornavn>Dagfinn</fornavn>
@@ -1913,6 +1913,76 @@ Kan statsråden forsvare tilskudd til skoler som bryter så grunnleggende med id
       <sporsmal_til_minister_tittel>helseministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
       <tittel>om å oppnå en bedret _geografisk legefordeling_</tittel>
+      <type>interpellasjon</type>
+    </sporsmal>
+    <sporsmal>
+      <versjon>1.0</versjon>
+      <besvart_av>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Gjønnes</etternavn>
+        <foedselsdato>1942-01-30T00:00:00</foedselsdato>
+        <fornavn>Kåre</fornavn>
+        <id>KÅGJ</id>
+        <kjoenn>mann</kjoenn>
+      </besvart_av>
+      <besvart_av_minister_id>LD</besvart_av_minister_id>
+      <besvart_av_minister_tittel>landbruksministeren</besvart_av_minister_tittel>
+      <besvart_dato>1999-03-04T00:00:00</besvart_dato>
+      <besvart_pa_vegne_av i:nil="true" />
+      <besvart_pa_vegne_av_minister_id i:nil="true" />
+      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
+      <datert_dato>1999-02-12T00:00:00</datert_dato>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <flyttet_til>ikke_spesifisert</flyttet_til>
+      <fremsatt_av_annen i:nil="true" />
+      <id>16613</id>
+      <rette_vedkommende i:nil="true" />
+      <rette_vedkommende_minister_id i:nil="true" />
+      <rette_vedkommende_minister_tittel i:nil="true" />
+      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sesjon_id>1998-99</sesjon_id>
+      <sporsmal_fra>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Gabrielsen</etternavn>
+        <foedselsdato>1955-05-21T00:00:00</foedselsdato>
+        <fornavn>Ansgar</fornavn>
+        <id>AG</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>VA</id>
+          <navn>Vest-Agder</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+        </parti>
+      </sporsmal_fra>
+      <sporsmal_nummer>37</sporsmal_nummer>
+      <sporsmal_til>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Gjønnes</etternavn>
+        <foedselsdato>1942-01-30T00:00:00</foedselsdato>
+        <fornavn>Kåre</fornavn>
+        <id>KÅGJ</id>
+        <kjoenn>mann</kjoenn>
+      </sporsmal_til>
+      <sporsmal_til_minister_id>LD</sporsmal_til_minister_id>
+      <sporsmal_til_minister_tittel>landbruksministeren</sporsmal_til_minister_tittel>
+      <status>besvart</status>
+      <tittel>om å praktisere en mer liberal tolkning av _konsesjonsloven_ mht. til arealgrensen og statens forkjøpsrett</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
@@ -1997,153 +2067,6 @@ Kan statsråden forsvare tilskudd til skoler som bryter så grunnleggende med id
       <sporsmal_til_minister_tittel>kirke-, utdannings- og forskningsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
       <tittel>om praksis for tilsettinger ved _Menighetsfakultetet_, som skjer gjennom kallelse i stedet for åpen konkurranse</tittel>
-      <type>interpellasjon</type>
-    </sporsmal>
-    <sporsmal>
-      <versjon>1.0</versjon>
-      <besvart_av>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Gjønnes</etternavn>
-        <foedselsdato>1942-01-30T00:00:00</foedselsdato>
-        <fornavn>Kåre</fornavn>
-        <id>KÅGJ</id>
-        <kjoenn>mann</kjoenn>
-      </besvart_av>
-      <besvart_av_minister_id>LD</besvart_av_minister_id>
-      <besvart_av_minister_tittel>landbruksministeren</besvart_av_minister_tittel>
-      <besvart_dato>1999-03-04T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av i:nil="true" />
-      <besvart_pa_vegne_av_minister_id i:nil="true" />
-      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
-      <datert_dato>1999-02-12T00:00:00</datert_dato>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>46</id>
-          <navn>LANDBRUK</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <flyttet_til>ikke_spesifisert</flyttet_til>
-      <fremsatt_av_annen i:nil="true" />
-      <id>16613</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
-      <sesjon_id>1998-99</sesjon_id>
-      <sporsmal_fra>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Gabrielsen</etternavn>
-        <foedselsdato>1955-05-21T00:00:00</foedselsdato>
-        <fornavn>Ansgar</fornavn>
-        <id>AG</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>VA</id>
-          <navn>Vest-Agder</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>H</id>
-          <navn>Høyre</navn>
-        </parti>
-      </sporsmal_fra>
-      <sporsmal_nummer>37</sporsmal_nummer>
-      <sporsmal_til>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Gjønnes</etternavn>
-        <foedselsdato>1942-01-30T00:00:00</foedselsdato>
-        <fornavn>Kåre</fornavn>
-        <id>KÅGJ</id>
-        <kjoenn>mann</kjoenn>
-      </sporsmal_til>
-      <sporsmal_til_minister_id>LD</sporsmal_til_minister_id>
-      <sporsmal_til_minister_tittel>landbruksministeren</sporsmal_til_minister_tittel>
-      <status>besvart</status>
-      <tittel>om å praktisere en mer liberal tolkning av _konsesjonsloven_ mht. til arealgrensen og statens forkjøpsrett</tittel>
-      <type>interpellasjon</type>
-    </sporsmal>
-    <sporsmal>
-      <versjon>1.0</versjon>
-      <besvart_av>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Høybråten</etternavn>
-        <foedselsdato>1957-12-02T00:00:00</foedselsdato>
-        <fornavn>Dagfinn</fornavn>
-        <id>DH</id>
-        <kjoenn>mann</kjoenn>
-      </besvart_av>
-      <besvart_av_minister_id>SHH</besvart_av_minister_id>
-      <besvart_av_minister_tittel>helseministeren</besvart_av_minister_tittel>
-      <besvart_dato>1999-03-04T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av i:nil="true" />
-      <besvart_pa_vegne_av_minister_id i:nil="true" />
-      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
-      <datert_dato>1999-02-04T00:00:00</datert_dato>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>65</id>
-          <navn>SVANGERSKAP</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <flyttet_til>ikke_spesifisert</flyttet_til>
-      <fremsatt_av_annen i:nil="true" />
-      <id>16528</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
-      <sesjon_id>1998-99</sesjon_id>
-      <sporsmal_fra>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Bekkemellem</etternavn>
-        <foedselsdato>1965-01-15T00:00:00</foedselsdato>
-        <fornavn>Karita</fornavn>
-        <id>KBO</id>
-        <kjoenn>kvinne</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>MR</id>
-          <navn>Møre og Romsdal</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>A</id>
-          <navn>Arbeiderpartiet</navn>
-        </parti>
-      </sporsmal_fra>
-      <sporsmal_nummer>34</sporsmal_nummer>
-      <sporsmal_til>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Høybråten</etternavn>
-        <foedselsdato>1957-12-02T00:00:00</foedselsdato>
-        <fornavn>Dagfinn</fornavn>
-        <id>DH</id>
-        <kjoenn>mann</kjoenn>
-      </sporsmal_til>
-      <sporsmal_til_minister_id>SHH</sporsmal_til_minister_id>
-      <sporsmal_til_minister_tittel>helseministeren</sporsmal_til_minister_tittel>
-      <status>besvart</status>
-      <tittel>om _forvaltning av abortloven_ etter intensjonen og å sikre objektiv og sannferdig informasjon, med henvisning til at ytterliggående antiabortorganisasjoner nå får statsstøtte</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
@@ -2235,6 +2158,83 @@ Kan statsråden forsvare tilskudd til skoler som bryter så grunnleggende med id
       <sporsmal_til_minister_tittel>kirke-, utdannings- og forskningsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
       <tittel>om å bruke ulike stimuleringstiltak for å forandre _ungdomsskoletrinnet_ slik læreplanen forutsetter</tittel>
+      <type>interpellasjon</type>
+    </sporsmal>
+    <sporsmal>
+      <versjon>1.0</versjon>
+      <besvart_av>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Høybråten</etternavn>
+        <foedselsdato>1957-12-02T00:00:00</foedselsdato>
+        <fornavn>Dagfinn</fornavn>
+        <id>DH</id>
+        <kjoenn>mann</kjoenn>
+      </besvart_av>
+      <besvart_av_minister_id>SHH</besvart_av_minister_id>
+      <besvart_av_minister_tittel>helseministeren</besvart_av_minister_tittel>
+      <besvart_dato>1999-03-04T00:00:00</besvart_dato>
+      <besvart_pa_vegne_av i:nil="true" />
+      <besvart_pa_vegne_av_minister_id i:nil="true" />
+      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
+      <datert_dato>1999-02-04T00:00:00</datert_dato>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>65</id>
+          <navn>SVANGERSKAP</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <flyttet_til>ikke_spesifisert</flyttet_til>
+      <fremsatt_av_annen i:nil="true" />
+      <id>16528</id>
+      <rette_vedkommende i:nil="true" />
+      <rette_vedkommende_minister_id i:nil="true" />
+      <rette_vedkommende_minister_tittel i:nil="true" />
+      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sesjon_id>1998-99</sesjon_id>
+      <sporsmal_fra>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Bekkemellem</etternavn>
+        <foedselsdato>1965-01-15T00:00:00</foedselsdato>
+        <fornavn>Karita</fornavn>
+        <id>KBO</id>
+        <kjoenn>kvinne</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>MR</id>
+          <navn>Møre og Romsdal</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>A</id>
+          <navn>Arbeiderpartiet</navn>
+        </parti>
+      </sporsmal_fra>
+      <sporsmal_nummer>34</sporsmal_nummer>
+      <sporsmal_til>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Høybråten</etternavn>
+        <foedselsdato>1957-12-02T00:00:00</foedselsdato>
+        <fornavn>Dagfinn</fornavn>
+        <id>DH</id>
+        <kjoenn>mann</kjoenn>
+      </sporsmal_til>
+      <sporsmal_til_minister_id>SHH</sporsmal_til_minister_id>
+      <sporsmal_til_minister_tittel>helseministeren</sporsmal_til_minister_tittel>
+      <status>besvart</status>
+      <tittel>om _forvaltning av abortloven_ etter intensjonen og å sikre objektiv og sannferdig informasjon, med henvisning til at ytterliggående antiabortorganisasjoner nå får statsstøtte</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
@@ -2453,160 +2453,6 @@ Kan statsråden forsvare tilskudd til skoler som bryter så grunnleggende med id
       <besvart_av>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Vollebæk</etternavn>
-        <foedselsdato>1946-02-11T00:00:00</foedselsdato>
-        <fornavn>Knut</fornavn>
-        <id>KVO</id>
-        <kjoenn>mann</kjoenn>
-      </besvart_av>
-      <besvart_av_minister_id>UD</besvart_av_minister_id>
-      <besvart_av_minister_tittel>utenriksministeren</besvart_av_minister_tittel>
-      <besvart_dato>1999-03-10T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av i:nil="true" />
-      <besvart_pa_vegne_av_minister_id i:nil="true" />
-      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
-      <datert_dato>1999-01-28T00:00:00</datert_dato>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <flyttet_til>ikke_spesifisert</flyttet_til>
-      <fremsatt_av_annen i:nil="true" />
-      <id>16316</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
-      <sesjon_id>1998-99</sesjon_id>
-      <sporsmal_fra>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Ludvigsen</etternavn>
-        <foedselsdato>1946-07-18T00:00:00</foedselsdato>
-        <fornavn>Svein</fornavn>
-        <id>SHL</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Tr</id>
-          <navn>Troms</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>H</id>
-          <navn>Høyre</navn>
-        </parti>
-      </sporsmal_fra>
-      <sporsmal_nummer>28</sporsmal_nummer>
-      <sporsmal_til>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Vollebæk</etternavn>
-        <foedselsdato>1946-02-11T00:00:00</foedselsdato>
-        <fornavn>Knut</fornavn>
-        <id>KVO</id>
-        <kjoenn>mann</kjoenn>
-      </sporsmal_til>
-      <sporsmal_til_minister_id>UD</sporsmal_til_minister_id>
-      <sporsmal_til_minister_tittel>utenriksministeren</sporsmal_til_minister_tittel>
-      <status>besvart</status>
-      <tittel>om _den humanitære situasjonen i det nordlige Russland_ og tiltak for å lindre nøden</tittel>
-      <type>interpellasjon</type>
-    </sporsmal>
-    <sporsmal>
-      <versjon>1.0</versjon>
-      <besvart_av>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Gjønnes</etternavn>
-        <foedselsdato>1942-01-30T00:00:00</foedselsdato>
-        <fornavn>Kåre</fornavn>
-        <id>KÅGJ</id>
-        <kjoenn>mann</kjoenn>
-      </besvart_av>
-      <besvart_av_minister_id>LD</besvart_av_minister_id>
-      <besvart_av_minister_tittel>landbruksministeren</besvart_av_minister_tittel>
-      <besvart_dato>1999-02-18T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av i:nil="true" />
-      <besvart_pa_vegne_av_minister_id i:nil="true" />
-      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
-      <datert_dato>1999-01-28T00:00:00</datert_dato>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>6</id>
-          <navn>KULTUR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>46</id>
-          <navn>LANDBRUK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>121</id>
-          <navn>KULTURVERN</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <flyttet_til>ikke_spesifisert</flyttet_til>
-      <fremsatt_av_annen i:nil="true" />
-      <id>16324</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
-      <sesjon_id>1998-99</sesjon_id>
-      <sporsmal_fra>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Gjedrem</etternavn>
-        <foedselsdato>1948-12-15T00:00:00</foedselsdato>
-        <fornavn>Olaf</fornavn>
-        <id>OLAG</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Ro</id>
-          <navn>Rogaland</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>KrF</id>
-          <navn>Kristelig Folkeparti</navn>
-        </parti>
-      </sporsmal_fra>
-      <sporsmal_nummer>29</sporsmal_nummer>
-      <sporsmal_til>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Gjønnes</etternavn>
-        <foedselsdato>1942-01-30T00:00:00</foedselsdato>
-        <fornavn>Kåre</fornavn>
-        <id>KÅGJ</id>
-        <kjoenn>mann</kjoenn>
-      </sporsmal_til>
-      <sporsmal_til_minister_id>LD</sporsmal_til_minister_id>
-      <sporsmal_til_minister_tittel>landbruksministeren</sporsmal_til_minister_tittel>
-      <status>besvart</status>
-      <tittel>om å bidra til en mer bevisst holdning i landbruket til helheten _kulturlandskapet_ representerer med hensyn til bl.a. byggeskikk og estetikk</tittel>
-      <type>interpellasjon</type>
-    </sporsmal>
-    <sporsmal>
-      <versjon>1.0</versjon>
-      <besvart_av>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høybråten</etternavn>
         <foedselsdato>1957-12-02T00:00:00</foedselsdato>
         <fornavn>Dagfinn</fornavn>
@@ -2706,6 +2552,160 @@ Kan statsråden forsvare tilskudd til skoler som bryter så grunnleggende med id
       <sporsmal_til_minister_tittel>justisministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
       <tittel>om å rydde opp i _lovløse tilstander i restaurantbransjen_</tittel>
+      <type>interpellasjon</type>
+    </sporsmal>
+    <sporsmal>
+      <versjon>1.0</versjon>
+      <besvart_av>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Gjønnes</etternavn>
+        <foedselsdato>1942-01-30T00:00:00</foedselsdato>
+        <fornavn>Kåre</fornavn>
+        <id>KÅGJ</id>
+        <kjoenn>mann</kjoenn>
+      </besvart_av>
+      <besvart_av_minister_id>LD</besvart_av_minister_id>
+      <besvart_av_minister_tittel>landbruksministeren</besvart_av_minister_tittel>
+      <besvart_dato>1999-02-18T00:00:00</besvart_dato>
+      <besvart_pa_vegne_av i:nil="true" />
+      <besvart_pa_vegne_av_minister_id i:nil="true" />
+      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
+      <datert_dato>1999-01-28T00:00:00</datert_dato>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <flyttet_til>ikke_spesifisert</flyttet_til>
+      <fremsatt_av_annen i:nil="true" />
+      <id>16324</id>
+      <rette_vedkommende i:nil="true" />
+      <rette_vedkommende_minister_id i:nil="true" />
+      <rette_vedkommende_minister_tittel i:nil="true" />
+      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sesjon_id>1998-99</sesjon_id>
+      <sporsmal_fra>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Gjedrem</etternavn>
+        <foedselsdato>1948-12-15T00:00:00</foedselsdato>
+        <fornavn>Olaf</fornavn>
+        <id>OLAG</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Ro</id>
+          <navn>Rogaland</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+        </parti>
+      </sporsmal_fra>
+      <sporsmal_nummer>29</sporsmal_nummer>
+      <sporsmal_til>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Gjønnes</etternavn>
+        <foedselsdato>1942-01-30T00:00:00</foedselsdato>
+        <fornavn>Kåre</fornavn>
+        <id>KÅGJ</id>
+        <kjoenn>mann</kjoenn>
+      </sporsmal_til>
+      <sporsmal_til_minister_id>LD</sporsmal_til_minister_id>
+      <sporsmal_til_minister_tittel>landbruksministeren</sporsmal_til_minister_tittel>
+      <status>besvart</status>
+      <tittel>om å bidra til en mer bevisst holdning i landbruket til helheten _kulturlandskapet_ representerer med hensyn til bl.a. byggeskikk og estetikk</tittel>
+      <type>interpellasjon</type>
+    </sporsmal>
+    <sporsmal>
+      <versjon>1.0</versjon>
+      <besvart_av>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Vollebæk</etternavn>
+        <foedselsdato>1946-02-11T00:00:00</foedselsdato>
+        <fornavn>Knut</fornavn>
+        <id>KVO</id>
+        <kjoenn>mann</kjoenn>
+      </besvart_av>
+      <besvart_av_minister_id>UD</besvart_av_minister_id>
+      <besvart_av_minister_tittel>utenriksministeren</besvart_av_minister_tittel>
+      <besvart_dato>1999-03-10T00:00:00</besvart_dato>
+      <besvart_pa_vegne_av i:nil="true" />
+      <besvart_pa_vegne_av_minister_id i:nil="true" />
+      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
+      <datert_dato>1999-01-28T00:00:00</datert_dato>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <flyttet_til>ikke_spesifisert</flyttet_til>
+      <fremsatt_av_annen i:nil="true" />
+      <id>16316</id>
+      <rette_vedkommende i:nil="true" />
+      <rette_vedkommende_minister_id i:nil="true" />
+      <rette_vedkommende_minister_tittel i:nil="true" />
+      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sesjon_id>1998-99</sesjon_id>
+      <sporsmal_fra>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Ludvigsen</etternavn>
+        <foedselsdato>1946-07-18T00:00:00</foedselsdato>
+        <fornavn>Svein</fornavn>
+        <id>SHL</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Tr</id>
+          <navn>Troms</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+        </parti>
+      </sporsmal_fra>
+      <sporsmal_nummer>28</sporsmal_nummer>
+      <sporsmal_til>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Vollebæk</etternavn>
+        <foedselsdato>1946-02-11T00:00:00</foedselsdato>
+        <fornavn>Knut</fornavn>
+        <id>KVO</id>
+        <kjoenn>mann</kjoenn>
+      </sporsmal_til>
+      <sporsmal_til_minister_id>UD</sporsmal_til_minister_id>
+      <sporsmal_til_minister_tittel>utenriksministeren</sporsmal_til_minister_tittel>
+      <status>besvart</status>
+      <tittel>om _den humanitære situasjonen i det nordlige Russland_ og tiltak for å lindre nøden</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
@@ -3142,24 +3142,47 @@ Kan statsråden forsvare tilskudd til skoler som bryter så grunnleggende med id
       <versjon>1.0</versjon>
       <besvart_av>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Vollebæk</etternavn>
-        <foedselsdato>1946-02-11T00:00:00</foedselsdato>
-        <fornavn>Knut</fornavn>
-        <id>KVO</id>
+        <doedsdato>2006-08-21T00:00:00</doedsdato>
+        <etternavn>Lilletun</etternavn>
+        <foedselsdato>1945-10-23T00:00:00</foedselsdato>
+        <fornavn>Jon</fornavn>
+        <id>JL</id>
         <kjoenn>mann</kjoenn>
       </besvart_av>
-      <besvart_av_minister_id>UD</besvart_av_minister_id>
-      <besvart_av_minister_tittel>utenriksministeren</besvart_av_minister_tittel>
-      <besvart_dato>1999-02-04T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av i:nil="true" />
-      <besvart_pa_vegne_av_minister_id i:nil="true" />
-      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
+      <besvart_av_minister_id>KUF</besvart_av_minister_id>
+      <besvart_av_minister_tittel>kirke-, utdannings- og forskningsministeren</besvart_av_minister_tittel>
+      <besvart_dato>1999-02-02T00:00:00</besvart_dato>
+      <besvart_pa_vegne_av>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Aure</etternavn>
+        <foedselsdato>1942-11-12T00:00:00</foedselsdato>
+        <fornavn>Aud-Inger</fornavn>
+        <id>AUAU</id>
+        <kjoenn>kvinne</kjoenn>
+      </besvart_pa_vegne_av>
+      <besvart_pa_vegne_av_minister_id>JD</besvart_pa_vegne_av_minister_id>
+      <besvart_pa_vegne_av_minister_tittel>justisministeren</besvart_pa_vegne_av_minister_tittel>
       <datert_dato>1998-12-02T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
-      <id>15982</id>
+      <id>15985</id>
       <rette_vedkommende i:nil="true" />
       <rette_vedkommende_minister_id i:nil="true" />
       <rette_vedkommende_minister_tittel i:nil="true" />
@@ -3168,37 +3191,36 @@ Kan statsråden forsvare tilskudd til skoler som bryter så grunnleggende med id
       <sporsmal_fra>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Solheim</etternavn>
-        <foedselsdato>1955-01-18T00:00:00</foedselsdato>
-        <fornavn>Erik</fornavn>
-        <id>EGS</id>
+        <etternavn>Hernæs</etternavn>
+        <foedselsdato>1936-11-23T00:00:00</foedselsdato>
+        <fornavn>Bjørn</fornavn>
+        <id>BJH</id>
         <kjoenn>mann</kjoenn>
         <fylke>
           <versjon>1.0</versjon>
-          <id>Os</id>
-          <navn>Oslo</navn>
+          <id>He</id>
+          <navn>Hedmark</navn>
         </fylke>
         <parti>
           <versjon>1.0</versjon>
-          <id>SV</id>
-          <navn>Sosialistisk Venstreparti</navn>
+          <id>H</id>
+          <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
-      <sporsmal_nummer>19</sporsmal_nummer>
+      <sporsmal_nummer>21</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Vollebæk</etternavn>
-        <foedselsdato>1946-02-11T00:00:00</foedselsdato>
-        <fornavn>Knut</fornavn>
-        <id>KVO</id>
-        <kjoenn>mann</kjoenn>
+        <etternavn>Aure</etternavn>
+        <foedselsdato>1942-11-12T00:00:00</foedselsdato>
+        <fornavn>Aud-Inger</fornavn>
+        <id>AUAU</id>
+        <kjoenn>kvinne</kjoenn>
       </sporsmal_til>
-      <sporsmal_til_minister_id>UD</sporsmal_til_minister_id>
-      <sporsmal_til_minister_tittel>utenriksministeren</sporsmal_til_minister_tittel>
-      <status>trukket</status>
-      <tittel>NATOs rolle for Europas sikkerhet er i dag grunnleggende forskjellig fra situasjonen under den kalde krigen. Men alliansens "strategiske konsept" henger igjen i den gamle tenkingen og skal derfor diskuteres fram mot toppmøtet i Washington. Sentrale spørsmål er førstebruk av atomvåpen, hvorvidt NATO skal operere utenfor sitt tradisjonelle område og om dette eventuelt kan skje uten FN-mandat, samt amerikanske ideer om å orientere NATO ut fra vestlige "interesser", framfor forsvar av territorium. 
-Kan utenriksministeren redegjøre for de norske posisjonene i debatten om NATOs framtid?</tittel>
+      <sporsmal_til_minister_id>JD</sporsmal_til_minister_id>
+      <sporsmal_til_minister_tittel>justisministeren</sporsmal_til_minister_tittel>
+      <status>besvart</status>
+      <tittel>om å få sendt hjem _utlendinger som har fått avslått sine asylsøknader_, og å hindre nye uten identitet i å komme til landet</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
@@ -3296,47 +3318,24 @@ Kan utenriksministeren redegjøre for de norske posisjonene i debatten om NATOs 
       <versjon>1.0</versjon>
       <besvart_av>
         <versjon>1.0</versjon>
-        <doedsdato>2006-08-21T00:00:00</doedsdato>
-        <etternavn>Lilletun</etternavn>
-        <foedselsdato>1945-10-23T00:00:00</foedselsdato>
-        <fornavn>Jon</fornavn>
-        <id>JL</id>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Vollebæk</etternavn>
+        <foedselsdato>1946-02-11T00:00:00</foedselsdato>
+        <fornavn>Knut</fornavn>
+        <id>KVO</id>
         <kjoenn>mann</kjoenn>
       </besvart_av>
-      <besvart_av_minister_id>KUF</besvart_av_minister_id>
-      <besvart_av_minister_tittel>kirke-, utdannings- og forskningsministeren</besvart_av_minister_tittel>
-      <besvart_dato>1999-02-02T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Aure</etternavn>
-        <foedselsdato>1942-11-12T00:00:00</foedselsdato>
-        <fornavn>Aud-Inger</fornavn>
-        <id>AUAU</id>
-        <kjoenn>kvinne</kjoenn>
-      </besvart_pa_vegne_av>
-      <besvart_pa_vegne_av_minister_id>JD</besvart_pa_vegne_av_minister_id>
-      <besvart_pa_vegne_av_minister_tittel>justisministeren</besvart_pa_vegne_av_minister_tittel>
+      <besvart_av_minister_id>UD</besvart_av_minister_id>
+      <besvart_av_minister_tittel>utenriksministeren</besvart_av_minister_tittel>
+      <besvart_dato>1999-02-04T00:00:00</besvart_dato>
+      <besvart_pa_vegne_av i:nil="true" />
+      <besvart_pa_vegne_av_minister_id i:nil="true" />
+      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1998-12-02T00:00:00</datert_dato>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>18</id>
-          <navn>INNVANDRERE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
+      <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
-      <id>15985</id>
+      <id>15982</id>
       <rette_vedkommende i:nil="true" />
       <rette_vedkommende_minister_id i:nil="true" />
       <rette_vedkommende_minister_tittel i:nil="true" />
@@ -3345,36 +3344,37 @@ Kan utenriksministeren redegjøre for de norske posisjonene i debatten om NATOs 
       <sporsmal_fra>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Hernæs</etternavn>
-        <foedselsdato>1936-11-23T00:00:00</foedselsdato>
-        <fornavn>Bjørn</fornavn>
-        <id>BJH</id>
+        <etternavn>Solheim</etternavn>
+        <foedselsdato>1955-01-18T00:00:00</foedselsdato>
+        <fornavn>Erik</fornavn>
+        <id>EGS</id>
         <kjoenn>mann</kjoenn>
         <fylke>
           <versjon>1.0</versjon>
-          <id>He</id>
-          <navn>Hedmark</navn>
+          <id>Os</id>
+          <navn>Oslo</navn>
         </fylke>
         <parti>
           <versjon>1.0</versjon>
-          <id>H</id>
-          <navn>Høyre</navn>
+          <id>SV</id>
+          <navn>Sosialistisk Venstreparti</navn>
         </parti>
       </sporsmal_fra>
-      <sporsmal_nummer>21</sporsmal_nummer>
+      <sporsmal_nummer>19</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Aure</etternavn>
-        <foedselsdato>1942-11-12T00:00:00</foedselsdato>
-        <fornavn>Aud-Inger</fornavn>
-        <id>AUAU</id>
-        <kjoenn>kvinne</kjoenn>
+        <etternavn>Vollebæk</etternavn>
+        <foedselsdato>1946-02-11T00:00:00</foedselsdato>
+        <fornavn>Knut</fornavn>
+        <id>KVO</id>
+        <kjoenn>mann</kjoenn>
       </sporsmal_til>
-      <sporsmal_til_minister_id>JD</sporsmal_til_minister_id>
-      <sporsmal_til_minister_tittel>justisministeren</sporsmal_til_minister_tittel>
-      <status>besvart</status>
-      <tittel>om å få sendt hjem _utlendinger som har fått avslått sine asylsøknader_, og å hindre nye uten identitet i å komme til landet</tittel>
+      <sporsmal_til_minister_id>UD</sporsmal_til_minister_id>
+      <sporsmal_til_minister_tittel>utenriksministeren</sporsmal_til_minister_tittel>
+      <status>trukket</status>
+      <tittel>NATOs rolle for Europas sikkerhet er i dag grunnleggende forskjellig fra situasjonen under den kalde krigen. Men alliansens "strategiske konsept" henger igjen i den gamle tenkingen og skal derfor diskuteres fram mot toppmøtet i Washington. Sentrale spørsmål er førstebruk av atomvåpen, hvorvidt NATO skal operere utenfor sitt tradisjonelle område og om dette eventuelt kan skje uten FN-mandat, samt amerikanske ideer om å orientere NATO ut fra vestlige "interesser", framfor forsvar av territorium. 
+Kan utenriksministeren redegjøre for de norske posisjonene i debatten om NATOs framtid?</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
@@ -3452,6 +3452,90 @@ Kan utenriksministeren redegjøre for de norske posisjonene i debatten om NATOs 
       <sporsmal_til_minister_tittel>barne- og familieministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
       <tittel>om å arrangere en offentlig høring med tema _homofile og barn_ for å øke kunnskapsnivået hos politikere og andre</tittel>
+      <type>interpellasjon</type>
+    </sporsmal>
+    <sporsmal>
+      <versjon>1.0</versjon>
+      <besvart_av>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Høybråten</etternavn>
+        <foedselsdato>1957-12-02T00:00:00</foedselsdato>
+        <fornavn>Dagfinn</fornavn>
+        <id>DH</id>
+        <kjoenn>mann</kjoenn>
+      </besvart_av>
+      <besvart_av_minister_id>SHH</besvart_av_minister_id>
+      <besvart_av_minister_tittel>helseministeren</besvart_av_minister_tittel>
+      <besvart_dato>1999-01-12T00:00:00</besvart_dato>
+      <besvart_pa_vegne_av i:nil="true" />
+      <besvart_pa_vegne_av_minister_id i:nil="true" />
+      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
+      <datert_dato>1998-11-16T00:00:00</datert_dato>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>62</id>
+          <navn>HELSEINSTITUSJONER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>63</id>
+          <navn>SYKEHUS</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <flyttet_til>ikke_spesifisert</flyttet_til>
+      <fremsatt_av_annen i:nil="true" />
+      <id>15860</id>
+      <rette_vedkommende i:nil="true" />
+      <rette_vedkommende_minister_id i:nil="true" />
+      <rette_vedkommende_minister_tittel i:nil="true" />
+      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sesjon_id>1998-99</sesjon_id>
+      <sporsmal_fra>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Arnesen</etternavn>
+        <foedselsdato>1951-06-09T00:00:00</foedselsdato>
+        <fornavn>Bendiks H.</fornavn>
+        <id>BEHA</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Tr</id>
+          <navn>Troms</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>A</id>
+          <navn>Arbeiderpartiet</navn>
+        </parti>
+      </sporsmal_fra>
+      <sporsmal_nummer>17</sporsmal_nummer>
+      <sporsmal_til>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Høybråten</etternavn>
+        <foedselsdato>1957-12-02T00:00:00</foedselsdato>
+        <fornavn>Dagfinn</fornavn>
+        <id>DH</id>
+        <kjoenn>mann</kjoenn>
+      </sporsmal_til>
+      <sporsmal_til_minister_id>SHH</sporsmal_til_minister_id>
+      <sporsmal_til_minister_tittel>helseministeren</sporsmal_til_minister_tittel>
+      <status>besvart</status>
+      <tittel>om videreutvikling av _telemedisinsk senter ved Regionsykehuset i Tromsø_</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
@@ -3550,188 +3634,6 @@ Kan utenriksministeren redegjøre for de norske posisjonene i debatten om NATOs 
       <sporsmal_til_minister_tittel>miljøvernministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
       <tittel>om _arealbruk i Nord-Jærenregionen med Stavanger_</tittel>
-      <type>interpellasjon</type>
-    </sporsmal>
-    <sporsmal>
-      <versjon>1.0</versjon>
-      <besvart_av>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Høybråten</etternavn>
-        <foedselsdato>1957-12-02T00:00:00</foedselsdato>
-        <fornavn>Dagfinn</fornavn>
-        <id>DH</id>
-        <kjoenn>mann</kjoenn>
-      </besvart_av>
-      <besvart_av_minister_id>SHH</besvart_av_minister_id>
-      <besvart_av_minister_tittel>helseministeren</besvart_av_minister_tittel>
-      <besvart_dato>1999-01-12T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av i:nil="true" />
-      <besvart_pa_vegne_av_minister_id i:nil="true" />
-      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
-      <datert_dato>1998-11-16T00:00:00</datert_dato>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>63</id>
-          <navn>SYKEHUS</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <flyttet_til>ikke_spesifisert</flyttet_til>
-      <fremsatt_av_annen i:nil="true" />
-      <id>15860</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
-      <sesjon_id>1998-99</sesjon_id>
-      <sporsmal_fra>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Arnesen</etternavn>
-        <foedselsdato>1951-06-09T00:00:00</foedselsdato>
-        <fornavn>Bendiks H.</fornavn>
-        <id>BEHA</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Tr</id>
-          <navn>Troms</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>A</id>
-          <navn>Arbeiderpartiet</navn>
-        </parti>
-      </sporsmal_fra>
-      <sporsmal_nummer>17</sporsmal_nummer>
-      <sporsmal_til>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Høybråten</etternavn>
-        <foedselsdato>1957-12-02T00:00:00</foedselsdato>
-        <fornavn>Dagfinn</fornavn>
-        <id>DH</id>
-        <kjoenn>mann</kjoenn>
-      </sporsmal_til>
-      <sporsmal_til_minister_id>SHH</sporsmal_til_minister_id>
-      <sporsmal_til_minister_tittel>helseministeren</sporsmal_til_minister_tittel>
-      <status>besvart</status>
-      <tittel>om videreutvikling av _telemedisinsk senter ved Regionsykehuset i Tromsø_</tittel>
-      <type>interpellasjon</type>
-    </sporsmal>
-    <sporsmal>
-      <versjon>1.0</versjon>
-      <besvart_av>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Løwer</etternavn>
-        <foedselsdato>1943-07-14T00:00:00</foedselsdato>
-        <fornavn>Eldbjørg</fornavn>
-        <id>EL</id>
-        <kjoenn>kvinne</kjoenn>
-      </besvart_av>
-      <besvart_av_minister_id>AAD</besvart_av_minister_id>
-      <besvart_av_minister_tittel>arbeids- og administrasjonsministeren</besvart_av_minister_tittel>
-      <besvart_dato>1998-12-02T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av i:nil="true" />
-      <besvart_pa_vegne_av_minister_id i:nil="true" />
-      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
-      <datert_dato>1998-11-12T00:00:00</datert_dato>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>2</id>
-          <navn>KOMMUNIKASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>3</id>
-          <navn>POST</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>155</id>
-          <navn>STATSFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <flyttet_til>ikke_spesifisert</flyttet_til>
-      <fremsatt_av_annen i:nil="true" />
-      <id>15829</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
-      <sesjon_id>1998-99</sesjon_id>
-      <sporsmal_fra>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Myrvoll</etternavn>
-        <foedselsdato>1948-06-21T00:00:00</foedselsdato>
-        <fornavn>Inge</fornavn>
-        <id>IM</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>No</id>
-          <navn>Nordland</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>SV</id>
-          <navn>Sosialistisk Venstreparti</navn>
-        </parti>
-      </sporsmal_fra>
-      <sporsmal_nummer>14</sporsmal_nummer>
-      <sporsmal_til>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Løwer</etternavn>
-        <foedselsdato>1943-07-14T00:00:00</foedselsdato>
-        <fornavn>Eldbjørg</fornavn>
-        <id>EL</id>
-        <kjoenn>kvinne</kjoenn>
-      </sporsmal_til>
-      <sporsmal_til_minister_id>AAD</sporsmal_til_minister_id>
-      <sporsmal_til_minister_tittel>arbeids- og administrasjonsministeren</sporsmal_til_minister_tittel>
-      <status>besvart</status>
-      <tittel>om å utvikle modellen med _offentlige servicekontorer_ på bred basis</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
@@ -3851,6 +3753,104 @@ Kan utenriksministeren redegjøre for de norske posisjonene i debatten om NATOs 
       <sporsmal_til_minister_tittel>kommunal- og regionalministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
       <tittel>om å ta helhetlige hensyn til _lønns- og arbeidsgiverpolitikken_ inn i vurderingen når man vedtar reformer og legger rammer for kommunesektoren</tittel>
+      <type>interpellasjon</type>
+    </sporsmal>
+    <sporsmal>
+      <versjon>1.0</versjon>
+      <besvart_av>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Løwer</etternavn>
+        <foedselsdato>1943-07-14T00:00:00</foedselsdato>
+        <fornavn>Eldbjørg</fornavn>
+        <id>EL</id>
+        <kjoenn>kvinne</kjoenn>
+      </besvart_av>
+      <besvart_av_minister_id>AAD</besvart_av_minister_id>
+      <besvart_av_minister_tittel>arbeids- og administrasjonsministeren</besvart_av_minister_tittel>
+      <besvart_dato>1998-12-02T00:00:00</besvart_dato>
+      <besvart_pa_vegne_av i:nil="true" />
+      <besvart_pa_vegne_av_minister_id i:nil="true" />
+      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
+      <datert_dato>1998-11-12T00:00:00</datert_dato>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>3</id>
+          <navn>POST</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>52</id>
+          <navn>KOMMUNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <flyttet_til>ikke_spesifisert</flyttet_til>
+      <fremsatt_av_annen i:nil="true" />
+      <id>15829</id>
+      <rette_vedkommende i:nil="true" />
+      <rette_vedkommende_minister_id i:nil="true" />
+      <rette_vedkommende_minister_tittel i:nil="true" />
+      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sesjon_id>1998-99</sesjon_id>
+      <sporsmal_fra>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Myrvoll</etternavn>
+        <foedselsdato>1948-06-21T00:00:00</foedselsdato>
+        <fornavn>Inge</fornavn>
+        <id>IM</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>No</id>
+          <navn>Nordland</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>SV</id>
+          <navn>Sosialistisk Venstreparti</navn>
+        </parti>
+      </sporsmal_fra>
+      <sporsmal_nummer>14</sporsmal_nummer>
+      <sporsmal_til>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Løwer</etternavn>
+        <foedselsdato>1943-07-14T00:00:00</foedselsdato>
+        <fornavn>Eldbjørg</fornavn>
+        <id>EL</id>
+        <kjoenn>kvinne</kjoenn>
+      </sporsmal_til>
+      <sporsmal_til_minister_id>AAD</sporsmal_til_minister_id>
+      <sporsmal_til_minister_tittel>arbeids- og administrasjonsministeren</sporsmal_til_minister_tittel>
+      <status>besvart</status>
+      <tittel>om å utvikle modellen med _offentlige servicekontorer_ på bred basis</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
@@ -4425,83 +4425,6 @@ Kan utenriksministeren redegjøre for de norske posisjonene i debatten om NATOs 
       <besvart_av>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Høybråten</etternavn>
-        <foedselsdato>1957-12-02T00:00:00</foedselsdato>
-        <fornavn>Dagfinn</fornavn>
-        <id>DH</id>
-        <kjoenn>mann</kjoenn>
-      </besvart_av>
-      <besvart_av_minister_id>SHH</besvart_av_minister_id>
-      <besvart_av_minister_tittel>helseministeren</besvart_av_minister_tittel>
-      <besvart_dato>1998-11-05T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av i:nil="true" />
-      <besvart_pa_vegne_av_minister_id i:nil="true" />
-      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
-      <datert_dato>1998-09-15T00:00:00</datert_dato>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>66</id>
-          <navn>SYKDOMMER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <flyttet_til>ikke_spesifisert</flyttet_til>
-      <fremsatt_av_annen i:nil="true" />
-      <id>15441</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
-      <sesjon_id>1998-99</sesjon_id>
-      <sporsmal_fra>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Nybakk</etternavn>
-        <foedselsdato>1947-02-14T00:00:00</foedselsdato>
-        <fornavn>Marit</fornavn>
-        <id>MN</id>
-        <kjoenn>kvinne</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Os</id>
-          <navn>Oslo</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>A</id>
-          <navn>Arbeiderpartiet</navn>
-        </parti>
-      </sporsmal_fra>
-      <sporsmal_nummer>6</sporsmal_nummer>
-      <sporsmal_til>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Høybråten</etternavn>
-        <foedselsdato>1957-12-02T00:00:00</foedselsdato>
-        <fornavn>Dagfinn</fornavn>
-        <id>DH</id>
-        <kjoenn>mann</kjoenn>
-      </sporsmal_til>
-      <sporsmal_til_minister_id>SHH</sporsmal_til_minister_id>
-      <sporsmal_til_minister_tittel>helseministeren</sporsmal_til_minister_tittel>
-      <status>besvart</status>
-      <tittel>om å bedre behandlingstilbud og ettervern for pasienter med _spiseforstyrrelser_, og øke helsevesenets kompetanse på feltet</tittel>
-      <type>interpellasjon</type>
-    </sporsmal>
-    <sporsmal>
-      <versjon>1.0</versjon>
-      <besvart_av>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Haugland</etternavn>
         <foedselsdato>1956-08-23T00:00:00</foedselsdato>
         <fornavn>Valgerd Svarstad</fornavn>
@@ -4586,6 +4509,83 @@ Kan utenriksministeren redegjøre for de norske posisjonene i debatten om NATOs 
       <sporsmal_til_minister_tittel>barne- og familieministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
       <tittel>om problematikken rundt _spiseforstyrrelser hos barn_</tittel>
+      <type>interpellasjon</type>
+    </sporsmal>
+    <sporsmal>
+      <versjon>1.0</versjon>
+      <besvart_av>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Høybråten</etternavn>
+        <foedselsdato>1957-12-02T00:00:00</foedselsdato>
+        <fornavn>Dagfinn</fornavn>
+        <id>DH</id>
+        <kjoenn>mann</kjoenn>
+      </besvart_av>
+      <besvart_av_minister_id>SHH</besvart_av_minister_id>
+      <besvart_av_minister_tittel>helseministeren</besvart_av_minister_tittel>
+      <besvart_dato>1998-11-05T00:00:00</besvart_dato>
+      <besvart_pa_vegne_av i:nil="true" />
+      <besvart_pa_vegne_av_minister_id i:nil="true" />
+      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
+      <datert_dato>1998-09-15T00:00:00</datert_dato>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>66</id>
+          <navn>SYKDOMMER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <flyttet_til>ikke_spesifisert</flyttet_til>
+      <fremsatt_av_annen i:nil="true" />
+      <id>15441</id>
+      <rette_vedkommende i:nil="true" />
+      <rette_vedkommende_minister_id i:nil="true" />
+      <rette_vedkommende_minister_tittel i:nil="true" />
+      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sesjon_id>1998-99</sesjon_id>
+      <sporsmal_fra>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Nybakk</etternavn>
+        <foedselsdato>1947-02-14T00:00:00</foedselsdato>
+        <fornavn>Marit</fornavn>
+        <id>MN</id>
+        <kjoenn>kvinne</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>Os</id>
+          <navn>Oslo</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>A</id>
+          <navn>Arbeiderpartiet</navn>
+        </parti>
+      </sporsmal_fra>
+      <sporsmal_nummer>6</sporsmal_nummer>
+      <sporsmal_til>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Høybråten</etternavn>
+        <foedselsdato>1957-12-02T00:00:00</foedselsdato>
+        <fornavn>Dagfinn</fornavn>
+        <id>DH</id>
+        <kjoenn>mann</kjoenn>
+      </sporsmal_til>
+      <sporsmal_til_minister_id>SHH</sporsmal_til_minister_id>
+      <sporsmal_til_minister_tittel>helseministeren</sporsmal_til_minister_tittel>
+      <status>besvart</status>
+      <tittel>om å bedre behandlingstilbud og ettervern for pasienter med _spiseforstyrrelser_, og øke helsevesenets kompetanse på feltet</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
