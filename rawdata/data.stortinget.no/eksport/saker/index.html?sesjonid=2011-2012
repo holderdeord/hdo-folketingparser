@@ -1738,62 +1738,6 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2011-2012</behandlet_sesjon_id>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:68 S (2011-2012), Innst. 269 S (2011-2012)</henvisning>
-      <id>53021</id>
-      <innstilling_id>10884</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>HELSEOMS</id>
-        <navn>Helse- og omsorgskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om fritt rehabiliteringsvalg og forbedret kvalitet og tilgjengelighet i rehabiliteringstilbudet</korttittel>
-      <sak_fremmet_id>53021</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Knutsen</etternavn>
-          <foedselsdato>1951-01-14T00:00:00</foedselsdato>
-          <fornavn>Tove Karoline</fornavn>
-          <id>TKK</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Tr</id>
-            <navn>Troms</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2012-05-15T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Bent Høie, Sonja Irene Sjøli, Ingjerd Schou, Frank Bakke-Jensen og Elisabeth Røbekk Nørve om fritt rehabiliteringsvalg og forbedret kvalitet og tilgjengelighet i rehabiliteringstilbudet</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2011-2012</behandlet_sesjon_id>
       <dokumentgruppe>melding</dokumentgruppe>
       <emne_liste>
         <emne>
@@ -1845,6 +1789,62 @@
       <sist_oppdatert_dato>2012-05-15T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Vi bygger Norge - om utbygging av strømnettet</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2011-2012</behandlet_sesjon_id>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>62</id>
+          <navn>HELSEINSTITUSJONER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:68 S (2011-2012), Innst. 269 S (2011-2012)</henvisning>
+      <id>53021</id>
+      <innstilling_id>10884</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>HELSEOMS</id>
+        <navn>Helse- og omsorgskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om fritt rehabiliteringsvalg og forbedret kvalitet og tilgjengelighet i rehabiliteringstilbudet</korttittel>
+      <sak_fremmet_id>53021</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Knutsen</etternavn>
+          <foedselsdato>1951-01-14T00:00:00</foedselsdato>
+          <fornavn>Tove Karoline</fornavn>
+          <id>TKK</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Tr</id>
+            <navn>Troms</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2012-05-15T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Bent Høie, Sonja Irene Sjøli, Ingjerd Schou, Frank Bakke-Jensen og Elisabeth Røbekk Nørve om fritt rehabiliteringsvalg og forbedret kvalitet og tilgjengelighet i rehabiliteringstilbudet</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -2544,7 +2544,29 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>87</id>
+          <navn>BANKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>88</id>
+          <navn>NORGES BANK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Meld. St. 24 (2011-2012)</henvisning>
       <id>52707</id>
       <innstilling_id>-1</innstilling_id>
@@ -3873,6 +3895,55 @@
           <underemne_liste />
         </emne>
       </emne_liste>
+      <henvisning>Dokument 8:58 S (2011-2012), Innst. 264 S (2011-2012)</henvisning>
+      <id>52830</id>
+      <innstilling_id>10882</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>HELSEOMS</id>
+        <navn>Helse- og omsorgskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om gradvis å innføre en takordning for tannhelseutgifter</korttittel>
+      <sak_fremmet_id>52830</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Mandt</etternavn>
+          <foedselsdato>1960-03-29T00:00:00</foedselsdato>
+          <fornavn>Sonja</fornavn>
+          <id>SOM</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ve</id>
+            <navn>Vestfold</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2012-05-07T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Robert Eriksson, Jon Jæger Gåsvatn, Kari Kjønaas Kjos og Per Arne Olsen om gradvis å innføre en takordning for tannhelseutgifter</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2011-2012</behandlet_sesjon_id>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:59 S (2011-2012), Innst. 265 S (2011-2012)</henvisning>
       <id>52860</id>
       <innstilling_id>10883</innstilling_id>
@@ -4191,6 +4262,49 @@
     </sak>
     <sak>
       <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2011-2012</behandlet_sesjon_id>
+      <dokumentgruppe>innberetning</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>26</id>
+          <navn>STORTINGSREPRESENTANTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>203</id>
+          <navn>STORTINGET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Innberetning 5 (2011-2012)</henvisning>
+      <id>53648</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>VALG</id>
+        <navn>Valgkomiteen</navn>
+      </komite>
+      <korttittel>Endring i de faste komiteers sammensetning</korttittel>
+      <sak_fremmet_id>53648</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-05-07T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Innberetning fra valgkomiteen om endring i de faste komiteers sammensetning</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste>
@@ -4257,98 +4371,6 @@
       <sist_oppdatert_dato>2012-05-07T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Samtykke til godkjenning av EØS-komiteens beslutning nr. 62/2012 av 30. mars 2012 om innlemmelse i EØS-avtalen av direktiv 2009/18/EF om undersøkelse av ulykker i sjøtransportsektoren</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2011-2012</behandlet_sesjon_id>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:58 S (2011-2012), Innst. 264 S (2011-2012)</henvisning>
-      <id>52830</id>
-      <innstilling_id>10882</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>HELSEOMS</id>
-        <navn>Helse- og omsorgskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om gradvis å innføre en takordning for tannhelseutgifter</korttittel>
-      <sak_fremmet_id>52830</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Mandt</etternavn>
-          <foedselsdato>1960-03-29T00:00:00</foedselsdato>
-          <fornavn>Sonja</fornavn>
-          <id>SOM</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ve</id>
-            <navn>Vestfold</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2012-05-07T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Robert Eriksson, Jon Jæger Gåsvatn, Kari Kjønaas Kjos og Per Arne Olsen om gradvis å innføre en takordning for tannhelseutgifter</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2011-2012</behandlet_sesjon_id>
-      <dokumentgruppe>innberetning</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>26</id>
-          <navn>STORTINGSREPRESENTANTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>151</id>
-          <navn>STATSFORFATNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>203</id>
-          <navn>STORTINGET</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Innberetning 5 (2011-2012)</henvisning>
-      <id>53648</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>VALG</id>
-        <navn>Valgkomiteen</navn>
-      </komite>
-      <korttittel>Endring i de faste komiteers sammensetning</korttittel>
-      <sak_fremmet_id>53648</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-05-07T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Innberetning fra valgkomiteen om endring i de faste komiteers sammensetning</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -12589,38 +12611,6 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2011-2012</behandlet_sesjon_id>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>40</id>
-          <navn>FAMILIE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>42</id>
-          <navn>BARNEHAGER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:64 S (2011-2012)</henvisning>
-      <id>52985</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Representantforslag om å opprette en uavhengig tilsynsfunksjon for barnehagene</korttittel>
-      <sak_fremmet_id>52985</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-03-19T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Solveig Horne, Ib Thomsen og Øyvind Korsberg om å opprette en uavhengig tilsynsfunksjon for barnehagene</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2011-2012</behandlet_sesjon_id>
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste>
         <emne>
@@ -13414,6 +13404,38 @@
       <sist_oppdatert_dato>2012-03-19T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Samtykke til deltakelse i en beslutning i EØS-komiteen om innlemmelse i EØS-avtalen av direktiv 2008/104/EF om vikararbeid (vikarbyrådirektivet)</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2011-2012</behandlet_sesjon_id>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>42</id>
+          <navn>BARNEHAGER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:64 S (2011-2012)</henvisning>
+      <id>52985</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Representantforslag om å opprette en uavhengig tilsynsfunksjon for barnehagene</korttittel>
+      <sak_fremmet_id>52985</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-03-19T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Solveig Horne, Ib Thomsen og Øyvind Korsberg om å opprette en uavhengig tilsynsfunksjon for barnehagene</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -33503,6 +33525,23 @@ Norge og Ukraina, begge av 24. juni 2010</tittel>
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>redegjørelse</dokumentgruppe>
+      <emne_liste />
+      <henvisning i:nil="true" />
+      <id>53695</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Redegjørelse av utenriksministeren om utviklingen i Afghanistan samt norsk sivilt og militært engasjement</korttittel>
+      <sak_fremmet_id>53695</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2011-10-01T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Redegjørelse av utenriksministeren om utviklingen i Afghanistan samt norsk sivilt og militært engasjement</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
       <emne_liste />
       <henvisning>Innst. 302 S (2011-2012)</henvisning>
@@ -33539,23 +33578,6 @@ Norge og Ukraina, begge av 24. juni 2010</tittel>
       <sist_oppdatert_dato>2012-05-22T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Utenriksministerens behandling av tilskudd til Senteret for Nordområdelogistikk</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>redegjørelse</dokumentgruppe>
-      <emne_liste />
-      <henvisning i:nil="true" />
-      <id>53695</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Redegjørelse av utenriksministeren om utviklingen i Afghanistan samt norsk sivilt og militært engasjement</korttittel>
-      <sak_fremmet_id>53695</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2011-10-01T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Redegjørelse av utenriksministeren om utviklingen i Afghanistan samt norsk sivilt og militært engasjement</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
