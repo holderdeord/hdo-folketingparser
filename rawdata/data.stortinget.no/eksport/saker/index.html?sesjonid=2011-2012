@@ -52,7 +52,36 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>205</id>
+          <navn>ARBEIDSMILJØ</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 118 L (2011-2012)</henvisning>
       <id>53875</id>
       <innstilling_id>-1</innstilling_id>
@@ -288,7 +317,36 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>14</id>
+          <navn>STRAFFERETT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>23</id>
+          <navn>NATURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 121 L (2011-2012)</henvisning>
       <id>53882</id>
       <innstilling_id>-1</innstilling_id>
@@ -9377,9 +9435,9 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Meld. St. 16 (2011-2012)</henvisning>
+      <henvisning>Meld. St. 16 (2011-2012), Meld. St. 16 (2011-2012), Innst. 324 S (2011-2012)</henvisning>
       <id>53371</id>
-      <innstilling_id>-1</innstilling_id>
+      <innstilling_id>10939</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>NÆRING</id>
@@ -9408,7 +9466,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2012-04-12T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2012-05-29T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Gjennomføring av råfisklova og fiskeeksportlova i 2009 og 2010</tittel>
       <type>alminneligsak</type>
