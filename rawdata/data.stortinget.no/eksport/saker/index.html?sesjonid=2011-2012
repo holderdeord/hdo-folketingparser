@@ -137,7 +137,15 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 122 S (2011-2012)</henvisning>
       <id>53881</id>
       <innstilling_id>-1</innstilling_id>
@@ -172,7 +180,7 @@
       <sist_oppdatert_dato>2012-05-25T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Jordbruksoppgjøret 2012 - endringer i statsbudsjettet for 2012 m.m.</tittel>
-      <type>alminneligsak</type>
+      <type>budsjett</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -33981,7 +33989,22 @@ Norge og Ukraina, begge av 24. juni 2010</tittel>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>redegjørelse</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning i:nil="true" />
       <id>53695</id>
       <innstilling_id>-1</innstilling_id>
