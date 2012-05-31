@@ -1858,7 +1858,22 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>12</id>
+          <navn>DOMSTOLER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:123 S (2011-2012)</henvisning>
       <id>53865</id>
       <innstilling_id>-1</innstilling_id>
@@ -1875,7 +1890,15 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:122 S (2011-2012)</henvisning>
       <id>53856</id>
       <innstilling_id>-1</innstilling_id>
@@ -3922,6 +3945,13 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>139</id>
           <navn>MILJØVERN</navn>
           <underemne_liste />
@@ -3938,6 +3968,13 @@
           <er_hovedemne>true</er_hovedemne>
           <id>173</id>
           <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>188</id>
+          <navn>FOLKEHELSE</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -6917,9 +6954,9 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 102 L (2011-2012)</henvisning>
+      <henvisning>Prop. 102 L (2011-2012), Innst. 342 L (2011-2012)</henvisning>
       <id>53618</id>
-      <innstilling_id>-1</innstilling_id>
+      <innstilling_id>10955</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>NÆRING</id>
@@ -6948,7 +6985,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2012-05-03T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2012-05-31T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Lov om Eksportkreditt Norge AS (eksportkredittloven)</tittel>
       <type>lovsak</type>
@@ -7169,9 +7206,9 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 100 L (2011-2012)</henvisning>
+      <henvisning>Prop. 100 L (2011-2012), Innst. 339 L (2011-2012)</henvisning>
       <id>52664</id>
-      <innstilling_id>-1</innstilling_id>
+      <innstilling_id>10953</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>TRANSKOM</id>
@@ -7200,7 +7237,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2012-05-03T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2012-05-31T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i lov om tilbud av grunnleggende banktjenester gjennom Posten Norge AS' ekspedisjonsnett</tittel>
       <type>lovsak</type>
@@ -34614,6 +34651,27 @@ Norge og Ukraina, begge av 24. juni 2010</tittel>
       <sist_oppdatert_dato>2011-10-01T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Riksrevisjonens undersøkelse av utbygging og fornyelse av jernbaneinfrastrukturen</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>innstillingssaker</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Innst. 350 S (2011-2012)</henvisning>
+      <id>53928</id>
+      <innstilling_id>10954</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>PRES</id>
+        <navn>Stortingets presidentskap</navn>
+      </komite>
+      <korttittel>Innstilling fra Stortingets presidentskap om språklig og teknisk revisjon av Stortingets forretningsorden </korttittel>
+      <sak_fremmet_id>53928</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-05-31T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Språklig og teknisk revisjon av Stortingets forretningsorden </tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
