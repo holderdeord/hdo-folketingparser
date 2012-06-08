@@ -273,7 +273,22 @@ Deler statsråden mitt syn om at vi bør fortsette med den ordningen vi har med 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-09T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>31</id>
+          <navn>SKOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53702</id>
@@ -314,8 +329,7 @@ Deler statsråden mitt syn om at vi bør fortsette med den ordningen vi har med 
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>Skal lærere få bedre tid til å undervise elevene, må flere yrkesgrupper få naturlig innpass i skolen. Tidsbrukundersøkelsen fra 2008 viste at 70 prosent av de spurte grunnskolelærerne flere ganger i uka må ta vare på elever sosialt. 50 prosent måtte daglig eller flere ganger i uken gripe inn og løse konflikter. Dette er oppgaver som for eksempel miljøarbeidere, helsesøstre, sosionomer og vernepleiere vil kunne gjøre like godt, endog bedre, samtidig som læreren får frigjort tid til å gjøre det han eller hun er aller best til: å undervise elevene. Skal vi få dette til, står vi overfor to utfordringer: å bedre rekrutteringen av ulike yrkesgrupper til Skole-Norge, samt å sikre arbeidsrutiner der en flerfaglig personalressurs kan brukes best mulig.
-Hvordan vil statsråden bidra til at flere yrkesgrupper får naturlig innpass i skolen?</tittel>
+      <tittel>om å _bidra til at flere yrkesgrupper får naturlig innpass i skolen_, slik at lærerne kan få bedre tid til å undervise elevene, i stedet for å løse konflikter og ta vare på elever sosialt</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
@@ -440,8 +454,7 @@ Hva mener statsråden kan gjøres for å redusere disse utfordringene?</tittel>
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>Undervisning om vold og overgrep mot barn er svært mangelfull i dagens barnehageutdanning. I 2010 sendte barnehagene 588 av 8 443 voldsmeldinger til barnevernet. Det er store mørketall når det gjelder overgrep mot barn, og Justis- og beredskapsdepartementet har anslått at 100 000 barn hvert år blir utsatt for eller er vitne til vold. Ifølge NOVA utsettes 15 prosent av alle jenter og 7 prosent av alle gutter for seksuelle overgrep i Norge. Rundt halvparten av disse overgrepene skjer når barnet er mellom 0 og 6 år.
-Hva vil statsråden gjøre for å gi dagens ansatte i barnehagesektoren nødvendig kompetanse i å gjenkjenne symptomer på at barn er utsatt for vold og overgrep, og hva vil statsråden gjøre for å sørge for at ansatte i barnehager og skoler er kjent med og oppfyller sin varslingsplikt?</tittel>
+      <tittel>om tiltak for å gi barnehageansatte nødvendig _kompetanse i å gjenkjenne symptomer på at barn er utsatt for vold og overgrep_, og tiltak for at ansatte i barnehager og skoler skal være kjent med og oppfylle sin varslingsplikt</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
