@@ -268,7 +268,7 @@ Deler statsråden mitt syn om at vi bør fortsette med den ordningen vi har med 
       </besvart_av>
       <besvart_av_minister_id>KUND</besvart_av_minister_id>
       <besvart_av_minister_tittel>kunnskapsministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2012-06-08T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
@@ -328,7 +328,7 @@ Deler statsråden mitt syn om at vi bør fortsette med den ordningen vi har med 
       </sporsmal_til>
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>om å _bidra til at flere yrkesgrupper får naturlig innpass i skolen_, slik at lærerne kan få bedre tid til å undervise elevene, i stedet for å løse konflikter og ta vare på elever sosialt</tittel>
       <type>interpellasjon</type>
     </sporsmal>
@@ -345,7 +345,7 @@ Deler statsråden mitt syn om at vi bør fortsette med den ordningen vi har med 
       </besvart_av>
       <besvart_av_minister_id>KUND</besvart_av_minister_id>
       <besvart_av_minister_tittel>kunnskapsministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2012-06-08T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
@@ -398,7 +398,7 @@ Deler statsråden mitt syn om at vi bør fortsette med den ordningen vi har med 
       </sporsmal_til>
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>om å redusere utfordringene som følger av at _forskningsinstitutter konkurrerer på særs ulike vilkår om forskningsmidlene_, da noen får nesten alle sine inntekter fra konkurransearenaer, mens andre får opp mot 70 pst. av inntektene over statsbudsjettet</tittel>
       <type>interpellasjon</type>
     </sporsmal>
@@ -415,7 +415,7 @@ Deler statsråden mitt syn om at vi bør fortsette med den ordningen vi har med 
       </besvart_av>
       <besvart_av_minister_id>KUND</besvart_av_minister_id>
       <besvart_av_minister_tittel>kunnskapsministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2012-06-08T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
@@ -489,7 +489,7 @@ Deler statsråden mitt syn om at vi bør fortsette med den ordningen vi har med 
       </sporsmal_til>
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>om tiltak for å gi barnehageansatte nødvendig _kompetanse i å gjenkjenne symptomer på at barn er utsatt for vold og overgrep_, og tiltak for at ansatte i barnehager og skoler skal være kjent med og oppfylle sin varslingsplikt</tittel>
       <type>interpellasjon</type>
     </sporsmal>
@@ -506,12 +506,34 @@ Deler statsråden mitt syn om at vi bør fortsette med den ordningen vi har med 
       </besvart_av>
       <besvart_av_minister_id>FAKD</besvart_av_minister_id>
       <besvart_av_minister_tittel>fornyings-, administrasjons- og kirkeministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2012-06-08T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-05-07T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>200</id>
+          <navn>INTERNASJONAL RETT</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>rette_vedkommende</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>53683</id>
@@ -559,9 +581,8 @@ Deler statsråden mitt syn om at vi bør fortsette med den ordningen vi har med 
       </sporsmal_til>
       <sporsmal_til_minister_id>SMK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>statsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
-      <tittel>Ifølge Amnesty International og Europarådet utgjør de ulike romfolkgruppene mellom 10 og 12 millioner mennesker. Romfolket blir utsatt for systematisk diskriminering en rekke steder i Europa. Mange romfolk lever i fattigdom og opplever stadige brudd på menneskerettighetene. I Norge er det, ifølge Amnesty International, 10 000 romfolk. Den økonomiske og sosiale situasjonen til denne gruppen har ført til at flere lever av å tigge, og flere barn går ikke på skolen. Norge har forpliktet seg gjennom Europarådets rammekonvensjon om beskyttelse av nasjonale minoriteter til å ivareta romfolkets sosiale og kulturelle rettigheter.
-På hvilken måte vil statsråden ta ansvar for at vi tar vare på kulturen og historien til de norske romfolkene, og hvordan vil statsråden bidra til at forfølgelsen stanser og at den økonomiske og sosiale situasjonen for romfolkene i Europa forbedres slik at de ikke behøver å tigge?</tittel>
+      <status>besvart</status>
+      <tittel>om ivaretakelse av kulturen og historien til de norske _romfolkene_, og å bidra til at forfølgelsen av romfolkene i Europa stanser og den økonomiske og sosiale situasjonen deres forbedres, slik at de ikke behøver å tigge</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
@@ -759,7 +780,7 @@ På hvilken måte vil statsråden ta ansvar for at vi tar vare på kulturen og h
       </besvart_av>
       <besvart_av_minister_id>KUND</besvart_av_minister_id>
       <besvart_av_minister_tittel>kunnskapsministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2012-06-08T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
@@ -826,7 +847,7 @@ På hvilken måte vil statsråden ta ansvar for at vi tar vare på kulturen og h
       </sporsmal_til>
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>om hvilke erfaringer som så langt er gjort med Ny GIV, som skal bidra til å redusere _frafallet i videregående opplæring_, og om andre og mer permanente virkemidler for å nå målet om at alle elever skal oppnå sluttkompetanse</tittel>
       <type>interpellasjon</type>
     </sporsmal>
