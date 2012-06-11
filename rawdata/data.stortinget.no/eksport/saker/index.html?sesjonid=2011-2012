@@ -76,7 +76,50 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Meld. St. 27 (2011-2012)</henvisning>
       <id>54031</id>
       <innstilling_id>-1</innstilling_id>
@@ -126,48 +169,6 @@
       <sist_oppdatert_dato>2012-06-08T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Den norske idrettsmodellen</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Dokument 8:126 L (2011-2012)</henvisning>
-      <id>53954</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>JUSTIS</id>
-        <navn>Justiskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om skjerpet aktsomhetskrav for hundeeiere i nærheten av førerhunder i tjeneste</korttittel>
-      <sak_fremmet_id>53954</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-06-07T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Representantforslag fra stortingsrepresentanten Per Sandberg om skjerpet aktsomhetskrav for hundeeiere i nærheten av førerhunder i tjeneste (endringer i lov 4. juli 2003 nr. 74 om hundehold)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Dokument 8:127 S (2011-2012)</henvisning>
-      <id>53964</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>KOMMFORV</id>
-        <navn>Kommunal- og forvaltningskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om å begrense mulighetene for gjenopptakelse av utlendingssaker</korttittel>
-      <sak_fremmet_id>53964</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-06-07T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Morten Ørsal Johansen, Gjermund Hagesæter og Åge Starheim om å begrense mulighetene for gjenopptakelse av utlendingssaker</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -261,6 +262,48 @@
       <sist_oppdatert_dato>2012-06-07T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Peter N. Myhre, Karin Woldseth og Tone Liljeroth om endringer i den offentlige finansieringen av bistands- og nødhjelpsorganisasjoner</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 8:126 L (2011-2012)</henvisning>
+      <id>53954</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om skjerpet aktsomhetskrav for hundeeiere i nærheten av førerhunder i tjeneste</korttittel>
+      <sak_fremmet_id>53954</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-06-07T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Representantforslag fra stortingsrepresentanten Per Sandberg om skjerpet aktsomhetskrav for hundeeiere i nærheten av førerhunder i tjeneste (endringer i lov 4. juli 2003 nr. 74 om hundehold)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 8:127 S (2011-2012)</henvisning>
+      <id>53964</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KOMMFORV</id>
+        <navn>Kommunal- og forvaltningskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om å begrense mulighetene for gjenopptakelse av utlendingssaker</korttittel>
+      <sak_fremmet_id>53964</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-06-07T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Morten Ørsal Johansen, Gjermund Hagesæter og Åge Starheim om å begrense mulighetene for gjenopptakelse av utlendingssaker</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -925,6 +968,23 @@
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste />
+      <henvisning>Dokument 8:129 S (2011-2012)</henvisning>
+      <id>54022</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Representantforslag om en opptrappingsplan for tilpasset utdanning og arbeid for personer med utviklingshemning</korttittel>
+      <sak_fremmet_id>54022</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-06-06T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Vigdis Giltun, Robert Eriksson, Laila Marie Reiertsen og Bente Thorsen om en opptrappingsplan for tilpasset utdanning og arbeid for personer med utviklingshemning</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
       <henvisning>Dokument 8:130 S (2011-2012)</henvisning>
       <id>54043</id>
       <innstilling_id>-1</innstilling_id>
@@ -1062,23 +1122,6 @@
       <status>behandlet</status>
       <tittel>Lov om Eksportkreditt Norge AS (eksportkredittloven)</tittel>
       <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Dokument 8:129 S (2011-2012)</henvisning>
-      <id>54022</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Representantforslag om en opptrappingsplan for tilpasset utdanning og arbeid for personer med utviklingshemning</korttittel>
-      <sak_fremmet_id>54022</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-06-06T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Vigdis Giltun, Robert Eriksson, Laila Marie Reiertsen og Bente Thorsen om en opptrappingsplan for tilpasset utdanning og arbeid for personer med utviklingshemning</tittel>
-      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -1798,9 +1841,9 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 125 S (2011-2012)</henvisning>
+      <henvisning>Prop. 125 S (2011-2012), Innst. 393 S (2011-2012)</henvisning>
       <id>52624</id>
-      <innstilling_id>-1</innstilling_id>
+      <innstilling_id>11008</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>ARBSOS</id>
@@ -1808,8 +1851,28 @@
       </komite>
       <korttittel>Tilleggsløyvingar som følgje av reguleringa av grunnbeløpet og pensjonar i folketrygda mv. frå 1. mai 2012</korttittel>
       <sak_fremmet_id>52624</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-06-04T00:00:00</sist_oppdatert_dato>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Eriksson</etternavn>
+          <foedselsdato>1974-04-23T00:00:00</foedselsdato>
+          <fornavn>Robert</fornavn>
+          <id>RE</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>NT</id>
+            <navn>Nord-Trøndelag</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2012-06-11T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Tilleggsløyvingar som følgje av reguleringa av grunnbeløpet og pensjonar i folketrygda mv. frå 1. mai 2012</tittel>
       <type>budsjett</type>
