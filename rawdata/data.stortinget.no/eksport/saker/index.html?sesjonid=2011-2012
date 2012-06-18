@@ -79,7 +79,36 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>54</id>
+          <navn>SKATTEAVTALER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>166</id>
+          <navn>TRAKTATER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 131 S (2011-2012)</henvisning>
       <id>52683</id>
       <innstilling_id>-1</innstilling_id>
@@ -735,7 +764,22 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 130 S (2011-2012)</henvisning>
       <id>54124</id>
       <innstilling_id>-1</innstilling_id>
@@ -752,7 +796,22 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 133 S (2011-2012)</henvisning>
       <id>54125</id>
       <innstilling_id>-1</innstilling_id>
@@ -818,23 +877,6 @@
       <sist_oppdatert_dato>2012-06-15T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Gode bygg for eit betre samfunn</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Dokument 12:4 (2011-2012)</henvisning>
-      <id>54121</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Grunnlovsforslag om endringer i Grunnloven §§ 12, 50 og 61 (innføring av 16 års stemmerett)</korttittel>
-      <sak_fremmet_id>54121</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-06-14T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Grunnlovsforslag fra Snorre Serigstad Valen, Frøydis Elisabeth Sund, Hallgeir H. Langeland, Jette F. Christensen, Stine Renate Håheim og Trine Skei Grande om endringer i Grunnloven §§ 12, 50 og 61 (innføring av 16 års stemmerett)</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -913,6 +955,40 @@
       <status>behandlet</status>
       <tittel>Lønnsregulering for arbeidstakere i det statlige tariffområdet 2012 mv.</tittel>
       <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>dokumentserien</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 12:4 (2011-2012)</henvisning>
+      <id>54121</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Grunnlovsforslag om endringer i Grunnloven §§ 12, 50 og 61 (innføring av 16 års stemmerett)</korttittel>
+      <sak_fremmet_id>54121</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-06-14T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Grunnlovsforslag fra Snorre Serigstad Valen, Frøydis Elisabeth Sund, Hallgeir H. Langeland, Jette F. Christensen, Stine Renate Håheim og Trine Skei Grande om endringer i Grunnloven §§ 12, 50 og 61 (innføring av 16 års stemmerett)</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 8:138 S (2011-2012)</henvisning>
+      <id>54149</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Representantforslag om innstramminger i grunnlaget for å gi utenlandske statsborgere permanent oppholdstillatelse i Norge</korttittel>
+      <sak_fremmet_id>54149</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-06-14T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Morten Ørsal Johansen, Gjermund Hagesæter og  Åge Starheim om innstramminger i grunnlaget for å gi utenlandske statsborgere permanent oppholdstillatelse i Norge</tittel>
+      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -2461,6 +2537,23 @@
       <sist_oppdatert_dato>2012-06-13T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Grunnlovsforslag fra Audun Lysbakken, Snorre Serigstad Valen, Rannveig Kvifte Andresen og Hallgeir H. Langeland om endring i Grunnloven § 25 (mer åpenhet om norsk krigsdeltakelse i utlandet)</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 8:136 S (2011-2012)</henvisning>
+      <id>54147</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Representantforslag fra stortingsrepresentantene  Robert Eriksson,  Laila Marie Reiertsen og Vigdis Giltun om å sikre bedre rettigheter til pleiepenger for pårørende med alvorlig syke barn</korttittel>
+      <sak_fremmet_id>54147</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-06-13T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Representantforslag fra stortingsrepresentantene  Robert Eriksson,  Laila Marie Reiertsen og Vigdis Giltun om å sikre bedre rettigheter til pleiepenger for pårørende med alvorlig syke barn</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -37615,23 +37708,6 @@ Norge og Ukraina, begge av 24. juni 2010</tittel>
       <sist_oppdatert_dato>2011-10-01T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Grunnlovsforslag fremsatt på det 156. Storting:</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Dokument 8:136 S (2011-2012)</henvisning>
-      <id>54147</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Representantforslag fra stortingsrepresentantene  Robert Eriksson,  Laila Marie Reiertsen og Vigdis Giltun om å sikre bedre rettigheter til pleiepenger for pårørende med alvorlig syke barn</korttittel>
-      <sak_fremmet_id>54147</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2011-10-01T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Representantforslag fra stortingsrepresentantene  Robert Eriksson,  Laila Marie Reiertsen og Vigdis Giltun om å sikre bedre rettigheter til pleiepenger for pårørende med alvorlig syke barn</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
