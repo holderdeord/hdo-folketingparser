@@ -859,7 +859,36 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>181</id>
+          <navn>SIVIL BEREDSKAP</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 129 L (2011-2012)</henvisning>
       <id>54127</id>
       <innstilling_id>-1</innstilling_id>
@@ -869,7 +898,7 @@
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2012-06-15T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
-      <tittel>Endringer i sivilbeskyttelsesloven (gjennomføring av EPCIP-direktivet)</tittel>
+      <tittel>Endringer i sivilbeskyttelsesloven (gjennomføring av EPCIP-direktivet).</tittel>
       <type>lovsak</type>
     </sak>
     <sak>
