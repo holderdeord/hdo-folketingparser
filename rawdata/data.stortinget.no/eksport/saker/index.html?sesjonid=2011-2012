@@ -685,7 +685,36 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2011-2012</behandlet_sesjon_id>
       <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>26</id>
+          <navn>STORTINGSREPRESENTANTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>171</id>
+          <navn>NORDISK SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Innst. 397 S (2011-2012)</henvisning>
       <id>54086</id>
       <innstilling_id>11012</innstilling_id>
@@ -2432,6 +2461,23 @@
       <sist_oppdatert_dato>2012-06-13T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Grunnlovsforslag fra Audun Lysbakken, Snorre Serigstad Valen, Rannveig Kvifte Andresen og Hallgeir H. Langeland om endring i Grunnloven § 25 (mer åpenhet om norsk krigsdeltakelse i utlandet)</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 8:137 S (2011-2012)</henvisning>
+      <id>54148</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Representantforslag om styrking av familievernet</korttittel>
+      <sak_fremmet_id>54148</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-06-13T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Representantforslag fra stortingsrepresentantene  Øyvind Håbrekke, Laila Dåvøy, Dagrun Eriksen og Hans Olav Syversen om styrking av familievernet</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -5565,7 +5611,27 @@
       </komite>
       <korttittel>Representantforslag om endringer i den statlige finansieringen av bistands- og nødhjelpsorganisasjoner</korttittel>
       <sak_fremmet_id>53930</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Gitmark</etternavn>
+          <foedselsdato>1977-04-15T00:00:00</foedselsdato>
+          <fornavn>Peter Skovholt</fornavn>
+          <id>PEG</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>VA</id>
+            <navn>Vest-Agder</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2012-06-07T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Peter N. Myhre, Karin Woldseth og Tone Liljeroth om endringer i den offentlige finansieringen av bistands- og nødhjelpsorganisasjoner</tittel>
@@ -14188,20 +14254,20 @@
         <representant>
           <versjon>1.0</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Valen</etternavn>
-          <foedselsdato>1984-09-16T00:00:00</foedselsdato>
-          <fornavn>Snorre Serigstad</fornavn>
-          <id>SNV</id>
-          <kjoenn>mann</kjoenn>
+          <etternavn>Woldseth</etternavn>
+          <foedselsdato>1954-08-09T00:00:00</foedselsdato>
+          <fornavn>Karin S.</fornavn>
+          <id>KSW</id>
+          <kjoenn>kvinne</kjoenn>
           <fylke>
             <versjon>1.0</versjon>
-            <id>ST</id>
-            <navn>Sør-Trøndelag</navn>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
           </fylke>
           <parti>
             <versjon>1.0</versjon>
-            <id>SV</id>
-            <navn>Sosialistisk Venstreparti</navn>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
           </parti>
         </representant>
       </saksordfoerer_liste>
@@ -37549,6 +37615,23 @@ Norge og Ukraina, begge av 24. juni 2010</tittel>
       <sist_oppdatert_dato>2011-10-01T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Grunnlovsforslag fremsatt på det 156. Storting:</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 8:136 S (2011-2012)</henvisning>
+      <id>54147</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Representantforslag fra stortingsrepresentantene  Robert Eriksson,  Laila Marie Reiertsen og Vigdis Giltun om å sikre bedre rettigheter til pleiepenger for pårørende med alvorlig syke barn</korttittel>
+      <sak_fremmet_id>54147</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2011-10-01T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Representantforslag fra stortingsrepresentantene  Robert Eriksson,  Laila Marie Reiertsen og Vigdis Giltun om å sikre bedre rettigheter til pleiepenger for pårørende med alvorlig syke barn</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
