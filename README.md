@@ -25,6 +25,9 @@ Om filene
 ---------
 
 - kartdato.csv
+
   Laget med mkkartdatolist/*
+
 - nsd-obs.txt
+
   pere sine notater om NSDs informasjon.
