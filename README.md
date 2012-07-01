@@ -7,10 +7,10 @@ Kildekode
 =========
 
 Kildekoden er tilgjengelig via git fra
-<URL: https://gitorious.org/nuug/folketingparser >.  Se også Holder De
-Ords githup-side, <URL: https://github.com/holderdeord >.
+git@github.com:holderdeord/hdo-folketingparser.git.
+Se også [Holder De Ords github-side] (https://github.com/holderdeord).
 
-Endel ligger også på <URL: http://www.nuug.no/prosjekt/stortingsinnsyn >
+Endel ligger også på http://www.nuug.no/prosjekt/stortingsinnsyn 
 og NUUGs CVS.
 
 Lisensiering
@@ -23,8 +23,7 @@ Lisens på datafilene er "public domain", representert med PDDL.
 Om filene
 =========
 
-kartdato.csv
- - Laget med mkkartdatolist/*
-
-nsd-obs.txt
- - pere sine notater om NSDs informasjon.
+- kartdato.csv
+  Laget med mkkartdatolist/*
+- nsd-obs.txt
+  pere sine notater om NSDs informasjon.
