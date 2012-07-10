@@ -3,8 +3,11 @@
 use warnings;
 use strict;
 
+use encoding "utf8";
+
 use LWP::Simple;
 use HTML::TreeBuilder;
+use XML::Writer;
 
 sub stortinget_url {
     my ($period, $page) = @_;
@@ -30,6 +33,27 @@ my @periods = (
     '2005-2009',
     '2009-2013',
     );
+
+my %party_ids = (
+    "Arbeiderpartiet" => "A",
+    "Fremskrittspartiet" => "FrP",
+    "Høyre" => "H",
+    "Senterpartiet" => "Sp",
+    "Sosialistisk Venstreparti" => "SV",
+    "Kristelig Folkeparti" => "KrF",
+    "Venstre" => "V", 
+    "Anders Langes Parti" => "ALP",
+    "Bondepartiet" => "B", 
+    "Det Nye Folkepartiet" => "DNF",
+    "Framtid for Finnmark" => "FFF",
+    "Kystpartiet" => "Kp",
+    "Norges Kommunistiske Parti" => "NKP",
+    "Rød Valgallianse" => "RV", 
+    "Sosialistisk Folkeparti" => "SF",
+    "Sosialistisk Valgforbund" => "SVf",
+    "Tverrpolitisk Folkevalgte (Kystpartiet)" => "TF",
+    "Uavhengig representant" => "Uav"
+);
 
 my %member;
 for my $period (@periods) {
@@ -78,19 +102,28 @@ for my $period (@periods) {
     }
 }
 
-print "<persons>\n\n";
+
+my $writer = new XML::Writer(ENCODING => "utf-8", DATA_MODE => 1, DATA_INDENT => "  ");
+$writer->startTag("representatives");
 for my $perid (sort keys %member) {
     my $info = $member{$perid};
-    print "<person stortinget-perid=\"$perid\">\n";
-    print "  <first_name>$info->{first_name}</first_name>\n";
-    print "  <last_name>$info->{last_name}</last_name>\n";
+    $writer->startTag("representative");
+    $writer->dataElement("externalId", $perid);
+    $writer->dataElement("firstName", $info->{first_name});
+    $writer->dataElement("lastName", $info->{last_name});
+    $writer->startTag("periods");
     for my $period (sort keys %{$info->{periods}}) {
-        my $party = $info->{periods}->{$period};
-        print "  <period party=\"$party\">$period</period>\n";
+      my $party = $info->{periods}->{$period};
+      $writer->startTag("period");
+      $writer->dataElement("externalId", $period);
+      $writer->dataElement("partyId", $party_ids{$party});
+      $writer->endTag("period");
     }
-    print "</person>\n\n";
+    $writer->endTag("periods");
+    $writer->endTag("representative");
 }
-print "</persons>\n";
+$writer->endTag("representatives");
+$writer->end();
 
 sub get_url {
     my $node = shift;
