@@ -6591,6 +6591,20 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
           <navn>BARN</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>148</id>
+          <navn>BARNETRYGD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -6759,13 +6773,6 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
           <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
         </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>220</id>
-          <navn>DISTRIKTSPOLITIKK</navn>
-          <underemne_liste />
-        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -6839,8 +6846,22 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <id>58</id>
+          <navn>SKATTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
           <id>186</id>
           <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -6884,7 +6905,7 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
       <sporsmal_til_minister_id>SMK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>statsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om statsministeren vil fullføre arbeidet med å fjerne den urimelige _avkortingen på 15 pst. av opptjent pensjon_ med begrunnelsen at man bor sammen</tittel>
+      <tittel>om statsministeren vil fullføre arbeidet med å fjerne den urimelige _avkortingen av opptjent pensjon_ med begrunnelsen at man bor sammen</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
