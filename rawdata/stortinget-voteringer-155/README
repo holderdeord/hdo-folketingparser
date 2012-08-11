@@ -11,36 +11,21 @@ Mvh Sissel Solvin
 
 
 
-·         Dato  (8)                                              -Møtedato
-
-·         KartNr                                                  -Kartnr (møtekartnr)
-
-·         SakskartNr                                          -Saksnr på kartet
-
-·         VoteringsTidspunkt
-
-·         VoteringsTema  maks (255)
-
-·         AlternativVotering  maks (13)         -Tekst hvis alternativ votering
-
-·         ResultatKode  maks (255)               -Resultatet hvor voteringsknappene ikke er benyttet
-
-·         AntallFor                                             -Totalt antall FOR, inneholder ikke verdi når resultatkoden="Enstemmig vedtatt"
-
-·         AntallMot                                            -Totalt antall MOT , inneholder ikke verdi når resultatkoden="Enstemmig vedtatt"
-
-·         Navn  maks (82)
-
-·         ReprNr
-
-·         PersonId  maks (8)
-
-·         Parti  maks (8)
-
-·         Fylkeskode  maks (8)
-
-·         ReprBifalt (1)                                     - J/N for bifalt / ikke bifalt (FOR /MOT), Blank hvis ikke tilstede
-
-·         VoteringsGruppeId                            - Alternativvoteringsnr (Alternativ 1 eller 2)
+* Dato  (8)                        -Møtedato
+* KartNr                           -Kartnr (møtekartnr)
+* SakskartNr                       -Saksnr på kartet
+* VoteringsTidspunkt
+* VoteringsTema  maks (255)
+* AlternativVotering  maks (13)    -Tekst hvis alternativ votering
+* ResultatKode  maks (255)         -Resultatet hvor voteringsknappene ikke er benyttet
+* AntallFor                        -Totalt antall FOR, inneholder ikke verdi når resultatkoden="Enstemmig vedtatt"
+* AntallMot                        -Totalt antall MOT , inneholder ikke verdi når resultatkoden="Enstemmig vedtatt"
+* Navn  maks (82)
+* ReprNr
+* PersonId  maks (8)
+* Parti  maks (8)
+* Fylkeskode  maks (8)
+* ReprBifalt (1)                   - J/N for bifalt / ikke bifalt (FOR /MOT), Blank hvis ikke tilstede
+* VoteringsGruppeId                - Alternativvoteringsnr (Alternativ 1 eller 2)
 
 
