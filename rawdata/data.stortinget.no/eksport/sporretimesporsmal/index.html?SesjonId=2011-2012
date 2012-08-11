@@ -6591,6 +6591,20 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
           <navn>BARN</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>148</id>
+          <navn>BARNETRYGD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -6759,13 +6773,6 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
           <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
         </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>220</id>
-          <navn>DISTRIKTSPOLITIKK</navn>
-          <underemne_liste />
-        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -6839,8 +6846,22 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <id>58</id>
+          <navn>SKATTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
           <id>186</id>
           <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -6884,7 +6905,7 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
       <sporsmal_til_minister_id>SMK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>statsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om statsministeren vil fullføre arbeidet med å fjerne den urimelige _avkortingen på 15 pst. av opptjent pensjon_ med begrunnelsen at man bor sammen</tittel>
+      <tittel>om statsministeren vil fullføre arbeidet med å fjerne den urimelige _avkortingen av opptjent pensjon_ med begrunnelsen at man bor sammen</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -7827,6 +7848,13 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
           <id>122</id>
           <navn>MASSEMEDIER</navn>
           <underemne_liste />
@@ -7911,22 +7939,15 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>121</id>
-          <navn>KULTURVERN</navn>
+          <id>68</id>
+          <navn>KUNST</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>136</id>
-          <navn>BYGNINGSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -8061,7 +8082,7 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
       <sporsmal_til_minister_id>FIN</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>finansministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hvorvidt finansministeren er like fornøyd med Finansklagenemnda som finansbransjen, med bakgrunn i at det er en kostbar og tung vei å gå for forbrukere som har klager på bransjen</tittel>
+      <tittel>om hvorvidt finansministeren er like _fornøyd med Finansklagenemnda_ som finansbransjen, med bakgrunn i at det er en kostbar og tung vei å gå for forbrukere som har klager på bransjen</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -8186,6 +8207,13 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
           <er_hovedemne>false</er_hovedemne>
           <id>107</id>
           <navn>JERNBANER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -9052,8 +9080,29 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>46</id>
           <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>94</id>
+          <navn>ARBEIDSVILKÅR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>95</id>
+          <navn>LØNN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -9104,7 +9153,7 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om kvifor regjeringa ikkje ønskjer å redusere det urettferdige inntektsgapet mellom bønder og andre grupper i samfunnet, og kvifor dei ikkje har blitt med på KrFs forslag om eit sterkare vern av matjorda, slik at me kunne fått til ein _auka matproduksjon_</tittel>
+      <tittel>om kvifor regjeringa ikkje ønskjer å redusere det urettferdige _inntektsgapet mellom bønder og andre grupper_ i samfunnet, og kvifor dei ikkje har blitt med på KrFs forslag om eit sterkare vern av matjorda, slik at me kunne fått til ein auka matproduksjon</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -9220,6 +9269,20 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
           <id>49</id>
           <navn>FUNKSJONSHEMMEDE</navn>
           <underemne_liste />
@@ -9229,6 +9292,13 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
           <er_hovedemne>true</er_hovedemne>
           <id>61</id>
           <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -9752,6 +9822,27 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>113</id>
           <navn>NÆRINGSLIV</navn>
           <underemne_liste />
@@ -9761,6 +9852,13 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
           <er_hovedemne>true</er_hovedemne>
           <id>155</id>
           <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>179</id>
+          <navn>TELEKOMMUNIKASJONER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -9979,8 +10077,7 @@ Hvilke virkemidler tenker statsråden å bruke for å øke kornproduksjonen med 
       <sporsmal_til_minister_id>OED</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>olje- og energiministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Det statseigde selskapet Entra planlegg bygging av eit stort datalagringsanlegg i Fet kommune i Akershus. Denne utbygginga vil krevje store mengder straum, ca 550 GWh frå to uavhengige kjelder. Denne straumen må fraktast over store avstandar, blant anna frå Vestlandet. I dag er kapasiteten på straumnettet i Oslo og Akershus sprengd jamfør "Nettplan Stor Oslo". 
-Korleis ser statsråden på at det blir bygt slike anlegg så langt frå straumkildene, og kva konsekvensar vil det ha for straumnettet i Oslo og Akershus i form av behov for ny linjebyging.</tittel>
+      <tittel>om korleis statsråden ser på at det blir bygt eit stort _datalagringsanlegg i Fet kommune i Akershus som vil krevje store mengder straum_, og kva for konsekvensar dette vil ha for straumnettet i Oslo og Akershus i form av behov for ny linjebygging</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -10362,13 +10459,6 @@ Korleis ser statsråden på at det blir bygt slike anlegg så langt frå straumk
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>47</id>
-          <navn>VEGTRAFIKK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>106</id>
           <navn>SAMFERDSEL</navn>
           <underemne_liste />
@@ -10512,7 +10602,7 @@ Korleis ser statsråden på at det blir bygt slike anlegg så langt frå straumk
       <sporsmal_til_minister_id>SMK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>statsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hvorvidt statsministeren mener at barns beste skal vektlegges foran _innvandringsregulerende hensyn_</tittel>
+      <tittel>om hvorvidt statsministeren mener at _barns beste_ skal vektlegges foran _innvandringsregulerende hensyn_</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -10539,13 +10629,6 @@ Korleis ser statsråden på at det blir bygt slike anlegg så langt frå straumk
           <er_hovedemne>true</er_hovedemne>
           <id>10</id>
           <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>49</id>
-          <navn>FUNKSJONSHEMMEDE</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -10610,7 +10693,7 @@ Korleis ser statsråden på at det blir bygt slike anlegg så langt frå straumk
       <sporsmal_til_minister_id>SMK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>statsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hvorvidt statsministeren mener at _psyisk helse bør opprioriteres_ i helsevesenet, i lys av at flertallet av de unge som blir uføretrygdet har en diagnose på en psyisk lidelse</tittel>
+      <tittel>om statsministeren mener at _psyisk helse bør opprioriteres_ i helsevesenet, i lys av at flertallet av de unge som blir uføretrygdet har en diagnose på en psyisk lidelse</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -10687,7 +10770,7 @@ Korleis ser statsråden på at det blir bygt slike anlegg så langt frå straumk
       <sporsmal_til_minister_id>NHD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>nærings- og handelsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om at _Aker selger sin 50 prosent andel i Aker Clean Carbon (ACC)_, og hva den komplekse transaksjonen kan bety for statens indirekte investering i ACC gjennom Aker Solutions A/S og direkte investering i Aker Kværner Holding A/S</tittel>
+      <tittel>om at _Aker selger sin 50 prosent andel i Aker Clean Carbon_, og hva den komplekse transaksjonen kan bety for statens indirekte investering i ACC gjennom Aker Solutions A/S og direkte investering i Aker Kværner Holding A/S</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -10971,6 +11054,13 @@ Korleis ser statsråden på at det blir bygt slike anlegg så langt frå straumk
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>113</id>
           <navn>NÆRINGSLIV</navn>
           <underemne_liste />
@@ -10994,6 +11084,27 @@ Korleis ser statsråden på at det blir bygt slike anlegg så langt frå straumk
           <er_hovedemne>false</er_hovedemne>
           <id>157</id>
           <navn>STATSEIENDOMMER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>179</id>
+          <navn>TELEKOMMUNIKASJONER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>220</id>
+          <navn>DISTRIKTSPOLITIKK</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -11037,7 +11148,7 @@ Korleis ser statsråden på at det blir bygt slike anlegg så langt frå straumk
       <sporsmal_til_minister_id>NHD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>nærings- og handelsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hvorvidt statsråden ser at _Entra Eiendoms nye, store engasjement i markedet for grønne datasentre_ kan oppfattes negativt av private/offentlige aktører, og om dette vil påskynde det varslede arbeidet med å redusere statens eierskap</tittel>
+      <tittel>om hvorvidt statsråden ser at _Entra Eiendoms engasjement i markedet for grønne datasentre_ kan oppfattes negativt, særlig i Distrikts-Norge, og om dette vil påskynde arbeidet med å redusere statens eierskap</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -11549,7 +11660,7 @@ Korleis ser statsråden på at det blir bygt slike anlegg så langt frå straumk
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om statsrådens uttrykte ønske om at midlene i kommende _Nasjonal transportplan må ha en minst like god geografisk fordeling som den gjeldende_, og hva hun legger i begrepet</tittel>
+      <tittel>om at midlene i kommende _Nasjonal transportplan_ må ha "minst like god geografisk fordeling som den gjeldende", og hva statsråden legger i begrepet</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -11738,7 +11849,7 @@ Korleis ser statsråden på at det blir bygt slike anlegg så langt frå straumk
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om at det i oppdragsbrevet til RHF-ene ikke lenger fremgår at vekst i rus og psykiatri skal være større enn i somantikk, og om statsråden vil revurdere dette, slik at RHF-ene fortsetter å ruste opp tilbudet til disse tidligere forfordelte pasientgruppene</tittel>
+      <tittel>om at det i oppdragsbrevet til RHF-ene ikke lenger fremgår at _vekst i rus og psykiatri_ skal være større enn i somantikk, og om statsråden vil revurdere dette, slik at RHF-ene fortsetter å ruste opp tilbudet til disse tidligere forfordelte pasientgruppene</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
