@@ -40,7 +40,29 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>111</id>
+          <navn>FERGER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 149 S (2011-2012)</henvisning>
       <id>54600</id>
       <innstilling_id>-1</innstilling_id>
@@ -8435,7 +8457,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Tajik</etternavn>
           <foedselsdato>1983-07-18T00:00:00</foedselsdato>
           <fornavn>Hadia</fornavn>
@@ -12350,7 +12372,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Tajik</etternavn>
           <foedselsdato>1983-07-18T00:00:00</foedselsdato>
           <fornavn>Hadia</fornavn>
@@ -39808,6 +39830,23 @@ Norge og Ukraina, begge av 24. juni 2010</tittel>
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>dokumentserien</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 19 (2011-2012)</henvisning>
+      <id>54571</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Rapport fra Grunnlovsspråkutvalget om utarbeidelse av språklig oppdaterte tekstversjoner av Grunnloven på bokmål og nynorsk</korttittel>
+      <sak_fremmet_id>54571</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2011-10-01T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Rapport til Stortingets presidentskap fra Grunnlovsspråkutvalget om utarbeidelse av språklig oppdaterte tekstversjoner av Grunnloven på bokmål og nynorsk</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
       <emne_liste />
       <henvisning i:nil="true" />
@@ -39820,23 +39859,6 @@ Norge og Ukraina, begge av 24. juni 2010</tittel>
       <sist_oppdatert_dato>2011-10-01T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Statsrådsprotokollene for tidsrommet 1. januar til 30. juni 2012</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Dokument 19 (2011-2012)</henvisning>
-      <id>54571</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Rapport fra Grunnlovsspråkutvalget om utarbeidelse av språklig oppdaterte tekstversjoner av Grunnloven på bokmål og nynorsk</korttittel>
-      <sak_fremmet_id>54571</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2011-10-01T00:00:00</sist_oppdatert_dato>
-      <status>varslet</status>
-      <tittel>Rapport til Stortingets presidentskap fra Grunnlovsspråkutvalget om utarbeidelse av språklig oppdaterte tekstversjoner av Grunnloven på bokmål og nynorsk</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
