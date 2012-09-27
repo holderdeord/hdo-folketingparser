@@ -24,6 +24,23 @@
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>dokumentserien</dokumentgruppe>
       <emne_liste />
+      <henvisning>Dokument 3:17 (2011-2012)</henvisning>
+      <id>54632</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Riksrevisjonens undersøkelse av bærekraftig forvaltning av norske skogressurser</korttittel>
+      <sak_fremmet_id>54632</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-09-27T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Riksrevisjonens undersøkelse av bærekraftig forvaltning av norske skogressurser</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>dokumentserien</dokumentgruppe>
+      <emne_liste />
       <henvisning>Dokument 20 (2011-2012)</henvisning>
       <id>54598</id>
       <innstilling_id>-1</innstilling_id>
@@ -515,7 +532,27 @@
       </komite>
       <korttittel>Redegjørelse av statsministeren og justis- og beredskapsministeren om regjeringens oppfølging av rapporten fra 22. juli-kommisjonen</korttittel>
       <sak_fremmet_id>54347</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Bekkevold</etternavn>
+          <foedselsdato>1963-11-19T00:00:00</foedselsdato>
+          <fornavn>Geir Jørgen</fornavn>
+          <id>GJB</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Te</id>
+            <navn>Telemark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>KrF</id>
+            <navn>Kristelig Folkeparti</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2012-08-28T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Redegjørelse av statsministeren og justis- og beredskapsministeren om regjeringens oppfølging av rapporten fra 22. juli-kommisjonen</tittel>
