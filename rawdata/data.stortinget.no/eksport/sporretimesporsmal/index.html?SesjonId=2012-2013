@@ -149,7 +149,17 @@ Vil statsråden sørge for at det foreligger oversikt over omfang av flyttinger 
       <datert_dato>2012-10-04T00:00:00</datert_dato>
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
-      <fremsatt_av_annen i:nil="true" />
+      <fremsatt_av_annen>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Hanssen</etternavn>
+        <foedselsdato>1975-10-22T00:00:00</foedselsdato>
+        <fornavn>Lars Joakim</fornavn>
+        <id>LHA</id>
+        <kjoenn>mann</kjoenn>
+        <fylke i:nil="true" />
+        <parti i:nil="true" />
+      </fremsatt_av_annen>
       <id>55054</id>
       <rette_vedkommende i:nil="true" />
       <rette_vedkommende_minister_id i:nil="true" />
@@ -439,7 +449,7 @@ Hvor står denne saken i dag, og kan statsråden bekrefte at regjeringen vil fre
       </sporsmal_til>
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>bortfalt</status>
       <tittel>Stortinget har vedtatt at ved investeringer av regionale helseforetak på over 500 mill. kroner skal det gjennomføres en offentlig utredning. Dette for å sikre et godt grunnlag for at investeringer gir best mulig helseeffekt gjennom kost- og nytteprinsippet og lokalisering. Direktøren i Helse Finnmark mener det ikke er behov for en slik utredning i Finnmark, til tross for at det skal investeres nærmere 2,5 mrd. kroner.
 Hva vil statsråden gjøre for å gjennomføre en utredning av fremtidens helsetilbud i Finnmark?</tittel>
       <type>sporretime_sporsmal</type>
@@ -502,7 +512,7 @@ Hva vil statsråden gjøre for å gjennomføre en utredning av fremtidens helset
       </sporsmal_til>
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>bortfalt</status>
       <tittel>Bussjåfører kan etter gjeldende forskrifter straffeforfølges og få to prikker i førerkortet dersom passasjerer under 15 år ikke bruker bilbelte. Forskrift om personlig verneutstyr spesifiserer hvordan passasjerene skal få informasjon om plikten til å bruke bilbelte.
 Er det riktig at en bussjåfør i verste fall skal straffeforfølges for trafikkdrap og fratas levebrødet dersom sjåføren har gjort alt han kan for å informere passasjerene, når vi vet hvor liten kontroll han i praksis har over hva unge passasjerer foretar seg?</tittel>
       <type>sporretime_sporsmal</type>
