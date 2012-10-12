@@ -7,6 +7,23 @@
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste />
+      <henvisning>Prop. 7 L (2012-2013)</henvisning>
+      <id>55115</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Endringer i folketrygdloven (tiltak mot misbruk av velferdsordninger)</korttittel>
+      <sak_fremmet_id>55115</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-10-12T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Endringer i folketrygdloven (tiltak mot misbruk av velferdsordninger)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
       <henvisning>Prop. 5 L (2012-2013)</henvisning>
       <id>55125</id>
       <innstilling_id>-1</innstilling_id>
@@ -103,24 +120,22 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Prop. 7 L (2012-2013)</henvisning>
-      <id>55115</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Endringer i folketrygdloven (tiltak mot misbruk av velferdsordninger)</korttittel>
-      <sak_fremmet_id>55115</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-10-12T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Endringer i folketrygdloven (tiltak mot misbruk av velferdsordninger)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 4 S (2012-2013)</henvisning>
       <id>55223</id>
       <innstilling_id>-1</innstilling_id>
@@ -171,7 +186,22 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 6 S (2012-2013)</henvisning>
       <id>55226</id>
       <innstilling_id>-1</innstilling_id>
@@ -182,27 +212,6 @@
       <sist_oppdatert_dato>2012-10-12T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Finansiering av planlagt utbygging av fv. 33 på strekningen Skreifjella - Totenvika i Østre Toten kommune i Oppland</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Innst. 19 S (2012-2013)</henvisning>
-      <id>55119</id>
-      <innstilling_id>11034</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>VALG</id>
-        <navn>Valgkomiteen</navn>
-      </komite>
-      <korttittel>Valg av et medlem til styret for stiftelsen til støtte av jødiske institusjoner eller prosjekter utenfor Norge</korttittel>
-      <sak_fremmet_id>55119</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-10-11T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Valg av et medlem til styret for stiftelsen til støtte av jødiske institusjoner eller prosjekter utenfor Norge</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -220,6 +229,35 @@
       <sist_oppdatert_dato>2012-10-11T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Representantforslag fra stortingsrepresentantene Trine Skei Grande og Borghild Tenden om omfordeling av barnetrygden</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <dokumentgruppe>innstillingssaker</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>105</id>
+          <navn>TROSSAMFUNN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Innst. 19 S (2012-2013)</henvisning>
+      <id>55119</id>
+      <innstilling_id>11034</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>VALG</id>
+        <navn>Valgkomiteen</navn>
+      </komite>
+      <korttittel>Valg av et medlem til styret for stiftelsen til støtte av jødiske institusjoner eller prosjekter utenfor Norge</korttittel>
+      <sak_fremmet_id>55119</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-10-11T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Valg av et medlem til styret for stiftelsen til støtte av jødiske institusjoner eller prosjekter utenfor Norge</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -1211,7 +1249,50 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>37</id>
+          <navn>FYLKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>52</id>
+          <navn>KOMMUNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:6 L (2012-2013)</henvisning>
       <id>55068</id>
       <innstilling_id>-1</innstilling_id>
@@ -1956,7 +2037,22 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <dokumentgruppe>redegjørelse</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>25</id>
+          <navn>REGJERINGEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning i:nil="true" />
       <id>54624</id>
       <innstilling_id>-1</innstilling_id>
