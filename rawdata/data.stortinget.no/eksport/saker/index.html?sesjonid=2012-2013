@@ -124,6 +124,20 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>163</id>
           <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
@@ -626,27 +640,6 @@
     </sak>
     <sak>
       <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Innst. 18 S (2012-2013)</henvisning>
-      <id>55038</id>
-      <innstilling_id>11013</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>VALG</id>
-        <navn>Valgkomiteen</navn>
-      </komite>
-      <korttittel>Suppleringsvalg til Stortingets delegasjoner til internasjonale parlamentariske forsamlinger</korttittel>
-      <sak_fremmet_id>55038</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-10-09T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Suppleringsvalg til Stortingets delegasjoner til internasjonale parlamentariske forsamlinger</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste>
@@ -716,6 +709,102 @@
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Robert Eriksson og Ketil Solvik-Olsen om fritak for formuesbeskatning for formue som forvaltes av Overformynderiet</tittel>
       <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <dokumentgruppe>innstillingssaker</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>26</id>
+          <navn>STORTINGSREPRESENTANTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>170</id>
+          <navn>EUROPARÅDET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Innst. 18 S (2012-2013)</henvisning>
+      <id>55038</id>
+      <innstilling_id>11013</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>VALG</id>
+        <navn>Valgkomiteen</navn>
+      </komite>
+      <korttittel>Suppleringsvalg til Stortingets delegasjoner til internasjonale parlamentariske forsamlinger</korttittel>
+      <sak_fremmet_id>55038</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-10-09T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Suppleringsvalg til Stortingets delegasjoner til internasjonale parlamentariske forsamlinger</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>redegjørelse</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning i:nil="true" />
+      <id>55005</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Finansministerens redegjørelse om regjeringens forslag til statsbudsjett og om nasjonalbudsjettet for 2013</korttittel>
+      <sak_fremmet_id>55005</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-10-08T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Finansministerens redegjørelse om regjeringens forslag til statsbudsjett og om nasjonalbudsjettet for 2013</tittel>
+      <type>budsjett</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -1312,38 +1401,6 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>redegjørelse</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>185</id>
-          <navn>STATSBUDSJETTET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning i:nil="true" />
-      <id>55005</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Finansministerens redegjørelse om regjeringens forslag til statsbudsjett og om nasjonalbudsjettet for 2013</korttittel>
-      <sak_fremmet_id>55005</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-10-08T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Finansministerens redegjørelse om regjeringens forslag til statsbudsjett og om nasjonalbudsjettet for 2013</tittel>
-      <type>budsjett</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste>
         <emne>
@@ -1727,7 +1784,22 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <dokumentgruppe>innberetning</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Innberetning 2 (2012-2013)</henvisning>
       <id>55036</id>
       <innstilling_id>-1</innstilling_id>
@@ -1738,6 +1810,45 @@
       <sist_oppdatert_dato>2012-10-05T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Innberetning fra valgkomiteen om oppnevning av varamedlemmer for utenriks- og forsvarskomiteens medlemmer av Europautvalget</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <dokumentgruppe>innberetning</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>26</id>
+          <navn>STORTINGSREPRESENTANTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>203</id>
+          <navn>STORTINGET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Innberetning 1 (2012-2013)</henvisning>
+      <id>55040</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Endring i de faste komiteers sammensetning</korttittel>
+      <sak_fremmet_id>55040</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-10-05T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Innberetning fra valgkomiteen om endring i de faste komiteers sammensetning</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -2001,26 +2112,31 @@
     </sak>
     <sak>
       <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <dokumentgruppe>innberetning</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Innberetning 1 (2012-2013)</henvisning>
-      <id>55040</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Endring i de faste komiteers sammensetning</korttittel>
-      <sak_fremmet_id>55040</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-10-05T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Innberetning fra valgkomiteen om endring i de faste komiteers sammensetning</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>107</id>
+          <navn>JERNBANER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:5 S (2012-2013)</henvisning>
       <id>55061</id>
       <innstilling_id>-1</innstilling_id>
@@ -2126,6 +2242,27 @@
       <sist_oppdatert_dato>2012-10-11T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Godtgjørelser for stortingsrepresentantene og regjeringens medlemmer</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>innstillingssaker</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Innst. 23 S (2012-2013)</henvisning>
+      <id>55233</id>
+      <innstilling_id>11039</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>VALG</id>
+        <navn>Valgkomiteen</navn>
+      </komite>
+      <korttittel>Valg av medlemmer og varamedlemmer til Nordisk Råd.</korttittel>
+      <sak_fremmet_id>55233</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-10-15T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Valg av medlemmer og varamedlemmer til Nordisk Råd.</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
