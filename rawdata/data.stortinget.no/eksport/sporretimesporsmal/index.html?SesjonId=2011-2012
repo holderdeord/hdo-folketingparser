@@ -1299,15 +1299,15 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>47</id>
-          <navn>VEGTRAFIKK</navn>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -3739,7 +3739,7 @@
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om å ta initiativ gjennom generalforsamling til å heve ambisjonsnivået i Statskog, med bakgrunn i at _Statskog nedjusterer planteambisjonene_ på Borregaard Skogers areal</tittel>
+      <tittel>om å ta initiativ gjennom generalforsamling til å heve _ambisjonsnivået i Statskog_, med bakgrunn i at planteambisjonene på Borregaard Skogers areal nedjusteres</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -3763,9 +3763,9 @@
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>2</id>
-          <navn>KOMMUNIKASJON</navn>
+          <er_hovedemne>false</er_hovedemne>
+          <id>23</id>
+          <navn>NATURVERN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -3777,16 +3777,9 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>189</id>
-          <navn>VEGVESEN</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -3880,6 +3873,13 @@
           <navn>HELSEPERSONELL</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>212</id>
+          <navn>VOKSENOPPLÆRING</navn>
+          <underemne_liste />
+        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -3921,7 +3921,7 @@
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om det er mulig å gjøre unntak for ansatte ved _ambulanseavdelingen ved Universitetssykehuset Nord-Norge som ikke har fått fullført sine fagbrev_, slik at de kan få gå opp til fagprøve basert på tidligere avlagt eksamen</tittel>
+      <tittel>om det er mulig å gjøre unntak for ansatte ved _ambulanseavdelingen ved Universitetssykehuset Nord-Norge_ som ikke har fått fullført sine fagbrev, slik at de kan få gå opp til fagprøve basert på tidligere avlagt eksamen</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
