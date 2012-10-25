@@ -1275,7 +1275,29 @@ Hvordan og når vil statsråden sikre at utbyggingen av nødnettet tilfredsstill
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-09-11T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>109</id>
+          <navn>LUFTFART</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>54512</id>
@@ -1316,8 +1338,7 @@ Hvordan og når vil statsråden sikre at utbyggingen av nødnettet tilfredsstill
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Sommerens flygelederkaos har avslørt at Avinor ikke har en god nok organisatorisk kontroll. Ifølge Eurocontrol hadde Gardermoen flest forsinkelser i hele Europa i juli, og mens trafikken sto stille, var 58 flygeledere sendt på ferie. Avinors egen ferieplanlegging var altså en sterkt medvirkende årsak til de store forsinkelsene i flytrafikken i sommer. 21. juli var det til og med fare for at hele hovedflyplassen skulle stenges, da bare én flygeleder var på vakt. Dette innebærer store ekstrakostnader for samfunnet, særlig for passasjerer, flyselskaper og turistnæringen. Samtidig som flyselskapene sitter igjen med store regninger, har ikke Avinor fått noen økonomiske konsekvenser etter kaoset. Det trengs en kunderetting av bedriftskulturen i flysikringen.
-Hva gjør statsråden for å sikre at Avinor rydder opp og innfører forsvarlige ferie- og beredskapsrutiner, og for å forhindre at samme situasjon oppstår igjen?</tittel>
+      <tittel>om å sikre at det innføres forsvarlige _ferie- og beredskapsrutiner i Avinor_, for å forhindre at det igjen oppstår flygelederkaos og store forsinkelser i flytrafikken</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
@@ -1492,7 +1513,43 @@ Hva vil statsråden gjøre for å sikre at barn av studerende foreldre får en t
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-08-02T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>80</id>
+          <navn>AVGIFTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>191</id>
+          <navn>SÆRAVGIFTER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>54280</id>
@@ -1533,8 +1590,7 @@ Hva vil statsråden gjøre for å sikre at barn av studerende foreldre får en t
       <sporsmal_til_minister_id>FIN</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>finansministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Regjeringen har i fellesferien sendt ut på høring, med kort høringsfrist, et forslag om full avgiftsbelegging av alternative drivstoff. Dette skjer etter at Finansdepartementet nok en gang har tapt en sak i norske domstoler. Finansdepartementet har ikke tid til å avvente sin egen anke, men velger i stedet å endre regelverket underveis. Etter mitt syn er det et reelt flertall i Stortinget for å la drivstoff fra for eksempel EcoFuel få avgiftsfritak slik andre drivstofftyper har. Dette er bra for norske miljøutslipp, luftkvaliteten i storbyene og norsk næringsliv. Jeg mener slike prinsippavgjørelser, som regjeringen nå later til å snike gjennom, bør drøftes med Stortinget på forhånd. Finansdepartementet spenner beinkrok på en bransje som driver med forskning på nye og mer miljøvennlige drivstoff.
-Hvilken strategi har statsråden for å legge forholdene til rette for at det forskes mer, utvikles mer og selges mer alternative drivstoff?</tittel>
+      <tittel>å legge til rette for mer forskning, utvikling og salg hva gjelder _alternative drivstoff_, med henvisning til at regjeringen har foreslått full avgiftsbelegging av slike drivstoff</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
