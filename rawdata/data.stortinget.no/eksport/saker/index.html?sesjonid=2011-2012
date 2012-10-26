@@ -614,7 +614,27 @@
       </komite>
       <korttittel>Representatforslag om å utrede republikk som styreform i Norge</korttittel>
       <sak_fremmet_id>54702</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Lundteigen</etternavn>
+          <foedselsdato>1953-04-18T00:00:00</foedselsdato>
+          <fornavn>Per Olaf</fornavn>
+          <id>POL</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Bu</id>
+            <navn>Buskerud</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2012-10-05T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representatforslag fra stortingsrepresentantene Hallgeir H. Langeland, Snorre Serigstad Valen, Eirin Sund, Truls Wickholm, Marianne Marthinsen og Jette F. Christensen om å utrede republikk som styreform i Norge</tittel>
@@ -727,7 +747,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2012-10-18T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2012-10-25T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Sametingets virksomhet 2011</tittel>
       <type>alminneligsak</type>
@@ -12787,13 +12807,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
           <underemne_liste />
@@ -12803,13 +12816,6 @@
           <er_hovedemne>false</er_hovedemne>
           <id>36</id>
           <navn>STUDIEFINANSIERING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>186</id>
-          <navn>TRYGDER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
