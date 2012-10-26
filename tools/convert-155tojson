@@ -1,0 +1,67 @@
+#!/usr/bin/ruby
+# -*- coding: utf-8 -*-
+
+require 'json'
+
+$votes={}
+
+def collapse(vote_id, field, value)
+  vote = $votes[vote_id] || $votes[vote_id] = {}
+  old_value = vote[field]
+  if old_value
+      abort "Inconsistent value for field #{field}: #{old_value} != #{value}" if  old_value != value
+  else
+      vote[field] = value
+  end
+end
+
+# * Dato  (8)                        -Møtedato
+# * KartNr                           -Kartnr (møtekartnr)
+# * SakskartNr                       -Saksnr på kartet
+# * VoteringsTidspunkt
+# * VoteringsTema  maks (255)
+# * AlternativVotering  maks (13)    -Tekst hvis alternativ votering
+# * ResultatKode  maks (255)         -Resultatet hvor voteringsknappene ikke er benyttet
+# * AntallFor                        -Totalt antall FOR, inneholder ikke verdi når resultatkoden="Enstemmig vedtatt"
+# * AntallMot                        -Totalt antall MOT , inneholder ikke verdi når resultatkoden="Enstemmig vedtatt"
+# * Navn  maks (82)
+# * ReprNr
+# * PersonId  maks (8)
+# * Parti  maks (8)
+# * Fylkeskode  maks (8)
+# * ReprBifalt (1)                   - J/N for bifalt / ikke bifalt (FOR /MOT), Blank hvis ikke tilstede
+# * VoteringsGruppeId                - Alternativvoteringsnr (Alternativ 1 eller 2)
+
+ARGF.set_encoding("iso-8859-1:utf-8")
+ARGF.lines do |line|
+  (date, kart_nr, sakskart_nr, vote_time, subject, option_description,
+   result_code, count_for, count_against, name, repr_nr, person_id, 
+   party, district_code, vote, option) = line.split(";").map { |s| s.strip }
+  vote_id = [date, sakskart_nr, subject, option_description].join(";")
+  collapse(vote_id, "subject", subject)
+  collapse(vote_id, "count_for", count_for)
+  collapse(vote_id, "count_against", count_against)
+  collapse(vote_id, "date", date)
+  collapse(vote_id, "vote_time", vote_time)
+  collapse(vote_id, "issue_nr", sakskart_nr)
+  if result_code == "Enstemmig vedtatt"
+    collapse(vote_id, "unanimous", 1)
+  elsif ! result_code.empty?
+      abort "Unknown result code '#{result_code}'"
+  else
+    votes = $votes[vote_id]["votes"] || $votes[vote_id]["votes"] = []
+    $votes[vote_id]["votes"].push({ 
+       "name" => name, "repr_nr" => repr_nr, "person_id" => person_id, 
+       "party" => party, "district_code" => district_code, "vote" => vote
+      })
+  end
+end
+
+# TODO: Map $votes to correct JSON structure and print that instead.
+puts JSON.pretty_generate($votes)
+
+# For debugging.
+# $votes.keys.sort { |a,b| $votes[a]["vote_time"] <=> $votes[b]["vote_time"] }.each do |key|
+#   vote_count = $votes[key]["unanimous"] ? "unanimous" : $votes[key]["votes"].length
+#   puts "#{key} #{vote_count}"
+# end
