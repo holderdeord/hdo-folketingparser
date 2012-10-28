@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 # -*- coding: utf-8 -*-
 
 require 'json'
@@ -57,7 +57,12 @@ ARGF.lines do |line|
   end
 end
 
-# TODO: Map $votes to correct JSON structure and print that instead.
+# TODO: 
+# - Map $votes to correct JSON structure and print that instead.
+#   See http://beta.holderdeord.no/docs/index#input-formats for expected structure.
+# - Look up issue ID ("saksid") in mapping files. See rawdata/saksid/*.docx.
+# - Look up more detailed information on representatives. 
+#   See rawdata/data.stortinget.no/eksport/representanter/.
 puts JSON.pretty_generate($votes)
 
 # For debugging.
