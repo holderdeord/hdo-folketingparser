@@ -9,6 +9,34 @@
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>20</id>
+          <navn>HANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>83</id>
+          <navn>PRISER OG KONKURRANSEFORHOLD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>98</id>
+          <navn>FORBRUKERSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>163</id>
           <navn>UTENRIKSSAKER</navn>
@@ -21,16 +49,27 @@
           <navn>EFTA/EU</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
       </emne_liste>
       <henvisning>Prop. 17 L (2012-2013)</henvisning>
       <id>55151</id>
       <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
+      <komite>
+        <versjon>1.0</versjon>
+        <id>NÆRING</id>
+        <navn>Næringskomiteen</navn>
+      </komite>
       <korttittel>EØS-vareloven</korttittel>
       <sak_fremmet_id>55151</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-11-09T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
+      <sist_oppdatert_dato>2012-11-13T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
       <tittel>Lov om det frie varebytte i EØS (EØS-vareloven)</tittel>
       <type>lovsak</type>
     </sak>
@@ -54,15 +93,19 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 1 S Tillegg 3 (2012-2013)</henvisning>
+      <henvisning>Prop. 1 S Tillegg 3 (2012-2013), kap. 2309, romertall II-V</henvisning>
       <id>55491</id>
       <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
       <korttittel>Endring av Prop. 1 S (2012-2013) om statsbudsjettet 2013 (Fullmakt til å ta opp statslån o.a., og saldering av statsbudsjettet 2013)</korttittel>
       <sak_fremmet_id>55491</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-11-09T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
+      <sist_oppdatert_dato>2012-11-13T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
       <tittel>Endring av Prop. 1 S (2012-2013) om statsbudsjettet 2013 (Fullmakt til å ta opp statslån o.a., og saldering av statsbudsjettet 2013)</tittel>
       <type>budsjett</type>
     </sak>
@@ -70,16 +113,42 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 19 L (2012-2013)</henvisning>
       <id>55492</id>
       <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
       <korttittel>Endringer i lov om Folketrygdfondet</korttittel>
       <sak_fremmet_id>55492</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-11-09T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
+      <sist_oppdatert_dato>2012-11-13T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
       <tittel>Endringer i lov om Folketrygdfondet (endringer i styreordningen)</tittel>
       <type>lovsak</type>
     </sak>
@@ -106,12 +175,16 @@
       <henvisning>Prop. 1 S Tillegg 2 (2012-2013)</henvisning>
       <id>55493</id>
       <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
+      <komite>
+        <versjon>1.0</versjon>
+        <id>NÆRING</id>
+        <navn>Næringskomiteen</navn>
+      </komite>
       <korttittel>Endring av Prop. 1 S (2012-2013) om statsbudsjettet for 2013 (grøne løyve til oppdrett av laks, aure og regnbogeaure)</korttittel>
       <sak_fremmet_id>55493</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-11-09T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
+      <sist_oppdatert_dato>2012-11-13T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
       <tittel>Endring av Prop. 1 S (2012-2013) om statsbudsjettet for 2013 (grøne løyve til oppdrett av laks, aure og regnbogeaure)</tittel>
       <type>budsjett</type>
     </sak>
@@ -135,15 +208,162 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 1 S Tillegg 1 (2012-2013)</henvisning>
+      <henvisning>Prop. 1 S Tillegg 1 (2012-2013), kap. 719</henvisning>
       <id>55494</id>
       <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Endring av Prop. 1 S (2012-2013) om statsbudsjettet 2013 under Justis- og beredskapsdepartementet, Helse- og omsorgsdepartementet, Arbeidsdepartementet og Fornyings-, administrasjons- og kirkedepartementet</korttittel>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>HELSEOMS</id>
+        <navn>Helse- og omsorgskomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2012-2013) om statsbudsjettet 2013 under Helse- og omsorgsdepartementet</korttittel>
       <sak_fremmet_id>55494</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-11-09T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
+      <sist_oppdatert_dato>2012-11-13T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2012-2013) om statsbudsjettet 2013 under Justis- og beredskapsdepartementet, Helse- og omsorgsdepartementet, Arbeidsdepartementet og Fornyings-, administrasjons- og kirkedepartementet</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>68</id>
+          <navn>KUNST</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>122</id>
+          <navn>MASSEMEDIER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 18 L (2012-2013)</henvisning>
+      <id>55495</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FAMKULT</id>
+        <navn>Familie- og kulturkomiteen</navn>
+      </komite>
+      <korttittel>Endringar i film- og videogramlova</korttittel>
+      <sak_fremmet_id>55495</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-11-13T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endringar i film- og videogramlova (filmkontrollgebyret)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>127</id>
+          <navn>IDRETT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>142</id>
+          <navn>LOTTERI OG SPILL</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 20 L (2012-2013)</henvisning>
+      <id>55496</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FAMKULT</id>
+        <navn>Familie- og kulturkomiteen</navn>
+      </komite>
+      <korttittel>Endringar i pengespilloven</korttittel>
+      <sak_fremmet_id>55496</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-11-13T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endringar i pengespilloven (endring av tippenøkkelen)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Meld. St. 7 (2012-2013)</henvisning>
+      <id>55497</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FAMKULT</id>
+        <navn>Familie- og kulturkomiteen</navn>
+      </komite>
+      <korttittel>Arkiv</korttittel>
+      <sak_fremmet_id>55497</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-11-13T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Arkiv</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 1 S Tillegg 1 (2012-2013), kap. 605, romertall II, pkt. 1</henvisning>
+      <id>55506</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>ARBSOS</id>
+        <navn>Arbeids- og sosialkomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2012-2013) om statsbudsjettet 2013 under Arbeidsdepartementet</korttittel>
+      <sak_fremmet_id>55494</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-11-13T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
       <tittel>Endring av Prop. 1 S (2012-2013) om statsbudsjettet 2013 under Justis- og beredskapsdepartementet, Helse- og omsorgsdepartementet, Arbeidsdepartementet og Fornyings-, administrasjons- og kirkedepartementet</tittel>
       <type>budsjett</type>
     </sak>
@@ -152,51 +372,202 @@
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste />
-      <henvisning>Prop. 18 L (2012-2013)</henvisning>
-      <id>55495</id>
+      <henvisning>Prop. 1 S Tillegg 1 (2012-2013), kap. 1500 og 2445, romertall II, pkt. 2</henvisning>
+      <id>55507</id>
       <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Endringar i film- og videogramlova</korttittel>
-      <sak_fremmet_id>55495</sak_fremmet_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KOMMFORV</id>
+        <navn>Kommunal- og forvaltningskomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2012-2013) om statsbudsjettet 2013 under Fornyings-, administrasjons- og kirkedepartementet</korttittel>
+      <sak_fremmet_id>55494</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-11-09T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Endringar i film- og videogramlova (filmkontrollgebyret)</tittel>
-      <type>lovsak</type>
+      <sist_oppdatert_dato>2012-11-13T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2012-2013) om statsbudsjettet 2013 under Justis- og beredskapsdepartementet, Helse- og omsorgsdepartementet, Arbeidsdepartementet og Fornyings-, administrasjons- og kirkedepartementet</tittel>
+      <type>budsjett</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste />
-      <henvisning>Prop. 20 L (2012-2013)</henvisning>
-      <id>55496</id>
+      <henvisning>Prop. 1 S Tillegg 3 (2012-2013), romertall VI</henvisning>
+      <id>55508</id>
       <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Endringar i pengespilloven</korttittel>
-      <sak_fremmet_id>55496</sak_fremmet_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>TRANSKOM</id>
+        <navn>Transport- og kommunikasjonskomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2012-2013) om statsbudsjettet 2013 (Fullmakt til å ta opp statslån o.a., og saldering av statsbudsjettet 2013)</korttittel>
+      <sak_fremmet_id>55491</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-11-09T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Endringar i pengespilloven (endring av tippenøkkelen)</tittel>
-      <type>lovsak</type>
+      <sist_oppdatert_dato>2012-11-13T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2012-2013) om statsbudsjettet 2013 (Fullmakt til å ta opp statslån o.a., og saldering av statsbudsjettet 2013)</tittel>
+      <type>budsjett</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>melding</dokumentgruppe>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste />
-      <henvisning>Meld. St. 7 (2012-2013)</henvisning>
-      <id>55497</id>
+      <henvisning>Prop. 1 S Tillegg 3 (2012-2013), romertall VII</henvisning>
+      <id>55509</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>UFK</id>
+        <navn>Utenriks- og forsvarskomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2012-2013) om statsbudsjettet 2013 (Fullmakt til å ta opp statslån o.a., og saldering av statsbudsjettet 2013)</korttittel>
+      <sak_fremmet_id>55491</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-11-13T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2012-2013) om statsbudsjettet 2013 (Fullmakt til å ta opp statslån o.a., og saldering av statsbudsjettet 2013)</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>redegjørelse</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning i:nil="true" />
+      <id>55453</id>
       <innstilling_id>-1</innstilling_id>
       <komite i:nil="true" />
-      <korttittel>Arkiv</korttittel>
-      <sak_fremmet_id>55497</sak_fremmet_id>
+      <korttittel>Redegjørelse av utenriksministeren om viktige EU- og EØS-saker</korttittel>
+      <sak_fremmet_id>55453</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-11-13T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Redegjørelse av utenriksministeren om viktige EU- og EØS-saker</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 1 S Tillegg 1 (2012-2013), kap. 440</henvisning>
+      <id>55510</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2012-2013) om statsbudsjettet 2013 under Justis- og beredskapsdepartementet</korttittel>
+      <sak_fremmet_id>55494</sak_fremmet_id>
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2012-11-09T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Arkiv</tittel>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2012-2013) om statsbudsjettet 2013 under Justis- og beredskapsdepartementet, Helse- og omsorgsdepartementet, Arbeidsdepartementet og Fornyings-, administrasjons- og kirkedepartementet</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 8:12 S (2012-2013)</henvisning>
+      <id>55315</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FAMKULT</id>
+        <navn>Familie- og kulturkomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om endringer i foreldrepermisjonsordningen</korttittel>
+      <sak_fremmet_id>55315</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-11-08T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Linda C. Hofstad Helleland, Sonja Irene Sjøli og Arve Kambe om endringer i foreldrepermisjonsordningen
+</tittel>
       <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>23</id>
+          <navn>NATURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>52</id>
+          <navn>KOMMUNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:11 L (2012-2013)</henvisning>
+      <id>55321</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>ENERGI</id>
+        <navn>Energi- og miljøkomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om endring i § 3 lov om motorferdsel i utmark (lokal forvaltning av snøscootertraseer)</korttittel>
+      <sak_fremmet_id>55321</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-11-08T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Robert Eriksson, Per-Willy Amundsen, Kenneth Svendsen, Tord Lien, Bård Hoksrud, Oskar J. Grimstad og Øyvind Korsberg om endring i § 3 lov om motorferdsel i utmark (lokal forvaltning av snøscootertraseer)</tittel>
+      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -1162,92 +1533,6 @@
     </sak>
     <sak>
       <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Dokument 8:12 S (2012-2013)</henvisning>
-      <id>55315</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>FAMKULT</id>
-        <navn>Familie- og kulturkomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om endringer i foreldrepermisjonsordningen</korttittel>
-      <sak_fremmet_id>55315</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-11-08T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Linda C. Hofstad Helleland, Sonja Irene Sjøli og Arve Kambe om endringer i foreldrepermisjonsordningen
-</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>2</id>
-          <navn>KOMMUNIKASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>23</id>
-          <navn>NATURVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>139</id>
-          <navn>MILJØVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:11 L (2012-2013)</henvisning>
-      <id>55321</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>ENERGI</id>
-        <navn>Energi- og miljøkomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om endring i § 3 lov om motorferdsel i utmark (lokal forvaltning av snøscootertraseer)</korttittel>
-      <sak_fremmet_id>55321</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-11-08T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Robert Eriksson, Per-Willy Amundsen, Kenneth Svendsen, Tord Lien, Bård Hoksrud, Oskar J. Grimstad og Øyvind Korsberg om endring i § 3 lov om motorferdsel i utmark (lokal forvaltning av snøscootertraseer)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste>
@@ -1711,116 +1996,6 @@
     </sak>
     <sak>
       <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>29</id>
-          <navn>RIKSREVISJONEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>51</id>
-          <navn>DEPARTEMENTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>151</id>
-          <navn>STATSFORFATNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>155</id>
-          <navn>STATSFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>176</id>
-          <navn>SVALBARD</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>185</id>
-          <navn>STATSBUDSJETTET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 1 (2012-2013)</henvisning>
-      <id>55329</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>KONTROLL</id>
-        <navn>Kontroll- og konstitusjonskomiteen</navn>
-      </komite>
-      <korttittel>Riksrevisjonens rapport om den årlige revisjon og kontroll for budsjettåret 2011</korttittel>
-      <sak_fremmet_id>55329</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-10-25T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Riksrevisjonens rapport om den årlige revisjon og kontroll for budsjettåret 2011</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>173</id>
-          <navn>EFTA/EU</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>180</id>
-          <navn>FREDSARBEID</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning i:nil="true" />
-      <id>55330</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Den Norske Nobelkomité meddeler at Nobels fredspris for 2012 er tildelt The European Union (EU)</korttittel>
-      <sak_fremmet_id>55330</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-10-25T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Den Norske Nobelkomité meddeler at Nobels fredspris for 2012 er tildelt The European Union (EU)</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <dokumentgruppe>innstillingssaker</dokumentgruppe>
       <emne_liste>
@@ -2085,6 +2260,186 @@
       <sist_oppdatert_dato>2012-10-25T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i kringkastingsloven, åndsverkloven og film- og videogramlova (gjennomføring av direktiv 2010/13/EU om audiovisuelle medietjenester mv.)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>dokumentserien</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>29</id>
+          <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>51</id>
+          <navn>DEPARTEMENTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>176</id>
+          <navn>SVALBARD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 1 (2012-2013)</henvisning>
+      <id>55329</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KONTROLL</id>
+        <navn>Kontroll- og konstitusjonskomiteen</navn>
+      </komite>
+      <korttittel>Riksrevisjonens rapport om den årlige revisjon og kontroll for budsjettåret 2011</korttittel>
+      <sak_fremmet_id>55329</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-10-25T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Riksrevisjonens rapport om den årlige revisjon og kontroll for budsjettåret 2011</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>180</id>
+          <navn>FREDSARBEID</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning i:nil="true" />
+      <id>55330</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Den Norske Nobelkomité meddeler at Nobels fredspris for 2012 er tildelt The European Union (EU)</korttittel>
+      <sak_fremmet_id>55330</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-10-25T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Den Norske Nobelkomité meddeler at Nobels fredspris for 2012 er tildelt The European Union (EU)</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 7 L (2012-2013)</henvisning>
+      <id>55115</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>ARBSOS</id>
+        <navn>Arbeids- og sosialkomiteen</navn>
+      </komite>
+      <korttittel>Endringer i folketrygdloven (tiltak mot misbruk av velferdsordninger)</korttittel>
+      <sak_fremmet_id>55115</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Forsberg</etternavn>
+          <foedselsdato>1980-04-02T00:00:00</foedselsdato>
+          <fornavn>Thor Erik</fornavn>
+          <id>TEF</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Øs</id>
+            <navn>Østfold</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2012-10-16T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endringer i folketrygdloven (tiltak mot misbruk av velferdsordninger)</tittel>
       <type>lovsak</type>
     </sak>
     <sak>
@@ -2821,105 +3176,6 @@
     </sak>
     <sak>
       <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>17</id>
-          <navn>PERSONVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>186</id>
-          <navn>TRYGDER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 7 L (2012-2013)</henvisning>
-      <id>55115</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>ARBSOS</id>
-        <navn>Arbeids- og sosialkomiteen</navn>
-      </komite>
-      <korttittel>Endringer i folketrygdloven (tiltak mot misbruk av velferdsordninger)</korttittel>
-      <sak_fremmet_id>55115</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Forsberg</etternavn>
-          <foedselsdato>1980-04-02T00:00:00</foedselsdato>
-          <fornavn>Thor Erik</fornavn>
-          <id>TEF</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Øs</id>
-            <navn>Østfold</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2012-10-16T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endringer i folketrygdloven (tiltak mot misbruk av velferdsordninger)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>105</id>
-          <navn>TROSSAMFUNN</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Innst. 19 S (2012-2013)</henvisning>
-      <id>55119</id>
-      <innstilling_id>11034</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>VALG</id>
-        <navn>Valgkomiteen</navn>
-      </komite>
-      <korttittel>Valg av et medlem til styret for stiftelsen til støtte av jødiske institusjoner eller prosjekter utenfor Norge</korttittel>
-      <sak_fremmet_id>55119</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-10-11T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Valg av et medlem til styret for stiftelsen til støtte av jødiske institusjoner eller prosjekter utenfor Norge</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste>
@@ -3105,6 +3361,35 @@
       <sist_oppdatert_dato>2012-10-11T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Representantforslag fra stortingsrepresentantene Trine Skei Grande og Borghild Tenden om endringer i utlendingsregelverket for å få mer rettferdige familiegjenforeningsregler</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <dokumentgruppe>innstillingssaker</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>105</id>
+          <navn>TROSSAMFUNN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Innst. 19 S (2012-2013)</henvisning>
+      <id>55119</id>
+      <innstilling_id>11034</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>VALG</id>
+        <navn>Valgkomiteen</navn>
+      </komite>
+      <korttittel>Valg av et medlem til styret for stiftelsen til støtte av jødiske institusjoner eller prosjekter utenfor Norge</korttittel>
+      <sak_fremmet_id>55119</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-10-11T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Valg av et medlem til styret for stiftelsen til støtte av jødiske institusjoner eller prosjekter utenfor Norge</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -8555,38 +8840,6 @@
       <sist_oppdatert_dato>2012-10-01T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Spørsmål til skriftlig besvarelse med svar</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>redegjørelse</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>173</id>
-          <navn>EFTA/EU</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning i:nil="true" />
-      <id>55453</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Redegjørelse av utenriksministeren om viktige EU- og EØS-saker</korttittel>
-      <sak_fremmet_id>55453</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-10-01T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Redegjørelse av utenriksministeren om viktige EU- og EØS-saker</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
