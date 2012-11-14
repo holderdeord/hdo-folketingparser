@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 # -*- coding: utf-8 -*-
 require 'json'
+require 'time'
 
 
 class KartIssueMapper
@@ -72,13 +73,78 @@ class VoteParser
   end
 end
 
+class HdoVoteTranslator
+  def initialize(votes)
+    @votes = votes
+  end
+
+  def do_magic
+    @votes.map do |vote_id, vote|
+      {
+        kind: 'hdo#vote',
+        externalId: vote_id,
+        externalIssueId: vote['issue_id'],
+        counts: count(vote),
+        personal: !vote['unanimous'],
+        enacted: (count(vote)[:count_for] > count(vote)[:count_against] || vote['unanimous'] ? true : false), # this can't be right... where's the flag?? or, are 'unanimous' always enacted? because this is what this line assumes...
+        subject: vote['subject'],
+        method: "ikke_spesifisert",
+        resultType: "ikke_spesifisert",
+        time: Time.parse(vote['vote_time']).iso8601,
+        representatives: representatives_for(vote)
+      }
+    end
+  end
+
+  private
+  def representatives_for(vote)
+    if vote['votes']
+      vote['votes'].map do |rep_vote|
+        {
+          kind: "hdo#representative",
+          externalId: rep_vote['person_id'],
+          parties: [
+            {
+              kind: "hdo#partyMembership",
+              externalId: rep_vote['party'],
+            }
+          ],
+          voteResult: if rep_vote['vote'] == "J"; "for"; elsif rep_vote['vote'] == "N"; "against"; else; "absent"; end
+        }
+      end
+    else
+      []
+    end
+  end
+
+  def count(vote)
+    @counts ||= {}
+    return @counts[vote] if @counts[vote]
+    if(vote['votes'])
+      counts = {
+        count_for:     vote['count_for'].to_i,
+        count_against: vote['count_against'].to_i,
+        count_absent:  0
+      }
+      counts[:count_absent] = vote['votes'].count - counts[:count_for] - counts[:count_against]
+    else
+      counts = {
+        count_for:     -1,
+        count_against: -1,
+        count_absent:  -1
+      }
+    end
+    @counts[vote] = counts
+  end
+end
+
 abort "Syntax: 155_to_json_oop issue_id_map_file vote_data_file" unless ARGV.count == 2
 file1, file2 = ARGV
 
 kart_to_issue_id_map = KartIssueMapper.new(file1).issue_map
 votes = VoteParser.new(file2, kart_to_issue_id_map).votes
 
-# puts JSON.pretty_generate(votes)
-# hdo_votes = HdoVoteTranslator.new(votes).do_magic
+hdo_votes = HdoVoteTranslator.new(votes).do_magic
 
 
+puts JSON.pretty_generate(hdo_votes)
