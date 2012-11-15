@@ -21,7 +21,43 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-11-14T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>20</id>
+          <navn>HANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>69</id>
+          <navn>LANDBRUKSPRODUKTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>99</id>
+          <navn>UTENRIKSHANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>55531</id>
@@ -62,11 +98,7 @@
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Takk, det er derfor jeg blir stående.
-Jeg oppfatter at landbruksministeren – han kan også bli stående, for den sakens skyld – har benyttet anledningen i Brussel til å snakke om noe annet enn denne saken, og at han heller ikke vil svare meg på spørsmålet om hva som var reaksjonene i EU. Jeg er glad for at han ikke benytter anledningen her til å legge skylden på norsk presse og Høyre for å ha dratt opp denne saken.
-Landbruksministeren har tidligere i dag snakket om matvareindustrien og hvor viktig tolløkningene er for den. Men faktum er at matvareindustrien er avhengig av sine kostnader, og et økt rom for prisøkninger gjør at deres konkurransekraft blir svakere. Regjeringen har ikke norsk matindustri i ryggen, fordi den vil få sin konkurransekraft svekket ved at bearbeidede varer som importeres til Norge, vil få en sterkere konkurransemessig posisjon, når norske råvarer – som brukes i tilsvarende produkter – blir dyrere. Det er et faktum, og det bør landbruksministeren ta innover seg.
-Landbruksministeren har en mulighet til også å redusere tollen, selv om jeg skjønner at det ikke står øverst i hans ordbok. Det er nemlig slik at det finnes en rekke landbruksprodukter som norsk matvareindustri bruker, som ikke produseres i Norge. Det gjelder tørket eggehvite – jeg må ta frem manuskriptet – modifisert stivelse og frysetørket kjøtt. Dette produseres ikke i Norge, men det er en betydelig importtoll på det. Det reduserer matvareindustriens konkurransekraft med faktisk ganske mange millioner kroner i året.
-Vil Slagsvold Vedum gjøre noe med den situasjonen?</tittel>
+      <tittel>om at _norsk matindustri vil få sin konkurransekraft svekket_ ved at tolløkninger på bearbeidede importerte varer gir rom for prisøkninger på norske råvarer, og om statsråden vil gjøre noe med situasjonen</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -87,7 +119,64 @@ Vil Slagsvold Vedum gjøre noe med den situasjonen?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-11-14T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>20</id>
+          <navn>HANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>69</id>
+          <navn>LANDBRUKSPRODUKTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>99</id>
+          <navn>UTENRIKSHANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>55530</id>
@@ -128,9 +217,7 @@ Vil Slagsvold Vedum gjøre noe med den situasjonen?</tittel>
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Jeg vil få lov til å stille et spørsmål til landbruks- og matministeren.
-Vi ser at debatten fortsatt går knyttet til omleggingen av importvernet for landbrukssektoren. Bare la meg slå fast helt innledningsvis: Den omleggingen anser jeg ikke for å være i strid med WTO-avtalen, så jeg stiller ikke spørsmål om lovligheten ved å gå fra kronetoll til prosenttoll. Så la oss legge den debatten bak oss.
-Mitt spørsmål til statsråden er hvorvidt det er fornuftig det forslaget som regjeringen har lagt på bordet i forbindelse med budsjettet for neste år, når man går fra kronetoll på disse feltene: biffer og fileter av storfekjøtt, der man ønsker en prosenttoll på 344 pst., hele og halve lammeslakt, hvor ønsker man en prosenttoll på 429 pst., og for faste og halvfaste oster 277 pst. Reaksjonene har ikke uteblitt. Danskene har uttrykt at Norge på dette feltet er arrogant og usolidarisk. Vi har sett kraftige reaksjoner fra enkelte innenfor EU-systemet på dette feltet. Vi har sett at næringsmiddelindustrien er bekymret for produksjonen, fordi det bl.a. innenfor lam omfatter hele og halve slakt. Vi har sett en fiskerinæring som er meget bekymret over framtidig fiskeeksport. Per i dag eksporterer Norge 35 millioner måltid mat i form av fisk hver eneste dag. Vi skal også forhandle om sideavtaler som ikke er omfattet av det kvotebaserte, bl.a. med EU, som da kan rammes av motreaksjoner fra den siden. I tillegg har regjeringen selv i statsbudsjettet lagt opp til at denne saken har 0-proveny. Da er spørsmålet mitt til statsråd Slagsvold Vedum: Er det verdt det?</tittel>
+      <tittel>om hvorvidt omleggingen av _importvernet for landbrukssektoren_ er verdt det, med bakgrunn i kraftige reaksjoner fra enkelte innenfor EU-systemet</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -396,7 +483,7 @@ Mitt spørsmål til statsråden er hvorvidt det er fornuftig det forslaget som r
       <sporsmal_til_minister_id>OED</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>olje- og energiministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om at den lenge venta _Energimeldinga atter ein gong er avvist_, og om statsråden er komfortabel med denne fullstendig uføreseielege måten å behandle Noreg si største ekstportvare på, når vi ser dei endringane som skjer innanfor gass og dei energiformene som er viktige for landet vår</tittel>
+      <tittel>om at den lenge venta _Energimeldinga atter ein gong er avvist_, og om statsråden er komfortabel med denne uføreseielege måten å behandle Noreg si største ekstportvare på, når vi ser dei endringane som skjer innanfor gass og dei energiformene som er viktige for landet vår</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
