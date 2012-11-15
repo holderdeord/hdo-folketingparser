@@ -128,7 +128,7 @@ class HdoVoteTranslator
     externalId: rep_vote['person_id'],
     firstName: first_name,
     lastName: last_name,
-    dateOfBirth: nil,
+    dateOfBirth: Time.now,
     dateOfDeath: nil,
     district: rep_vote['district_code'],
     parties: [
@@ -139,7 +139,7 @@ class HdoVoteTranslator
         endDate: Time.parse(vote['date']).to_date.iso8601
       }
     ],
-    committees: nil
+    committees: []
   }
   end
 
