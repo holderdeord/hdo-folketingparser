@@ -84,7 +84,7 @@ class HdoVoteTranslator
   end
 
   def do_magic
-    @votes.map do |vote_id, vote|
+    magic = @votes.map do |vote_id, vote|
       {
         kind:            'hdo#vote',
         externalId:      vote_id,
@@ -100,9 +100,10 @@ class HdoVoteTranslator
       }
     end
     if !@missing_reps.empty?
-      puts @missing_reps.to_a
+      puts JSON.pretty_generate @missing_reps.to_a
       abort "missing some representatives, yo.."
     end
+    magic
   end
 
   private
@@ -110,14 +111,36 @@ class HdoVoteTranslator
     if vote['votes']
       vote['votes'].map do |rep_vote|
         rep = @reps[rep_vote['person_id']]
-        @missing_reps << "#{rep_vote['person_id']}" unless rep
+        # @missing_reps << ghost(rep_vote) unless rep
         {
           voteResult: if rep_vote['vote'] == "J"; "for"; elsif rep_vote['vote'] == "N"; "against"; else; "absent"; end
-        }.merge (rep || {})
+        }.merge (rep || ghost(vote,rep_vote))
       end
     else
       []
     end
+  end
+
+  def ghost(vote,rep_vote)
+    last_name, first_name = rep_vote['name'].split(',')
+    {
+    kind: "hdo#representative",
+    externalId: rep_vote['person_id'],
+    firstName: first_name,
+    lastName: last_name,
+    dateOfBirth: nil,
+    dateOfDeath: nil,
+    district: rep_vote['district_code'],
+    parties: [
+      {
+        kind: "hdo#partyMembership",
+        externalId: rep_vote['party'],
+        startDate: Time.parse(vote['date']).to_date.iso8601,
+        endDate: Time.parse(vote['date']).to_date.iso8601
+      }
+    ],
+    committees: nil
+  }
   end
 
   def count(vote)
