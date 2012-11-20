@@ -433,10 +433,34 @@
       <henvisning>Prop. 23 S (2012-2013)</henvisning>
       <id>55557</id>
       <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
+      <komite>
+        <versjon>1.0</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
       <korttittel>Endringer i statsbudsjettet 2012 under Justis- og beredskapsdepartementet</korttittel>
       <sak_fremmet_id>55557</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Sandberg</etternavn>
+          <foedselsdato>1960-02-06T00:00:00</foedselsdato>
+          <fornavn>Per</fornavn>
+          <id>PES</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>ST</id>
+            <navn>Sør-Trøndelag</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2012-11-16T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Endringar i statsbudsjettet 2012 under Justis- og beredskapsdepartementet</tittel>
@@ -1435,7 +1459,22 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 1 S Tillegg 3 (2012-2013), romertall VI, Innst. 13 S (2012-2013)</henvisning>
       <id>55522</id>
       <innstilling_id>11029</innstilling_id>
@@ -5016,9 +5055,9 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 6 S (2012-2013)</henvisning>
+      <henvisning>Prop. 6 S (2012-2013), Innst. 73 S (2012-2013)</henvisning>
       <id>55226</id>
-      <innstilling_id>-1</innstilling_id>
+      <innstilling_id>11094</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>TRANSKOM</id>
@@ -5047,7 +5086,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2012-10-16T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2012-11-20T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Finansiering av planlagt utbygging av fv. 33 på strekningen Skreifjella - Totenvika i Østre Toten kommune i Oppland</tittel>
       <type>alminneligsak</type>
