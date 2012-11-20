@@ -1347,7 +1347,22 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>71</id>
+          <navn>ELEKTRISITET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:18 S (2012-2013)</henvisning>
       <id>55534</id>
       <innstilling_id>-1</innstilling_id>
@@ -4190,7 +4205,27 @@
       </komite>
       <korttittel>Representantforslag om en styrket maritim utdanning i Norge</korttittel>
       <sak_fremmet_id>55250</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Aasen</etternavn>
+          <foedselsdato>1967-02-21T00:00:00</foedselsdato>
+          <fornavn>Marianne</fornavn>
+          <id>MAAA</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2012-10-25T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Arve Kambe, Elisabeth Aspaker, Svein Harberg, Henning Warloe, Elisabeth Røbekk Nørve og Ine M. Eriksen Søreide om en styrket maritim utdanning i Norge</tittel>
