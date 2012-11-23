@@ -586,7 +586,29 @@ På hvilken måte vil statsråden bidra til at arven etter Munch forvaltes godt,
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-10-25T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>107</id>
+          <navn>JERNBANER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>55341</id>
@@ -832,12 +854,34 @@ Hva gjør statsråden for å styrke kapasiteten og kvaliteten i det psykiske hel
       </besvart_av>
       <besvart_av_minister_id>BLID</besvart_av_minister_id>
       <besvart_av_minister_tittel>barne-, likestillings- og inkluderingsministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2012-11-23T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-10-12T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>65</id>
+          <navn>SVANGERSKAP</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>55221</id>
@@ -877,7 +921,7 @@ Hva gjør statsråden for å styrke kapasiteten og kvaliteten i det psykiske hel
       </sporsmal_til>
       <sporsmal_til_minister_id>BLID</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>barne-, likestillings- og inkluderingsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>om konsekvensene av endringene i _ekteskapsloven_ i 2008, med henvisning bl.a. til nye lovendringsforslag om foreldreskap og utvidet tilbud om assistert befruktning</tittel>
       <type>interpellasjon</type>
     </sporsmal>
@@ -894,12 +938,34 @@ Hva gjør statsråden for å styrke kapasiteten og kvaliteten i det psykiske hel
       </besvart_av>
       <besvart_av_minister_id>BLID</besvart_av_minister_id>
       <besvart_av_minister_tittel>barne-, likestillings- og inkluderingsministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2012-11-23T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-10-11T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>43</id>
+          <navn>BARNEVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>55202</id>
@@ -939,7 +1005,7 @@ Hva gjør statsråden for å styrke kapasiteten og kvaliteten i det psykiske hel
       </sporsmal_til>
       <sporsmal_til_minister_id>BLID</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>barne-, likestillings- og inkluderingsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>om å sikre at en oversikt over omfanget av _flyttinger i barnevernet_ inngår i beslutningsgrunnlaget når Stortinget skal behandle sak om fremtidens barnevern</tittel>
       <type>interpellasjon</type>
     </sporsmal>
@@ -1607,12 +1673,48 @@ Vil det bli gjennomført en evaluering av det aktuelle forretningssamarbeidet n�
       </besvart_av>
       <besvart_av_minister_id>KD</besvart_av_minister_id>
       <besvart_av_minister_tittel>kulturministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2012-11-23T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-09-25T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>70</id>
+          <navn>KRINGKASTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>98</id>
+          <navn>FORBRUKERSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>122</id>
+          <navn>MASSEMEDIER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>54631</id>
@@ -1652,7 +1754,7 @@ Vil det bli gjennomført en evaluering av det aktuelle forretningssamarbeidet n�
       </sporsmal_til>
       <sporsmal_til_minister_id>KD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kulturministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>om å sikre god innovasjon på _det digitale medieområdet_ og ivareta forbrukernes stilling i dette markedet</tittel>
       <type>interpellasjon</type>
     </sporsmal>
@@ -1669,12 +1771,27 @@ Vil det bli gjennomført en evaluering av det aktuelle forretningssamarbeidet n�
       </besvart_av>
       <besvart_av_minister_id>ABD</besvart_av_minister_id>
       <besvart_av_minister_tittel>arbeidsministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2012-11-23T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-09-24T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>49</id>
+          <navn>FUNKSJONSHEMMEDE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>54612</id>
@@ -1714,7 +1831,7 @@ Vil det bli gjennomført en evaluering av det aktuelle forretningssamarbeidet n�
       </sporsmal_til>
       <sporsmal_til_minister_id>ABD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>arbeidsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>om utfordringen med et stadig økende antall _unge uføre_</tittel>
       <type>interpellasjon</type>
     </sporsmal>
