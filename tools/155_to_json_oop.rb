@@ -38,7 +38,7 @@ class VoteParser
          result_code, count_for, count_against, name, repr_nr, person_id, 
          party, district_code, vote, option) = line.split(";").map(&:strip)
         vote_id = [date, sakskart_nr, subject, option_description].join(";")
-        # @issue_map[[kart_nr,sakskart_nr]].each do |issue_id|
+        @issue_map[[kart_nr,sakskart_nr]].each do |issue_id|
           collapse(vote_id, "subject", subject)
           collapse(vote_id, "count_for", count_for)
           collapse(vote_id, "count_against", count_against)
@@ -46,7 +46,8 @@ class VoteParser
           collapse(vote_id, "vote_time", vote_time)
           collapse(vote_id, "sakskart_nr", sakskart_nr)
           collapse(vote_id, "kart_nr", kart_nr)
-          collapse(vote_id, "issue_id", @issue_map[[kart_nr,sakskart_nr]].first)
+          # collapse(vote_id, "issue_id", issue_id)
+          add_issue_id_to(vote_id, issue_id)
           if result_code == "Enstemmig vedtatt"
             collapse(vote_id, "unanimous", 1)
           elsif ! result_code.empty?
@@ -58,13 +59,19 @@ class VoteParser
                "party" => party, "district_code" => district_code, "vote" => vote
               })
           end
-        # end
+        end
       end
     end
     @votes
   end
 
   private
+  def add_issue_id_to(vote_id, issue_id)
+    vote = @votes[vote_id]
+    vote['issue_id'] ||= Set.new
+    vote['issue_id'] << issue_id
+  end
+
   def collapse(vote_id, field, value)
     vote = @votes[vote_id] || @votes[vote_id] = {}
     old_value = vote[field]
@@ -88,20 +95,22 @@ class HdoVoteTranslator
 
   def do_magic
     magic = @votes.map do |vote_id, vote|
-      {
-        kind:            'hdo#vote',
-        externalId:      vote['vote_time'] + (enacted?(vote) ? 'j' : 'n'),
-        externalIssueId: vote['issue_id'],
-        counts:          count(vote),
-        personal:        !vote['unanimous'],
-        enacted:         enacted?(vote),
-        subject:         vote['subject'],
-        method:          "ikke_spesifisert",
-        resultType:      "ikke_spesifisert",
-        time:            Time.parse(vote['vote_time']).iso8601,
-        representatives: representatives_for(vote)
-      }
-    end
+      vote['issue_id'].map do |issue_id|
+        {
+          kind:            'hdo#vote',
+          externalId:      vote['vote_time'] + (enacted?(vote) ? 'j' : 'n'),
+          externalIssueId: issue_id, #vote['issue_id'],
+          counts:          count(vote),
+          personal:        !vote['unanimous'],
+          enacted:         enacted?(vote),
+          subject:         vote['subject'],
+          method:          "ikke_spesifisert",
+          resultType:      "ikke_spesifisert",
+          time:            Time.parse(vote['vote_time']).iso8601,
+          representatives: representatives_for(vote)
+        }
+      end
+    end.flatten
     if !@missing_reps.empty?
       puts JSON.pretty_generate @missing_reps.to_a
       abort "missing some representatives, yo.."
