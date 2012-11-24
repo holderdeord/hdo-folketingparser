@@ -32,12 +32,15 @@ class VoteParser
 
   def votes
     unless @votes
+      @votes_without_issues = Set.new
       @votes = {}
       @file.lines.each do |line|
         (date, kart_nr, sakskart_nr, vote_time, subject, option_description,
          result_code, count_for, count_against, name, repr_nr, person_id, 
          party, district_code, vote, option) = line.split(";").map(&:strip)
         vote_id = [date, sakskart_nr, subject, option_description].join(";")
+        # abort "dont have issue_id for kartnr,sakskart_nr #{kart_nr},#{sakskart_nr}" unless @issue_map[[kart_nr,sakskart_nr]]
+        @votes_without_issues << "#{kart_nr},#{sakskart_nr}" unless @issue_map[[kart_nr,sakskart_nr]]
         @issue_map[[kart_nr,sakskart_nr]].each do |issue_id|
           collapse(vote_id, "subject", subject)
           collapse(vote_id, "count_for", count_for)
@@ -59,7 +62,11 @@ class VoteParser
                "party" => party, "district_code" => district_code, "vote" => vote
               }) if @votes[vote_id]['votes'].select { |v| v['person_id'] == person_id }.empty?
           end
-        end
+        end if @issue_map[[kart_nr,sakskart_nr]]
+        # unless @votes_without_issues.empty?
+        #   puts JSON.pretty_generate(@votes_without_issues.to_a)
+        #   abort "some votes didnt have issue ids in the mapping file."
+        # end
       end
     end
     @votes
@@ -207,6 +214,166 @@ puts JSON.pretty_generate(hdo_votes)
 
 __END__
 [
+  {
+    "kind": "hdo#representative",
+    "externalId": "KFOS",
+    "firstName": " Kåre",
+    "lastName": "Fostervold",
+    "dateOfBirth": "1969-10-10",
+    "dateOfDeath": null,
+    "district": "Telemark",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "FrP",
+        "startDate": "2009-10-1",
+        "endDate": "2010-9-30"
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "LBT",
+    "firstName": " Lars Bjarne",
+    "lastName": "Tvete",
+    "dateOfBirth": "1948-1-4",
+    "dateOfDeath": null,
+    "district": "Sør-Trøndelag",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "H",
+        "startDate": "2009-10-1",
+        "endDate": "2010-9-30"
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "HCI",
+    "firstName": " Hanne C.S.",
+    "lastName": "Iversen",
+    "dateOfBirth": "1977-11-14",
+    "dateOfDeath": null,
+    "district": "Troms",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "FrP",
+        "startDate": "2009-10-1",
+        "endDate": "2010-9-30"
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "EAG",
+    "firstName": " Elin Rodum",
+    "lastName": "Agdestein",
+    "dateOfBirth": "1957-8-10",
+    "dateOfDeath": null,
+    "district": "Nord-Trøndelag",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "H",
+        "startDate": "2009-10-1",
+        "endDate": "2010-9-30"
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "LKE",
+    "firstName": " Lasse Kinden",
+    "lastName": "Endresen",
+    "dateOfBirth": "1989-12-18",
+    "dateOfDeath": null,
+    "district": "Rogaland",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "SV",
+        "startDate": "2009-10-1",
+        "endDate": "2010-9-30"
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "BROS",
+    "firstName": " Brigt",
+    "lastName": "Samdal",
+    "dateOfBirth": "1970-5-14",
+    "dateOfDeath": null,
+    "district": "Sogn og Fjordane",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "A",
+        "startDate": "2009-10-1",
+        "endDate": "2010-9-30"
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "KRV",
+    "firstName": " Kristin",
+    "lastName": "Vinje",
+    "dateOfBirth": "1963-6-10",
+    "dateOfDeath": null,
+    "district": "Oslo",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "H",
+        "startDate": "2009-10-1",
+        "endDate": "2010-9-30"
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "RAK",
+    "firstName": " Ragnhild Aarflot",
+    "lastName": "Kalland",
+    "dateOfBirth": "1960-9-4",
+    "dateOfDeath": null,
+    "district": "Møre og Romsdal",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "Sp",
+        "startDate": "2009-10-1",
+        "endDate": "2010-9-30"
+      }
+    ],
+    "committees": [
+
+    ]
+  },
   {
     "kind": "hdo#representative",
     "externalId": "FRS",
