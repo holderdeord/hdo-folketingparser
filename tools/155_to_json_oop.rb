@@ -53,11 +53,11 @@ class VoteParser
           elsif ! result_code.empty?
               abort "Unknown result code '#{result_code}'"
           else
-            votes = @votes[vote_id]["votes"] ||= []
+            @votes[vote_id]["votes"] ||= []
             @votes[vote_id]["votes"].push({
                "name" => name, "repr_nr" => repr_nr, "person_id" => person_id,
                "party" => party, "district_code" => district_code, "vote" => vote
-              })
+              }) if @votes[vote_id]['votes'].select { |v| v['person_id'] == person_id }.empty?
           end
         end
       end
@@ -173,6 +173,13 @@ class HdoVoteTranslator
         absent:  0
       }
       counts[:absent] = vote['votes'].count - counts[:for] - counts[:against]
+      # puts JSON.pretty_generate(vote['votes'])
+      # abort vote['votes'].count.to_s if counts[:absent] > 400
+
+      if counts[:absent] > 400
+        puts JSON.pretty_generate(vote)
+        abort "I think you have some duplicate votes somewhere..."
+      end
     else
       counts = {
         for:     0,
