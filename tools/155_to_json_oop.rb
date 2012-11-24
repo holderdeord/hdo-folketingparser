@@ -127,7 +127,7 @@ class HdoVoteTranslator
     if vote['votes']
       vote['votes'].map do |rep_vote|
         rep = @reps[rep_vote['person_id']]
-        abort "rep #{rep} changed parties" if rep['parties'].first['externalId'] != rep_vote['party']
+        abort "rep #{rep} changed parties" if rep && rep['parties'].first['externalId'] != rep_vote['party']
         unless rep
           rep = ghost(rep_vote)
           @missing_reps[rep[:externalId]] = rep
@@ -201,6 +201,126 @@ puts JSON.pretty_generate(hdo_votes)
 __END__
 [
   {
+    "kind": "hdo#representative",
+    "externalId": "FRS",
+    "firstName": " Fredrik",
+    "lastName": "Sletbakk",
+    "dateOfBirth": "1990-03-22",
+    "dateOfDeath": null,
+    "district": "Nordland",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "A",
+        "startDate": "2009-10-01",
+        "endDate": "2012-09-30"
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "MHE",
+    "firstName": " Martin",
+    "lastName": "Henriksen",
+    "dateOfBirth": "1979-1-5",
+    "dateOfDeath": null,
+    "district": "Troms",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "A",
+        "startDate": "2009-10-01",
+        "endDate": "2012-09-30"
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "ALER",
+    "firstName": " Ann-Hege",
+    "lastName": "Lervåg",
+    "dateOfBirth": "1974-5-20",
+    "dateOfDeath": null,
+    "district": "Nordland",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "Sp",
+        "startDate": "2009-10-01",
+        "endDate": "2012-09-30"
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "BIM",
+    "firstName": " Bjørn Inge",
+    "lastName": "Mo",
+    "dateOfBirth": "1968-3-16",
+    "dateOfDeath": null,
+    "district": "Troms",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "A",
+        "startDate": "2009-10-01",
+        "endDate": "2012-09-30"
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "RFN",
+    "firstName": " Ragnar",
+    "lastName": "Nordgreen",
+    "dateOfBirth": "1946-8-11",
+    "dateOfDeath": null,
+    "district": "Oppland",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "A",
+        "startDate": "2009-10-01",
+        "endDate": "2012-09-30"
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "MKE",
+    "firstName": " Mazyar",
+    "lastName": "Keshvari",
+    "dateOfBirth": "1981-3-5",
+    "dateOfDeath": null,
+    "district": "Oslo",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "FrP",
+        "startDate": "2009-10-01",
+        "endDate": "2012-09-30"
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
   "kind": "hdo#representative",
   "externalId": "AJI",
   "firstName": " Anne June",
@@ -212,8 +332,8 @@ __END__
     {
       "kind": "hdo#partyMembership",
       "externalId": "FrP",
-      "startDate": "2009-01-01",
-      "endDate": null
+      "startDate": "2009-10-01",
+      "endDate": "2010-9-30"
     }
   ],
   "committees": [
@@ -232,8 +352,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2009-01-01",
-        "endDate": null
+        "startDate": "2009-10-01",
+        "endDate": "2010-9-30"
       }
     ],
     "committees": [
@@ -252,8 +372,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2009-01-01",
-        "endDate": null
+        "startDate": "2009-10-01",
+        "endDate": "2010-9-30"
       }
     ],
     "committees": [
@@ -272,8 +392,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2009-01-01",
-        "endDate": null
+        "startDate": "2009-10-01",
+        "endDate": "2010-9-30"
       }
     ],
     "committees": [
@@ -292,8 +412,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2009-01-01",
-        "endDate": null
+        "startDate": "2009-10-01",
+        "endDate": "2010-9-30"
       }
     ],
     "committees": [
@@ -312,8 +432,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2009-01-01",
-        "endDate": null
+        "startDate": "2009-10-01",
+        "endDate": "2010-9-30"
       }
     ],
     "committees": [
@@ -332,8 +452,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2009-01-01",
-        "endDate": null
+        "startDate": "2009-10-01",
+        "endDate": "2010-9-30"
       }
     ],
     "committees": [
@@ -352,8 +472,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2009-01-01",
-        "endDate": null
+        "startDate": "2009-10-01",
+        "endDate": "2010-9-30"
       }
     ],
     "committees": [
@@ -372,8 +492,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2009-01-01",
-        "endDate": null
+        "startDate": "2009-10-01",
+        "endDate": "2010-9-30"
       }
     ],
     "committees": [
@@ -392,8 +512,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2009-01-01",
-        "endDate": null
+        "startDate": "2009-10-01",
+        "endDate": "2010-9-30"
       }
     ],
     "committees": [
@@ -412,8 +532,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2009-01-01",
-        "endDate": null
+        "startDate": "2009-10-01",
+        "endDate": "2010-9-30"
       }
     ],
     "committees": [
