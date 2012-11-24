@@ -14,7 +14,8 @@ class KartIssueMapper
       @issue_map = {}
       @file.lines.each do |line|
         date, kart_nr, issue_id, sakskart_nr, short_text = line.split("\t").map(&:strip)
-        @issue_map[[kart_nr, sakskart_nr]] = issue_id
+        @issue_map[[kart_nr, sakskart_nr]] ||= []
+        @issue_map[[kart_nr, sakskart_nr]] << issue_id
       end
     end
     @issue_map
@@ -37,25 +38,27 @@ class VoteParser
          result_code, count_for, count_against, name, repr_nr, person_id, 
          party, district_code, vote, option) = line.split(";").map(&:strip)
         vote_id = [date, sakskart_nr, subject, option_description].join(";")
-        collapse(vote_id, "subject", subject)
-        collapse(vote_id, "count_for", count_for)
-        collapse(vote_id, "count_against", count_against)
-        collapse(vote_id, "date", date)
-        collapse(vote_id, "vote_time", vote_time)
-        collapse(vote_id, "sakskart_nr", sakskart_nr)
-        collapse(vote_id, "kart_nr", kart_nr)
-        collapse(vote_id, "issue_id", @issue_map[[kart_nr,sakskart_nr]])
-        if result_code == "Enstemmig vedtatt"
-          collapse(vote_id, "unanimous", 1)
-        elsif ! result_code.empty?
-            abort "Unknown result code '#{result_code}'"
-        else
-          votes = @votes[vote_id]["votes"] ||= []
-          @votes[vote_id]["votes"].push({ 
-             "name" => name, "repr_nr" => repr_nr, "person_id" => person_id, 
-             "party" => party, "district_code" => district_code, "vote" => vote
-            })
-        end
+        # @issue_map[[kart_nr,sakskart_nr]].each do |issue_id|
+          collapse(vote_id, "subject", subject)
+          collapse(vote_id, "count_for", count_for)
+          collapse(vote_id, "count_against", count_against)
+          collapse(vote_id, "date", date)
+          collapse(vote_id, "vote_time", vote_time)
+          collapse(vote_id, "sakskart_nr", sakskart_nr)
+          collapse(vote_id, "kart_nr", kart_nr)
+          collapse(vote_id, "issue_id", @issue_map[[kart_nr,sakskart_nr]].first)
+          if result_code == "Enstemmig vedtatt"
+            collapse(vote_id, "unanimous", 1)
+          elsif ! result_code.empty?
+              abort "Unknown result code '#{result_code}'"
+          else
+            votes = @votes[vote_id]["votes"] ||= []
+            @votes[vote_id]["votes"].push({
+               "name" => name, "repr_nr" => repr_nr, "person_id" => person_id,
+               "party" => party, "district_code" => district_code, "vote" => vote
+              })
+          end
+        # end
       end
     end
     @votes
@@ -75,7 +78,7 @@ end
 
 class HdoVoteTranslator
   def initialize(votes, reps)
-    @missing_reps = ::Set.new
+    @missing_reps = {}
     @votes = votes
     @reps  = reps.reduce({}) do |result, rep|
       result[rep['externalId']] = rep
@@ -87,11 +90,11 @@ class HdoVoteTranslator
     magic = @votes.map do |vote_id, vote|
       {
         kind:            'hdo#vote',
-        externalId:      vote_id,
+        externalId:      vote['vote_time'] + (enacted?(vote) ? 'j' : 'n'),
         externalIssueId: vote['issue_id'],
         counts:          count(vote),
         personal:        !vote['unanimous'],
-        enacted:         (count(vote)[:count_for] > count(vote)[:count_against] || vote['unanimous'] ? true : false), # this can't be right... where's the flag?? or, are 'unanimous' always enacted? because this is what this line assumes...
+        enacted:         enacted?(vote),
         subject:         vote['subject'],
         method:          "ikke_spesifisert",
         resultType:      "ikke_spesifisert",
@@ -107,21 +110,29 @@ class HdoVoteTranslator
   end
 
   private
+  def enacted?(vote)
+    (count(vote)[:for] > count(vote)[:against] || vote['unanimous'] ? true : false) # this can't be right... where's the flag?? or, are 'unanimous' always enacted? because this is what this line assumes...
+  end
+
   def representatives_for(vote)
     if vote['votes']
       vote['votes'].map do |rep_vote|
         rep = @reps[rep_vote['person_id']]
-        # @missing_reps << ghost(rep_vote) unless rep
+        abort "rep #{rep} changed parties" if rep['parties'].first['externalId'] != rep_vote['party']
+        unless rep
+          rep = ghost(rep_vote)
+          @missing_reps[rep[:externalId]] = rep
+        end
         {
           voteResult: if rep_vote['vote'] == "J"; "for"; elsif rep_vote['vote'] == "N"; "against"; else; "absent"; end
-        }.merge (rep || ghost(vote,rep_vote))
+        }.merge (rep || ghost(rep_vote))
       end
     else
       []
     end
   end
 
-  def ghost(vote,rep_vote)
+  def ghost(rep_vote)
     last_name, first_name = rep_vote['name'].split(',')
     {
     kind: "hdo#representative",
@@ -135,8 +146,8 @@ class HdoVoteTranslator
       {
         kind: "hdo#partyMembership",
         externalId: rep_vote['party'],
-        startDate: Time.parse(vote['date']).to_date.iso8601,
-        endDate: Time.parse(vote['date']).to_date.iso8601
+        startDate: nil,
+        endDate: nil
       }
     ],
     committees: []
@@ -148,16 +159,16 @@ class HdoVoteTranslator
     return @counts[vote] if @counts[vote]
     if(vote['votes'])
       counts = {
-        count_for:     vote['count_for'].to_i,
-        count_against: vote['count_against'].to_i,
-        count_absent:  0
+        for:     vote['count_for'].to_i,
+        against: vote['count_against'].to_i,
+        absent:  0
       }
-      counts[:count_absent] = vote['votes'].count - counts[:count_for] - counts[:count_against]
+      counts[:absent] = vote['votes'].count - counts[:for] - counts[:against]
     else
       counts = {
-        count_for:     -1,
-        count_against: -1,
-        count_absent:  -1
+        for:     0,
+        against: 0,
+        absent:  0
       }
     end
     @counts[vote] = counts
@@ -168,6 +179,9 @@ abort "Syntax: 155_to_json_oop issue_id_map_file vote_data_file" unless ARGV.cou
 file1, file2 = ARGV
 
 kart_to_issue_id_map = KartIssueMapper.new(file1).issue_map
+# multisak = kart_to_issue_id_map.select {|k,v| v.count > 1 }
+# abort "votes med flere saker: #{multisak.count}"
+
 votes = VoteParser.new(file2, kart_to_issue_id_map).votes
 reps = JSON.parse(DATA.read)
 
@@ -177,6 +191,226 @@ puts JSON.pretty_generate(hdo_votes)
 
 __END__
 [
+  {
+  "kind": "hdo#representative",
+  "externalId": "AJI",
+  "firstName": " Anne June",
+  "lastName": "Iversen",
+  "dateOfBirth": "1964-02-04",
+  "dateOfDeath": null,
+  "district": "Sogn og Fjordane",
+  "parties": [
+    {
+      "kind": "hdo#partyMembership",
+      "externalId": "FrP",
+      "startDate": "2009-01-01",
+      "endDate": null
+    }
+  ],
+  "committees": [
+
+  ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "AENG",
+    "firstName": " Ann-Kristin",
+    "lastName": "Engstad",
+    "dateOfBirth": "2010-07-26",
+    "dateOfDeath": null,
+    "district": "Finnmark",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "A",
+        "startDate": "2009-01-01",
+        "endDate": null
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "PAMB",
+    "firstName": " Pål Morten",
+    "lastName": "Borgli",
+    "dateOfBirth": "1967-12-03",
+    "dateOfDeath": null,
+    "district": "Rogaland",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "FrP",
+        "startDate": "2009-01-01",
+        "endDate": null
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "ELV",
+    "firstName": " Hårek",
+    "lastName": "Elvenes",
+    "dateOfBirth": "1959-06-17",
+    "dateOfDeath": null,
+    "district": "Akershus",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "H",
+        "startDate": "2009-01-01",
+        "endDate": null
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "DS",
+    "firstName": " Dag",
+    "lastName": "Sele",
+    "dateOfBirth": "1964-4-3",
+    "dateOfDeath": null,
+    "district": "Telemark",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "KrF",
+        "startDate": "2009-01-01",
+        "endDate": null
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "TSOL",
+    "firstName": " Tom Strømstad",
+    "lastName": "Olsen",
+    "dateOfBirth": "1971-9-12",
+    "dateOfDeath": null,
+    "district": "Vestfold",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "A",
+        "startDate": "2009-01-01",
+        "endDate": null
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "IAS",
+    "firstName": " Ivar",
+    "lastName": "Skulstad",
+    "dateOfBirth": "1953-5-6",
+    "dateOfDeath": null,
+    "district": "Hedmark",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "A",
+        "startDate": "2009-01-01",
+        "endDate": null
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "TAR",
+    "firstName": " Tomas C.",
+    "lastName": "Archer",
+    "dateOfBirth": "1952-8-31",
+    "dateOfDeath": null,
+    "district": "Østfold",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "A",
+        "startDate": "2009-01-01",
+        "endDate": null
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "HNJ",
+    "firstName": " Helge André",
+    "lastName": "Njåstad",
+    "dateOfBirth": "1980-6-5",
+    "dateOfDeath": null,
+    "district": "Hordaland",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "FrP",
+        "startDate": "2009-01-01",
+        "endDate": null
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "ANES",
+    "firstName": " Anette Stegegjerdet",
+    "lastName": "Norberg",
+    "dateOfBirth": "1986-12-24",
+    "dateOfDeath": null,
+    "district": "Sogn og Fjordane",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "A",
+        "startDate": "2009-01-01",
+        "endDate": null
+      }
+    ],
+    "committees": [
+
+    ]
+  },
+  {
+    "kind": "hdo#representative",
+    "externalId": "EINH",
+    "firstName": " Einar",
+    "lastName": "Horvei",
+    "dateOfBirth": "1955-1-3",
+    "dateOfDeath": null,
+    "district": "Hordaland",
+    "parties": [
+      {
+        "kind": "hdo#partyMembership",
+        "externalId": "SV",
+        "startDate": "2009-01-01",
+        "endDate": null
+      }
+    ],
+    "committees": [
+
+    ]
+  },
   {
     "kind": "hdo#representative",
     "externalId": "MAAA",
