@@ -42,6 +42,7 @@ class VoteParser
         # abort "dont have issue_id for kartnr,sakskart_nr #{kart_nr},#{sakskart_nr}" unless @issue_map[[kart_nr,sakskart_nr]]
         @votes_without_issues << "#{kart_nr},#{sakskart_nr}" unless @issue_map[[kart_nr,sakskart_nr]]
         @issue_map[[kart_nr,sakskart_nr]].each do |issue_id|
+          next if ['44301','44302','44682','44683'].include? issue_id
           collapse(vote_id, "subject", subject)
           collapse(vote_id, "count_for", count_for)
           collapse(vote_id, "count_against", count_against)
@@ -226,8 +227,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2009-10-1",
-        "endDate": "2010-9-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -246,8 +247,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2009-10-1",
-        "endDate": "2010-9-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -266,8 +267,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2009-10-1",
-        "endDate": "2010-9-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -286,8 +287,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2009-10-1",
-        "endDate": "2010-9-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -306,8 +307,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2009-10-1",
-        "endDate": "2010-9-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -326,8 +327,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2009-10-1",
-        "endDate": "2010-9-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -346,8 +347,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2009-10-1",
-        "endDate": "2010-9-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -366,8 +367,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2009-10-1",
-        "endDate": "2010-9-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -386,8 +387,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2009-10-01",
-        "endDate": "2012-09-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -406,8 +407,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2009-10-01",
-        "endDate": "2012-09-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -426,8 +427,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2009-10-01",
-        "endDate": "2012-09-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -446,8 +447,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2009-10-01",
-        "endDate": "2012-09-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -466,8 +467,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2009-10-01",
-        "endDate": "2012-09-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -486,8 +487,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2009-10-01",
-        "endDate": "2012-09-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -526,8 +527,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2009-10-01",
-        "endDate": "2010-9-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -546,8 +547,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2009-10-01",
-        "endDate": "2010-9-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -566,8 +567,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2009-10-01",
-        "endDate": "2010-9-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -586,8 +587,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2009-10-01",
-        "endDate": "2010-9-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -606,8 +607,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2009-10-01",
-        "endDate": "2010-9-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -626,8 +627,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2009-10-01",
-        "endDate": "2010-9-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -646,8 +647,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2009-10-01",
-        "endDate": "2010-9-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -666,8 +667,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2009-10-01",
-        "endDate": "2010-9-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -686,8 +687,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2009-10-01",
-        "endDate": "2010-9-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -706,8 +707,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2009-10-01",
-        "endDate": "2010-9-30"
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -726,8 +727,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -751,8 +752,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -776,8 +777,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -796,8 +797,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -816,8 +817,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -836,8 +837,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -861,8 +862,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -881,8 +882,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -901,8 +902,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -926,8 +927,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -951,8 +952,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -976,8 +977,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -996,8 +997,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1021,8 +1022,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1046,8 +1047,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1071,8 +1072,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1096,8 +1097,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1121,8 +1122,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1141,8 +1142,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1161,8 +1162,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1181,8 +1182,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1206,8 +1207,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1226,8 +1227,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1257,8 +1258,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1277,8 +1278,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1302,8 +1303,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1327,8 +1328,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1347,8 +1348,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1367,8 +1368,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1392,8 +1393,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1417,8 +1418,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1442,8 +1443,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1467,8 +1468,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1492,8 +1493,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1517,8 +1518,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1542,8 +1543,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1562,8 +1563,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1582,8 +1583,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1607,8 +1608,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1632,8 +1633,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1657,8 +1658,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1677,8 +1678,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1702,8 +1703,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1722,8 +1723,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1753,8 +1754,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1778,8 +1779,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1798,8 +1799,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1818,8 +1819,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1838,8 +1839,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1863,8 +1864,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1883,8 +1884,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1903,8 +1904,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1928,8 +1929,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1953,8 +1954,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1978,8 +1979,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "V",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -1998,8 +1999,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2023,8 +2024,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2048,8 +2049,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2068,8 +2069,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2088,8 +2089,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2113,8 +2114,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2138,8 +2139,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2163,8 +2164,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2183,8 +2184,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2208,8 +2209,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2228,8 +2229,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2253,8 +2254,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2278,8 +2279,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2298,8 +2299,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2323,8 +2324,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2348,8 +2349,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2373,8 +2374,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2398,8 +2399,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2423,8 +2424,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "V",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2454,8 +2455,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2474,8 +2475,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2499,8 +2500,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2524,8 +2525,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2549,8 +2550,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2574,8 +2575,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2599,8 +2600,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2624,8 +2625,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2649,8 +2650,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2674,8 +2675,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2699,8 +2700,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2724,8 +2725,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2749,8 +2750,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2769,8 +2770,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2794,8 +2795,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2814,8 +2815,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2839,8 +2840,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2864,8 +2865,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2889,8 +2890,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2914,8 +2915,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2939,8 +2940,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2964,8 +2965,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -2984,8 +2985,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2012-10-09",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3004,8 +3005,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3029,8 +3030,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3054,8 +3055,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3074,8 +3075,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3099,8 +3100,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3119,8 +3120,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3144,8 +3145,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3169,8 +3170,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3194,8 +3195,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3219,8 +3220,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3244,8 +3245,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3264,8 +3265,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3289,8 +3290,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2012-10-05",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3309,8 +3310,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3340,8 +3341,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3365,8 +3366,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3390,8 +3391,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3415,8 +3416,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3435,8 +3436,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3455,8 +3456,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3480,8 +3481,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3505,8 +3506,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3530,8 +3531,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3550,8 +3551,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3575,8 +3576,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3600,8 +3601,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3620,8 +3621,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3645,8 +3646,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3676,8 +3677,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3696,8 +3697,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2012-10-09",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3716,8 +3717,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3741,8 +3742,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3766,8 +3767,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3791,8 +3792,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3816,8 +3817,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3841,8 +3842,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3866,8 +3867,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2012-10-05",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3886,8 +3887,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3911,8 +3912,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3936,8 +3937,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3961,8 +3962,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -3986,8 +3987,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2012-10-05",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4006,8 +4007,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4031,8 +4032,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4051,8 +4052,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4082,8 +4083,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4102,8 +4103,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4122,8 +4123,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4142,8 +4143,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4167,8 +4168,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4192,8 +4193,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4212,8 +4213,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4232,8 +4233,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4252,8 +4253,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4277,8 +4278,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4302,8 +4303,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4339,8 +4340,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4364,8 +4365,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2012-10-25",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4384,8 +4385,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4409,8 +4410,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4429,8 +4430,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4454,8 +4455,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4485,8 +4486,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4505,8 +4506,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4530,8 +4531,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4555,8 +4556,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4580,8 +4581,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4600,8 +4601,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4620,8 +4621,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4645,8 +4646,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4670,8 +4671,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4695,8 +4696,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4715,8 +4716,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4735,8 +4736,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4760,8 +4761,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4780,8 +4781,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4805,8 +4806,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4830,8 +4831,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4855,8 +4856,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4880,8 +4881,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4905,8 +4906,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4925,8 +4926,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4945,8 +4946,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2012-10-05",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4965,8 +4966,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -4990,8 +4991,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5015,8 +5016,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5040,8 +5041,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5065,8 +5066,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5085,8 +5086,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5105,8 +5106,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5130,8 +5131,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5150,8 +5151,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5170,8 +5171,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5190,8 +5191,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5215,8 +5216,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5235,8 +5236,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5255,8 +5256,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5275,8 +5276,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "V",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5295,8 +5296,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5315,8 +5316,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5340,8 +5341,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5360,8 +5361,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5380,8 +5381,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2012-10-16",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5400,8 +5401,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5420,8 +5421,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5445,8 +5446,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5476,8 +5477,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5501,8 +5502,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5521,8 +5522,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5546,8 +5547,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5571,8 +5572,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5596,8 +5597,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5621,8 +5622,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5646,8 +5647,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5671,8 +5672,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5696,8 +5697,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5721,8 +5722,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5741,8 +5742,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5761,8 +5762,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2012-10-09",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5781,8 +5782,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5801,8 +5802,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5821,8 +5822,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5841,8 +5842,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5866,8 +5867,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5891,8 +5892,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5911,8 +5912,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5931,8 +5932,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5951,8 +5952,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -5976,8 +5977,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6001,8 +6002,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6026,8 +6027,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6051,8 +6052,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6076,8 +6077,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6101,8 +6102,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6126,8 +6127,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6146,8 +6147,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6171,8 +6172,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6191,8 +6192,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6211,8 +6212,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6231,8 +6232,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6256,8 +6257,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6276,8 +6277,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6296,8 +6297,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6321,8 +6322,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6341,8 +6342,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6366,8 +6367,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6391,8 +6392,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6416,8 +6417,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6441,8 +6442,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "V",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6466,8 +6467,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6491,8 +6492,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6516,8 +6517,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6541,8 +6542,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6561,8 +6562,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6581,8 +6582,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6606,8 +6607,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6626,8 +6627,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "KrF",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6646,8 +6647,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6671,8 +6672,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6691,8 +6692,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6716,8 +6717,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6741,8 +6742,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6766,8 +6767,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6791,8 +6792,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6811,8 +6812,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6831,8 +6832,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6856,8 +6857,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "SV",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6881,8 +6882,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6901,8 +6902,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6921,8 +6922,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6941,8 +6942,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6966,8 +6967,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "H",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -6991,8 +6992,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -7011,8 +7012,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -7036,8 +7037,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "Sp",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -7061,8 +7062,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "FrP",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
@@ -7086,8 +7087,8 @@ __END__
       {
         "kind": "hdo#partyMembership",
         "externalId": "A",
-        "startDate": "2011-10-01",
-        "endDate": null
+        "startDate": "2010-10-01",
+        "endDate": "2011-09-30"
       }
     ],
     "committees": [
