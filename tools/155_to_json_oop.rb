@@ -218,7 +218,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "KFOS",
-    "firstName": " Kåre",
+    "firstName": "Kåre",
     "lastName": "Fostervold",
     "dateOfBirth": "1969-10-10",
     "dateOfDeath": null,
@@ -238,7 +238,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "LBT",
-    "firstName": " Lars Bjarne",
+    "firstName": "Lars Bjarne",
     "lastName": "Tvete",
     "dateOfBirth": "1948-1-4",
     "dateOfDeath": null,
@@ -258,7 +258,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "HCI",
-    "firstName": " Hanne C.S.",
+    "firstName": "Hanne C.S.",
     "lastName": "Iversen",
     "dateOfBirth": "1977-11-14",
     "dateOfDeath": null,
@@ -278,7 +278,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "EAG",
-    "firstName": " Elin Rodum",
+    "firstName": "Elin Rodum",
     "lastName": "Agdestein",
     "dateOfBirth": "1957-8-10",
     "dateOfDeath": null,
@@ -298,7 +298,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "LKE",
-    "firstName": " Lasse Kinden",
+    "firstName": "Lasse Kinden",
     "lastName": "Endresen",
     "dateOfBirth": "1989-12-18",
     "dateOfDeath": null,
@@ -318,7 +318,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "BROS",
-    "firstName": " Brigt",
+    "firstName": "Brigt",
     "lastName": "Samdal",
     "dateOfBirth": "1970-5-14",
     "dateOfDeath": null,
@@ -338,7 +338,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "KRV",
-    "firstName": " Kristin",
+    "firstName": "Kristin",
     "lastName": "Vinje",
     "dateOfBirth": "1963-6-10",
     "dateOfDeath": null,
@@ -358,7 +358,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "RAK",
-    "firstName": " Ragnhild Aarflot",
+    "firstName": "Ragnhild Aarflot",
     "lastName": "Kalland",
     "dateOfBirth": "1960-9-4",
     "dateOfDeath": null,
@@ -378,7 +378,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "FRS",
-    "firstName": " Fredrik",
+    "firstName": "Fredrik",
     "lastName": "Sletbakk",
     "dateOfBirth": "1990-03-22",
     "dateOfDeath": null,
@@ -398,7 +398,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "MHE",
-    "firstName": " Martin",
+    "firstName": "Martin",
     "lastName": "Henriksen",
     "dateOfBirth": "1979-1-5",
     "dateOfDeath": null,
@@ -418,7 +418,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "ALER",
-    "firstName": " Ann-Hege",
+    "firstName": "Ann-Hege",
     "lastName": "Lervåg",
     "dateOfBirth": "1974-5-20",
     "dateOfDeath": null,
@@ -438,7 +438,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "BIM",
-    "firstName": " Bjørn Inge",
+    "firstName": "Bjørn Inge",
     "lastName": "Mo",
     "dateOfBirth": "1968-3-16",
     "dateOfDeath": null,
@@ -458,7 +458,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "RFN",
-    "firstName": " Ragnar",
+    "firstName": "Ragnar",
     "lastName": "Nordgreen",
     "dateOfBirth": "1946-8-11",
     "dateOfDeath": null,
@@ -478,7 +478,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "MKE",
-    "firstName": " Mazyar",
+    "firstName": "Mazyar",
     "lastName": "Keshvari",
     "dateOfBirth": "1981-3-5",
     "dateOfDeath": null,
@@ -498,7 +498,7 @@ __END__
   {
   "kind": "hdo#representative",
   "externalId": "AJI",
-  "firstName": " Anne June",
+  "firstName": "Anne June",
   "lastName": "Iversen",
   "dateOfBirth": "1964-02-04",
   "dateOfDeath": null,
@@ -518,7 +518,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "AENG",
-    "firstName": " Ann-Kristin",
+    "firstName": "Ann-Kristin",
     "lastName": "Engstad",
     "dateOfBirth": "2010-07-26",
     "dateOfDeath": null,
@@ -538,7 +538,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "PAMB",
-    "firstName": " Pål Morten",
+    "firstName": "Pål Morten",
     "lastName": "Borgli",
     "dateOfBirth": "1967-12-03",
     "dateOfDeath": null,
@@ -558,7 +558,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "ELV",
-    "firstName": " Hårek",
+    "firstName": "Hårek",
     "lastName": "Elvenes",
     "dateOfBirth": "1959-06-17",
     "dateOfDeath": null,
@@ -578,7 +578,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "DS",
-    "firstName": " Dag",
+    "firstName": "Dag",
     "lastName": "Sele",
     "dateOfBirth": "1964-4-3",
     "dateOfDeath": null,
@@ -598,7 +598,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "TSOL",
-    "firstName": " Tom Strømstad",
+    "firstName": "Tom Strømstad",
     "lastName": "Olsen",
     "dateOfBirth": "1971-9-12",
     "dateOfDeath": null,
@@ -618,7 +618,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "IAS",
-    "firstName": " Ivar",
+    "firstName": "Ivar",
     "lastName": "Skulstad",
     "dateOfBirth": "1953-5-6",
     "dateOfDeath": null,
@@ -638,7 +638,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "TAR",
-    "firstName": " Tomas C.",
+    "firstName": "Tomas C.",
     "lastName": "Archer",
     "dateOfBirth": "1952-8-31",
     "dateOfDeath": null,
@@ -658,7 +658,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "HNJ",
-    "firstName": " Helge André",
+    "firstName": "Helge André",
     "lastName": "Njåstad",
     "dateOfBirth": "1980-6-5",
     "dateOfDeath": null,
@@ -678,7 +678,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "ANES",
-    "firstName": " Anette Stegegjerdet",
+    "firstName": "Anette Stegegjerdet",
     "lastName": "Norberg",
     "dateOfBirth": "1986-12-24",
     "dateOfDeath": null,
@@ -698,7 +698,7 @@ __END__
   {
     "kind": "hdo#representative",
     "externalId": "EINH",
-    "firstName": " Einar",
+    "firstName": "Einar",
     "lastName": "Horvei",
     "dateOfBirth": "1955-1-3",
     "dateOfDeath": null,
