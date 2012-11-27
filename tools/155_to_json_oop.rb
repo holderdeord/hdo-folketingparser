@@ -99,6 +99,11 @@ class HdoVoteTranslator
       result[rep['externalId']] = rep
       result
     end
+    @representatives_set = Set.new
+  end
+
+  def hdo_reps
+    @representatives_set.to_a
   end
 
   def do_magic
@@ -140,6 +145,7 @@ class HdoVoteTranslator
           rep = ghost(rep_vote)
           @missing_reps[rep[:externalId]] = rep
         end
+        @representatives_set << rep
         {
           voteResult: if rep_vote['vote'] == "J"; "for"; elsif rep_vote['vote'] == "N"; "against"; else; "absent"; end
         }.merge (rep || ghost(rep_vote))
@@ -209,9 +215,10 @@ kart_to_issue_id_map = KartIssueMapper.new(file1).issue_map
 votes = VoteParser.new(file2, kart_to_issue_id_map).votes
 reps = JSON.parse(DATA.read)
 
-hdo_votes = HdoVoteTranslator.new(votes,reps).do_magic
+hdo_translator = HdoVoteTranslator.new(votes,reps)
+hdo_votes = hdo_translator.do_magic
 
-puts JSON.pretty_generate(hdo_votes)
+puts JSON.pretty_generate([hdo_translator.hdo_reps, hdo_votes].flatten)
 
 __END__
 [
