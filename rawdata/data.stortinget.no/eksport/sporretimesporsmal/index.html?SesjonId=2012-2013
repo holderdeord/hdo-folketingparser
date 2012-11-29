@@ -462,7 +462,15 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-11-22T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>105</id>
+          <navn>TROSSAMFUNN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>55630</id>
@@ -503,8 +511,7 @@
       <sporsmal_til_minister_id>KD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kulturministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Flere uavhengige trossamfunn har fått avslag på sine søknader om statstilskudd fordi de angivelig har kommet i skade for å sende inn en tom CD ved innsending av medlemslister.
-Mener statsråden at en slik streng håndtering av søknader om statsstøtte er i samsvar med prinsippet om at uavhengige trossamfunn av hensyn til trosfriheten bør få sin andel av skattepengene innbetalt av deres medlemmer, og vil statsråden ta initiativ til at de berørte trossamfunnene får etterbetalt årets støtte?</tittel>
+      <tittel>om streng håndtering av søknader om _statsstøtte til uavhengige trossamfunn_, og om statsråden vil ta initiativ til at de berørte trossamfunnene får etterbetalt årets støtte</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -533,7 +540,22 @@ Mener statsråden at en slik streng håndtering av søknader om statsstøtte er 
       <besvart_pa_vegne_av_minister_id>MD</besvart_pa_vegne_av_minister_id>
       <besvart_pa_vegne_av_minister_tittel>miljøvernministeren</besvart_pa_vegne_av_minister_tittel>
       <datert_dato>2012-11-22T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>23</id>
+          <navn>NATURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>55629</id>
@@ -574,7 +596,7 @@ Mener statsråden at en slik streng håndtering av søknader om statsstøtte er 
       <sporsmal_til_minister_id>MD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>miljøvernministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hvilke kriterier som ligger til grunn for tildeling av _forvalterressurs for verneområdene i Nord-Troms_, med bakgrunn i at det er tildelt felles forvalterressurs, tilsvarende 1 stilling, til tross for</tittel>
+      <tittel>om hvilke kriterier som ligger til grunn for tildeling av _forvalterressurs for verneområdene i Nord-Troms_, med bakgrunn i at det er tildelt felles forvalterressurs, tilsvarende 1 stilling, til tross for størrelse og til dels krevende geografi</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -595,7 +617,50 @@ Mener statsråden at en slik streng håndtering av søknader om statsstøtte er 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-11-22T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>38</id>
+          <navn>BOLIGSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>87</id>
+          <navn>BANKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>136</id>
+          <navn>BYGNINGSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>138</id>
+          <navn>HUSBANKEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>55628</id>
@@ -636,8 +701,7 @@ Mener statsråden at en slik streng håndtering av søknader om statsstøtte er 
       <sporsmal_til_minister_id>FIN</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>finansministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Veksten i startlån er kraftig etter at Finanstilsynet kom med sine anbefalinger til de kommersielle bankene om først 10 og så 15 pst. egenkapitalkrav ved kjøp av bolig. Regjeringen reagerer med å utvide Husbankens lånerammer.
-Bekymrer det statsråden at denne egenkapitalen egentlig ikke er egenkapital, men offentlig finansiert lånekapital, og at dette minner sterkt om det som var en viktig bakenforliggende faktor som utløste finanskrisen i 2008?</tittel>
+      <tittel>om at _veksten i startlån fra Husbanken_ er kraftig etter at Finanstilsynet kom med anbefaling til bankene om egenkapitalkrav ved kjøp av bolig, og hvorvidt det ikke bekymrer statsråden at denne egenkapitalen er offentlig finansiert lånekapital</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -658,7 +722,29 @@ Bekymrer det statsråden at denne egenkapitalen egentlig ikke er egenkapital, me
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-11-22T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>55626</id>
@@ -699,8 +785,7 @@ Bekymrer det statsråden at denne egenkapitalen egentlig ikke er egenkapital, me
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>E39 Kvivsvegen vart opna 22. september 2012. To månader etter at den nye parsellen mellom Grodås og Volda vart opna, er den ennå ikkje skilta frå Voldasida. I avisa Møre-Nytt står det at seksjonsleiar i vegavdelinga i Møre og Romsdal, Ole Jan Tønnesen, ikkje kan love nytt skilt i Volda. Det er svært underleg at ein så viktig veg ikkje skal skiltast sjølv om den ikkje blir fullverdig del av E39 før Hjartåberget opnar i 2013.
-Kva vil statsråden gjere for å få på plass ei fornuftig skilting omgåande?</tittel>
+      <tittel>om at det to månader etter at den nye _parsellen mellom Grodås og Volda_ vart opna ennå ikkje er skilta frå Voldasida, og kva ein vil gjere for å få på plass ei fornuftig skilting omgåande</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -721,7 +806,29 @@ Kva vil statsråden gjere for å få på plass ei fornuftig skilting omgåande?<
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-11-22T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>55623</id>
@@ -762,8 +869,7 @@ Kva vil statsråden gjere for å få på plass ei fornuftig skilting omgåande?<
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Planlegging av veiprosjekter i Norge tar i snitt 10 år. Både denne statsråden og forgjengere fra samme parti har i årevis lovet at planleggingstiden skal reduseres, og at målsettingen er en halvering. Planleggingen av E18 Bommestad-Sky startet så tidlig som i 2005, og det har nå nok engang kommet meldinger om forsinkelser til tross for at veien bare er 7 km lang.
-Når kan vi forvente resultater av festtalene om kortere planleggingstid, og hva har blitt gjort i statsbudsjettet for 2013?</tittel>
+      <tittel>om at _planlegging av veiprosjekter_ i Norge tar i snitt 10 år, og når vi kan forvente resultater av festtalene om kortere planleggingstid</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -784,7 +890,50 @@ Når kan vi forvente resultater av festtalene om kortere planleggingstid, og hva
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-11-22T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>47</id>
+          <navn>VEGTRAFIKK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>107</id>
+          <navn>JERNBANER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>143</id>
+          <navn>SJØFART</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>55622</id>
@@ -825,8 +974,7 @@ Når kan vi forvente resultater av festtalene om kortere planleggingstid, og hva
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Flere tusen nye vogntog på veiene blir resultatet når utviklingen for gods går stikk motsatt vei enn det som er regjeringens ambisjon, men også et omforent politisk mål om mer gods på bane. CargoNet legger ned linjen Oslo-Malmø og varsler kutt på strekningen Oslo-Trondheim. Det er heller ingen tydelig økning når det gjelder flytting av godstransport fra land til sjø, også dette et politisk omforent mål, selv om det kommer en ny Nasjonal transportplan.
-Hvordan vil statsråden sikre flytting av veitransport til bane og landtransport til sjø?</tittel>
+      <tittel>om hvordan statsråden vil sikre flytting av _veitransport til bane og landtransport til sjø_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1274,7 +1422,15 @@ Hvordan vil statsråden sikre flytting av veitransport til bane og landtransport
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-11-20T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>55588</id>
@@ -1315,8 +1471,7 @@ Hvordan vil statsråden sikre flytting av veitransport til bane og landtransport
       <sporsmal_til_minister_id>BLID</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>barne-, likestillings- og inkluderingsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Barne-, likestillings- og inkluderingsdepartementet gjennomførte en praksisendring våren 2012 vedrørende utsettelse av pappapermisjon. Men fortsatt er det slik at en gruppe fedre taper på alle fronter. Det gjelder de som har fått et nytt barn før praksisendringen trådte i kraft.
-Vil statsråden legge til rette for at praksisendringen med tilbakevirkende kraft også blir gjeldende for de som fikk nytt barn før de rakk å ta ut pappapermisjon for det forrige barnet?</tittel>
+      <tittel>om praksisendring vedrørende _utsettelse av pappapermisjon_, og om statsråden vil legge til rette for at endringen også blir gjeldende for de som har fått et nytt barn før praksisendringen trådte i kraft</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
