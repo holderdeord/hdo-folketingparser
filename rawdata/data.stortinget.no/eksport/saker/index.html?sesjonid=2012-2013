@@ -622,7 +622,36 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>26</id>
+          <navn>STORTINGSREPRESENTANTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Innst. 96 S (2012-2013)</henvisning>
       <id>55658</id>
       <innstilling_id>11117</innstilling_id>
@@ -638,6 +667,23 @@
       <status>behandlet</status>
       <tittel>Opprettelse av og valg av medlemmer og varamedlemmer til en fast delegasjon til konferansen for overvåking av EUs utenriks-, sikkerhets- og forsvarspolitikk</tittel>
       <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 8:24 L (2012-2013)</henvisning>
+      <id>55698</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Representantforslag om endringer i Almindelig borgerlig Straffelov (Straffeloven) (skjerpet innsats i kampen mot terror)</korttittel>
+      <sak_fremmet_id>55698</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-11-28T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Per Sandberg og Åse Michaelsen om endringer i Almindelig borgerlig Straffelov (Straffeloven) (skjerpet innsats i kampen mot terror)</tittel>
+      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -704,6 +750,23 @@
       <sist_oppdatert_dato>2012-11-27T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Representantforslag fra stortingsrepresentantene Knut Arild Hareide, Hans Olav Syversen og Rigmor Andersen Eide om modernisering av norsk luftfart</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 8:23 S (2012-2013)</henvisning>
+      <id>55687</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Representantforslag om tiltak for økt fysisk aktivitet og bedre folkehelse</korttittel>
+      <sak_fremmet_id>55687</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-11-27T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Line Henriette Hjemdal, Knut Arild Hareide og Kjell Ingolf Ropstad om tiltak for økt fysisk aktivitet og bedre folkehelse</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -14719,23 +14782,6 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Dokument 8:23 S (2012-2013)</henvisning>
-      <id>55687</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>tiltak for økt fysisk aktivitet og bedre folkehelse</korttittel>
-      <sak_fremmet_id>55687</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-10-01T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Representantforslag fra stortingsrepresentantene  Line Henriette Hjemdal,  Knut Arild Hareide og Kjell Ingolf Ropstad om tiltak for økt fysisk aktivitet og bedre folkehelse</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
       <emne_liste />
       <henvisning i:nil="true" />
@@ -15328,7 +15374,7 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 148 L (2011-2012), Innst. 148 L (2012-2013)</henvisning>
+      <henvisning>Prop. 148 L (2011-2012), Innst. 115 L (2012-2013)</henvisning>
       <id>54536</id>
       <innstilling_id>11137</innstilling_id>
       <komite>
