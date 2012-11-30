@@ -15,7 +15,7 @@ file = ARGV.first or abort "USAGE: #{$PROGRAM_NAME} /path/to/xml"
 str = File.open(file, 'r:ISO-8859-1') { |io| io.read }
 
 # add root element, which is missing
-# str = "<root>#{str}</root>"
+str = "<root>#{str}</root>"
 
 # encode as UTF-8
 str.encode!('UTF-8')
