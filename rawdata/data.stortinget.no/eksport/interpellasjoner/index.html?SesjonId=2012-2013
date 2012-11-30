@@ -1202,7 +1202,22 @@ Har regjeringen skrinlagt prosjektet og ønsket om å få mer godstransport over
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-10-10T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>159</id>
+          <navn>HØYERE UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>55186</id>
@@ -1243,8 +1258,7 @@ Har regjeringen skrinlagt prosjektet og ønsket om å få mer godstransport over
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Stor mangel på ingeniører innen mange ulike bransjer utgjør en stor utfordring for både privat og offentlig sektor. Søknadsmengden til ingeniørfaget er økende, og de ordinære plassene er fylt opp. Enkelte universitet og høgskoler har mange flere søkere til ingeniørstudiet gjennom Y-veien enn de har mulighet til å finansiere over sine budsjetter. Y-vei-studieplasser teller ikke ved samordnet opptak, og dermed gis det ikke statlig finansiering til disse. Det betyr i praksis at UH-sektoren må redusere andre nødvendige og viktige studieplasser innen andre fag for å finansiere Y-vei-ingeniørstudier.
-Vil statsråden legge til rette for statlig finansering av studieplasser innen ingeniørfag som tas Y-veien?</tittel>
+      <tittel>om å legge til rette for statlig finansering av _studieplasser innen ingeniørfag_ som tas Y-veien</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
