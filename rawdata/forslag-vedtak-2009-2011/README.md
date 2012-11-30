@@ -7,7 +7,7 @@ forslag-ikke-verifiserte-2010-2011:
 * Felter er MoteKartNr, DagsordenSaksNr, Voteringstidspunkt, Forslagsbetegnelse («Komiteens tilrådning» osv.), Forslagstekst. Dette bør kunne kobles til våre eksisterende 2010-2011 data.
 * Eksempel:
 
-```
+```xml
 <IkkeKvalSikreteForslag>
     <MoteKartNr>37</MoteKartNr>
     <DagsordenSaksNr>2</DagsordenSaksNr>
@@ -30,7 +30,7 @@ vedtak-2009-2010:
 * Det lave tallet og at det heter «Vedtakstekst» og ikke «Forslagstekst» får meg til å tenke at dette datasettet kun inneholder avstemninger som ble vedtatt.
 * Eksempel:
 
-```
+```xml
 <Vedtak>
     <KartNr>100</KartNr>
     <SaksNr>2</SaksNr>
@@ -49,7 +49,3 @@ til gasskraftverket p&#xE5; Mongstad &#x96; bifalles ikke. &lt;o:p&gt;&lt;/o:p&g
   </Vedtakstekst>
 </Vedtak>
 ```
-
-
-  
-  
