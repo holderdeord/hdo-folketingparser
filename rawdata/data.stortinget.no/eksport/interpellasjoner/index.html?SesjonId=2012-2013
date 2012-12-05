@@ -460,7 +460,22 @@ Kan statsråden redegjøre for myndighetenes arbeid mot tvangsekteskap, også se
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-11-05T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>55434</id>
@@ -501,8 +516,7 @@ Kan statsråden redegjøre for myndighetenes arbeid mot tvangsekteskap, også se
       <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Norsk Tjenestemannslag har fått utarbeidet rapporten «Et moderne politi». Denne inneholder etter Høyres oppfatning svært mange interessante tanker om hvordan man kan supplere eller erstatte politifaglig utdanning. Høyre har i flere år vært opptatt av at man utformer en sentral strategi for økt bruk av sivilt ansatte, men har dessverre så langt blitt nedstemt. Politiutdannede vil, med gjennomføring av de skisserte tiltakene i rapporten i større grad, kunne fokusere på kjerneoppgaver som man trenger denne type utdanning for å løse. Samtidig vil politietaten som helhet kunne være mer til stede for befolkningen og sikre bedre kvalitet på arbeidet som utføres og sikre økt trygghet for befolkningen.
-Hvilke av tiltakene som skisseres i rapporten vil statsråden bidra til å gjennomføre, og når kan det forventes at dette vil skje?</tittel>
+      <tittel>om tiltak for økt bruk av _sivilt ansatte i politiet_</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
