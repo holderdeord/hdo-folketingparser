@@ -3247,6 +3247,20 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>143</id>
+          <navn>SJØFART</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>147</id>
+          <navn>HAVNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>184</id>
           <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
@@ -3383,7 +3397,7 @@
       <sporsmal_til_minister_id>MD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>miljøvernministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hvorfor ikke regjeringen har fulgt opp klimaforliket på konkrete tiltak som ville bidra til reelle utslippsreduksjoner, slik som å innføre støtteordninger, mål for energieffektivisering og øke bevilgninger til forskningen</tittel>
+      <tittel>om hvorfor ikke regjeringen har fulgt opp klimaforliket på _konkrete tiltak som ville bidra til reelle utslippsreduksjoner_, slik som å innføre støtteordninger, mål for energieffektivisering og øke bevilgninger til forskningen</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -3431,6 +3445,13 @@
           <er_hovedemne>false</er_hovedemne>
           <id>146</id>
           <navn>SIKKERHET TIL SJØS</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>181</id>
+          <navn>SIVIL BEREDSKAP</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
