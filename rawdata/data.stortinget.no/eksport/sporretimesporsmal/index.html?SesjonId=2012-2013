@@ -1964,6 +1964,13 @@
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>8</id>
+          <navn>FISKERIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>20</id>
           <navn>HANDEL</navn>
@@ -1993,6 +2000,27 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <id>80</id>
+          <navn>AVGIFTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>82</id>
+          <navn>TOLL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>91</id>
+          <navn>FISKEOMSETNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
           <id>99</id>
           <navn>UTENRIKSHANDEL</navn>
           <underemne_liste />
@@ -2016,6 +2044,13 @@
           <er_hovedemne>true</er_hovedemne>
           <id>173</id>
           <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -2059,7 +2094,7 @@
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hvorvidt omleggingen av _importvernet for landbrukssektoren_ er verdt det, med bakgrunn i kraftige reaksjoner fra enkelte innenfor EU-systemet</tittel>
+      <tittel>om hvorvidt omleggingen av _importvernet for landbrukssektoren_ er verdt det, med bakgrunn i kraftige reaksjoner fra enkelte innenfor EU-systemet og at fiskerinæringen er bekymret over fremtidig eksport</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -2129,7 +2164,7 @@
       <sporsmal_til_minister_id>UD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>utenriksministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om utenriksministerens vurdering av den siste utviklingen av situasjonen i Midtøsten, og hva Norge gjør, og tenker å gjøre, alene eller sammen med andre</tittel>
+      <tittel>om utenriksministerens vurdering av den siste utviklingen av _situasjonen i Midtøsten_, og hva Norge gjør, og tenker å gjøre, alene eller sammen med andre</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
