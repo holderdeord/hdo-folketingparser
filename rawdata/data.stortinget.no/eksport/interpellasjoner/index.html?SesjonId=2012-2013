@@ -880,7 +880,29 @@ Kva konkrete tiltak vil statsråden setje i verk for å redusere rovviltbestande
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-10-26T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>68</id>
+          <navn>KUNST</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>55357</id>
@@ -921,8 +943,7 @@ Kva konkrete tiltak vil statsråden setje i verk for å redusere rovviltbestande
       <sporsmal_til_minister_id>KD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kulturministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Det pågår nå en viktig debatt om forvaltningen av Munchs kunst. Edvard Munch representerer et viktig kapittel i norsk kulturhistorie, og Munch-maleriene har stor kunst- og kulturhistorisk betydning nasjonalt og internasjonalt. Det er en viktig offentlig oppgave å bidra til at Munchs kunst forvaltes godt. Disse unike kunstskattene må bevares for ettertiden og gjøres tilgjengelig for allmennheten på en god måte. Det bør erkjennes at vi i Norge ikke i tilstrekkelig grad har anerkjent og innsett rekkevidden av Munchs kunst internasjonalt.
-På hvilken måte vil statsråden bidra til at arven etter Munch forvaltes godt, og at kunstskattene gjøres tilgjengelig på en verdig måte?</tittel>
+      <tittel>om forvaltning og tilgjengeliggjøring av _Edvard Munchs kunst_</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
