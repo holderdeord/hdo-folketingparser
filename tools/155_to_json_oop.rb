@@ -14,8 +14,8 @@ class KartIssueMapper
       @issue_map = {}
       @file.lines.each do |line|
         date, kart_nr, issue_id, sakskart_nr, short_text = line.split("\t").map(&:strip)
-        @issue_map[[kart_nr, sakskart_nr]] ||= []
-        @issue_map[[kart_nr, sakskart_nr]] << issue_id
+        @issue_map[[kart_nr, sakskart_nr, date]] ||= []
+        @issue_map[[kart_nr, sakskart_nr, date]] << issue_id
       end
     end
     @issue_map
@@ -41,7 +41,7 @@ class VoteParser
         vote_id = [date, sakskart_nr, subject, option_description].join(";")
         # abort "dont have issue_id for kartnr,sakskart_nr #{kart_nr},#{sakskart_nr}" unless @issue_map[[kart_nr,sakskart_nr]]
         @votes_without_issues << "#{kart_nr},#{sakskart_nr}" unless @issue_map[[kart_nr,sakskart_nr]]
-        @issue_map[[kart_nr,sakskart_nr]].each do |issue_id|
+        @issue_map[[kart_nr,sakskart_nr,date]].each do |issue_id|
           next if ['44301','44302','44682','44683'].include? issue_id
           collapse(vote_id, "subject", subject)
           collapse(vote_id, "count_for", count_for)
@@ -63,7 +63,7 @@ class VoteParser
                "party" => party, "district_code" => district_code, "vote" => vote
               }) if @votes[vote_id]['votes'].select { |v| v['person_id'] == person_id }.empty?
           end
-        end if @issue_map[[kart_nr,sakskart_nr]]
+        end if @issue_map[[kart_nr,sakskart_nr,date]]
         # unless @votes_without_issues.empty?
         #   puts JSON.pretty_generate(@votes_without_issues.to_a)
         #   abort "some votes didnt have issue ids in the mapping file."
