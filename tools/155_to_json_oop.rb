@@ -92,8 +92,9 @@ class VoteParser
 end
 
 class HdoVoteTranslator
-  def initialize(votes, reps)
+  def initialize(votes, reps, props)
     @missing_reps = {}
+    @props = props
     @votes = votes
     @reps  = reps.reduce({}) do |result, rep|
       result[rep['externalId']] = rep
@@ -120,7 +121,8 @@ class HdoVoteTranslator
           method:          "ikke_spesifisert",
           resultType:      "ikke_spesifisert",
           time:            Time.parse(vote['vote_time']).iso8601,
-          representatives: representatives_for(vote)
+          representatives: representatives_for(vote),
+          propositions:    props_for(vote)
         }
       end
     end.flatten
@@ -153,6 +155,9 @@ class HdoVoteTranslator
     else
       []
     end
+  end
+  def props_for(vote)
+    @props[vote['vote_time']] || []
   end
 
   def ghost(rep_vote)
@@ -205,17 +210,16 @@ class HdoVoteTranslator
   end
 end
 
-abort "Syntax: 155_to_json_oop issue_id_map_file vote_data_file" unless ARGV.count == 2
-file1, file2 = ARGV
+abort "Syntax: 155_to_json_oop prop_file issue_id_map_file vote_data_file" unless ARGV.count == 3
+prop_file, kart_issue_file, vote_file = ARGV
 
-kart_to_issue_id_map = KartIssueMapper.new(file1).issue_map
-# multisak = kart_to_issue_id_map.select {|k,v| v.count > 1 }
-# abort "votes med flere saker: #{multisak.count}"
+kart_to_issue_id_map = KartIssueMapper.new(kart_issue_file).issue_map
 
-votes = VoteParser.new(file2, kart_to_issue_id_map).votes
-reps = JSON.parse(DATA.read)
+votes = VoteParser.new(vote_file, kart_to_issue_id_map).votes
+reps  = JSON.parse(DATA.read)
+props = JSON.parse(File.read(prop_file))
 
-hdo_translator = HdoVoteTranslator.new(votes,reps)
+hdo_translator = HdoVoteTranslator.new(votes, reps, props)
 hdo_votes = hdo_translator.do_magic
 
 puts JSON.pretty_generate([hdo_translator.hdo_reps, hdo_votes].flatten)
