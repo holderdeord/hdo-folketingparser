@@ -58,10 +58,11 @@ module PropositionConverter
     end
 
     def from_2010
+      xids = Set.new
       result = Hash.new { |hash, key| hash[key] = [] }
 
       doc = Nokogiri::XML.parse(File.read("./forslag-ikke-verifiserte-2010-2011.xml"))
-      doc.css('IkkeKvalSikreteForslag').each do |node|
+      doc.css('IkkeKvalSikreteForslag').each_with_index do |node, idx|
         motekartnr     = node.css('MoteKartNr').first.text
         dagsordensaknr = node.css('DagsordenSaksNr').first.text
         time           = Time.parse(node.css('VoteringsTidspunkt').first.text)
@@ -72,11 +73,14 @@ module PropositionConverter
         body_node = node.css('ForslagTekst').first
         body = body_node ? body_node.text : ''
 
-        external_id = Digest::MD5.hexdigest(time.to_s + body + description)
+        external_id = "#{time.to_s}:#{idx}"
         key = time.strftime('%Y-%m-%d %H:%M:%S.%L')
-        
-        # input has duplicate data
-        next if result[key].any? { |e| e.external_id == external_id }
+
+        if xids.include? external_id
+          raise "duplicate xid #{external_id}: #{result[key].pretty_inspect}"
+        end
+
+        xids << external_id
 
         result[key] << Hdo::StortingImporter::Proposition.from_json({
           'kind'        => 'hdo#proposition',
