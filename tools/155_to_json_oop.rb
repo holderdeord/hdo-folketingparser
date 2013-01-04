@@ -527,7 +527,7 @@ __END__
     "externalId": "AENG",
     "firstName": "Ann-Kristin",
     "lastName": "Engstad",
-    "dateOfBirth": "2010-07-26",
+    "dateOfBirth": "1982-04-05",
     "dateOfDeath": null,
     "district": "Finnmark",
     "parties": [
