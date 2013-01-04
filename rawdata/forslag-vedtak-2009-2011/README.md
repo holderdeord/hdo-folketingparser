@@ -5,6 +5,7 @@ forslag-ikke-verifiserte-2010-2011:
 * Totalt 2253 forslagstekster
 * 76 av elementene mangler forslagstekst - «Teksten er foreløpig ikke tilgjengelig»
 * Felter er `MoteKartNr`, `DagsordenSaksNr`, `Voteringstidspunkt`, `Forslagsbetegnelse` («Komiteens tilrådning» osv.), `Forslagstekst`. Dette bør kunne kobles til våre eksisterende 2010-2011 data.
+* To datoer har forslagstekster, men mangler avstemningsdata (2010-10-28 16:13:03.980, 2011-04-04 21:48:19.123)
 * Eksempel:
 
 ```xml
@@ -21,7 +22,7 @@ ikke overstiger 225 mill. kroner.&lt;/p&gt;</ForslagTekst>
 </IkkeKvalSikreteForslag>
 ```
 
-forslag-ikke-verifiserte-2009-2011:
+forslag-ikke-verifiserte-2009-2010:
 -----------------------------------
 
 * 54 dager med voteringer: 2009-10-07 .. 2010-06-18
@@ -64,9 +65,9 @@ lose-forslag-2009-2010.xml:
 vedtak-2009-2010:
 -----------------
 
-* Annet format enn filen over, feltene er: `KartNr`, `SaksNr`, `Forslagsbetegnelse` («Komiteens tilrådning» osv.), `VedtaksTeskt`. 
-* Ingen voteringsdatoer. 
-* 426 objekter totalt. 
+* Annet format enn filen over, feltene er: `KartNr`, `SaksNr`, `Forslagsbetegnelse` («Komiteens tilrådning» osv.), `VedtaksTeskt`.
+* Ingen voteringsdatoer.
+* 426 objekter totalt.
 * Det lave tallet og at det heter `Vedtakstekst` og ikke `Forslagstekst` får meg til å tenke at dette datasettet kun inneholder avstemninger som ble vedtatt.
 * Eksempel:
 
