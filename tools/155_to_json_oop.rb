@@ -36,7 +36,7 @@ class VoteParser
       @votes = {}
       @file.lines.each do |line|
         (date, kart_nr, sakskart_nr, vote_time, subject, option_description,
-         result_code, count_for, count_against, name, repr_nr, person_id, 
+         result_code, count_for, count_against, name, repr_nr, person_id,
          party, district_code, vote, option) = line.split(";").map(&:strip)
         vote_id = [date, sakskart_nr, subject, option_description].join(";")
         # abort "dont have issue_id for kartnr,sakskart_nr #{kart_nr},#{sakskart_nr}" unless @issue_map[[kart_nr,sakskart_nr]]
@@ -130,6 +130,11 @@ class HdoVoteTranslator
       puts JSON.pretty_generate @missing_reps.to_a
       abort "missing some representatives, yo.."
     end
+
+    unless @props.empty?
+      $stderr.puts "unused propositions: #{JSON.pretty_generate @props}"
+    end
+
     magic
   end
 
@@ -157,7 +162,7 @@ class HdoVoteTranslator
     end
   end
   def props_for(vote)
-    @props[vote['vote_time']] || []
+    @props.delete(vote['vote_time']) || []
   end
 
   def ghost(rep_vote)
