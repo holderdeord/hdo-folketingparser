@@ -109,6 +109,8 @@ class HdoVoteTranslator
 
   def do_magic
     magic = @votes.map do |vote_id, vote|
+      props = props_for(vote)
+
       vote['issue_id'].map do |issue_id|
         {
           kind:            'hdo#vote',
@@ -122,7 +124,7 @@ class HdoVoteTranslator
           resultType:      "ikke_spesifisert",
           time:            Time.parse(vote['vote_time']).iso8601,
           representatives: representatives_for(vote),
-          propositions:    props_for(vote)
+          propositions:    props
         }
       end
     end.flatten
@@ -211,6 +213,11 @@ class HdoVoteTranslator
         absent:  0
       }
     end
+
+    unless [0,169].include?(counts.values.inject(0, &:+))
+      raise "invalid counts: #{counts.inspect}"
+    end
+
     @counts[vote] = counts
   end
 end
