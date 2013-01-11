@@ -50,6 +50,7 @@ class VoteParser
           collapse(vote_id, "vote_time", vote_time)
           collapse(vote_id, "sakskart_nr", sakskart_nr)
           collapse(vote_id, "kart_nr", kart_nr)
+          collapse(vote_id, "option", option)
           # collapse(vote_id, "issue_id", issue_id)
           add_issue_id_to(vote_id, issue_id)
           if result_code == "Enstemmig vedtatt"
@@ -108,21 +109,25 @@ class HdoVoteTranslator
   end
 
   def do_magic
-    magic = @votes.map do |vote_id, vote|
-      {
-        kind:            'hdo#vote',
-        externalId:      vote['vote_time'] + (enacted?(vote) ? 'j' : 'n'),
-        externalIssueId: vote['issue_id'].to_a.join(','), #vote['issue_id'],
-        counts:          count(vote),
-        personal:        !vote['unanimous'],
-        enacted:         enacted?(vote),
-        subject:         vote['subject'],
-        method:          "ikke_spesifisert",
-        resultType:      "ikke_spesifisert",
-        time:            Time.parse(vote['vote_time']).iso8601,
-        representatives: representatives_for(vote),
-        propositions:    props_for(vote)
-      }
+    magic = @votes.values.group_by { |v| v['vote_time'] }.map do |vote_time, votes|
+      props = props_for(vote_time)
+
+      votes.map do |vote|
+        {
+          kind:            'hdo#vote',
+          externalId:      vote['vote_time'] + (enacted?(vote) ? 'j' : 'n'),
+          externalIssueId: vote['issue_id'].to_a.join(','), #vote['issue_id'],
+          counts:          count(vote),
+          personal:        !vote['unanimous'],
+          enacted:         enacted?(vote),
+          subject:         vote['subject'],
+          method:          "ikke_spesifisert",
+          resultType:      "ikke_spesifisert",
+          time:            Time.parse(vote['vote_time']).iso8601,
+          representatives: representatives_for(vote),
+          propositions:    vote['option'].nil? ? props : best_guess_props_for_alternative_vote(props, vote)
+        }
+      end.flatten
 
     end.flatten
 
@@ -139,6 +144,16 @@ class HdoVoteTranslator
   end
 
   private
+
+  # Makes a best guess by assuming it's an "innstillingen vs. forslagene", and that innstillingen is the first one.
+  def best_guess_props_for_alternative_vote(props, vote)
+    if vote['option'] == '1'
+      props[0]
+    else
+      props[1..-1]
+    end
+  end
+
   def enacted?(vote)
     (count(vote)[:for] > count(vote)[:against] || vote['unanimous'] ? true : false) # this can't be right... where's the flag?? or, are 'unanimous' always enacted? because this is what this line assumes...
   end
@@ -161,8 +176,8 @@ class HdoVoteTranslator
       []
     end
   end
-  def props_for(vote)
-    @props.delete(vote['vote_time']) || []
+  def props_for(vote_time)
+    @props.delete(vote_time) || []
   end
 
   def ghost(rep_vote)
