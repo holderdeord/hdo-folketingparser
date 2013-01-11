@@ -125,7 +125,7 @@ class HdoVoteTranslator
           resultType:      "ikke_spesifisert",
           time:            Time.parse(vote['vote_time']).iso8601,
           representatives: representatives_for(vote),
-          propositions:    vote['option'].nil? ? props : best_guess_props_for_alternative_vote(props, vote)
+          propositions:    vote['option'].nil? || vote['option'].empty? ? props : best_guess_props_for_alternative_vote(props, vote)
         }
       end.flatten
 
