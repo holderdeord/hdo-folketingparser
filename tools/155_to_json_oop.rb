@@ -109,25 +109,23 @@ class HdoVoteTranslator
 
   def do_magic
     magic = @votes.map do |vote_id, vote|
-      props = props_for(vote)
+      {
+        kind:            'hdo#vote',
+        externalId:      vote['vote_time'] + (enacted?(vote) ? 'j' : 'n'),
+        externalIssueId: vote['issue_id'].to_a.join(','), #vote['issue_id'],
+        counts:          count(vote),
+        personal:        !vote['unanimous'],
+        enacted:         enacted?(vote),
+        subject:         vote['subject'],
+        method:          "ikke_spesifisert",
+        resultType:      "ikke_spesifisert",
+        time:            Time.parse(vote['vote_time']).iso8601,
+        representatives: representatives_for(vote),
+        propositions:    props_for(vote)
+      }
 
-      vote['issue_id'].map do |issue_id|
-        {
-          kind:            'hdo#vote',
-          externalId:      vote['vote_time'] + (enacted?(vote) ? 'j' : 'n'),
-          externalIssueId: issue_id, #vote['issue_id'],
-          counts:          count(vote),
-          personal:        !vote['unanimous'],
-          enacted:         enacted?(vote),
-          subject:         vote['subject'],
-          method:          "ikke_spesifisert",
-          resultType:      "ikke_spesifisert",
-          time:            Time.parse(vote['vote_time']).iso8601,
-          representatives: representatives_for(vote),
-          propositions:    props
-        }
-      end
     end.flatten
+
     if !@missing_reps.empty?
       puts JSON.pretty_generate @missing_reps.to_a
       abort "missing some representatives, yo.."
