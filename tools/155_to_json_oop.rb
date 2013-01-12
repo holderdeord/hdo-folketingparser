@@ -14,8 +14,8 @@ class KartIssueMapper
       @issue_map = {}
       @file.lines.each do |line|
         date, kart_nr, issue_id, sakskart_nr, short_text = line.split("\t").map(&:strip)
-        @issue_map[[kart_nr, sakskart_nr]] ||= []
-        @issue_map[[kart_nr, sakskart_nr]] << issue_id
+        @issue_map[[kart_nr, sakskart_nr, date]] ||= []
+        @issue_map[[kart_nr, sakskart_nr, date]] << issue_id
       end
     end
     @issue_map
@@ -36,12 +36,12 @@ class VoteParser
       @votes = {}
       @file.lines.each do |line|
         (date, kart_nr, sakskart_nr, vote_time, subject, option_description,
-         result_code, count_for, count_against, name, repr_nr, person_id, 
+         result_code, count_for, count_against, name, repr_nr, person_id,
          party, district_code, vote, option) = line.split(";").map(&:strip)
         vote_id = [date, sakskart_nr, subject, option_description].join(";")
         # abort "dont have issue_id for kartnr,sakskart_nr #{kart_nr},#{sakskart_nr}" unless @issue_map[[kart_nr,sakskart_nr]]
         @votes_without_issues << "#{kart_nr},#{sakskart_nr}" unless @issue_map[[kart_nr,sakskart_nr]]
-        @issue_map[[kart_nr,sakskart_nr]].each do |issue_id|
+        @issue_map[[kart_nr,sakskart_nr,date]].each do |issue_id|
           next if ['44301','44302','44682','44683'].include? issue_id
           collapse(vote_id, "subject", subject)
           collapse(vote_id, "count_for", count_for)
@@ -50,6 +50,7 @@ class VoteParser
           collapse(vote_id, "vote_time", vote_time)
           collapse(vote_id, "sakskart_nr", sakskart_nr)
           collapse(vote_id, "kart_nr", kart_nr)
+          collapse(vote_id, "option", option)
           # collapse(vote_id, "issue_id", issue_id)
           add_issue_id_to(vote_id, issue_id)
           if result_code == "Enstemmig vedtatt"
@@ -63,7 +64,7 @@ class VoteParser
                "party" => party, "district_code" => district_code, "vote" => vote
               }) if @votes[vote_id]['votes'].select { |v| v['person_id'] == person_id }.empty?
           end
-        end if @issue_map[[kart_nr,sakskart_nr]]
+        end if @issue_map[[kart_nr,sakskart_nr,date]]
         # unless @votes_without_issues.empty?
         #   puts JSON.pretty_generate(@votes_without_issues.to_a)
         #   abort "some votes didnt have issue ids in the mapping file."
@@ -92,8 +93,9 @@ class VoteParser
 end
 
 class HdoVoteTranslator
-  def initialize(votes, reps)
+  def initialize(votes, reps, props)
     @missing_reps = {}
+    @props = props
     @votes = votes
     @reps  = reps.reduce({}) do |result, rep|
       result[rep['externalId']] = rep
@@ -107,12 +109,14 @@ class HdoVoteTranslator
   end
 
   def do_magic
-    magic = @votes.map do |vote_id, vote|
-      vote['issue_id'].map do |issue_id|
+    magic = @votes.values.group_by { |v| v['vote_time'] }.map do |vote_time, votes|
+      props = props_for(vote_time)
+
+      votes.map do |vote|
         {
           kind:            'hdo#vote',
           externalId:      vote['vote_time'] + (enacted?(vote) ? 'j' : 'n'),
-          externalIssueId: issue_id, #vote['issue_id'],
+          externalIssueId: vote['issue_id'].to_a.join(','), #vote['issue_id'],
           counts:          count(vote),
           personal:        !vote['unanimous'],
           enacted:         enacted?(vote),
@@ -120,18 +124,36 @@ class HdoVoteTranslator
           method:          "ikke_spesifisert",
           resultType:      "ikke_spesifisert",
           time:            Time.parse(vote['vote_time']).iso8601,
-          representatives: representatives_for(vote)
+          representatives: representatives_for(vote),
+          propositions:    vote['option'].nil? || vote['option'].empty? ? props : best_guess_props_for_alternative_vote(props, vote)
         }
-      end
+      end.flatten
+
     end.flatten
+
     if !@missing_reps.empty?
       puts JSON.pretty_generate @missing_reps.to_a
       abort "missing some representatives, yo.."
     end
+
+    unless @props.empty?
+      $stderr.puts "unused propositions: #{JSON.pretty_generate @props}"
+    end
+
     magic
   end
 
   private
+
+  # Makes a best guess by assuming it's an "innstillingen vs. forslagene", and that innstillingen is the first one.
+  def best_guess_props_for_alternative_vote(props, vote)
+    if vote['option'] == '1'
+      [props[0]]
+    else
+      props[1..-1]
+    end
+  end
+
   def enacted?(vote)
     (count(vote)[:for] > count(vote)[:against] || vote['unanimous'] ? true : false) # this can't be right... where's the flag?? or, are 'unanimous' always enacted? because this is what this line assumes...
   end
@@ -153,6 +175,9 @@ class HdoVoteTranslator
     else
       []
     end
+  end
+  def props_for(vote_time)
+    @props.delete(vote_time) || []
   end
 
   def ghost(rep_vote)
@@ -201,21 +226,25 @@ class HdoVoteTranslator
         absent:  0
       }
     end
+
+    unless [0,169].include?(counts.values.inject(0, &:+))
+      raise "invalid counts: #{counts.inspect}"
+    end
+
     @counts[vote] = counts
   end
 end
 
-abort "Syntax: 155_to_json_oop issue_id_map_file vote_data_file" unless ARGV.count == 2
-file1, file2 = ARGV
+abort "Syntax: 155_to_json_oop prop_file issue_id_map_file vote_data_file" unless ARGV.count == 3
+prop_file, kart_issue_file, vote_file = ARGV
 
-kart_to_issue_id_map = KartIssueMapper.new(file1).issue_map
-# multisak = kart_to_issue_id_map.select {|k,v| v.count > 1 }
-# abort "votes med flere saker: #{multisak.count}"
+kart_to_issue_id_map = KartIssueMapper.new(kart_issue_file).issue_map
 
-votes = VoteParser.new(file2, kart_to_issue_id_map).votes
-reps = JSON.parse(DATA.read)
+votes = VoteParser.new(vote_file, kart_to_issue_id_map).votes
+reps  = JSON.parse(DATA.read)
+props = JSON.parse(File.read(prop_file))
 
-hdo_translator = HdoVoteTranslator.new(votes,reps)
+hdo_translator = HdoVoteTranslator.new(votes, reps, props)
 hdo_votes = hdo_translator.do_magic
 
 puts JSON.pretty_generate([hdo_translator.hdo_reps, hdo_votes].flatten)
@@ -527,7 +556,7 @@ __END__
     "externalId": "AENG",
     "firstName": "Ann-Kristin",
     "lastName": "Engstad",
-    "dateOfBirth": "2010-07-26",
+    "dateOfBirth": "1982-04-05",
     "dateOfDeath": null,
     "district": "Finnmark",
     "parties": [
