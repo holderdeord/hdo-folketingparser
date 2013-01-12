@@ -54,7 +54,40 @@ module PropositionConverter
   class << self
 
     def from_2009
-      raise NotImplementedError
+      xids = Set.new
+      result = Hash.new { |hash, key| hash[key] = [] }
+
+      doc = Nokogiri::XML.parse(File.read("./forslag-ikke-verifiserte-2009-2010.xml"))
+      doc.css('IkkeKvalSikreteForslag').each_with_index do |node, idx|
+        kartnr     = node.css('KartNr').first.text
+        saksnr     = node.css('SaksNr').first.text
+        date       = Time.parse(node.css('MoteDato').first.text).to_date
+
+        desc_node   = node.css('Forslagsbetegnelse').first
+        description = desc_node ? desc_node.text : ''
+
+        body_node = node.css('ForslagTekst').first
+        body = body_node ? body_node.text : ''
+
+        external_id = "#{date.to_s}:#{idx}"
+        key = "#{date.to_s}:#{kartnr}:#{saksnr}"
+
+        if xids.include? external_id
+          raise "duplicate xid #{external_id}: #{result[key].pretty_inspect}"
+        end
+
+        xids << external_id
+
+        result[key] << Hdo::StortingImporter::Proposition.from_json({
+          'kind'        => 'hdo#proposition',
+          'description' => description.strip,
+          'body'        => Hdo::StortingImporter::Util.remove_invalid_html(body.strip),
+          'externalId'  => external_id,
+          'onBehalfOf'  => '',
+        }.to_json)
+      end
+
+      result
     end
 
     def from_2010
@@ -99,7 +132,7 @@ end
 if __FILE__ == $0
   case ARGV.first
   when '2009-2010'
-    PropositionConverter.from_2009
+    puts PropositionConverter.from_2009.to_json
   when '2010-2011'
     puts PropositionConverter.from_2010.to_json
   else
