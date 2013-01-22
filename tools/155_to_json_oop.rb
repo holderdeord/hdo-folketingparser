@@ -148,7 +148,7 @@ class HdoVoteTranslator
   # Makes a best guess by assuming it's an "innstillingen vs. forslagene", and that innstillingen is the first one.
   def best_guess_props_for_alternative_vote(props, vote)
     if vote['option'] == '1'
-      props[0]
+      [props[0]]
     else
       props[1..-1]
     end
