@@ -623,7 +623,43 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-01-17T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>62</id>
+          <navn>HELSEINSTITUSJONER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>63</id>
+          <navn>SYKEHUS</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>65</id>
+          <navn>SVANGERSKAP</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56148</id>
@@ -664,8 +700,7 @@
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>For vordende foreldre er melding om at noe er alvorlig galt med barnet en stor belastning. Den gravide kan måtte tilbringe mye tid på sykehus langt hjemmefra. I enkelte tilfeller trenger både mor og barn omsorg og medisinsk bistand før og etter fødsel. Barnets far er i dagens lovverk mors pårørende, ikke barnets, og har ikke rett til økonomisk støtte som pårørende til barn på sykehus.
-Mener statsråden dagens lovverk er godt nok, eller må man se på om fars rolle må ivaretas bedre?</tittel>
+      <tittel>om at _far ikke har rett til støtte som pårørende til barn på sykehus_ i tilfeller der både mor og barn trenger omsorg og medisinsk bistand før og etter fødsel, og om ikke fars rolle må ivaretas bedre</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -784,7 +819,22 @@ Mener statsråden dagens lovverk er godt nok, eller må man se på om fars rolle
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-01-17T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>31</id>
+          <navn>SKOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56146</id>
@@ -825,8 +875,7 @@ Mener statsråden dagens lovverk er godt nok, eller må man se på om fars rolle
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Det har stadig vært reist debatt om hvordan reglene for fritak fra nasjonale prøver praktiseres. Det største spørsmålet er ikke nødvendigvis selve andelen som fritas, men om disse elevene forblir på et nivå hvor de ikke kan delta i nasjonale prøver gjennom hele grunnskolen.
-Har statsråden tanker og forslag til hvordan regelverket rundt nasjonale prøver og praktisering av dette kan forbedres, og kan det særlig legges opp til en bedre rapportering av om det er de samme elevene som fritas gjennom hele skoleløpet?</tittel>
+      <tittel>om hvordan _regelverket rundt nasjonale prøver_ og praktisering av dette kan forbedres</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -847,7 +896,22 @@ Har statsråden tanker og forslag til hvordan regelverket rundt nasjonale prøve
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-01-17T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56145</id>
@@ -888,8 +952,7 @@ Har statsråden tanker og forslag til hvordan regelverket rundt nasjonale prøve
       <sporsmal_til_minister_id>ABD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>arbeidsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Jeg viser til artiklene i Østlendingen 15. januar hvor Nav avviser søknad fra en sterkt svaksynt om å få tilgang på kurs som kan dokumentere hans datakunnskaper. Han mener at kurset kan gi oppdrag som servicearbeider eller datainstruktør, men er selv skeptisk til jobbmulighetene i et stramt arbeidsmarked. Nav har avvist søknad om kurs, da de ikke ser det sannsynlig at han vil komme ut i jobb med inntekt. Jeg mener Nav bør se på mulighetene, og ikke avvise ham på grunn av hindringer.
-Hva mener statsråden om denne type saker?</tittel>
+      <tittel>om tilfeller der _Nav avviser søknad om kurs_ fordi de ikke ser det sannsynlig at søkeren vil komme ut i jobb med inntekt, og hva statsråden mener om denne typen saker der Nav ikke ser på mulighetene</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -910,7 +973,43 @@ Hva mener statsråden om denne type saker?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-01-17T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>20</id>
+          <navn>HANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>83</id>
+          <navn>PRISER OG KONKURRANSEFORHOLD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56138</id>
@@ -951,8 +1050,7 @@ Hva mener statsråden om denne type saker?</tittel>
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I avisen Nationen av 19. desember 2012 kunne vi blant annet lese om sprik på over 200 prosent i gårdstaksering. Tre takster på samme gård var henholdsvis 2,7 mill. kroner, 4,5 mill. kroner og 5,6 mill. kroner. Dette er urovekkende både for selger, kjøper og eventuelle finansinstitusjoner. 
-Hva vil statsråden bidra med for at vi kan være sikre på at en takst er så riktig som mulig?</tittel>
+      <tittel>om hva statsråden vil bidra med for at vi kan være sikre på at en _gårdstakst er så riktig som mulig_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -973,7 +1071,29 @@ Hva vil statsråden bidra med for at vi kan være sikre på at en takst er så r
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-01-17T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>107</id>
+          <navn>JERNBANER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56130</id>
@@ -1014,8 +1134,7 @@ Hva vil statsråden bidra med for at vi kan være sikre på at en takst er så r
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Sikkerhet er viktig på jernbanenettet. Dagens signalanlegg er gammelt, og det er problemer med å få tak i deler og folk med kompetanse til å håndtere det. Jernbaneverket prøver nå ut nytt ERTMS-signalsystem, som brukes i mange land i Europa, på en kort strekning i Norge for å høste erfaringer. Dette kan bety at sikkerheten og jernbanen i Norge vil være svært sårbar, frem til testingen er ferdig og tatt i full bruk på hele jernbanenettet.
-Kan statsråden forsikre om at dagens gamle anlegg ikke er noen sikkerhetsrisiko?</tittel>
+      <tittel>om statsråden kan forsikre om at _dagens gamle signalanlegg_ ikke er noen sikkerhetsrisiko, med bakgrunn i at sikkerheten og jernbanen vil være sårbar frem til testingen av nytt anlegg er ferdig og tatt i full bruk på hele jernbanenettet</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1036,7 +1155,29 @@ Kan statsråden forsikre om at dagens gamle anlegg ikke er noen sikkerhetsrisiko
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-01-17T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>107</id>
+          <navn>JERNBANER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56127</id>
@@ -1077,8 +1218,7 @@ Kan statsråden forsikre om at dagens gamle anlegg ikke er noen sikkerhetsrisiko
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Vi blir stadig flere og flere mennesker i Norge, og togsettene blir stadig lengre, samtidig er det gjort svært lite for å utbedre perrongene tilsvarende. På mange jernbanestasjoner får ikke togsettene plass til alle vognene på perrongen, de kjører enten forbi eller stopper, til stor ulempe for passasjerene. Vi vet at folk blir skadet når de må hoppe av toget utenfor perrongene, fordi terrenget ikke er egnet til avstigning. Dette er uforsvarlig.
-Hva vil statsråden gjøre med sikkerheten for passasjerene?</tittel>
+      <tittel>om at det er gjort svært lite for å _utbedre perrongene til lengre togsett_, og hva statsråden vil gjøre med sikkerheten for passasjerene</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1099,7 +1239,43 @@ Hva vil statsråden gjøre med sikkerheten for passasjerene?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-01-17T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>107</id>
+          <navn>JERNBANER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>205</id>
+          <navn>ARBEIDSMILJØ</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56126</id>
@@ -1140,8 +1316,7 @@ Hva vil statsråden gjøre med sikkerheten for passasjerene?</tittel>
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Sikkerhetsrutiner og HMS-arbeid er viktige faktorer innen arbeidslivet for å heve og sikre kvalitet, effektivitet og sikkerhet. Under komiteens besøk hos Jernbanetilsynet kom det frem i en spørsmålsrunde at preklassifisering av leverandører og underleverandører som Jernbaneverket bruker, var fullstendig fraværende. Kvalitetssikring av leverandørsiden er gjennomført stort sett ellers i andre sammenlignbare områder i samfunnet.
-Hvilke tiltak vil statsråden foreslå slik at Jernbaneverket tar dette på alvor?</tittel>
+      <tittel>om hvilke tiltak statsråden vil foreslå slik at _Jernbaneverket tar sikkerhetsrutiner og HMS-arbeid på alvor_, med bakgrunn i fravær av preklassifisering av leverandører og underleverandører</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1162,7 +1337,29 @@ Hvilke tiltak vil statsråden foreslå slik at Jernbaneverket tar dette på alvo
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-01-17T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>107</id>
+          <navn>JERNBANER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56125</id>
@@ -1203,8 +1400,7 @@ Hvilke tiltak vil statsråden foreslå slik at Jernbaneverket tar dette på alvo
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Bergensbanen er viktig for både gods- og passasjertrafikk mellom Bergen og Oslo. Banen krysser høyfjellsområder der det ikke er sammenhengende veiforbindelse langs banen. Dette gir ekstra sikkerhetsmessige utfordringer, spesielt for passasjertransport.
-Med bakgrunn i avsporing vinter 2007 og brannen i 2010 samt ny sikkerhetsstyringsforskrift i 2011; hvordan forsikrer statsråden seg om at både Jernbaneverket og NSB har fokus på passasjersikkerhet og beredskap og arbeider med forbedring av sikkerhet og beredskap?</tittel>
+      <tittel>om hvordan statsråden forsikrer seg om at både Jernbaneverket og NSB har fokus på _passasjersikkerhet og beredskap på Bergensbanen_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1904,7 +2100,36 @@ Med bakgrunn i avsporing vinter 2007 og brannen i 2010 samt ny sikkerhetsstyring
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-01-16T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>47</id>
+          <navn>VEGTRAFIKK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56107</id>
@@ -1945,8 +2170,7 @@ Med bakgrunn i avsporing vinter 2007 og brannen i 2010 samt ny sikkerhetsstyring
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>På strekningen E6 står snart ny vei klar frem til Hamar.
-Planlegger statsråden å bygge strekningen mellom Hamar og Lillehammer som 2/3-felts vei med midtrekkverk, selv om årsdøgntrafikken, ÅDT, allerede er over grensen på 12 000 ÅDT?</tittel>
+      <tittel>om statsråden planlegger å bygge strekningen på _E6 mellom Hamar og Lillehammer_ som 2/3-felts vei med midtrekkverk, selv om årsdøgntrafikken allerede er over grensen</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
