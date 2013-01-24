@@ -21,7 +21,71 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-01-23T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>35</id>
+          <navn>UNIVERSITETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>44</id>
+          <navn>STATENS PERSONALPOLITIKK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>94</id>
+          <navn>ARBEIDSVILKÅR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>159</id>
+          <navn>HØYERE UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>160</id>
+          <navn>HØGSKOLER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56189</id>
@@ -62,11 +126,7 @@
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Det er vel ikke overraskende at mitt spørsmål går til kunnskapsministeren.
-Det har i lang tid vært en utfordring innenfor universitets- og høyskolesektoren at vitenskapelig ansatte har vært ansatt i midlertidige stillinger. Det har vært litt nedgang de siste sju åra, men universitetssektoren har veldig stor andel her, og hele 22 pst. av dem som jobber i universitetssektoren, har midlertidige stillinger. Det har vært uendret så lenge SV har sittet og styrt sektoren.
- Konsekvensene for folk er ganske dramatiske. De får ikke boliglån og de må utsette å få unger. Vi ser her et klasseskille der staten spesielt, og veldig mange innen akademia, ser at det er fritt fram for midlertidige ansettelser. Dette skjer med regjeringas viten og vilje. 
-Da jeg stilte spørsmål om dette, sa arbeidsministeren ganske arrogant at tjenestemannsloven har så godt stillingsvern at da får vi heller tåle at det er mye midlertidighet. Det betyr igjen at vi tar vare på dem som er innenfor, men bryr oss ikke så mye om dem som er utenfor, og ikke får fast ansettelse. Noen midlertidige ansettelser strekker seg over mange år – fire, seks, opp til ni år – og statsråden er ansvarlig for de institusjonene, selv om hun ikke er ansvarlig for tjenestemannsloven og arbeidsmiljøloven. 
-Mitt spørsmål til statsråden er: Er kunnskapsministeren, som er ansvarlig for denne sektoren, enig med arbeidsministeren i at det ikke er problemer med midlertidige ansettelser? Er dette prisen for at stillingsvernet i offentlig sektor er så utstrakt – at da får vi heller tåle at midlertidige ansettelser blir misbrukt på denne måten?</tittel>
+      <tittel>om utfordringen med _midlertidige ansettelser i universitets- og høyskolesektoren_, og hvorvidt dette er prisen for at stillingsvernet i offentlig sektor er så utstrakt</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -87,7 +147,43 @@ Mitt spørsmål til statsråden er: Er kunnskapsministeren, som er ansvarlig for
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-01-23T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>31</id>
+          <navn>SKOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>43</id>
+          <navn>BARNEVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56188</id>
@@ -128,12 +224,7 @@ Mitt spørsmål til statsråden er: Er kunnskapsministeren, som er ansvarlig for
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Mitt spørsmål går til kunnskapsministeren. Så synes jeg det er litt spesielt at statsråden antyder at jeg står her og bløffer – men jeg lar nå det ligge i denne omgang. 
-Forrige uke reiste det ei veldig modig jente fra Brumunddal til Stortinget for å møte Høyre. Hun fortalte meg om livet sitt med barnevernet. På grunn av omsorgssvikt gjennom hele oppveksten og alvorlig systemsvikt i barnevernet fikk aldri denne jenta verken være barn eller ungdom. Nei, hun måtte være reservemamma for småsøsknene sine. Hun pakket matpakken til småsøsknene sine og sendte dem på skolen, istedenfor å gå på skolen selv. 
-Nå står jenta foran sitt voksne liv med store hull i opplæringen. Det er et dårlig utgangspunkt for å klare seg selv senere i livet. 
-Tallene fra Bufdirs store brukerundersøkelse i 2011 indikerer at det til enhver tid er 300 norske barn i barnevernsinstitusjoner som ikke går på skole. Mindre enn fire av ti barnevernsbarn fullfører videregående skole, og vi kjenner godt til sammenhengen mellom utdanning og risiko for å bli ufør. Derfor er det ingen tvil om at noe av det viktigste vi kan gjøre for disse barna, er å sikre dem skolegang. 
-Høyre har foreslått flere ganger å sette av ekstra midler for å gi dem muligheten til dette. Dette er de mest sårbare barna vi snakker om, og de kan trenge skolegang aller mest. 
-Da statsråden i 2011 svarte for hva regjeringen ville gjøre for de skoleløse barnevernsbarna, sa hun at de hadde satt i gang tiltak for å gi flere barnevernsbarn skolegang. Kan statsråden gjøre rede for om tiltakene er vellykket? Og har det gitt flere barnevernsbarn skolegangen som de trenger?</tittel>
+      <tittel>om hvorvidt regjeringens tiltak for å _sikre flere barnevernsbarn skolegang_ er vellykket</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -154,7 +245,29 @@ Da statsråden i 2011 svarte for hva regjeringen ville gjøre for de skoleløse 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-01-23T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>42</id>
+          <navn>BARNEHAGER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56187</id>
@@ -195,13 +308,7 @@ Da statsråden i 2011 svarte for hva regjeringen ville gjøre for de skoleløse 
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Mitt spørsmål går til kunnskapsministeren. 
-Mor til lille Kristin og far til lille Ole var ute på trilletur med sine to små barn og kom i samtalen inn på hva de skulle gjøre med barna sine til høsten – om de skulle søke dem inn i barnehage. Mor til lille Kristin var veldig glad, for lille Kristin var født innenfor den fristen som regjeringen har satt for opptak til barnehage. Men far til lille Ole ble stillere og stillere under samtalen og måtte til slutt si at det var litt trist, for lille Ole var født 1. september, bare timer etter at fristen for denne retten hadde gått ut, og nå lurte den lille familien på hva de skulle gjøre til høsten. 
-Dette er bare en liten illustrasjon på hvordan mange foreldre har det i disse dager, for akkurat nå er det veldig mange kommuner som har frist for å søke på barnehageplass, og foreldre sitter rundt kjøkkenbordet med pc-en og skal søke barnehageplass for sine barn for første gang. 
-Regjeringens familiepolitikk inneholder et utall av frister, frister som det er umulig å forholde seg til, og mange datoer som minner om familieplanlegging i land som vi ikke liker å sammenligne oss med. Denne politikken har også ført til kaos på fødeavdelingene under sommerferieavviklingen, og fra media har vi hørt historier om foreldre som presser på for å få igangsatt fødslene. 
-Regjeringen skryter av at norske ettåringer har lovfestet rett til barnehageplass, og at vi nå har full barnehagedekning. Det er faktisk ikke sant, for det er nesten 10 000 barn som er født i fjor høst, som ikke har denne retten. 
-Mange partier har nå sett denne absurdheten og har hatt utspill om at det er på tide å få gjort noe med denne regelen. Fremskrittspartiet er det eneste partiet som har satt av penger i sitt alternative budsjett til å sørge for at de barna som er født i høst, får den barnehageplassen de trenger, uansett når på året de er født. 
-Mitt spørsmål til kunnskapsministeren blir derfor: Vil kunnskapsministeren sørge for at retten til barnehageplass blir reell for alle ettåringer til høsten?</tittel>
+      <tittel>om kunnskapsministeren vil sørge for at _retten til barnehageplass_ blir reell for alle ettåringer til høsten, uansett når på året de er født</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -310,6 +417,13 @@ Mitt spørsmål til kunnskapsministeren blir derfor: Vil kunnskapsministeren sø
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <id>38</id>
+          <navn>BOLIGSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
           <id>52</id>
           <navn>KOMMUNER</navn>
           <underemne_liste />
@@ -376,7 +490,7 @@ Mitt spørsmål til kunnskapsministeren blir derfor: Vil kunnskapsministeren sø
       <sporsmal_til_minister_id>KRD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kommunal- og regionalministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om å revidere bruken av statlige innsigelser, som er et stort problem for _arealplanleggingen i kommunene_, og at man ikke vil få regulert nok boliger i dette landet om man ikke foretar seg noe</tittel>
+      <tittel>om å revidere bruken av statlige innsigelser, som er et stort problem for _arealplanleggingen i kommunene_, med henvisning til at man ikke vil få regulert nok boliger i dette landet om man ikke foretar seg noe</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -583,6 +697,13 @@ Mener statsråden dagens lovverk er godt nok, eller må man se på om fars rolle
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <id>50</id>
+          <navn>FORSIKRING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
           <id>186</id>
           <navn>TRYGDER</navn>
           <underemne_liste />
@@ -592,6 +713,13 @@ Mener statsråden dagens lovverk er godt nok, eller må man se på om fars rolle
           <er_hovedemne>true</er_hovedemne>
           <id>187</id>
           <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>192</id>
+          <navn>AKSJER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -635,7 +763,7 @@ Mener statsråden dagens lovverk er godt nok, eller må man se på om fars rolle
       <sporsmal_til_minister_id>FIN</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>finansministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hva regjeringen vil gjøre for at _investeringer i infrastruktur_ kan bli mer interessant for å sikre fremtidige pensjoner, i lys av pensjonsdebatten den siste tiden</tittel>
+      <tittel>om hva regjeringen vil gjøre for at _investeringer i infrastruktur kan bli mer interessant for livselskapene_, for å sikre fremtidige pensjoner</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1100,6 +1228,20 @@ Med bakgrunn i avsporing vinter 2007 og brannen i 2010 samt ny sikkerhetsstyring
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>16</id>
+          <navn>KRIMINALOMSORG</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>18</id>
           <navn>INNVANDRERE</navn>
@@ -1110,6 +1252,13 @@ Med bakgrunn i avsporing vinter 2007 og brannen i 2010 samt ny sikkerhetsstyring
           <er_hovedemne>true</er_hovedemne>
           <id>61</id>
           <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -1181,7 +1330,36 @@ Med bakgrunn i avsporing vinter 2007 og brannen i 2010 samt ny sikkerhetsstyring
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-01-17T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>49</id>
+          <navn>FUNKSJONSHEMMEDE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>52</id>
+          <navn>KOMMUNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56120</id>
@@ -1222,8 +1400,7 @@ Med bakgrunn i avsporing vinter 2007 og brannen i 2010 samt ny sikkerhetsstyring
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Lov om kommunale helse- og omsorgstjenester § 3-8 slår fast at kommunene har plikt til å ha ordningen brukerstyrt personlig assistanse. Vi ser nå flere eksempler på kommuner som avskaffer ordningen og innfører ordninger med kommunalt ansatte assistenter, der innholdet i tjenesten bestemmes av kommunen, slik som i Ringsaker kommune.
-Er dette i samsvar med loven og Stortingets intensjon med ordningen?</tittel>
+      <tittel>om hvorvidt det er i samsvar med loven og Stortingets intensjon med ordningen _brukerstyrt personlig assistanse_ at kommuner avskaffer ordningen og innfører ordninger der innholdet i tjenesten bestemmes av kommunen</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
