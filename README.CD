@@ -6,8 +6,8 @@ The vote data files are available from
 
 Each vote consist of two files.  The *.R# files list the votes, and
 the *.# files include the individual votes.  For example OK10S1.153
-and OK10S1.R03 have the voting information for the 153th parlament day
-10 case 1. (FIXME: Not sure what the R03 part represent)
+and OK10S1.R03 have the voting information for the 153th parlament, day
+10 (kartnr) case 1 (saksnr). (FIXME: Not sure what the R03 part represent)
 
 The *.R* files contain a long line with the voters IDs, names and
 party.  The charset seem to be IBM PC Codepage 865 from 1990 to 1999
@@ -43,3 +43,7 @@ The 'M' means voted against, while the 'F' means voted for the
 proposal.  '-' means no vote were casted.  The ordering seem to be
 according to seat ID (the number in front of the colon in the list of
 voters.
+
+Except that there are 172 votes cast each time according to this.
+using (\d{2}:\d{2}:\d{2})([FM\-]{169}) the votes may be found but there are still always [MF\-]{3} left.
+The stortingspresidenten has a vote that counts double (in case of a draw), maybe that's one. Are there others with a double vote?
