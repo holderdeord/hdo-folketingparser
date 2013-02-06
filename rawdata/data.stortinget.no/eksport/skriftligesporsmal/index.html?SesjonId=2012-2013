@@ -20,6 +20,69 @@
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
+      <datert_dato>2013-02-06T00:00:00</datert_dato>
+      <emne_liste />
+      <flyttet_til>ikke_spesifisert</flyttet_til>
+      <fremsatt_av_annen i:nil="true" />
+      <id>56363</id>
+      <rette_vedkommende i:nil="true" />
+      <rette_vedkommende_minister_id i:nil="true" />
+      <rette_vedkommende_minister_tittel i:nil="true" />
+      <sendt_dato>2013-02-06T00:00:00</sendt_dato>
+      <sesjon_id>2012-2013</sesjon_id>
+      <sporsmal_fra>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Breen</etternavn>
+        <foedselsdato>1972-09-13T00:00:00</foedselsdato>
+        <fornavn>Thomas</fornavn>
+        <id>THB</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.0</versjon>
+          <id>He</id>
+          <navn>Hedmark</navn>
+        </fylke>
+        <parti>
+          <versjon>1.0</versjon>
+          <id>A</id>
+          <navn>Arbeiderpartiet</navn>
+        </parti>
+      </sporsmal_fra>
+      <sporsmal_nummer>772</sporsmal_nummer>
+      <sporsmal_til>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Støre</etternavn>
+        <foedselsdato>1960-08-25T00:00:00</foedselsdato>
+        <fornavn>Jonas Gahr</fornavn>
+        <id>JGS</id>
+        <kjoenn>mann</kjoenn>
+      </sporsmal_til>
+      <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
+      <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
+      <status>til_behandling</status>
+      <tittel>På Dagsrevyen 26. januar ble det opplyst at en kvinne fikk beskjed om å vente i seks måneder på en operasjon i hånden. Kvinnen måtte i følge reportasjen være sykemeldt i ventetiden. Pasienten valgte i stedet visstnok å kjøpe karpal-tunnel-operasjon på Volvat betalt av hennes helseforsikring for å unngå sykemelding.
+Hva er ventetiden i dag for denne type pasient for å få denne behandlingen ved Volvat for det offentliges regning gjennom Helse SørØst?</tittel>
+      <type>skriftlig_sporsmal</type>
+    </sporsmal>
+    <sporsmal>
+      <versjon>1.0</versjon>
+      <besvart_av>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Støre</etternavn>
+        <foedselsdato>1960-08-25T00:00:00</foedselsdato>
+        <fornavn>Jonas Gahr</fornavn>
+        <id>JGS</id>
+        <kjoenn>mann</kjoenn>
+      </besvart_av>
+      <besvart_av_minister_id>HOD</besvart_av_minister_id>
+      <besvart_av_minister_tittel>helse- og omsorgsministeren</besvart_av_minister_tittel>
+      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_pa_vegne_av i:nil="true" />
+      <besvart_pa_vegne_av_minister_id i:nil="true" />
+      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-02-05T00:00:00</datert_dato>
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
@@ -1895,26 +1958,34 @@ Mener statsråden at vedtaket er gjennomført etter Stortingets hensikt, og at r
       <besvart_av>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Stoltenberg</etternavn>
-        <foedselsdato>1959-03-16T00:00:00</foedselsdato>
-        <fornavn>Jens</fornavn>
-        <id>JES</id>
-        <kjoenn>mann</kjoenn>
+        <etternavn>Aasrud</etternavn>
+        <foedselsdato>1960-06-26T00:00:00</foedselsdato>
+        <fornavn>Rigmor</fornavn>
+        <id>RIAJ</id>
+        <kjoenn>kvinne</kjoenn>
       </besvart_av>
-      <besvart_av_minister_id>SMK</besvart_av_minister_id>
-      <besvart_av_minister_tittel>statsministeren</besvart_av_minister_tittel>
+      <besvart_av_minister_id>FAKD</besvart_av_minister_id>
+      <besvart_av_minister_tittel>fornyings-, administrasjons- og kirkeministeren</besvart_av_minister_tittel>
       <besvart_dato>0001-01-01T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-01-31T00:00:00</datert_dato>
       <emne_liste />
-      <flyttet_til>ikke_spesifisert</flyttet_til>
+      <flyttet_til>rette_vedkommende</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56236</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
+      <rette_vedkommende>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Aasrud</etternavn>
+        <foedselsdato>1960-06-26T00:00:00</foedselsdato>
+        <fornavn>Rigmor</fornavn>
+        <id>RIAJ</id>
+        <kjoenn>kvinne</kjoenn>
+      </rette_vedkommende>
+      <rette_vedkommende_minister_id>FAKD</rette_vedkommende_minister_id>
+      <rette_vedkommende_minister_tittel>fornyings-, administrasjons- og kirkeministeren</rette_vedkommende_minister_tittel>
       <sendt_dato>2013-02-01T00:00:00</sendt_dato>
       <sesjon_id>2012-2013</sesjon_id>
       <sporsmal_fra>
