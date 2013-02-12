@@ -543,8 +543,8 @@ __END__
     {
       "kind": "hdo#partyMembership",
       "externalId": "FrP",
-      "startDate": "2009-10-01",
-      "endDate": "2010-9-30"
+      "startDate": "2010-10-01",
+      "endDate": "2011-9-30"
     }
   ],
   "committees": [
