@@ -245,22 +245,25 @@ class HdoVoteCollator
     @saksopplysninger.map do |sks_id, sak|
       votes = @votes[sks_id]
       next unless votes
-
       {
-          kind:            'hdo#vote',
-          externalId:      "#{sak[:timestamp]}#{sak[:votnr]}",
-          externalIssueId: @issue_map[[sak[:kartnr], sak[:saknr], sak[:timestamp].strftime('%Y%m%d')]] || [],
-          counts:          votes[:counts],
-          personal:        true,
-          enacted:         votes[:enacted],
-          subject:         sak[:subject],
-          method:          "ikke_spesifisert",
-          resultType:      "ikke_spesifisert",
-          time:            sak[:timestamp].iso8601,
-          representatives: votes[:representatives],
-          propositions:    @propositions["#{sak[:timestamp].to_date.to_s}:#{sak[:kartnr]}:#{sak[:saknr]}"] || []
-        }
+        kind:            'hdo#vote',
+        externalId:      "#{sak[:timestamp]}#{sak[:votnr]}",
+        externalIssueId: @issue_map[[sak[:kartnr], sak[:saknr], sak[:timestamp].strftime('%Y%m%d')]] || [],
+        counts:          votes[:counts],
+        personal:        true,
+        enacted:         votes[:enacted],
+        subject:         sak[:subject],
+        method:          "ikke_spesifisert",
+        resultType:      "ikke_spesifisert",
+        time:            sak[:timestamp].iso8601,
+        representatives: votes[:representatives],
+        propositions:    @propositions.delete("#{sak[:timestamp].to_date.to_s}:#{sak[:kartnr]}:#{sak[:saknr]}") || []
+      }
     end
+  end
+
+  def remaining_props
+    @propositions
   end
 end
 
@@ -298,7 +301,12 @@ if __FILE__ == $0
   issue_map = KartIssueMapper.new(ARGV[5]).issue_map
 
   personal_votes_collator = HdoVoteCollator.new(saksopplysninger, votes, props, issue_map)
-  puts JSON.pretty_generate personal_votes_collator.votes
+  personal_votes = personal_votes_collator.votes
+  # puts JSON.pretty_generate personal_votes
+
+  unused_props = personal_votes_collator.remaining_props
+  puts JSON.pretty_generate unused_props
+
 end
 
 __END__
