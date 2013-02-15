@@ -1730,7 +1730,22 @@ Hva ser utenriksministeren som den største utfordringen for det kommende valget
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-02-06T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>142</id>
+          <navn>LOTTERI OG SPILL</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56385</id>
@@ -1771,8 +1786,7 @@ Hva ser utenriksministeren som den største utfordringen for det kommende valget
       <sporsmal_til_minister_id>KD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kulturministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Statsråden har den senere tid fått flere spørsmål vedrørende etableringen av Postkodelotteriet i Norge. Organisasjonene bak lotteriet, som dekker viktige områder som humanitært arbeid, miljø og kultur, har alle det til felles at de ikke får direkte støtte via Norsk Tipping.
-Ser statsråden den prinsipielle viktigheten av at også disse organisasjonene får muligheten til å øke sine inntekter gjennom spill og lotterier, og har statsråden en strategi for hvordan denne type organisasjoner også kan sikres gode vilkår for sin drift?</tittel>
+      <tittel>om _etableringen av Postkodelotteriet i Norge_, der organisasjonene bak dekker områder som humanitært arbeid, miljø og kultur, og om statsråden ser den prinsipielle viktigheten av at også disse organisasjonene får muligheten til å øke sine inntekter gjennom spill og lotterier</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -2626,7 +2640,22 @@ Har statsråden og regjeringen flere strategier for å oppnå salg av JSM-missil
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-01-24T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>142</id>
+          <navn>LOTTERI OG SPILL</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56367</id>
@@ -2667,8 +2696,7 @@ Har statsråden og regjeringen flere strategier for å oppnå salg av JSM-missil
       <sporsmal_til_minister_id>KD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kulturministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Flere mulige lotterier, eksempelvis Postkodelotteriet, venter på driftstillatelse fra Kulturdepartementet. En rekke frivillige organisasjoner, ikke minst innenfor det humanitære området, har stort behov for å sikre sine inntekter. Mange av disse er direkte deltakende i, eller vil ha potensial for betydelige inntekter fra, disse lotteriene.
-Hvordan forholder statsråden seg til utvikling av nye lotterier i Norge, og hvilken fremdrift kan forventes for behandlingen av de foreliggende søknadene?</tittel>
+      <tittel>om hvordan statsråden forholder seg til _utvikling av nye lotterier i Norge_, eksempelvis Postkodelotteriet der en rekke frivillige organisasjoner er deltakende, og hvilken fremdrift som kan forventes for behandlingen av søknadene</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -2689,7 +2717,50 @@ Hvordan forholder statsråden seg til utvikling av nye lotterier i Norge, og hvi
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-01-23T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>20</id>
+          <navn>HANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>99</id>
+          <navn>UTENRIKSHANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>196</id>
+          <navn>SKOGBRUK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56366</id>
@@ -2730,7 +2801,7 @@ Hvordan forholder statsråden seg til utvikling av nye lotterier i Norge, og hvi
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om å bidra med virkemidler i skogbruksnæringen for blant annet å kunne eksportere mer</tittel>
+      <tittel>om å bidra med _virkemidler i skogbruksnæringen_ for blant annet å kunne eksportere mer</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
