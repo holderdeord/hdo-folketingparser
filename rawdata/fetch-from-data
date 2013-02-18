@@ -5,6 +5,9 @@ date
 set -e
 #set -x
 
+ionice -c3 -p $$
+renice 10 -p $$
+
 fetch_if_success() {
     thisurl="$1"
     thisfile="$2"
