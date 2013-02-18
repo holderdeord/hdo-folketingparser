@@ -7,8 +7,10 @@ require 'time'
 VOTE_DATA_FILE   = File.open('rawdata/scraperwiki/scraped_unanimous_votes_154.csv')
 KART_SAK_ID_FILE = File.open('rawdata/saksid/Dagsorden 20009-2010-tabseparated.txt')
 PROP_DATA_FILE   = File.open('rawdata/forslag-vedtak-2009-2011/propositions-2009-2010.json')
+VEDTAK_DATA_FILE = File.open('rawdata/forslag-vedtak-2009-2011/vedtak2009.json')
 
-PROP_DATA        = JSON.parse PROP_DATA_FILE.read
+PROP_DATA        = Hash.new(Array.new).merge JSON.parse PROP_DATA_FILE.read
+VEDTAK_DATA      = Hash.new(Array.new).merge JSON.parse VEDTAK_DATA_FILE.read
 
 ISSUE_MAP = KART_SAK_ID_FILE.lines.reduce({}) do |issue_map, line|
         date, kart_nr, issue_id, sakskart_nr, short_text = line.split("\t").map(&:strip)
@@ -36,7 +38,7 @@ VOTES = VOTE_DATA_FILE.lines.reduce([]) do |votes, line|
     enacted:         true,
     subject:         "Kart:#{daynr}, Sak:#{casenum}",
     time:            unique_time.iso8601,
-    propositions:    PROP_DATA["#{date}:#{daynr}:#{casenum}"]
+    propositions:    PROP_DATA["#{date}:#{daynr}:#{casenum}"] + VEDTAK_DATA["#{daynr}:#{casenum}"]
   }
   votes
 end

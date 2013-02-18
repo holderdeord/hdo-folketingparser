@@ -3,6 +3,7 @@
 require 'json'
 require 'time'
 require 'set'
+require 'active_support/core_ext/object/try'
 
 class VoteFileReader
   def initialize(filename, rep_reader)
@@ -114,7 +115,27 @@ class PolitikerarkivFileReader
       reps
     end
 
-    @reps[person_id] || ghost_rep(person_id, parti_id)
+    # raise @reps[person_id].inspect if person_id == '2338'
+    (@reps[person_id] || ghost_rep(person_id, parti_id)).tap do |rep|
+      # raise rep.inspect
+      if !rep['touched'] && needs_party_membership(rep)
+        rep['parties'] << {
+          "kind"       => "hdo#partyMembership",
+          "externalId" => party(parti_id),
+          "startDate"  => "2009-10-1",
+          "endDate"    => "2010-9-30"
+        }
+        rep['parties'].uniq!
+        rep['touched'] = true
+      end
+    end
+  end
+
+  def needs_party_membership(rep)
+    @_date ||= Time.parse('2009-10-1')
+    !rep['parties'].find do |party_membership|
+      Time.parse(party_membership['startDate']) <= @_date && (party_membership['endDate'].nil? || Time.parse(party_membership['endDate']) >= @_date)
+    end
   end
 
   def find_missing_reps_verify
@@ -222,7 +243,7 @@ class PolitikerarkivFileReader
       30025 => 'lbt'
     }
     @hdo_reps.find do |hdo_rep|
-      hdo_rep ['externalId'].downcase == @ghost_map[id]
+      hdo_rep['externalId'].downcase == @ghost_map[id]
     end
   end
 
@@ -248,11 +269,11 @@ class HdoVoteCollator
       {
         kind:            'hdo#vote',
         externalId:      "#{sak[:timestamp]}#{sak[:votnr]}",
-        externalIssueId: @issue_map[[sak[:kartnr], sak[:saknr], sak[:timestamp].strftime('%Y%m%d')]] || [],
+        externalIssueId: @issue_map[[sak[:kartnr], sak[:saknr], sak[:timestamp].strftime('%Y%m%d')]].try(:join, ",") || "",
         counts:          votes[:counts],
         personal:        true,
         enacted:         votes[:enacted],
-        subject:         sak[:subject],
+        subject:         sak[:subject][0..254],
         method:          "ikke_spesifisert",
         resultType:      "ikke_spesifisert",
         time:            sak[:timestamp].iso8601,
@@ -302,10 +323,10 @@ if __FILE__ == $0
 
   personal_votes_collator = HdoVoteCollator.new(saksopplysninger, votes, props, issue_map)
   personal_votes = personal_votes_collator.votes
-  # puts JSON.pretty_generate personal_votes
+  puts JSON.pretty_generate personal_votes
 
-  unused_props = personal_votes_collator.remaining_props
-  puts JSON.pretty_generate unused_props
+  # unused_props = personal_votes_collator.remaining_props
+  # puts JSON.pretty_generate unused_props
 
 end
 
