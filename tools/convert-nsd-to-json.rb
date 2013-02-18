@@ -264,12 +264,13 @@ class HdoVoteCollator
 
   def votes
     @saksopplysninger.map do |sks_id, sak|
-      votes = @votes[sks_id]
-      next unless votes
+      issues = @issue_map[[sak[:kartnr], sak[:saknr], sak[:timestamp].strftime('%Y%m%d')]].try(:join, ",")
+      votes  = @votes[sks_id]
+      next unless votes && issues
       {
         kind:            'hdo#vote',
         externalId:      "#{sak[:timestamp]}#{sak[:votnr]}",
-        externalIssueId: @issue_map[[sak[:kartnr], sak[:saknr], sak[:timestamp].strftime('%Y%m%d')]].try(:join, ",") || "",
+        externalIssueId: issues,
         counts:          votes[:counts],
         personal:        true,
         enacted:         votes[:enacted],
@@ -280,7 +281,7 @@ class HdoVoteCollator
         representatives: votes[:representatives],
         propositions:    @propositions.delete("#{sak[:timestamp].to_date.to_s}:#{sak[:kartnr]}:#{sak[:saknr]}") || []
       }
-    end
+    end.reject &:nil?
   end
 
   def remaining_props
