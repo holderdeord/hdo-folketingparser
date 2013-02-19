@@ -48,4 +48,4 @@ puts JSON.pretty_generate VOTES
 
 ## TODO ##
 # create hdo#vote objects
-# From the SKxSy. -files, get the dagens reps. Create some map from the names to initials, perhaps using elastic search  
+# From the SKxSy. -files, get the dagens reps. Create some map from the names to initials, perhaps using elastic search

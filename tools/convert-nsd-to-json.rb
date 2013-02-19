@@ -18,7 +18,7 @@ class VoteFileReader
         counts:          counts_for(lines),
         representatives: reps_for(lines) # join with politikerarkiv, hdo-site db, etc.
       }
-      
+
       hash[id].merge!({
         enacted:         hash[id][:counts][:for] > hash[id][:counts][:against]
         })
@@ -28,7 +28,7 @@ class VoteFileReader
   end
 
   private
-  
+
   def read_votes
     @votes = Hash.new
     @file.lines.each do |line|
@@ -41,17 +41,27 @@ class VoteFileReader
   end
 
   def counts_for(lines)
-    lines.reduce({for:0, against:0}) do |counts, line|
+    result = {for:0, against:0}
+    present = 0
+
+    lines.reduce(result) do |counts, line|
       (num, periode, ses, sal, kart, sak, votnr,
         votering, setenr, person, parti) = line.split(",").map(&:strip)
+
       if votering == '1'
         counts[:for] += 1
       else
         counts[:against] += 1
       end
 
+      present += 1
+
       counts
     end
+
+    result[:absent] = 169 - present
+
+    result
   end
 
   def reps_for(lines)
@@ -106,9 +116,9 @@ class PolitikerarkivFileReader
 
   def find_rep_by_number(person_id, setenr, parti_id)
     @reps ||= @politikerarkiv_file.lines.reduce({}) do |reps, line|
-      (person, personlegid, initialer, fornavn, navn, stilling, 
-        engstilling, parti, periode, ny_valkrinskode, valkrinsnamn, 
-        repnr, supnr, eksternkommentar, internkommentar, min_reg, 
+      (person, personlegid, initialer, fornavn, navn, stilling,
+        engstilling, parti, periode, ny_valkrinskode, valkrinsnamn,
+        repnr, supnr, eksternkommentar, internkommentar, min_reg,
         min_reg_hv) = line.split(",").map(&:strip)
       reps[person] = find_rep(initialer, fornavn, navn)
 
@@ -142,11 +152,11 @@ class PolitikerarkivFileReader
     missing = Set.new
 
     @politikerarkiv_file.lines.each do |line|
-      (person, personlegid, initialer, fornavn, navn, stilling, 
-        engstilling, parti, periode, ny_valkrinskode, valkrinsnamn, 
-        repnr, supnr, eksternkommentar, internkommentar, min_reg, 
+      (person, personlegid, initialer, fornavn, navn, stilling,
+        engstilling, parti, periode, ny_valkrinskode, valkrinsnamn,
+        repnr, supnr, eksternkommentar, internkommentar, min_reg,
         min_reg_hv) = line.split(",").map(&:strip)
-        
+
         missing << [initialer, fornavn, navn] unless find_rep(initialer, fornavn, navn)
     end
 
