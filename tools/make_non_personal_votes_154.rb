@@ -34,7 +34,7 @@ VOTES = VOTE_DATA_FILE.lines.reduce([]) do |votes, line|
       against: 0,
       absent:  0
       },
-    personal:        true,
+    personal:        false,
     enacted:         true,
     subject:         "Kart:#{daynr}, Sak:#{casenum}",
     time:            unique_time.iso8601,
