@@ -4,6 +4,7 @@ require 'json'
 require 'time'
 require 'set'
 require 'active_support/core_ext/object/try'
+require 'pp'
 
 class VoteFileReader
   def initialize(filename, rep_reader)
@@ -273,25 +274,27 @@ class HdoVoteCollator
   end
 
   def votes
-    @saksopplysninger.map do |sks_id, sak|
+    @saksopplysninger.map { |sks_id, sak|
       issues = @issue_map[[sak[:kartnr], sak[:saknr], sak[:timestamp].strftime('%Y%m%d')]].try(:join, ",")
       votes  = @votes[sks_id]
+
       next unless votes && issues
-      {
+
+      result = {
         kind:            'hdo#vote',
-        externalId:      "#{sak[:timestamp]}#{sak[:votnr]}",
+        externalId:      "#{sak[:timestamp]}:#{sak[:votnr]}",
         externalIssueId: issues,
         counts:          votes[:counts],
         personal:        true,
         enacted:         votes[:enacted],
-        subject:         sak[:subject][0..254],
+        subject:         sak[:subject],
         method:          "ikke_spesifisert",
         resultType:      "ikke_spesifisert",
         time:            sak[:timestamp].iso8601,
         representatives: votes[:representatives],
         propositions:    @propositions.delete("#{sak[:timestamp].to_date.to_s}:#{sak[:kartnr]}:#{sak[:saknr]}") || []
       }
-    end.reject &:nil?
+    }.compact
   end
 
   def remaining_props
