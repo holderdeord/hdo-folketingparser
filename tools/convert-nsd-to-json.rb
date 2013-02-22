@@ -5,19 +5,20 @@ require 'time'
 require 'set'
 require 'active_support/core_ext/object/try'
 require 'pp'
+require 'csv'
 
 class VoteFileReader
   def initialize(filename, rep_reader)
-    @file = File.new(filename)
+    @csv = CSV.parse(File.read(filename))
     @rep_reader = rep_reader
   end
 
   def vote_file_data
     read_votes unless @votes
-    @vote_data ||= @votes.reduce({}) do |hash, (id, lines)|
+    @vote_data ||= @votes.reduce({}) do |hash, (id, rows)|
       hash[id] = {
-        counts:          counts_for(lines),
-        representatives: reps_for(lines) # join with politikerarkiv, hdo-site db, etc.
+        counts:          counts_for(rows),
+        representatives: reps_for(rows) # join with politikerarkiv, hdo-site db, etc.
       }
 
       hash[id].merge!({
@@ -32,11 +33,11 @@ class VoteFileReader
 
   def read_votes
     @votes = Hash.new
-    @file.lines.each do |line|
+    @csv.each do |row|
       (num, periode, ses, sal, kart, sak, votnr,
-        votering, setenr, person, parti) = line.split(",").map(&:strip)
+        votering, setenr, person, parti) = row.map(&:strip)
       vote_id = "#{kart}-#{sak}-#{votnr}"
-      (@votes[vote_id] ||= []) << line
+      (@votes[vote_id] ||= []) << row
     end
     @votes
   end
@@ -45,9 +46,9 @@ class VoteFileReader
     result = {for:0, against:0}
     present = 0
 
-    lines.reduce(result) do |counts, line|
+    lines.reduce(result) do |counts, row|
       (num, periode, ses, sal, kart, sak, votnr,
-        votering, setenr, person, parti) = line.split(",").map(&:strip)
+        votering, setenr, person, parti) = row
 
       if votering == '1'
         counts[:for] += 1
@@ -65,10 +66,10 @@ class VoteFileReader
     result
   end
 
-  def reps_for(lines)
-    lines.map do |line|
+  def reps_for(rows)
+    rows.map do |row|
       (num, periode, ses, sal, kart, sak, votnr,
-        votering, setenr, person, parti) = line.split(",").map(&:strip)
+        votering, setenr, person, parti) = row.map(&:strip)
       @rep_reader.find_rep_by_number(person, setenr, parti).merge({
         "voteResult" => votering == '1' ? 'for' : 'against'
         })
@@ -78,17 +79,17 @@ end
 
 class SaksOpplysningFileReader
   def initialize(filename)
-    @file = File.new(filename)
+    @csv = CSV.parse(File.read(filename))
   end
 
   def saksopplysning_data
     @votes = Hash.new
-    @file.lines.each do |line|
+    @csv.each do |row|
       (periode, dato, tid, ses, sal, kart,
         sak, votnr, typsak, vottyp, komite,
         saksreferanse, saksregister, emne,
         president, presidentparti,
-        internkommentar, lenke) = line.split(",").map(&:strip)
+        internkommentar, lenke) = row.map(&:strip)
       vote_id = "#{kart}-#{sak}-#{votnr}"
       @votes[vote_id] = {
         timestamp: timestamp_from(dato, tid),
@@ -426,4 +427,4 @@ __END__
 
     ]
   }
-]
+]     
