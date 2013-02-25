@@ -293,7 +293,10 @@ class HdoVoteCollator
         resultType:      "ikke_spesifisert",
         time:            sak[:timestamp].iso8601,
         representatives: votes[:representatives],
-        propositions:    @propositions.delete("#{sak[:timestamp].to_date.to_s}:#{sak[:kartnr]}:#{sak[:saknr]}") || []
+        propositions:    @propositions.delete("#{sak[:timestamp].to_date.to_s}:#{sak[:kartnr]}:#{sak[:saknr]}") || [],
+        kartnr:          sak[:kartnr],
+        saknr:           sak[:saknr],
+        votnr:           sak[:votnr]
       }
     }.compact
   end
