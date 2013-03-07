@@ -21,7 +21,36 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-03-06T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>94</id>
+          <navn>ARBEIDSVILKÅR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>223</id>
+          <navn>INDUSTRI</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56666</id>
@@ -62,9 +91,7 @@
       <sporsmal_til_minister_id>NHD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>nærings- og handelsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Jeg vil gjerne fortsette å spørre nærings- og handelsministeren om den krevende konkurransesituasjonen for norsk leverandørindustri. Det har vært påpekt tidligere i debatten at kostnadsveksten vår er svært høy. Den er 60 pst. over handelspartnerne og konkurrentene i Europa, og det meste er kommet de siste 6-7 årene. Det er ingen tvil om at konkurranseevnen er svekket. 
-Oppi denne situasjonen hvor konkurransekraft nå er helt avgjørende, ser vi at norsk leverandørindustri stadig mister kontrakter også til europeiske konkurrenter. Merkostnadene ved innføringen av vikarbyrådirektivet, altså den økte timelønnskostnaden, er ett av viktige konkurranseelementer. Andre europeiske land – våre konkurrenter – har utnyttet det handlingsrom som ligger i unntaksbestemmelsene i vikarbyrådirektivet gjennom å forskriftsfeste unntak. 
-Vår stadig svekkede konkurransesituasjon påkaller nå handlekraft og gjennomføringsvilje der hvor det er mulig, ikke å snakke om alle disse andre områdene hvor det ikke er mulig, som har vært diskutert i dag. Handlingsrommet i vikarbyrådirektivet er en slik mulighet. Kan vi forvente at statsråden bruker sin handlekraft til å gjøre noe med den muligheten eller vil vi se fortsatt passivitet?</tittel>
+      <tittel>om vi kan forvente at statsråden bruker sin handlekraft til å gjøre noe med _handlingsrommet i vikarbyrådirektivet_, med bakgrunn i den krevende konkurransesituasjonen for norsk leverandørindustri og vår svekkede konkurranseevne</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -456,7 +483,15 @@ Vår stadig svekkede konkurransesituasjon påkaller nå handlekraft og gjennomf�
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-02-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56600</id>
@@ -497,8 +532,7 @@ Vår stadig svekkede konkurransesituasjon påkaller nå handlekraft og gjennomf�
       <sporsmal_til_minister_id>FD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>forsvarsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Sjøheimevernet, SHV, har behov for reelle maritime kapasiteter i form av flerbruksfartøy for å kunne operere etter hensikten og være en gripbar ressurs. Imidlertid kommer det stadig signaler om at materiellplanen for SHV ikke gjennomføres.
-Hva vil statsråden gjøre for å sikre at regjeringens føringer om planlagt fartøystruktur i SHV blir gjennomført?</tittel>
+      <tittel>om å sikre at regjeringens føringer om planlagt _fartøystruktur i Sjøheimevernet_ blir gjennomført</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -748,8 +782,7 @@ Anerkjenner statsråden de funnene som kommer fram i rapporten, er statsråden e
       <sporsmal_til_minister_id>ABD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>arbeidsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Ål kommune har mange døve innbyggere i forhold til innbyggertall. Undersøkelser viser at det er behov for to tolker i full stilling for å dekke behovet som den enkelte familie har. I dag tilbys det tolketjeneste ca. to dager i uka og da etter søknad.
-Hva mener statsråden kan gjøres for at tolketjenesten kan bli tilfredsstillende for de døve i Ål?</tittel>
+      <tittel>om hva som kan gjøres for at _tolketjenesten for døve i Ål kommune_ blir tilfredsstillende</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1232,7 +1265,36 @@ Hvordan sikrer regjeringen at det barnevernstiltaket som er faglig best for barn
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-02-20T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56506</id>
@@ -1273,8 +1335,7 @@ Hvordan sikrer regjeringen at det barnevernstiltaket som er faglig best for barn
       <sporsmal_til_minister_id>ABD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>arbeidsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I Navs møte 31. januar 2013 med "Fokus På Din Helse" ble det uttrykt at de ville kjøpe 30 plasser til arbeidsrettet rehabilitering, omtrent på nivå med 2012. Resultatet er åtte kjøpte plasser. Dette er lite forutsigbart og svært krevende å forholde seg til for så vel brukere som tilbydere.
-Kan statsråden forsikre at tilbudet er stort nok for arbeidsrettet rehabilitering, og at tilbydere får lengre og mer forutsigbare avtaler?</tittel>
+      <tittel>om statsråden kan forsikre at tilbudet er stort nok for _arbeidsrettet rehabilitering_, og at tilbydere får lengre og mer forutsigbare avtaler</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -2219,7 +2280,22 @@ Kan statsråden gi løfte om at norske bønder ikke blir pålagt et nytt regelve
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-02-12T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56516</id>
@@ -2260,8 +2336,7 @@ Kan statsråden gi løfte om at norske bønder ikke blir pålagt et nytt regelve
       <sporsmal_til_minister_id>ABD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>arbeidsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>En person har vært på arbeidsavklaringspenger i over fire år. I denne perioden har det vært liten, det vil si nærmest fravær av kontakt med det lokale Nav-kontoret. Vedkommende har prøvd gjentatte ganger selv å få i stand møter. Ikke før han engasjerer advokat, blir et møte holdt. Da er en kommet to år ut i arbeidsavklaringsløpet. På grunn av dårlig personkjemi prøver han å bytte Nav-kontor uten hell, og saken står fremdeles, etter over fire år, på stedet hvil.
-Hva mener statsråden om denne type saker?</tittel>
+      <tittel>om en sak der en person har vært på arbeidsavklaringspenger i over fire år samtidig som kontakten med det lokale Nav-kontoret har vært nærmest fraværende, og hva statråden mener om denne type saker</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -2282,7 +2357,43 @@ Hva mener statsråden om denne type saker?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-02-12T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>23</id>
+          <navn>NATURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56514</id>
@@ -2323,8 +2434,7 @@ Hva mener statsråden om denne type saker?</tittel>
       <sporsmal_til_minister_id>MD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>miljøvernministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Riksadvokaten har instruert landets politidistrikter om å slå hardt ned på kjøring med vannscooter. Dette skjer selv om ESA skriftlig i brev 3. oktober 2012 ga beskjed til Miljøverndepartementet om at straffeforfølgningen av norske vannscooterførere er uhørt og må stoppes. Den første som ble dømt for vannscooterkjøring i sommer må gjennomføre ankesak i Agder lagmannsrett 5. mars, til tross for at ESA er krystallklare på at føreren ikke har gjort noe ulovlig.
-Hvor lenge mener statsråden at norske myndigheter skal fortsette å håndheve et regelverk i strid med uttalelsen fra ESA?</tittel>
+      <tittel>om _straffeforfølging av norske vannscooterførere_ og hvor lenge norske myndigheter skal fortsette å håndheve et regelverk i strid med uttalelse fra ESA</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -2681,7 +2791,15 @@ Hvor lenge mener statsråden at norske myndigheter skal fortsette å håndheve e
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-02-07T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56515</id>
@@ -2722,8 +2840,7 @@ Hvor lenge mener statsråden at norske myndigheter skal fortsette å håndheve e
       <sporsmal_til_minister_id>UD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>utenriksministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Situasjonen i Afghanistan er fortsatt svært utfordrende. Flere land er i ferd med å gjennomføre nedtrekk av styrker, og et nytt presidentvalg nærmer seg. Gjennomføringen av presidentvalget kommer til å bli meget viktig for afghanerne og alle de land som har engasjert seg i Afghanistan. Måten valget gjennomføres på vil bli en test på hvor langt landet er kommet og om grunnleggende rettigheter for den enkelte har en reell verdi. 
-Hva ser utenriksministeren som den største utfordringen for det kommende valget?</tittel>
+      <tittel>om hva utenriksministeren ser som den største utfordringen for det kommende _valget i Afghanistan_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
