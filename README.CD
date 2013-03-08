@@ -7,7 +7,7 @@ The vote data files are available from
 Each vote consist of two files.  The *.R# files list the votes, and
 the *.# files include the individual votes.  For example OK10S1.153
 and OK10S1.R03 have the voting information for the 153th parlament, day
-10 (kartnr) case 1 (saksnr). (FIXME: Not sure what the R03 part represent)
+10 (kartnr) case 1 (saksnr). (Not sure what the R03 part represent)
 
 The *.R* files contain a long line with the voters IDs, names and
 party.  The charset seem to be IBM PC Codepage 865 from 1990 to 1999
@@ -21,14 +21,14 @@ bytes in the file (two spaces) should be skipped, and then a new line
 should be inserted every 70 bytes to see the columns.  When this
 splitting is done, the result will look like this:
 
-Aust-Agder                         Hordaland                          
-   1: F. de Ruiter           A       49: O. Akselsen            A     
-   2: I. Skårmo              FRP     50: A. Sortevik            FRP   
-   3: I. Løite               A       51: E. Solberg             H     
-   4: Å. G. Woie Duesund     KRF     52: P. R. Henriksen        A     
-                                     53: G. Hagesæter           FRP   
-Vest-Agder                           54: I. S. Sørfonn          KRF   
-   5: H. Skumsvoll           FRP     55: *****                        
+Aust-Agder                         Hordaland
+   1: F. de Ruiter           A       49: O. Akselsen            A
+   2: I. Skårmo              FRP     50: A. Sortevik            FRP
+   3: I. Løite               A       51: E. Solberg             H
+   4: Å. G. Woie Duesund     KRF     52: P. R. Henriksen        A
+                                     53: G. Hagesæter           FRP
+Vest-Agder                           54: I. S. Sørfonn          KRF
+   5: H. Skumsvoll           FRP     55: *****
 
 The name of the parlament bench (Aust-Agder etc) is listed above the
 set of members on that bench.
@@ -44,6 +44,6 @@ proposal.  '-' means no vote were casted.  The ordering seem to be
 according to seat ID (the number in front of the colon in the list of
 voters.
 
-Except that there are 172 votes cast each time according to this.
-using (\d{2}:\d{2}:\d{2})([FM\-]{169}) the votes may be found but there are still always [MF\-]{3} left.
-The stortingspresidenten has a vote that counts double (in case of a draw), maybe that's one. Are there others with a double vote?
+There are three extra votes (172, should be 169).
+According to Arild Øverby from Stortinget they represents the president,
+the secretary, and a special handicap spot.
