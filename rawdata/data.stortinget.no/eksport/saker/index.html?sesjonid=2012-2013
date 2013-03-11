@@ -158,7 +158,29 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>66</id>
+          <navn>SYKDOMMER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>188</id>
+          <navn>FOLKEHELSE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Meld. St. 16 (2012-2013)</henvisning>
       <id>56694</id>
       <innstilling_id>-1</innstilling_id>
@@ -296,7 +318,50 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>38</id>
+          <navn>BOLIGSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>83</id>
+          <navn>PRISER OG KONKURRANSEFORHOLD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>136</id>
+          <navn>BYGNINGSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>138</id>
+          <navn>HUSBANKEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Meld. St. 17 (2012-2013)</henvisning>
       <id>56697</id>
       <innstilling_id>-1</innstilling_id>
@@ -313,7 +378,43 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>35</id>
+          <navn>UNIVERSITETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>159</id>
+          <navn>HØYERE UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>160</id>
+          <navn>HØGSKOLER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Meld. St. 18 (2012-2013)</henvisning>
       <id>56698</id>
       <innstilling_id>-1</innstilling_id>
@@ -3795,7 +3896,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Storberget</etternavn>
           <foedselsdato>1964-10-06T00:00:00</foedselsdato>
           <fornavn>Knut</fornavn>
@@ -6631,7 +6732,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Kleppa</etternavn>
           <foedselsdato>1948-11-12T00:00:00</foedselsdato>
           <fornavn>Magnhild Meltveit</fornavn>
