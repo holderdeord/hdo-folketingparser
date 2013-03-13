@@ -293,6 +293,51 @@ class VoteReader
           return true
         end
       end
+
+      false
+    end
+
+    def print_rebels
+      parties = Hash.new do |hash, key|
+        hash[key] = {
+          results: [],
+          counts: Hash.new(0)
+        }
+      end
+
+      @results.each do |result|
+        next if result[:result] == "-"
+        obj = parties[result[:representative][:party]]
+        obj[:results] << result
+        obj[:counts][result[:result]] += 1
+      end
+
+      puts
+      parties.each do |party, data|
+        party_position, count = data[:counts].max_by { |_, value| value }
+        rebels = data[:results].reject { |e| e[:result] == party_position }
+
+        if rebels.any?
+          puts "#{party}: #{count}/#{data[:results].size} representanter stemte #{party_position}"
+          rebels.each do |r|
+            puts "\t#{r[:seat].to_s.ljust(3)}: #{r[:representative][:name]} stemt #{r[:result]}"
+          end
+        end
+      end
+    end
+
+    IGNORED_VOTES = [
+      "2009-11-19 13:24:46 +0100",
+      "2009-12-11 15:04:59 +0100",
+      "2010-05-27 16:52:03 +0200",
+      "2010-05-31 14:40:39 +0200",
+      "2010-05-31 14:41:33 +0200",
+      "2010-06-10 21:41:40 +0200",
+      "2010-06-18 16:41:51 +0200"
+    ].map { |e| Time.parse(e) }
+
+    def ignore?
+      IGNORED_VOTES.include?(time)
     end
 
     def minutes
@@ -610,24 +655,25 @@ class IssueFinder
   end
 end
 
+DATE_EXP = /\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2} \+\d{4}/
 
 if __FILE__ == $0
-  if ARGV.size == 2
-    kartnr, saknr = ARGV
-    results = VoteReader.new(kartnr, saknr).results
-    results.first.print
-  elsif ARGV.size == 1
-    cmd = ARGV.first
-    case cmd
-    when 'print-counts'
-      VoteReader.print_counts
-    when 'find-errors'
-      VoteReader.find_errors
-    when /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2} \+\d{4}$/
-      found = VoteReader.find_time(Time.parse(cmd))
-      found.print if found
+  cmd = ARGV.first
+  case cmd
+  when 'print-counts'
+    VoteReader.print_counts
+  when 'find-errors'
+    VoteReader.find_errors
+  when /^#{DATE_EXP}$/
+    found = VoteReader.find_time(Time.parse(cmd))
+    abort "not found" unless found
+
+    if ARGV.last == "show-rebels"
+      found.print_rebels
     else
-      raise "unknown command: #{cmd.inspect}"
+      found.print
     end
+  else
+    raise "unknown command: #{cmd.inspect}"
   end
 end
