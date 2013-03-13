@@ -114,6 +114,8 @@ class VoteReader
           io << vote.csv
         end
       end
+
+      $stderr.puts "#{error_count} / #{vote_count} = (#{error_count * 100 / vote_count}%)"
     end
 
     def each(&blk)
@@ -371,8 +373,8 @@ class VoteReader
 
       if s62_result == s172_result
         @results.delete s172
-      elsif s172_result == "-"
-        # ignored
+      elsif s172_result == "-" && s62_result != "-"
+        @results.delete(s172)
       elsif s62_result == "-"
         s62[:result] = s172[:result]
         @results.delete(s172)
@@ -539,7 +541,7 @@ class VoteReader
     end
 
     def president_nsd_id
-      PRESIDENT_CORRECTIONS[[@kartnr.to_s, @saknr.to_s]] || @issue.fetch(:president)
+      PRESIDENT_CORRECTIONS[[kartnr.to_s, saknr.to_s]] || @issue.fetch(:president)
     end
 
     def fix_secretary_vote
