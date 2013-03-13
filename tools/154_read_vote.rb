@@ -263,9 +263,11 @@ class VoteReader
 
       @time = Time.parse(issue.values_at(:date, :time).join(' '))
 
-      fix_handicap_seat
-      fix_secretary_vote
-      fix_president_vote
+      unless ENV['NOFIX']
+        fix_handicap_seat
+        fix_secretary_vote
+        fix_president_vote
+      end
     end
 
     def csv
@@ -306,19 +308,19 @@ class VoteReader
       end
 
       @results.each do |result|
-        next if result[:result] == "-"
+        next if result[:result] == "-" || result[:representative].nil?
         obj = parties[result[:representative][:party]]
         obj[:results] << result
         obj[:counts][result[:result]] += 1
       end
 
-      puts
       parties.each do |party, data|
         party_position, count = data[:counts].max_by { |_, value| value }
         rebels = data[:results].reject { |e| e[:result] == party_position }
+        present_count = data[:results].size
 
         if rebels.any?
-          puts "#{party}: #{count}/#{data[:results].size} representanter stemte #{party_position}"
+          puts "#{party}: #{count}/#{present_count} (#{count * 100 / present_count}%) representanter stemte #{party_position}"
           rebels.each do |r|
             puts "\t#{r[:seat].to_s.ljust(3)}: #{r[:representative][:name]} stemt #{r[:result]}"
           end
@@ -379,6 +381,8 @@ class VoteReader
       puts "Ikke tilstede : #{counts[:absent]}"
       puts "Referat       : #{@issue[:link]}"
       puts "Kommentar     : #{@comments.join(', ')}"
+      puts
+      print_rebels
       puts
 
       if include_votes
@@ -655,8 +659,6 @@ class IssueFinder
   end
 end
 
-DATE_EXP = /\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2} \+\d{4}/
-
 if __FILE__ == $0
   cmd = ARGV.first
   case cmd
@@ -664,15 +666,9 @@ if __FILE__ == $0
     VoteReader.print_counts
   when 'find-errors'
     VoteReader.find_errors
-  when /^#{DATE_EXP}$/
+  when /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2} \+\d{4}$/
     found = VoteReader.find_time(Time.parse(cmd))
-    abort "not found" unless found
-
-    if ARGV.last == "show-rebels"
-      found.print_rebels
-    else
-      found.print
-    end
+    found ? found.print : abort("not found")
   else
     raise "unknown command: #{cmd.inspect}"
   end
