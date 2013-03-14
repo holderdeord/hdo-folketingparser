@@ -87,7 +87,22 @@ Jeg vil gjerne spørre statsråden om han nå også vil se på den typen tiltak,
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-03-13T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>133</id>
+          <navn>VETERINÆRVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56735</id>
@@ -128,9 +143,7 @@ Jeg vil gjerne spørre statsråden om han nå også vil se på den typen tiltak,
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Mitt spørsmål går til landbruksministeren: Vi har dessverre i den senere tid og over lang tid sett at vi har mer dyretragedier og store dyretragedier i landet. Det har vi sett både i aviser og på tv. Vi har i den senere tid sett tilfeller der sauer har sultet i hjel, og vi har hestetragedier rundt omkring på gårdene. Det som går igjen i disse sakene, er at man ser at Mattilsynet går inn og finner avvik. På en gård har altså dyr dødd: Mattilsynet går inn, gir dem bare pålegg og skriver avviksrapporter. Man kommer tilbake senere og finner ut at det ikke er blitt noe særlig bedre. Man mangler et helhetlig system i tilsynet, noe også Riksrevisjonen sier, slik at det er forskjellig hvor det slås ned på dyretragediene ut fra hvor man er i landet. Man har mulighet til å ilegge aktivitetsnekt for å få ned dette, men det vil man sjelden gjøre. 
-Vi i Fremskrittspartiet mener at vi skal slå hardt ned på dem som ikke gjør en god jobb på dyrevelferd, at de skal miste retten til å ha dyr, og så skal de som er flinke med dyr, få ha de dyrene. Det mener vi er en viktig politikk. Vi er nødt til å gjøre noe for å få ned dyretragediene, så mitt spørsmål til statsråden blir: Er statsråden fornøyd med Mattilsynets jobb her? Og er statsråden enig med Fremskrittspartiet i at på grunn av helsen til dyrene burde man ilegge aktivitetsnekt mye oftere enn man gjør i dag, slik at man kan ta dyrevelferden på alvor? 
-</tittel>
+      <tittel>om statsråden er fornøyd med _Mattilsynets jobb i forbindelse med dyretragedier_, og hvorvidt man av hensyn til dyrenes helse burde ilegge aktivitetsnekt oftere enn man gjør i dag, slik at man kan ta dyrevelferden på alvor</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
