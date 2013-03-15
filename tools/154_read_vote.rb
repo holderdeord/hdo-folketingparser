@@ -26,6 +26,18 @@ class VoteReader
       end
     end
 
+    def json
+      result = {} # timestamp => results
+
+      each do |votes|
+        votes.each do |vote|
+          result[vote.time.to_s] = vote.json_results
+        end
+      end
+
+      result
+    end
+
     def count_representatives
       reps = Set.new
 
@@ -260,7 +272,6 @@ class VoteReader
       end
 
       @comments = []
-
       @time = Time.parse(issue.values_at(:date, :time).join(' '))
 
       unless ENV['NOFIX']
@@ -268,6 +279,26 @@ class VoteReader
         fix_secretary_vote
         fix_president_vote
       end
+    end
+
+    def json_results
+      @results.map do |result|
+        result_to_json(result)
+      end
+    end
+
+    RESULT_MAP = {
+      'F' => 'for',
+      '-' => 'absent',
+      'M' => 'against'
+    }
+
+    def result_to_json(result)
+      shorthand = result[:representative][:name]
+      result = RESULT_MAP.fetch(result[:result])
+
+      rep = RepresentativeFinder.find(shorthand).dup
+      rep.merge('voteResult' => result)
     end
 
     def csv
@@ -421,7 +452,7 @@ class VoteReader
       s172_result = s172[:result]
 
       if s62_result == s172_result
-        @results.delete s172
+        @results.delete(s172)
       elsif s172_result == "-" && s62_result != "-"
         @results.delete(s172)
       elsif s62_result == "-"
@@ -659,6 +690,16 @@ class IssueFinder
   end
 end
 
+class RepresentativeFinder
+  def self.index
+    @index ||= JSON.parse(File.read(File.expand_path("../../rawdata/arkiv/hdo-representatives-2009-2010.json", __FILE__)))
+  end
+
+  def self.find(shorthand)
+    index.fetch(shorthand)
+  end
+end
+
 if __FILE__ == $0
   cmd = ARGV.first
   case cmd
@@ -666,6 +707,8 @@ if __FILE__ == $0
     VoteReader.print_counts
   when 'find-errors'
     VoteReader.find_errors
+  when 'json'
+    puts VoteReader.json.to_json
   when /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2} \+\d{4}$/
     found = VoteReader.find_time(Time.parse(cmd))
     found ? found.print : abort("not found")

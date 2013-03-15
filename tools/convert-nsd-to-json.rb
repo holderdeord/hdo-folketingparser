@@ -134,8 +134,8 @@ class PolitikerarkivFileReader
         rep['parties'] << {
           "kind"       => "hdo#partyMembership",
           "externalId" => party(parti_id),
-          "startDate"  => "2009-10-1",
-          "endDate"    => "2010-9-30"
+          "startDate"  => "2009-10-01",
+          "endDate"    => "2010-09-30"
         }
         rep['parties'].uniq!
         rep['touched'] = true
@@ -144,7 +144,7 @@ class PolitikerarkivFileReader
   end
 
   def needs_party_membership(rep)
-    @_date ||= Time.parse('2009-10-1')
+    @_date ||= Time.parse('2009-10-01')
     !rep['parties'].find do |party_membership|
       Time.parse(party_membership['startDate']) <= @_date && (party_membership['endDate'].nil? || Time.parse(party_membership['endDate']) >= @_date)
     end
@@ -206,8 +206,8 @@ class PolitikerarkivFileReader
         {
           "kind"       => "hdo#partyMembership",
           "externalId" => party(party),
-          "startDate"  => "2009-10-1",
-          "endDate"    => "2010-9-30"
+          "startDate"  => "2009-10-01",
+          "endDate"    => "2010-09-30"
         }
       ],
       "committees"     => [
@@ -355,7 +355,7 @@ __END__
     "externalId": "KEG",
     "firstName": "Kent",
     "lastName": "Gudmundsen",
-    "dateOfBirth": "1978-3-5",
+    "dateOfBirth": "1978-03-05",
     "dateOfDeath": null,
     "district": "Troms",
     "parties": [
@@ -375,7 +375,7 @@ __END__
     "externalId": "EFU",
     "firstName": "Erlend",
     "lastName": "Fuglum",
-    "dateOfBirth": "1978-3-13",
+    "dateOfBirth": "1978-03-13",
     "dateOfDeath": null,
     "district": "Nord-Trøndelag",
     "parties": [
@@ -395,7 +395,7 @@ __END__
     "externalId": "EINH",
     "firstName": "Einar",
     "lastName": "Horvei",
-    "dateOfBirth": "1955-1-3",
+    "dateOfBirth": "1955-01-03",
     "dateOfDeath": null,
     "district": "Hordaland",
     "parties": [
@@ -415,7 +415,7 @@ __END__
     "externalId": "LBT",
     "firstName": "Lars Bjarne",
     "lastName": "Tvete",
-    "dateOfBirth": "1948-1-4",
+    "dateOfBirth": "1948-01-04",
     "dateOfDeath": null,
     "district": "Sør-Trøndelag",
     "parties": [
@@ -430,4 +430,4 @@ __END__
 
     ]
   }
-]     
+]
