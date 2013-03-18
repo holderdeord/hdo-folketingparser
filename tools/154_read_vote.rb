@@ -278,6 +278,7 @@ class VoteReader
         fix_handicap_seat
         fix_secretary_vote
         fix_president_vote
+        fix_corrected_votes
       end
     end
 
@@ -362,6 +363,11 @@ class VoteReader
     IGNORED_VOTES = [
       "2009-11-19 13:24:46 +0100",
       "2009-12-11 15:04:59 +0100",
+      '2009-12-03 16:20:13 +0100',
+      '2009-12-03 16:20:39 +0100',
+      '2009-12-08 20:19:53 +0100',
+      '2009-12-11 15:04:59 +0100',
+      '2010-02-11 18:38:53 +0100',
       "2010-05-27 16:52:03 +0200",
       "2010-05-31 14:40:39 +0200",
       "2010-05-31 14:41:33 +0200",
@@ -481,6 +487,24 @@ class VoteReader
         @comments << "presidenten stemte likt på begge plasser, #{inspect_result actual_seat} vs #{inspect_result s170}"
       elsif actual_seat[:result] != s170[:result]
         @comments << "presidenten stemte ulikt på begge plasser, #{inspect_result actual_seat} vs #{inspect_result s170}"
+      end
+    end
+
+    CORRECTED_VOTES = {
+      '2010-05-10 19:43:58 +0200' => {154 => 'F'},
+      '2010-06-15 22:51:44 +0200' => {128 => 'F'},
+      '2010-06-15 22:53:11 +0200' => {132 => 'M', 135 => 'M'},
+      '2009-11-26 00:26:57 +0100' => {102 => 'M'},
+      '2009-11-26 00:26:34 +0100' => {62 =>  'M'}
+    }
+
+    def fix_corrected_votes
+      corrections = CORRECTED_VOTES[time.to_s] || []
+      if corrections.any?
+        corrections.each do |seat, correct_vote|
+          result = @results.find { |e| e[:seat] == seat } or raise "could not find seath #{seat} for correction @ #{time}"
+          result[:result] = correct_vote
+        end
       end
     end
 
