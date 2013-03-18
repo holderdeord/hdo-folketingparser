@@ -31,6 +31,7 @@ class VoteReader
 
       each do |votes|
         votes.each do |vote|
+          next if vote.ignore?
           result[vote.time.to_s] = vote.json_results
         end
       end
@@ -368,6 +369,7 @@ class VoteReader
       '2009-12-08 20:19:53 +0100',
       '2009-12-11 15:04:59 +0100',
       '2010-02-11 18:38:53 +0100',
+      '2010-03-26 13:35:54 +0100',
       "2010-05-27 16:52:03 +0200",
       "2010-05-31 14:40:39 +0200",
       "2010-05-31 14:41:33 +0200",
