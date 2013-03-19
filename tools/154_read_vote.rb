@@ -374,7 +374,7 @@ class VoteReader
       "2010-05-31 14:40:39 +0200",
       "2010-05-31 14:41:33 +0200",
       "2010-06-10 21:41:40 +0200",
-      "2010-06-18 16:41:51 +0200"
+      "2010-06-18 16:41:51 +0200",
     ].map { |e| Time.parse(e) }
 
     def ignore?
@@ -737,7 +737,13 @@ if __FILE__ == $0
     puts VoteReader.json.to_json
   when /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2} \+\d{4}$/
     found = VoteReader.find_time(Time.parse(cmd))
-    found ? found.print : abort("not found")
+
+    if found
+      found.print
+      puts JSON.pretty_generate(found.json_results) if ENV['JSON']
+    else
+      abort("not found")
+    end
   else
     raise "unknown command: #{cmd.inspect}"
   end
