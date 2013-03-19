@@ -322,7 +322,7 @@ Hva vil statsråden gjøre for å sikre at tiltak som Nettverk etter soning og a
       <versjon>1.0</versjon>
       <besvart_av>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Vedum</etternavn>
         <foedselsdato>1978-12-01T00:00:00</foedselsdato>
         <fornavn>Trygve Slagsvold</fornavn>
@@ -367,7 +367,7 @@ Hva vil statsråden gjøre for å sikre at tiltak som Nettverk etter soning og a
       <sporsmal_nummer>71</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Vedum</etternavn>
         <foedselsdato>1978-12-01T00:00:00</foedselsdato>
         <fornavn>Trygve Slagsvold</fornavn>
@@ -448,7 +448,7 @@ Hvordan vurderer statsråden Forsvarsbyggs utførelse av sitt oppdrag, og hvorda
       <versjon>1.0</versjon>
       <besvart_av>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Holmås</etternavn>
         <foedselsdato>1972-06-28T00:00:00</foedselsdato>
         <fornavn>Heikki Eidsvoll</fornavn>
@@ -493,7 +493,7 @@ Hvordan vurderer statsråden Forsvarsbyggs utførelse av sitt oppdrag, og hvorda
       <sporsmal_nummer>69</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Holmås</etternavn>
         <foedselsdato>1972-06-28T00:00:00</foedselsdato>
         <fornavn>Heikki Eidsvoll</fornavn>
@@ -816,7 +816,7 @@ Hva vil statsråden gjøre for å følge opp vedtakene?</tittel>
       <sporsmal_nummer>64</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Tajik</etternavn>
         <foedselsdato>1983-07-18T00:00:00</foedselsdato>
         <fornavn>Hadia</fornavn>
@@ -1136,7 +1136,36 @@ Hva vil statsråden gjøre for at det norske statsbudsjettet er i tråd med Norg
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-01-25T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>47</id>
+          <navn>VEGTRAFIKK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56201</id>
@@ -1177,15 +1206,14 @@ Hva vil statsråden gjøre for at det norske statsbudsjettet er i tråd med Norg
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>Statens vegvesen bygger nå ny tofeltsvei på E39 på strekningen Søgne-Ålgård mellom Kristiansand og Sandnes, til tross for at en NHO-undersøkelse fra Oslo Economics har slått fast at regjeringen har regnet feil når det gjelder den kalkulerte trafikkveksten som lå til grunn for at man valgte tofeltsvei. Trafikken har økt med 50 prosent på syv år, og ifølge analysen burde man bygge firefeltsvei på strekningen. I dag krever veinormalene en årsdøgntrafikk på 12 000 for å utløse firefeltsvei, og den lange planleggings- og byggeperioden betyr at kapasiteten på veien kan være for lav allerede den dagen den nye veien åpner. Det er allerede behov for seksfeltsvei på firefeltsstrekninger som E6 Oslo-Sverige og E39 Sandnes-Stavanger.
-Er regjeringen villig til å senke ÅDT-kravene i veinormalene for firefeltsvei og legge økt vekt på de enkelte veienes økonomiske betydning for Norge?</tittel>
+      <tittel>om å senke _kravene til årsdøgntrafikk i veinormalene for firefeltsvei_ og legge økt vekt på de enkelte veienes økonomiske betydning</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.0</versjon>
       <besvart_av>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Holmås</etternavn>
         <foedselsdato>1972-06-28T00:00:00</foedselsdato>
         <fornavn>Heikki Eidsvoll</fornavn>
@@ -1280,7 +1308,7 @@ Er regjeringen villig til å senke ÅDT-kravene i veinormalene for firefeltsvei 
       <sporsmal_nummer>57</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Holmås</etternavn>
         <foedselsdato>1972-06-28T00:00:00</foedselsdato>
         <fornavn>Heikki Eidsvoll</fornavn>
@@ -1970,7 +1998,7 @@ Hva vil statsråden gjøre for å innfri regjeringens løfter på rehabilitering
       <versjon>1.0</versjon>
       <besvart_av>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aasrud</etternavn>
         <foedselsdato>1960-06-26T00:00:00</foedselsdato>
         <fornavn>Rigmor</fornavn>
@@ -1998,7 +2026,7 @@ Hva vil statsråden gjøre for å innfri regjeringens løfter på rehabilitering
       <id>55872</id>
       <rette_vedkommende>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aasrud</etternavn>
         <foedselsdato>1960-06-26T00:00:00</foedselsdato>
         <fornavn>Rigmor</fornavn>
@@ -2202,7 +2230,7 @@ Vil statsråden nå ta initiativ til en strategisk vurdering av hvilket ambisjon
       <versjon>1.0</versjon>
       <besvart_av>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aasrud</etternavn>
         <foedselsdato>1960-06-26T00:00:00</foedselsdato>
         <fornavn>Rigmor</fornavn>
@@ -2262,7 +2290,7 @@ Vil statsråden nå ta initiativ til en strategisk vurdering av hvilket ambisjon
       <sporsmal_nummer>44</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aasrud</etternavn>
         <foedselsdato>1960-06-26T00:00:00</foedselsdato>
         <fornavn>Rigmor</fornavn>
@@ -2545,7 +2573,7 @@ Vil statsråden nå ta initiativ til en strategisk vurdering av hvilket ambisjon
       <versjon>1.0</versjon>
       <besvart_av>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Holmås</etternavn>
         <foedselsdato>1972-06-28T00:00:00</foedselsdato>
         <fornavn>Heikki Eidsvoll</fornavn>
@@ -2612,7 +2640,7 @@ Vil statsråden nå ta initiativ til en strategisk vurdering av hvilket ambisjon
       <sporsmal_nummer>40</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Holmås</etternavn>
         <foedselsdato>1972-06-28T00:00:00</foedselsdato>
         <fornavn>Heikki Eidsvoll</fornavn>
@@ -2629,7 +2657,7 @@ Vil statsråden nå ta initiativ til en strategisk vurdering av hvilket ambisjon
       <versjon>1.0</versjon>
       <besvart_av>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Holmås</etternavn>
         <foedselsdato>1972-06-28T00:00:00</foedselsdato>
         <fornavn>Heikki Eidsvoll</fornavn>
@@ -2710,7 +2738,7 @@ Vil statsråden nå ta initiativ til en strategisk vurdering av hvilket ambisjon
       <sporsmal_nummer>39</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Holmås</etternavn>
         <foedselsdato>1972-06-28T00:00:00</foedselsdato>
         <fornavn>Heikki Eidsvoll</fornavn>
@@ -3175,7 +3203,7 @@ Vil statsråden nå ta initiativ til en strategisk vurdering av hvilket ambisjon
       <versjon>1.0</versjon>
       <besvart_av>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Tajik</etternavn>
         <foedselsdato>1983-07-18T00:00:00</foedselsdato>
         <fornavn>Hadia</fornavn>
@@ -3242,7 +3270,7 @@ Vil statsråden nå ta initiativ til en strategisk vurdering av hvilket ambisjon
       <sporsmal_nummer>33</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Tajik</etternavn>
         <foedselsdato>1983-07-18T00:00:00</foedselsdato>
         <fornavn>Hadia</fornavn>
@@ -3427,7 +3455,7 @@ Vil statsråden nå ta initiativ til en strategisk vurdering av hvilket ambisjon
       <versjon>1.0</versjon>
       <besvart_av>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aasrud</etternavn>
         <foedselsdato>1960-06-26T00:00:00</foedselsdato>
         <fornavn>Rigmor</fornavn>
@@ -3487,7 +3515,7 @@ Vil statsråden nå ta initiativ til en strategisk vurdering av hvilket ambisjon
       <sporsmal_nummer>30</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aasrud</etternavn>
         <foedselsdato>1960-06-26T00:00:00</foedselsdato>
         <fornavn>Rigmor</fornavn>
@@ -4456,7 +4484,7 @@ Vil statsråden nå ta initiativ til en strategisk vurdering av hvilket ambisjon
       <versjon>1.0</versjon>
       <besvart_av>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Tajik</etternavn>
         <foedselsdato>1983-07-18T00:00:00</foedselsdato>
         <fornavn>Hadia</fornavn>
@@ -4565,7 +4593,7 @@ Vil statsråden nå ta initiativ til en strategisk vurdering av hvilket ambisjon
       <sporsmal_nummer>17</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Tajik</etternavn>
         <foedselsdato>1983-07-18T00:00:00</foedselsdato>
         <fornavn>Hadia</fornavn>
@@ -4764,7 +4792,7 @@ Vil statsråden nå ta initiativ til en strategisk vurdering av hvilket ambisjon
       <versjon>1.0</versjon>
       <besvart_av>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aasrud</etternavn>
         <foedselsdato>1960-06-26T00:00:00</foedselsdato>
         <fornavn>Rigmor</fornavn>
@@ -4799,7 +4827,7 @@ Vil statsråden nå ta initiativ til en strategisk vurdering av hvilket ambisjon
       <id>54603</id>
       <rette_vedkommende>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aasrud</etternavn>
         <foedselsdato>1960-06-26T00:00:00</foedselsdato>
         <fornavn>Rigmor</fornavn>
@@ -6054,7 +6082,7 @@ Vil statsråden nå ta initiativ til en strategisk vurdering av hvilket ambisjon
       <versjon>1.0</versjon>
       <besvart_av>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aasrud</etternavn>
         <foedselsdato>1960-06-26T00:00:00</foedselsdato>
         <fornavn>Rigmor</fornavn>
@@ -6149,7 +6177,7 @@ Vil statsråden nå ta initiativ til en strategisk vurdering av hvilket ambisjon
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aasrud</etternavn>
         <foedselsdato>1960-06-26T00:00:00</foedselsdato>
         <fornavn>Rigmor</fornavn>
