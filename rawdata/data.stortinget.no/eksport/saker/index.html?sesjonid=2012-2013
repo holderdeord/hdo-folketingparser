@@ -384,7 +384,29 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>68</id>
+          <navn>KUNST</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Meld. St. 19 (2012-2013)</henvisning>
       <id>56766</id>
       <innstilling_id>-1</innstilling_id>
@@ -418,6 +440,13 @@
           <er_hovedemne>false</er_hovedemne>
           <id>7</id>
           <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>95</id>
+          <navn>LØNN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -744,7 +773,27 @@
       </komite>
       <korttittel>Endringer i lovgivningen om industrielt rettsvern m.m. (styrking av håndhevingsreglene)</korttittel>
       <sak_fremmet_id>56772</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Dahl</etternavn>
+          <foedselsdato>1975-07-07T00:00:00</foedselsdato>
+          <fornavn>André Oktay</fornavn>
+          <id>ADA</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-03-18T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i lovgivningen om industrielt rettsvern m.m. (styrking av håndhevingsreglene)</tittel>
@@ -754,7 +803,36 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>31</id>
+          <navn>SKOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>158</id>
+          <navn>VIDEREGÅENDE SKOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>183</id>
+          <navn>GRUNNSKOLE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Meld. St. 20 (2012-2013)</henvisning>
       <id>56773</id>
       <innstilling_id>-1</innstilling_id>
@@ -885,7 +963,27 @@
       </komite>
       <korttittel>Endringer i vegtrafikkloven (elektronisk betalingsenhet i kjøretøy)</korttittel>
       <sak_fremmet_id>56776</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Rommetveit</etternavn>
+          <foedselsdato>1956-04-27T00:00:00</foedselsdato>
+          <fornavn>Magne</fornavn>
+          <id>MAGR</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-03-18T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i vegtrafikkloven (elektronisk betalingsenhet i kjøretøy)</tittel>
@@ -1387,7 +1485,27 @@
       </komite>
       <korttittel>Endringer i straffeprosessloven mv. (elektronisk kontroll som varetektssurrogat mv.)</korttittel>
       <sak_fremmet_id>56695</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Asmyhr</etternavn>
+          <foedselsdato>1970-02-26T00:00:00</foedselsdato>
+          <fornavn>Hans Frode Kielland</fornavn>
+          <id>HAFA</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-03-14T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i straffeprosessloven mv. (elektronisk kontroll som varetektssurrogat mv.)</tittel>
@@ -1451,7 +1569,27 @@
       </komite>
       <korttittel>Forebygging og bekjempelse av vold i nære relasjoner. Det handler om å leve</korttittel>
       <sak_fremmet_id>56696</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Ljunggren</etternavn>
+          <foedselsdato>1984-06-13T00:00:00</foedselsdato>
+          <fornavn>Anna</fornavn>
+          <id>ALJ</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>No</id>
+            <navn>Nordland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-03-14T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Forebygging og bekjempelse av vold i nære relasjoner. Det handler om å leve</tittel>
@@ -2125,7 +2263,27 @@
       </komite>
       <korttittel>Representantforslag om å sikre at flere aktører kan analysere DNA i straffesaker, for å sikre bedre rettssikkerhet og kvalitet i etterforskning av kriminalitet</korttittel>
       <sak_fremmet_id>56540</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Leirstein</etternavn>
+          <foedselsdato>1973-06-30T00:00:00</foedselsdato>
+          <fornavn>Ulf</fornavn>
+          <id>UIL</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Øs</id>
+            <navn>Østfold</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-03-05T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene André Oktay Dahl, Anders B. Werp, Elisabeth Aspaker og Bent Høie om å sikre at flere aktører kan analysere DNA i straffesaker, for å sikre bedre rettssikkerhet og kvalitet i etterforskning av kriminalitet</tittel>
@@ -5343,9 +5501,9 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 58 S (2012-2013)</henvisning>
+      <henvisning>Prop. 58 S (2012-2013), Innst. 249 S (2012-2013)</henvisning>
       <id>56202</id>
-      <innstilling_id>-1</innstilling_id>
+      <innstilling_id>11271</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>KOMMFORV</id>
@@ -5374,7 +5532,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-02-05T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2013-03-19T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i statsbudsjettet 2013 under Fornyings-, administrasjons- og kirkedepartementet (Rehabilitering av Slottsplassen)</tittel>
       <type>budsjett</type>
