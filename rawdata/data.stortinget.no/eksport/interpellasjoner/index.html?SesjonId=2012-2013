@@ -2279,7 +2279,36 @@ Hva vil statsråden gjøre for å innfri regjeringens løfter på rehabilitering
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2012-12-07T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>35</id>
+          <navn>UNIVERSITETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>159</id>
+          <navn>HØYERE UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>55798</id>
@@ -2320,8 +2349,7 @@ Hva vil statsråden gjøre for å innfri regjeringens løfter på rehabilitering
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>På Forskerforbundets konferanse i november uttalte statsråden at hun ønsker å heve ambisjonsnivået for norsk forskning og våre universiteter. Hun sa også at våre nordiske naboland tydeligvis har gjort noen riktige grep, fordi deres universiteter kommer klart bedre ut enn de norske på samtlige internasjonale rangeringer. Dette temaet tok jeg opp i en interpellasjon i Stortinget i mars 2011, og spurte om regjeringen ville vurdere en nasjonal strategi for å løfte våre fremste universiteter og miljøer. Daværende statsråd for høyere utdanning og forskning svarte at dette måtte sektoren selv ta ansvar for. På bakgrunn av nevnte uttalelser i november håper jeg det nå kan være et gunstigere klima for å diskutere dette temaet på nytt.
-Vil statsråden nå ta initiativ til en strategisk vurdering av hvilket ambisjonsnivå Norge bør ha for sine fremste universiteter, og tiltak for å løfte dem på internasjonale rangeringer?</tittel>
+      <tittel>om å ta initiativ til en strategisk vurdering av _hvilket ambisjonsnivå Norge bør ha for sine fremste universiteter_, og tiltak for å løfte dem på internasjonale rangeringer</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
