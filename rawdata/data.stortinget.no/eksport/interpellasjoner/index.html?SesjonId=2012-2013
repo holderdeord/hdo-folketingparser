@@ -588,7 +588,15 @@ Hva slags tiltak mener statsråden kan gjøres for å minske mengden av mat som 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-03-05T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56626</id>
@@ -629,8 +637,7 @@ Hva slags tiltak mener statsråden kan gjøres for å minske mengden av mat som 
       <sporsmal_til_minister_id>FD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>forsvarsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>En velfungerende forvaltning av forsvarssektorens eiendom, bygg og anlegg, EBA, sammen med tjenesteleveranser av høy kvalitet, er nødvendige forutsetninger både for en rasjonell økonomisk styring av forsvarssektoren og for Forsvarets evne til å levere operativt i tråd med Stortingets vedtak. Forsvarsbygg har ansvar for dette i dag, men får samtidig betydelig kritikk fra sin eneste bruker, Forsvaret, for kvaliteten på tjenestene og forvaltningen av Forsvarets EBA og infrastruktur.
-Hvordan vurderer statsråden Forsvarsbyggs utførelse av sitt oppdrag, og hvordan vil statsråden eventuelt forbedre denne ytterligere?</tittel>
+      <tittel>om _Forsvarsbyggs utførelse av sitt oppdrag_ med å forvalte Forsvarets eiendom, bygg, anlegg og infrastruktur, og hvordan statsråden eventuelt vil forbedre denne</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
@@ -906,9 +913,30 @@ Hvordan vil regjeringen imøtekomme alternativ kompetanse, og sørge for at denn
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>22</id>
           <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>107</id>
+          <navn>JERNBANER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -923,6 +951,13 @@ Hvordan vil regjeringen imøtekomme alternativ kompetanse, og sørge for at denn
           <er_hovedemne>false</er_hovedemne>
           <id>171</id>
           <navn>NORDISK SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
