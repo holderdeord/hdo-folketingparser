@@ -578,26 +578,34 @@ Jeg ber derfor om en oversikt over hvilke konsulenter som er benyttet og hvor ma
       <besvart_av>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Johnsen</etternavn>
-        <foedselsdato>1950-10-01T00:00:00</foedselsdato>
-        <fornavn>Sigbjørn</fornavn>
-        <id>SJ</id>
-        <kjoenn>mann</kjoenn>
+        <etternavn>Huitfeldt</etternavn>
+        <foedselsdato>1969-11-29T00:00:00</foedselsdato>
+        <fornavn>Anniken</fornavn>
+        <id>ANNH</id>
+        <kjoenn>kvinne</kjoenn>
       </besvart_av>
-      <besvart_av_minister_id>FIN</besvart_av_minister_id>
-      <besvart_av_minister_tittel>finansministeren</besvart_av_minister_tittel>
+      <besvart_av_minister_id>ABD</besvart_av_minister_id>
+      <besvart_av_minister_tittel>arbeidsministeren</besvart_av_minister_tittel>
       <besvart_dato>0001-01-01T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-04-04T00:00:00</datert_dato>
       <emne_liste />
-      <flyttet_til>ikke_spesifisert</flyttet_til>
+      <flyttet_til>rette_vedkommende</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56954</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
+      <rette_vedkommende>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Huitfeldt</etternavn>
+        <foedselsdato>1969-11-29T00:00:00</foedselsdato>
+        <fornavn>Anniken</fornavn>
+        <id>ANNH</id>
+        <kjoenn>kvinne</kjoenn>
+      </rette_vedkommende>
+      <rette_vedkommende_minister_id>ABD</rette_vedkommende_minister_id>
+      <rette_vedkommende_minister_tittel>arbeidsministeren</rette_vedkommende_minister_tittel>
       <sendt_dato>2013-04-04T00:00:00</sendt_dato>
       <sesjon_id>2012-2013</sesjon_id>
       <sporsmal_fra>
@@ -2051,7 +2059,7 @@ Hva vil statsråden bidra med for å hjelpe de som må forandre på gårdens opp
       </besvart_av>
       <besvart_av_minister_id>HOD</besvart_av_minister_id>
       <besvart_av_minister_tittel>helse- og omsorgsministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2013-04-05T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
@@ -2096,7 +2104,7 @@ Hva vil statsråden bidra med for å hjelpe de som må forandre på gårdens opp
       </sporsmal_til>
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>I Bergens Tidende 22. mars kan en lese om et prosjekt som gjør at kvinner kan slippe å komme på sykehus for å få utført abort med abortpiller. Noe som vil være det beste for kvinnen som slipper sykehus og ikke minst at sykehuset vil få kapasitet til å utføre andre oppgaver. Prosjektet har vart i to - år. Men en har arbeidet med dette langt ut over disse årene. Nødvendig regelendringer og forskrifter er nå på plass. Bare finansieringen gjenstår.
 Kan kvinner, spesialister og sykehus forvente en avgjørelse raskt?</tittel>
       <type>skriftlig_sporsmal</type>
@@ -2366,7 +2374,7 @@ Vil statsråden vurdere om dette bør inngå som en del av den obligatoriske fø
       </besvart_av>
       <besvart_av_minister_id>HOD</besvart_av_minister_id>
       <besvart_av_minister_tittel>helse- og omsorgsministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2013-04-05T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
@@ -2411,7 +2419,7 @@ Vil statsråden vurdere om dette bør inngå som en del av den obligatoriske fø
       </sporsmal_til>
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>Vil statsråden ta initiativ og sørge for at det nye Østfoldsykehuset får nok parkeringsplasser til å dekke nåværende og kjent fremtidig behov?</tittel>
       <type>skriftlig_sporsmal</type>
     </sporsmal>
@@ -2679,7 +2687,7 @@ Når kommer avklaring om bygg?</tittel>
       </besvart_av>
       <besvart_av_minister_id>FD</besvart_av_minister_id>
       <besvart_av_minister_tittel>forsvarsministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2013-04-05T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
@@ -2732,7 +2740,7 @@ Når kommer avklaring om bygg?</tittel>
       </sporsmal_til>
       <sporsmal_til_minister_id>MD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>miljøvernministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>Hvor langt har man kommet med rydding og "reparasjon" av det militære skytefeltet på Hjerkinn og ligger man i rute iht. det tidsskjemaet som ble laget for dette prosjektet?</tittel>
       <type>skriftlig_sporsmal</type>
     </sporsmal>
@@ -3061,7 +3069,7 @@ Har regjeringen planer om å bygge ut tilbudet om barnehus til andre deler av la
       </besvart_av>
       <besvart_av_minister_id>HOD</besvart_av_minister_id>
       <besvart_av_minister_tittel>helse- og omsorgsministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2013-04-05T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
@@ -3114,7 +3122,7 @@ Har regjeringen planer om å bygge ut tilbudet om barnehus til andre deler av la
       </sporsmal_til>
       <sporsmal_til_minister_id>KRD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kommunal- og regionalministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>Kontrollen av private skoler er streng. Derimot er kontrollen av offentlige skoler ivaretatt av skoleeiere, nemlig kommunene og fylkeskommunene. Dette er uheldig og det burde ikke være tvil om at kontrollen ville ha blitt bedre om den ble ivaretatt av en uavhengig instans.
 Vil kommunalministeren ta initiativ til at også kommunale skoler og fylkeskommunalt drevne skoler blir underlagt uavhengig kontroll?</tittel>
       <type>skriftlig_sporsmal</type>
@@ -3757,7 +3765,7 @@ Er dette en oppfatning som nå også deles av statsråden?</tittel>
       </besvart_av>
       <besvart_av_minister_id>HOD</besvart_av_minister_id>
       <besvart_av_minister_tittel>helse- og omsorgsministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2013-04-05T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
@@ -3802,7 +3810,7 @@ Er dette en oppfatning som nå også deles av statsråden?</tittel>
       </sporsmal_til>
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>Det finnes ingen overordnet avtale om hva kommunale helsetjenester i fengsel skal yte. En ny veileder sier nå blant annet at helsetjenesten skal betale for egen bruk av tolk. Tidligere var dette politiets ansvar for de som var i varetekt.
 Vil statsråden sørge for at fengselshelsetjenesten som betjener et stort antall utenlandske innsatte får tilstrekkelig med midler til tolketjeneste og vil han arbeide for å få på plass en formell avtale mellom justis- og helsedepartementet slik en har på utdanningssiden?</tittel>
       <type>skriftlig_sporsmal</type>
