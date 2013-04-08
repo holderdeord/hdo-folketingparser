@@ -4260,6 +4260,20 @@ Hvordan sikrer regjeringen at det barnevernstiltaket som er faglig best for barn
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>184</id>
           <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
@@ -4348,6 +4362,13 @@ Hvordan sikrer regjeringen at det barnevernstiltaket som er faglig best for barn
           <navn>POLITI OG PÅTALEMYNDIGHET</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>181</id>
+          <navn>SIVIL BEREDSKAP</navn>
+          <underemne_liste />
+        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -4421,8 +4442,22 @@ Hvordan sikrer regjeringen at det barnevernstiltaket som er faglig best for barn
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
           <id>141</id>
           <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -4466,7 +4501,7 @@ Hvordan sikrer regjeringen at det barnevernstiltaket som er faglig best for barn
       <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hvorvidt regjeringen og statsråden vil ta et initiativ til å se på utfordringene som ligger i de bekymringsmeldingene som framkommer om _asylsøkere uten ID_, da PST har fått reduserte ressurser og muligheter til å drive kontroll og overvåking innenfor disse miljøene</tittel>
+      <tittel>om regjeringen vil ta initiativ til å se på utfordringene som ligger i de bekymringsmeldingene som framkommer om _asylsøkere uten ID_, da Politiets utlendingsmyndighet har fått reduserte ressurser og muligheter til å drive kontroll og overvåking innenfor disse miljøene</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
