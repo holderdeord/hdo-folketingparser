@@ -100,6 +100,62 @@
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:138 S (2011-2012), Innst. 229 S (2012-2013)</henvisning>
+      <id>54149</id>
+      <innstilling_id>11251</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KOMMFORV</id>
+        <navn>Kommunal- og forvaltningskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om innstramminger i grunnlaget for å gi utenlandske statsborgere permanent oppholdstillatelse i Norge</korttittel>
+      <sak_fremmet_id>54149</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Christoffersen</etternavn>
+          <foedselsdato>1955-08-05T00:00:00</foedselsdato>
+          <fornavn>Lise</fornavn>
+          <id>LIC</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Bu</id>
+            <navn>Buskerud</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-03-21T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Morten Ørsal Johansen, Gjermund Hagesæter og Åge Starheim om innstramminger i grunnlaget for å gi utenlandske statsborgere permanent oppholdstillatelse i Norge</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>2</id>
           <navn>KOMMUNIKASJON</navn>
@@ -154,62 +210,6 @@
       <sist_oppdatert_dato>2013-03-21T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Representantforslag fra stortingsrepresentantene Geir Jørgen Bekkevold, Hans Olav Syversen og Kjell Ingolf Ropstad om bedre koordinering og strategisk styring av IKT-prosjekter i offentlig sektor</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>18</id>
-          <navn>INNVANDRERE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:138 S (2011-2012), Innst. 229 S (2012-2013)</henvisning>
-      <id>54149</id>
-      <innstilling_id>11251</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>KOMMFORV</id>
-        <navn>Kommunal- og forvaltningskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om innstramminger i grunnlaget for å gi utenlandske statsborgere permanent oppholdstillatelse i Norge</korttittel>
-      <sak_fremmet_id>54149</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Christoffersen</etternavn>
-          <foedselsdato>1955-08-05T00:00:00</foedselsdato>
-          <fornavn>Lise</fornavn>
-          <id>LIC</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Bu</id>
-            <navn>Buskerud</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-03-21T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Morten Ørsal Johansen, Gjermund Hagesæter og Åge Starheim om innstramminger i grunnlaget for å gi utenlandske statsborgere permanent oppholdstillatelse i Norge</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -668,6 +668,62 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>168</id>
+          <navn>FN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Meld. St. 19 (2011-2012), Innst. 32 S (2012-2013)</henvisning>
+      <id>52676</id>
+      <innstilling_id>11053</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>UFK</id>
+        <navn>Utenriks- og forsvarskomiteen</navn>
+      </komite>
+      <korttittel>Noregs deltaking i den 66. ordinære generalforsamlinga i Dei sameinte nasjonane (FN) og vidareførte sesjonar av den 65. generalforsamlinga i FN</korttittel>
+      <sak_fremmet_id>52676</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Woldseth</etternavn>
+          <foedselsdato>1954-08-09T00:00:00</foedselsdato>
+          <fornavn>Karin S.</fornavn>
+          <id>KSW</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-03-07T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Noregs deltaking i den 66. ordinære generalforsamlinga i Dei sameinte nasjonane (FN) og vidareførte sesjonar av den 65. generalforsamlinga i FN</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>6</id>
           <navn>KULTUR</navn>
           <underemne_liste />
@@ -721,62 +777,6 @@
       <sist_oppdatert_dato>2013-03-07T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Den norske idrettsmodellen</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>168</id>
-          <navn>FN</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Meld. St. 19 (2011-2012), Innst. 32 S (2012-2013)</henvisning>
-      <id>52676</id>
-      <innstilling_id>11053</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>UFK</id>
-        <navn>Utenriks- og forsvarskomiteen</navn>
-      </komite>
-      <korttittel>Noregs deltaking i den 66. ordinære generalforsamlinga i Dei sameinte nasjonane (FN) og vidareførte sesjonar av den 65. generalforsamlinga i FN</korttittel>
-      <sak_fremmet_id>52676</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Woldseth</etternavn>
-          <foedselsdato>1954-08-09T00:00:00</foedselsdato>
-          <fornavn>Karin S.</fornavn>
-          <id>KSW</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ho</id>
-            <navn>Hordaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>FrP</id>
-            <navn>Fremskrittspartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-03-07T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Noregs deltaking i den 66. ordinære generalforsamlinga i Dei sameinte nasjonane (FN) og vidareførte sesjonar av den 65. generalforsamlinga i FN</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -1081,62 +1081,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>65</id>
-          <navn>SVANGERSKAP</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:148 S (2011-2012), Innst. 193 S (2012-2013)</henvisning>
-      <id>54156</id>
-      <innstilling_id>11212</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>HELSEOMS</id>
-        <navn>Helse- og omsorgskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om reduksjon av tidsrammen og omfanget av senaborter</korttittel>
-      <sak_fremmet_id>54156</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Olsen</etternavn>
-          <foedselsdato>1965-11-30T00:00:00</foedselsdato>
-          <fornavn>Wenche</fornavn>
-          <id>WO</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Øs</id>
-            <navn>Østfold</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-02-12T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Laila Dåvøy, Line Henriette Hjemdal, Kjell Ingolf Ropstad, Hans Olav Syversen og Dagrun Eriksen om reduksjon av tidsrammen og omfanget av senaborter</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>188</id>
           <navn>FOLKEHELSE</navn>
           <underemne_liste />
@@ -1186,20 +1130,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>49</id>
-          <navn>FUNKSJONSHEMMEDE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
           <id>61</id>
           <navn>HELSEVESEN</navn>
           <underemne_liste />
@@ -1207,34 +1137,34 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>186</id>
-          <navn>TRYGDER</navn>
+          <id>65</id>
+          <navn>SVANGERSKAP</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Dokument 8:136 S (2011-2012), Innst. 175 S (2012-2013)</henvisning>
-      <id>54147</id>
-      <innstilling_id>11197</innstilling_id>
+      <henvisning>Dokument 8:148 S (2011-2012), Innst. 193 S (2012-2013)</henvisning>
+      <id>54156</id>
+      <innstilling_id>11212</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
-        <id>ARBSOS</id>
-        <navn>Arbeids- og sosialkomiteen</navn>
+        <id>HELSEOMS</id>
+        <navn>Helse- og omsorgskomiteen</navn>
       </komite>
-      <korttittel>Representantforslag om å sikre bedre rettigheter til pleiepenger for pårørende med alvorlig syke barn</korttittel>
-      <sak_fremmet_id>54147</sak_fremmet_id>
+      <korttittel>Representantforslag om reduksjon av tidsrammen og omfanget av senaborter</korttittel>
+      <sak_fremmet_id>54156</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
           <versjon>1.0</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Henriksen</etternavn>
-          <foedselsdato>1955-08-10T00:00:00</foedselsdato>
-          <fornavn>Kari</fornavn>
-          <id>KARH</id>
+          <etternavn>Olsen</etternavn>
+          <foedselsdato>1965-11-30T00:00:00</foedselsdato>
+          <fornavn>Wenche</fornavn>
+          <id>WO</id>
           <kjoenn>kvinne</kjoenn>
           <fylke>
             <versjon>1.0</versjon>
-            <id>VA</id>
-            <navn>Vest-Agder</navn>
+            <id>Øs</id>
+            <navn>Østfold</navn>
           </fylke>
           <parti>
             <versjon>1.0</versjon>
@@ -1245,7 +1175,7 @@
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-02-12T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Robert Eriksson, Laila Marie Reiertsen og Vigdis Giltun om å sikre bedre rettigheter til pleiepenger for pårørende med alvorlig syke barn</tittel>
+      <tittel>Representantforslag fra stortingsrepresentantene Laila Dåvøy, Line Henriette Hjemdal, Kjell Ingolf Ropstad, Hans Olav Syversen og Dagrun Eriksen om reduksjon av tidsrammen og omfanget av senaborter</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -1316,6 +1246,76 @@
       <sist_oppdatert_dato>2013-02-12T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Representantforslag fra stortingsrepresentantene Vigdis Giltun, Robert Eriksson, Laila Marie Reiertsen og Bente Thorsen om en opptrappingsplan for tilpasset utdanning og arbeid for personer med utviklingshemming</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>49</id>
+          <navn>FUNKSJONSHEMMEDE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:136 S (2011-2012), Innst. 175 S (2012-2013)</henvisning>
+      <id>54147</id>
+      <innstilling_id>11197</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>ARBSOS</id>
+        <navn>Arbeids- og sosialkomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om å sikre bedre rettigheter til pleiepenger for pårørende med alvorlig syke barn</korttittel>
+      <sak_fremmet_id>54147</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Henriksen</etternavn>
+          <foedselsdato>1955-08-10T00:00:00</foedselsdato>
+          <fornavn>Kari</fornavn>
+          <id>KARH</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>VA</id>
+            <navn>Vest-Agder</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-02-12T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Robert Eriksson, Laila Marie Reiertsen og Vigdis Giltun om å sikre bedre rettigheter til pleiepenger for pårørende med alvorlig syke barn</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -2574,6 +2574,69 @@
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>154</id>
+          <navn>POLITISKE PARTIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>170</id>
+          <navn>EUROPARÅDET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 140 L (2011-2012), Innst. 155 L (2012-2013), Lovvedtak 35 (2012-2013)</henvisning>
+      <id>54205</id>
+      <innstilling_id>11177</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KOMMFORV</id>
+        <navn>Kommunal- og forvaltningskomiteen</navn>
+      </komite>
+      <korttittel>Endringar i partiloven</korttittel>
+      <sak_fremmet_id>54205</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Helleland</etternavn>
+          <foedselsdato>1962-07-10T00:00:00</foedselsdato>
+          <fornavn>Trond</fornavn>
+          <id>TROH</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Bu</id>
+            <navn>Buskerud</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2012-12-18T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Endringar i partiloven</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>87</id>
           <navn>BANKER</navn>
@@ -2692,69 +2755,6 @@
       <status>behandlet</status>
       <tittel>Representantforslag fra stortingsrepresentantene Gjermund Hagesæter, Per-Willy Amundsen, Oskar J. Grimstad, Henning Skumsvoll, Morten Ørsal Johansen og Åge Starheim om å begrense fylkesmannens innsigelsesrett i kommunale plan- og arealsaker</tittel>
       <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>151</id>
-          <navn>STATSFORFATNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>154</id>
-          <navn>POLITISKE PARTIER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>170</id>
-          <navn>EUROPARÅDET</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 140 L (2011-2012), Innst. 155 L (2012-2013), Lovvedtak 35 (2012-2013)</henvisning>
-      <id>54205</id>
-      <innstilling_id>11177</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>KOMMFORV</id>
-        <navn>Kommunal- og forvaltningskomiteen</navn>
-      </komite>
-      <korttittel>Endringar i partiloven</korttittel>
-      <sak_fremmet_id>54205</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Helleland</etternavn>
-          <foedselsdato>1962-07-10T00:00:00</foedselsdato>
-          <fornavn>Trond</fornavn>
-          <id>TROH</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Bu</id>
-            <navn>Buskerud</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2012-12-18T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Endringar i partiloven</tittel>
-      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -2994,6 +2994,83 @@
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>38</id>
+          <navn>BOLIGSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>52</id>
+          <navn>KOMMUNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:130 S (2011-2012), Innst. 154 S (2012-2013)</henvisning>
+      <id>54043</id>
+      <innstilling_id>11176</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KOMMFORV</id>
+        <navn>Kommunal- og forvaltningskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om en ny bolig- og byutviklingspolitikk for bærekraft og livskvalitet</korttittel>
+      <sak_fremmet_id>54043</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Haugli</etternavn>
+          <foedselsdato>1969-05-21T00:00:00</foedselsdato>
+          <fornavn>Håkon</fornavn>
+          <id>HAKH</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2012-12-17T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Geir Jørgen Bekkevold, Knut Arild Hareide, Line Henriette Hjemdal og Hans Olav Syversen om en ny bolig- og byutviklingspolitikk for bærekraft og livskvalitet</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>58</id>
           <navn>SKATTER</navn>
@@ -3111,83 +3188,6 @@
       <sist_oppdatert_dato>2012-12-17T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Representantforslag fra stortingsrepresentantene Ketil Solvik-Olsen, Christian Tybring-Gjedde, Kenneth Svendsen og Jørund Rytman om skattefritak for arbeidsgiverfinansiert månedskort</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>2</id>
-          <navn>KOMMUNIKASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>38</id>
-          <navn>BOLIGSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:130 S (2011-2012), Innst. 154 S (2012-2013)</henvisning>
-      <id>54043</id>
-      <innstilling_id>11176</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>KOMMFORV</id>
-        <navn>Kommunal- og forvaltningskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om en ny bolig- og byutviklingspolitikk for bærekraft og livskvalitet</korttittel>
-      <sak_fremmet_id>54043</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Haugli</etternavn>
-          <foedselsdato>1969-05-21T00:00:00</foedselsdato>
-          <fornavn>Håkon</fornavn>
-          <id>HAKH</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2012-12-17T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Geir Jørgen Bekkevold, Knut Arild Hareide, Line Henriette Hjemdal og Hans Olav Syversen om en ny bolig- og byutviklingspolitikk for bærekraft og livskvalitet</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -3986,6 +3986,13 @@
           <navn>NÆRINGSLIV</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
       </emne_liste>
       <henvisning>Dokument 8:96 S (2011-2012), Innst. 51 S (2012-2013)</henvisning>
       <id>53428</id>
@@ -4033,6 +4040,13 @@
           <er_hovedemne>true</er_hovedemne>
           <id>113</id>
           <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -4129,6 +4143,27 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>163</id>
           <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
@@ -4138,6 +4173,13 @@
           <er_hovedemne>true</er_hovedemne>
           <id>173</id>
           <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>179</id>
+          <navn>TELEKOMMUNIKASJONER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -4255,83 +4297,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>18</id>
-          <navn>INNVANDRERE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>173</id>
-          <navn>EFTA/EU</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 152 L (2011-2012), Innst. 82 L (2012-2013), Lovvedtak 21 (2012-2013)</henvisning>
-      <id>54693</id>
-      <innstilling_id>11107</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>ARBSOS</id>
-        <navn>Arbeids- og sosialkomiteen</navn>
-      </komite>
-      <korttittel>Lov om gjennomføring i norsk rett av EØS-avtalen om fri rørsle av arbeidstakarar innanfor EØS-området (EØS-arbeidstakarlova)</korttittel>
-      <sak_fremmet_id>54693</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Dåvøy</etternavn>
-          <foedselsdato>1948-08-11T00:00:00</foedselsdato>
-          <fornavn>Laila</fornavn>
-          <id>LD</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ho</id>
-            <navn>Hordaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>KrF</id>
-            <navn>Kristelig Folkeparti</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2012-12-05T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Lov om gjennomføring i norsk rett av EØS-avtalen vedlegg V punkt 2 (forordning (EU) nr. 492/2011) om fri rørsle av arbeidstakarar innanfor EØS-området (EØS-arbeidstakarlova)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>5</id>
-          <navn>ARBEIDSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>7</id>
           <navn>SYSSELSETTING</navn>
           <underemne_liste />
@@ -4409,6 +4374,83 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 152 L (2011-2012), Innst. 82 L (2012-2013), Lovvedtak 21 (2012-2013)</henvisning>
+      <id>54693</id>
+      <innstilling_id>11107</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>ARBSOS</id>
+        <navn>Arbeids- og sosialkomiteen</navn>
+      </komite>
+      <korttittel>Lov om gjennomføring i norsk rett av EØS-avtalen om fri rørsle av arbeidstakarar innanfor EØS-området (EØS-arbeidstakarlova)</korttittel>
+      <sak_fremmet_id>54693</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Dåvøy</etternavn>
+          <foedselsdato>1948-08-11T00:00:00</foedselsdato>
+          <fornavn>Laila</fornavn>
+          <id>LD</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>KrF</id>
+            <navn>Kristelig Folkeparti</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2012-12-05T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Lov om gjennomføring i norsk rett av EØS-avtalen vedlegg V punkt 2 (forordning (EU) nr. 492/2011) om fri rørsle av arbeidstakarar innanfor EØS-området (EØS-arbeidstakarlova)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>10</id>
           <navn>SOSIALVESEN</navn>
           <underemne_liste />
@@ -4469,6 +4511,83 @@
       <sist_oppdatert_dato>2012-12-05T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Samtykke til inngåelse av avtale om sosial trygd mellom Norge og Canada av 20. juni 2012</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>20</id>
+          <navn>HANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 138 S (2011-2012), Innst. 99 S (2012-2013)</henvisning>
+      <id>54199</id>
+      <innstilling_id>11120</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
+      <korttittel>Samtykke til godkjenning av avgjerd i EØS-komiteen om kamp mot forseinka betaling ved handelstransaksjonar</korttittel>
+      <sak_fremmet_id>54199</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Dahl</etternavn>
+          <foedselsdato>1975-07-07T00:00:00</foedselsdato>
+          <fornavn>André Oktay</fornavn>
+          <id>ADA</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2012-12-04T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Samtykke til godkjenning av avgjerd i EØS-komiteen nr. 55/2012 av 30. mars 2012 om innlemming i EØS-avtalen av direktiv 2011/7/EU av 16. februar 2011 om kamp mot forseinka betaling ved handelstransaksjonar</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -4553,83 +4672,6 @@
       <sist_oppdatert_dato>2012-12-04T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Samtykke til godkjenning av avgjerd i EØS-komiteen nr. 9/2012 av 10. februar 2012 om innlemming i EØS-avtala av forordning (EF) nr. 282/2008 om materiale og gjenstandar av resirkulert plast som er meinte for å kome i kontakt med næringsmiddel</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>20</id>
-          <navn>HANDEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>113</id>
-          <navn>NÆRINGSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>173</id>
-          <navn>EFTA/EU</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 138 S (2011-2012), Innst. 99 S (2012-2013)</henvisning>
-      <id>54199</id>
-      <innstilling_id>11120</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>JUSTIS</id>
-        <navn>Justiskomiteen</navn>
-      </komite>
-      <korttittel>Samtykke til godkjenning av avgjerd i EØS-komiteen om kamp mot forseinka betaling ved handelstransaksjonar</korttittel>
-      <sak_fremmet_id>54199</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Dahl</etternavn>
-          <foedselsdato>1975-07-07T00:00:00</foedselsdato>
-          <fornavn>André Oktay</fornavn>
-          <id>ADA</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ak</id>
-            <navn>Akershus</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2012-12-04T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Samtykke til godkjenning av avgjerd i EØS-komiteen nr. 55/2012 av 30. mars 2012 om innlemming i EØS-avtalen av direktiv 2011/7/EU av 16. februar 2011 om kamp mot forseinka betaling ved handelstransaksjonar</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -4824,6 +4866,20 @@
           <er_hovedemne>true</er_hovedemne>
           <id>2</id>
           <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -5487,90 +5543,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>46</id>
-          <navn>LANDBRUK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>69</id>
-          <navn>LANDBRUKSPRODUKTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>82</id>
-          <navn>TOLL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>99</id>
-          <navn>UTENRIKSHANDEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>113</id>
-          <navn>NÆRINGSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:139 S (2011-2012), Innst. 76 S (2012-2013)</henvisning>
-      <id>54161</id>
-      <innstilling_id>11097</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>UFK</id>
-        <navn>Utenriks- og forsvarskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om endringer i den norske praktiseringen av GSP-systemet for handel med utviklingsland</korttittel>
-      <sak_fremmet_id>54161</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Brekk</etternavn>
-          <foedselsdato>1955-10-08T00:00:00</foedselsdato>
-          <fornavn>Lars Peder</fornavn>
-          <id>LAPB</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>NT</id>
-            <navn>Nord-Trøndelag</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>Sp</id>
-            <navn>Senterpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2012-11-29T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Morten Høglund, Torgeir Trældal og Jørund Rytman om endringer i den norske praktiseringen av GSP-systemet for handel med utviklingsland</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
           <id>61</id>
           <navn>HELSEVESEN</navn>
           <underemne_liste />
@@ -6033,6 +6005,90 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>69</id>
+          <navn>LANDBRUKSPRODUKTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>82</id>
+          <navn>TOLL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>99</id>
+          <navn>UTENRIKSHANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:139 S (2011-2012), Innst. 76 S (2012-2013)</henvisning>
+      <id>54161</id>
+      <innstilling_id>11097</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>UFK</id>
+        <navn>Utenriks- og forsvarskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om endringer i den norske praktiseringen av GSP-systemet for handel med utviklingsland</korttittel>
+      <sak_fremmet_id>54161</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Brekk</etternavn>
+          <foedselsdato>1955-10-08T00:00:00</foedselsdato>
+          <fornavn>Lars Peder</fornavn>
+          <id>LAPB</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>NT</id>
+            <navn>Nord-Trøndelag</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2012-11-29T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Morten Høglund, Torgeir Trældal og Jørund Rytman om endringer i den norske praktiseringen av GSP-systemet for handel med utviklingsland</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
           <underemne_liste />
@@ -6466,69 +6522,6 @@
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>5</id>
-          <navn>ARBEIDSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>17</id>
-          <navn>PERSONVERN</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Meld. St. 32 (2011-2012), Innst. 64 S (2012-2013)</henvisning>
-      <id>54389</id>
-      <innstilling_id>11086</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>KOMMFORV</id>
-        <navn>Kommunal- og forvaltningskomiteen</navn>
-      </komite>
-      <korttittel>Datatilsynets og Personvernnemndas årsmeldinger for 2011</korttittel>
-      <sak_fremmet_id>54389</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Tetzschner</etternavn>
-          <foedselsdato>1954-02-09T00:00:00</foedselsdato>
-          <fornavn>Michael</fornavn>
-          <id>MIT</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2012-11-20T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Datatilsynets og Personvernnemndas årsmeldinger for 2011</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>18</id>
           <navn>INNVANDRERE</navn>
@@ -6604,6 +6597,69 @@
       <sist_oppdatert_dato>2012-11-20T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Barn på flukt</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Meld. St. 32 (2011-2012), Innst. 64 S (2012-2013)</henvisning>
+      <id>54389</id>
+      <innstilling_id>11086</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KOMMFORV</id>
+        <navn>Kommunal- og forvaltningskomiteen</navn>
+      </komite>
+      <korttittel>Datatilsynets og Personvernnemndas årsmeldinger for 2011</korttittel>
+      <sak_fremmet_id>54389</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Tetzschner</etternavn>
+          <foedselsdato>1954-02-09T00:00:00</foedselsdato>
+          <fornavn>Michael</fornavn>
+          <id>MIT</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2012-11-20T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Datatilsynets og Personvernnemndas årsmeldinger for 2011</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -7081,16 +7137,16 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 131 S (2011-2012), Innst. 36 S (2012-2013)</henvisning>
-      <id>52683</id>
-      <innstilling_id>11057</innstilling_id>
+      <henvisning>Prop. 137 S (2011-2012), Innst. 35 S (2012-2013)</henvisning>
+      <id>54202</id>
+      <innstilling_id>11056</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>FINANS</id>
         <navn>Finanskomiteen</navn>
       </komite>
-      <korttittel>Skatteinformasjonsavtale med Republikken Guatemala</korttittel>
-      <sak_fremmet_id>52683</sak_fremmet_id>
+      <korttittel>Samtykke til å sette i kraft en skatteavtale mellom Norge og Malta</korttittel>
+      <sak_fremmet_id>54202</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
           <versjon>1.0</versjon>
@@ -7114,7 +7170,7 @@
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2012-11-15T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
-      <tittel>Samtykke til å setje i kraft ein overeinskomst mellom Kongeriket Noreg og Republikken Guatemala om opplysningar i skattesaker underskriven i Paris 15. mai 2012</tittel>
+      <tittel>Samtykke til å sette i kraft en skatteavtale mellom Norge og Malta, undertegnet i Valletta 30. mars 2012</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -7151,16 +7207,16 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 137 S (2011-2012), Innst. 35 S (2012-2013)</henvisning>
-      <id>54202</id>
-      <innstilling_id>11056</innstilling_id>
+      <henvisning>Prop. 131 S (2011-2012), Innst. 36 S (2012-2013)</henvisning>
+      <id>52683</id>
+      <innstilling_id>11057</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>FINANS</id>
         <navn>Finanskomiteen</navn>
       </komite>
-      <korttittel>Samtykke til å sette i kraft en skatteavtale mellom Norge og Malta</korttittel>
-      <sak_fremmet_id>54202</sak_fremmet_id>
+      <korttittel>Skatteinformasjonsavtale med Republikken Guatemala</korttittel>
+      <sak_fremmet_id>52683</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
           <versjon>1.0</versjon>
@@ -7184,7 +7240,7 @@
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2012-11-15T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
-      <tittel>Samtykke til å sette i kraft en skatteavtale mellom Norge og Malta, undertegnet i Valletta 30. mars 2012</tittel>
+      <tittel>Samtykke til å setje i kraft ein overeinskomst mellom Kongeriket Noreg og Republikken Guatemala om opplysningar i skattesaker underskriven i Paris 15. mai 2012</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -7375,49 +7431,6 @@
       <status>behandlet</status>
       <tittel>Årsmelding 2011 for Pensjonsordningen for stortingsrepresentanter</tittel>
       <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>25</id>
-          <navn>REGJERINGEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>26</id>
-          <navn>STORTINGSREPRESENTANTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>151</id>
-          <navn>STATSFORFATNING</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 139 L (2011-2012), Innst. 26 L (2012-2013), Lovvedtak 3 (2012-2013)</henvisning>
-      <id>54204</id>
-      <innstilling_id>11042</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>PRES</id>
-        <navn>Stortingets presidentskap</navn>
-      </komite>
-      <korttittel>Lov om registrering av regjeringsmedlemmers verv og økonomiske interesser</korttittel>
-      <sak_fremmet_id>54204</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-10-25T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Lov om registrering av regjeringsmedlemmers verv og økonomiske interesser</tittel>
-      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -7642,6 +7655,49 @@
       <status>behandlet</status>
       <tittel>Representantforslag fra stortingsrepresentantene Kenneth Svendsen, Ketil Solvik-Olsen, Christian Tybring-Gjedde, Jørund Rytman og Per Arne Olsen om å fjerne avgiften på båtmotorer</tittel>
       <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>25</id>
+          <navn>REGJERINGEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>26</id>
+          <navn>STORTINGSREPRESENTANTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 139 L (2011-2012), Innst. 26 L (2012-2013), Lovvedtak 3 (2012-2013)</henvisning>
+      <id>54204</id>
+      <innstilling_id>11042</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>PRES</id>
+        <navn>Stortingets presidentskap</navn>
+      </komite>
+      <korttittel>Lov om registrering av regjeringsmedlemmers verv og økonomiske interesser</korttittel>
+      <sak_fremmet_id>54204</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2012-10-25T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Lov om registrering av regjeringsmedlemmers verv og økonomiske interesser</tittel>
+      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
