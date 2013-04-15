@@ -259,26 +259,34 @@ Ser justisministeren at det i denne saken kunne vært hensiktsmessig å gjøre m
       <besvart_av>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Huitfeldt</etternavn>
-        <foedselsdato>1969-11-29T00:00:00</foedselsdato>
-        <fornavn>Anniken</fornavn>
-        <id>ANNH</id>
-        <kjoenn>kvinne</kjoenn>
+        <etternavn>Støre</etternavn>
+        <foedselsdato>1960-08-25T00:00:00</foedselsdato>
+        <fornavn>Jonas Gahr</fornavn>
+        <id>JGS</id>
+        <kjoenn>mann</kjoenn>
       </besvart_av>
-      <besvart_av_minister_id>ABD</besvart_av_minister_id>
-      <besvart_av_minister_tittel>arbeidsministeren</besvart_av_minister_tittel>
+      <besvart_av_minister_id>HOD</besvart_av_minister_id>
+      <besvart_av_minister_tittel>helse- og omsorgsministeren</besvart_av_minister_tittel>
       <besvart_dato>0001-01-01T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-04-12T00:00:00</datert_dato>
       <emne_liste />
-      <flyttet_til>ikke_spesifisert</flyttet_til>
+      <flyttet_til>rette_vedkommende</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>57085</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
+      <rette_vedkommende>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Støre</etternavn>
+        <foedselsdato>1960-08-25T00:00:00</foedselsdato>
+        <fornavn>Jonas Gahr</fornavn>
+        <id>JGS</id>
+        <kjoenn>mann</kjoenn>
+      </rette_vedkommende>
+      <rette_vedkommende_minister_id>HOD</rette_vedkommende_minister_id>
+      <rette_vedkommende_minister_tittel>helse- og omsorgsministeren</rette_vedkommende_minister_tittel>
       <sendt_dato>2013-04-15T00:00:00</sendt_dato>
       <sesjon_id>2012-2013</sesjon_id>
       <sporsmal_fra>
@@ -3671,7 +3679,7 @@ Hvilke tiltak gjennomføres av Avinor for å snu denne utviklingen og for å sik
       </besvart_av>
       <besvart_av_minister_id>SD</besvart_av_minister_id>
       <besvart_av_minister_tittel>samferdselsministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2013-04-15T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
@@ -3716,7 +3724,7 @@ Hvilke tiltak gjennomføres av Avinor for å snu denne utviklingen og for å sik
       </sporsmal_til>
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>Departementet har avvist NSBs satsing på dagtog på Sørlandsbanen. Dette på tvers av faglige råd og på tross av at alle fylkeskommunene langs Sørlandsbanen hadde uttalt seg positiv til endringen. 
 Vil statsråden vurdere på nytt NSBs forslag om hyppigere avganger på Sørlandsbanen som et tillegg til sovevognene, og hva vil kostnaden av denne satsingen på hyppige avganger være?</tittel>
       <type>skriftlig_sporsmal</type>
