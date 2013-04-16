@@ -840,7 +840,22 @@ Hva vil statsråden gjøre for å sikre at tiltak som Nettverk etter soning og a
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-03-07T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56686</id>
@@ -881,7 +896,7 @@ Hva vil statsråden gjøre for å sikre at tiltak som Nettverk etter soning og a
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om tiltak for å minske mengden av _matavfall_</tittel>
+      <tittel>om tiltak for å minske mengden av _matavfall_, bl.a. fra storkjøkken, restauranter og private husholdninger</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
