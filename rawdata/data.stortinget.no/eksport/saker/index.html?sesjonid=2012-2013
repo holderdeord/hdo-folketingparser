@@ -22,6 +22,23 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 8:107 S (2012-2013)</henvisning>
+      <id>57119</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Representantforslag om å innføre bindende aksjonæravstemning om lederlønninger i aksjeselskaper</korttittel>
+      <sak_fremmet_id>57119</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-04-17T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Hans Olav Syversen, Dagrun Eriksen, Line Henriette Hjemdal og Geir Jørgen Bekkevold om å innføre bindende aksjonæravstemning om lederlønninger i aksjeselskaper</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>dokumentserien</dokumentgruppe>
       <emne_liste>
         <emne>
@@ -707,7 +724,27 @@
       </komite>
       <korttittel>Endringer i pasient- og brukerrettighetsloven mv. (rett til nødvendig helsehjelp og pasientrettighetsdirektivet m.m.)</korttittel>
       <sak_fremmet_id>57071</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Høie</etternavn>
+          <foedselsdato>1971-05-04T00:00:00</foedselsdato>
+          <fornavn>Bent</fornavn>
+          <id>BENH</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-04-16T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i pasient- og brukerrettighetsloven mv. (rett til nødvendig helsehjelp og pasientrettighetsdirektivet m.m.)</tittel>
@@ -2409,7 +2446,27 @@
       </komite>
       <korttittel>Representantforslag om en nasjonal handlingsplan for legevakt for å sikre kvalitet, kompetanse og tilgjengelighet for brukerne</korttittel>
       <sak_fremmet_id>56993</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Hjemdal</etternavn>
+          <foedselsdato>1971-10-18T00:00:00</foedselsdato>
+          <fornavn>Line Henriette</fornavn>
+          <id>LHH</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Øs</id>
+            <navn>Østfold</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>KrF</id>
+            <navn>Kristelig Folkeparti</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-04-09T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Robert Eriksson, Kari Kjønaas Kjos og Siv Jensen om en nasjonal handlingsplan for legevakt for å sikre kvalitet, kompetanse og tilgjengelighet for brukerne</tittel>
@@ -3130,7 +3187,27 @@
       </komite>
       <korttittel>Representantforslag om bedre helsebygg</korttittel>
       <sak_fremmet_id>56917</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Hjemdal</etternavn>
+          <foedselsdato>1971-10-18T00:00:00</foedselsdato>
+          <fornavn>Line Henriette</fornavn>
+          <id>LHH</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Øs</id>
+            <navn>Østfold</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>KrF</id>
+            <navn>Kristelig Folkeparti</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-04-04T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Bent Høie og Jan Tore Sanner om bedre helsebygg</tittel>
@@ -21755,13 +21832,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>191</id>
-          <navn>SÆRAVGIFTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>195</id>
           <navn>VERFTSINDUSTRI</navn>
           <underemne_liste />
@@ -21835,20 +21905,6 @@
           <er_hovedemne>false</er_hovedemne>
           <id>146</id>
           <navn>SIKKERHET TIL SJØS</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>175</id>
-          <navn>POLAROMRÅDER</navn>
           <underemne_liste />
         </emne>
         <emne>
