@@ -644,7 +644,29 @@ Hvordan ser statsråden på behovet for integrering i lokalsamfunnet når en så
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-04-11T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>43</id>
+          <navn>BARNEVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>57047</id>
@@ -685,8 +707,7 @@ Hvordan ser statsråden på behovet for integrering i lokalsamfunnet når en så
       <sporsmal_til_minister_id>BLID</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>barne-, likestillings- og inkluderingsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Ifølge Romerikes Blad 10. april 2013 har Akershus en dramatisk økning i omfanget av barnevernssaker. Ullensaker og Eidsvoll kommuner har i 2012 fristbrudd i henholdsvis 60,5 og 76,2 prosent av undersøkelsessakene. Stortinget har i 2010-2013 økt bevilgningene til det kommunale barnevernet. NRK melder at kommunene har fått midler til langt færre stillinger enn de har søkt om, og behovene er økende. Akershus har søkt om 56,2 stillinger, mens midler til 21,9 stillinger er tildelt.
-Hvordan vil statsråden møte denne veksten?</tittel>
+      <tittel>om hvordan statsråden vil møte den dramatiske _økningen i omfanget av barnevernssaker i Akershus_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -854,8 +875,7 @@ Kan statsråden bekrefte at en gjennomgang av § 10 i Forskrift om hold av storf
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Under Samferdselsdepartementets ansvarsområde finnes to selvstendige tilsyn: Jernbanetilsynet og Luftfartstilsynet og et etatstyrt tilsyn, Vegtilsynet. Tilsynene utfører en viktig oppgave for å sikre trygg transport av personer og gods. Det er viktig at tilsyn har ressurser til å utføre sine oppgaver på en god måte; at de har fokus på aktuelle problemstillinger innen sine områder, at dialogen med ansvarlig departement er god, at rapporter følges opp og at Stortinget får informasjon.
-Er statsråden fornøyd med dagens tilstand?</tittel>
+      <tittel>om statsråden er fornøyd med dagens tilstand for _tilsynene under Samferdselsdepartementets ansvarsområde_, med henvisning til at det er viktig at tilsyn har ressurser til å utføre sine oppgaver på en god måte</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
