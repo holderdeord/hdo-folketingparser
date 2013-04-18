@@ -288,7 +288,50 @@ Da er spørsmålet – når Stolenberg sier at dette gjør vi allerede i dag, og
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-04-17T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>37</id>
+          <navn>FYLKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>134</id>
+          <navn>FYLKESKOMMUNENES ØKONOMI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>57117</id>
@@ -329,12 +372,7 @@ Da er spørsmålet – når Stolenberg sier at dette gjør vi allerede i dag, og
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Det er vel ikke veldig vanskelig å skjønne hvem jeg skal stille spørsmål til – til samferdselsminister Marit Arnstad.
-Regjeringen la fredag fram sitt forslag til Nasjonal transportplan. Alle regjeringens utskremte løp rundt i byer og bygder og skrøt hemningsløst om hvor bra dette skulle bli. 
-Men mange kommer til å bli skuffet de kommende årene, spesielt alle de som hver dag kjører rundt på de 44 000 km med fylkesveier vi har. Mye av veinettet er i ferd med å råtne på rot. Asfalten smuldrer opp. Det er massevis av hull. Bruer og tunneler må repareres og rustes opp. Forfallet har nå kommet opp i svimlende tall – et sted mellom 45 mrd. kr og 75 mrd. kr. Det er altså nesten 4 700 km fylkesvei som mangler fast dekke eller asfalt. Det tilsvarer strekningen Kristiansand–Kirkenes tur/retur. Dette burde det vel vært gjort noe med for lenge, lenge siden, og det viser et enormt behov. 
-Statsråden sa på fredag at regjeringens bevilgninger til fylkeskommunene skal sørge for å stoppe forfallet i løpet av de første årene i den nye nasjonale transportplanen. Deretter skal man begynne å ta igjen forfallet. Det blir spennende å høre hvordan og når statsråden har tenkt å ta igjen det enorme forfallet, når vi vet at bare i senterpartileder Navarsetes hjemfylke, Sogn og Fjordane, er forfallet på 4 mrd. kr. I Nordland er forfallet på 7,8 mrd. kr. Bare disse to fylkene alene har mer i forfall enn alt det forfallet regjeringen skal bevilge penger til og ta igjen de neste ti årene. Da er det fortsatt 17 fylker som ikke har fått én eneste krone til å ta igjen sitt forfall. 
-Man behøver ikke være matematisk geni for å skjønne at det vil ta mange tiår før man får rustet opp fylkesveinettet til en akseptabel standard. Statsråden bør være flau over å legge fram et forslag til Nasjonal transportplan som inneholder så lite penger de kommende årene, at resultatet vil være dårlige fylkesveier de neste årene. Det er kanskje på tide at statsråden forteller hvor lang tid hun mener det ansvarlig å la bilister, syklister og fotgjengere vente før man får et godt fylkesveinett å kjøre på. 
-</tittel>
+      <tittel>om hvor lang tid statsråden mener det er ansvarlig å la bilister, syklister og fotgjengere vente før man får _et godt fylkesveinett_ å kjøre på</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
