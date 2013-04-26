@@ -1,7 +1,19 @@
 #!/bin/sh
 set -e
 
+extract_interests() {
+  URLPATH='www.stortinget.no/Global/pdf/register%20for%20stortingsrepresentantenes%20og%20regjeringsmedlemmenes%20verv%20og%20okonomiske%20interesser.pdf'
+  mkdir -p "$(dirname $URLPATH)"
+  GET http://$URLPATH > $URLPATH
+  pdftohtml -xml $URLPATH
+  pdftotext $URLPATH
+}
+
+attendence() {
+  URLPATH=www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representantfordeling/
+  GET http://$URLPATH > ${URLPATH}index.html
+}
+
 today=$(date +%Y-%m-%d)
-URLPATH=www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representantfordeling/
-GET http://$URLPATH > ${URLPATH}index.html &&
+attendence && extract_interests &&
   git commit -m "Inn med web page data fra $today." www.stortinget.no
