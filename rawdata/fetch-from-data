@@ -75,17 +75,17 @@ current_periods() {
 }
 
 for id in $(current_periods); do
-    fetch data.stortinget.no/eksport/representanter/?StortingsPeriodeId=$id
+    fetch data.stortinget.no/eksport/representanter/?StortingsPeriodeId=$id || true
     echo got $id
 done
 
 for id in $(current_sessions); do
-    fetch "data.stortinget.no/eksport/saker/?sesjonid=$id"
-    fetch "data.stortinget.no/eksport/partier/?sesjonid=$id"
-    fetch "data.stortinget.no/eksport/komiteer/?SesjonId=$id"
-    fetch "data.stortinget.no/eksport/sporretimesporsmal/?SesjonId=$id"
-    fetch "data.stortinget.no/eksport/interpellasjoner/?SesjonId=$id"
-    fetch "data.stortinget.no/eksport/skriftligesporsmal/?SesjonId=$id"
+    fetch "data.stortinget.no/eksport/saker/?sesjonid=$id" || true
+    fetch "data.stortinget.no/eksport/partier/?sesjonid=$id" || true
+    fetch "data.stortinget.no/eksport/komiteer/?sesjonid=$id" || true
+    fetch "data.stortinget.no/eksport/sporretimesporsmal/?SesjonId=$id" || true
+    fetch "data.stortinget.no/eksport/interpellasjoner/?SesjonId=$id" || true
+    fetch "data.stortinget.no/eksport/skriftligesporsmal/?SesjonId=$id" || true
     echo got $id 
 done
 
