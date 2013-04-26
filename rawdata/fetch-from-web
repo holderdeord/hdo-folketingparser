@@ -1,6 +1,7 @@
 #!/bin/sh
 set -e
 
+# Uses tools from the poppler-utils debian package
 extract_interests() {
   URLPATH='www.stortinget.no/Global/pdf/register%20for%20stortingsrepresentantenes%20og%20regjeringsmedlemmenes%20verv%20og%20okonomiske%20interesser.pdf'
   mkdir -p "$(dirname $URLPATH)"
