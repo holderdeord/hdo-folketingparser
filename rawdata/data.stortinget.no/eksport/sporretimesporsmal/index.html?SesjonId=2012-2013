@@ -2076,6 +2076,13 @@ Er dette noe statsråden er fornøyd med?</tittel>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <id>159</id>
+          <navn>HØYERE UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
           <id>183</id>
           <navn>GRUNNSKOLE</navn>
           <underemne_liste />
@@ -3525,22 +3532,15 @@ Er dette noe statsråden er fornøyd med?</tittel>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>5</id>
-          <navn>ARBEIDSLIV</navn>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>7</id>
-          <navn>SYSSELSETTING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>155</id>
-          <navn>STATSFORVALTNING</navn>
+          <id>186</id>
+          <navn>TRYGDER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -3584,7 +3584,7 @@ Er dette noe statsråden er fornøyd med?</tittel>
       <sporsmal_til_minister_id>ABD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>arbeidsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om når statsråden kan love at _ny, informativ og og dialog med brukerne av Nav_ er på plass</tittel>
+      <tittel>om når statsråden kan love at _ny, informativ og god dialog med brukerne av Nav_ er på plass</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -4127,8 +4127,36 @@ Er dette noe statsråden er fornøyd med?</tittel>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>46</id>
           <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>47</id>
+          <navn>VEGTRAFIKK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
