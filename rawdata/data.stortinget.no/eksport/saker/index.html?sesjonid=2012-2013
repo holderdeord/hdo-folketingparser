@@ -174,7 +174,27 @@
       </komite>
       <korttittel>Kommuneproposisjonen 2014</korttittel>
       <sak_fremmet_id>57322</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Olsen</etternavn>
+          <foedselsdato>1955-12-15T00:00:00</foedselsdato>
+          <fornavn>Ingalill</fornavn>
+          <id>IOL</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Fi</id>
+            <navn>Finnmark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Kommuneproposisjonen 2014</tittel>
@@ -184,7 +204,22 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>44</id>
+          <navn>STATENS PERSONALPOLITIKK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 151 S (2012-2013)</henvisning>
       <id>57323</id>
       <innstilling_id>-1</innstilling_id>
@@ -339,7 +374,36 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>107</id>
+          <navn>JERNBANER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>109</id>
+          <navn>LUFTFART</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 156 S (2012-2013)</henvisning>
       <id>57332</id>
       <innstilling_id>-1</innstilling_id>
@@ -1282,7 +1346,27 @@
       </komite>
       <korttittel>Representantforslag om strakstiltak for å gjennomføre nødvendig rassikring på E16 mellom Bergen og Voss</korttittel>
       <sak_fremmet_id>57207</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Sortevik</etternavn>
+          <foedselsdato>1947-03-12T00:00:00</foedselsdato>
+          <fornavn>Arne</fornavn>
+          <id>AESO</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-04-29T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Arne Sortevik, Bård Hoksrud, Jan-Henrik Fredriksen, Ingebjørg Godskesen og Gjermund Hagesæter om strakstiltak for å gjennomføre nødvendig rassikring på E16 mellom Bergen og Voss</tittel>
@@ -2087,27 +2171,7 @@
       </komite>
       <korttittel>Endringar i statsbudsjettet 2013 under Forsvarsdepartementet (Investeringar i Forsvaret og andre saker)</korttittel>
       <sak_fremmet_id>57226</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Brekk</etternavn>
-          <foedselsdato>1955-10-08T00:00:00</foedselsdato>
-          <fornavn>Lars Peder</fornavn>
-          <id>LAPB</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>NT</id>
-            <navn>Nord-Trøndelag</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>Sp</id>
-            <navn>Senterpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
+      <saksordfoerer_liste />
       <sist_oppdatert_dato>2013-04-29T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringar i statsbudsjettet 2013 under Forsvarsdepartementet (Investeringar i Forsvaret og andre saker)</tittel>
@@ -3087,7 +3151,27 @@
       </komite>
       <korttittel>Utviding og finansiering av Bergensprogrammet med tredje etappe av Bybanen m.m.</korttittel>
       <sak_fremmet_id>57242</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Rommetveit</etternavn>
+          <foedselsdato>1956-04-27T00:00:00</foedselsdato>
+          <fornavn>Magne</fornavn>
+          <id>MAGR</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-04-29T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Utviding og finansiering av Bergensprogrammet med tredje etappe av Bybanen m.m.</tittel>
@@ -3123,7 +3207,27 @@
       </komite>
       <korttittel>Verksemda til NSB AS</korttittel>
       <sak_fremmet_id>57243</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Langeland</etternavn>
+          <foedselsdato>1955-11-14T00:00:00</foedselsdato>
+          <fornavn>Hallgeir H.</fornavn>
+          <id>HHL</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-04-29T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Verksemda til NSB AS</tittel>
@@ -6314,9 +6418,9 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 119 S (2012-2013) kap. 950</henvisning>
+      <henvisning>Prop. 119 S (2012-2013) kap. 950, Innst. 284 S (2012-2013)</henvisning>
       <id>57075</id>
-      <innstilling_id>-1</innstilling_id>
+      <innstilling_id>11305</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>NÆRING</id>
@@ -6325,7 +6429,7 @@
       <korttittel>Endringer i statsbudsjettet 2013 under Nærings- og handelsdepartementet (Cermaq ASA - statlig deltakelse i fortrinnsrettsemisjon)</korttittel>
       <sak_fremmet_id>57075</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-04-16T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i statsbudsjettet 2013 under Nærings- og handelsdepartementet (Cermaq ASA - statlig deltakelse i fortrinnsrettsemisjon)</tittel>
       <type>budsjett</type>
@@ -10237,9 +10341,9 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 94 S (2012-2013)</henvisning>
+      <henvisning>Prop. 94 S (2012-2013), Innst. 283 S (2012-2013)</henvisning>
       <id>56877</id>
-      <innstilling_id>-1</innstilling_id>
+      <innstilling_id>11304</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>FINANS</id>
@@ -10268,7 +10372,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-04-02T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Samtykke til å sette i kraft en skatteavtale mellom Norge og Storbritannia, undertegnet i London 14. mars 2013</tittel>
       <type>alminneligsak</type>
@@ -11967,9 +12071,9 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Dokument 8:45 S (2012-2013)</henvisning>
+      <henvisning>Dokument 8:45 S (2012-2013), Innst. 285 S (2012-2013)</henvisning>
       <id>56762</id>
-      <innstilling_id>-1</innstilling_id>
+      <innstilling_id>11306</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>NÆRING</id>
@@ -11998,7 +12102,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-04-02T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Erna Solberg, Svein Flåtten, Torgeir Dahl og Michael Tetzschner om nye ideer og bedre løsninger for anskaffelser i offentlig sektor</tittel>
       <type>alminneligsak</type>
@@ -16547,27 +16651,7 @@
       </komite>
       <korttittel>Representantforslag om å effektivisere arbeidsinnvandringen til Norge gjennom enklere regler, bedre rutiner og raskere saksbehandling</korttittel>
       <sak_fremmet_id>56670</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Helleland</etternavn>
-          <foedselsdato>1962-07-10T00:00:00</foedselsdato>
-          <fornavn>Trond</fornavn>
-          <id>TROH</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Bu</id>
-            <navn>Buskerud</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
+      <saksordfoerer_liste />
       <sist_oppdatert_dato>2013-03-14T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Trine Skei Grande og Borghild Tenden om å effektivisere arbeidsinnvandringen til Norge gjennom enklere regler, bedre rutiner og raskere saksbehandling</tittel>

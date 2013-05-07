@@ -1169,7 +1169,15 @@ Hvilke grep mener statsråden det er nødvendig å ta for at norske byområder k
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-03-11T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>56710</id>
@@ -1210,8 +1218,7 @@ Hvilke grep mener statsråden det er nødvendig å ta for at norske byområder k
       <sporsmal_til_minister_id>NHD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>nærings- og handelsministeren</sporsmal_til_minister_tittel>
       <status>til_behandling</status>
-      <tittel>De siste fire til fem årene har det har vært en nedgang i den næringsrettede forskningen, og det er grunn til å tro at en konsekvens er mindre innovasjon i bedriftene. Statistisk sentralbyrås rapport 46/2012 Innovasjon i norsk næringsliv 2008-2010 viser at andelen norske foretak som introduserte produkt- og/eller prosessinnovasjoner (PP-innovasjoner) mellom 2008 og 2010 gikk ned med tre prosentpoeng målt opp mot forrige undersøkelse. Disse resultatene fortsetter en nedadgående trend med lavere andel foretak med innovasjon fra de to foregående undersøkelsene. Nedgangen i PP-innovasjon sett under ett finnes uavhengig av størrelsesgruppe og av hovednæring, men er størst for de aller minste foretakene (5-9 sysselsatte) og i de tjenesteytende næringene. 
-Er statsråden bekymret over nedgangen, og hva vil statsråden konkret gjøre for å snu trenden?</tittel>
+      <tittel>om nedgangen i _den næringsrettede forskningen_ og hva som vil bli gjort for å snu trenden</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
