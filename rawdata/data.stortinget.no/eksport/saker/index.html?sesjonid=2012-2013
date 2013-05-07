@@ -31,12 +31,16 @@
       <henvisning>Prop. 150 LS (2012-2013)</henvisning>
       <id>57319</id>
       <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Endringar i skatte-, avgifts- og tollovgivinga</korttittel>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Endringar i skatte-, avgifts- og tollovgivinga - lovdelen</korttittel>
       <sak_fremmet_id>57318</sak_fremmet_id>
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
+      <status>til_behandling</status>
       <tittel>Endringar i skatte-, avgifts- og tollovgivinga</tittel>
       <type>lovsak</type>
     </sak>
@@ -44,7 +48,22 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 149 S (2012-2013)</henvisning>
       <id>57320</id>
       <innstilling_id>-1</innstilling_id>
@@ -59,13 +78,28 @@
       <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Tilleggsbevilgninger og omprioriteringer i statsbudsjettet 2013</tittel>
-      <type>alminneligsak</type>
+      <type>budsjett</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Meld. St. 2 (2012-2013)</henvisning>
       <id>57321</id>
       <innstilling_id>-1</innstilling_id>
@@ -80,7 +114,7 @@
       <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Revidert nasjonalbudsjett 2013</tittel>
-      <type>alminneligsak</type>
+      <type>budsjett</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -125,7 +159,7 @@
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste />
-      <henvisning>Prop. 155 L (2012-2013), Prop. 155 LS (2012-2013)</henvisning>
+      <henvisning>Prop. 155 L (2012-2013)</henvisning>
       <id>57324</id>
       <innstilling_id>-1</innstilling_id>
       <komite i:nil="true" />
@@ -135,7 +169,7 @@
       <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Endringer i gjeldsordningsloven og dekningsloven mv.</tittel>
-      <type>alminneligsak</type>
+      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -171,6 +205,126 @@
       <tittel>Endringer i straffeprosessloven mv. (behandling og beskyttelse av informasjon)
 </tittel>
       <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 148 L (2012-2013)</henvisning>
+      <id>57327</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Endringer i rettsgebyrloven og lov om notarius publicus (gebyr for notarialforretninger og testamentoppbevaring)</korttittel>
+      <sak_fremmet_id>57327</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Endringer i rettsgebyrloven og lov om notarius publicus (gebyr for notarialforretninger og testamentoppbevaring)
+</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 152 L (2012-2013)</henvisning>
+      <id>57328</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Endringer i politiloven</korttittel>
+      <sak_fremmet_id>57328</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Endringer i politiloven</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 153 L (2012-2013)</henvisning>
+      <id>57329</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Endringer i passloven (politiets adgang til å benytte passregisteret)</korttittel>
+      <sak_fremmet_id>57329</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Endringer i passloven (politiets adgang til å benytte passregisteret)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 154 L (2012-2013)</henvisning>
+      <id>57330</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Endringer i utlendingsloven (misbruk av aupairordningen mv.)</korttittel>
+      <sak_fremmet_id>57330</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Endringer i utlendingsloven (misbruk av aupairordningen mv.)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Meld. St. 33 (2012-2013)</henvisning>
+      <id>57331</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Klimatilpasning i Norge</korttittel>
+      <sak_fremmet_id>57331</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Klimatilpasning i Norge</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 156 S (2012-2013)</henvisning>
+      <id>57332</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Ein del saker på Samferdselsdepartementets område</korttittel>
+      <sak_fremmet_id>57332</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Ein del saker på Samferdselsdepartementets område</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Meld. St. 38 (2012-2013)</henvisning>
+      <id>57333</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Verksemda til Avinor AS</korttittel>
+      <sak_fremmet_id>57333</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Verksemda til Avinor AS</tittel>
+      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -1508,7 +1662,27 @@
       </komite>
       <korttittel>Endringar i statsbudsjettet 2013 under Forsvarsdepartementet (Investeringar i Forsvaret og andre saker)</korttittel>
       <sak_fremmet_id>57226</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Brekk</etternavn>
+          <foedselsdato>1955-10-08T00:00:00</foedselsdato>
+          <fornavn>Lars Peder</fornavn>
+          <id>LAPB</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>NT</id>
+            <navn>Nord-Trøndelag</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-04-29T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringar i statsbudsjettet 2013 under Forsvarsdepartementet (Investeringar i Forsvaret og andre saker)</tittel>
@@ -3061,7 +3235,27 @@
       </komite>
       <korttittel>Representantforslag om høyere prioritering av utdanning for alle i norsk utviklingspolitikk</korttittel>
       <sak_fremmet_id>57094</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Hansen</etternavn>
+          <foedselsdato>1973-03-05T00:00:00</foedselsdato>
+          <fornavn>Eva Kristin</fornavn>
+          <id>EVH</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>ST</id>
+            <navn>Sør-Trøndelag</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-04-23T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Dagrun Eriksen, Kjell Arvid Svendsen, Hans Olav Syversen og Ingunn E. Ulfsten om høyere prioritering av utdanning for alle i norsk utviklingspolitikk</tittel>
@@ -4531,7 +4725,27 @@
       </komite>
       <korttittel>Årsrapporter fra Stortingets faste delegasjoner til internasjonale parlamentariske forsamlinger for 2012</korttittel>
       <sak_fremmet_id>57170</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Brekk</etternavn>
+          <foedselsdato>1955-10-08T00:00:00</foedselsdato>
+          <fornavn>Lars Peder</fornavn>
+          <id>LAPB</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>NT</id>
+            <navn>Nord-Trøndelag</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-04-23T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Årsrapporter fra Stortingets faste delegasjoner til internasjonale parlamentariske forsamlinger for 2012</tittel>
