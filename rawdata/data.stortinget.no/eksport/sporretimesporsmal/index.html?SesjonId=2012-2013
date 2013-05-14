@@ -434,7 +434,7 @@
       <sporsmal_til_minister_id>BLID</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>barne-, likestillings- og inkluderingsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hva statsråden vil gjøre for å bedre den mørke statistikken som viser at det ble registrert _rekordmange saker knyttet til tvangsekteskap i 2012_</tittel>
+      <tittel>om hva statsråden vil gjøre for å bedre den mørke statistikken som viser at det ble registrert _rekordmange saker knyttet til tvangsekteskap_ i 2012</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -644,7 +644,64 @@ Kan statsråden redegjøre for hvilke tjenester som utgjør disse 12 milliardene
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-04-30T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>69</id>
+          <navn>LANDBRUKSPRODUKTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>80</id>
+          <navn>AVGIFTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>82</id>
+          <navn>TOLL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>57265</id>
@@ -685,8 +742,7 @@ Kan statsråden redegjøre for hvilke tjenester som utgjør disse 12 milliardene
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Statsråden har ved flere anledninger blitt utfordret på hvilke konsekvenser regjeringens endringer i importvernet, bl.a. på diverse oster, kunne få for andre norske eksportnæringer på lengre sikt. I den forbindelse har statsråden avfeid dette og bagatellisert eventuelle mottiltak som lite sannsynlig. Nå viser det seg at denne saken er blitt tatt til behandling i EU-systemet i form av en resolusjon.
-Er statsråden fortsatt like sikker på at det ikke vil komme mottiltak fra EU?</tittel>
+      <tittel>om statsråden fortsatt er like sikker på at det ikke vil komme _mottiltak fra EU_ etter regjeringens endringer i importvernet</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -770,7 +826,15 @@ Mener Presidenten at Justisministerens syn er i tråd med god konstitusjonell pr
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-04-29T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>57251</id>
@@ -811,8 +875,7 @@ Mener Presidenten at Justisministerens syn er i tråd med god konstitusjonell pr
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>En utredning i Helse Nord har konkludert med at det er behov for en ny luftambulanse stasjonert på Evenes, for å kunne betjene landsdelens tettest befolkede region på en tilfredsstillende måte. Det er likevel pr. i dag uklart når helikopter kan være på plass. Norsk Luftambulanse har tilbudt seg å stasjonere et av sine helikoptre på Evenes i sommer, men har møtt en mur av byråkrati i Helse Nord.
-Vil statsråden bidra til at Norsk Luftambulanse får etablere en midlertidig sommerbase, og slik styrke ambulanseberedskapen?</tittel>
+      <tittel>om hvorvidt statsråden vil bidra til at _Norsk Luftambulanse får etablere en midlertidig sommerbase på Evenes_ og slik styrke ambulanseberedskapen</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1393,7 +1456,22 @@ Vil statsråden bidra til at Norsk Luftambulanse får etablere en midlertidig so
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-04-23T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>69</id>
+          <navn>LANDBRUKSPRODUKTER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>57185</id>
@@ -1434,8 +1512,7 @@ Vil statsråden bidra til at Norsk Luftambulanse får etablere en midlertidig so
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Selvforsyningsgraden av norskproduserte landbruksvarer har i løpet av den tiden den rød-grønne regjeringen har sittet med makta, blitt redusert fra 52 til 47 pst. Dette stemmer dårlig med de ambisjoner regjeringen hadde. 
-Er dette noe statsråden er fornøyd med?</tittel>
+      <tittel>om hvorvidt statsråden er fornøyd med at _selvforsyningsgraden av norskproduserte landbruksvarer har blitt redusert fra 52 pst. til 47 pst._ i løpet av den tiden den rød-grønne regjeringen har sittet med makten</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
