@@ -1451,12 +1451,55 @@ Kan statsråden redegjøre for hvilke tjenester som utgjør disse 12 milliardene
       </besvart_av>
       <besvart_av_minister_id>PRES</besvart_av_minister_id>
       <besvart_av_minister_tittel i:nil="true" />
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2013-05-21T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-04-29T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>25</id>
+          <navn>REGJERINGEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>51</id>
+          <navn>DEPARTEMENTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>154</id>
+          <navn>POLITISKE PARTIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>203</id>
+          <navn>STORTINGET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>57253</id>
@@ -1496,9 +1539,8 @@ Kan statsråden redegjøre for hvilke tjenester som utgjør disse 12 milliardene
       </sporsmal_til>
       <sporsmal_til_minister_id>PRES</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel i:nil="true" />
-      <status>til_behandling</status>
-      <tittel>Fremskrittspartiets stortingsgruppe anmodet Justisdepartementets lovavdeling om lovteknisk bistand til et lovforslag den 20. mars 2013. Spørsmålsstiller var av den oppfatning at slik lovteknisk bistand både var uproblematisk og i tråd med konstitusjonell praksis. Det faktum at Fremskrittspartiets stortingsgruppe mottok slik bistand fra Lovavdelingen ved utarbeidelsen av et beslektet lovforslag i 2008 underbygger spørsmålsstillers oppfatning. Overraskelsen var derfor stor da justisministeren i brev datert 18. april 2013 hevder det "ikke er naturlig at regjeringsapparatet yter bistand til stortingsgrupper i det omfang det er anmodet om i dette tilfellet". 
-Mener presidenten at justisministerens syn er i tråd med god konstitusjonell praksis? Hva vil presidenten gjøre for å sørge for at stortingsrepresentantene får nødvendig bistand fra regjeringsapparatet for å kunne utføre sine folkevalgte verv på en adekvat måte?</tittel>
+      <status>besvart</status>
+      <tittel>om avslaget på FrPs stortingsgruppes anmodning om _lovteknisk bistand til et lovforslag_, og å sørge for at representantene får nødvendig bistand fra regjeringsapparatet for å kunne utføre sine verv på en adekvat måte</tittel>
       <type>til_presidentskapet</type>
     </sporsmal>
     <sporsmal>
