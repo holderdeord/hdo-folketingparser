@@ -399,7 +399,22 @@ Hvordan vil statsråden nå sikre at elevene i norsk skole får kvalifiserte læ
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-05-29T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>57500</id>
@@ -440,7 +455,7 @@ Hvordan vil statsråden nå sikre at elevene i norsk skole får kvalifiserte læ
       <sporsmal_til_minister_id>ABD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>arbeidsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hva som vil skje med de _71 000 menneskene som har mottatt arbeidsavklaringspenger siden mars 2010_, og om statsråden mener at Nav har ressurser til å gjennomføre en ny arbeidsevnevurdering av disse</tittel>
+      <tittel>om hvorvidt Nav har ressurser til å _gjennomføre en ny arbeidsevnevurdering_ av de 71 000 menneskene som har mottatt arbeidsavklaringspenger siden mars 2010, med henvisning til at disse har gått i fire år uten å ha fått en reell vurdering</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -3127,23 +3142,9 @@ Kan statsråden redegjøre for hvilke tjenester som utgjør disse 12 milliardene
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>5</id>
-          <navn>ARBEIDSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>18</id>
           <navn>INNVANDRERE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>94</id>
-          <navn>ARBEIDSVILKÅR</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -3337,13 +3338,6 @@ Kan statsråden redegjøre for hvilke tjenester som utgjør disse 12 milliardene
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>52</id>
           <navn>KOMMUNER</navn>
@@ -3372,9 +3366,23 @@ Kan statsråden redegjøre for hvilke tjenester som utgjør disse 12 milliardene
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>135</id>
+          <navn>KOMMUNENES ØKONOMI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>184</id>
           <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>188</id>
+          <navn>FOLKEHELSE</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
