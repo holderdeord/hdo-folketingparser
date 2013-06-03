@@ -16,7 +16,7 @@
       </besvart_av>
       <besvart_av_minister_id>MD</besvart_av_minister_id>
       <besvart_av_minister_tittel>miljøvernministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2013-06-03T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
@@ -90,7 +90,7 @@
       </sporsmal_til>
       <sporsmal_til_minister_id>MD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>miljøvernministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>om fylkesmennenes varierende praksis for å fremme _innsigelser til kommunale bebyggelses- og reguleringsplaner_, og årsaken til at det er fem ganger så mange innsigelser i Buskerud som i Oslo og Akershus</tittel>
       <type>interpellasjon</type>
     </sporsmal>
@@ -289,7 +289,7 @@
       </besvart_av>
       <besvart_av_minister_id>JBD</besvart_av_minister_id>
       <besvart_av_minister_tittel>justis- og beredskapsministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2013-06-03T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
@@ -356,7 +356,7 @@
       </sporsmal_til>
       <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>om enkeltindividets _klagemuligheter ved påståtte brudd på menneskerettighetene_ i Norge</tittel>
       <type>interpellasjon</type>
     </sporsmal>
@@ -373,7 +373,7 @@
       </besvart_av>
       <besvart_av_minister_id>HOD</besvart_av_minister_id>
       <besvart_av_minister_tittel>helse- og omsorgsministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2013-06-03T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
@@ -384,6 +384,34 @@
           <er_hovedemne>true</er_hovedemne>
           <id>61</id>
           <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>62</id>
+          <navn>HELSEINSTITUSJONER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>63</id>
+          <navn>SYKEHUS</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>64</id>
+          <navn>HELSEPERSONELL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>66</id>
+          <navn>SYKDOMMER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -426,7 +454,7 @@
       </sporsmal_til>
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>om når de fleste kreftpasientene vil få oppnevnt en _pasientkoordinator_ i sykehusene som følger dem gjennom hele pasientforløpet, noe slike pasienter har hatt rett til i 13 år</tittel>
       <type>interpellasjon</type>
     </sporsmal>
