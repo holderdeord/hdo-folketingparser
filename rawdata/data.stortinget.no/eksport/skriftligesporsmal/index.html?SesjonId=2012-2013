@@ -1081,26 +1081,34 @@ Hva vil statsråden ta initiativ til for at årets situasjon kan brukes til å f
       <besvart_av>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Faremo</etternavn>
-        <foedselsdato>1955-06-16T00:00:00</foedselsdato>
-        <fornavn>Grete</fornavn>
-        <id>GREF</id>
-        <kjoenn>kvinne</kjoenn>
+        <etternavn>Stoltenberg</etternavn>
+        <foedselsdato>1959-03-16T00:00:00</foedselsdato>
+        <fornavn>Jens</fornavn>
+        <id>JES</id>
+        <kjoenn>mann</kjoenn>
       </besvart_av>
-      <besvart_av_minister_id>JBD</besvart_av_minister_id>
-      <besvart_av_minister_tittel>justis- og beredskapsministeren</besvart_av_minister_tittel>
+      <besvart_av_minister_id>SMK</besvart_av_minister_id>
+      <besvart_av_minister_tittel>statsministeren</besvart_av_minister_tittel>
       <besvart_dato>0001-01-01T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-06-03T00:00:00</datert_dato>
       <emne_liste />
-      <flyttet_til>ikke_spesifisert</flyttet_til>
+      <flyttet_til>rette_vedkommende</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>57540</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
+      <rette_vedkommende>
+        <versjon>1.0</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Stoltenberg</etternavn>
+        <foedselsdato>1959-03-16T00:00:00</foedselsdato>
+        <fornavn>Jens</fornavn>
+        <id>JES</id>
+        <kjoenn>mann</kjoenn>
+      </rette_vedkommende>
+      <rette_vedkommende_minister_id>SMK</rette_vedkommende_minister_id>
+      <rette_vedkommende_minister_tittel>statsministeren</rette_vedkommende_minister_tittel>
       <sendt_dato>2013-06-03T00:00:00</sendt_dato>
       <sesjon_id>2012-2013</sesjon_id>
       <sporsmal_fra>
@@ -2087,7 +2095,7 @@ Hva ligger til grunn for regjeringens valg om ikke å referere til Kartverkets r
       </besvart_av>
       <besvart_av_minister_id>KUND</besvart_av_minister_id>
       <besvart_av_minister_tittel>kunnskapsministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2013-06-05T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
@@ -2132,7 +2140,7 @@ Hva ligger til grunn for regjeringens valg om ikke å referere til Kartverkets r
       </sporsmal_til>
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>Spørsmålet gjelder konsekvenser ved feilaktig avkryssing i søknad til Lånekassa. I Romsdals Budstikke 28.05. omtales en elev som feilaktig krysset for at han bodde hjemme under studier på Borgund Folkehøgskule. Feilen ble oppdaget da Lånekassa kom med nedbetalingsplanen, og eleven ikke fikk borteboerstipend. Feilen koster eleven kr 30', og Lånekassa avviser endring med begrunnelse fristbrudd.
 Synes statsråden dette er rimelig sakshåndtering?</tittel>
       <type>skriftlig_sporsmal</type>
@@ -4409,7 +4417,7 @@ Ser statsråden utfordringer knyttet til lærlingenes situasjon og Forsvarets be
       </besvart_av>
       <besvart_av_minister_id>FIN</besvart_av_minister_id>
       <besvart_av_minister_tittel>finansministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2013-06-05T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
@@ -4454,7 +4462,7 @@ Ser statsråden utfordringer knyttet til lærlingenes situasjon og Forsvarets be
       </sporsmal_til>
       <sporsmal_til_minister_id>FIN</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>finansministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>På hvilken måte vil finansministeren sikre at Norge følger opp sine EØS-forpliktelser slik at utlån til små og mellomstore bedrifter i Norge blir underlagt de reglene som EU-forordningen tilsier og som vil gjennomføres i landene rundt oss?</tittel>
       <type>skriftlig_sporsmal</type>
     </sporsmal>
@@ -4848,7 +4856,7 @@ Nå har statsråden til hensikt å følge opp?</tittel>
       </besvart_av>
       <besvart_av_minister_id>FIN</besvart_av_minister_id>
       <besvart_av_minister_tittel>finansministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
+      <besvart_dato>2013-06-05T00:00:00</besvart_dato>
       <besvart_pa_vegne_av i:nil="true" />
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
@@ -4901,7 +4909,7 @@ Nå har statsråden til hensikt å følge opp?</tittel>
       </sporsmal_til>
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
-      <status>til_behandling</status>
+      <status>besvart</status>
       <tittel>Mange jordeiere leier ut landbruksjord i stedet for å selge den til andre bønder. Dette skyldes bl.a. det skatteregimet vi har i Norge.
 Vil statsråden vurdere å forandre på dette slik at interessen for å selge dyrket og dyrkbar jord blir økonomisk gunstig for selger?</tittel>
       <type>skriftlig_sporsmal</type>
