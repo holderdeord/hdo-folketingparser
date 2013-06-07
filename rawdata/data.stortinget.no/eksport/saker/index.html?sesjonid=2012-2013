@@ -660,7 +660,36 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>64</id>
+          <navn>HELSEPERSONELL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 174 S (2012-2013)</henvisning>
       <id>57615</id>
       <innstilling_id>-1</innstilling_id>
@@ -769,6 +798,27 @@
       <sist_oppdatert_dato>2013-06-07T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Revisjon og sluttføring av Østfoldpakka. Utbygging og finansiering av E18 på strekningene Riksgrensen - Ørje og Knapstad - Retvet i Østfold og Akershus</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>innstillingssaker</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Innst. 455 S (2012-2013)</henvisning>
+      <id>57632</id>
+      <innstilling_id>11477</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>VALG</id>
+        <navn>Valgkomiteen</navn>
+      </komite>
+      <korttittel>Valg av medlemmer og varamedlemmer til den forberedende fullmaktskomité</korttittel>
+      <sak_fremmet_id>57632</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-06-06T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Innstilling fra valgkomiteen om valg av medlemmer og varamedlemmer til den forberedende fullmaktskomité</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
