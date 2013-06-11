@@ -270,13 +270,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>94</id>
-          <navn>ARBEIDSVILKÅR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>95</id>
           <navn>LØNN</navn>
           <underemne_liste />
@@ -363,6 +356,13 @@
           <er_hovedemne>false</er_hovedemne>
           <id>7</id>
           <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -515,13 +515,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>80</id>
-          <navn>AVGIFTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>83</id>
           <navn>PRISER OG KONKURRANSEFORHOLD</navn>
           <underemne_liste />
@@ -612,9 +605,9 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -734,13 +727,6 @@
           <er_hovedemne>true</er_hovedemne>
           <id>187</id>
           <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>200</id>
-          <navn>INTERNASJONAL RETT</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -1069,13 +1055,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>111</id>
           <navn>FERGER</navn>
           <underemne_liste />
@@ -1169,13 +1148,6 @@
           <er_hovedemne>false</er_hovedemne>
           <id>21</id>
           <navn>FORURENSNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>80</id>
-          <navn>AVGIFTER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -1680,13 +1652,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>42</id>
           <navn>BARNEHAGER</navn>
           <underemne_liste />
@@ -2032,20 +1997,6 @@
           <er_hovedemne>true</er_hovedemne>
           <id>4</id>
           <navn>ENERGI</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -2432,13 +2383,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>114</id>
-          <navn>NÆRINGSUTVIKLING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>132</id>
           <navn>REINDRIFT</navn>
           <underemne_liste />
@@ -2544,13 +2488,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>75</id>
           <navn>OLJEOMSETNING</navn>
           <underemne_liste />
@@ -2630,6 +2567,13 @@
           <er_hovedemne>true</er_hovedemne>
           <id>5</id>
           <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -2740,13 +2684,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>189</id>
           <navn>VEGVESEN</navn>
           <underemne_liste />
@@ -2838,13 +2775,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>111</id>
           <navn>FERGER</navn>
           <underemne_liste />
@@ -2919,6 +2849,13 @@
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-05-07T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -3111,6 +3048,13 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>187</id>
           <navn>FINANSER</navn>
           <underemne_liste />
@@ -3178,13 +3122,6 @@
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-05-07T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -3285,13 +3222,6 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>58</id>
-          <navn>SKATTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>113</id>
           <navn>NÆRINGSLIV</navn>
@@ -3367,6 +3297,13 @@
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-05-07T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -3629,13 +3566,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>43</id>
           <navn>BARNEVERN</navn>
           <underemne_liste />
@@ -3741,13 +3671,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>43</id>
           <navn>BARNEVERN</navn>
           <underemne_liste />
@@ -3838,9 +3761,9 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -3913,6 +3836,13 @@
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-04-30T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -3999,6 +3929,13 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>60</id>
           <navn>FORSVARSMATERIELL</navn>
@@ -4072,13 +4009,6 @@
           <er_hovedemne>true</er_hovedemne>
           <id>2</id>
           <navn>KOMMUNIKASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -4357,22 +4287,8 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>121</id>
           <navn>KULTURVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>189</id>
-          <navn>VEGVESEN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -4448,15 +4364,15 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>87</id>
-          <navn>BANKER</navn>
+          <id>88</id>
+          <navn>NORGES BANK</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>88</id>
-          <navn>NORGES BANK</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -4552,13 +4468,6 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>113</id>
           <navn>NÆRINGSLIV</navn>
@@ -4576,13 +4485,6 @@
           <er_hovedemne>true</er_hovedemne>
           <id>139</id>
           <navn>MILJØVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>189</id>
-          <navn>VEGVESEN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -4741,13 +4643,6 @@
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
@@ -4839,6 +4734,13 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>62</id>
           <navn>HELSEINSTITUSJONER</navn>
@@ -4916,30 +4818,9 @@
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>38</id>
-          <navn>BOLIGSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>136</id>
-          <navn>BYGNINGSVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -5033,13 +4914,6 @@
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-04-24T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>20</id>
-          <navn>HANDEL</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -5155,13 +5029,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>159</id>
-          <navn>HØYERE UTDANNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>160</id>
           <navn>HØGSKOLER</navn>
           <underemne_liste />
@@ -5241,6 +5108,13 @@
           <er_hovedemne>false</er_hovedemne>
           <id>87</id>
           <navn>BANKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -5339,13 +5213,6 @@
           <er_hovedemne>false</er_hovedemne>
           <id>83</id>
           <navn>PRISER OG KONKURRANSEFORHOLD</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -5569,13 +5436,6 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>139</id>
           <navn>MILJØVERN</navn>
@@ -5586,13 +5446,6 @@
           <er_hovedemne>true</er_hovedemne>
           <id>187</id>
           <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>189</id>
-          <navn>VEGVESEN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -5766,9 +5619,9 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -5851,13 +5704,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>43</id>
           <navn>BARNEVERN</navn>
           <underemne_liste />
@@ -5930,6 +5776,13 @@
           <er_hovedemne>false</er_hovedemne>
           <id>24</id>
           <navn>LIKESTILLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -6046,13 +5899,6 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>139</id>
           <navn>MILJØVERN</navn>
@@ -6158,9 +6004,9 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>33</id>
-          <navn>PRIVATSKOLER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -6245,13 +6091,6 @@
           <er_hovedemne>true</er_hovedemne>
           <id>2</id>
           <navn>KOMMUNIKASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -6348,13 +6187,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>107</id>
           <navn>JERNBANER</navn>
           <underemne_liste />
@@ -6429,6 +6261,13 @@
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-04-23T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -6781,6 +6620,13 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>71</id>
           <navn>ELEKTRISITET</navn>
@@ -6861,13 +6707,6 @@
           <er_hovedemne>true</er_hovedemne>
           <id>40</id>
           <navn>FAMILIE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -6973,13 +6812,6 @@
           <er_hovedemne>false</er_hovedemne>
           <id>64</id>
           <navn>HELSEPERSONELL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>94</id>
-          <navn>ARBEIDSVILKÅR</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -7419,13 +7251,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>107</id>
           <navn>JERNBANER</navn>
           <underemne_liste />
@@ -7712,6 +7537,13 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>193</id>
           <navn>MILITÆRT PERSONELL</navn>
@@ -7871,6 +7703,13 @@
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-04-09T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -8062,9 +7901,9 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -8153,9 +7992,9 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -8163,13 +8002,6 @@
           <er_hovedemne>false</er_hovedemne>
           <id>63</id>
           <navn>SYKEHUS</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>94</id>
-          <navn>ARBEIDSVILKÅR</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -8247,13 +8079,6 @@
           <er_hovedemne>true</er_hovedemne>
           <id>61</id>
           <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -8357,13 +8182,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>75</id>
           <navn>OLJEOMSETNING</navn>
           <underemne_liste />
@@ -8457,20 +8275,6 @@
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>37</id>
-          <navn>FYLKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -8650,6 +8454,13 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>60</id>
           <navn>FORSVARSMATERIELL</navn>
@@ -8735,22 +8546,8 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>43</id>
           <navn>BARNEVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -8847,13 +8644,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>189</id>
           <navn>VEGVESEN</navn>
           <underemne_liste />
@@ -8944,23 +8734,9 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>113</id>
           <navn>NÆRINGSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>189</id>
-          <navn>VEGVESEN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -9143,13 +8919,6 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
@@ -9241,9 +9010,9 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -9748,6 +9517,13 @@ Vil Regjeringen sørge for å styrke helikopterberedskapen slik at både Forsvar
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>41</id>
           <navn>BARN</navn>
@@ -10112,13 +9888,6 @@ Vil Regjeringen sørge for å styrke helikopterberedskapen slik at både Forsvar
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>187</id>
           <navn>FINANSER</navn>
@@ -10207,13 +9976,6 @@ Vil Regjeringen sørge for å styrke helikopterberedskapen slik at både Forsvar
           <er_hovedemne>true</er_hovedemne>
           <id>4</id>
           <navn>ENERGI</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -10310,22 +10072,8 @@ Vil Regjeringen sørge for å styrke helikopterberedskapen slik at både Forsvar
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>20</id>
-          <navn>HANDEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>22</id>
           <navn>INTERNASJONALT SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>80</id>
-          <navn>AVGIFTER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -10553,13 +10301,6 @@ Vil Regjeringen sørge for å styrke helikopterberedskapen slik at både Forsvar
           <er_hovedemne>true</er_hovedemne>
           <id>45</id>
           <navn>FORSKNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -10823,6 +10564,13 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>143</id>
+          <navn>SJØFART</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>146</id>
           <navn>SIKKERHET TIL SJØS</navn>
@@ -11006,13 +10754,6 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>163</id>
           <navn>UTENRIKSSAKER</navn>
@@ -11107,13 +10848,6 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
           <er_hovedemne>false</er_hovedemne>
           <id>71</id>
           <navn>ELEKTRISITET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -11293,16 +11027,16 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>167</id>
-          <navn>MENNESKERETTIGHETER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>200</id>
-          <navn>INTERNASJONAL RETT</navn>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -11693,13 +11427,6 @@ Hva er statsrådens vurdering av en slik løsning for å få "månelandingsprosj
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>190</id>
           <navn>OLJEUTVINNING</navn>
           <underemne_liste />
@@ -11842,13 +11569,6 @@ Kan statsråden si noe om i hvilken grad Husbanken bistår kommuner og fylker me
           <er_hovedemne>false</er_hovedemne>
           <id>47</id>
           <navn>VEGTRAFIKK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -12019,13 +11739,6 @@ Kan statsråden si noe om i hvilken grad Husbanken bistår kommuner og fylker me
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-03-14T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -12211,13 +11924,6 @@ Kan statsråden si noe om i hvilken grad Husbanken bistår kommuner og fylker me
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>189</id>
           <navn>VEGVESEN</navn>
           <underemne_liste />
@@ -12290,13 +11996,6 @@ Kan statsråden si noe om i hvilken grad Husbanken bistår kommuner og fylker me
           <er_hovedemne>true</er_hovedemne>
           <id>2</id>
           <navn>KOMMUNIKASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -12560,6 +12259,13 @@ Kan statsråden si noe om i hvilken grad Husbanken bistår kommuner og fylker me
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>36</id>
           <navn>STUDIEFINANSIERING</navn>
@@ -12628,6 +12334,13 @@ Kan statsråden si noe om i hvilken grad Husbanken bistår kommuner og fylker me
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-03-12T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -12722,13 +12435,6 @@ Kan statsråden si noe om i hvilken grad Husbanken bistår kommuner og fylker me
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>25</id>
           <navn>REGJERINGEN</navn>
           <underemne_liste />
@@ -12745,6 +12451,13 @@ Kan statsråden si noe om i hvilken grad Husbanken bistår kommuner og fylker me
           <er_hovedemne>true</er_hovedemne>
           <id>151</id>
           <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -12824,13 +12537,6 @@ Kan statsråden si noe om i hvilken grad Husbanken bistår kommuner og fylker me
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-03-12T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
@@ -12929,13 +12635,6 @@ Kan statsråden si noe om i hvilken grad Husbanken bistår kommuner og fylker me
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-03-12T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
@@ -13153,13 +12852,6 @@ Kan statsråden si noe om i hvilken grad Husbanken bistår kommuner og fylker me
           <navn>MILJØVERN</navn>
           <underemne_liste />
         </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>223</id>
-          <navn>INDUSTRI</navn>
-          <underemne_liste />
-        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -13223,6 +12915,13 @@ Kan statsråden si noe om i hvilken grad Husbanken bistår kommuner og fylker me
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-03-06T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -13305,13 +13004,6 @@ Kan statsråden si noe om i hvilken grad Husbanken bistår kommuner og fylker me
           <er_hovedemne>true</er_hovedemne>
           <id>40</id>
           <navn>FAMILIE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -13407,9 +13099,9 @@ Kan statsråden si noe om i hvilken grad Husbanken bistår kommuner og fylker me
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -13766,13 +13458,6 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>139</id>
           <navn>MILJØVERN</navn>
@@ -13959,13 +13644,6 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
           <er_hovedemne>false</er_hovedemne>
           <id>22</id>
           <navn>INTERNASJONALT SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -14360,6 +14038,13 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>17</id>
           <navn>PERSONVERN</navn>
@@ -14450,13 +14135,6 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
           <er_hovedemne>true</er_hovedemne>
           <id>40</id>
           <navn>FAMILIE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -14659,13 +14337,6 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>75</id>
           <navn>OLJEOMSETNING</navn>
           <underemne_liste />
@@ -14752,13 +14423,6 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
           <er_hovedemne>false</er_hovedemne>
           <id>47</id>
           <navn>VEGTRAFIKK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -14946,13 +14610,6 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>42</id>
           <navn>BARNEHAGER</navn>
           <underemne_liste />
@@ -15130,13 +14787,6 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
           <er_hovedemne>false</er_hovedemne>
           <id>21</id>
           <navn>FORURENSNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -15415,13 +15065,6 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>25</id>
           <navn>REGJERINGEN</navn>
           <underemne_liste />
@@ -15533,13 +15176,6 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>61</id>
           <navn>HELSEVESEN</navn>
@@ -15548,22 +15184,8 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>63</id>
           <navn>SYKEHUS</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>64</id>
-          <navn>HELSEPERSONELL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -15643,6 +15265,13 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-03-05T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -15743,9 +15372,9 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -15834,9 +15463,9 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -15932,13 +15561,6 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>113</id>
           <navn>NÆRINGSLIV</navn>
@@ -16014,13 +15636,6 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-03-05T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -16105,13 +15720,6 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-03-04T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>37</id>
-          <navn>FYLKER</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
@@ -16205,13 +15813,6 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
@@ -16229,13 +15830,6 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
           <er_hovedemne>false</er_hovedemne>
           <id>183</id>
           <navn>GRUNNSKOLE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>203</id>
-          <navn>STORTINGET</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -16314,13 +15908,6 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
           <er_hovedemne>true</er_hovedemne>
           <id>2</id>
           <navn>KOMMUNIKASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -16412,13 +15999,6 @@ Hvordan ser Regjeringen på mulighetene for å bygge ut det resterende vannkraft
           <er_hovedemne>false</er_hovedemne>
           <id>47</id>
           <navn>VEGTRAFIKK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -16794,13 +16374,6 @@ Kan statsråden bekrefte at fortsatt eierskap i vannkraftproduksjon vil være en
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>122</id>
-          <navn>MASSEMEDIER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>163</id>
           <navn>UTENRIKSSAKER</navn>
@@ -16983,6 +16556,13 @@ Kan statsråden bekrefte at fortsatt eierskap i vannkraftproduksjon vil være en
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>193</id>
           <navn>MILITÆRT PERSONELL</navn>
@@ -17145,6 +16725,13 @@ Kan statsråden bekrefte at fortsatt eierskap i vannkraftproduksjon vil være en
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>22</id>
           <navn>INTERNASJONALT SAMARBEID</navn>
@@ -17155,13 +16742,6 @@ Kan statsråden bekrefte at fortsatt eierskap i vannkraftproduksjon vil være en
           <er_hovedemne>true</er_hovedemne>
           <id>45</id>
           <navn>FORSKNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>71</id>
-          <navn>ELEKTRISITET</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -17537,13 +17117,6 @@ Kan statsråden bekrefte at fortsatt eierskap i vannkraftproduksjon vil være en
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
@@ -17558,9 +17131,9 @@ Kan statsråden bekrefte at fortsatt eierskap i vannkraftproduksjon vil være en
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -17691,9 +17264,9 @@ Kan statsråden bekrefte at fortsatt eierskap i vannkraftproduksjon vil være en
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>174</id>
-          <navn>UTVIKLINGSHJELP</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -17775,9 +17348,9 @@ Kan statsråden bekrefte at fortsatt eierskap i vannkraftproduksjon vil være en
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -17862,20 +17435,6 @@ Kan statsråden bekrefte at fortsatt eierskap i vannkraftproduksjon vil være en
           <er_hovedemne>false</er_hovedemne>
           <id>68</id>
           <navn>KUNST</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>70</id>
-          <navn>KRINGKASTING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>122</id>
-          <navn>MASSEMEDIER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -17972,13 +17531,6 @@ Kan statsråden bekrefte at fortsatt eierskap i vannkraftproduksjon vil være en
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>75</id>
           <navn>OLJEOMSETNING</navn>
           <underemne_liste />
@@ -18065,13 +17617,6 @@ Kan statsråden bekrefte at fortsatt eierskap i vannkraftproduksjon vil være en
           <er_hovedemne>false</er_hovedemne>
           <id>57</id>
           <navn>SKATTEFRADRAG</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>58</id>
-          <navn>SKATTER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -18706,6 +18251,13 @@ Kan statsråden bekrefte at fortsatt eierskap i vannkraftproduksjon vil være en
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>65</id>
           <navn>SVANGERSKAP</navn>
@@ -18870,13 +18422,6 @@ Kan statsråden bekrefte at fortsatt eierskap i vannkraftproduksjon vil være en
           <er_hovedemne>true</er_hovedemne>
           <id>59</id>
           <navn>FORSVAR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -19190,13 +18735,6 @@ Har statsråden tenkt å følge opp denne evalueringen, og i så fall på hvilke
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>46</id>
           <navn>LANDBRUK</navn>
@@ -19303,13 +18841,6 @@ Har statsråden tenkt å følge opp denne evalueringen, og i så fall på hvilke
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>189</id>
           <navn>VEGVESEN</navn>
           <underemne_liste />
@@ -19394,22 +18925,8 @@ Har statsråden tenkt å følge opp denne evalueringen, og i så fall på hvilke
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>111</id>
           <navn>FERGER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>189</id>
-          <navn>VEGVESEN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -19687,6 +19204,13 @@ Har statsråden tenkt å følge opp denne evalueringen, og i så fall på hvilke
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>71</id>
           <navn>ELEKTRISITET</navn>
@@ -19772,22 +19296,15 @@ Har statsråden tenkt å følge opp denne evalueringen, og i så fall på hvilke
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>71</id>
-          <navn>ELEKTRISITET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>72</id>
           <navn>ATOMKRAFT</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -19981,9 +19498,9 @@ Har statsråden tenkt å følge opp denne evalueringen, og i så fall på hvilke
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -20070,6 +19587,13 @@ Har statsråden tenkt å følge opp denne evalueringen, og i så fall på hvilke
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-02-13T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -20226,9 +19750,9 @@ Har statsråden tenkt å følge opp denne evalueringen, og i så fall på hvilke
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -20250,13 +19774,6 @@ Har statsråden tenkt å følge opp denne evalueringen, og i så fall på hvilke
           <er_hovedemne>true</er_hovedemne>
           <id>163</id>
           <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>168</id>
-          <navn>FN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -20803,13 +20320,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>43</id>
           <navn>BARNEVERN</navn>
           <underemne_liste />
@@ -20994,13 +20504,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
           <er_hovedemne>false</er_hovedemne>
           <id>47</id>
           <navn>VEGTRAFIKK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -21283,13 +20786,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>189</id>
           <navn>VEGVESEN</navn>
           <underemne_liste />
@@ -21366,9 +20862,9 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -21376,13 +20872,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
           <er_hovedemne>false</er_hovedemne>
           <id>43</id>
           <navn>BARNEVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -21485,9 +20974,9 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -21751,13 +21240,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
@@ -21796,13 +21278,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
           <er_hovedemne>false</er_hovedemne>
           <id>183</id>
           <navn>GRUNNSKOLE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>200</id>
-          <navn>INTERNASJONAL RETT</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -21880,13 +21355,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
           <er_hovedemne>false</er_hovedemne>
           <id>47</id>
           <navn>VEGTRAFIKK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>80</id>
-          <navn>AVGIFTER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -22074,13 +21542,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>135</id>
           <navn>KOMMUNENES ØKONOMI</navn>
           <underemne_liste />
@@ -22248,9 +21709,9 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -22521,13 +21982,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>20</id>
-          <navn>HANDEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>46</id>
           <navn>LANDBRUK</navn>
@@ -22651,13 +22105,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
           <er_hovedemne>true</er_hovedemne>
           <id>40</id>
           <navn>FAMILIE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -22887,13 +22334,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>159</id>
-          <navn>HØYERE UTDANNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>160</id>
           <navn>HØGSKOLER</navn>
           <underemne_liste />
@@ -23006,13 +22446,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>159</id>
-          <navn>HØYERE UTDANNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>160</id>
           <navn>HØGSKOLER</navn>
           <underemne_liste />
@@ -23113,13 +22546,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
           <er_hovedemne>false</er_hovedemne>
           <id>133</id>
           <navn>VETERINÆRVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>159</id>
-          <navn>HØYERE UTDANNING</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -23369,13 +22795,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
@@ -23573,9 +22992,9 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -23748,9 +23167,9 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -23823,13 +23242,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-01-30T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -23931,13 +23343,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>135</id>
           <navn>KOMMUNENES ØKONOMI</navn>
           <underemne_liste />
@@ -24019,6 +23424,13 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-01-30T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -24305,13 +23717,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
           <er_hovedemne>true</er_hovedemne>
           <id>2</id>
           <navn>KOMMUNIKASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -24767,13 +24172,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>189</id>
           <navn>VEGVESEN</navn>
           <underemne_liste />
@@ -24853,20 +24251,6 @@ Vil statsråden ta et initiativ til å iverksette tiltak for å finne ut hvor de
           <er_hovedemne>false</er_hovedemne>
           <id>47</id>
           <navn>VEGTRAFIKK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>189</id>
-          <navn>VEGVESEN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -25307,13 +24691,6 @@ Hva var den reelle grunnen til avlysningen og når vil en avgjørelse komme?</ti
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>75</id>
           <navn>OLJEOMSETNING</navn>
           <underemne_liste />
@@ -25517,13 +24894,6 @@ Hva var den reelle grunnen til avlysningen og når vil en avgjørelse komme?</ti
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>189</id>
           <navn>VEGVESEN</navn>
           <underemne_liste />
@@ -25699,13 +25069,6 @@ Hva var den reelle grunnen til avlysningen og når vil en avgjørelse komme?</ti
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>189</id>
           <navn>VEGVESEN</navn>
           <underemne_liste />
@@ -25870,15 +25233,15 @@ Hva var den reelle grunnen til avlysningen og når vil en avgjørelse komme?</ti
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>80</id>
-          <navn>AVGIFTER</navn>
+          <id>112</id>
+          <navn>REISELIVSNÆRING</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>112</id>
-          <navn>REISELIVSNÆRING</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -26192,13 +25555,6 @@ Hva var den reelle grunnen til avlysningen og når vil en avgjørelse komme?</ti
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>43</id>
           <navn>BARNEVERN</navn>
           <underemne_liste />
@@ -26278,13 +25634,6 @@ Hva var den reelle grunnen til avlysningen og når vil en avgjørelse komme?</ti
           <er_hovedemne>true</er_hovedemne>
           <id>40</id>
           <navn>FAMILIE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -26465,13 +25814,6 @@ Hva var den reelle grunnen til avlysningen og når vil en avgjørelse komme?</ti
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
@@ -26641,6 +25983,13 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>21</id>
           <navn>FORURENSNING</navn>
@@ -26651,13 +26000,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
           <er_hovedemne>false</er_hovedemne>
           <id>71</id>
           <navn>ELEKTRISITET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -26907,13 +26249,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
@@ -27099,13 +26434,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
           <er_hovedemne>false</er_hovedemne>
           <id>47</id>
           <navn>VEGTRAFIKK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -27803,6 +27131,13 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>193</id>
           <navn>MILITÆRT PERSONELL</navn>
@@ -27964,13 +27299,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
@@ -27981,13 +27309,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
           <er_hovedemne>true</er_hovedemne>
           <id>40</id>
           <navn>FAMILIE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -28069,13 +27390,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
@@ -28151,13 +27465,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-01-10T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -28328,13 +27635,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
@@ -28429,13 +27729,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
           <er_hovedemne>false</er_hovedemne>
           <id>18</id>
           <navn>INNVANDRERE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -28874,6 +28167,13 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>8</id>
+          <navn>FISKERIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>80</id>
           <navn>AVGIFTER</navn>
@@ -28956,13 +28256,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2008-01-09T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
@@ -29049,13 +28342,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
@@ -29066,13 +28352,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
           <er_hovedemne>false</er_hovedemne>
           <id>48</id>
           <navn>ELDREOMSORG</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -29168,9 +28447,9 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -29248,13 +28527,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
           <er_hovedemne>true</er_hovedemne>
           <id>2</id>
           <navn>KOMMUNIKASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>37</id>
-          <navn>FYLKER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -29357,13 +28629,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>113</id>
           <navn>NÆRINGSLIV</navn>
@@ -29462,13 +28727,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>61</id>
           <navn>HELSEVESEN</navn>
@@ -29476,9 +28734,9 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -29661,13 +28919,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
           <er_hovedemne>false</er_hovedemne>
           <id>57</id>
           <navn>SKATTEFRADRAG</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>58</id>
-          <navn>SKATTER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -30211,13 +29462,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
@@ -30256,13 +29500,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
           <er_hovedemne>false</er_hovedemne>
           <id>183</id>
           <navn>GRUNNSKOLE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>200</id>
-          <navn>INTERNASJONAL RETT</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -30415,22 +29652,8 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>42</id>
           <navn>BARNEHAGER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -30510,6 +29733,13 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-12-19T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -30689,13 +29919,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>75</id>
           <navn>OLJEOMSETNING</navn>
           <underemne_liste />
@@ -30797,13 +30020,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
           <er_hovedemne>false</er_hovedemne>
           <id>71</id>
           <navn>ELEKTRISITET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -30914,13 +30130,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>112</id>
           <navn>REISELIVSNÆRING</navn>
           <underemne_liste />
@@ -31009,6 +30218,13 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-12-13T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -31110,13 +30326,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>94</id>
-          <navn>ARBEIDSVILKÅR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>95</id>
           <navn>LØNN</navn>
           <underemne_liste />
@@ -31201,13 +30410,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>109</id>
           <navn>LUFTFART</navn>
           <underemne_liste />
@@ -31275,13 +30477,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-12-13T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
@@ -31562,13 +30757,6 @@ Vil statsråden ta initiativ overfor Direktoratet slik at den praktiske, utøven
           <navn>MENNESKERETTIGHETER</navn>
           <underemne_liste />
         </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>200</id>
-          <navn>INTERNASJONAL RETT</navn>
-          <underemne_liste />
-        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -31708,13 +30896,6 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
           <er_hovedemne>true</er_hovedemne>
           <id>4</id>
           <navn>ENERGI</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -31902,13 +31083,6 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>189</id>
           <navn>VEGVESEN</navn>
           <underemne_liste />
@@ -31992,13 +31166,6 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>187</id>
           <navn>FINANSER</navn>
@@ -32076,9 +31243,9 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -32279,13 +31446,6 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
@@ -32380,6 +31540,13 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>21</id>
           <navn>FORURENSNING</navn>
@@ -32462,6 +31629,13 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-11-28T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -32707,6 +31881,13 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-11-28T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -33010,6 +32191,13 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>62</id>
           <navn>HELSEINSTITUSJONER</navn>
@@ -33214,13 +32402,6 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>75</id>
           <navn>OLJEOMSETNING</navn>
           <underemne_liste />
@@ -33311,9 +32492,9 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -33402,23 +32583,9 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>42</id>
-          <navn>BARNEHAGER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>61</id>
           <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -33515,13 +32682,6 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>135</id>
           <navn>KOMMUNENES ØKONOMI</navn>
           <underemne_liste />
@@ -33605,9 +32765,9 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -33683,29 +32843,8 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>38</id>
-          <navn>BOLIGSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>135</id>
           <navn>KOMMUNENES ØKONOMI</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>136</id>
-          <navn>BYGNINGSVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -33797,13 +32936,6 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
           <er_hovedemne>false</er_hovedemne>
           <id>47</id>
           <navn>VEGTRAFIKK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -33962,13 +33094,6 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>61</id>
           <navn>HELSEVESEN</navn>
@@ -34084,13 +33209,6 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
           <er_hovedemne>false</er_hovedemne>
           <id>71</id>
           <navn>ELEKTRISITET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -34278,13 +33396,6 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>75</id>
           <navn>OLJEOMSETNING</navn>
           <underemne_liste />
@@ -34372,6 +33483,13 @@ Hvordan vil statsråden bidra til at norsk industri får langsiktige og akseptab
           <er_hovedemne>false</er_hovedemne>
           <id>22</id>
           <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -34531,13 +33649,6 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>58</id>
-          <navn>SKATTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>141</id>
           <navn>POLITI OG PÅTALEMYNDIGHET</navn>
           <underemne_liste />
@@ -34624,13 +33735,6 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
           <er_hovedemne>true</er_hovedemne>
           <id>6</id>
           <navn>KULTUR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -34818,13 +33922,6 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>75</id>
           <navn>OLJEOMSETNING</navn>
           <underemne_liste />
@@ -34923,22 +34020,8 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>109</id>
           <navn>LUFTFART</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>221</id>
-          <navn>GRUNNLOVEN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -35131,13 +34214,6 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
           <navn>LUFTFART</navn>
           <underemne_liste />
         </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>189</id>
-          <navn>VEGVESEN</navn>
-          <underemne_liste />
-        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -35213,13 +34289,6 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
           <er_hovedemne>false</er_hovedemne>
           <id>48</id>
           <navn>ELDREOMSORG</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -35316,22 +34385,15 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>107</id>
-          <navn>JERNBANER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>135</id>
           <navn>KOMMUNENES ØKONOMI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -35430,13 +34492,6 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
           <er_hovedemne>false</er_hovedemne>
           <id>48</id>
           <navn>ELDREOMSORG</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -35624,13 +34679,6 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>112</id>
           <navn>REISELIVSNÆRING</navn>
           <underemne_liste />
@@ -35717,13 +34765,6 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
           <er_hovedemne>true</er_hovedemne>
           <id>4</id>
           <navn>ENERGI</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -35826,13 +34867,6 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
@@ -35925,13 +34959,6 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>94</id>
-          <navn>ARBEIDSVILKÅR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>95</id>
           <navn>LØNN</navn>
           <underemne_liste />
@@ -36006,6 +35033,13 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-11-13T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -36121,13 +35155,6 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>43</id>
           <navn>BARNEVERN</navn>
           <underemne_liste />
@@ -36209,6 +35236,13 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-11-07T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -36380,13 +35414,6 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>107</id>
           <navn>JERNBANER</navn>
           <underemne_liste />
@@ -36466,13 +35493,6 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
           <er_hovedemne>true</er_hovedemne>
           <id>2</id>
           <navn>KOMMUNIKASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -36702,13 +35722,6 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>45</id>
-          <navn>FORSKNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
           <id>59</id>
           <navn>FORSVAR</navn>
           <underemne_liste />
@@ -36799,9 +35812,9 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -37135,6 +36148,13 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>193</id>
           <navn>MILITÆRT PERSONELL</navn>
@@ -37219,9 +36239,9 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -37320,13 +36340,6 @@ Hvordan vil Regjeringen legge til rette for et mer profesjonelt sauehold, økt l
           <er_hovedemne>false</er_hovedemne>
           <id>71</id>
           <navn>ELEKTRISITET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -37478,9 +36491,9 @@ Mener statsråden at de samme miljøkrav skal gjøres gjeldende for StatoilHydro
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -37553,6 +36566,13 @@ Mener statsråden at de samme miljøkrav skal gjøres gjeldende for StatoilHydro
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-10-31T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -37733,13 +36753,6 @@ Mener statsråden at de samme miljøkrav skal gjøres gjeldende for StatoilHydro
           <er_hovedemne>false</er_hovedemne>
           <id>47</id>
           <navn>VEGTRAFIKK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -37934,6 +36947,13 @@ Mener statsråden at de samme miljøkrav skal gjøres gjeldende for StatoilHydro
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>187</id>
           <navn>FINANSER</navn>
           <underemne_liste />
@@ -38013,13 +37033,6 @@ Mener statsråden at de samme miljøkrav skal gjøres gjeldende for StatoilHydro
           <er_hovedemne>false</er_hovedemne>
           <id>71</id>
           <navn>ELEKTRISITET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>80</id>
-          <navn>AVGIFTER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -38106,13 +37119,6 @@ Mener statsråden at de samme miljøkrav skal gjøres gjeldende for StatoilHydro
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-10-30T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -38445,9 +37451,9 @@ Mener statsråden at de samme miljøkrav skal gjøres gjeldende for StatoilHydro
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -38564,13 +37570,6 @@ Mener statsråden at de samme miljøkrav skal gjøres gjeldende for StatoilHydro
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>80</id>
-          <navn>AVGIFTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>113</id>
           <navn>NÆRINGSLIV</navn>
@@ -38665,13 +37664,6 @@ Mener statsråden at de samme miljøkrav skal gjøres gjeldende for StatoilHydro
           <er_hovedemne>false</er_hovedemne>
           <id>83</id>
           <navn>PRISER OG KONKURRANSEFORHOLD</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -38774,9 +37766,9 @@ Mener statsråden at de samme miljøkrav skal gjøres gjeldende for StatoilHydro
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -39028,13 +38020,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>189</id>
           <navn>VEGVESEN</navn>
           <underemne_liste />
@@ -39119,13 +38104,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>189</id>
           <navn>VEGVESEN</navn>
           <underemne_liste />
@@ -39205,13 +38183,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
           <er_hovedemne>false</er_hovedemne>
           <id>47</id>
           <navn>VEGTRAFIKK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -39398,13 +38369,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>58</id>
-          <navn>SKATTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>187</id>
           <navn>FINANSER</navn>
@@ -39519,13 +38483,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>159</id>
-          <navn>HØYERE UTDANNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>160</id>
           <navn>HØGSKOLER</navn>
           <underemne_liste />
@@ -39608,13 +38565,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-10-18T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
@@ -39715,9 +38665,9 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -39814,15 +38764,15 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
+          <id>43</id>
+          <navn>BARNEVERN</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>43</id>
-          <navn>BARNEVERN</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -39933,9 +38883,9 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -40402,6 +39352,13 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>62</id>
           <navn>HELSEINSTITUSJONER</navn>
@@ -40477,6 +39434,13 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-10-17T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -40573,13 +39537,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
           <er_hovedemne>true</er_hovedemne>
           <id>6</id>
           <navn>KULTUR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>80</id>
-          <navn>AVGIFTER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -40873,13 +39830,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>107</id>
           <navn>JERNBANER</navn>
           <underemne_liste />
@@ -40966,13 +39916,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
           <er_hovedemne>false</er_hovedemne>
           <id>106</id>
           <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>189</id>
-          <navn>VEGVESEN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -41349,13 +40292,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>135</id>
           <navn>KOMMUNENES ØKONOMI</navn>
           <underemne_liste />
@@ -41438,6 +40374,13 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
       <besvart_pa_vegne_av_minister_tittel>forsvarsministeren</besvart_pa_vegne_av_minister_tittel>
       <datert_dato>2007-10-05T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -41648,13 +40591,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
           <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>189</id>
-          <navn>VEGVESEN</navn>
-          <underemne_liste />
-        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -41737,13 +40673,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
           <er_hovedemne>false</er_hovedemne>
           <id>106</id>
           <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>189</id>
-          <navn>VEGVESEN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -41840,20 +40769,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>80</id>
-          <navn>AVGIFTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>184</id>
           <navn>LOKALFORVALTNING</navn>
@@ -41864,13 +40779,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
           <er_hovedemne>true</er_hovedemne>
           <id>187</id>
           <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>189</id>
-          <navn>VEGVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -42037,13 +40945,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>75</id>
           <navn>OLJEOMSETNING</navn>
           <underemne_liste />
@@ -42197,13 +41098,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
@@ -42296,13 +41190,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>63</id>
           <navn>SYKEHUS</navn>
           <underemne_liste />
@@ -42377,13 +41264,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-10-03T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>80</id>
-          <navn>AVGIFTER</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
@@ -42576,9 +41456,9 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -42675,6 +41555,13 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>193</id>
           <navn>MILITÆRT PERSONELL</navn>
@@ -42743,13 +41630,6 @@ Vil statsråden bidra til et godt rutetilbud på tognettet i Oslo-området ved a
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-10-01T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>

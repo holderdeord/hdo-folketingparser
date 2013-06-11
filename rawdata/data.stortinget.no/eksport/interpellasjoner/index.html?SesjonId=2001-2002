@@ -130,29 +130,15 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>70</id>
-          <navn>KRINGKASTING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>80</id>
-          <navn>AVGIFTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>122</id>
-          <navn>MASSEMEDIER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>126</id>
           <navn>NORSK RIKSKRINGKASTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -445,6 +431,13 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>184</id>
           <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
@@ -536,22 +529,8 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>75</id>
           <navn>OLJEOMSETNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -638,13 +617,6 @@
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2002-02-28T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -962,6 +934,13 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>71</id>
           <navn>ELEKTRISITET</navn>
@@ -1123,30 +1102,9 @@
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>37</id>
-          <navn>FYLKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>63</id>
-          <navn>SYKEHUS</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -1233,13 +1191,6 @@
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2002-02-15T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>114</id>
-          <navn>NÆRINGSUTVIKLING</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -1411,22 +1362,8 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>75</id>
           <navn>OLJEOMSETNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>111</id>
-          <navn>FERGER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -1690,9 +1627,9 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -1887,13 +1824,6 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>135</id>
           <navn>KOMMUNENES ØKONOMI</navn>
           <underemne_liste />
@@ -2068,9 +1998,9 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -2099,13 +2029,6 @@
           <er_hovedemne>false</er_hovedemne>
           <id>167</id>
           <navn>MENNESKERETTIGHETER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>200</id>
-          <navn>INTERNASJONAL RETT</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -2257,9 +2180,9 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -2288,13 +2211,6 @@
           <er_hovedemne>true</er_hovedemne>
           <id>184</id>
           <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>200</id>
-          <navn>INTERNASJONAL RETT</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -2376,23 +2292,9 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>61</id>
           <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -2407,13 +2309,6 @@
           <er_hovedemne>false</er_hovedemne>
           <id>135</id>
           <navn>KOMMUNENES ØKONOMI</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>138</id>
-          <navn>HUSBANKEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -2486,13 +2381,6 @@
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2002-01-16T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -2570,13 +2458,6 @@
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2002-01-10T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -2694,13 +2575,6 @@
           <er_hovedemne>false</er_hovedemne>
           <id>106</id>
           <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>189</id>
-          <navn>VEGVESEN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -2927,6 +2801,13 @@
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2001-11-05T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>

@@ -150,13 +150,6 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>139</id>
           <navn>MILJØVERN</navn>
@@ -174,13 +167,6 @@
           <er_hovedemne>false</er_hovedemne>
           <id>146</id>
           <navn>SIKKERHET TIL SJØS</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>178</id>
-          <navn>STATOIL ASA</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -277,6 +263,13 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>167</id>
           <navn>MENNESKERETTIGHETER</navn>
@@ -359,13 +352,6 @@
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2010-05-10T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -462,6 +448,13 @@
           <er_hovedemne>true</er_hovedemne>
           <id>10</id>
           <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -641,6 +634,13 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>71</id>
           <navn>ELEKTRISITET</navn>
@@ -739,9 +739,9 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -891,6 +891,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2010-04-16T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -1187,16 +1194,16 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>21</id>
-          <navn>FORURENSNING</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -1278,9 +1285,9 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -1299,9 +1306,9 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>168</id>
-          <navn>FN</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -1400,13 +1407,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <er_hovedemne>false</er_hovedemne>
           <id>53</id>
           <navn>SKATTEADMINISTRASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>58</id>
-          <navn>SKATTER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -1514,13 +1514,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <navn>VERFTSINDUSTRI</navn>
           <underemne_liste />
         </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>223</id>
-          <navn>INDUSTRI</navn>
-          <underemne_liste />
-        </emne>
       </emne_liste>
       <flyttet_til>rette_vedkommende</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -1602,15 +1595,15 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
+          <id>43</id>
+          <navn>BARNEVERN</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>43</id>
-          <navn>BARNEVERN</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -2037,6 +2030,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>187</id>
           <navn>FINANSER</navn>
           <underemne_liste />
@@ -2128,9 +2128,9 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -2247,6 +2247,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>179</id>
           <navn>TELEKOMMUNIKASJONER</navn>
@@ -2315,6 +2322,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2010-03-18T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -2395,13 +2409,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>20</id>
-          <navn>HANDEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>99</id>
           <navn>UTENRIKSHANDEL</navn>
           <underemne_liste />
@@ -2418,6 +2425,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <er_hovedemne>false</er_hovedemne>
           <id>119</id>
           <navn>STATSBEDRIFTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -2521,13 +2535,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>74</id>
-          <navn>OLJE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>94</id>
           <navn>ARBEIDSVILKÅR</navn>
           <underemne_liste />
@@ -2537,6 +2544,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <er_hovedemne>false</er_hovedemne>
           <id>95</id>
           <navn>LØNN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>143</id>
+          <navn>SJØFART</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -2709,9 +2723,9 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -2726,6 +2740,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <er_hovedemne>false</er_hovedemne>
           <id>114</id>
           <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -2814,9 +2835,9 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -2920,6 +2941,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>105</id>
+          <navn>TROSSAMFUNN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>163</id>
           <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
@@ -2929,13 +2957,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <er_hovedemne>false</er_hovedemne>
           <id>167</id>
           <navn>MENNESKERETTIGHETER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>200</id>
-          <navn>INTERNASJONAL RETT</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -3004,13 +3025,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>20</id>
-          <navn>HANDEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>99</id>
           <navn>UTENRIKSHANDEL</navn>
           <underemne_liste />
@@ -3041,13 +3055,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <er_hovedemne>false</er_hovedemne>
           <id>195</id>
           <navn>VERFTSINDUSTRI</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>223</id>
-          <navn>INDUSTRI</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -3157,6 +3164,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>220</id>
           <navn>DISTRIKTSPOLITIKK</navn>
@@ -3225,6 +3239,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2010-03-02T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -3356,13 +3377,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <er_hovedemne>false</er_hovedemne>
           <id>94</id>
           <navn>ARBEIDSVILKÅR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>159</id>
-          <navn>HØYERE UTDANNING</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -3753,13 +3767,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>60</id>
-          <navn>FORSVARSMATERIELL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>93</id>
           <navn>ATOMVÅPEN</navn>
           <underemne_liste />
@@ -3853,13 +3860,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <er_hovedemne>false</er_hovedemne>
           <id>21</id>
           <navn>FORURENSNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>80</id>
-          <navn>AVGIFTER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -3998,6 +3998,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>163</id>
           <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
@@ -4080,6 +4087,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2010-02-18T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -4190,13 +4204,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <er_hovedemne>false</er_hovedemne>
           <id>71</id>
           <navn>ELEKTRISITET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>80</id>
-          <navn>AVGIFTER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -4316,13 +4323,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <er_hovedemne>false</er_hovedemne>
           <id>47</id>
           <navn>VEGTRAFIKK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -4481,6 +4481,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>21</id>
           <navn>FORURENSNING</navn>
@@ -4572,9 +4579,9 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -4698,9 +4705,9 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -4901,16 +4908,16 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>45</id>
+          <navn>FORSKNING</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>45</id>
-          <navn>FORSKNING</navn>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -4997,6 +5004,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2010-02-11T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -5188,16 +5202,16 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>167</id>
-          <navn>MENNESKERETTIGHETER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>200</id>
-          <navn>INTERNASJONAL RETT</navn>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -5272,9 +5286,9 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -5581,16 +5595,16 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>167</id>
-          <navn>MENNESKERETTIGHETER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>200</id>
-          <navn>INTERNASJONAL RETT</navn>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -5656,6 +5670,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2010-02-02T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>143</id>
+          <navn>SJØFART</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -5749,6 +5770,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>220</id>
           <navn>DISTRIKTSPOLITIKK</navn>
@@ -5822,13 +5850,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <er_hovedemne>true</er_hovedemne>
           <id>2</id>
           <navn>KOMMUNIKASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>37</id>
-          <navn>FYLKER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -6148,6 +6169,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>132</id>
           <navn>REINDRIFT</navn>
@@ -6246,9 +6274,9 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -6337,6 +6365,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>66</id>
           <navn>SYKDOMMER</navn>
@@ -6412,6 +6447,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2010-01-21T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -6508,6 +6550,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <er_hovedemne>false</er_hovedemne>
           <id>22</id>
           <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>143</id>
+          <navn>SJØFART</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -6755,6 +6804,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -6918,23 +6974,9 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>59</id>
           <navn>FORSVAR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>93</id>
-          <navn>ATOMVÅPEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -7107,6 +7149,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>71</id>
           <navn>ELEKTRISITET</navn>
@@ -7212,9 +7261,9 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -7329,6 +7378,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -7415,16 +7471,16 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>167</id>
-          <navn>MENNESKERETTIGHETER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>200</id>
-          <navn>INTERNASJONAL RETT</navn>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -7490,13 +7546,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2009-12-17T00:00:00</datert_dato>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -7597,23 +7646,16 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>8</id>
+          <navn>FISKERIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>9</id>
           <navn>FANGST</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>20</id>
-          <navn>HANDEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -7716,6 +7758,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>66</id>
           <navn>SYKDOMMER</navn>
@@ -7793,9 +7842,9 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -7906,6 +7955,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>184</id>
           <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
@@ -7973,6 +8029,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2009-12-14T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -8071,6 +8134,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2009-12-11T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -8186,13 +8256,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>159</id>
-          <navn>HØYERE UTDANNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>160</id>
           <navn>HØGSKOLER</navn>
           <underemne_liste />
@@ -8276,9 +8339,9 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>20</id>
-          <navn>HANDEL</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -8507,6 +8570,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>66</id>
           <navn>SYKDOMMER</navn>
@@ -8668,13 +8738,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>32</id>
           <navn>UTDANNING</navn>
@@ -8794,6 +8857,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>64</id>
           <navn>HELSEPERSONELL</navn>
@@ -8885,6 +8955,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>186</id>
           <navn>TRYGDER</navn>
@@ -8965,6 +9042,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <er_hovedemne>true</er_hovedemne>
           <id>113</id>
           <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -9264,13 +9348,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>20</id>
-          <navn>HANDEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>58</id>
           <navn>SKATTER</navn>
           <underemne_liste />
@@ -9315,13 +9392,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <er_hovedemne>false</er_hovedemne>
           <id>195</id>
           <navn>VERFTSINDUSTRI</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>223</id>
-          <navn>INDUSTRI</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -9520,6 +9590,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <navn>FINANSER</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -9585,9 +9662,9 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -9595,6 +9672,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <er_hovedemne>true</er_hovedemne>
           <id>59</id>
           <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -9630,13 +9714,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <er_hovedemne>false</er_hovedemne>
           <id>193</id>
           <navn>MILITÆRT PERSONELL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>200</id>
-          <navn>INTERNASJONAL RETT</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -9702,6 +9779,13 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2009-10-13T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -9798,13 +9882,6 @@ Når vil regjeringen fatte investeringsbeslutning, og når vil fullskala CO2-ren
           <er_hovedemne>false</er_hovedemne>
           <id>48</id>
           <navn>ELDREOMSORG</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
           <underemne_liste />
         </emne>
         <emne>
