@@ -2875,6 +2875,13 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
           <id>24</id>
           <navn>LIKESTILLING</navn>
           <underemne_liste />
@@ -2889,8 +2896,29 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <id>49</id>
+          <navn>FUNKSJONSHEMMEDE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
           <id>94</id>
           <navn>ARBEIDSVILKÅR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>105</id>
+          <navn>TROSSAMFUNN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -2905,6 +2933,13 @@
           <er_hovedemne>false</er_hovedemne>
           <id>167</id>
           <navn>MENNESKERETTIGHETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -3585,7 +3620,36 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>26</id>
+          <navn>STORTINGSREPRESENTANTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>30</id>
+          <navn>VALG</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>203</id>
+          <navn>STORTINGET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Innst. 455 S (2012-2013)</henvisning>
       <id>57632</id>
       <innstilling_id>11477</innstilling_id>
@@ -6036,9 +6100,9 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 167 S (2012-2013)</henvisning>
+      <henvisning>Prop. 167 S (2012-2013), Innst. 488 S (2012-2013)</henvisning>
       <id>57526</id>
-      <innstilling_id>-1</innstilling_id>
+      <innstilling_id>11511</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>UFK</id>
@@ -6067,7 +6131,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-03T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2013-06-12T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringar i "Regulativ for tillegg mv. til utskrivne vernepliktige mannskap"</tittel>
       <type>budsjett</type>
@@ -11935,9 +11999,9 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 150 LS (2012-2013)</henvisning>
+      <henvisning>Prop. 150 LS (2012-2013), Innst. 480 S (2012-2013)</henvisning>
       <id>57318</id>
-      <innstilling_id>-1</innstilling_id>
+      <innstilling_id>11507</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>FINANS</id>
@@ -11966,7 +12030,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2013-06-12T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringar i skatte-, avgifts- og tollovgivinga</tittel>
       <type>budsjett</type>
@@ -12026,9 +12090,9 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 150 LS (2012-2013)</henvisning>
+      <henvisning>Prop. 150 LS (2012-2013), Innst. 475 L (2012-2013)</henvisning>
       <id>57319</id>
-      <innstilling_id>-1</innstilling_id>
+      <innstilling_id>11508</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>FINANS</id>
@@ -12057,7 +12121,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2013-06-12T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringar i skatte-, avgifts- og tollovgivinga</tittel>
       <type>lovsak</type>
@@ -14327,9 +14391,9 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 136 S (2012-2013)</henvisning>
+      <henvisning>Prop. 136 S (2012-2013), Innst. 490 S (2012-2013), kapittel 4</henvisning>
       <id>57226</id>
-      <innstilling_id>-1</innstilling_id>
+      <innstilling_id>11509</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>UFK</id>
@@ -14358,7 +14422,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-04-29T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2013-06-12T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringar i statsbudsjettet 2013 under Forsvarsdepartementet (Investeringar i Forsvaret og andre saker)</tittel>
       <type>budsjett</type>
@@ -15485,6 +15549,47 @@
       <sist_oppdatert_dato>2013-06-04T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Samtykke til ratifikasjon av protokoll av 14. oktober 2005 til konvensjon av 10. mars 1988 om bekjempelse av ulovlige handlinger mot sikkerheten ved skipsfart og protokoll av 14. oktober 2005 til protokoll av 10. mars 1988 om bekjempelse av ulovlige handlinger mot sikkerheten ved faste plattformer plassert på kontinentalsokkelen</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 136 S (2012-2013), Innst. 489 S (2012-2013), unntatt kapittel 4</henvisning>
+      <id>57675</id>
+      <innstilling_id>11510</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>UFK</id>
+        <navn>Utenriks- og forsvarskomiteen</navn>
+      </komite>
+      <korttittel>Endringar i statsbudsjettet 2013 under Forsvarsdepartementet (Investeringar i Forsvaret og andre saker)</korttittel>
+      <sak_fremmet_id>57226</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Myhre</etternavn>
+          <foedselsdato>1954-11-29T00:00:00</foedselsdato>
+          <fornavn>Peter N.</fornavn>
+          <id>PEMY</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-12T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endringar i statsbudsjettet 2013 under Forsvarsdepartementet (Investeringar i Forsvaret og andre saker)</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
