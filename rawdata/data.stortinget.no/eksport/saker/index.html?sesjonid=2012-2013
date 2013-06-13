@@ -314,7 +314,36 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>23</id>
+          <navn>NATURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>29</id>
+          <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 3:13 (2012-2013)</henvisning>
       <id>57651</id>
       <innstilling_id>-1</innstilling_id>
@@ -385,7 +414,43 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>29</id>
+          <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>53</id>
+          <navn>SKATTEADMINISTRASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>81</id>
+          <navn>MERVERDIAVGIFT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 3:11 (2012-2013)</henvisning>
       <id>57653</id>
       <innstilling_id>-1</innstilling_id>
@@ -11605,9 +11670,9 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Dokument 8:120 S (2012-2013)</henvisning>
+      <henvisning>Dokument 8:120 S (2012-2013), Innst. 491 S (2012-2013)</henvisning>
       <id>57278</id>
-      <innstilling_id>-1</innstilling_id>
+      <innstilling_id>11512</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>PRES</id>
@@ -11616,7 +11681,7 @@
       <korttittel>Representantforslag om egen lovrådgiver for Stortinget</korttittel>
       <sak_fremmet_id>57278</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2013-06-13T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Anders Anundsen, Ulf Erik Knudsen og Øyvind Vaksdal om egen lovrådgiver for Stortinget</tittel>
       <type>alminneligsak</type>
@@ -20392,6 +20457,13 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
           <id>40</id>
           <navn>FAMILIE</navn>
           <underemne_liste />
@@ -20399,8 +20471,15 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>148</id>
-          <navn>BARNETRYGD</navn>
+          <id>159</id>
+          <navn>HØYERE UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
