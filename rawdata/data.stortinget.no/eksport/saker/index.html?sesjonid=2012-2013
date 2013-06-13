@@ -1766,8 +1766,22 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <id>23</id>
+          <navn>NATURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
           <id>92</id>
           <navn>HAVBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -43140,7 +43154,43 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>25</id>
+          <navn>REGJERINGEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>26</id>
+          <navn>STORTINGSREPRESENTANTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>95</id>
+          <navn>LØNN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Innst. 457 S (2012-2013)</henvisning>
       <id>57645</id>
       <innstilling_id>11478</innstilling_id>
