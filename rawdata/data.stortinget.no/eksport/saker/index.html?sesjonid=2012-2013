@@ -841,7 +841,7 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 109 L (2012-2013), Innst. 393 L (2012-2013)</henvisning>
+      <henvisning>Prop. 109 L (2012-2013), Innst. 393 L (2012-2013), Lovvedtak 109 (2012-2013)</henvisning>
       <id>57074</id>
       <innstilling_id>11414</innstilling_id>
       <komite>
@@ -932,7 +932,7 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 115 L (2012-2013), Innst. 456 L (2012-2013)</henvisning>
+      <henvisning>Prop. 115 L (2012-2013), Innst. 456 L (2012-2013), Lovvedtak 110 (2012-2013)</henvisning>
       <id>57076</id>
       <innstilling_id>11475</innstilling_id>
       <komite>
@@ -1142,7 +1142,7 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 126 L (2012-2013), Innst. 350 L (2012-2013)</henvisning>
+      <henvisning>Prop. 126 L (2012-2013), Innst. 350 L (2012-2013), Lovvedtak 111 (2012-2013)</henvisning>
       <id>57155</id>
       <innstilling_id>11372</innstilling_id>
       <komite>
@@ -1457,7 +1457,7 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 132 L (2012-2013), Innst. 411 L (2012-2013)</henvisning>
+      <henvisning>Prop. 132 L (2012-2013), Innst. 411 L (2012-2013), Lovvedtak 108 (2012-2013)</henvisning>
       <id>57229</id>
       <innstilling_id>11423</innstilling_id>
       <komite>
@@ -1695,7 +1695,7 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 131 L (2012-2013), Innst. 442 L (2012-2013)</henvisning>
+      <henvisning>Prop. 131 L (2012-2013), Innst. 442 L (2012-2013), Lovvedtak 104 (2012-2013)</henvisning>
       <id>57325</id>
       <innstilling_id>11455</innstilling_id>
       <komite>
@@ -1793,7 +1793,7 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 147 L (2012-2013), Innst. 445 L (2012-2013)</henvisning>
+      <henvisning>Prop. 147 L (2012-2013), Innst. 445 L (2012-2013), Lovvedtak 105 (2012-2013)</henvisning>
       <id>57326</id>
       <innstilling_id>11466</innstilling_id>
       <komite>
@@ -1849,7 +1849,7 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 148 L (2012-2013), Innst. 453 L (2012-2013)</henvisning>
+      <henvisning>Prop. 148 L (2012-2013), Innst. 453 L (2012-2013), Lovvedtak 107 (2012-2013)</henvisning>
       <id>57327</id>
       <innstilling_id>11473</innstilling_id>
       <komite>
@@ -1912,7 +1912,7 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 153 L (2012-2013), Innst. 452 L (2012-2013)</henvisning>
+      <henvisning>Prop. 153 L (2012-2013), Innst. 452 L (2012-2013), Lovvedtak 106 (2012-2013)</henvisning>
       <id>57329</id>
       <innstilling_id>11472</innstilling_id>
       <komite>
@@ -3562,6 +3562,13 @@
           <er_hovedemne>true</er_hovedemne>
           <id>46</id>
           <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>128</id>
+          <navn>JORDBRUK</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -16892,20 +16899,20 @@
         <representant>
           <versjon>1.0</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Myhre</etternavn>
-          <foedselsdato>1954-11-29T00:00:00</foedselsdato>
-          <fornavn>Peter N.</fornavn>
-          <id>PEMY</id>
+          <etternavn>Myrli</etternavn>
+          <foedselsdato>1971-08-26T00:00:00</foedselsdato>
+          <fornavn>Sverre</fornavn>
+          <id>SMY</id>
           <kjoenn>mann</kjoenn>
           <fylke>
             <versjon>1.0</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
+            <id>Ak</id>
+            <navn>Akershus</navn>
           </fylke>
           <parti>
             <versjon>1.0</versjon>
-            <id>FrP</id>
-            <navn>Fremskrittspartiet</navn>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
           </parti>
         </representant>
       </saksordfoerer_liste>
@@ -43381,7 +43388,29 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>redegjørelse</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>174</id>
+          <navn>UTVIKLINGSHJELP</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning i:nil="true" />
       <id>57586</id>
       <innstilling_id>-1</innstilling_id>
