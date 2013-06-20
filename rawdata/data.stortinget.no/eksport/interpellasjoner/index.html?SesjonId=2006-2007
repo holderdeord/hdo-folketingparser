@@ -21,6 +21,10 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-05-16T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>66</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -105,6 +109,11 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-05-11T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>141</d4p1:int>
+        <d4p1:int>146</d4p1:int>
+        <d4p1:int>211</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -197,69 +206,6 @@
       <besvart_av>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Strøm-Erichsen</etternavn>
-        <foedselsdato>1949-10-21T00:00:00</foedselsdato>
-        <fornavn>Anne-Grete</fornavn>
-        <id>ANS</id>
-        <kjoenn>kvinne</kjoenn>
-      </besvart_av>
-      <besvart_av_minister_id>FD</besvart_av_minister_id>
-      <besvart_av_minister_tittel>forsvarsministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av i:nil="true" />
-      <besvart_pa_vegne_av_minister_id i:nil="true" />
-      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
-      <datert_dato>2007-05-10T00:00:00</datert_dato>
-      <emne_liste />
-      <flyttet_til>ikke_spesifisert</flyttet_til>
-      <fremsatt_av_annen i:nil="true" />
-      <id>37280</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
-      <sesjon_id>2006-2007</sesjon_id>
-      <sporsmal_fra>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Arnesen</etternavn>
-        <foedselsdato>1951-06-09T00:00:00</foedselsdato>
-        <fornavn>Bendiks H.</fornavn>
-        <id>BEHA</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Tr</id>
-          <navn>Troms</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>A</id>
-          <navn>Arbeiderpartiet</navn>
-        </parti>
-      </sporsmal_fra>
-      <sporsmal_nummer>80</sporsmal_nummer>
-      <sporsmal_til>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Strøm-Erichsen</etternavn>
-        <foedselsdato>1949-10-21T00:00:00</foedselsdato>
-        <fornavn>Anne-Grete</fornavn>
-        <id>ANS</id>
-        <kjoenn>kvinne</kjoenn>
-      </sporsmal_til>
-      <sporsmal_til_minister_id>FD</sporsmal_til_minister_id>
-      <sporsmal_til_minister_tittel>forsvarsministeren</sporsmal_til_minister_tittel>
-      <status>trukket</status>
-      <tittel>I Soria Moria-erklæringen varslet Regjeringen at den ville trappe opp den norske sivile og militære deltakelsen i FNs fredsbevarende arbeid, med særlig vekt på Afrika. Regjeringen har tidligere varslet at Norge i sammen med Sverige, forbereder en innsats i en eventuell FN-styrke i Darfur i Sudan. FN karakteriserer situasjonen i Darfur som verdens verste humanitære krise, og behovene for nødhjelp og beskyttelse er enorme. Særlig er kvinner og barn de som rammes hardest. Det er derfor helt nødvendig at det internasjonale samfunnet opprettholder presset på myndighetene i Khartoum, og Norge på sin side må stå klar til innsats dersom en løsning skulle oppnås. Så langt har regjeringen i Sudan dessverre blokkert for en ren FN-operasjon, men har akseptert en støtte fra FN til Den afrikanske unions operasjon. 
-Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en FN-innsats i Darfur?</tittel>
-      <type>interpellasjon</type>
-    </sporsmal>
-    <sporsmal>
-      <versjon>1.0</versjon>
-      <besvart_av>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Djupedal</etternavn>
         <foedselsdato>1960-05-05T00:00:00</foedselsdato>
         <fornavn>Øystein</fornavn>
@@ -273,6 +219,12 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-05-10T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>31</d4p1:int>
+        <d4p1:int>136</d4p1:int>
+        <d4p1:int>188</d4p1:int>
+        <d4p1:int>205</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -392,6 +344,10 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-05-10T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>124</d4p1:int>
+        <d4p1:int>171</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -483,6 +439,10 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-04-23T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>139</d4p1:int>
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -567,6 +527,11 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-04-23T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>31</d4p1:int>
+        <d4p1:int>141</d4p1:int>
+        <d4p1:int>211</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -672,6 +637,10 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-04-23T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>1</d4p1:int>
+        <d4p1:int>221</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -771,6 +740,10 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-04-20T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>163</d4p1:int>
+        <d4p1:int>167</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -855,6 +828,11 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-04-13T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>81</d4p1:int>
+        <d4p1:int>188</d4p1:int>
+        <d4p1:int>191</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -953,6 +931,11 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-04-12T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>21</d4p1:int>
+        <d4p1:int>143</d4p1:int>
+        <d4p1:int>146</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -1051,6 +1034,11 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-03-30T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>113</d4p1:int>
+        <d4p1:int>119</d4p1:int>
+        <d4p1:int>167</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -1149,6 +1137,10 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-03-29T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>47</d4p1:int>
+        <d4p1:int>189</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -1233,6 +1225,10 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-03-28T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>23</d4p1:int>
+        <d4p1:int>71</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -1324,6 +1320,11 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-03-26T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>41</d4p1:int>
+        <d4p1:int>66</d4p1:int>
+        <d4p1:int>188</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -1422,6 +1423,10 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-03-19T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>67</d4p1:int>
+        <d4p1:int>68</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -1506,6 +1511,11 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-03-15T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>69</d4p1:int>
+        <d4p1:int>97</d4p1:int>
+        <d4p1:int>98</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -1604,6 +1614,9 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-03-15T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>61</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -1674,6 +1687,10 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-03-13T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>63</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -1768,6 +1785,9 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-03-09T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>12</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -1845,6 +1865,9 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-03-08T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>174</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -1922,6 +1945,10 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-03-08T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>211</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -2006,6 +2033,12 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-03-08T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>59</d4p1:int>
+        <d4p1:int>163</d4p1:int>
+        <d4p1:int>175</d4p1:int>
+        <d4p1:int>177</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -2104,6 +2137,11 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-03-07T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>22</d4p1:int>
+        <d4p1:int>64</d4p1:int>
+        <d4p1:int>174</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -2202,6 +2240,9 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-03-07T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>141</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -2279,6 +2320,12 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-03-06T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>5</d4p1:int>
+        <d4p1:int>18</d4p1:int>
+        <d4p1:int>24</d4p1:int>
+        <d4p1:int>40</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -2384,6 +2431,10 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-02-26T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>66</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -2468,6 +2519,10 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-02-26T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>7</d4p1:int>
+        <d4p1:int>58</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -2559,6 +2614,10 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-02-21T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>179</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -2643,6 +2702,11 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-02-06T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>12</d4p1:int>
+        <d4p1:int>40</d4p1:int>
+        <d4p1:int>52</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -2741,6 +2805,10 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-02-06T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>141</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -2825,6 +2893,10 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-02-05T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>21</d4p1:int>
+        <d4p1:int>106</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -2916,6 +2988,12 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-02-02T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>18</d4p1:int>
+        <d4p1:int>99</d4p1:int>
+        <d4p1:int>165</d4p1:int>
+        <d4p1:int>175</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -3028,6 +3106,10 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-01-31T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>6</d4p1:int>
+        <d4p1:int>188</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -3112,6 +3194,11 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-01-23T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>21</d4p1:int>
+        <d4p1:int>71</d4p1:int>
+        <d4p1:int>75</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -3210,6 +3297,9 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-01-22T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>141</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -3274,69 +3364,6 @@ Hvordan vurderer statsråden utsiktene til å få på plass en løsning for en F
       <besvart_av>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Giske</etternavn>
-        <foedselsdato>1966-11-07T00:00:00</foedselsdato>
-        <fornavn>Trond</fornavn>
-        <id>TG</id>
-        <kjoenn>mann</kjoenn>
-      </besvart_av>
-      <besvart_av_minister_id>KKD</besvart_av_minister_id>
-      <besvart_av_minister_tittel>kultur- og kirkeministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av i:nil="true" />
-      <besvart_pa_vegne_av_minister_id i:nil="true" />
-      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
-      <datert_dato>2007-01-22T00:00:00</datert_dato>
-      <emne_liste />
-      <flyttet_til>ikke_spesifisert</flyttet_til>
-      <fremsatt_av_annen i:nil="true" />
-      <id>36243</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
-      <sesjon_id>2006-2007</sesjon_id>
-      <sporsmal_fra>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Khan</etternavn>
-        <foedselsdato>1979-04-23T00:00:00</foedselsdato>
-        <fornavn>Saera</fornavn>
-        <id>STK</id>
-        <kjoenn>kvinne</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>Os</id>
-          <navn>Oslo</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>A</id>
-          <navn>Arbeiderpartiet</navn>
-        </parti>
-      </sporsmal_fra>
-      <sporsmal_nummer>40</sporsmal_nummer>
-      <sporsmal_til>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Giske</etternavn>
-        <foedselsdato>1966-11-07T00:00:00</foedselsdato>
-        <fornavn>Trond</fornavn>
-        <id>TG</id>
-        <kjoenn>mann</kjoenn>
-      </sporsmal_til>
-      <sporsmal_til_minister_id>KKD</sporsmal_til_minister_id>
-      <sporsmal_til_minister_tittel>kultur- og kirkeministeren</sporsmal_til_minister_tittel>
-      <status>trukket</status>
-      <tittel>Arenaer og møteplasser for integrering av barn og unge med ulik bakgrunn er svært viktig. I tillegg er det et samfunnsansvar å legge til rette for å gi mulighet for en sunn oppvekst og sunne valg når det gjelder kosthold og fysisk aktivitet. Forskning viser at det er store forskjeller i helsevaner mellom ungdom. Eksempler fra Sverige ("idrettsmilliarden") viser at samarbeid mellom staten, skoler og idrettsforeninger og idrettshøyskoler har gitt gode resultater integreringsmessig. Idrettsforeningene blir faddere for hver sin skole, og gjennom statlig støtte får elevene prøvd ut ulike idretter som de kanskje ikke har fått prøvd tidligere grunnet foreldrenes økonomi. Dette har gitt svært gode resultater: Barn med innvandrerbakgrunn har økt sin deltakelse i idretten, spesielt jentene.
-Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
-      <type>interpellasjon</type>
-    </sporsmal>
-    <sporsmal>
-      <versjon>1.0</versjon>
-      <besvart_av>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Djupedal</etternavn>
         <foedselsdato>1960-05-05T00:00:00</foedselsdato>
         <fornavn>Øystein</fornavn>
@@ -3350,6 +3377,11 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-01-22T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>18</d4p1:int>
+        <d4p1:int>31</d4p1:int>
+        <d4p1:int>159</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -3448,6 +3480,10 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-01-19T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>18</d4p1:int>
+        <d4p1:int>61</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -3540,6 +3576,10 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-01-18T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>188</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -3624,6 +3664,10 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2007-01-05T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>141</d4p1:int>
+        <d4p1:int>211</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -3715,6 +3759,12 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-12-19T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>17</d4p1:int>
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>63</d4p1:int>
+        <d4p1:int>64</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -3820,6 +3870,11 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-12-19T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>18</d4p1:int>
+        <d4p1:int>141</d4p1:int>
+        <d4p1:int>211</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -3925,6 +3980,10 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-12-14T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>40</d4p1:int>
+        <d4p1:int>49</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -4009,6 +4068,12 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-12-14T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>18</d4p1:int>
+        <d4p1:int>40</d4p1:int>
+        <d4p1:int>105</d4p1:int>
+        <d4p1:int>167</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -4122,6 +4187,12 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-12-13T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>127</d4p1:int>
+        <d4p1:int>135</d4p1:int>
+        <d4p1:int>183</d4p1:int>
+        <d4p1:int>188</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -4241,6 +4312,11 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-12-12T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>21</d4p1:int>
+        <d4p1:int>47</d4p1:int>
+        <d4p1:int>188</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -4346,6 +4422,12 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-12-05T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>7</d4p1:int>
+        <d4p1:int>49</d4p1:int>
+        <d4p1:int>106</d4p1:int>
+        <d4p1:int>136</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -4465,6 +4547,11 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-11-28T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>5</d4p1:int>
+        <d4p1:int>24</d4p1:int>
+        <d4p1:int>32</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -4556,6 +4643,12 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-11-27T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>29</d4p1:int>
+        <d4p1:int>51</d4p1:int>
+        <d4p1:int>83</d4p1:int>
+        <d4p1:int>155</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -4668,6 +4761,11 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-11-22T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>125</d4p1:int>
+        <d4p1:int>188</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -4766,6 +4864,9 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-11-14T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>211</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -4843,6 +4944,11 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-11-09T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>49</d4p1:int>
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>62</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -4934,6 +5040,11 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-11-02T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>168</d4p1:int>
+        <d4p1:int>171</d4p1:int>
+        <d4p1:int>211</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -5032,6 +5143,11 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-11-01T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>5</d4p1:int>
+        <d4p1:int>7</d4p1:int>
+        <d4p1:int>18</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -5130,6 +5246,11 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-11-01T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>24</d4p1:int>
+        <d4p1:int>59</d4p1:int>
+        <d4p1:int>193</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -5228,6 +5349,11 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-11-01T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>82</d4p1:int>
+        <d4p1:int>99</d4p1:int>
+        <d4p1:int>172</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -5333,6 +5459,10 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-10-30T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>8</d4p1:int>
+        <d4p1:int>91</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -5417,6 +5547,10 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-10-30T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>64</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -5501,6 +5635,9 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-10-26T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>12</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -5578,6 +5715,13 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-10-26T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>14</d4p1:int>
+        <d4p1:int>40</d4p1:int>
+        <d4p1:int>141</d4p1:int>
+        <d4p1:int>167</d4p1:int>
+        <d4p1:int>170</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -5690,6 +5834,10 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-10-24T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>143</d4p1:int>
+        <d4p1:int>145</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -5782,6 +5930,10 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id>BLD</besvart_pa_vegne_av_minister_id>
       <besvart_pa_vegne_av_minister_tittel>barne- og likestillingsministeren</besvart_pa_vegne_av_minister_tittel>
       <datert_dato>2006-10-24T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>40</d4p1:int>
+        <d4p1:int>43</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -5866,6 +6018,11 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-10-19T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>4</d4p1:int>
+        <d4p1:int>45</d4p1:int>
+        <d4p1:int>72</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -5957,6 +6114,10 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-10-10T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>40</d4p1:int>
+        <d4p1:int>61</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -6034,6 +6195,9 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-09-28T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>159</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -6111,6 +6275,11 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-09-07T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>65</d4p1:int>
+        <d4p1:int>211</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -6209,6 +6378,11 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-06-16T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>24</d4p1:int>
+        <d4p1:int>45</d4p1:int>
+        <d4p1:int>159</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -6294,68 +6468,6 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_av>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Riis-Johansen</etternavn>
-        <foedselsdato>1968-03-15T00:00:00</foedselsdato>
-        <fornavn>Terje</fornavn>
-        <id>TRJ</id>
-        <kjoenn>mann</kjoenn>
-      </besvart_av>
-      <besvart_av_minister_id>LMD</besvart_av_minister_id>
-      <besvart_av_minister_tittel>landbruks- og matministeren</besvart_av_minister_tittel>
-      <besvart_dato>0001-01-01T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av i:nil="true" />
-      <besvart_pa_vegne_av_minister_id i:nil="true" />
-      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
-      <datert_dato>2006-06-15T00:00:00</datert_dato>
-      <emne_liste />
-      <flyttet_til>ikke_spesifisert</flyttet_til>
-      <fremsatt_av_annen i:nil="true" />
-      <id>34878</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
-      <sesjon_id>2006-2007</sesjon_id>
-      <sporsmal_fra>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Gundersen</etternavn>
-        <foedselsdato>1956-05-21T00:00:00</foedselsdato>
-        <fornavn>Gunnar</fornavn>
-        <id>GAG</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>He</id>
-          <navn>Hedmark</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>H</id>
-          <navn>Høyre</navn>
-        </parti>
-      </sporsmal_fra>
-      <sporsmal_nummer>6</sporsmal_nummer>
-      <sporsmal_til>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Riis-Johansen</etternavn>
-        <foedselsdato>1968-03-15T00:00:00</foedselsdato>
-        <fornavn>Terje</fornavn>
-        <id>TRJ</id>
-        <kjoenn>mann</kjoenn>
-      </sporsmal_til>
-      <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
-      <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
-      <status>trukket</status>
-      <tittel> </tittel>
-      <type>interpellasjon</type>
-    </sporsmal>
-    <sporsmal>
-      <versjon>1.0</versjon>
-      <besvart_av>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Røys</etternavn>
         <foedselsdato>1967-05-06T00:00:00</foedselsdato>
         <fornavn>Heidi Grande</fornavn>
@@ -6369,6 +6481,11 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-05-29T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>44</d4p1:int>
+        <d4p1:int>94</d4p1:int>
+        <d4p1:int>186</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -6474,6 +6591,11 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-05-23T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>44</d4p1:int>
+        <d4p1:int>51</d4p1:int>
+        <d4p1:int>155</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -6573,6 +6695,10 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-05-23T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>66</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
@@ -6657,6 +6783,10 @@ Kan statsråden tenke seg lignende samarbeidsordninger i Norge?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-05-22T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>11</d4p1:int>
+        <d4p1:int>125</d4p1:int>
+      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>

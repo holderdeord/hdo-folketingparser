@@ -21,6 +21,7 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1995-03-29T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -85,6 +86,7 @@ Kan statsråden redegjøre for Norges engasjement mot barnearbeid og om det even
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1995-03-21T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -107,7 +109,11 @@ Kan statsråden redegjøre for Norges engasjement mot barnearbeid og om det even
           <id>Ve</id>
           <navn>Vestfold</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <versjon>1.0</versjon>
+          <id>Uav</id>
+          <navn>Uavhengig representant</navn>
+        </parti>
       </sporsmal_fra>
       <sporsmal_nummer>20</sporsmal_nummer>
       <sporsmal_til>
@@ -144,6 +150,7 @@ Vil justisministeren ta et bredt initiativ for å gjenopprette tillit til rettss
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1995-02-13T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -207,6 +214,7 @@ Kan utenriksministeren redegjøre for situasjonen foran denne viktige konferanse
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1994-12-23T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -270,6 +278,7 @@ Hva kan statsråden gjøre for å stoppe den uholdbare utviklingen på vidda og 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1994-12-19T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -334,6 +343,7 @@ Hva vil bli gjort for å bevare og videreutvikle/ivareta de fagmiljøene som er 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1994-12-01T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -385,69 +395,6 @@ Ser ikke statsråden verdien av en desentralisert skolestruktur? Hvis statsråde
       <besvart_av>
         <versjon>1.0</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Christie</etternavn>
-        <foedselsdato>1949-04-26T00:00:00</foedselsdato>
-        <fornavn>Werner</fornavn>
-        <id>WC</id>
-        <kjoenn>mann</kjoenn>
-      </besvart_av>
-      <besvart_av_minister_id>SHH</besvart_av_minister_id>
-      <besvart_av_minister_tittel>helseministeren</besvart_av_minister_tittel>
-      <besvart_dato>1995-01-16T00:00:00</besvart_dato>
-      <besvart_pa_vegne_av i:nil="true" />
-      <besvart_pa_vegne_av_minister_id i:nil="true" />
-      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
-      <datert_dato>1994-11-16T00:00:00</datert_dato>
-      <emne_liste />
-      <flyttet_til>ikke_spesifisert</flyttet_til>
-      <fremsatt_av_annen i:nil="true" />
-      <id>14123</id>
-      <rette_vedkommende i:nil="true" />
-      <rette_vedkommende_minister_id i:nil="true" />
-      <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
-      <sesjon_id>1994-95</sesjon_id>
-      <sporsmal_fra>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Brustad</etternavn>
-        <foedselsdato>1966-12-19T00:00:00</foedselsdato>
-        <fornavn>Sylvia</fornavn>
-        <id>SKB</id>
-        <kjoenn>kvinne</kjoenn>
-        <fylke>
-          <versjon>1.0</versjon>
-          <id>He</id>
-          <navn>Hedmark</navn>
-        </fylke>
-        <parti>
-          <versjon>1.0</versjon>
-          <id>A</id>
-          <navn>Arbeiderpartiet</navn>
-        </parti>
-      </sporsmal_fra>
-      <sporsmal_nummer>15</sporsmal_nummer>
-      <sporsmal_til>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Christie</etternavn>
-        <foedselsdato>1949-04-26T00:00:00</foedselsdato>
-        <fornavn>Werner</fornavn>
-        <id>WC</id>
-        <kjoenn>mann</kjoenn>
-      </sporsmal_til>
-      <sporsmal_til_minister_id>SHH</sporsmal_til_minister_id>
-      <sporsmal_til_minister_tittel>helseministeren</sporsmal_til_minister_tittel>
-      <status>trukket</status>
-      <tittel>"Human-Etisk Forbund påstår i en annonse i blant annet VG 6. november 1994 at omskjæring av kvinner skjer i Norge. Etter det jeg kjenner til er ikke dette tillatt i Norge, og jeg forutsetter derved at det heller ikke skjer i Norge.
-Kan statsråden bekrefte at omskjæring ikke skjer i Norge, og vil statsråden eventuelt ta initiativ til en lovpresisering enten gjennom en egen lov eller i eksisterende lovverk, slik at vi får et eksplisitt lovforbud mot kjønnslemlestelse slik de blant annet har i Sverige?" (Trukket tilbake)</tittel>
-      <type>interpellasjon</type>
-    </sporsmal>
-    <sporsmal>
-      <versjon>1.0</versjon>
-      <besvart_av>
-        <versjon>1.0</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Stoltenberg</etternavn>
         <foedselsdato>1959-03-16T00:00:00</foedselsdato>
         <fornavn>Jens</fornavn>
@@ -461,6 +408,7 @@ Kan statsråden bekrefte at omskjæring ikke skjer i Norge, og vil statsråden e
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1994-11-11T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -525,6 +473,7 @@ Hvilke tiltak vil statsråden treffe for å sikre framtidig norsk eierskap og st
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1994-10-14T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -589,6 +538,7 @@ Hvilke utfordringer mener miljøvernministeren vi står overfor her i Norge hvis
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1994-09-30T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -652,6 +602,7 @@ Vil statsråden opplyse hvilke av de nevnte anbefalinger som er blitt gjennomfø
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1994-09-06T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -715,6 +666,7 @@ Hvilke vurderinger har statsråden av utviklingen på dagligvaremarkedet, og vil
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1994-05-31T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -779,6 +731,7 @@ Hvilke tiltak kan settes i verk for å styrke ekteskapet og forebygge skilsmisse
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1994-05-11T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -842,6 +795,7 @@ Hva vil Regjeringen gjøre for å sikre eierspredning og unngå maktkonsentrasjo
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1994-04-06T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -905,6 +859,7 @@ Hva vil nærings- og energiministeren gjøre for å tilrettelegge for en sterker
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1994-03-25T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -968,6 +923,7 @@ Kva vil statsråden gjere for at stortingsfleirtalet sin intensjon blir følgt o
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1994-03-22T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -1031,6 +987,7 @@ Hvilke virkemidler vil fiskeriministeren sette i verk for å sikre et framtidig 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1994-03-21T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -1094,6 +1051,7 @@ Hvilken betydning tillegger nærings- og energiministeren tjenesteytende sektor 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1994-03-01T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -1157,6 +1115,7 @@ Hva vil statsråden konkret gjøre for å hindre en stadig økende privatisering
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1994-02-24T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -1220,6 +1179,7 @@ Hva vil statsråden gjøre for å sikre et absolutt krav til lærebokforfattere 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1994-02-22T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -1284,6 +1244,7 @@ Korleis vil statsråden syte for at arbeidet med forebygging og sikring av skred
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>1994-02-17T00:00:00</datert_dato>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <emne_liste />
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
