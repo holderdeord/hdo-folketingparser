@@ -734,75 +734,56 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>64</d4p1:int>
-        <d4p1:int>186</d4p1:int>
+        <d4p1:int>26</d4p1:int>
+        <d4p1:int>154</d4p1:int>
+        <d4p1:int>203</d4p1:int>
       </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <dokumentgruppe>innstillingssaker</dokumentgruppe>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
+          <er_hovedemne>false</er_hovedemne>
+          <id>26</id>
+          <navn>STORTINGSREPRESENTANTER</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>64</id>
-          <navn>HELSEPERSONELL</navn>
+          <id>154</id>
+          <navn>POLITISKE PARTIER</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>186</id>
-          <navn>TRYGDER</navn>
+          <id>203</id>
+          <navn>STORTINGET</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 174 S (2012-2013), Innst. 486 S (2012-2013)</henvisning>
-      <id>57615</id>
-      <innstilling_id>11505</innstilling_id>
+      <henvisning>Innst. 421 S (2012-2013)</henvisning>
+      <id>57604</id>
+      <innstilling_id>11443</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
-        <id>HELSEOMS</id>
-        <navn>Helse- og omsorgskomiteen</navn>
+        <id>PRES</id>
+        <navn>Stortingets presidentskap</navn>
       </komite>
-      <korttittel>Endringar i statsbudsjettet for 2013 under Helse- og omsorgsdepartementet (som følgje av endra takstar for legar, psykologar og fysioterapeutar)</korttittel>
-      <sak_fremmet_id>57615</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Helseth</etternavn>
-          <foedselsdato>1955-01-11T00:00:00</foedselsdato>
-          <fornavn>Are</fornavn>
-          <id>AREH</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ak</id>
-            <navn>Akershus</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
+      <korttittel>Endringer i tilskuddet til partigruppene på Stortinget</korttittel>
+      <sak_fremmet_id>57604</sak_fremmet_id>
+      <saksordfoerer_liste />
       <sist_oppdatert_dato>2013-06-20T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
-      <tittel>Endringar i statsbudsjettet for 2013 under Helse- og omsorgsdepartementet (som følgje av endra takstar for legar, psykologar og fysioterapeutar)</tittel>
-      <type>budsjett</type>
+      <tittel>Endringer i tilskuddet til partigruppene på Stortinget</tittel>
+      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -1102,56 +1083,75 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>26</d4p1:int>
-        <d4p1:int>154</d4p1:int>
-        <d4p1:int>203</d4p1:int>
+        <d4p1:int>64</d4p1:int>
+        <d4p1:int>186</d4p1:int>
       </direkte_bundne_emnen>
-      <dokumentgruppe>innstillingssaker</dokumentgruppe>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>26</id>
-          <navn>STORTINGSREPRESENTANTER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>151</id>
-          <navn>STATSFORFATNING</navn>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>154</id>
-          <navn>POLITISKE PARTIER</navn>
+          <id>64</id>
+          <navn>HELSEPERSONELL</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>203</id>
-          <navn>STORTINGET</navn>
+          <id>186</id>
+          <navn>TRYGDER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Innst. 421 S (2012-2013)</henvisning>
-      <id>57604</id>
-      <innstilling_id>11443</innstilling_id>
+      <henvisning>Prop. 174 S (2012-2013), Innst. 486 S (2012-2013)</henvisning>
+      <id>57615</id>
+      <innstilling_id>11505</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
-        <id>PRES</id>
-        <navn>Stortingets presidentskap</navn>
+        <id>HELSEOMS</id>
+        <navn>Helse- og omsorgskomiteen</navn>
       </komite>
-      <korttittel>Endringer i tilskuddet til partigruppene på Stortinget</korttittel>
-      <sak_fremmet_id>57604</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <korttittel>Endringar i statsbudsjettet for 2013 under Helse- og omsorgsdepartementet (som følgje av endra takstar for legar, psykologar og fysioterapeutar)</korttittel>
+      <sak_fremmet_id>57615</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Helseth</etternavn>
+          <foedselsdato>1955-01-11T00:00:00</foedselsdato>
+          <fornavn>Are</fornavn>
+          <id>AREH</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-06-20T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
-      <tittel>Endringer i tilskuddet til partigruppene på Stortinget</tittel>
-      <type>alminneligsak</type>
+      <tittel>Endringar i statsbudsjettet for 2013 under Helse- og omsorgsdepartementet (som følgje av endra takstar for legar, psykologar og fysioterapeutar)</tittel>
+      <type>budsjett</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -3987,74 +3987,82 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>18</d4p1:int>
-        <d4p1:int>43</d4p1:int>
+        <d4p1:int>153</d4p1:int>
+        <d4p1:int>167</d4p1:int>
+        <d4p1:int>168</d4p1:int>
       </direkte_bundne_emnen>
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>18</id>
-          <navn>INNVANDRERE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>40</id>
-          <navn>FAMILIE</navn>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>43</id>
-          <navn>BARNEVERN</navn>
+          <id>153</id>
+          <navn>STORTINGETS OMBUDSMANN FOR FORVALTNINGEN</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>168</id>
+          <navn>FN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 162 L (2012-2013), Innst. 464 L (2012-2013), Lovvedtak 124 (2012-2013)</henvisning>
-      <id>57528</id>
-      <innstilling_id>11485</innstilling_id>
+      <henvisning>Prop. 159 L (2012-2013), Innst. 471 L (2012-2013), Lovvedtak 123 (2012-2013)</henvisning>
+      <id>57470</id>
+      <innstilling_id>11489</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
-        <id>KOMMFORV</id>
-        <navn>Kommunal- og forvaltningskomiteen</navn>
+        <id>KONTROLL</id>
+        <navn>Kontroll- og konstitusjonskomiteen</navn>
       </komite>
-      <korttittel>Endringer i utlendingsloven (familieinnvandring for særkullsbarn ved fare for seksuelle overgrep)</korttittel>
-      <sak_fremmet_id>57528</sak_fremmet_id>
+      <korttittel>Endringer i sivilombudsmannsloven (nasjonal forebyggende mekanisme) (lov-delen)</korttittel>
+      <sak_fremmet_id>57470</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
           <versjon>1.0</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Christoffersen</etternavn>
-          <foedselsdato>1955-08-05T00:00:00</foedselsdato>
-          <fornavn>Lise</fornavn>
-          <id>LIC</id>
-          <kjoenn>kvinne</kjoenn>
+          <etternavn>Langeland</etternavn>
+          <foedselsdato>1955-11-14T00:00:00</foedselsdato>
+          <fornavn>Hallgeir H.</fornavn>
+          <id>HHL</id>
+          <kjoenn>mann</kjoenn>
           <fylke>
             <versjon>1.0</versjon>
-            <id>Bu</id>
-            <navn>Buskerud</navn>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
           </fylke>
           <parti>
             <versjon>1.0</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
           </parti>
         </representant>
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
-      <tittel>Endringer i utlendingsloven (familieinnvandring for særkullsbarn ved fare for seksuelle overgrep)</tittel>
+      <tittel>Endringer i sivilombudsmannsloven (nasjonal forebyggende mekanisme)</tittel>
       <type>lovsak</type>
     </sak>
     <sak>
@@ -4141,48 +4149,6 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Dokument 8:137 LS (2012-2013), Innst. 463 L (2012-2013)</henvisning>
-      <id>57436</id>
-      <innstilling_id>11483</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>KOMMFORV</id>
-        <navn>Kommunal- og forvaltningskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om innvandringspolitiske siktelinjer og endringer i lov om utlendingers adgang til riket og deres opphold her (utlendingsloven)</korttittel>
-      <sak_fremmet_id>57436</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Christoffersen</etternavn>
-          <foedselsdato>1955-08-05T00:00:00</foedselsdato>
-          <fornavn>Lise</fornavn>
-          <id>LIC</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Bu</id>
-            <navn>Buskerud</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Morten Ørsal Johansen, Gjermund Hagesæter og Åge Starheim Starheim om innvandringspolitiske siktelinjer og endringer i lov om utlendingers adgang til riket og deres opphold her (utlendingsloven)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>94</d4p1:int>
         <d4p1:int>95</d4p1:int>
@@ -4245,6 +4211,80 @@
       <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Lov om lønnsnemndbehandling av arbeidstvisten mellom EL og IT Forbundet og Atea AS våren 2013</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>18</d4p1:int>
+        <d4p1:int>43</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>43</id>
+          <navn>BARNEVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 162 L (2012-2013), Innst. 464 L (2012-2013), Lovvedtak 124 (2012-2013)</henvisning>
+      <id>57528</id>
+      <innstilling_id>11485</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KOMMFORV</id>
+        <navn>Kommunal- og forvaltningskomiteen</navn>
+      </komite>
+      <korttittel>Endringer i utlendingsloven (familieinnvandring for særkullsbarn ved fare for seksuelle overgrep)</korttittel>
+      <sak_fremmet_id>57528</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Christoffersen</etternavn>
+          <foedselsdato>1955-08-05T00:00:00</foedselsdato>
+          <fornavn>Lise</fornavn>
+          <id>LIC</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Bu</id>
+            <navn>Buskerud</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Endringer i utlendingsloven (familieinnvandring for særkullsbarn ved fare for seksuelle overgrep)</tittel>
       <type>lovsak</type>
     </sak>
     <sak>
@@ -4888,6 +4928,65 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>18</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:137 LS (2012-2013), Innst. 463 L (2012-2013)</henvisning>
+      <id>57436</id>
+      <innstilling_id>11483</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KOMMFORV</id>
+        <navn>Kommunal- og forvaltningskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om innvandringspolitiske siktelinjer og endringer i lov om utlendingers adgang til riket og deres opphold her (utlendingsloven)</korttittel>
+      <sak_fremmet_id>57436</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Christoffersen</etternavn>
+          <foedselsdato>1955-08-05T00:00:00</foedselsdato>
+          <fornavn>Lise</fornavn>
+          <id>LIC</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Bu</id>
+            <navn>Buskerud</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Morten Ørsal Johansen, Gjermund Hagesæter og Åge Starheim Starheim om innvandringspolitiske siktelinjer og endringer i lov om utlendingers adgang til riket og deres opphold her (utlendingsloven)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>17</d4p1:int>
         <d4p1:int>61</d4p1:int>
         <d4p1:int>66</d4p1:int>
@@ -4957,88 +5056,6 @@
       <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Endringer i helseregisterloven (Kreftregisteret)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>153</d4p1:int>
-        <d4p1:int>167</d4p1:int>
-        <d4p1:int>168</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>151</id>
-          <navn>STATSFORFATNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>153</id>
-          <navn>STORTINGETS OMBUDSMANN FOR FORVALTNINGEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>167</id>
-          <navn>MENNESKERETTIGHETER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>168</id>
-          <navn>FN</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 159 L (2012-2013), Innst. 471 L (2012-2013), Lovvedtak 123 (2012-2013)</henvisning>
-      <id>57470</id>
-      <innstilling_id>11489</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>KONTROLL</id>
-        <navn>Kontroll- og konstitusjonskomiteen</navn>
-      </komite>
-      <korttittel>Endringer i sivilombudsmannsloven (nasjonal forebyggende mekanisme) (lov-delen)</korttittel>
-      <sak_fremmet_id>57470</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Langeland</etternavn>
-          <foedselsdato>1955-11-14T00:00:00</foedselsdato>
-          <fornavn>Hallgeir H.</fornavn>
-          <id>HHL</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ro</id>
-            <navn>Rogaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>SV</id>
-            <navn>Sosialistisk Venstreparti</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Endringer i sivilombudsmannsloven (nasjonal forebyggende mekanisme)</tittel>
       <type>lovsak</type>
     </sak>
     <sak>
@@ -9668,53 +9685,6 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>8</d4p1:int>
-        <d4p1:int>22</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>8</id>
-          <navn>FISKERIER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Meld. St. 40 (2012-2013)</henvisning>
-      <id>57614</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>NÆRING</id>
-        <navn>Næringskomiteen</navn>
-      </komite>
-      <korttittel>Fiskeriavtalane Noreg har inngått med andre land for 2013 og fisket etter avtalane i 2011 og 2012</korttittel>
-      <sak_fremmet_id>57614</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-06-10T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Fiskeriavtalane Noreg har inngått med andre land for 2013 og fisket etter avtalane i 2011 og 2012</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>20</d4p1:int>
         <d4p1:int>45</d4p1:int>
         <d4p1:int>113</d4p1:int>
@@ -9812,6 +9782,53 @@
       <sist_oppdatert_dato>2013-06-10T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Ketil Solvik-Olsen, Christian Tybring-Gjedde, Kenneth Svendsen og  Jørund Rytman om modernisering av engangsavgiften for bil</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>8</d4p1:int>
+        <d4p1:int>22</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>8</id>
+          <navn>FISKERIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Meld. St. 40 (2012-2013)</henvisning>
+      <id>57614</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>NÆRING</id>
+        <navn>Næringskomiteen</navn>
+      </komite>
+      <korttittel>Fiskeriavtalane Noreg har inngått med andre land for 2013 og fisket etter avtalane i 2011 og 2012</korttittel>
+      <sak_fremmet_id>57614</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-06-10T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Fiskeriavtalane Noreg har inngått med andre land for 2013 og fisket etter avtalane i 2011 og 2012</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -13108,50 +13125,6 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>59</d4p1:int>
-        <d4p1:int>163</d4p1:int>
-        <d4p1:int>177</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>redegjørelse</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>59</id>
-          <navn>FORSVAR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>177</id>
-          <navn>NATO</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning i:nil="true" />
-      <id>57487</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Redegjørelse av utenriksministeren om utviklingen i Afghanistan og Norges engasjement i landet</korttittel>
-      <sak_fremmet_id>57487</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-06-06T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Redegjørelse av utenriksministeren om utviklingen i Afghanistan og Norges engasjement i landet</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>153</d4p1:int>
         <d4p1:int>155</d4p1:int>
         <d4p1:int>203</d4p1:int>
@@ -13222,6 +13195,50 @@
       <status>behandlet</status>
       <tittel>Representantforslag fra stortingsrepresentantene Anders Anundsen, Per Olaf Lundteigen, Martin Kolberg, Hallgeir H. Langeland, Geir Jørgen Bekkevold og Trine Skei Grande om endring i § 12 annet ledd i lov om Stortingets ombudsmann for forvaltningen (særskilt melding til Stortinget)</tittel>
       <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>59</d4p1:int>
+        <d4p1:int>163</d4p1:int>
+        <d4p1:int>177</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>redegjørelse</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>177</id>
+          <navn>NATO</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning i:nil="true" />
+      <id>57487</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Redegjørelse av utenriksministeren om utviklingen i Afghanistan og Norges engasjement i landet</korttittel>
+      <sak_fremmet_id>57487</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-06-06T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Redegjørelse av utenriksministeren om utviklingen i Afghanistan og Norges engasjement i landet</tittel>
+      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -15270,6 +15287,60 @@
     </sak>
     <sak>
       <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>9</d4p1:int>
+        <d4p1:int>23</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>8</id>
+          <navn>FISKERIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>9</id>
+          <navn>FANGST</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>23</id>
+          <navn>NATURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 161 L (2012-2013)</henvisning>
+      <id>57531</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>ENERGI</id>
+        <navn>Energi- og miljøkomiteen</navn>
+      </komite>
+      <korttittel>Endringer i viltloven, naturmangfoldloven mv.</korttittel>
+      <sak_fremmet_id>57531</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-06-03T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endringer i viltloven, naturmangfoldloven mv.</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <dokumentgruppe>innstillingssaker</dokumentgruppe>
@@ -15328,60 +15399,6 @@
       <status>behandlet</status>
       <tittel>Forskrift om endringer i stortingsgodtgjørelsesforskriften (dekning av reiseutgifter)</tittel>
       <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>9</d4p1:int>
-        <d4p1:int>23</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>8</id>
-          <navn>FISKERIER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>9</id>
-          <navn>FANGST</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>23</id>
-          <navn>NATURVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>139</id>
-          <navn>MILJØVERN</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 161 L (2012-2013)</henvisning>
-      <id>57531</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>ENERGI</id>
-        <navn>Energi- og miljøkomiteen</navn>
-      </komite>
-      <korttittel>Endringer i viltloven, naturmangfoldloven mv.</korttittel>
-      <sak_fremmet_id>57531</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-06-03T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endringer i viltloven, naturmangfoldloven mv.</tittel>
-      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
