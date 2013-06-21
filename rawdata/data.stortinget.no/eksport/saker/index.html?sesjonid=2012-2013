@@ -15300,9 +15300,26 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>26</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>26</id>
+          <navn>STORTINGSREPRESENTANTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Innst. 334 L (2012-2013), Lovvedtak 73 (2012-2013)</henvisning>
       <id>57451</id>
       <innstilling_id>11356</innstilling_id>
@@ -16595,7 +16612,9 @@
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>37</d4p1:int>
         <d4p1:int>52</d4p1:int>
+        <d4p1:int>83</d4p1:int>
         <d4p1:int>113</d4p1:int>
+        <d4p1:int>114</d4p1:int>
         <d4p1:int>155</d4p1:int>
         <d4p1:int>184</d4p1:int>
       </direkte_bundne_emnen>
@@ -16617,9 +16636,23 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>83</id>
+          <navn>PRISER OG KONKURRANSEFORHOLD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>113</id>
           <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -16634,6 +16667,13 @@
           <er_hovedemne>true</er_hovedemne>
           <id>184</id>
           <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
