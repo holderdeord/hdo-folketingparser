@@ -15258,11 +15258,29 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>10</d4p1:int>
+        <d4p1:int>10</d4p1:int>
+        <d4p1:int>40</d4p1:int>
+        <d4p1:int>40</d4p1:int>
         <d4p1:int>49</d4p1:int>
         <d4p1:int>49</d4p1:int>
       </direkte_bundne_emnen>
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
@@ -19621,6 +19639,7 @@
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>21</d4p1:int>
+        <d4p1:int>23</d4p1:int>
         <d4p1:int>139</d4p1:int>
       </direkte_bundne_emnen>
       <dokumentgruppe>representantforslag</dokumentgruppe>
@@ -19630,6 +19649,13 @@
           <er_hovedemne>false</er_hovedemne>
           <id>21</id>
           <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>23</id>
+          <navn>NATURVERN</navn>
           <underemne_liste />
         </emne>
         <emne>
