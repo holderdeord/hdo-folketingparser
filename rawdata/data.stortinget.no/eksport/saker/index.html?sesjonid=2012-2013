@@ -10139,6 +10139,7 @@
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>7</d4p1:int>
+        <d4p1:int>37</d4p1:int>
         <d4p1:int>52</d4p1:int>
         <d4p1:int>106</d4p1:int>
         <d4p1:int>114</d4p1:int>
@@ -10166,6 +10167,13 @@
           <er_hovedemne>false</er_hovedemne>
           <id>7</id>
           <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>37</id>
+          <navn>FYLKER</navn>
           <underemne_liste />
         </emne>
         <emne>
