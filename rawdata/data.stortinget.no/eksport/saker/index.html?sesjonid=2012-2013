@@ -12990,6 +12990,7 @@
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>22</d4p1:int>
+        <d4p1:int>23</d4p1:int>
         <d4p1:int>139</d4p1:int>
         <d4p1:int>166</d4p1:int>
       </direkte_bundne_emnen>
@@ -13000,6 +13001,13 @@
           <er_hovedemne>false</er_hovedemne>
           <id>22</id>
           <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>23</id>
+          <navn>NATURVERN</navn>
           <underemne_liste />
         </emne>
         <emne>
