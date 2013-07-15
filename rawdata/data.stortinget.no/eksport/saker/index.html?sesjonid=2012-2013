@@ -7338,6 +7338,7 @@
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>59</d4p1:int>
+        <d4p1:int>193</d4p1:int>
       </direkte_bundne_emnen>
       <dokumentgruppe>melding</dokumentgruppe>
       <emne_liste>
@@ -7346,6 +7347,13 @@
           <er_hovedemne>true</er_hovedemne>
           <id>59</id>
           <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>193</id>
+          <navn>MILITÆRT PERSONELL</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
