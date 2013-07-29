@@ -19700,6 +19700,7 @@
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>21</d4p1:int>
+        <d4p1:int>73</d4p1:int>
         <d4p1:int>139</d4p1:int>
         <d4p1:int>173</d4p1:int>
       </direkte_bundne_emnen>
@@ -19707,9 +19708,23 @@
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
           <id>21</id>
           <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>73</id>
+          <navn>VASSDRAGSREGULERING</navn>
           <underemne_liste />
         </emne>
         <emne>
