@@ -16562,6 +16562,7 @@
         <d4p1:int>2</d4p1:int>
         <d4p1:int>113</d4p1:int>
         <d4p1:int>122</d4p1:int>
+        <d4p1:int>192</d4p1:int>
       </direkte_bundne_emnen>
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste>
@@ -16591,6 +16592,20 @@
           <er_hovedemne>false</er_hovedemne>
           <id>122</id>
           <navn>MASSEMEDIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>192</id>
+          <navn>AKSJER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -16888,6 +16903,7 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>11</d4p1:int>
         <d4p1:int>17</d4p1:int>
         <d4p1:int>113</d4p1:int>
         <d4p1:int>155</d4p1:int>
@@ -18609,6 +18625,7 @@
         <d4p1:int>61</d4p1:int>
         <d4p1:int>65</d4p1:int>
         <d4p1:int>66</d4p1:int>
+        <d4p1:int>188</d4p1:int>
       </direkte_bundne_emnen>
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste>
@@ -18652,6 +18669,13 @@
           <er_hovedemne>false</er_hovedemne>
           <id>66</id>
           <navn>SYKDOMMER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>188</id>
+          <navn>FOLKEHELSE</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
