@@ -1,0 +1,401 @@
+<html>
+    <head>
+        <title>Could not find file 'C:\Windows\TEMP\ah2eql2b.dll'.</title>
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Lucida Console";font-size: .9em}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>Server Error in '/' Application.<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>Could not find file 'C:\Windows\TEMP\ah2eql2b.dll'.</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> Description: </b>An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code.
+
+            <br><br>
+
+            <b> Exception Details: </b>System.IO.FileNotFoundException: Could not find file 'C:\Windows\TEMP\ah2eql2b.dll'.<br><br>
+
+            <b>Source Error:</b> <br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code>
+
+An unhandled exception was generated during the execution of the current web request. Information regarding the origin and location of the exception can be identified using the exception stack trace below.</code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <b>Stack Trace:</b> <br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
+
+[FileNotFoundException: Could not find file &#39;C:\Windows\TEMP\ah2eql2b.dll&#39;.]
+   System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) +9724575
+   System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath) +1142
+   System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share) +83
+   Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames) +6322741
+   Microsoft.CSharp.CSharpCodeGenerator.FromSourceBatch(CompilerParameters options, String[] sources) +504
+   Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromSourceBatch(CompilerParameters options, String[] sources) +53
+   System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromSource(CompilerParameters options, String[] sources) +23
+   System.Xml.Serialization.Compiler.Compile(Assembly parent, String ns, XmlSerializerCompilerParameters xmlParameters, Evidence evidence) +588
+   System.Xml.Serialization.TempAssembly.GenerateAssembly(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, Evidence evidence, XmlSerializerCompilerParameters parameters, Assembly assembly, Hashtable assemblies) +1997
+   System.Xml.Serialization.XmlSerializer.GenerateTempAssembly(XmlMapping xmlMapping, Type type, String defaultNamespace) +149
+   System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace) +549
+   System.Xml.Serialization.XmlSerializer..ctor(Type type) +6
+   NHibernate.Cfg.Configuration..cctor() +128
+
+[TypeInitializationException: The type initializer for &#39;NHibernate.Cfg.Configuration&#39; threw an exception.]
+   NHibernate.Cfg.Configuration..ctor() +0
+   N2.Persistence.NH.ConfigurationBuilder.BuildConfiguration() +26
+   N2.Persistence.NH.ConfigurationSource.BuildConfiguration() +58
+   N2.Persistence.NH.ConfigurationSource.BuildSessionFactory() +57
+   N2.Persistence.NH.NHInterceptor..ctor(IProxyFactory interceptor, IConfigurationBuilder builder, IItemNotifier notifier) +33
+
+[TargetInvocationException: Exception has been thrown by the target of an invocation.]
+   System.RuntimeMethodHandle._InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, SignatureStruct&amp; sig, MethodAttributes methodAttributes, RuntimeType typeOwner) +0
+   System.RuntimeMethodHandle.InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeType typeOwner) +72
+   System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture) +318
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, Type[] signature) +81
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, Object[] arguments, Type[] signature) +174
+
+[ComponentActivatorException: ComponentActivator: could not instantiate N2.Persistence.NH.NHInterceptor]
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, Object[] arguments, Type[] signature) +346
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context) +59
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context) +20
+   Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context) +16
+   Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context) +109
+   Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired) +98
+   Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context, Boolean instanceRequired) +17
+   Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context) +12
+   Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveServiceDependency(CreationContext context, ComponentModel model, DependencyModel dependency) +327
+   Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency) +447
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArgumentsCore(ConstructorCandidate constructor, Object[] arguments, CreationContext context, Type[] signature) +270
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context, Type[]&amp; signature) +204
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context) +43
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context) +20
+   Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context) +16
+   Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context) +109
+   Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired) +98
+   Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context, Boolean instanceRequired) +17
+   Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context) +12
+   Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveServiceDependency(CreationContext context, ComponentModel model, DependencyModel dependency) +327
+   Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency) +447
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArgumentsCore(ConstructorCandidate constructor, Object[] arguments, CreationContext context, Type[] signature) +270
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context, Type[]&amp; signature) +204
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context) +43
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context) +20
+   Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context) +16
+   Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context) +109
+   Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired) +98
+   Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context, Boolean instanceRequired) +17
+   Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context) +12
+   Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveServiceDependency(CreationContext context, ComponentModel model, DependencyModel dependency) +327
+   Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency) +447
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArgumentsCore(ConstructorCandidate constructor, Object[] arguments, CreationContext context, Type[] signature) +270
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context, Type[]&amp; signature) +204
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context) +43
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context) +20
+   Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context) +16
+   Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context) +109
+   Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired) +98
+   Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context, Boolean instanceRequired) +17
+   Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context) +12
+   Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveServiceDependency(CreationContext context, ComponentModel model, DependencyModel dependency) +327
+   Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency) +447
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArgumentsCore(ConstructorCandidate constructor, Object[] arguments, CreationContext context, Type[] signature) +270
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context, Type[]&amp; signature) +204
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context) +43
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context) +20
+   Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context) +16
+   Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context) +109
+   Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired) +98
+   Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context, Boolean instanceRequired) +17
+   Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context) +12
+   Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveServiceDependency(CreationContext context, ComponentModel model, DependencyModel dependency) +327
+   Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency) +447
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArgumentsCore(ConstructorCandidate constructor, Object[] arguments, CreationContext context, Type[] signature) +270
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context, Type[]&amp; signature) +204
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context) +43
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context) +20
+   Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context) +16
+   Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context) +109
+   Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired) +98
+   Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context, Boolean instanceRequired) +17
+   Castle.MicroKernel.Handlers.AbstractHandler.TryResolve(CreationContext context) +37
+   Castle.MicroKernel.DefaultKernel.TryResolveComponent(IHandler handler, Type service, IDictionary additionalArguments) +104
+   Castle.MicroKernel.DefaultKernel.ResolveAll(Type service, IDictionary arguments) +201
+   Castle.MicroKernel.DefaultKernel.ResolveAll(Type service) +53
+   N2.Engine.Castle.&lt;&gt;c__DisplayClasse.&lt;AddComponent&gt;b__4(IKernel m) +15
+   Castle.MicroKernel.Registration.&lt;&gt;c__DisplayClass12`1.&lt;UsingFactoryMethod&gt;b__11(IKernel k, ComponentModel m, CreationContext c) +12
+   Castle.MicroKernel.ComponentActivator.FactoryMethodActivator`1.Instantiate(CreationContext context) +22
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context) +20
+   Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context) +16
+   Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context) +109
+   Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired) +98
+   Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context, Boolean instanceRequired) +17
+   Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context) +12
+   Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments) +104
+   Castle.MicroKernel.DefaultKernel.Resolve(Type service) +53
+   Castle.Windsor.WindsorContainer.Resolve(Type service) +13
+   N2.Engine.Castle.WindsorServiceContainer.Resolve(Type type) +13
+   N2.Engine.Castle.&lt;&gt;c__DisplayClassc.&lt;AddComponent&gt;b__6(ParameterInfo cp) +27
+   System.Linq.WhereSelectArrayIterator`2.MoveNext() +85
+   System.Linq.Buffer`1..ctor(IEnumerable`1 source) +325
+   System.Linq.Enumerable.ToArray(IEnumerable`1 source) +78
+   N2.Engine.Castle.&lt;&gt;c__DisplayClassc.&lt;AddComponent&gt;b__5(IKernel k) +67
+   Castle.MicroKernel.Registration.&lt;&gt;c__DisplayClass12`1.&lt;UsingFactoryMethod&gt;b__11(IKernel k, ComponentModel m, CreationContext c) +12
+   Castle.MicroKernel.ComponentActivator.FactoryMethodActivator`1.Instantiate(CreationContext context) +22
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context) +20
+   Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context) +16
+   Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context) +109
+   Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired) +98
+   Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context, Boolean instanceRequired) +17
+   Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context) +12
+   Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveServiceDependency(CreationContext context, ComponentModel model, DependencyModel dependency) +327
+   Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency) +447
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArgumentsCore(ConstructorCandidate constructor, Object[] arguments, CreationContext context, Type[] signature) +270
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context, Type[]&amp; signature) +204
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context) +43
+   Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context) +20
+   Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context) +16
+   Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context) +109
+   Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired) +98
+   Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context, Boolean instanceRequired) +17
+   Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context) +12
+   Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments) +104
+   Castle.MicroKernel.DefaultKernel.Resolve(Type service) +53
+   Castle.Windsor.WindsorContainer.Resolve(Type service) +13
+   N2.Engine.Castle.WindsorServiceContainer.Resolve(Type type) +13
+   N2.Engine.ContentEngine.Resolve() +63
+   N2.Web.Mvc.ContentRoute..ctor(IEngine engine, IRouteHandler routeHandler, IControllerMapper controllerMapper, Route innerRoute) +119
+   N2.Web.Mvc.RouteCollectionExtensions.MapContentRoute(RouteCollection routes, String name, IEngine engine) +261
+   N2.Management.Myself.Analytics.ManagementAreaRegistration.RegisterArea(RouteCollection routes, ViewEngineCollection viewEngines, IEngine engine) +27
+   N2.Management.Myself.Analytics.ManagementAreaRegistration.Initialize(IEngine engine) +83
+   N2.Plugin.InitializerCreatingAttribute.Initialize(IEngine engine) +29
+   N2.Plugin.PluginBootstrapper.InitializePlugins(IEngine engine, IEnumerable`1 plugins) +105
+
+[PluginInitializationException: While initializing 2 plugin(s) threw an exception. Please review the stack trace to find out what went wrong.
+
+- ComponentActivator: could not instantiate N2.Persistence.NH.NHInterceptor
+
+- ComponentActivator: could not instantiate N2.Persistence.NH.NHInterceptor]
+   N2.Plugin.PluginBootstrapper.InitializePlugins(IEngine engine, IEnumerable`1 plugins) +529
+   N2.Engine.ContentEngine.Initialize() +51
+   N2.Context.Initialize(Boolean forceRecreate) +63
+   N2.Web.InitializerModule.Init(HttpApplication context) +31
+   System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers) +517
+   System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context) +194
+   System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context) +339
+   System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext) +253
+
+[HttpException (0x80004005): While initializing 2 plugin(s) threw an exception. Please review the stack trace to find out what went wrong.
+
+- ComponentActivator: could not instantiate N2.Persistence.NH.NHInterceptor
+
+- ComponentActivator: could not instantiate N2.Persistence.NH.NHInterceptor]
+   System.Web.HttpRuntime.FirstRequestInit(HttpContext context) +9090988
+   System.Web.HttpRuntime.EnsureFirstRequestInit(HttpContext context) +97
+   System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context) +256
+</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <hr width=100% size=1 color=silver>
+
+            <b>Version Information:</b>&nbsp;Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.0.30319.272
+
+            </font>
+
+    </body>
+</html>
+<!-- 
+[FileNotFoundException]: Could not find file &#39;C:\Windows\TEMP\ah2eql2b.dll&#39;.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromSourceBatch(CompilerParameters options, String[] sources)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromSourceBatch(CompilerParameters options, String[] sources)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromSource(CompilerParameters options, String[] sources)
+   at System.Xml.Serialization.Compiler.Compile(Assembly parent, String ns, XmlSerializerCompilerParameters xmlParameters, Evidence evidence)
+   at System.Xml.Serialization.TempAssembly.GenerateAssembly(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, Evidence evidence, XmlSerializerCompilerParameters parameters, Assembly assembly, Hashtable assemblies)
+   at System.Xml.Serialization.XmlSerializer.GenerateTempAssembly(XmlMapping xmlMapping, Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at NHibernate.Cfg.Configuration..cctor()
+[TypeInitializationException]: The type initializer for &#39;NHibernate.Cfg.Configuration&#39; threw an exception.
+   at NHibernate.Cfg.Configuration..ctor()
+   at N2.Persistence.NH.ConfigurationBuilder.BuildConfiguration()
+   at N2.Persistence.NH.ConfigurationSource.BuildConfiguration()
+   at N2.Persistence.NH.ConfigurationSource.BuildSessionFactory()
+   at N2.Persistence.NH.NHInterceptor..ctor(IProxyFactory interceptor, IConfigurationBuilder builder, IItemNotifier notifier)
+[TargetInvocationException]: Exception has been thrown by the target of an invocation.
+   at System.RuntimeMethodHandle._InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, Type[] signature)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, Object[] arguments, Type[] signature)
+[ComponentActivatorException]: ComponentActivator: could not instantiate N2.Persistence.NH.NHInterceptor
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, Object[] arguments, Type[] signature)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveServiceDependency(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArgumentsCore(ConstructorCandidate constructor, Object[] arguments, CreationContext context, Type[] signature)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context, Type[]& signature)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveServiceDependency(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArgumentsCore(ConstructorCandidate constructor, Object[] arguments, CreationContext context, Type[] signature)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context, Type[]& signature)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveServiceDependency(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArgumentsCore(ConstructorCandidate constructor, Object[] arguments, CreationContext context, Type[] signature)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context, Type[]& signature)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveServiceDependency(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArgumentsCore(ConstructorCandidate constructor, Object[] arguments, CreationContext context, Type[] signature)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context, Type[]& signature)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveServiceDependency(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArgumentsCore(ConstructorCandidate constructor, Object[] arguments, CreationContext context, Type[] signature)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context, Type[]& signature)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.TryResolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.TryResolveComponent(IHandler handler, Type service, IDictionary additionalArguments)
+   at Castle.MicroKernel.DefaultKernel.ResolveAll(Type service, IDictionary arguments)
+   at Castle.MicroKernel.DefaultKernel.ResolveAll(Type service)
+   at N2.Engine.Castle.WindsorServiceContainer.<>c__DisplayClasse.<AddComponent>b__4(IKernel m)
+   at Castle.MicroKernel.Registration.ComponentRegistration`1.<>c__DisplayClass12`1.<UsingFactoryMethod>b__11(IKernel k, ComponentModel m, CreationContext c)
+   at Castle.MicroKernel.ComponentActivator.FactoryMethodActivator`1.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service)
+   at N2.Engine.Castle.WindsorServiceContainer.Resolve(Type type)
+   at N2.Engine.Castle.WindsorServiceContainer.<>c__DisplayClassc.<AddComponent>b__6(ParameterInfo cp)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at N2.Engine.Castle.WindsorServiceContainer.<>c__DisplayClassc.<AddComponent>b__5(IKernel k)
+   at Castle.MicroKernel.Registration.ComponentRegistration`1.<>c__DisplayClass12`1.<UsingFactoryMethod>b__11(IKernel k, ComponentModel m, CreationContext c)
+   at Castle.MicroKernel.ComponentActivator.FactoryMethodActivator`1.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveServiceDependency(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArgumentsCore(ConstructorCandidate constructor, Object[] arguments, CreationContext context, Type[] signature)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context, Type[]& signature)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service)
+   at N2.Engine.Castle.WindsorServiceContainer.Resolve(Type type)
+   at N2.Engine.ContentEngine.Resolve[T]()
+   at N2.Web.Mvc.ContentRoute..ctor(IEngine engine, IRouteHandler routeHandler, IControllerMapper controllerMapper, Route innerRoute)
+   at N2.Web.Mvc.RouteCollectionExtensions.MapContentRoute[T](RouteCollection routes, String name, IEngine engine)
+   at N2.Management.Myself.Analytics.ManagementAreaRegistration.RegisterArea(RouteCollection routes, ViewEngineCollection viewEngines, IEngine engine)
+   at N2.Management.Myself.Analytics.ManagementAreaRegistration.Initialize(IEngine engine)
+   at N2.Plugin.InitializerCreatingAttribute.Initialize(IEngine engine)
+   at N2.Plugin.PluginBootstrapper.InitializePlugins(IEngine engine, IEnumerable`1 plugins)
+[PluginInitializationException]: While initializing 2 plugin(s) threw an exception. Please review the stack trace to find out what went wrong.
+
+- ComponentActivator: could not instantiate N2.Persistence.NH.NHInterceptor
+
+- ComponentActivator: could not instantiate N2.Persistence.NH.NHInterceptor
+   at N2.Plugin.PluginBootstrapper.InitializePlugins(IEngine engine, IEnumerable`1 plugins)
+   at N2.Engine.ContentEngine.Initialize()
+   at N2.Context.Initialize(Boolean forceRecreate)
+   at N2.Web.InitializerModule.Init(HttpApplication context)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+[HttpException]: While initializing 2 plugin(s) threw an exception. Please review the stack trace to find out what went wrong.
+
+- ComponentActivator: could not instantiate N2.Persistence.NH.NHInterceptor
+
+- ComponentActivator: could not instantiate N2.Persistence.NH.NHInterceptor
+   at System.Web.HttpRuntime.FirstRequestInit(HttpContext context)
+   at System.Web.HttpRuntime.EnsureFirstRequestInit(HttpContext context)
+   at System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context)
+--><!-- 
+This error page might contain sensitive information because ASP.NET is configured to show verbose error messages using &lt;customErrors mode="Off"/&gt;. Consider using &lt;customErrors mode="On"/&gt; or &lt;customErrors mode="RemoteOnly"/&gt; in production environments.-->
