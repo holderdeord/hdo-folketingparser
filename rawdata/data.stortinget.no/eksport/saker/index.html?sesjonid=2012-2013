@@ -1113,6 +1113,7 @@
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>92</d4p1:int>
+        <d4p1:int>114</d4p1:int>
       </direkte_bundne_emnen>
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste>
@@ -1128,6 +1129,20 @@
           <er_hovedemne>false</er_hovedemne>
           <id>92</id>
           <navn>HAVBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -10989,6 +11004,7 @@
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>17</d4p1:int>
+        <d4p1:int>105</d4p1:int>
         <d4p1:int>141</d4p1:int>
         <d4p1:int>203</d4p1:int>
       </direkte_bundne_emnen>
@@ -11006,6 +11022,13 @@
           <er_hovedemne>false</er_hovedemne>
           <id>17</id>
           <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>105</id>
+          <navn>TROSSAMFUNN</navn>
           <underemne_liste />
         </emne>
         <emne>
