@@ -8,6 +8,7 @@
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>21</d4p1:int>
         <d4p1:int>29</d4p1:int>
+        <d4p1:int>71</d4p1:int>
         <d4p1:int>75</d4p1:int>
       </direkte_bundne_emnen>
       <dokumentgruppe>dokumentserien</dokumentgruppe>
@@ -31,6 +32,13 @@
           <er_hovedemne>false</er_hovedemne>
           <id>29</id>
           <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>71</id>
+          <navn>ELEKTRISITET</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -72,6 +80,7 @@
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>29</d4p1:int>
+        <d4p1:int>172</d4p1:int>
         <d4p1:int>173</d4p1:int>
       </direkte_bundne_emnen>
       <dokumentgruppe>dokumentserien</dokumentgruppe>
@@ -95,6 +104,13 @@
           <er_hovedemne>true</er_hovedemne>
           <id>163</id>
           <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>172</id>
+          <navn>ØKONOMISK SAMARBEID</navn>
           <underemne_liste />
         </emne>
         <emne>
