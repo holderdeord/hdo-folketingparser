@@ -48,9 +48,26 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>171</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>171</id>
+          <navn>NORDISK SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 18 (2012-2013)</henvisning>
       <id>58012</id>
       <innstilling_id>-1</innstilling_id>
