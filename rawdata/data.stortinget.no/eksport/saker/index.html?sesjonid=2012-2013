@@ -8352,8 +8352,8 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>113</d4p1:int>
         <d4p1:int>196</d4p1:int>
+        <d4p1:int>223</d4p1:int>
       </direkte_bundne_emnen>
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste>
@@ -8376,6 +8376,13 @@
           <er_hovedemne>false</er_hovedemne>
           <id>196</id>
           <navn>SKOGBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>223</id>
+          <navn>INDUSTRI</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -8419,8 +8426,6 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>11</d4p1:int>
-        <d4p1:int>12</d4p1:int>
         <d4p1:int>14</d4p1:int>
       </direkte_bundne_emnen>
       <dokumentgruppe>representantforslag</dokumentgruppe>
@@ -8430,13 +8435,6 @@
           <er_hovedemne>true</er_hovedemne>
           <id>11</id>
           <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>12</id>
-          <navn>DOMSTOLER</navn>
           <underemne_liste />
         </emne>
         <emne>
