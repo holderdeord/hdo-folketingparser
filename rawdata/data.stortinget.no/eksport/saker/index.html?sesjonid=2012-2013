@@ -474,9 +474,34 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>20</d4p1:int>
+        <d4p1:int>98</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>20</id>
+          <navn>HANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>98</id>
+          <navn>FORBRUKERSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 188 L (2012-2013)</henvisning>
       <id>57904</id>
       <innstilling_id>-1</innstilling_id>
@@ -677,9 +702,42 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>40</d4p1:int>
+        <d4p1:int>41</d4p1:int>
+        <d4p1:int>186</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 184 L (2012-2013)</henvisning>
       <id>57846</id>
       <innstilling_id>-1</innstilling_id>
