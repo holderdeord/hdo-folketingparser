@@ -6881,24 +6881,24 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>35</d4p1:int>
+        <d4p1:int>31</d4p1:int>
         <d4p1:int>158</d4p1:int>
-        <d4p1:int>160</d4p1:int>
+        <d4p1:int>183</d4p1:int>
       </direkte_bundne_emnen>
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>32</id>
-          <navn>UTDANNING</navn>
+          <er_hovedemne>false</er_hovedemne>
+          <id>31</id>
+          <navn>SKOLER</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>35</id>
-          <navn>UNIVERSITETER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -6911,8 +6911,8 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>160</id>
-          <navn>HØGSKOLER</navn>
+          <id>183</id>
+          <navn>GRUNNSKOLE</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
