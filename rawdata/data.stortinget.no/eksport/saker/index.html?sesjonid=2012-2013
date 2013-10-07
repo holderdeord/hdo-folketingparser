@@ -368,24 +368,6 @@
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste />
-      <henvisning>Prop. 182 S (2012-2013)</henvisning>
-      <id>57767</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Finansiering av prosjekt og tiltak på fv 714 Stokkhaugen - Sunde i Sør-Trøndelag, trinn 1</korttittel>
-      <sak_fremmet_id>57767</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-06-21T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Finansiering av prosjekt og tiltak på fv 714 Stokkhaugen - Sunde i Sør-Trøndelag, trinn 1</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
       <henvisning>Prop. 180 L (2012-2013)</henvisning>
       <id>56307</id>
       <innstilling_id>-1</innstilling_id>
@@ -486,6 +468,24 @@
       <sist_oppdatert_dato>2013-06-21T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Frihet og likeverd - Om mennesker med utviklingshemming</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 182 S (2012-2013)</henvisning>
+      <id>57767</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Finansiering av prosjekt og tiltak på fv 714 Stokkhaugen - Sunde i Sør-Trøndelag, trinn 1</korttittel>
+      <sak_fremmet_id>57767</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-06-21T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Finansiering av prosjekt og tiltak på fv 714 Stokkhaugen - Sunde i Sør-Trøndelag, trinn 1</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -1151,12 +1151,18 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>61</d4p1:int>
-        <d4p1:int>66</d4p1:int>
+        <d4p1:int>49</d4p1:int>
         <d4p1:int>188</d4p1:int>
       </direkte_bundne_emnen>
-      <dokumentgruppe>melding</dokumentgruppe>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>49</id>
+          <navn>FUNKSJONSHEMMEDE</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -1167,41 +1173,34 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>66</id>
-          <navn>SYKDOMMER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <id>188</id>
           <navn>FOLKEHELSE</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Meld. St. 34 (2012-2013), Innst. 478 S (2012-2013)</henvisning>
-      <id>57227</id>
-      <innstilling_id>11494</innstilling_id>
+      <henvisning>Dokument 8:116 S (2012-2013), Innst. 476 S (2012-2013)</henvisning>
+      <id>57214</id>
+      <innstilling_id>11493</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>HELSEOMS</id>
         <navn>Helse- og omsorgskomiteen</navn>
       </komite>
-      <korttittel>Folkehelsemeldingen. God helse - felles ansvar</korttittel>
-      <sak_fremmet_id>57227</sak_fremmet_id>
+      <korttittel>Representantforslag om et styrket aktivitets- og folkehelsetilbud for mennesker med psykisk utviklingshemming</korttittel>
+      <sak_fremmet_id>57213</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
           <versjon>1.0</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Haugli</etternavn>
-          <foedselsdato>1969-05-21T00:00:00</foedselsdato>
-          <fornavn>Håkon</fornavn>
-          <id>HAKH</id>
+          <etternavn>Helseth</etternavn>
+          <foedselsdato>1955-01-11T00:00:00</foedselsdato>
+          <fornavn>Are</fornavn>
+          <id>AREH</id>
           <kjoenn>mann</kjoenn>
           <fylke>
             <versjon>1.0</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
+            <id>Ak</id>
+            <navn>Akershus</navn>
           </fylke>
           <parti>
             <versjon>1.0</versjon>
@@ -1212,7 +1211,7 @@
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-06-20T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
-      <tittel>Folkehelsemeldingen. God helse - felles ansvar</tittel>
+      <tittel>Representantforslag fra stortingsrepresentantene Siv Jensen, Solveig Horne og Kari Kjønaas Kjos om et styrket aktivitets- og folkehelsetilbud for mennesker med psykisk utviklingshemming</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -1280,73 +1279,6 @@
       <sist_oppdatert_dato>2013-06-20T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Representantforslag fra stortingsrepresentantene Anders Anundsen, Jon Jæger Gåsvatn, Kari Kjønaas Kjos og Per Arne Olsen om å styrke pasientrettighetene for sårbare pasientgrupper</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>49</d4p1:int>
-        <d4p1:int>188</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>49</id>
-          <navn>FUNKSJONSHEMMEDE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>188</id>
-          <navn>FOLKEHELSE</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:116 S (2012-2013), Innst. 476 S (2012-2013)</henvisning>
-      <id>57214</id>
-      <innstilling_id>11493</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>HELSEOMS</id>
-        <navn>Helse- og omsorgskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om et styrket aktivitets- og folkehelsetilbud for mennesker med psykisk utviklingshemming</korttittel>
-      <sak_fremmet_id>57213</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Helseth</etternavn>
-          <foedselsdato>1955-01-11T00:00:00</foedselsdato>
-          <fornavn>Are</fornavn>
-          <id>AREH</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ak</id>
-            <navn>Akershus</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-20T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Siv Jensen, Solveig Horne og Kari Kjønaas Kjos om et styrket aktivitets- og folkehelsetilbud for mennesker med psykisk utviklingshemming</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -1429,6 +1361,74 @@
       <sist_oppdatert_dato>2013-06-20T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Samtykke til inngåelse av avtale mellom Norge og EU om vilkårene for Norges deltagelse i Det europeiske støttekontoret på asylfeltet (EASO)</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>66</d4p1:int>
+        <d4p1:int>188</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>66</id>
+          <navn>SYKDOMMER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>188</id>
+          <navn>FOLKEHELSE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Meld. St. 34 (2012-2013), Innst. 478 S (2012-2013)</henvisning>
+      <id>57227</id>
+      <innstilling_id>11494</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>HELSEOMS</id>
+        <navn>Helse- og omsorgskomiteen</navn>
+      </komite>
+      <korttittel>Folkehelsemeldingen. God helse - felles ansvar</korttittel>
+      <sak_fremmet_id>57227</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Haugli</etternavn>
+          <foedselsdato>1969-05-21T00:00:00</foedselsdato>
+          <fornavn>Håkon</fornavn>
+          <id>HAKH</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-20T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Folkehelsemeldingen. God helse - felles ansvar</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -2135,148 +2135,6 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>21</d4p1:int>
-        <d4p1:int>106</d4p1:int>
-        <d4p1:int>139</d4p1:int>
-        <d4p1:int>191</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>2</id>
-          <navn>KOMMUNIKASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>21</id>
-          <navn>FORURENSNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>106</id>
-          <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>139</id>
-          <navn>MILJØVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>191</id>
-          <navn>SÆRAVGIFTER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:132 S (2012-2013), Innst. 503 S (2012-2013)</henvisning>
-      <id>57342</id>
-      <innstilling_id>11521</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>ENERGI</id>
-        <navn>Energi- og miljøkomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om tiltak for å redusere nasjonale utslipp av klimagasser</korttittel>
-      <sak_fremmet_id>57342</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Egeland</etternavn>
-          <foedselsdato>1957-12-06T00:00:00</foedselsdato>
-          <fornavn>Lars</fornavn>
-          <id>LAE</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ve</id>
-            <navn>Vestfold</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>SV</id>
-            <navn>Sosialistisk Venstreparti</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-19T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Kjell Ingolf Ropstad, Nikolai Astrup og Borghild Tenden om tiltak for å redusere nasjonale utslipp av klimagasser</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>46</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>46</id>
-          <navn>LANDBRUK</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:129 S (2012-2013), Innst. 507 S (2012-2013)</henvisning>
-      <id>57288</id>
-      <innstilling_id>11528</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>NÆRING</id>
-        <navn>Næringskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om styrking av jordvernet</korttittel>
-      <sak_fremmet_id>57288</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Flåtten</etternavn>
-          <foedselsdato>1944-10-14T00:00:00</foedselsdato>
-          <fornavn>Svein</fornavn>
-          <id>SAF</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ve</id>
-            <navn>Vestfold</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-19T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Steinar Reiten, Line Henriette Hjemdal, Øyvind Håbrekke og Geir Jørgen Bekkevold om styrking av jordvernet</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>52</d4p1:int>
         <d4p1:int>131</d4p1:int>
         <d4p1:int>139</d4p1:int>
@@ -2361,6 +2219,96 @@
       <sist_oppdatert_dato>2013-06-19T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Klimatilpasning i Norge</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>21</d4p1:int>
+        <d4p1:int>106</d4p1:int>
+        <d4p1:int>139</d4p1:int>
+        <d4p1:int>191</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>191</id>
+          <navn>SÆRAVGIFTER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:132 S (2012-2013), Innst. 503 S (2012-2013)</henvisning>
+      <id>57342</id>
+      <innstilling_id>11521</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>ENERGI</id>
+        <navn>Energi- og miljøkomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om tiltak for å redusere nasjonale utslipp av klimagasser</korttittel>
+      <sak_fremmet_id>57342</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Egeland</etternavn>
+          <foedselsdato>1957-12-06T00:00:00</foedselsdato>
+          <fornavn>Lars</fornavn>
+          <id>LAE</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ve</id>
+            <navn>Vestfold</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-19T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Kjell Ingolf Ropstad, Nikolai Astrup og Borghild Tenden om tiltak for å redusere nasjonale utslipp av klimagasser</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -2554,6 +2502,58 @@
       <sist_oppdatert_dato>2013-06-19T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Representantforslag fra stortingsrepresentantene Per Sandberg, Gjermund Hagesæter, Åge Starheim og Morten Ørsal Johansen om tiltak for å bedre infrastrukturen innen drikkevannsforsyning og avløp</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>46</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:129 S (2012-2013), Innst. 507 S (2012-2013)</henvisning>
+      <id>57288</id>
+      <innstilling_id>11528</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>NÆRING</id>
+        <navn>Næringskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om styrking av jordvernet</korttittel>
+      <sak_fremmet_id>57288</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Flåtten</etternavn>
+          <foedselsdato>1944-10-14T00:00:00</foedselsdato>
+          <fornavn>Svein</fornavn>
+          <id>SAF</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ve</id>
+            <navn>Vestfold</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-19T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Steinar Reiten, Line Henriette Hjemdal, Øyvind Håbrekke og Geir Jørgen Bekkevold om styrking av jordvernet</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -3700,6 +3700,140 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>107</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>107</id>
+          <navn>JERNBANER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Meld. St. 31 (2012-2013), Innst. 433 S (2012-2013)</henvisning>
+      <id>57243</id>
+      <innstilling_id>11450</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>TRANSKOM</id>
+        <navn>Transport- og kommunikasjonskomiteen</navn>
+      </komite>
+      <korttittel>Verksemda til NSB AS</korttittel>
+      <sak_fremmet_id>57243</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Langeland</etternavn>
+          <foedselsdato>1955-11-14T00:00:00</foedselsdato>
+          <fornavn>Hallgeir H.</fornavn>
+          <id>HHL</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-18T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Verksemda til NSB AS</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>5</d4p1:int>
+        <d4p1:int>7</d4p1:int>
+        <d4p1:int>49</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>49</id>
+          <navn>FUNKSJONSHEMMEDE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:117 S (2012-2013), Innst. 483 S (2012-2013)</henvisning>
+      <id>57259</id>
+      <innstilling_id>11501</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>ARBSOS</id>
+        <navn>Arbeids- og sosialkomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om å gi mennesker utenfor arbeidslivet en ny sjanse</korttittel>
+      <sak_fremmet_id>57259</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Andersen</etternavn>
+          <foedselsdato>1952-12-16T00:00:00</foedselsdato>
+          <fornavn>Karin</fornavn>
+          <id>KAAN</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>He</id>
+            <navn>Hedmark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-18T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Frank Bakke-Jensen, Linda C. Hofstad Helleland, Torbjørn Røe Isaksen, Jan Tore Sanner og Sonja Irene Sjøli om å gi mennesker utenfor arbeidslivet en ny sjanse</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>44</d4p1:int>
         <d4p1:int>186</d4p1:int>
       </direkte_bundne_emnen>
@@ -3895,140 +4029,6 @@
       <sist_oppdatert_dato>2013-06-18T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Pensjonar frå statskassa</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>107</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>2</id>
-          <navn>KOMMUNIKASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>107</id>
-          <navn>JERNBANER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Meld. St. 31 (2012-2013), Innst. 433 S (2012-2013)</henvisning>
-      <id>57243</id>
-      <innstilling_id>11450</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>TRANSKOM</id>
-        <navn>Transport- og kommunikasjonskomiteen</navn>
-      </komite>
-      <korttittel>Verksemda til NSB AS</korttittel>
-      <sak_fremmet_id>57243</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Langeland</etternavn>
-          <foedselsdato>1955-11-14T00:00:00</foedselsdato>
-          <fornavn>Hallgeir H.</fornavn>
-          <id>HHL</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ro</id>
-            <navn>Rogaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>SV</id>
-            <navn>Sosialistisk Venstreparti</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-18T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Verksemda til NSB AS</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>5</d4p1:int>
-        <d4p1:int>7</d4p1:int>
-        <d4p1:int>49</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>5</id>
-          <navn>ARBEIDSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>7</id>
-          <navn>SYSSELSETTING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>49</id>
-          <navn>FUNKSJONSHEMMEDE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:117 S (2012-2013), Innst. 483 S (2012-2013)</henvisning>
-      <id>57259</id>
-      <innstilling_id>11501</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>ARBSOS</id>
-        <navn>Arbeids- og sosialkomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om å gi mennesker utenfor arbeidslivet en ny sjanse</korttittel>
-      <sak_fremmet_id>57259</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Andersen</etternavn>
-          <foedselsdato>1952-12-16T00:00:00</foedselsdato>
-          <fornavn>Karin</fornavn>
-          <id>KAAN</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>He</id>
-            <navn>Hedmark</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>SV</id>
-            <navn>Sosialistisk Venstreparti</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-18T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Frank Bakke-Jensen, Linda C. Hofstad Helleland, Torbjørn Røe Isaksen, Jan Tore Sanner og Sonja Irene Sjøli om å gi mennesker utenfor arbeidslivet en ny sjanse</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -4410,6 +4410,82 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>5</d4p1:int>
+        <d4p1:int>10</d4p1:int>
+        <d4p1:int>40</d4p1:int>
+        <d4p1:int>41</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:128 S (2012-2013), Innst. 481 S (2012-2013)</henvisning>
+      <id>57287</id>
+      <innstilling_id>11496</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>ARBSOS</id>
+        <navn>Arbeids- og sosialkomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om tiltak for å bekjempe fattigdom i Norge</korttittel>
+      <sak_fremmet_id>57287</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Forsberg</etternavn>
+          <foedselsdato>1980-04-02T00:00:00</foedselsdato>
+          <fornavn>Thor Erik</fornavn>
+          <id>TEF</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Øs</id>
+            <navn>Østfold</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-18T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Laila Dåvøy, Kjell Arvid Svendsen, Line Henriette Hjemdal og Øyvind Håbrekke om tiltak for å bekjempe fattigdom i Norge</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>47</d4p1:int>
         <d4p1:int>107</d4p1:int>
         <d4p1:int>109</d4p1:int>
@@ -4546,82 +4622,6 @@
       <sist_oppdatert_dato>2013-06-18T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Verksemda til Avinor AS</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>5</d4p1:int>
-        <d4p1:int>10</d4p1:int>
-        <d4p1:int>40</d4p1:int>
-        <d4p1:int>41</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>5</id>
-          <navn>ARBEIDSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>40</id>
-          <navn>FAMILIE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:128 S (2012-2013), Innst. 481 S (2012-2013)</henvisning>
-      <id>57287</id>
-      <innstilling_id>11496</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>ARBSOS</id>
-        <navn>Arbeids- og sosialkomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om tiltak for å bekjempe fattigdom i Norge</korttittel>
-      <sak_fremmet_id>57287</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Forsberg</etternavn>
-          <foedselsdato>1980-04-02T00:00:00</foedselsdato>
-          <fornavn>Thor Erik</fornavn>
-          <id>TEF</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Øs</id>
-            <navn>Østfold</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-18T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Laila Dåvøy, Kjell Arvid Svendsen, Line Henriette Hjemdal og Øyvind Håbrekke om tiltak for å bekjempe fattigdom i Norge</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -4902,161 +4902,6 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>59</d4p1:int>
-        <d4p1:int>59</d4p1:int>
-        <d4p1:int>193</d4p1:int>
-        <d4p1:int>193</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>59</id>
-          <navn>FORSVAR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>193</id>
-          <navn>MILITÆRT PERSONELL</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 167 S (2012-2013), Innst. 488 S (2012-2013)</henvisning>
-      <id>57526</id>
-      <innstilling_id>11511</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>UFK</id>
-        <navn>Utenriks- og forsvarskomiteen</navn>
-      </komite>
-      <korttittel>Endringar i "Regulativ for tillegg mv. til utskrivne vernepliktige mannskap"</korttittel>
-      <sak_fremmet_id>57526</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Nordtun</etternavn>
-          <foedselsdato>1949-09-30T00:00:00</foedselsdato>
-          <fornavn>Tore</fornavn>
-          <id>TON</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ro</id>
-            <navn>Rogaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Staahle</etternavn>
-          <foedselsdato>1972-12-30T00:00:00</foedselsdato>
-          <fornavn>Tom</fornavn>
-          <id>TSTA</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ak</id>
-            <navn>Akershus</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>FrP</id>
-            <navn>Fremskrittspartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Endringar i "Regulativ for tillegg mv. til utskrivne vernepliktige mannskap"</tittel>
-      <type>budsjett</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>18</d4p1:int>
-        <d4p1:int>43</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>18</id>
-          <navn>INNVANDRERE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>40</id>
-          <navn>FAMILIE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>43</id>
-          <navn>BARNEVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 162 L (2012-2013), Innst. 464 L (2012-2013), Lovvedtak 124 (2012-2013)</henvisning>
-      <id>57528</id>
-      <innstilling_id>11485</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>KOMMFORV</id>
-        <navn>Kommunal- og forvaltningskomiteen</navn>
-      </komite>
-      <korttittel>Endringer i utlendingsloven (familieinnvandring for særkullsbarn ved fare for seksuelle overgrep)</korttittel>
-      <sak_fremmet_id>57528</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Christoffersen</etternavn>
-          <foedselsdato>1955-08-05T00:00:00</foedselsdato>
-          <fornavn>Lise</fornavn>
-          <id>LIC</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Bu</id>
-            <navn>Buskerud</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Endringer i utlendingsloven (familieinnvandring for særkullsbarn ved fare for seksuelle overgrep)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>17</d4p1:int>
         <d4p1:int>61</d4p1:int>
         <d4p1:int>66</d4p1:int>
@@ -5214,9 +5059,8 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>11</d4p1:int>
-        <d4p1:int>18</d4p1:int>
         <d4p1:int>94</d4p1:int>
+        <d4p1:int>95</d4p1:int>
       </direkte_bundne_emnen>
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste>
@@ -5229,11 +5073,145 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
+          <er_hovedemne>false</er_hovedemne>
+          <id>94</id>
+          <navn>ARBEIDSVILKÅR</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>95</id>
+          <navn>LØNN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 163 L (2012-2013), Innst. 473 L (2012-2013), Lovvedtak 130 (2012-2013)</henvisning>
+      <id>57575</id>
+      <innstilling_id>11488</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>ARBSOS</id>
+        <navn>Arbeids- og sosialkomiteen</navn>
+      </komite>
+      <korttittel>Lov om lønnsnemndbehandling av arbeidstvisten mellom EL og IT Forbundet og Atea AS våren 2013</korttittel>
+      <sak_fremmet_id>57575</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Eriksson</etternavn>
+          <foedselsdato>1974-04-23T00:00:00</foedselsdato>
+          <fornavn>Robert</fornavn>
+          <id>RE</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>NT</id>
+            <navn>Nord-Trøndelag</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Lov om lønnsnemndbehandling av arbeidstvisten mellom EL og IT Forbundet og Atea AS våren 2013</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>59</d4p1:int>
+        <d4p1:int>59</d4p1:int>
+        <d4p1:int>193</d4p1:int>
+        <d4p1:int>193</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>193</id>
+          <navn>MILITÆRT PERSONELL</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 167 S (2012-2013), Innst. 488 S (2012-2013)</henvisning>
+      <id>57526</id>
+      <innstilling_id>11511</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>UFK</id>
+        <navn>Utenriks- og forsvarskomiteen</navn>
+      </komite>
+      <korttittel>Endringar i "Regulativ for tillegg mv. til utskrivne vernepliktige mannskap"</korttittel>
+      <sak_fremmet_id>57526</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Nordtun</etternavn>
+          <foedselsdato>1949-09-30T00:00:00</foedselsdato>
+          <fornavn>Tore</fornavn>
+          <id>TON</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Staahle</etternavn>
+          <foedselsdato>1972-12-30T00:00:00</foedselsdato>
+          <fornavn>Tom</fornavn>
+          <id>TSTA</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Endringar i "Regulativ for tillegg mv. til utskrivne vernepliktige mannskap"</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>18</d4p1:int>
+        <d4p1:int>43</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
@@ -5243,9 +5221,16 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>94</id>
-          <navn>ARBEIDSVILKÅR</navn>
+          <id>43</id>
+          <navn>BARNEVERN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -5256,131 +5241,41 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 154 L (2012-2013), Innst. 459 L (2012-2013), Lovvedtak 126 (2012-2013)</henvisning>
-      <id>57330</id>
-      <innstilling_id>11480</innstilling_id>
+      <henvisning>Prop. 162 L (2012-2013), Innst. 464 L (2012-2013), Lovvedtak 124 (2012-2013)</henvisning>
+      <id>57528</id>
+      <innstilling_id>11485</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>KOMMFORV</id>
         <navn>Kommunal- og forvaltningskomiteen</navn>
       </komite>
-      <korttittel>Endringer i utlendingsloven (misbruk av aupairordningen mv.)</korttittel>
-      <sak_fremmet_id>57330</sak_fremmet_id>
+      <korttittel>Endringer i utlendingsloven (familieinnvandring for særkullsbarn ved fare for seksuelle overgrep)</korttittel>
+      <sak_fremmet_id>57528</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
           <versjon>1.0</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Tetzschner</etternavn>
-          <foedselsdato>1954-02-09T00:00:00</foedselsdato>
-          <fornavn>Michael</fornavn>
-          <id>MIT</id>
-          <kjoenn>mann</kjoenn>
+          <etternavn>Christoffersen</etternavn>
+          <foedselsdato>1955-08-05T00:00:00</foedselsdato>
+          <fornavn>Lise</fornavn>
+          <id>LIC</id>
+          <kjoenn>kvinne</kjoenn>
           <fylke>
             <versjon>1.0</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
+            <id>Bu</id>
+            <navn>Buskerud</navn>
           </fylke>
           <parti>
             <versjon>1.0</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
           </parti>
         </representant>
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
-      <tittel>Endringer i utlendingsloven (misbruk av aupairordningen mv.)</tittel>
+      <tittel>Endringer i utlendingsloven (familieinnvandring for særkullsbarn ved fare for seksuelle overgrep)</tittel>
       <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>7</d4p1:int>
-        <d4p1:int>57</d4p1:int>
-        <d4p1:int>58</d4p1:int>
-        <d4p1:int>94</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>5</id>
-          <navn>ARBEIDSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>7</id>
-          <navn>SYSSELSETTING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>57</id>
-          <navn>SKATTEFRADRAG</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>58</id>
-          <navn>SKATTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>94</id>
-          <navn>ARBEIDSVILKÅR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:127 S (2012-2013), Innst. 428 S (2012-2013)</henvisning>
-      <id>57289</id>
-      <innstilling_id>11445</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>FINANS</id>
-        <navn>Finanskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om å innføre ROS- og ROT-skattefradrag for håndverkstjenester og serviceoppdrag utført i egen bolig og fritidsbolig som tiltak mot svart arbeid og sosial dumping</korttittel>
-      <sak_fremmet_id>57289</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Gundersen</etternavn>
-          <foedselsdato>1956-05-21T00:00:00</foedselsdato>
-          <fornavn>Gunnar</fornavn>
-          <id>GAG</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>He</id>
-            <navn>Hedmark</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Robert Eriksson, Laila Marie Reiertsen, Vigdis Giltun, Per Sandberg, Harald T. Nesvik og Ketil Solvik-Olsen om å innføre ROS- og ROT-skattefradrag for håndverkstjenester og serviceoppdrag utført i egen bolig og fritidsbolig som tiltak mot svart arbeid og sosial dumping</tittel>
-      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -5596,6 +5491,88 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>11</d4p1:int>
+        <d4p1:int>18</d4p1:int>
+        <d4p1:int>94</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>94</id>
+          <navn>ARBEIDSVILKÅR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 154 L (2012-2013), Innst. 459 L (2012-2013), Lovvedtak 126 (2012-2013)</henvisning>
+      <id>57330</id>
+      <innstilling_id>11480</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KOMMFORV</id>
+        <navn>Kommunal- og forvaltningskomiteen</navn>
+      </komite>
+      <korttittel>Endringer i utlendingsloven (misbruk av aupairordningen mv.)</korttittel>
+      <sak_fremmet_id>57330</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Tetzschner</etternavn>
+          <foedselsdato>1954-02-09T00:00:00</foedselsdato>
+          <fornavn>Michael</fornavn>
+          <id>MIT</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Endringer i utlendingsloven (misbruk av aupairordningen mv.)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>153</d4p1:int>
       </direkte_bundne_emnen>
       <dokumentgruppe>proposisjon</dokumentgruppe>
@@ -5767,94 +5744,11 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>94</d4p1:int>
-        <d4p1:int>95</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>5</id>
-          <navn>ARBEIDSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>94</id>
-          <navn>ARBEIDSVILKÅR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>95</id>
-          <navn>LØNN</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 163 L (2012-2013), Innst. 473 L (2012-2013), Lovvedtak 130 (2012-2013)</henvisning>
-      <id>57575</id>
-      <innstilling_id>11488</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>ARBSOS</id>
-        <navn>Arbeids- og sosialkomiteen</navn>
-      </komite>
-      <korttittel>Lov om lønnsnemndbehandling av arbeidstvisten mellom EL og IT Forbundet og Atea AS våren 2013</korttittel>
-      <sak_fremmet_id>57575</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Eriksson</etternavn>
-          <foedselsdato>1974-04-23T00:00:00</foedselsdato>
-          <fornavn>Robert</fornavn>
-          <id>RE</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>NT</id>
-            <navn>Nord-Trøndelag</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>FrP</id>
-            <navn>Fremskrittspartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Lov om lønnsnemndbehandling av arbeidstvisten mellom EL og IT Forbundet og Atea AS våren 2013</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>40</d4p1:int>
-        <d4p1:int>41</d4p1:int>
         <d4p1:int>49</d4p1:int>
         <d4p1:int>191</d4p1:int>
       </direkte_bundne_emnen>
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>40</id>
-          <navn>FAMILIE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>41</id>
-          <navn>BARN</navn>
-          <underemne_liste />
-        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
@@ -5918,163 +5812,6 @@
       <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Representantforslag fra stortingsrepresentantene Robert Eriksson og Ketil Solvik-Olsen om merverdiavgiftskompensasjon for privatpersoner ved bygging av omsorgsboliger for egne barn</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>54</d4p1:int>
-        <d4p1:int>166</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>54</id>
-          <navn>SKATTEAVTALER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>166</id>
-          <navn>TRAKTATER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 138 S (2012-2013), Innst. 429 S (2012-2013)</henvisning>
-      <id>57223</id>
-      <innstilling_id>11444</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>FINANS</id>
-        <navn>Finanskomiteen</navn>
-      </komite>
-      <korttittel>Samtykke til å sette i kraft en avtale mellom Kongeriket Norge og Amerikas Forente Stater om forbedret internasjonal overholdelse av skattelovgivningen og gjennomføring av FATCA,</korttittel>
-      <sak_fremmet_id>57223</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Hansen</etternavn>
-          <foedselsdato>1956-03-13T00:00:00</foedselsdato>
-          <fornavn>Geir-Ketil</fornavn>
-          <id>GEHN</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>No</id>
-            <navn>Nordland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>SV</id>
-            <navn>Sosialistisk Venstreparti</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Samtykke til å sette i kraft en avtale mellom Kongeriket Norge og Amerikas Forente Stater om forbedret internasjonal overholdelse av skattelovgivningen og gjennomføring av FATCA, undertegnet i Oslo 15. april 2013</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>10</d4p1:int>
-        <d4p1:int>48</d4p1:int>
-        <d4p1:int>52</d4p1:int>
-        <d4p1:int>61</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>48</id>
-          <navn>ELDREOMSORG</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Meld. St. 29 (2012-2013), Innst. 477 S (2012-2013)</henvisning>
-      <id>57149</id>
-      <innstilling_id>11500</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>HELSEOMS</id>
-        <navn>Helse- og omsorgskomiteen</navn>
-      </komite>
-      <korttittel>Morgendagens omsorg</korttittel>
-      <sak_fremmet_id>57149</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Toppe</etternavn>
-          <foedselsdato>1967-10-20T00:00:00</foedselsdato>
-          <fornavn>Kjersti</fornavn>
-          <id>KJT</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ho</id>
-            <navn>Hordaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>Sp</id>
-            <navn>Senterpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Morgendagens omsorg</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -6174,6 +5911,163 @@
       <status>behandlet</status>
       <tittel>Endringer i utlendingsloven mv. (behandling av sikkerhetssaker)</tittel>
       <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>10</d4p1:int>
+        <d4p1:int>48</d4p1:int>
+        <d4p1:int>52</d4p1:int>
+        <d4p1:int>61</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>48</id>
+          <navn>ELDREOMSORG</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>52</id>
+          <navn>KOMMUNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Meld. St. 29 (2012-2013), Innst. 477 S (2012-2013)</henvisning>
+      <id>57149</id>
+      <innstilling_id>11500</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>HELSEOMS</id>
+        <navn>Helse- og omsorgskomiteen</navn>
+      </komite>
+      <korttittel>Morgendagens omsorg</korttittel>
+      <sak_fremmet_id>57149</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Toppe</etternavn>
+          <foedselsdato>1967-10-20T00:00:00</foedselsdato>
+          <fornavn>Kjersti</fornavn>
+          <id>KJT</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Morgendagens omsorg</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>38</d4p1:int>
+        <d4p1:int>57</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>38</id>
+          <navn>BOLIGSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>57</id>
+          <navn>SKATTEFRADRAG</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:127 S (2012-2013), Innst. 428 S (2012-2013)</henvisning>
+      <id>57289</id>
+      <innstilling_id>11445</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om å innføre ROS- og ROT-skattefradrag for håndverkstjenester og serviceoppdrag utført i egen bolig og fritidsbolig som tiltak mot svart arbeid og sosial dumping</korttittel>
+      <sak_fremmet_id>57289</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Gundersen</etternavn>
+          <foedselsdato>1956-05-21T00:00:00</foedselsdato>
+          <fornavn>Gunnar</fornavn>
+          <id>GAG</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>He</id>
+            <navn>Hedmark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Robert Eriksson, Laila Marie Reiertsen, Vigdis Giltun, Per Sandberg, Harald T. Nesvik og Ketil Solvik-Olsen om å innføre ROS- og ROT-skattefradrag for håndverkstjenester og serviceoppdrag utført i egen bolig og fritidsbolig som tiltak mot svart arbeid og sosial dumping</tittel>
+      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -6481,6 +6375,80 @@
       <status>behandlet</status>
       <tittel>Endringer i opplæringslova og privatskolelova (spesialundervisning m.m.)</tittel>
       <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>54</d4p1:int>
+        <d4p1:int>166</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>54</id>
+          <navn>SKATTEAVTALER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>166</id>
+          <navn>TRAKTATER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 138 S (2012-2013), Innst. 429 S (2012-2013)</henvisning>
+      <id>57223</id>
+      <innstilling_id>11444</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Samtykke til å sette i kraft en avtale mellom Kongeriket Norge og Amerikas Forente Stater om forbedret internasjonal overholdelse av skattelovgivningen og gjennomføring av FATCA,</korttittel>
+      <sak_fremmet_id>57223</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Hansen</etternavn>
+          <foedselsdato>1956-03-13T00:00:00</foedselsdato>
+          <fornavn>Geir-Ketil</fornavn>
+          <id>GEHN</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>No</id>
+            <navn>Nordland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-17T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Samtykke til å sette i kraft en avtale mellom Kongeriket Norge og Amerikas Forente Stater om forbedret internasjonal overholdelse av skattelovgivningen og gjennomføring av FATCA, undertegnet i Oslo 15. april 2013</tittel>
+      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -7564,58 +7532,6 @@
     </sak>
     <sak>
       <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>59</d4p1:int>
-        <d4p1:int>163</d4p1:int>
-        <d4p1:int>169</d4p1:int>
-        <d4p1:int>174</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>redegjørelse</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>59</id>
-          <navn>FORSVAR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>169</id>
-          <navn>FN-STYRKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>174</id>
-          <navn>UTVIKLINGSHJELP</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning i:nil="true" />
-      <id>57586</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Redegjørelse av utenriksministeren, forsvarsministeren og utviklingsministeren om utviklingen i Sahel og Norges deltakelse i FN-operasjonen MINUSMA</korttittel>
-      <sak_fremmet_id>57586</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-06-14T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Redegjørelse av utenriksministeren, forsvarsministeren og utviklingsministeren om utviklingen i Sahel og Norges deltakelse i FN-operasjonen MINUSMA</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <dokumentgruppe>melding</dokumentgruppe>
@@ -7666,6 +7582,58 @@
       <sist_oppdatert_dato>2013-06-14T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Samtykke til ratifikasjon av internasjonal konvensjon mot kjernefysisk terrorisme av 13. april 2005</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>59</d4p1:int>
+        <d4p1:int>163</d4p1:int>
+        <d4p1:int>169</d4p1:int>
+        <d4p1:int>174</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>redegjørelse</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>169</id>
+          <navn>FN-STYRKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>174</id>
+          <navn>UTVIKLINGSHJELP</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning i:nil="true" />
+      <id>57586</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Redegjørelse av utenriksministeren, forsvarsministeren og utviklingsministeren om utviklingen i Sahel og Norges deltakelse i FN-operasjonen MINUSMA</korttittel>
+      <sak_fremmet_id>57586</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-06-14T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Redegjørelse av utenriksministeren, forsvarsministeren og utviklingsministeren om utviklingen i Sahel og Norges deltakelse i FN-operasjonen MINUSMA</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -8130,6 +8098,275 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>12</d4p1:int>
+        <d4p1:int>146</d4p1:int>
+        <d4p1:int>166</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>12</id>
+          <navn>DOMSTOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>143</id>
+          <navn>SJØFART</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>146</id>
+          <navn>SIKKERHET TIL SJØS</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>166</id>
+          <navn>TRAKTATER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 132 L (2012-2013), Innst. 411 L (2012-2013), Lovvedtak 108 (2012-2013)</henvisning>
+      <id>57229</id>
+      <innstilling_id>11423</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
+      <korttittel>Endringer i straffeprosessloven (bording av skip ved terrorhandlinger m.m.)</korttittel>
+      <sak_fremmet_id>57229</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Michaelsen</etternavn>
+          <foedselsdato>1960-06-04T00:00:00</foedselsdato>
+          <fornavn>Åse</fornavn>
+          <id>ASC</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>VA</id>
+            <navn>Vest-Agder</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-13T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Endringer i straffeprosessloven (bording av skip ved terrorhandlinger m.m.)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>21</d4p1:int>
+        <d4p1:int>47</d4p1:int>
+        <d4p1:int>139</d4p1:int>
+        <d4p1:int>188</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>47</id>
+          <navn>VEGTRAFIKK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>188</id>
+          <navn>FOLKEHELSE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 126 L (2012-2013), Innst. 350 L (2012-2013), Lovvedtak 111 (2012-2013)</henvisning>
+      <id>57155</id>
+      <innstilling_id>11372</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>TRANSKOM</id>
+        <navn>Transport- og kommunikasjonskomiteen</navn>
+      </komite>
+      <korttittel>Endringer i vegtrafikkloven (miljøfartsgrenser)</korttittel>
+      <sak_fremmet_id>57155</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Langeland</etternavn>
+          <foedselsdato>1955-11-14T00:00:00</foedselsdato>
+          <fornavn>Hallgeir H.</fornavn>
+          <id>HHL</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-13T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Endringer i vegtrafikkloven (miljøfartsgrenser)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>143</d4p1:int>
+        <d4p1:int>146</d4p1:int>
+        <d4p1:int>166</d4p1:int>
+        <d4p1:int>190</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>143</id>
+          <navn>SJØFART</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>146</id>
+          <navn>SIKKERHET TIL SJØS</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>166</id>
+          <navn>TRAKTATER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>190</id>
+          <navn>OLJEUTVINNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 133 S (2012-2013), Innst. 405 S (2012-2013)</henvisning>
+      <id>57218</id>
+      <innstilling_id>11428</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
+      <korttittel>Bekjempelse av ulovlige handlinger mot sikkerheten ved skipsfart og bekjempelse av ulovlige handlinger mot sikkerheten ved faste plattformer plassert på kontinentalsokkelen</korttittel>
+      <sak_fremmet_id>57218</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Michaelsen</etternavn>
+          <foedselsdato>1960-06-04T00:00:00</foedselsdato>
+          <fornavn>Åse</fornavn>
+          <id>ASC</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>VA</id>
+            <navn>Vest-Agder</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-13T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Samtykke til ratifikasjon av protokoll av 14. oktober 2005 til konvensjon av 10. mars 1988 om bekjempelse av ulovlige handlinger mot sikkerheten ved skipsfart og protokoll av 14. oktober 2005 til protokoll av 10. mars 1988 om bekjempelse av ulovlige handlinger mot sikkerheten ved faste plattformer plassert på kontinentalsokkelen</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>87</d4p1:int>
         <d4p1:int>88</d4p1:int>
         <d4p1:int>172</d4p1:int>
@@ -8287,258 +8524,78 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>143</d4p1:int>
-        <d4p1:int>146</d4p1:int>
-        <d4p1:int>166</d4p1:int>
-        <d4p1:int>190</d4p1:int>
+        <d4p1:int>38</d4p1:int>
+        <d4p1:int>50</d4p1:int>
+        <d4p1:int>98</d4p1:int>
       </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>4</id>
-          <navn>ENERGI</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>143</id>
-          <navn>SJØFART</navn>
+          <er_hovedemne>false</er_hovedemne>
+          <id>38</id>
+          <navn>BOLIGSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>146</id>
-          <navn>SIKKERHET TIL SJØS</navn>
+          <id>50</id>
+          <navn>FORSIKRING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>98</id>
+          <navn>FORBRUKERSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>166</id>
-          <navn>TRAKTATER</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>190</id>
-          <navn>OLJEUTVINNING</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 133 S (2012-2013), Innst. 405 S (2012-2013)</henvisning>
-      <id>57218</id>
-      <innstilling_id>11428</innstilling_id>
+      <henvisning>Dokument 8:118 S (2012-2013), Innst. 447 S (2012-2013)</henvisning>
+      <id>57276</id>
+      <innstilling_id>11468</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
         <id>JUSTIS</id>
         <navn>Justiskomiteen</navn>
       </komite>
-      <korttittel>Bekjempelse av ulovlige handlinger mot sikkerheten ved skipsfart og bekjempelse av ulovlige handlinger mot sikkerheten ved faste plattformer plassert på kontinentalsokkelen</korttittel>
-      <sak_fremmet_id>57218</sak_fremmet_id>
+      <korttittel>Representantforslag om forsikringsordning ved oppføring av bolig</korttittel>
+      <sak_fremmet_id>57276</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
           <versjon>1.0</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Michaelsen</etternavn>
-          <foedselsdato>1960-06-04T00:00:00</foedselsdato>
-          <fornavn>Åse</fornavn>
-          <id>ASC</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>VA</id>
-            <navn>Vest-Agder</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>FrP</id>
-            <navn>Fremskrittspartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-13T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Samtykke til ratifikasjon av protokoll av 14. oktober 2005 til konvensjon av 10. mars 1988 om bekjempelse av ulovlige handlinger mot sikkerheten ved skipsfart og protokoll av 14. oktober 2005 til protokoll av 10. mars 1988 om bekjempelse av ulovlige handlinger mot sikkerheten ved faste plattformer plassert på kontinentalsokkelen</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>21</d4p1:int>
-        <d4p1:int>47</d4p1:int>
-        <d4p1:int>139</d4p1:int>
-        <d4p1:int>188</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>2</id>
-          <navn>KOMMUNIKASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>21</id>
-          <navn>FORURENSNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>47</id>
-          <navn>VEGTRAFIKK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>139</id>
-          <navn>MILJØVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>188</id>
-          <navn>FOLKEHELSE</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 126 L (2012-2013), Innst. 350 L (2012-2013), Lovvedtak 111 (2012-2013)</henvisning>
-      <id>57155</id>
-      <innstilling_id>11372</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>TRANSKOM</id>
-        <navn>Transport- og kommunikasjonskomiteen</navn>
-      </komite>
-      <korttittel>Endringer i vegtrafikkloven (miljøfartsgrenser)</korttittel>
-      <sak_fremmet_id>57155</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Langeland</etternavn>
-          <foedselsdato>1955-11-14T00:00:00</foedselsdato>
-          <fornavn>Hallgeir H.</fornavn>
-          <id>HHL</id>
+          <etternavn>Leirstein</etternavn>
+          <foedselsdato>1973-06-30T00:00:00</foedselsdato>
+          <fornavn>Ulf</fornavn>
+          <id>UIL</id>
           <kjoenn>mann</kjoenn>
           <fylke>
             <versjon>1.0</versjon>
-            <id>Ro</id>
-            <navn>Rogaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>SV</id>
-            <navn>Sosialistisk Venstreparti</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-13T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Endringer i vegtrafikkloven (miljøfartsgrenser)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>12</d4p1:int>
-        <d4p1:int>146</d4p1:int>
-        <d4p1:int>166</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>12</id>
-          <navn>DOMSTOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>143</id>
-          <navn>SJØFART</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>146</id>
-          <navn>SIKKERHET TIL SJØS</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>166</id>
-          <navn>TRAKTATER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 132 L (2012-2013), Innst. 411 L (2012-2013), Lovvedtak 108 (2012-2013)</henvisning>
-      <id>57229</id>
-      <innstilling_id>11423</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>JUSTIS</id>
-        <navn>Justiskomiteen</navn>
-      </komite>
-      <korttittel>Endringer i straffeprosessloven (bording av skip ved terrorhandlinger m.m.)</korttittel>
-      <sak_fremmet_id>57229</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Michaelsen</etternavn>
-          <foedselsdato>1960-06-04T00:00:00</foedselsdato>
-          <fornavn>Åse</fornavn>
-          <id>ASC</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>VA</id>
-            <navn>Vest-Agder</navn>
+            <id>Øs</id>
+            <navn>Østfold</navn>
           </fylke>
           <parti>
             <versjon>1.0</versjon>
@@ -8549,8 +8606,8 @@
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-06-13T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
-      <tittel>Endringer i straffeprosessloven (bording av skip ved terrorhandlinger m.m.)</tittel>
-      <type>lovsak</type>
+      <tittel>Representantforslag fra stortingsrepresentantene Svein Flåtten, Frank Bakke-Jensen, Michael Tetzschner og Gunnar Gundersen om en forsikringsordning ved oppføring av bolig</tittel>
+      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -8617,6 +8674,81 @@
       <sist_oppdatert_dato>2013-06-13T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Mellom himmel og jord: Norsk romvirksomhet for næring og nytte</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>11</d4p1:int>
+        <d4p1:int>25</d4p1:int>
+        <d4p1:int>203</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>25</id>
+          <navn>REGJERINGEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>203</id>
+          <navn>STORTINGET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:121 S (2012-2013), Innst. 440 S (2012-2013)</henvisning>
+      <id>57279</id>
+      <innstilling_id>11457</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om utnevning av dommere ved Høyesterett</korttittel>
+      <sak_fremmet_id>57279</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Dahl</etternavn>
+          <foedselsdato>1975-07-07T00:00:00</foedselsdato>
+          <fornavn>André Oktay</fornavn>
+          <id>ADA</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-13T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Anders Anundsen og Hans Frode Kielland Asmyhr om utnevning av dommere ved Høyesterett</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -8897,170 +9029,6 @@
       <status>behandlet</status>
       <tittel>Endringer i rettsgebyrloven og lov om notarius publicus (gebyr for notarialforretninger og testamentoppbevaring)</tittel>
       <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>38</d4p1:int>
-        <d4p1:int>50</d4p1:int>
-        <d4p1:int>98</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>38</id>
-          <navn>BOLIGSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>50</id>
-          <navn>FORSIKRING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>98</id>
-          <navn>FORBRUKERSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>113</id>
-          <navn>NÆRINGSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:118 S (2012-2013), Innst. 447 S (2012-2013)</henvisning>
-      <id>57276</id>
-      <innstilling_id>11468</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>JUSTIS</id>
-        <navn>Justiskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om forsikringsordning ved oppføring av bolig</korttittel>
-      <sak_fremmet_id>57276</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Leirstein</etternavn>
-          <foedselsdato>1973-06-30T00:00:00</foedselsdato>
-          <fornavn>Ulf</fornavn>
-          <id>UIL</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Øs</id>
-            <navn>Østfold</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>FrP</id>
-            <navn>Fremskrittspartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-13T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Svein Flåtten, Frank Bakke-Jensen, Michael Tetzschner og Gunnar Gundersen om en forsikringsordning ved oppføring av bolig</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>11</d4p1:int>
-        <d4p1:int>25</d4p1:int>
-        <d4p1:int>203</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>25</id>
-          <navn>REGJERINGEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>151</id>
-          <navn>STATSFORFATNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>203</id>
-          <navn>STORTINGET</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:121 S (2012-2013), Innst. 440 S (2012-2013)</henvisning>
-      <id>57279</id>
-      <innstilling_id>11457</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>JUSTIS</id>
-        <navn>Justiskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om utnevning av dommere ved Høyesterett</korttittel>
-      <sak_fremmet_id>57279</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Dahl</etternavn>
-          <foedselsdato>1975-07-07T00:00:00</foedselsdato>
-          <fornavn>André Oktay</fornavn>
-          <id>ADA</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ak</id>
-            <navn>Akershus</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-13T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Anders Anundsen og Hans Frode Kielland Asmyhr om utnevning av dommere ved Høyesterett</tittel>
-      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -10295,6 +10263,143 @@
     </sak>
     <sak>
       <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>191</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>191</id>
+          <navn>SÆRAVGIFTER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:138 S (2012-2013)</henvisning>
+      <id>57554</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om modernisering av engangsavgiften for bil</korttittel>
+      <sak_fremmet_id>57554</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-06-10T00:00:00</sist_oppdatert_dato>
+      <status>bortfalt</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Ketil Solvik-Olsen, Christian Tybring-Gjedde, Kenneth Svendsen og  Jørund Rytman om modernisering av engangsavgiften for bil</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>12</d4p1:int>
+        <d4p1:int>167</d4p1:int>
+        <d4p1:int>168</d4p1:int>
+        <d4p1:int>177</d4p1:int>
+        <d4p1:int>200</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>12</id>
+          <navn>DOMSTOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>168</id>
+          <navn>FN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>177</id>
+          <navn>NATO</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>200</id>
+          <navn>INTERNASJONAL RETT</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 169 L (2012-2013), Innst. 438 L (2012-2013), Lovvedtak 99 (2012-2013)</henvisning>
+      <id>57529</id>
+      <innstilling_id>11459</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
+      <korttittel>Endring i straffeprosessloven</korttittel>
+      <sak_fremmet_id>57529</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Bøhler</etternavn>
+          <foedselsdato>1952-03-01T00:00:00</foedselsdato>
+          <fornavn>Jan</fornavn>
+          <id>JBO</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-06-10T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Endring i straffeprosessloven</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>29</d4p1:int>
@@ -10448,143 +10553,6 @@
       <status>behandlet</status>
       <tittel>Representantforslag fra stortingsrepresentantene Anders Anundsen, Per Olaf Lundteigen, Marit Nybakk, Per-Kristian Foss, Hallgeir H. Langeland, Geir Jørgen Bekkevold og Trine Skei Grande om endring i § 4 første ledd i lov om kontroll med etterretnings-, overvåkings- og sikkerhetstjeneste (EOS-utvalgets innsynsrett)</tittel>
       <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>12</d4p1:int>
-        <d4p1:int>167</d4p1:int>
-        <d4p1:int>168</d4p1:int>
-        <d4p1:int>177</d4p1:int>
-        <d4p1:int>200</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>12</id>
-          <navn>DOMSTOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>167</id>
-          <navn>MENNESKERETTIGHETER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>168</id>
-          <navn>FN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>177</id>
-          <navn>NATO</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>200</id>
-          <navn>INTERNASJONAL RETT</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 169 L (2012-2013), Innst. 438 L (2012-2013), Lovvedtak 99 (2012-2013)</henvisning>
-      <id>57529</id>
-      <innstilling_id>11459</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>JUSTIS</id>
-        <navn>Justiskomiteen</navn>
-      </komite>
-      <korttittel>Endring i straffeprosessloven</korttittel>
-      <sak_fremmet_id>57529</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Bøhler</etternavn>
-          <foedselsdato>1952-03-01T00:00:00</foedselsdato>
-          <fornavn>Jan</fornavn>
-          <id>JBO</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-06-10T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Endring i straffeprosessloven</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>191</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>191</id>
-          <navn>SÆRAVGIFTER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:138 S (2012-2013)</henvisning>
-      <id>57554</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>FINANS</id>
-        <navn>Finanskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om modernisering av engangsavgiften for bil</korttittel>
-      <sak_fremmet_id>57554</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-06-10T00:00:00</sist_oppdatert_dato>
-      <status>bortfalt</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Ketil Solvik-Olsen, Christian Tybring-Gjedde, Kenneth Svendsen og  Jørund Rytman om modernisering av engangsavgiften for bil</tittel>
-      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -19966,53 +19934,6 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>113</d4p1:int>
-        <d4p1:int>173</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>113</id>
-          <navn>NÆRINGSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>173</id>
-          <navn>EFTA/EU</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:131 S (2012-2013)</henvisning>
-      <id>57344</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>NÆRING</id>
-        <navn>Næringskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om overoppfyllelse av EU-regelverk som svekker næringslivets konkurranseevne og ideelle organisasjoners virksomhet</korttittel>
-      <sak_fremmet_id>57344</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-05-14T00:00:00</sist_oppdatert_dato>
-      <status>bortfalt</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Steinar Reiten og Hans Olav Syversen om overoppfyllelse av EU-regelverk som svekker næringslivets konkurranseevne og ideelle organisasjoners virksomhet</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>4</d4p1:int>
         <d4p1:int>71</d4p1:int>
         <d4p1:int>73</d4p1:int>
@@ -20107,6 +20028,53 @@
     </sak>
     <sak>
       <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>113</d4p1:int>
+        <d4p1:int>173</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:131 S (2012-2013)</henvisning>
+      <id>57344</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>NÆRING</id>
+        <navn>Næringskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om overoppfyllelse av EU-regelverk som svekker næringslivets konkurranseevne og ideelle organisasjoners virksomhet</korttittel>
+      <sak_fremmet_id>57344</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-05-14T00:00:00</sist_oppdatert_dato>
+      <status>bortfalt</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Steinar Reiten og Hans Olav Syversen om overoppfyllelse av EU-regelverk som svekker næringslivets konkurranseevne og ideelle organisasjoners virksomhet</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>26</d4p1:int>
@@ -20151,6 +20119,24 @@
       <status>behandlet</status>
       <tittel>Innberetning fra valgkomiteen om endringer i de faste komiteers sammensetning</tittel>
       <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 155 L (2012-2013)</henvisning>
+      <id>57324</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Endringer i gjeldsordningsloven og dekningsloven mv.</korttittel>
+      <sak_fremmet_id>57324</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Endringer i gjeldsordningsloven og dekningsloven mv.</tittel>
+      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -20206,24 +20192,6 @@
       <status>bortfalt</status>
       <tittel>Representantforslag fra stortingsrepresentantene Robert Eriksson, Per Arne Olsen, Laila Marie Reiertsen og Siv Jensen om sysselsettingsstrategi og avbyråkratisering innen helse-, pleie- og omsorgssektoren</tittel>
       <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Prop. 155 L (2012-2013)</henvisning>
-      <id>57324</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Endringer i gjeldsordningsloven og dekningsloven mv.</korttittel>
-      <sak_fremmet_id>57324</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-05-07T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Endringer i gjeldsordningsloven og dekningsloven mv.</tittel>
-      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
