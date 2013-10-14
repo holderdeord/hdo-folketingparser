@@ -4295,6 +4295,7 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>12</d4p1:int>
         <d4p1:int>17</d4p1:int>
         <d4p1:int>173</d4p1:int>
         <d4p1:int>179</d4p1:int>
@@ -4313,6 +4314,13 @@
           <er_hovedemne>true</er_hovedemne>
           <id>11</id>
           <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>12</id>
+          <navn>DOMSTOLER</navn>
           <underemne_liste />
         </emne>
         <emne>
