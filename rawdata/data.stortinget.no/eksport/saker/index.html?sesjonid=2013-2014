@@ -564,9 +564,57 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>17</d4p1:int>
+        <d4p1:int>87</d4p1:int>
+        <d4p1:int>98</d4p1:int>
+        <d4p1:int>187</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>87</id>
+          <navn>BANKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>98</id>
+          <navn>FORBRUKERSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 195 L (2012-2013)</henvisning>
       <id>58027</id>
       <innstilling_id>-1</innstilling_id>
@@ -595,24 +643,6 @@
       <sist_oppdatert_dato>2013-09-27T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Endringer i spesialisthelsetjenesteloven (Avvikling av godkjenningsordningen for sykehus)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Prop. 193 L (2012-2013)</henvisning>
-      <id>58016</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Lov om arbeidsskadeforsikring</korttittel>
-      <sak_fremmet_id>58016</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-09-20T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Lov om arbeidsskadeforsikring</tittel>
       <type>lovsak</type>
     </sak>
     <sak>
@@ -650,6 +680,24 @@
       <status>mottatt</status>
       <tittel>Utbygging og finansiering av E134 på strekninga Seljord-Åmot i kommunane Seljord, Kviteseid, Tokke og Vinje i Telemark</tittel>
       <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 193 L (2012-2013)</henvisning>
+      <id>58016</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Lov om arbeidsskadeforsikring</korttittel>
+      <sak_fremmet_id>58016</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-09-20T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Lov om arbeidsskadeforsikring</tittel>
+      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -722,6 +770,42 @@
       <status>mottatt</status>
       <tittel>Endringar i statsbudsjettet 2013 under Fiskeri- og kystdepartementet og Landbruks- og matdepartementet (tiltakspakke for torskenæringa)</tittel>
       <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 187 L (2012-2013)</henvisning>
+      <id>57908</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Innovasjon Norge</korttittel>
+      <sak_fremmet_id>57908</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-08-23T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Endringer i lov om Innovasjon Norge</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 188 L (2012-2013)</henvisning>
+      <id>57904</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Endringer i finansieringsvirksomhetsloven og eiendomsmeglingsloven mv.</korttittel>
+      <sak_fremmet_id>57904</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-08-23T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Endringer i finansieringsvirksomhetsloven og eiendomsmeglingsloven mv. (klagenemndbehandling, oppgjør av eiendomshandler mv.)</tittel>
+      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -812,42 +896,6 @@
       <status>mottatt</status>
       <tittel>Datatilsynets og Personvernnemndas årsmeldinger for 2012</tittel>
       <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Prop. 187 L (2012-2013)</henvisning>
-      <id>57908</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Innovasjon Norge</korttittel>
-      <sak_fremmet_id>57908</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-08-23T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Endringer i lov om Innovasjon Norge</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Prop. 188 L (2012-2013)</henvisning>
-      <id>57904</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Endringer i finansieringsvirksomhetsloven og eiendomsmeglingsloven mv.</korttittel>
-      <sak_fremmet_id>57904</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-08-23T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Endringer i finansieringsvirksomhetsloven og eiendomsmeglingsloven mv. (klagenemndbehandling, oppgjør av eiendomshandler mv.)</tittel>
-      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>

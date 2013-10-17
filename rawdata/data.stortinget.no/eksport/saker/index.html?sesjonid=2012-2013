@@ -275,9 +275,57 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>17</d4p1:int>
+        <d4p1:int>87</d4p1:int>
+        <d4p1:int>98</d4p1:int>
+        <d4p1:int>187</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>87</id>
+          <navn>BANKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>98</id>
+          <navn>FORBRUKERSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 195 L (2012-2013)</henvisning>
       <id>58027</id>
       <innstilling_id>-1</innstilling_id>
@@ -438,6 +486,60 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Meld. St. 47 (2012-2013)</henvisning>
+      <id>57907</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Datatilsynets og Personvernnemndas årsmeldinger for 2012</korttittel>
+      <sak_fremmet_id>57907</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-08-23T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Datatilsynets og Personvernnemndas årsmeldinger for 2012</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 187 L (2012-2013)</henvisning>
+      <id>57908</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Innovasjon Norge</korttittel>
+      <sak_fremmet_id>57908</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-08-23T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Endringer i lov om Innovasjon Norge</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 188 L (2012-2013)</henvisning>
+      <id>57904</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Endringer i finansieringsvirksomhetsloven og eiendomsmeglingsloven mv.</korttittel>
+      <sak_fremmet_id>57904</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-08-23T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Endringer i finansieringsvirksomhetsloven og eiendomsmeglingsloven mv. (klagenemndbehandling, oppgjør av eiendomshandler mv.)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste />
       <henvisning>Prop. 186 S (2012-2013)</henvisning>
@@ -505,60 +607,6 @@
       <status>mottatt</status>
       <tittel>Endring i statsbudsjettet 2013 under Utenriksdepartementet (humanitær bistand til Syria, Sør-Sudan og området rundt de store sjøer i Afrika)</tittel>
       <type>budsjett</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Prop. 187 L (2012-2013)</henvisning>
-      <id>57908</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Innovasjon Norge</korttittel>
-      <sak_fremmet_id>57908</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-08-23T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Endringer i lov om Innovasjon Norge</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Prop. 188 L (2012-2013)</henvisning>
-      <id>57904</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Endringer i finansieringsvirksomhetsloven og eiendomsmeglingsloven mv.</korttittel>
-      <sak_fremmet_id>57904</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-08-23T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Endringer i finansieringsvirksomhetsloven og eiendomsmeglingsloven mv. (klagenemndbehandling, oppgjør av eiendomshandler mv.)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Meld. St. 47 (2012-2013)</henvisning>
-      <id>57907</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Datatilsynets og Personvernnemndas årsmeldinger for 2012</korttittel>
-      <sak_fremmet_id>57907</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-08-23T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Datatilsynets og Personvernnemndas årsmeldinger for 2012</tittel>
-      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -721,24 +769,6 @@
       <status>mottatt</status>
       <tittel>Endringer i straffegjennomføringsloven mv. (navneendring for Kriminalomsorgens sentrale forvaltning mv.)</tittel>
       <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Prop. 182 S (2012-2013)</henvisning>
-      <id>57767</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Finansiering av prosjekt og tiltak på fv 714 Stokkhaugen - Sunde i Sør-Trøndelag, trinn 1</korttittel>
-      <sak_fremmet_id>57767</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-06-21T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Finansiering av prosjekt og tiltak på fv 714 Stokkhaugen - Sunde i Sør-Trøndelag, trinn 1</tittel>
-      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -959,6 +989,24 @@
       <sist_oppdatert_dato>2013-06-21T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Samtykke til godkjennelse av protokoll av 30. mars 2012 om endring av WTO-avtalen om offentlige innkjøp av 15. april 1994</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 182 S (2012-2013)</henvisning>
+      <id>57767</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Finansiering av prosjekt og tiltak på fv 714 Stokkhaugen - Sunde i Sør-Trøndelag, trinn 1</korttittel>
+      <sak_fremmet_id>57767</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-06-21T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Finansiering av prosjekt og tiltak på fv 714 Stokkhaugen - Sunde i Sør-Trøndelag, trinn 1</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -7977,18 +8025,18 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <dokumentgruppe>melding</dokumentgruppe>
       <emne_liste />
-      <henvisning>Prop. 179 S (2012-2013)</henvisning>
-      <id>57691</id>
+      <henvisning>Meld. St. 42 (2012-2013)</henvisning>
+      <id>57692</id>
       <innstilling_id>-1</innstilling_id>
       <komite i:nil="true" />
-      <korttittel>Samtykke til ratifikasjon av internasjonal konvensjon mot kjernefysisk terrorisme av 13. april 2005</korttittel>
-      <sak_fremmet_id>57691</sak_fremmet_id>
+      <korttittel>Noregs deltaking i den 67. ordinære generalforsamlinga i Dei sameinte nasjonane (FN) og vidareførte sesjonar av den 66. generalforsamlinga i FN</korttittel>
+      <sak_fremmet_id>57692</sak_fremmet_id>
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2013-06-14T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
-      <tittel>Samtykke til ratifikasjon av internasjonal konvensjon mot kjernefysisk terrorisme av 13. april 2005</tittel>
+      <tittel>Noregs deltaking i den 67. ordinære generalforsamlinga i Dei sameinte nasjonane (FN) og vidareførte sesjonar av den 66. generalforsamlinga i FN</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -8013,18 +8061,18 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>melding</dokumentgruppe>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste />
-      <henvisning>Meld. St. 42 (2012-2013)</henvisning>
-      <id>57692</id>
+      <henvisning>Prop. 179 S (2012-2013)</henvisning>
+      <id>57691</id>
       <innstilling_id>-1</innstilling_id>
       <komite i:nil="true" />
-      <korttittel>Noregs deltaking i den 67. ordinære generalforsamlinga i Dei sameinte nasjonane (FN) og vidareførte sesjonar av den 66. generalforsamlinga i FN</korttittel>
-      <sak_fremmet_id>57692</sak_fremmet_id>
+      <korttittel>Samtykke til ratifikasjon av internasjonal konvensjon mot kjernefysisk terrorisme av 13. april 2005</korttittel>
+      <sak_fremmet_id>57691</sak_fremmet_id>
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2013-06-14T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
-      <tittel>Noregs deltaking i den 67. ordinære generalforsamlinga i Dei sameinte nasjonane (FN) og vidareførte sesjonar av den 66. generalforsamlinga i FN</tittel>
+      <tittel>Samtykke til ratifikasjon av internasjonal konvensjon mot kjernefysisk terrorisme av 13. april 2005</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
