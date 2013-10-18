@@ -8,77 +8,6 @@
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>185</d4p1:int>
       </direkte_bundne_emnen>
-      <dokumentgruppe>redegjørelse</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>185</id>
-          <navn>STATSBUDSJETTET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning i:nil="true" />
-      <id>58125</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Finansministerens redegjørelse om regjeringens forslag til statsbudsjett og om nasjonalbudsjettet for 2014</korttittel>
-      <sak_fremmet_id>58125</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-10-14T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Finansministerens redegjørelse om regjeringens forslag til statsbudsjett og om nasjonalbudsjettet for 2014</tittel>
-      <type>budsjett</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Prop. 208 S (2012-2013)</henvisning>
-      <id>58148</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Endringer i statsbudsjettet 2013 under Helse- og omsorgsdepartementet (bevilgning til TV-aksjonen for 2013)</korttittel>
-      <sak_fremmet_id>58148</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-10-14T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endringer i statsbudsjettet 2013 under Helse- og omsorgsdepartementet (bevilgning til TV-aksjonen for 2013)</tittel>
-      <type>budsjett</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
-      <emne_liste />
-      <henvisning i:nil="true" />
-      <id>58163</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Den Norske Nobelkomité meddeler at Nobels fredspris for 2013 er tildelt Organisasjonen for forbud mot kjemiske våpen (OPCW)</korttittel>
-      <sak_fremmet_id>58163</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-10-14T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Den Norske Nobelkomité meddeler at Nobels fredspris for 2013 er tildelt Organisasjonen for forbud mot kjemiske våpen (OPCW)</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>185</d4p1:int>
-      </direkte_bundne_emnen>
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste>
         <emne>
@@ -99,12 +28,16 @@
       <henvisning>Prop. 1 S (2013-2014)</henvisning>
       <id>58164</id>
       <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
       <korttittel>Statsbudsjettet 2014</korttittel>
       <sak_fremmet_id>58164</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-10-14T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
       <tittel>Statsbudsjettet 2014</tittel>
       <type>budsjett</type>
     </sak>
@@ -134,12 +67,16 @@
       <henvisning>Meld. St. 1 (2013-2014)</henvisning>
       <id>58165</id>
       <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
       <korttittel>Nasjonalbudsjettet 2014</korttittel>
       <sak_fremmet_id>58165</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-10-14T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
       <tittel>Nasjonalbudsjettet 2014</tittel>
       <type>budsjett</type>
     </sak>
@@ -173,8 +110,8 @@
       <korttittel>Skatter, avgifter og toll 2014</korttittel>
       <sak_fremmet_id>58166</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-10-14T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
       <tittel>Skatter, avgifter og toll 2014</tittel>
       <type>lovsak</type>
     </sak>
@@ -204,14 +141,72 @@
       <henvisning>Prop. 1 LS (2013-2014)</henvisning>
       <id>58167</id>
       <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
       <korttittel>Skatter, avgifter og toll 2014</korttittel>
       <sak_fremmet_id>58166</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-10-14T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
       <tittel>Skatter, avgifter og toll 2014</tittel>
       <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2013-2014</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 208 S (2012-2013)</henvisning>
+      <id>58148</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Endringer i statsbudsjettet 2013 under Helse- og omsorgsdepartementet (bevilgning til TV-aksjonen for 2013)</korttittel>
+      <sak_fremmet_id>58148</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Endringer i statsbudsjettet 2013 under Helse- og omsorgsdepartementet (bevilgning til TV-aksjonen for 2013)</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <dokumentgruppe>redegjørelse</dokumentgruppe>
+      <emne_liste />
+      <henvisning i:nil="true" />
+      <id>58181</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Erklæring fra regjeringen Solberg</korttittel>
+      <sak_fremmet_id>58181</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Erklæring fra regjeringen Solberg</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
+      <emne_liste />
+      <henvisning i:nil="true" />
+      <id>58163</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Den Norske Nobelkomité meddeler at Nobels fredspris for 2013 er tildelt Organisasjonen for forbud mot kjemiske våpen (OPCW)</korttittel>
+      <sak_fremmet_id>58163</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-14T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Den Norske Nobelkomité meddeler at Nobels fredspris for 2013 er tildelt Organisasjonen for forbud mot kjemiske våpen (OPCW)</tittel>
+      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -309,6 +304,41 @@
       <status>mottatt</status>
       <tittel>Endringar i pengespilloven (endring av tippenøkkelen m.m.)</tittel>
       <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>redegjørelse</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning i:nil="true" />
+      <id>58125</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Finansministerens redegjørelse om regjeringens forslag til statsbudsjett og om nasjonalbudsjettet for 2014</korttittel>
+      <sak_fremmet_id>58125</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-14T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Finansministerens redegjørelse om regjeringens forslag til statsbudsjett og om nasjonalbudsjettet for 2014</tittel>
+      <type>budsjett</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -566,24 +596,6 @@
       <sist_oppdatert_dato>2013-10-01T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Hans Majestet Kongens tale til det 158. storting ved dets åpning og melding om Noregs rikes tilstand og styring (trontaledebatt)</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>redegjørelse</dokumentgruppe>
-      <emne_liste />
-      <henvisning i:nil="true" />
-      <id>58181</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Erklæring fra regjeringen Solberg</korttittel>
-      <sak_fremmet_id>58181</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-10-01T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Erklæring fra regjeringen Solberg</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
