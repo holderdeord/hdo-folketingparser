@@ -805,9 +805,34 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>64</d4p1:int>
+        <d4p1:int>65</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>64</id>
+          <navn>HELSEPERSONELL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>65</id>
+          <navn>SVANGERSKAP</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:2 S (2013-2014)</henvisning>
       <id>58186</id>
       <innstilling_id>-1</innstilling_id>
@@ -905,15 +930,32 @@
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2013-10-24T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Abid Q. Raja og Pål Farstad om innføring av lobbyregister</tittel>
+      <tittel>Representantforslag fra stortingsrepresentantene Abid Q. Raja, Terje Breivik og Pål Farstad om innføring av lobbyregister</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>211</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>211</id>
+          <navn>RUSMIDLER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:3 S (2013-2014)</henvisning>
       <id>58209</id>
       <innstilling_id>-1</innstilling_id>
@@ -1025,6 +1067,222 @@
       <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Endringer i statsbudsjettet 2013 under Helse- og omsorgsdepartementet (bevilgning til TV-aksjonen for 2013)</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S (2013-2014), Innst. 2 S (2013-2014)</henvisning>
+      <id>58164</id>
+      <innstilling_id>11549</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Statsbudsjettet 2014</korttittel>
+      <sak_fremmet_id>58164</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Syversen</etternavn>
+          <foedselsdato>1966-11-25T00:00:00</foedselsdato>
+          <fornavn>Hans Olav</fornavn>
+          <id>HOSY</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>KrF</id>
+            <navn>Kristelig Folkeparti</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Meld. St. 1 (2013-2014), Innst. 2 S (2013-2014)</henvisning>
+      <id>58165</id>
+      <innstilling_id>11549</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Nasjonalbudsjettet 2014</korttittel>
+      <sak_fremmet_id>58165</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Innst. 2 S Finansinnstillingen - nasjonalbudsjettet og statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 LS (2013-2014), Innst. 4 L (2013-2014)</henvisning>
+      <id>58166</id>
+      <innstilling_id>11551</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Skatter, avgifter og toll 2014 - lovsaker</korttittel>
+      <sak_fremmet_id>58166</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Meling</etternavn>
+          <foedselsdato>1963-02-08T00:00:00</foedselsdato>
+          <fornavn>Siri A.</fornavn>
+          <id>SME</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Innst. 4 L  Skatter, avgifter og toll 2014 - lovsaker</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 LS (2013-2014), Innst. 3 S (2013-2014)</henvisning>
+      <id>58167</id>
+      <innstilling_id>11552</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Skatter, avgifter og toll 2014</korttittel>
+      <sak_fremmet_id>58166</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Meling</etternavn>
+          <foedselsdato>1963-02-08T00:00:00</foedselsdato>
+          <fornavn>Siri A.</fornavn>
+          <id>SME</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Innst. 3 S Skatte-, avgifts - og tollvedtak 2014</tittel>
       <type>budsjett</type>
     </sak>
     <sak>
@@ -1331,222 +1589,6 @@
       <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Svalbardbudsjettet 2014</tittel>
-      <type>budsjett</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>185</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>185</id>
-          <navn>STATSBUDSJETTET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 1 S (2013-2014), Innst. 2 S (2013-2014)</henvisning>
-      <id>58164</id>
-      <innstilling_id>11549</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>FINANS</id>
-        <navn>Finanskomiteen</navn>
-      </komite>
-      <korttittel>Statsbudsjettet 2014</korttittel>
-      <sak_fremmet_id>58164</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Syversen</etternavn>
-          <foedselsdato>1966-11-25T00:00:00</foedselsdato>
-          <fornavn>Hans Olav</fornavn>
-          <id>HOSY</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>KrF</id>
-            <navn>Kristelig Folkeparti</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Statsbudsjettet 2014</tittel>
-      <type>budsjett</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>185</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>185</id>
-          <navn>STATSBUDSJETTET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Meld. St. 1 (2013-2014), Innst. 2 S (2013-2014)</henvisning>
-      <id>58165</id>
-      <innstilling_id>11549</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>FINANS</id>
-        <navn>Finanskomiteen</navn>
-      </komite>
-      <korttittel>Nasjonalbudsjettet 2014</korttittel>
-      <sak_fremmet_id>58165</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Innst. 2 S Finansinnstillingen - nasjonalbudsjettet og statsbudsjettet 2014</tittel>
-      <type>budsjett</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>185</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>185</id>
-          <navn>STATSBUDSJETTET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 1 LS (2013-2014), Innst. 4 L (2013-2014)</henvisning>
-      <id>58166</id>
-      <innstilling_id>11551</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>FINANS</id>
-        <navn>Finanskomiteen</navn>
-      </komite>
-      <korttittel>Skatter, avgifter og toll 2014 - lovsaker</korttittel>
-      <sak_fremmet_id>58166</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Meling</etternavn>
-          <foedselsdato>1963-02-08T00:00:00</foedselsdato>
-          <fornavn>Siri A.</fornavn>
-          <id>SME</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ro</id>
-            <navn>Rogaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Innst. 4 L  Skatter, avgifter og toll 2014 - lovsaker</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>185</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>185</id>
-          <navn>STATSBUDSJETTET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 1 LS (2013-2014), Innst. 3 S (2013-2014)</henvisning>
-      <id>58167</id>
-      <innstilling_id>11552</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>FINANS</id>
-        <navn>Finanskomiteen</navn>
-      </komite>
-      <korttittel>Skatter, avgifter og toll 2014</korttittel>
-      <sak_fremmet_id>58166</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Meling</etternavn>
-          <foedselsdato>1963-02-08T00:00:00</foedselsdato>
-          <fornavn>Siri A.</fornavn>
-          <id>SME</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ro</id>
-            <navn>Rogaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Innst. 3 S Skatte-, avgifts - og tollvedtak 2014</tittel>
       <type>budsjett</type>
     </sak>
     <sak>
