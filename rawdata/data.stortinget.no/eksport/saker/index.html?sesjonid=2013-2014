@@ -1958,6 +1958,7 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>3</d4p1:int>
         <d4p1:int>4</d4p1:int>
         <d4p1:int>11</d4p1:int>
         <d4p1:int>21</d4p1:int>
@@ -1978,6 +1979,7 @@
         <d4p1:int>87</d4p1:int>
         <d4p1:int>88</d4p1:int>
         <d4p1:int>89</d4p1:int>
+        <d4p1:int>92</d4p1:int>
         <d4p1:int>99</d4p1:int>
         <d4p1:int>107</d4p1:int>
         <d4p1:int>109</d4p1:int>
@@ -1992,12 +1994,15 @@
         <d4p1:int>155</d4p1:int>
         <d4p1:int>157</d4p1:int>
         <d4p1:int>174</d4p1:int>
+        <d4p1:int>178</d4p1:int>
+        <d4p1:int>179</d4p1:int>
         <d4p1:int>184</d4p1:int>
         <d4p1:int>185</d4p1:int>
         <d4p1:int>186</d4p1:int>
         <d4p1:int>187</d4p1:int>
         <d4p1:int>189</d4p1:int>
         <d4p1:int>196</d4p1:int>
+        <d4p1:int>211</d4p1:int>
         <d4p1:int>220</d4p1:int>
         <d4p1:int>223</d4p1:int>
       </direkte_bundne_emnen>
@@ -2012,6 +2017,13 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>3</id>
+          <navn>POST</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>4</id>
           <navn>ENERGI</navn>
@@ -2022,6 +2034,13 @@
           <er_hovedemne>true</er_hovedemne>
           <id>6</id>
           <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>8</id>
+          <navn>FISKERIER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -2174,6 +2193,13 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <id>92</id>
+          <navn>HAVBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
           <id>99</id>
           <navn>UTENRIKSHANDEL</navn>
           <underemne_liste />
@@ -2278,6 +2304,20 @@
         </emne>
         <emne>
           <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>178</id>
+          <navn>STATOIL ASA</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>179</id>
+          <navn>TELEKOMMUNIKASJONER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
           <id>184</id>
           <navn>LOKALFORVALTNING</navn>
@@ -2316,6 +2356,13 @@
           <er_hovedemne>false</er_hovedemne>
           <id>196</id>
           <navn>SKOGBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>211</id>
+          <navn>RUSMIDLER</navn>
           <underemne_liste />
         </emne>
         <emne>
