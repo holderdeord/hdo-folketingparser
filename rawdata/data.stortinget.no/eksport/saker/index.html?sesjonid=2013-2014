@@ -204,7 +204,27 @@
       </komite>
       <korttittel>Representantforslag om forslag til ny bestemmelse i lov om flagging på kommunenes offentlige bygninger</korttittel>
       <sak_fremmet_id>58176</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Bøhler</etternavn>
+          <foedselsdato>1952-03-01T00:00:00</foedselsdato>
+          <fornavn>Jan</fornavn>
+          <id>JBO</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-10-24T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Martin Kolberg, Lise Christoffersen og Torgeir Micaelsen om forslag til ny bestemmelse i lov om flagging på kommunenes offentlige bygninger (om flaggstenger)</tittel>
@@ -6049,9 +6069,35 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2013-2014</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>26</d4p1:int>
+        <d4p1:int>30</d4p1:int>
+        <d4p1:int>204</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>26</id>
+          <navn>STORTINGSREPRESENTANTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>30</id>
+          <navn>VALG</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Innst. 1 S (2013-2014)</henvisning>
       <id>58128</id>
       <innstilling_id>11534</innstilling_id>
@@ -6579,12 +6625,12 @@
       <id>58241</id>
       <innstilling_id>-1</innstilling_id>
       <komite i:nil="true" />
-      <korttittel>Finansministerens redegjørelse om endringer av Prop. 1 S (2013-2014) om statsbudsjettet 2014</korttittel>
+      <korttittel>Finansministerens redegjørelse om endringer av Prop. 1 S (2013-2014) og Prop. 1 LS (2013-2014) om statsbudsjettet 2014</korttittel>
       <sak_fremmet_id>58241</sak_fremmet_id>
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2013-10-01T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
-      <tittel>Finansministerens redegjørelse om endringer av Prop. 1 S (2013-2014) om statsbudsjettet 2014</tittel>
+      <tittel>Finansministerens redegjørelse om endringer av Prop. 1 S (2013-2014) og Prop. 1 LS (2013-2014) om statsbudsjettet 2014</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
