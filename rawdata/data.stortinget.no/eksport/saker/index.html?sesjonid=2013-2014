@@ -5,9 +5,56 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>29</d4p1:int>
+        <d4p1:int>51</d4p1:int>
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>29</id>
+          <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>51</id>
+          <navn>DEPARTEMENTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 1 (2013-2014)</henvisning>
       <id>58282</id>
       <innstilling_id>-1</innstilling_id>
@@ -18,41 +65,6 @@
       <sist_oppdatert_dato>2013-11-05T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Riksrevisjonens rapport om den årlige revisjon og kontroll for budsjettåret 2012</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>25</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>25</id>
-          <navn>REGJERINGEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>151</id>
-          <navn>STATSFORFATNING</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:4 S (2013-2014)</henvisning>
-      <id>58219</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Representantforslag om innføring av lobbyregister</korttittel>
-      <sak_fremmet_id>58219</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-10-24T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Abid Q. Raja, Terje Breivik og Pål Farstad om innføring av lobbyregister</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -119,6 +131,41 @@
       <sist_oppdatert_dato>2013-10-24T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Statsrådsprotokollene for tidsrommet 1. januar til 30. juni 2013</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>25</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>25</id>
+          <navn>REGJERINGEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:4 S (2013-2014)</henvisning>
+      <id>58219</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Representantforslag om innføring av lobbyregister</korttittel>
+      <sak_fremmet_id>58219</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-24T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Abid Q. Raja, Terje Breivik og Pål Farstad om innføring av lobbyregister</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -6051,9 +6098,26 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>180</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>180</id>
+          <navn>FREDSARBEID</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning i:nil="true" />
       <id>58163</id>
       <innstilling_id>-1</innstilling_id>
