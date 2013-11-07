@@ -218,8 +218,40 @@ Mitt spørsmål er: Hva har statsministeren gjort for å forsikre seg om at dett
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-06T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <emne_liste />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>141</d4p1:int>
+        <d4p1:int>220</d4p1:int>
+      </direkte_bundne_emnen>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>220</id>
+          <navn>DISTRIKTSPOLITIKK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58299</id>
@@ -260,9 +292,7 @@ Mitt spørsmål er: Hva har statsministeren gjort for å forsikre seg om at dett
       <sporsmal_til_minister_id>SMK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>statsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Mitt hovudspørsmål til statsministeren er knytt til den same saka. Dette er eit tema som angår alle. At folk skal kjenne tryggleik, uansett kor dei bur, er noko av det viktigaste me som politikarar har ansvar for. Folk skal vite at dersom noko skjer, skal ikkje hjelpa vere langt unna, anten det gjeld brann, helse eller politiet sine tenester. Me har i seinare tid sett at det har vore fleire tragiske hendingar, ikkje minst i den delen av landet som eg kjem frå. Det samanfallande for dei hendingane, er at politiet har vore dei som har kome sist til staden uavhengig av kva type hending det har vore. 
-Me skal ikkje dra konklusjonar i dag, har mange sagt. Eg er samd i det. Men denne type hendingar krev at me reflekterer rundt det og lærar av dei, og at me diskuterer korleis me kan betre tryggleiken for dei som bur rundt om i landet. 
-Me er einige om at politiet kom for seint her. Granskingane skal vise kva som svikta. Men dette er altså berre ei av mange hendingar, som viser at politiet kjem sist, og for seint til staden. Den største utfordringa ligg utanfor dei store byane. Det har kome ein politianalyse som legg opp til stor sentralisering av politiressursane. Den er grundig på nokre område, samtidig som den ber preg av mål om effektivisering – det å samle store kompetanseeiningar og å styrkje etterforsking av alvorleg kriminalitet. Det er spørsmål om korleis dette skal samanfalle med at folk skal kjenne tryggleik der dei bur. Eg vil derfor spørje statsministeren: Meiner ho at færre politi i distrikta vil gjere at politiet kjem raskare fram til ulukkesstader, der kriminaliteten skjer? For det kunne ha kome utrykking frå lensmannskontoret i Årdal, som var berre 20 minutt unna, ved hendinga i Årdal nyleg.</tittel>
+      <tittel>om statsministeren meiner at _færre politi i distrikta_ vil gjere at politiet kjem raskare fram til ulukkesstader, med bakgrunn i politianalysen som legg opp til stor sentralisering av politiressursane</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -283,8 +313,25 @@ Me er einige om at politiet kom for seint her. Granskingane skal vise kva som sv
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-06T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <emne_liste />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>141</d4p1:int>
+      </direkte_bundne_emnen>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58298</id>
@@ -325,9 +372,7 @@ Me er einige om at politiet kom for seint her. Granskingane skal vise kva som sv
       <sporsmal_til_minister_id>SMK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>statsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Det er første gong Stortinget er samla etter den fryktelege hendinga i nærleiken av Årdal. Tre personar blei drepne, og våre tankar går til lokalsamfunn, dei pårørande, og dei som har mista sine kjære. Me kjenner selvfølgeleg ikkje heile biletet og alle detaljane i denne saka, og me må derfor vere forsiktige med å dra konklusjonar, men eg ser at politidirektør Humlegård allereie er klar på at det tok for lang tid før politiet var på plass, og justisministeren hadde i går eit pressepunkt der han gjekk langt i å antyde det same. Tillitsvald for Politiets Fellesforbund i Sogn og Fjordane meiner det er meir ein hovudregel enn eit unntak at ambulanse og brannbil er framme på åstaden før politiet, og i denne konkrete saka kan mykje tyde på at ambulansen var på plass ein time før politiet kom til åstaden. 
-Da Gjørv-kommisjonen la fram sin rapport i fjor haust, konkluderte dei med at politiets responstid er for lang. Med denne tragiske saka får me ei ny påminning om at me er nøydd til å prioritere responstida. 
-Eg vil ikkje kritisere verken etatar eller enkeltpersonar, men eg ønskjer å stille eit prinsipielt spørsmål om politiets responstid. Mitt spørsmål til statsministeren er om det no er på tide å stille krav om responstid for politiet på lik linje med det me har for nødetatane innanfor brann og ambulanse.</tittel>
+      <tittel>om hvorvidt det er på tide å stille krav om _responstid for politiet_ på lik linje med det vi har for nødetatene innenfor brann og ambulanse</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -348,8 +393,18 @@ Eg vil ikkje kritisere verken etatar eller enkeltpersonar, men eg ønskjer å st
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-06T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <emne_liste />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>187</d4p1:int>
+      </direkte_bundne_emnen>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58297</id>
@@ -390,12 +445,7 @@ Eg vil ikkje kritisere verken etatar eller enkeltpersonar, men eg ønskjer å st
       <sporsmal_til_minister_id>SMK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>statsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>En ansvarlig økonomisk politikk er en forutsetning for å sikre arbeidsplasser og folks trygghet i hverdagen. Den nye regjeringen overtar styringen av et Norge der ting går godt; ledigheten er lav, og sysselsettingen er høy. Det har ikke kommet av seg selv, og det er heller ikke noen selvfølge at det fortsetter.
-Dette var også et veldig sentralt tema i valgkampen, og da var ikke minst Høyre kritisk til bruken av oljepenger. I den store økonomidebatten på NRK i valgkampen, sa Erna Solberg at den rød-grønne regjeringen bruker pengene for raskt. Ikke bare ble det brukt for mye penger for raskt, under den rød-grønne regjeringen, men pengene ble også brukt feil. Høyre kritiserte den rød-grønne regjeringen bl.a. for å ha brukt mindre enn to av ti nye oljekroner på å stimulere til varig vekst i fastlandsøkonomien. Det etterlatte inntrykket var at Høyre skulle bruke mindre penger, saktere og på en annen måte.
-Nå ser vi at LO, NHO og norsk industri advarer mot økt pengebruk, av hensyn til konkurranseutsatt næringsliv. Med dette bakteppet var det nok mange som ble litt overrasket da man kunne lese i Dagens Næringsliv, tidligere denne uken, at regjeringen faktisk legger opp til å bruke mer oljepenger til neste år.
-Vi ser at det på mange områder, som bompenger, egenkapitalkrav til unge boligsøkere og helse, er veldig stor avstand mellom det Høyre og Fremskrittspartiet sa i valgkampen, og det de sier etter at de har dannet regjering.
-Mitt spørsmål til statsministeren er derfor: Kan hun forsikre om at man på et så sentralt politikkområde som oljepengebruk, vil være større sammenheng mellom det man sa i valgkampen, og det man vil gjøre etter valget?
-</tittel>
+      <tittel>om hvorvidt statsministeren kan forsikre om at det på et så sentralt politikkområde som _oljepengebruk_ vil være en større sammenheng mellom det man sa i valgkampen og det man vil gjøre etter valget</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -483,7 +533,7 @@ Mitt spørsmål til statsministeren er derfor: Kan hun forsikre om at man på et
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hvorvidt statsråden mener at det må forventes at kvinner skal holde seg oppdatert på hvilke _reservasjoner den aktuelle fastlegen til enhver tid har_, og at ungdom skal bytte fastlege pga. mulig fremtidig helsehjelp</tittel>
+      <tittel>om statsråden mener at det må forventes at kvinner skal holde seg oppdatert på hvilke _reservasjoner den aktuelle fastlegen til enhver tid har_, og at ungdom skal bytte fastlege pga. mulig fremtidig helsehjelp</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -887,8 +937,41 @@ Mitt spørsmål til statsministeren er derfor: Kan hun forsikre om at man på et
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-10-31T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <emne_liste />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>35</d4p1:int>
+        <d4p1:int>159</d4p1:int>
+        <d4p1:int>160</d4p1:int>
+      </direkte_bundne_emnen>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>35</id>
+          <navn>UNIVERSITETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>159</id>
+          <navn>HØYERE UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>160</id>
+          <navn>HØGSKOLER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58258</id>
@@ -929,8 +1012,7 @@ Mitt spørsmål til statsministeren er derfor: Kan hun forsikre om at man på et
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I et oppslag i Vårt Land 28. oktober 2013 fremkommer det at Norge ikke har noe felles system for å avsløre juks og plagiering på bachelor- og mastergradsnivå. En undersøkelse viser også at noe slikt system heller ikke finnes i EU-land. Kvalitet i høyere utdanning fordrer at institusjonene har rutiner for å avdekke og håndtere juks og plagiat, også på bachelor- og mastergradsnivå.
-Vil statsråden vurdere å innføre et felles nasjonalt system for håndtering av dette, i samarbeid med utdanningsinstitusjonene?</tittel>
+      <tittel>om å innføre et felles nasjonalt system for _håndtering av juks og plagiering på bachelor- og mastergradsnivå_, i samarbeid med utdanningsinstitusjonene</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1222,8 +1304,63 @@ Vil statsråden vurdere å innføre et felles nasjonalt system for håndtering a
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-10-31T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <emne_liste />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>18</d4p1:int>
+        <d4p1:int>41</d4p1:int>
+        <d4p1:int>42</d4p1:int>
+        <d4p1:int>124</d4p1:int>
+      </direkte_bundne_emnen>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>42</id>
+          <navn>BARNEHAGER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>124</id>
+          <navn>SPRÅK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58253</id>
@@ -1264,8 +1401,7 @@ Vil statsråden vurdere å innføre et felles nasjonalt system for håndtering a
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Barnehagen er en viktig arena for innvandrerbarn til å lære norsk. Språkutviklingsarbeidet i barnehager på steder der andelen innvandrere er høy, har vært en viktig prioritet for den rød-grønne regjeringen. Nå ser vi eksempler på at språkutviklingsarbeidet står i fare pga. nedsalg av barnehager øst i Oslo.
-Hva vil statsråden gjøre for å sikre disse ungene god språkutvikling?</tittel>
+      <tittel>om å _sikre innvandrerbarn en god språkutvikling_, med henvisning til at språkutviklingsarbeidet står i fare pga. nedsalg av barnehager øst i Oslo</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1286,8 +1422,41 @@ Hva vil statsråden gjøre for å sikre disse ungene god språkutvikling?</titte
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-10-31T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <emne_liste />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>14</d4p1:int>
+        <d4p1:int>141</d4p1:int>
+        <d4p1:int>181</d4p1:int>
+      </direkte_bundne_emnen>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>14</id>
+          <navn>STRAFFERETT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>181</id>
+          <navn>SIVIL BEREDSKAP</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58252</id>
@@ -1328,8 +1497,7 @@ Hva vil statsråden gjøre for å sikre disse ungene god språkutvikling?</titte
       <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I juni vedtok Stortinget lovforslagene i Prop. 131 L (2012-2013) om terrortrening, deltakelse i terrororganisasjoner, soloterrorisme m.m. Det var en enstemmig innstilling fra justiskomiteen, og under høringen gav bl.a. PST aktiv støtte til forslagene. De nye terrorlovene tas i bruk nå i høst, og det blir viktig å følge med på om de virker etter hensikten. Imidlertid varsler justisministeren allerede i media 24. oktober at det nye lovverket ikke er tilpasset en ny situasjon.
-Hva i de nye lovene er det statsråden ser behov for å endre?</tittel>
+      <tittel>om hva statsråden ser behov for å endre i _de nye terrorlovene_ som tas i bruk nå i høst</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
