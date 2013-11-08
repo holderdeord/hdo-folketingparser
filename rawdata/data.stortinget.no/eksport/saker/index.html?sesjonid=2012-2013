@@ -6,10 +6,25 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>203</d4p1:int>
+        <d4p1:int>124</d4p1:int>
+        <d4p1:int>221</d4p1:int>
       </direkte_bundne_emnen>
-      <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
+      <dokumentgruppe>dokumentserien</dokumentgruppe>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>124</id>
+          <navn>SPRÅK</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>true</er_hovedemne>
@@ -20,139 +35,21 @@
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <id>203</id>
-          <navn>STORTINGET</navn>
+          <id>221</id>
+          <navn>GRUNNLOVEN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning i:nil="true" />
-      <id>58023</id>
+      <henvisning>Dokument 19 (2011-2012)</henvisning>
+      <id>54571</id>
       <innstilling_id>-1</innstilling_id>
       <komite i:nil="true" />
-      <korttittel>Saker som Stortinget ikke har behandlet i sesjonen 2012-2013</korttittel>
-      <sak_fremmet_id>58023</sak_fremmet_id>
+      <korttittel>Rapport fra Grunnlovsspråkutvalget om utarbeidelse av språklig oppdaterte tekstversjoner av Grunnloven på bokmål og nynorsk</korttittel>
+      <sak_fremmet_id>54571</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-10-24T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Saker som Stortinget ikke har behandlet i sesjonen 2012-2013</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>171</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>171</id>
-          <navn>NORDISK SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 18 (2012-2013)</henvisning>
-      <id>58012</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>UFK</id>
-        <navn>Utenriks- og forsvarskomiteen</navn>
-      </komite>
-      <korttittel>Årsrapport fra Stortingets delegasjon til Nordisk råd for 2. halvår 2012-1. halvår 2013</korttittel>
-      <sak_fremmet_id>58012</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Graham</etternavn>
-          <foedselsdato>1951-12-17T00:00:00</foedselsdato>
-          <fornavn>Sylvi</fornavn>
-          <id>SYG</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke i:nil="true" />
-          <parti>
-            <versjon>1.0</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-10-24T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
-      <tittel>Årsrapport fra Stortingets delegasjon til Nordisk råd for 2. halvår 2012-1. halvår 2013</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>22</d4p1:int>
-        <d4p1:int>175</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>175</id>
-          <navn>POLAROMRÅDER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 19 (2012-2013)</henvisning>
-      <id>58013</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>UFK</id>
-        <navn>Utenriks- og forsvarskomiteen</navn>
-      </komite>
-      <korttittel>Årsrapport fra Stortingets delegasjon for arktisk parlamentarisk samarbeid for perioden 1. oktober 2012 til 20. september 2013</korttittel>
-      <sak_fremmet_id>58013</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Norheim</etternavn>
-          <foedselsdato>1976-04-19T00:00:00</foedselsdato>
-          <fornavn>Kristian</fornavn>
-          <id>KRN</id>
-          <kjoenn>mann</kjoenn>
-          <fylke i:nil="true" />
-          <parti>
-            <versjon>1.0</versjon>
-            <id>FrP</id>
-            <navn>Fremskrittspartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-10-24T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Årsrapport fra Stortingets delegasjon for arktisk parlamentarisk samarbeid for perioden 1. oktober 2012 til 20. september 2013</tittel>
+      <tittel>Rapport til Stortingets presidentskap fra Grunnlovsspråkutvalget om utarbeidelse av språklig oppdaterte tekstversjoner av Grunnloven på bokmål og nynorsk</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -693,6 +590,159 @@
       <sist_oppdatert_dato>2013-10-24T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Riksrevisjonens undersøkelse av de norske EØS-midlene</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>171</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>dokumentserien</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>171</id>
+          <navn>NORDISK SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 18 (2012-2013)</henvisning>
+      <id>58012</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>UFK</id>
+        <navn>Utenriks- og forsvarskomiteen</navn>
+      </komite>
+      <korttittel>Årsrapport fra Stortingets delegasjon til Nordisk råd for 2. halvår 2012-1. halvår 2013</korttittel>
+      <sak_fremmet_id>58012</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Graham</etternavn>
+          <foedselsdato>1951-12-17T00:00:00</foedselsdato>
+          <fornavn>Sylvi</fornavn>
+          <id>SYG</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke i:nil="true" />
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-10-24T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Årsrapport fra Stortingets delegasjon til Nordisk råd for 2. halvår 2012-1. halvår 2013</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>22</d4p1:int>
+        <d4p1:int>175</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>dokumentserien</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>175</id>
+          <navn>POLAROMRÅDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 19 (2012-2013)</henvisning>
+      <id>58013</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>UFK</id>
+        <navn>Utenriks- og forsvarskomiteen</navn>
+      </komite>
+      <korttittel>Årsrapport fra Stortingets delegasjon for arktisk parlamentarisk samarbeid for perioden 1. oktober 2012 til 20. september 2013</korttittel>
+      <sak_fremmet_id>58013</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Norheim</etternavn>
+          <foedselsdato>1976-04-19T00:00:00</foedselsdato>
+          <fornavn>Kristian</fornavn>
+          <id>KRN</id>
+          <kjoenn>mann</kjoenn>
+          <fylke i:nil="true" />
+          <parti>
+            <versjon>1.0</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-10-24T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Årsrapport fra Stortingets delegasjon for arktisk parlamentarisk samarbeid for perioden 1. oktober 2012 til 20. september 2013</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>203</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>203</id>
+          <navn>STORTINGET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning i:nil="true" />
+      <id>58023</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Saker som Stortinget ikke har behandlet i sesjonen 2012-2013</korttittel>
+      <sak_fremmet_id>58023</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-24T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Saker som Stortinget ikke har behandlet i sesjonen 2012-2013</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -1714,130 +1764,6 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>17</d4p1:int>
-        <d4p1:int>114</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>17</id>
-          <navn>PERSONVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>113</id>
-          <navn>NÆRINGSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>114</id>
-          <navn>NÆRINGSUTVIKLING</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 187 L (2012-2013)</henvisning>
-      <id>57908</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Innovasjon Norge</korttittel>
-      <sak_fremmet_id>57908</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-08-23T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Endringer i lov om Innovasjon Norge</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>17</d4p1:int>
-        <d4p1:int>20</d4p1:int>
-        <d4p1:int>45</d4p1:int>
-        <d4p1:int>98</d4p1:int>
-        <d4p1:int>187</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>17</id>
-          <navn>PERSONVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>20</id>
-          <navn>HANDEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>45</id>
-          <navn>FORSKNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>98</id>
-          <navn>FORBRUKERSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>113</id>
-          <navn>NÆRINGSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 188 L (2012-2013)</henvisning>
-      <id>57904</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Endringer i finansieringsvirksomhetsloven og eiendomsmeglingsloven mv.</korttittel>
-      <sak_fremmet_id>57904</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-08-23T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Endringer i finansieringsvirksomhetsloven og eiendomsmeglingsloven mv. (klagenemndbehandling, oppgjør av eiendomshandler mv.)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>99</d4p1:int>
         <d4p1:int>166</d4p1:int>
         <d4p1:int>168</d4p1:int>
@@ -2019,6 +1945,130 @@
       <status>mottatt</status>
       <tittel>Endring i statsbudsjettet 2013 under Utenriksdepartementet (humanitær bistand til Syria, Sør-Sudan og området rundt de store sjøer i Afrika)</tittel>
       <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>17</d4p1:int>
+        <d4p1:int>114</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 187 L (2012-2013)</henvisning>
+      <id>57908</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Innovasjon Norge</korttittel>
+      <sak_fremmet_id>57908</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-08-23T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Endringer i lov om Innovasjon Norge</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>17</d4p1:int>
+        <d4p1:int>20</d4p1:int>
+        <d4p1:int>45</d4p1:int>
+        <d4p1:int>98</d4p1:int>
+        <d4p1:int>187</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>20</id>
+          <navn>HANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>98</id>
+          <navn>FORBRUKERSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 188 L (2012-2013)</henvisning>
+      <id>57904</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Endringer i finansieringsvirksomhetsloven og eiendomsmeglingsloven mv.</korttittel>
+      <sak_fremmet_id>57904</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-08-23T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Endringer i finansieringsvirksomhetsloven og eiendomsmeglingsloven mv. (klagenemndbehandling, oppgjør av eiendomshandler mv.)</tittel>
+      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -2365,42 +2415,6 @@
     </sak>
     <sak>
       <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>61</d4p1:int>
-        <d4p1:int>63</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>63</id>
-          <navn>SYKEHUS</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:139 S (2012-2013)</henvisning>
-      <id>57748</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Representantforslag om bedre tilgjengelighet og reduserte helsekøer ved å øke antallet avtalespesialister</korttittel>
-      <sak_fremmet_id>57748</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-06-21T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Bent Høie, Sonja Irene Sjøli, Sylvi Graham og Ingjerd Schou om bedre tilgjengelighet og reduserte helsekøer ved å øke antallet avtalespesialister</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>26</d4p1:int>
@@ -2534,6 +2548,42 @@
       <sist_oppdatert_dato>2013-06-21T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Frihet og likeverd - Om mennesker med utviklingshemming</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2012-2013</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>63</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>63</id>
+          <navn>SYKEHUS</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:139 S (2012-2013)</henvisning>
+      <id>57748</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Representantforslag om bedre tilgjengelighet og reduserte helsekøer ved å øke antallet avtalespesialister</korttittel>
+      <sak_fremmet_id>57748</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-06-21T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Bent Høie, Sonja Irene Sjøli, Sylvi Graham og Ingjerd Schou om bedre tilgjengelighet og reduserte helsekøer ved å øke antallet avtalespesialister</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -9693,64 +9743,6 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>50</d4p1:int>
-        <d4p1:int>52</d4p1:int>
-        <d4p1:int>61</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>50</id>
-          <navn>FORSIKRING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 177 L (2012-2013)</henvisning>
-      <id>57693</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Endring i pasientskadelova (institusjon under den kommunale helse- og omsorgstenesta)</korttittel>
-      <sak_fremmet_id>57693</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-06-14T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Endring i pasientskadelova (institusjon under den kommunale helse- og omsorgstenesta)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>93</d4p1:int>
         <d4p1:int>166</d4p1:int>
         <d4p1:int>168</d4p1:int>
@@ -9899,6 +9891,64 @@
       <status>mottatt</status>
       <tittel>Noregs deltaking i den 67. ordinære generalforsamlinga i Dei sameinte nasjonane (FN) og vidareførte sesjonar av den 66. generalforsamlinga i FN</tittel>
       <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>50</d4p1:int>
+        <d4p1:int>52</d4p1:int>
+        <d4p1:int>61</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>50</id>
+          <navn>FORSIKRING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>52</id>
+          <navn>KOMMUNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 177 L (2012-2013)</henvisning>
+      <id>57693</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Endring i pasientskadelova (institusjon under den kommunale helse- og omsorgstenesta)</korttittel>
+      <sak_fremmet_id>57693</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-06-14T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Endring i pasientskadelova (institusjon under den kommunale helse- og omsorgstenesta)</tittel>
+      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -52523,56 +52573,6 @@
       <sist_oppdatert_dato>2012-09-28T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Grunnlovsforslag fra Hallgeir H. Langeland: Grunnlovsforslag 4 (2011-2012) på bokmål og nynorsk</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>124</d4p1:int>
-        <d4p1:int>221</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>6</id>
-          <navn>KULTUR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>124</id>
-          <navn>SPRÅK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>151</id>
-          <navn>STATSFORFATNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>221</id>
-          <navn>GRUNNLOVEN</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 19 (2011-2012)</henvisning>
-      <id>54571</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Rapport fra Grunnlovsspråkutvalget om utarbeidelse av språklig oppdaterte tekstversjoner av Grunnloven på bokmål og nynorsk</korttittel>
-      <sak_fremmet_id>54571</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2012-09-17T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Rapport til Stortingets presidentskap fra Grunnlovsspråkutvalget om utarbeidelse av språklig oppdaterte tekstversjoner av Grunnloven på bokmål og nynorsk</tittel>
       <type>alminneligsak</type>
     </sak>
   </saker_liste>
