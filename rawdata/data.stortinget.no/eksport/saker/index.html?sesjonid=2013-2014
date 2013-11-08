@@ -271,9 +271,26 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 2 S (2013-2014)</henvisning>
       <id>58328</id>
       <innstilling_id>11549</innstilling_id>
@@ -313,9 +330,26 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 3 S (2013-2014)</henvisning>
       <id>58334</id>
       <innstilling_id>11552</innstilling_id>
@@ -355,9 +389,26 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 5 S (2013-2014)</henvisning>
       <id>58335</id>
       <innstilling_id>11550</innstilling_id>
@@ -389,6 +440,45 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 6 S (2013-2014)</henvisning>
+      <id>58340</id>
+      <innstilling_id>11537</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014 (justiskomiteen)</korttittel>
+      <sak_fremmet_id>58328</sak_fremmet_id>
+      <saksordfoerer_liste />
       <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
@@ -668,100 +758,6 @@
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Martin Kolberg, Lise Christoffersen og Torgeir Micaelsen om forslag til ny bestemmelse i lov om flagging på kommunenes offentlige bygninger (om flaggstenger)</tittel>
       <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id>2013-2014</behandlet_sesjon_id>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>26</d4p1:int>
-        <d4p1:int>203</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>innberetning</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>26</id>
-          <navn>STORTINGSREPRESENTANTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>151</id>
-          <navn>STATSFORFATNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>203</id>
-          <navn>STORTINGET</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Innberetning 1 (2013-2014)</henvisning>
-      <id>58183</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>VALG</id>
-        <navn>Valgkomiteen</navn>
-      </komite>
-      <korttittel>Innberetning fra valgkomiteen om sammensetningen av Stortingets faste komiteer</korttittel>
-      <sak_fremmet_id>58183</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-10-24T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Innberetning fra valgkomiteen om sammensetningen av Stortingets faste komiteer</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>64</d4p1:int>
-        <d4p1:int>65</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>64</id>
-          <navn>HELSEPERSONELL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>65</id>
-          <navn>SVANGERSKAP</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 8:2 S (2013-2014)</henvisning>
-      <id>58186</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>HELSEOMS</id>
-        <navn>Helse- og omsorgskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om å ikke utvide legers reservasjonsrett når det gjelder henvisning til abort, utskriving av resept på p-piller eller henvisning til assistert befruktning</korttittel>
-      <sak_fremmet_id>58186</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-10-24T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Karin Andersen, Audun Lysbakken og Snorre Serigstad Valen om å ikke utvide legers reservasjonsrett når det gjelder henvisning til abort, utskriving av resept på p-piller eller henvisning til assistert befruktning</tittel>
-      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -1496,6 +1492,100 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id>2013-2014</behandlet_sesjon_id>
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>26</d4p1:int>
+        <d4p1:int>203</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>innberetning</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>26</id>
+          <navn>STORTINGSREPRESENTANTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>203</id>
+          <navn>STORTINGET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Innberetning 1 (2013-2014)</henvisning>
+      <id>58183</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>VALG</id>
+        <navn>Valgkomiteen</navn>
+      </komite>
+      <korttittel>Innberetning fra valgkomiteen om sammensetningen av Stortingets faste komiteer</korttittel>
+      <sak_fremmet_id>58183</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-24T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Innberetning fra valgkomiteen om sammensetningen av Stortingets faste komiteer</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>64</d4p1:int>
+        <d4p1:int>65</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>64</id>
+          <navn>HELSEPERSONELL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>65</id>
+          <navn>SVANGERSKAP</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 8:2 S (2013-2014)</henvisning>
+      <id>58186</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>HELSEOMS</id>
+        <navn>Helse- og omsorgskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om å ikke utvide legers reservasjonsrett når det gjelder henvisning til abort, utskriving av resept på p-piller eller henvisning til assistert befruktning</korttittel>
+      <sak_fremmet_id>58186</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-24T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Karin Andersen, Audun Lysbakken og Snorre Serigstad Valen om å ikke utvide legers reservasjonsrett når det gjelder henvisning til abort, utskriving av resept på p-piller eller henvisning til assistert befruktning</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id>2013-2014</behandlet_sesjon_id>
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>25</d4p1:int>
       </direkte_bundne_emnen>
       <dokumentgruppe>redegjørelse</dokumentgruppe>
@@ -2059,6 +2149,446 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+        <d4p1:int>186</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S (2013-2014), Innst. 2 S (2013-2014)</henvisning>
+      <id>58164</id>
+      <innstilling_id>11549</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Statsbudsjettet 2014</korttittel>
+      <sak_fremmet_id>58164</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Syversen</etternavn>
+          <foedselsdato>1966-11-25T00:00:00</foedselsdato>
+          <fornavn>Hans Olav</fornavn>
+          <id>HOSY</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>KrF</id>
+            <navn>Kristelig Folkeparti</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Meld. St. 1 (2013-2014), Innst. 2 S (2013-2014)</henvisning>
+      <id>58165</id>
+      <innstilling_id>11549</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Nasjonalbudsjettet 2014</korttittel>
+      <sak_fremmet_id>58165</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Innst. 2 S Finansinnstillingen - nasjonalbudsjettet og statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 LS (2013-2014), Innst. 4 L (2013-2014)</henvisning>
+      <id>58166</id>
+      <innstilling_id>11551</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Skatter, avgifter og toll 2014 - lovsaker</korttittel>
+      <sak_fremmet_id>58166</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Meling</etternavn>
+          <foedselsdato>1963-02-08T00:00:00</foedselsdato>
+          <fornavn>Siri A.</fornavn>
+          <id>SME</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Innst. 4 L  Skatter, avgifter og toll 2014 - lovsaker</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>21</d4p1:int>
+        <d4p1:int>47</d4p1:int>
+        <d4p1:int>57</d4p1:int>
+        <d4p1:int>58</d4p1:int>
+        <d4p1:int>69</d4p1:int>
+        <d4p1:int>71</d4p1:int>
+        <d4p1:int>80</d4p1:int>
+        <d4p1:int>81</d4p1:int>
+        <d4p1:int>82</d4p1:int>
+        <d4p1:int>99</d4p1:int>
+        <d4p1:int>115</d4p1:int>
+        <d4p1:int>134</d4p1:int>
+        <d4p1:int>135</d4p1:int>
+        <d4p1:int>179</d4p1:int>
+        <d4p1:int>184</d4p1:int>
+        <d4p1:int>185</d4p1:int>
+        <d4p1:int>186</d4p1:int>
+        <d4p1:int>188</d4p1:int>
+        <d4p1:int>190</d4p1:int>
+        <d4p1:int>191</d4p1:int>
+        <d4p1:int>211</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>47</id>
+          <navn>VEGTRAFIKK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>57</id>
+          <navn>SKATTEFRADRAG</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>58</id>
+          <navn>SKATTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>69</id>
+          <navn>LANDBRUKSPRODUKTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>71</id>
+          <navn>ELEKTRISITET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>80</id>
+          <navn>AVGIFTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>81</id>
+          <navn>MERVERDIAVGIFT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>82</id>
+          <navn>TOLL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>99</id>
+          <navn>UTENRIKSHANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>115</id>
+          <navn>BERGVERK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>134</id>
+          <navn>FYLKESKOMMUNENES ØKONOMI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>135</id>
+          <navn>KOMMUNENES ØKONOMI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>179</id>
+          <navn>TELEKOMMUNIKASJONER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>188</id>
+          <navn>FOLKEHELSE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>190</id>
+          <navn>OLJEUTVINNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>191</id>
+          <navn>SÆRAVGIFTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>211</id>
+          <navn>RUSMIDLER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 LS (2013-2014), Innst. 3 S (2013-2014)</henvisning>
+      <id>58167</id>
+      <innstilling_id>11552</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Skatter, avgifter og toll 2014</korttittel>
+      <sak_fremmet_id>58166</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Meling</etternavn>
+          <foedselsdato>1963-02-08T00:00:00</foedselsdato>
+          <fornavn>Siri A.</fornavn>
+          <id>SME</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Innst. 3 S Skatte-, avgifts - og tollvedtak 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>3</d4p1:int>
         <d4p1:int>4</d4p1:int>
         <d4p1:int>11</d4p1:int>
@@ -2521,6 +3051,3320 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>11</d4p1:int>
+        <d4p1:int>12</d4p1:int>
+        <d4p1:int>13</d4p1:int>
+        <d4p1:int>15</d4p1:int>
+        <d4p1:int>16</d4p1:int>
+        <d4p1:int>17</d4p1:int>
+        <d4p1:int>18</d4p1:int>
+        <d4p1:int>19</d4p1:int>
+        <d4p1:int>22</d4p1:int>
+        <d4p1:int>45</d4p1:int>
+        <d4p1:int>46</d4p1:int>
+        <d4p1:int>51</d4p1:int>
+        <d4p1:int>135</d4p1:int>
+        <d4p1:int>141</d4p1:int>
+        <d4p1:int>165</d4p1:int>
+        <d4p1:int>173</d4p1:int>
+        <d4p1:int>181</d4p1:int>
+        <d4p1:int>185</d4p1:int>
+        <d4p1:int>198</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>12</id>
+          <navn>DOMSTOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>13</id>
+          <navn>SIVILRETT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>15</id>
+          <navn>REDNINGSTJENESTE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>16</id>
+          <navn>KRIMINALOMSORG</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>19</id>
+          <navn>FENGSLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>51</id>
+          <navn>DEPARTEMENTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>135</id>
+          <navn>KOMMUNENES ØKONOMI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>165</id>
+          <navn>GRENSESPØRSMÅL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>181</id>
+          <navn>SIVIL BEREDSKAP</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>198</id>
+          <navn>SIVILE VERNEPLIKTIGE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S (2013-2014), Innst. 6 S (2013-2014)</henvisning>
+      <id>58190</id>
+      <innstilling_id>11537</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
+      <korttittel>Statsbudsjettet 2014 (kapitler fordelt til justiskomiteen)</korttittel>
+      <sak_fremmet_id>58164</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>6</d4p1:int>
+        <d4p1:int>15</d4p1:int>
+        <d4p1:int>18</d4p1:int>
+        <d4p1:int>21</d4p1:int>
+        <d4p1:int>22</d4p1:int>
+        <d4p1:int>25</d4p1:int>
+        <d4p1:int>45</d4p1:int>
+        <d4p1:int>51</d4p1:int>
+        <d4p1:int>59</d4p1:int>
+        <d4p1:int>60</d4p1:int>
+        <d4p1:int>93</d4p1:int>
+        <d4p1:int>99</d4p1:int>
+        <d4p1:int>121</d4p1:int>
+        <d4p1:int>139</d4p1:int>
+        <d4p1:int>163</d4p1:int>
+        <d4p1:int>167</d4p1:int>
+        <d4p1:int>168</d4p1:int>
+        <d4p1:int>169</d4p1:int>
+        <d4p1:int>170</d4p1:int>
+        <d4p1:int>171</d4p1:int>
+        <d4p1:int>172</d4p1:int>
+        <d4p1:int>173</d4p1:int>
+        <d4p1:int>174</d4p1:int>
+        <d4p1:int>175</d4p1:int>
+        <d4p1:int>176</d4p1:int>
+        <d4p1:int>177</d4p1:int>
+        <d4p1:int>180</d4p1:int>
+        <d4p1:int>181</d4p1:int>
+        <d4p1:int>182</d4p1:int>
+        <d4p1:int>185</d4p1:int>
+        <d4p1:int>193</d4p1:int>
+        <d4p1:int>200</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>15</id>
+          <navn>REDNINGSTJENESTE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>25</id>
+          <navn>REGJERINGEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>51</id>
+          <navn>DEPARTEMENTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>60</id>
+          <navn>FORSVARSMATERIELL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>93</id>
+          <navn>ATOMVÅPEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>99</id>
+          <navn>UTENRIKSHANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>168</id>
+          <navn>FN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>169</id>
+          <navn>FN-STYRKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>170</id>
+          <navn>EUROPARÅDET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>171</id>
+          <navn>NORDISK SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>172</id>
+          <navn>ØKONOMISK SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>174</id>
+          <navn>UTVIKLINGSHJELP</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>175</id>
+          <navn>POLAROMRÅDER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>176</id>
+          <navn>SVALBARD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>177</id>
+          <navn>NATO</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>180</id>
+          <navn>FREDSARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>181</id>
+          <navn>SIVIL BEREDSKAP</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>182</id>
+          <navn>KONGEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>193</id>
+          <navn>MILITÆRT PERSONELL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>200</id>
+          <navn>INTERNASJONAL RETT</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S (2013-2014), Innst. 7 S (2013-2014)</henvisning>
+      <id>58191</id>
+      <innstilling_id>11538</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>UFK</id>
+        <navn>Utenriks- og forsvarskomiteen</navn>
+      </komite>
+      <korttittel>Statsbudsjettet 2014 (kapitler fordelt til utenriks- og forsvarskomiteen)</korttittel>
+      <sak_fremmet_id>58164</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>7</d4p1:int>
+        <d4p1:int>8</d4p1:int>
+        <d4p1:int>9</d4p1:int>
+        <d4p1:int>20</d4p1:int>
+        <d4p1:int>21</d4p1:int>
+        <d4p1:int>22</d4p1:int>
+        <d4p1:int>23</d4p1:int>
+        <d4p1:int>45</d4p1:int>
+        <d4p1:int>46</d4p1:int>
+        <d4p1:int>51</d4p1:int>
+        <d4p1:int>69</d4p1:int>
+        <d4p1:int>71</d4p1:int>
+        <d4p1:int>83</d4p1:int>
+        <d4p1:int>86</d4p1:int>
+        <d4p1:int>91</d4p1:int>
+        <d4p1:int>92</d4p1:int>
+        <d4p1:int>98</d4p1:int>
+        <d4p1:int>99</d4p1:int>
+        <d4p1:int>112</d4p1:int>
+        <d4p1:int>113</d4p1:int>
+        <d4p1:int>114</d4p1:int>
+        <d4p1:int>115</d4p1:int>
+        <d4p1:int>119</d4p1:int>
+        <d4p1:int>121</d4p1:int>
+        <d4p1:int>128</d4p1:int>
+        <d4p1:int>129</d4p1:int>
+        <d4p1:int>131</d4p1:int>
+        <d4p1:int>132</d4p1:int>
+        <d4p1:int>133</d4p1:int>
+        <d4p1:int>139</d4p1:int>
+        <d4p1:int>143</d4p1:int>
+        <d4p1:int>145</d4p1:int>
+        <d4p1:int>146</d4p1:int>
+        <d4p1:int>155</d4p1:int>
+        <d4p1:int>157</d4p1:int>
+        <d4p1:int>173</d4p1:int>
+        <d4p1:int>174</d4p1:int>
+        <d4p1:int>176</d4p1:int>
+        <d4p1:int>185</d4p1:int>
+        <d4p1:int>188</d4p1:int>
+        <d4p1:int>196</d4p1:int>
+        <d4p1:int>220</d4p1:int>
+        <d4p1:int>223</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>8</id>
+          <navn>FISKERIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>9</id>
+          <navn>FANGST</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>20</id>
+          <navn>HANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>23</id>
+          <navn>NATURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>51</id>
+          <navn>DEPARTEMENTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>69</id>
+          <navn>LANDBRUKSPRODUKTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>71</id>
+          <navn>ELEKTRISITET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>83</id>
+          <navn>PRISER OG KONKURRANSEFORHOLD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>86</id>
+          <navn>STATSLÅN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>91</id>
+          <navn>FISKEOMSETNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>92</id>
+          <navn>HAVBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>98</id>
+          <navn>FORBRUKERSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>99</id>
+          <navn>UTENRIKSHANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>112</id>
+          <navn>REISELIVSNÆRING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>115</id>
+          <navn>BERGVERK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>119</id>
+          <navn>STATSBEDRIFTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>128</id>
+          <navn>JORDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>129</id>
+          <navn>HUSDYR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>131</id>
+          <navn>NATURSKADER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>132</id>
+          <navn>REINDRIFT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>133</id>
+          <navn>VETERINÆRVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>143</id>
+          <navn>SJØFART</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>145</id>
+          <navn>SJØFOLK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>146</id>
+          <navn>SIKKERHET TIL SJØS</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>157</id>
+          <navn>STATSEIENDOMMER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>174</id>
+          <navn>UTVIKLINGSHJELP</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>176</id>
+          <navn>SVALBARD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>188</id>
+          <navn>FOLKEHELSE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>196</id>
+          <navn>SKOGBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>220</id>
+          <navn>DISTRIKTSPOLITIKK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>223</id>
+          <navn>INDUSTRI</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S (2013-2014), Innst. 8 S (2013-2014)</henvisning>
+      <id>58192</id>
+      <innstilling_id>11539</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>NÆRING</id>
+        <navn>Næringskomiteen</navn>
+      </komite>
+      <korttittel>Statsbudsjettet 2014 (kapitler fordelt til næringskomiteen)</korttittel>
+      <sak_fremmet_id>58164</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>4</d4p1:int>
+        <d4p1:int>13</d4p1:int>
+        <d4p1:int>21</d4p1:int>
+        <d4p1:int>22</d4p1:int>
+        <d4p1:int>23</d4p1:int>
+        <d4p1:int>45</d4p1:int>
+        <d4p1:int>49</d4p1:int>
+        <d4p1:int>51</d4p1:int>
+        <d4p1:int>71</d4p1:int>
+        <d4p1:int>73</d4p1:int>
+        <d4p1:int>74</d4p1:int>
+        <d4p1:int>75</d4p1:int>
+        <d4p1:int>80</d4p1:int>
+        <d4p1:int>86</d4p1:int>
+        <d4p1:int>99</d4p1:int>
+        <d4p1:int>121</d4p1:int>
+        <d4p1:int>129</d4p1:int>
+        <d4p1:int>131</d4p1:int>
+        <d4p1:int>139</d4p1:int>
+        <d4p1:int>140</d4p1:int>
+        <d4p1:int>143</d4p1:int>
+        <d4p1:int>155</d4p1:int>
+        <d4p1:int>173</d4p1:int>
+        <d4p1:int>174</d4p1:int>
+        <d4p1:int>175</d4p1:int>
+        <d4p1:int>176</d4p1:int>
+        <d4p1:int>185</d4p1:int>
+        <d4p1:int>190</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>13</id>
+          <navn>SIVILRETT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>23</id>
+          <navn>NATURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>49</id>
+          <navn>FUNKSJONSHEMMEDE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>51</id>
+          <navn>DEPARTEMENTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>71</id>
+          <navn>ELEKTRISITET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>73</id>
+          <navn>VASSDRAGSREGULERING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>74</id>
+          <navn>OLJE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>75</id>
+          <navn>OLJEOMSETNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>80</id>
+          <navn>AVGIFTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>86</id>
+          <navn>STATSLÅN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>99</id>
+          <navn>UTENRIKSHANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>129</id>
+          <navn>HUSDYR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>131</id>
+          <navn>NATURSKADER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>140</id>
+          <navn>KARTVERK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>143</id>
+          <navn>SJØFART</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>174</id>
+          <navn>UTVIKLINGSHJELP</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>175</id>
+          <navn>POLAROMRÅDER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>176</id>
+          <navn>SVALBARD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>190</id>
+          <navn>OLJEUTVINNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S (2013-2014), Innst. 9 S (2013-2014)</henvisning>
+      <id>58193</id>
+      <innstilling_id>11540</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>ENERGI</id>
+        <navn>Energi- og miljøkomiteen</navn>
+      </komite>
+      <korttittel>Statsbudsjettet 2014 (kapitler fordelt til energi- og miljøkomiteen)</korttittel>
+      <sak_fremmet_id>58164</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>29</d4p1:int>
+        <d4p1:int>59</d4p1:int>
+        <d4p1:int>153</d4p1:int>
+        <d4p1:int>154</d4p1:int>
+        <d4p1:int>182</d4p1:int>
+        <d4p1:int>185</d4p1:int>
+        <d4p1:int>193</d4p1:int>
+        <d4p1:int>203</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>29</id>
+          <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>153</id>
+          <navn>STORTINGETS OMBUDSMANN FOR FORVALTNINGEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>154</id>
+          <navn>POLITISKE PARTIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>182</id>
+          <navn>KONGEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>193</id>
+          <navn>MILITÆRT PERSONELL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>203</id>
+          <navn>STORTINGET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S (2013-2014), Innst. 10 S (2013-2014)</henvisning>
+      <id>58194</id>
+      <innstilling_id>11541</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KONTROLL</id>
+        <navn>Kontroll- og konstitusjonskomiteen</navn>
+      </komite>
+      <korttittel>Statsbudsjettet 2014 (kapitler fordelt til kontroll- og konstitusjonskomiteen)</korttittel>
+      <sak_fremmet_id>58164</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>10</d4p1:int>
+        <d4p1:int>22</d4p1:int>
+        <d4p1:int>37</d4p1:int>
+        <d4p1:int>43</d4p1:int>
+        <d4p1:int>45</d4p1:int>
+        <d4p1:int>48</d4p1:int>
+        <d4p1:int>49</d4p1:int>
+        <d4p1:int>51</d4p1:int>
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>62</d4p1:int>
+        <d4p1:int>63</d4p1:int>
+        <d4p1:int>64</d4p1:int>
+        <d4p1:int>65</d4p1:int>
+        <d4p1:int>66</d4p1:int>
+        <d4p1:int>86</d4p1:int>
+        <d4p1:int>135</d4p1:int>
+        <d4p1:int>173</d4p1:int>
+        <d4p1:int>185</d4p1:int>
+        <d4p1:int>186</d4p1:int>
+        <d4p1:int>188</d4p1:int>
+        <d4p1:int>211</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>37</id>
+          <navn>FYLKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>43</id>
+          <navn>BARNEVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>48</id>
+          <navn>ELDREOMSORG</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>49</id>
+          <navn>FUNKSJONSHEMMEDE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>51</id>
+          <navn>DEPARTEMENTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>62</id>
+          <navn>HELSEINSTITUSJONER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>63</id>
+          <navn>SYKEHUS</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>64</id>
+          <navn>HELSEPERSONELL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>65</id>
+          <navn>SVANGERSKAP</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>66</id>
+          <navn>SYKDOMMER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>86</id>
+          <navn>STATSLÅN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>135</id>
+          <navn>KOMMUNENES ØKONOMI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>188</id>
+          <navn>FOLKEHELSE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>211</id>
+          <navn>RUSMIDLER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S (2013-2014), Innst. 11 S (2013-2014)</henvisning>
+      <id>58195</id>
+      <innstilling_id>11542</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>HELSEOMS</id>
+        <navn>Helse- og omsorgskomiteen</navn>
+      </komite>
+      <korttittel>Statsbudsjettet 2014 (kapitler fordelt til helse- og omsorgskomiteen)</korttittel>
+      <sak_fremmet_id>58164</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>1</d4p1:int>
+        <d4p1:int>5</d4p1:int>
+        <d4p1:int>8</d4p1:int>
+        <d4p1:int>18</d4p1:int>
+        <d4p1:int>22</d4p1:int>
+        <d4p1:int>31</d4p1:int>
+        <d4p1:int>32</d4p1:int>
+        <d4p1:int>33</d4p1:int>
+        <d4p1:int>34</d4p1:int>
+        <d4p1:int>35</d4p1:int>
+        <d4p1:int>36</d4p1:int>
+        <d4p1:int>39</d4p1:int>
+        <d4p1:int>42</d4p1:int>
+        <d4p1:int>45</d4p1:int>
+        <d4p1:int>46</d4p1:int>
+        <d4p1:int>49</d4p1:int>
+        <d4p1:int>51</d4p1:int>
+        <d4p1:int>86</d4p1:int>
+        <d4p1:int>91</d4p1:int>
+        <d4p1:int>92</d4p1:int>
+        <d4p1:int>105</d4p1:int>
+        <d4p1:int>113</d4p1:int>
+        <d4p1:int>121</d4p1:int>
+        <d4p1:int>133</d4p1:int>
+        <d4p1:int>134</d4p1:int>
+        <d4p1:int>135</d4p1:int>
+        <d4p1:int>139</d4p1:int>
+        <d4p1:int>158</d4p1:int>
+        <d4p1:int>159</d4p1:int>
+        <d4p1:int>160</d4p1:int>
+        <d4p1:int>167</d4p1:int>
+        <d4p1:int>173</d4p1:int>
+        <d4p1:int>175</d4p1:int>
+        <d4p1:int>176</d4p1:int>
+        <d4p1:int>180</d4p1:int>
+        <d4p1:int>183</d4p1:int>
+        <d4p1:int>185</d4p1:int>
+        <d4p1:int>188</d4p1:int>
+        <d4p1:int>212</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>1</id>
+          <navn>DEN NORSKE KIRKE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>8</id>
+          <navn>FISKERIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>31</id>
+          <navn>SKOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>33</id>
+          <navn>PRIVATSKOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>34</id>
+          <navn>SPESIALUNDERVISNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>35</id>
+          <navn>UNIVERSITETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>36</id>
+          <navn>STUDIEFINANSIERING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>39</id>
+          <navn>SAMER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>42</id>
+          <navn>BARNEHAGER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>49</id>
+          <navn>FUNKSJONSHEMMEDE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>51</id>
+          <navn>DEPARTEMENTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>86</id>
+          <navn>STATSLÅN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>91</id>
+          <navn>FISKEOMSETNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>92</id>
+          <navn>HAVBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>105</id>
+          <navn>TROSSAMFUNN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>133</id>
+          <navn>VETERINÆRVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>134</id>
+          <navn>FYLKESKOMMUNENES ØKONOMI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>135</id>
+          <navn>KOMMUNENES ØKONOMI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>158</id>
+          <navn>VIDEREGÅENDE SKOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>159</id>
+          <navn>HØYERE UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>160</id>
+          <navn>HØGSKOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>175</id>
+          <navn>POLAROMRÅDER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>176</id>
+          <navn>SVALBARD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>180</id>
+          <navn>FREDSARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>183</id>
+          <navn>GRUNNSKOLE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>188</id>
+          <navn>FOLKEHELSE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>212</id>
+          <navn>VOKSENOPPLÆRING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S (2013-2014), Innst. 12 S (2013-2014)</henvisning>
+      <id>58196</id>
+      <innstilling_id>11543</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KIRKE</id>
+        <navn>Kirke-, utdannings- og forskningskomiteen</navn>
+      </komite>
+      <korttittel>Statsbudsjettet 2014 (kapitler fordelt til kirke-, utdannings- og forskningskomiteen)</korttittel>
+      <sak_fremmet_id>58164</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>2</d4p1:int>
+        <d4p1:int>3</d4p1:int>
+        <d4p1:int>15</d4p1:int>
+        <d4p1:int>21</d4p1:int>
+        <d4p1:int>22</d4p1:int>
+        <d4p1:int>45</d4p1:int>
+        <d4p1:int>47</d4p1:int>
+        <d4p1:int>49</d4p1:int>
+        <d4p1:int>51</d4p1:int>
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>83</d4p1:int>
+        <d4p1:int>86</d4p1:int>
+        <d4p1:int>87</d4p1:int>
+        <d4p1:int>106</d4p1:int>
+        <d4p1:int>107</d4p1:int>
+        <d4p1:int>109</d4p1:int>
+        <d4p1:int>111</d4p1:int>
+        <d4p1:int>119</d4p1:int>
+        <d4p1:int>134</d4p1:int>
+        <d4p1:int>141</d4p1:int>
+        <d4p1:int>143</d4p1:int>
+        <d4p1:int>146</d4p1:int>
+        <d4p1:int>147</d4p1:int>
+        <d4p1:int>155</d4p1:int>
+        <d4p1:int>173</d4p1:int>
+        <d4p1:int>175</d4p1:int>
+        <d4p1:int>179</d4p1:int>
+        <d4p1:int>185</d4p1:int>
+        <d4p1:int>189</d4p1:int>
+        <d4p1:int>220</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>3</id>
+          <navn>POST</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>15</id>
+          <navn>REDNINGSTJENESTE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>47</id>
+          <navn>VEGTRAFIKK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>49</id>
+          <navn>FUNKSJONSHEMMEDE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>51</id>
+          <navn>DEPARTEMENTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>83</id>
+          <navn>PRISER OG KONKURRANSEFORHOLD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>86</id>
+          <navn>STATSLÅN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>87</id>
+          <navn>BANKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>107</id>
+          <navn>JERNBANER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>109</id>
+          <navn>LUFTFART</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>111</id>
+          <navn>FERGER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>119</id>
+          <navn>STATSBEDRIFTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>134</id>
+          <navn>FYLKESKOMMUNENES ØKONOMI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>143</id>
+          <navn>SJØFART</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>146</id>
+          <navn>SIKKERHET TIL SJØS</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>147</id>
+          <navn>HAVNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>175</id>
+          <navn>POLAROMRÅDER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>179</id>
+          <navn>TELEKOMMUNIKASJONER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>220</id>
+          <navn>DISTRIKTSPOLITIKK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S (2013-2014), Innst. 13 S (2013-2014)</henvisning>
+      <id>58197</id>
+      <innstilling_id>11544</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>TRANSKOM</id>
+        <navn>Transport- og kommunikasjonskomiteen</navn>
+      </komite>
+      <korttittel>Statsbudsjettet 2014 (kapitler fordelt til transport- og kommunikasjonskomiteen)</korttittel>
+      <sak_fremmet_id>58164</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>1</d4p1:int>
+        <d4p1:int>6</d4p1:int>
+        <d4p1:int>10</d4p1:int>
+        <d4p1:int>13</d4p1:int>
+        <d4p1:int>18</d4p1:int>
+        <d4p1:int>22</d4p1:int>
+        <d4p1:int>24</d4p1:int>
+        <d4p1:int>39</d4p1:int>
+        <d4p1:int>40</d4p1:int>
+        <d4p1:int>41</d4p1:int>
+        <d4p1:int>42</d4p1:int>
+        <d4p1:int>43</d4p1:int>
+        <d4p1:int>45</d4p1:int>
+        <d4p1:int>49</d4p1:int>
+        <d4p1:int>51</d4p1:int>
+        <d4p1:int>65</d4p1:int>
+        <d4p1:int>67</d4p1:int>
+        <d4p1:int>68</d4p1:int>
+        <d4p1:int>70</d4p1:int>
+        <d4p1:int>81</d4p1:int>
+        <d4p1:int>98</d4p1:int>
+        <d4p1:int>114</d4p1:int>
+        <d4p1:int>121</d4p1:int>
+        <d4p1:int>122</d4p1:int>
+        <d4p1:int>124</d4p1:int>
+        <d4p1:int>125</d4p1:int>
+        <d4p1:int>126</d4p1:int>
+        <d4p1:int>127</d4p1:int>
+        <d4p1:int>135</d4p1:int>
+        <d4p1:int>142</d4p1:int>
+        <d4p1:int>148</d4p1:int>
+        <d4p1:int>167</d4p1:int>
+        <d4p1:int>173</d4p1:int>
+        <d4p1:int>185</d4p1:int>
+        <d4p1:int>186</d4p1:int>
+        <d4p1:int>211</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>1</id>
+          <navn>DEN NORSKE KIRKE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>13</id>
+          <navn>SIVILRETT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>24</id>
+          <navn>LIKESTILLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>39</id>
+          <navn>SAMER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>42</id>
+          <navn>BARNEHAGER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>43</id>
+          <navn>BARNEVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>49</id>
+          <navn>FUNKSJONSHEMMEDE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>51</id>
+          <navn>DEPARTEMENTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>65</id>
+          <navn>SVANGERSKAP</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>67</id>
+          <navn>BIBLIOTEK OG LITTERATUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>68</id>
+          <navn>KUNST</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>70</id>
+          <navn>KRINGKASTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>81</id>
+          <navn>MERVERDIAVGIFT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>98</id>
+          <navn>FORBRUKERSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>105</id>
+          <navn>TROSSAMFUNN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>122</id>
+          <navn>MASSEMEDIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>124</id>
+          <navn>SPRÅK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>125</id>
+          <navn>UNGDOMSARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>126</id>
+          <navn>NORSK RIKSKRINGKASTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>127</id>
+          <navn>IDRETT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>135</id>
+          <navn>KOMMUNENES ØKONOMI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>142</id>
+          <navn>LOTTERI OG SPILL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>148</id>
+          <navn>BARNETRYGD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>211</id>
+          <navn>RUSMIDLER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S (2013-2014), Innst. 14 S (2013-2014)</henvisning>
+      <id>58198</id>
+      <innstilling_id>11545</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FAMKULT</id>
+        <navn>Familie- og kulturkomiteen</navn>
+      </komite>
+      <korttittel>Statsbudsjettet 2014 (kapitler fordelt til familie- og kulturkomiteen)</korttittel>
+      <sak_fremmet_id>58164</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>5</d4p1:int>
+        <d4p1:int>7</d4p1:int>
+        <d4p1:int>10</d4p1:int>
+        <d4p1:int>18</d4p1:int>
+        <d4p1:int>40</d4p1:int>
+        <d4p1:int>44</d4p1:int>
+        <d4p1:int>45</d4p1:int>
+        <d4p1:int>49</d4p1:int>
+        <d4p1:int>50</d4p1:int>
+        <d4p1:int>51</d4p1:int>
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>66</d4p1:int>
+        <d4p1:int>74</d4p1:int>
+        <d4p1:int>75</d4p1:int>
+        <d4p1:int>80</d4p1:int>
+        <d4p1:int>86</d4p1:int>
+        <d4p1:int>94</d4p1:int>
+        <d4p1:int>95</d4p1:int>
+        <d4p1:int>135</d4p1:int>
+        <d4p1:int>145</d4p1:int>
+        <d4p1:int>173</d4p1:int>
+        <d4p1:int>185</d4p1:int>
+        <d4p1:int>186</d4p1:int>
+        <d4p1:int>190</d4p1:int>
+        <d4p1:int>205</d4p1:int>
+        <d4p1:int>211</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>44</id>
+          <navn>STATENS PERSONALPOLITIKK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>49</id>
+          <navn>FUNKSJONSHEMMEDE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>50</id>
+          <navn>FORSIKRING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>51</id>
+          <navn>DEPARTEMENTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>66</id>
+          <navn>SYKDOMMER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>74</id>
+          <navn>OLJE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>75</id>
+          <navn>OLJEOMSETNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>80</id>
+          <navn>AVGIFTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>86</id>
+          <navn>STATSLÅN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>94</id>
+          <navn>ARBEIDSVILKÅR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>95</id>
+          <navn>LØNN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>135</id>
+          <navn>KOMMUNENES ØKONOMI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>143</id>
+          <navn>SJØFART</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>145</id>
+          <navn>SJØFOLK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>190</id>
+          <navn>OLJEUTVINNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>205</id>
+          <navn>ARBEIDSMILJØ</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>211</id>
+          <navn>RUSMIDLER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S (2013-2014), Innst. 15 S (2013-2014)</henvisning>
+      <id>58199</id>
+      <innstilling_id>11546</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>ARBSOS</id>
+        <navn>Arbeids- og sosialkomiteen</navn>
+      </komite>
+      <korttittel>Statsbudsjettet 2014 (kapitler fordelt til arbeids- og sosialkomiteen)</korttittel>
+      <sak_fremmet_id>58164</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>1</d4p1:int>
+        <d4p1:int>17</d4p1:int>
+        <d4p1:int>18</d4p1:int>
+        <d4p1:int>22</d4p1:int>
+        <d4p1:int>25</d4p1:int>
+        <d4p1:int>30</d4p1:int>
+        <d4p1:int>31</d4p1:int>
+        <d4p1:int>37</d4p1:int>
+        <d4p1:int>38</d4p1:int>
+        <d4p1:int>39</d4p1:int>
+        <d4p1:int>44</d4p1:int>
+        <d4p1:int>45</d4p1:int>
+        <d4p1:int>48</d4p1:int>
+        <d4p1:int>49</d4p1:int>
+        <d4p1:int>51</d4p1:int>
+        <d4p1:int>61</d4p1:int>
+        <d4p1:int>86</d4p1:int>
+        <d4p1:int>94</d4p1:int>
+        <d4p1:int>114</d4p1:int>
+        <d4p1:int>121</d4p1:int>
+        <d4p1:int>132</d4p1:int>
+        <d4p1:int>134</d4p1:int>
+        <d4p1:int>135</d4p1:int>
+        <d4p1:int>136</d4p1:int>
+        <d4p1:int>138</d4p1:int>
+        <d4p1:int>154</d4p1:int>
+        <d4p1:int>155</d4p1:int>
+        <d4p1:int>157</d4p1:int>
+        <d4p1:int>167</d4p1:int>
+        <d4p1:int>173</d4p1:int>
+        <d4p1:int>179</d4p1:int>
+        <d4p1:int>182</d4p1:int>
+        <d4p1:int>184</d4p1:int>
+        <d4p1:int>185</d4p1:int>
+        <d4p1:int>211</d4p1:int>
+        <d4p1:int>212</d4p1:int>
+        <d4p1:int>220</d4p1:int>
+        <d4p1:int>223</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>1</id>
+          <navn>DEN NORSKE KIRKE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>2</id>
+          <navn>KOMMUNIKASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>25</id>
+          <navn>REGJERINGEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>30</id>
+          <navn>VALG</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>31</id>
+          <navn>SKOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>37</id>
+          <navn>FYLKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>38</id>
+          <navn>BOLIGSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>39</id>
+          <navn>SAMER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>44</id>
+          <navn>STATENS PERSONALPOLITIKK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>48</id>
+          <navn>ELDREOMSORG</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>49</id>
+          <navn>FUNKSJONSHEMMEDE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>51</id>
+          <navn>DEPARTEMENTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>86</id>
+          <navn>STATSLÅN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>94</id>
+          <navn>ARBEIDSVILKÅR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>105</id>
+          <navn>TROSSAMFUNN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>132</id>
+          <navn>REINDRIFT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>134</id>
+          <navn>FYLKESKOMMUNENES ØKONOMI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>135</id>
+          <navn>KOMMUNENES ØKONOMI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>136</id>
+          <navn>BYGNINGSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>138</id>
+          <navn>HUSBANKEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>154</id>
+          <navn>POLITISKE PARTIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>157</id>
+          <navn>STATSEIENDOMMER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>179</id>
+          <navn>TELEKOMMUNIKASJONER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>182</id>
+          <navn>KONGEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>211</id>
+          <navn>RUSMIDLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>212</id>
+          <navn>VOKSENOPPLÆRING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>220</id>
+          <navn>DISTRIKTSPOLITIKK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>223</id>
+          <navn>INDUSTRI</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S (2013-2014), Innst. 16 S (2013-2014)</henvisning>
+      <id>58200</id>
+      <innstilling_id>11547</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KOMMFORV</id>
+        <navn>Kommunal- og forvaltningskomiteen</navn>
+      </komite>
+      <korttittel>Statsbudsjettet 2014 (kapitler fordelt til kommunal- og forvaltningskomiteen)</korttittel>
+      <sak_fremmet_id>58164</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>58</d4p1:int>
         <d4p1:int>176</d4p1:int>
         <d4p1:int>185</d4p1:int>
@@ -2577,446 +6421,6 @@
       <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Svalbardbudsjettet 2014</tittel>
-      <type>budsjett</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>185</d4p1:int>
-        <d4p1:int>186</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>185</id>
-          <navn>STATSBUDSJETTET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>186</id>
-          <navn>TRYGDER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 1 S (2013-2014), Innst. 2 S (2013-2014)</henvisning>
-      <id>58164</id>
-      <innstilling_id>11549</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>FINANS</id>
-        <navn>Finanskomiteen</navn>
-      </komite>
-      <korttittel>Statsbudsjettet 2014</korttittel>
-      <sak_fremmet_id>58164</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Syversen</etternavn>
-          <foedselsdato>1966-11-25T00:00:00</foedselsdato>
-          <fornavn>Hans Olav</fornavn>
-          <id>HOSY</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>KrF</id>
-            <navn>Kristelig Folkeparti</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Statsbudsjettet 2014</tittel>
-      <type>budsjett</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>185</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>185</id>
-          <navn>STATSBUDSJETTET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Meld. St. 1 (2013-2014), Innst. 2 S (2013-2014)</henvisning>
-      <id>58165</id>
-      <innstilling_id>11549</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>FINANS</id>
-        <navn>Finanskomiteen</navn>
-      </komite>
-      <korttittel>Nasjonalbudsjettet 2014</korttittel>
-      <sak_fremmet_id>58165</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Innst. 2 S Finansinnstillingen - nasjonalbudsjettet og statsbudsjettet 2014</tittel>
-      <type>budsjett</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>185</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>185</id>
-          <navn>STATSBUDSJETTET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 1 LS (2013-2014), Innst. 4 L (2013-2014)</henvisning>
-      <id>58166</id>
-      <innstilling_id>11551</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>FINANS</id>
-        <navn>Finanskomiteen</navn>
-      </komite>
-      <korttittel>Skatter, avgifter og toll 2014 - lovsaker</korttittel>
-      <sak_fremmet_id>58166</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Meling</etternavn>
-          <foedselsdato>1963-02-08T00:00:00</foedselsdato>
-          <fornavn>Siri A.</fornavn>
-          <id>SME</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ro</id>
-            <navn>Rogaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Innst. 4 L  Skatter, avgifter og toll 2014 - lovsaker</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>21</d4p1:int>
-        <d4p1:int>47</d4p1:int>
-        <d4p1:int>57</d4p1:int>
-        <d4p1:int>58</d4p1:int>
-        <d4p1:int>69</d4p1:int>
-        <d4p1:int>71</d4p1:int>
-        <d4p1:int>80</d4p1:int>
-        <d4p1:int>81</d4p1:int>
-        <d4p1:int>82</d4p1:int>
-        <d4p1:int>99</d4p1:int>
-        <d4p1:int>115</d4p1:int>
-        <d4p1:int>134</d4p1:int>
-        <d4p1:int>135</d4p1:int>
-        <d4p1:int>179</d4p1:int>
-        <d4p1:int>184</d4p1:int>
-        <d4p1:int>185</d4p1:int>
-        <d4p1:int>186</d4p1:int>
-        <d4p1:int>188</d4p1:int>
-        <d4p1:int>190</d4p1:int>
-        <d4p1:int>191</d4p1:int>
-        <d4p1:int>211</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>2</id>
-          <navn>KOMMUNIKASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>4</id>
-          <navn>ENERGI</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>21</id>
-          <navn>FORURENSNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>46</id>
-          <navn>LANDBRUK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>47</id>
-          <navn>VEGTRAFIKK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>57</id>
-          <navn>SKATTEFRADRAG</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>58</id>
-          <navn>SKATTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>69</id>
-          <navn>LANDBRUKSPRODUKTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>71</id>
-          <navn>ELEKTRISITET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>80</id>
-          <navn>AVGIFTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>81</id>
-          <navn>MERVERDIAVGIFT</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>82</id>
-          <navn>TOLL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>99</id>
-          <navn>UTENRIKSHANDEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>113</id>
-          <navn>NÆRINGSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>115</id>
-          <navn>BERGVERK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>134</id>
-          <navn>FYLKESKOMMUNENES ØKONOMI</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>135</id>
-          <navn>KOMMUNENES ØKONOMI</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>139</id>
-          <navn>MILJØVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>179</id>
-          <navn>TELEKOMMUNIKASJONER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>185</id>
-          <navn>STATSBUDSJETTET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>186</id>
-          <navn>TRYGDER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>188</id>
-          <navn>FOLKEHELSE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>190</id>
-          <navn>OLJEUTVINNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>191</id>
-          <navn>SÆRAVGIFTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>211</id>
-          <navn>RUSMIDLER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 1 LS (2013-2014), Innst. 3 S (2013-2014)</henvisning>
-      <id>58167</id>
-      <innstilling_id>11552</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>FINANS</id>
-        <navn>Finanskomiteen</navn>
-      </komite>
-      <korttittel>Skatter, avgifter og toll 2014</korttittel>
-      <sak_fremmet_id>58166</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Meling</etternavn>
-          <foedselsdato>1963-02-08T00:00:00</foedselsdato>
-          <fornavn>Siri A.</fornavn>
-          <id>SME</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ro</id>
-            <navn>Rogaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Innst. 3 S Skatte-, avgifts - og tollvedtak 2014</tittel>
       <type>budsjett</type>
     </sak>
     <sak>
@@ -3887,6 +7291,396 @@
       <status>behandlet</status>
       <tittel>Spørsmål til skriftlig besvarelse med svar</tittel>
       <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 7 S (2013-2014)</henvisning>
+      <id>58341</id>
+      <innstilling_id>11538</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>UFK</id>
+        <navn>Utenriks- og forsvarskomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014 (utenriks- og forsvarskomiteen)</korttittel>
+      <sak_fremmet_id>58328</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-01T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 8 S (2013-2014)</henvisning>
+      <id>58342</id>
+      <innstilling_id>11539</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>NÆRING</id>
+        <navn>Næringskomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014 (næringskomiteen)</korttittel>
+      <sak_fremmet_id>58328</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-01T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 9 S (2013-2014)</henvisning>
+      <id>58343</id>
+      <innstilling_id>11540</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>ENERGI</id>
+        <navn>Energi- og miljøkomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014 (energi- og miljøkomiteen)</korttittel>
+      <sak_fremmet_id>58328</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-01T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 10 S (2013-2014)</henvisning>
+      <id>58344</id>
+      <innstilling_id>11541</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KONTROLL</id>
+        <navn>Kontroll- og konstitusjonskomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014 (kontroll- og konstitusjonskomiteen)</korttittel>
+      <sak_fremmet_id>58328</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-01T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 11 S (2013-2014)</henvisning>
+      <id>58345</id>
+      <innstilling_id>11542</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>HELSEOMS</id>
+        <navn>Helse- og omsorgskomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014 (helse- og omsorgskomiteen)</korttittel>
+      <sak_fremmet_id>58328</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-01T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 12 S (2013-2014)</henvisning>
+      <id>58346</id>
+      <innstilling_id>11543</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KIRKE</id>
+        <navn>Kirke-, utdannings- og forskningskomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014 (kirke-, utdannings- og forskningskomiteen)</korttittel>
+      <sak_fremmet_id>58328</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-01T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 13 S (2013-2014)</henvisning>
+      <id>58347</id>
+      <innstilling_id>11544</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>TRANSKOM</id>
+        <navn>Transport- og kommunikasjonskomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014 (transport- og kommunikasjonskomiteen)</korttittel>
+      <sak_fremmet_id>58328</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-01T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 14 S (2013-2014)</henvisning>
+      <id>58348</id>
+      <innstilling_id>11545</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FAMKULT</id>
+        <navn>Familie- og kulturkomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014 (familie- og kulturkomiteen)</korttittel>
+      <sak_fremmet_id>58328</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-01T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 15 S (2013-2014)</henvisning>
+      <id>58349</id>
+      <innstilling_id>11546</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>ARBSOS</id>
+        <navn>Arbeids- og sosialkomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014 (arbeids- og sosialkomiteen)</korttittel>
+      <sak_fremmet_id>58328</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-01T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 16 S (2013-2014)</henvisning>
+      <id>58350</id>
+      <innstilling_id>11547</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KOMMFORV</id>
+        <navn>Kommunal- og forvaltningskomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014 (kommunal- og forvaltningskomiteen)</korttittel>
+      <sak_fremmet_id>58328</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-01T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
