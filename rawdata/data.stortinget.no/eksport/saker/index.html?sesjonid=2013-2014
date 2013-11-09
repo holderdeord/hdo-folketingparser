@@ -60,6 +60,75 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>29</d4p1:int>
+        <d4p1:int>51</d4p1:int>
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>dokumentserien</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>29</id>
+          <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>51</id>
+          <navn>DEPARTEMENTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Dokument 1 (2013-2014)</henvisning>
+      <id>58282</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>KONTROLL</id>
+        <navn>Kontroll- og konstitusjonskomiteen</navn>
+      </komite>
+      <korttittel>Riksrevisjonens rapport om den årlige revisjon og kontroll for budsjettåret 2012</korttittel>
+      <sak_fremmet_id>58282</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Riksrevisjonens rapport om den årlige revisjon og kontroll for budsjettåret 2012</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>211</d4p1:int>
       </direkte_bundne_emnen>
       <dokumentgruppe>representantforslag</dokumentgruppe>
@@ -138,75 +207,6 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>29</d4p1:int>
-        <d4p1:int>51</d4p1:int>
-        <d4p1:int>185</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>29</id>
-          <navn>RIKSREVISJONEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>51</id>
-          <navn>DEPARTEMENTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>151</id>
-          <navn>STATSFORFATNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>155</id>
-          <navn>STATSFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>185</id>
-          <navn>STATSBUDSJETTET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Dokument 1 (2013-2014)</henvisning>
-      <id>58282</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>KONTROLL</id>
-        <navn>Kontroll- og konstitusjonskomiteen</navn>
-      </komite>
-      <korttittel>Riksrevisjonens rapport om den årlige revisjon og kontroll for budsjettåret 2012</korttittel>
-      <sak_fremmet_id>58282</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Riksrevisjonens rapport om den årlige revisjon og kontroll for budsjettåret 2012</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>87</d4p1:int>
         <d4p1:int>173</d4p1:int>
         <d4p1:int>187</d4p1:int>
@@ -271,183 +271,6 @@
       <status>mottatt</status>
       <tittel>Samtykke til godkjennelse av EØS-komiteens beslutning nr. 94/2013 av 3. mai 2013 om innlemmelse i EØS-avtalen av direktiv 2011/77/EU om vernetiden for opphavsrett og visse nærstående rettigheter</tittel>
       <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>185</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>185</id>
-          <navn>STATSBUDSJETTET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 2 S (2013-2014)</henvisning>
-      <id>58328</id>
-      <innstilling_id>11549</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>FINANS</id>
-        <navn>Finanskomiteen</navn>
-      </komite>
-      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014  (Innst. 2 S)</korttittel>
-      <sak_fremmet_id>58328</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Syversen</etternavn>
-          <foedselsdato>1966-11-25T00:00:00</foedselsdato>
-          <fornavn>Hans Olav</fornavn>
-          <id>HOSY</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>KrF</id>
-            <navn>Kristelig Folkeparti</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
-      <type>budsjett</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>185</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>185</id>
-          <navn>STATSBUDSJETTET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 3 S (2013-2014)</henvisning>
-      <id>58334</id>
-      <innstilling_id>11552</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>FINANS</id>
-        <navn>Finanskomiteen</navn>
-      </komite>
-      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014 (Innst. 3 S)</korttittel>
-      <sak_fremmet_id>58328</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Meling</etternavn>
-          <foedselsdato>1963-02-08T00:00:00</foedselsdato>
-          <fornavn>Siri A.</fornavn>
-          <id>SME</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Ro</id>
-            <navn>Rogaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
-      <type>budsjett</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>185</d4p1:int>
-      </direkte_bundne_emnen>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <id>185</id>
-          <navn>STATSBUDSJETTET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 5 S (2013-2014)</henvisning>
-      <id>58335</id>
-      <innstilling_id>11550</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>FINANS</id>
-        <navn>Finanskomiteen</navn>
-      </komite>
-      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014 (Innst. 5 S)</korttittel>
-      <sak_fremmet_id>58328</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Syversen</etternavn>
-          <foedselsdato>1966-11-25T00:00:00</foedselsdato>
-          <fornavn>Hans Olav</fornavn>
-          <id>HOSY</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.0</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
-          </fylke>
-          <parti>
-            <versjon>1.0</versjon>
-            <id>KrF</id>
-            <navn>Kristelig Folkeparti</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
-      <type>budsjett</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -877,6 +700,201 @@
       <status>til_behandling</status>
       <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
       <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 3 S (2013-2014)</henvisning>
+      <id>58334</id>
+      <innstilling_id>11552</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014 (Innst. 3 S)</korttittel>
+      <sak_fremmet_id>58328</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Meling</etternavn>
+          <foedselsdato>1963-02-08T00:00:00</foedselsdato>
+          <fornavn>Siri A.</fornavn>
+          <id>SME</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 5 S (2013-2014)</henvisning>
+      <id>58335</id>
+      <innstilling_id>11550</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014 (Innst. 5 S)</korttittel>
+      <sak_fremmet_id>58328</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Syversen</etternavn>
+          <foedselsdato>1966-11-25T00:00:00</foedselsdato>
+          <fornavn>Hans Olav</fornavn>
+          <id>HOSY</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>KrF</id>
+            <navn>Kristelig Folkeparti</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>185</d4p1:int>
+      </direkte_bundne_emnen>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S Tillegg 1 (2013-2014), Innst. 2 S (2013-2014)</henvisning>
+      <id>58328</id>
+      <innstilling_id>11549</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014  (Innst. 2 S)</korttittel>
+      <sak_fremmet_id>58328</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Syversen</etternavn>
+          <foedselsdato>1966-11-25T00:00:00</foedselsdato>
+          <fornavn>Hans Olav</fornavn>
+          <id>HOSY</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>KrF</id>
+            <navn>Kristelig Folkeparti</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <dokumentgruppe>redegjørelse</dokumentgruppe>
+      <emne_liste />
+      <henvisning i:nil="true" />
+      <id>58241</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Finansministerens redegjørelse om endringer av Prop. 1 S (2013-2014) og Prop. 1 LS (2013-2014) om statsbudsjettet 2014</korttittel>
+      <sak_fremmet_id>58241</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Finansministerens redegjørelse om endringer av Prop. 1 S (2013-2014) og Prop. 1 LS (2013-2014) om statsbudsjettet 2014</tittel>
+      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -7606,6 +7624,24 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 8:7 S (2013-2014)</henvisning>
+      <id>58327</id>
+      <innstilling_id>-1</innstilling_id>
+      <komite i:nil="true" />
+      <korttittel>Representantforslag fra stortingsrepresentantene  Geir Jørgen Bekkevold, Knut Arild Hareide, Olaug V. Bollestad og Rigmor Andersen Eide om etablering av et faglig utvalg for litteraturbransjen.</korttittel>
+      <sak_fremmet_id>58327</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-10-01T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Representantforslag fra stortingsrepresentantene  Geir Jørgen Bekkevold, Knut Arild Hareide, Olaug V. Bollestad og Rigmor Andersen Eide om etablering av et faglig utvalg for litteraturbransjen.</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>203</d4p1:int>
         <d4p1:int>222</d4p1:int>
@@ -7654,24 +7690,6 @@
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>redegjørelse</dokumentgruppe>
-      <emne_liste />
-      <henvisning i:nil="true" />
-      <id>58241</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Finansministerens redegjørelse om endringer av Prop. 1 S (2013-2014) og Prop. 1 LS (2013-2014) om statsbudsjettet 2014</korttittel>
-      <sak_fremmet_id>58241</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-10-01T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Finansministerens redegjørelse om endringer av Prop. 1 S (2013-2014) og Prop. 1 LS (2013-2014) om statsbudsjettet 2014</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <dokumentgruppe>dokumentserien</dokumentgruppe>
       <emne_liste />
       <henvisning>Dokument 15 (2013-2014)</henvisning>
@@ -7684,94 +7702,6 @@
       <sist_oppdatert_dato>2013-10-01T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Spørsmål til skriftlig besvarelse med svar</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Innst. 25 S (2013-2014)</henvisning>
-      <id>58336</id>
-      <innstilling_id>11558</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>VALG</id>
-        <navn>Valgkomiteen</navn>
-      </komite>
-      <korttittel>Valg av medlemmer og varamedlemmer til Stortingets delegasjon for forbindelser med Europaparlamentet</korttittel>
-      <sak_fremmet_id>58336</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Valg av medlemmer og varamedlemmer til Stortingets delegasjon for forbindelser med Europaparlamentet</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Innst. 26 S (2013-2014)</henvisning>
-      <id>58337</id>
-      <innstilling_id>11559</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>VALG</id>
-        <navn>Valgkomiteen</navn>
-      </komite>
-      <korttittel>Valg av medlemmer og varamedlemmer til Stortingets delegasjon til Den Interparlamentariske Union (IPU)</korttittel>
-      <sak_fremmet_id>58337</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Valg av medlemmer og varamedlemmer til Stortingets delegasjon til Den Interparlamentariske Union (IPU)</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Innst. 27 S (2013-2014)</henvisning>
-      <id>58338</id>
-      <innstilling_id>11560</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>VALG</id>
-        <navn>Valgkomiteen</navn>
-      </komite>
-      <korttittel>Valg av medlemmer og varamedlemmer til Stortingets delegasjon for det arktiske parlamentarikersamarbeidet</korttittel>
-      <sak_fremmet_id>58338</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Valg av medlemmer og varamedlemmer til Stortingets delegasjon for det arktiske parlamentarikersamarbeidet</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.0</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Innst. 28 S (2013-2014)</henvisning>
-      <id>58339</id>
-      <innstilling_id>11561</innstilling_id>
-      <komite>
-        <versjon>1.0</versjon>
-        <id>VALG</id>
-        <navn>Valgkomiteen</navn>
-      </komite>
-      <korttittel>Valg av medlemmer og varamedlemmer til Stortingets delegasjon til konferansen for overvåking av EUs utenriks-, sikkerhets- og forsvarspolitikk</korttittel>
-      <sak_fremmet_id>58339</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Valg av medlemmer og varamedlemmer til Stortingets delegasjon til konferansen for overvåking av EUs utenriks-, sikkerhets- og forsvarspolitikk</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -7869,18 +7799,88 @@ for sikkerhet og samarbeid i Europa (OSSE)
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <dokumentgruppe>innstillingssaker</dokumentgruppe>
       <emne_liste />
-      <henvisning>Dokument 8:7 S (2013-2014)</henvisning>
-      <id>58327</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
-      <korttittel>Representantforslag fra stortingsrepresentantene  Geir Jørgen Bekkevold, Knut Arild Hareide, Olaug V. Bollestad og Rigmor Andersen Eide om etablering av et faglig utvalg for litteraturbransjen.</korttittel>
-      <sak_fremmet_id>58327</sak_fremmet_id>
+      <henvisning>Innst. 25 S (2013-2014)</henvisning>
+      <id>58336</id>
+      <innstilling_id>11558</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>VALG</id>
+        <navn>Valgkomiteen</navn>
+      </komite>
+      <korttittel>Valg av medlemmer og varamedlemmer til Stortingets delegasjon for forbindelser med Europaparlamentet</korttittel>
+      <sak_fremmet_id>58336</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-10-01T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Representantforslag fra stortingsrepresentantene  Geir Jørgen Bekkevold, Knut Arild Hareide, Olaug V. Bollestad og Rigmor Andersen Eide om etablering av et faglig utvalg for litteraturbransjen.</tittel>
+      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Valg av medlemmer og varamedlemmer til Stortingets delegasjon for forbindelser med Europaparlamentet</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <dokumentgruppe>innstillingssaker</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Innst. 26 S (2013-2014)</henvisning>
+      <id>58337</id>
+      <innstilling_id>11559</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>VALG</id>
+        <navn>Valgkomiteen</navn>
+      </komite>
+      <korttittel>Valg av medlemmer og varamedlemmer til Stortingets delegasjon til Den Interparlamentariske Union (IPU)</korttittel>
+      <sak_fremmet_id>58337</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Valg av medlemmer og varamedlemmer til Stortingets delegasjon til Den Interparlamentariske Union (IPU)</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <dokumentgruppe>innstillingssaker</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Innst. 27 S (2013-2014)</henvisning>
+      <id>58338</id>
+      <innstilling_id>11560</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>VALG</id>
+        <navn>Valgkomiteen</navn>
+      </komite>
+      <korttittel>Valg av medlemmer og varamedlemmer til Stortingets delegasjon for det arktiske parlamentarikersamarbeidet</korttittel>
+      <sak_fremmet_id>58338</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Valg av medlemmer og varamedlemmer til Stortingets delegasjon for det arktiske parlamentarikersamarbeidet</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <dokumentgruppe>innstillingssaker</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Innst. 28 S (2013-2014)</henvisning>
+      <id>58339</id>
+      <innstilling_id>11561</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>VALG</id>
+        <navn>Valgkomiteen</navn>
+      </komite>
+      <korttittel>Valg av medlemmer og varamedlemmer til Stortingets delegasjon til konferansen for overvåking av EUs utenriks-, sikkerhets- og forsvarspolitikk</korttittel>
+      <sak_fremmet_id>58339</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Valg av medlemmer og varamedlemmer til Stortingets delegasjon til konferansen for overvåking av EUs utenriks-, sikkerhets- og forsvarspolitikk</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
