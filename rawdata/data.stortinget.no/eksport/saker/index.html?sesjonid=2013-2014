@@ -205,9 +205,42 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>58</d4p1:int>
+        <d4p1:int>185</d4p1:int>
+        <d4p1:int>191</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>58</id>
+          <navn>SKATTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>191</id>
+          <navn>SÆRAVGIFTER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 1 LS Tillegg 1 (2013-2014), Innst. 3 S (2013-2014)</henvisning>
       <id>58329</id>
       <innstilling_id>11552</innstilling_id>
@@ -2090,7 +2123,27 @@
       </komite>
       <korttittel>Representantforslag om å ikke utvide legers reservasjonsrett når det gjelder henvisning til abort, utskriving av resept på p-piller eller henvisning til assistert befruktning</korttittel>
       <sak_fremmet_id>58186</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Micaelsen</etternavn>
+          <foedselsdato>1979-05-20T00:00:00</foedselsdato>
+          <fornavn>Torgeir</fornavn>
+          <id>TMI</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Bu</id>
+            <navn>Buskerud</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-10-24T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Karin Andersen, Audun Lysbakken og Snorre Serigstad Valen om å ikke utvide legers reservasjonsrett når det gjelder henvisning til abort, utskriving av resept på p-piller eller henvisning til assistert befruktning</tittel>
