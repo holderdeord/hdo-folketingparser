@@ -337,15 +337,39 @@
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste />
-      <henvisning>Prop. 1 LS Tillegg 1 (2013-2014)</henvisning>
+      <henvisning>Prop. 1 LS Tillegg 1 (2013-2014), Innst. 3 S (2013-2014)</henvisning>
       <id>58329</id>
-      <innstilling_id>-1</innstilling_id>
-      <komite i:nil="true" />
+      <innstilling_id>11552</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
       <korttittel>Endring av Prop. 1 LS (2013-2014) Skatter, avgifter og toll 2014</korttittel>
       <sak_fremmet_id>58329</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Meling</etternavn>
+          <foedselsdato>1963-02-08T00:00:00</foedselsdato>
+          <fornavn>Siri A.</fornavn>
+          <id>SME</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
+      <status>til_behandling</status>
       <tittel>Endring av Prop. 1 LS (2013-2014) Skatter, avgifter og toll 2014</tittel>
       <type>budsjett</type>
     </sak>
@@ -895,6 +919,48 @@
       <status>til_behandling</status>
       <tittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</tittel>
       <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.0</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Prop. 1 LS Tillegg 1 LS (2013-2014), Innst. 4 L (2013-2014)</henvisning>
+      <id>58386</id>
+      <innstilling_id>11551</innstilling_id>
+      <komite>
+        <versjon>1.0</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Endring av Prop. 1 LS (2013-2014) Skatter, avgifter og toll 2014 - lovsaker</korttittel>
+      <sak_fremmet_id>58329</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Meling</etternavn>
+          <foedselsdato>1963-02-08T00:00:00</foedselsdato>
+          <fornavn>Siri A.</fornavn>
+          <id>SME</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endring av Prop. 1 LS (2013-2014) Skatter, avgifter og toll 2014</tittel>
+      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.0</versjon>
@@ -7762,7 +7828,7 @@
         <id>VALG</id>
         <navn>Valgkomiteen</navn>
       </komite>
-      <korttittel>Valg av medlemmer og varamedlemmer til Stortingets delegasjon for det arktiske parlamentarikersamarbeidet</korttittel>
+      <korttittel>Innstilling fra valgkomiteen om valg av medlemmer og varamedlemmer til Stortingets delegasjon for arktisk parlamentarisk samarbeid</korttittel>
       <sak_fremmet_id>58338</sak_fremmet_id>
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2013-11-08T00:00:00</sist_oppdatert_dato>
