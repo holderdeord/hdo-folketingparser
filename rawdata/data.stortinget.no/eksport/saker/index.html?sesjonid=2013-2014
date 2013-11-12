@@ -110,9 +110,41 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>68</d4p1:int>
+        <d4p1:int>173</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>68</id>
+          <navn>KUNST</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 3 S (2013-2014)</henvisning>
       <id>58326</id>
       <innstilling_id>-1</innstilling_id>
@@ -2684,7 +2716,7 @@
         <id>FINANS</id>
         <navn>Finanskomiteen</navn>
       </komite>
-      <korttittel>Bevilgninger på skatte-, avgifts- og tollområdet 2014</korttittel>
+      <korttittel>Skatte-, avgifts- og tollinntekter 2014</korttittel>
       <sak_fremmet_id>58164</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
@@ -2709,7 +2741,7 @@
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-10-18T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
-      <tittel>Bevilgninger på skatte-, avgifts- og tollområdet 2014</tittel>
+      <tittel>Innst. 3 S Skatte-, avgifts- og tollinntekter 2014</tittel>
       <type>budsjett</type>
     </sak>
     <sak>
