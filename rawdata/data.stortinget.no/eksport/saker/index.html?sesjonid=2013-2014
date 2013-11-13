@@ -355,7 +355,27 @@
       </komite>
       <korttittel>Finansiering av prosjekt og tiltak på fv 714 Stokkhaugen - Sunde i Sør-Trøndelag, trinn 1</korttittel>
       <sak_fremmet_id>57767</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Helleland</etternavn>
+          <foedselsdato>1977-08-26T00:00:00</foedselsdato>
+          <fornavn>Linda C. Hofstad</fornavn>
+          <id>LCH</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>ST</id>
+            <navn>Sør-Trøndelag</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-11-13T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Finansiering av prosjekt og tiltak på fv 714 Stokkhaugen - Sunde i Sør-Trøndelag, trinn 1</tittel>
@@ -502,7 +522,7 @@
         <id>FINANS</id>
         <navn>Finanskomiteen</navn>
       </komite>
-      <korttittel>Innlemmelse i EØS-avtalen av forordning (EF) nr. 924/2009 om betalinger på tvers av landegrensene, og forordning (EU) nr. 260/2012 om tekniske krav til kredittoverføringer </korttittel>
+      <korttittel>Innlemmelse i EØS-avtalen av forordning (EF) nr. 924/2009 om betalinger på tvers av landegrensene, og forordning (EU) nr. 260/2012 om tekniske krav til kredittoverføringer</korttittel>
       <sak_fremmet_id>58325</sak_fremmet_id>
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2013-11-13T00:00:00</sist_oppdatert_dato>
@@ -637,9 +657,26 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>183</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>183</id>
+          <navn>GRUNNSKOLE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:5 S (2013-2014)</henvisning>
       <id>58288</id>
       <innstilling_id>-1</innstilling_id>
@@ -659,9 +696,26 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>186</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:6 S (2013-2014)</henvisning>
       <id>58303</id>
       <innstilling_id>-1</innstilling_id>
