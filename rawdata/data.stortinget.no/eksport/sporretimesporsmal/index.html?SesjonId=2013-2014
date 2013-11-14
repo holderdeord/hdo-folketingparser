@@ -21,8 +21,25 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-13T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <emne_liste />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>186</d4p1:int>
+      </direkte_bundne_emnen>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58413</id>
@@ -86,8 +103,25 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-13T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <emne_liste />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>186</d4p1:int>
+      </direkte_bundne_emnen>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58412</id>
@@ -151,8 +185,18 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-13T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <emne_liste />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>5</d4p1:int>
+      </direkte_bundne_emnen>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58411</id>
@@ -193,10 +237,7 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <sporsmal_til_minister_id>ABS</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>arbeids- og sosialministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Spørsmålet mitt går til arbeidsministeren. Det nærmar seg jul, det nærmar seg desember, og det nærmar seg utløpet av gjeldande IA-avtale. I budsjetthøyringa til arbeids- og sosialkomiteen på måndag var det mange av partane i arbeidslivet som sterkt etterlyste at ein må få på plass ein ny IA-avtale. 
-Arbeid med inkluderande arbeidsliv er viktig, og ei vidareføring og forbetring av IA-avtalen kan vere ein måte styrkje det arbeidet på. Samtidig har vi fleire store utfordringar. Ei av dei er at mange av dei positive verkemidla gjennom IA-avtalen, for eksempel tilskott til tilrettelegging frå Nav, berre er tilgjengelege for enkelte bedrifter og ikkje for alle bedrifter. Det gjeld også mange andre gode verkemiddel som burde ha vore tilgjengelege for alle, og som det går ut over småbedrifter at ikkje er det. 
-Ei anna utfordring er at vi framleis har eit betydeleg høgare sjukefråvær enn nabolanda våre, og at det har skjedd lite i så måte. I sommar kom ei evaluering frå SINTEF som langt på veg konkluderte med at IA-avtalen ikkje har fungert etter hensikta.
-Kan statsråden gi ei løypemelding om korleis ein ligg an i arbeidet med å få på plass ein ny IA-avtale? Og kva vil ein gjere for å sørgje for at avtalen vil fungere etter hensikta denne gongen?</tittel>
+      <tittel>om korleis ein ligg an i arbeidet med å få på plass ein _ny IA-avtale_, og kva ein vil gjere for å sørgje for at avtalen vil fungere etter hensikta denne gongen</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -217,8 +258,33 @@ Kan statsråden gi ei løypemelding om korleis ein ligg an i arbeidet med å få
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-13T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <emne_liste />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>184</d4p1:int>
+        <d4p1:int>220</d4p1:int>
+      </direkte_bundne_emnen>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>220</id>
+          <navn>DISTRIKTSPOLITIKK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58410</id>
@@ -259,16 +325,7 @@ Kan statsråden gi ei løypemelding om korleis ein ligg an i arbeidet med å få
       <sporsmal_til_minister_id>KOMMOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kommunal- og moderniseringsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Mitt spørsmål går til kommunal- og moderniseringsministeren.
-Statsråden har ikke lenger regionalminister i tittelen sin, men har fortsatt ansvaret for distrikts- og regionalpolitikken. I Høyres merknad under vårens behandling av distrikts- og regionalmeldingen skrev partiet følgende: 
-«Målet er å ta vare på hovedtrekkene i bosettingsmønsteret og å utløse verdiskapingspotensialet i alle deler av landet.» 
-Og videre: 
-«prioritere virkemiddel som kan medvirke til å styrke evnen til innovasjon og nyetablering i alle deler av landet, med vekt på å nå potensielle gründere og entreprenører». 
-Det står i sterk kontrast til formuleringene i tilleggsproposisjonen til statsbudsjettet der det heter at «Regjeringen vil styrke vekstkraften der den er». Hovedfokus synes altså å være å styrke veksten der den er, og som vi alle vet, er veksten spesielt stor i og rundt de store byene. 
-Den rød-grønne regjeringen har de siste årene klart å opprettholde arbeidsplassutviklingen og bosettingen i de aller fleste kommunene i landet. Det har en lyktes med gjennom å føre en aktiv distriktspolitikk og å etablere gode partnerskap mellom lokale myndigheter, regionale myndigheter, lokalt næringsliv, statlige innovasjonsaktører som Innovasjon Norge, SIVA og forskningsmiljøer knyttet til universitet og høgskoler.
-Senterpartiet mener forvaltningen av distriktsvirkemidlene blir best når vi trekker regionale og lokale myndigheter aktivt inn i gjennomføring av tiltakene. Vi vet også at våre viktigste eksport- og framtidsnæringer som energiproduksjon, fiskeri, reiseliv og mineralutvinning, er typiske distriktsnæringer.
-Det man må spørre seg etter å ha lest regjeringens erklæring og sett hvordan regional- og distriktspolitiske tiltak blir barbert i den nye regjeringens budsjett, er: Hva er egentlig regjeringens ambisjoner for regional- og distriktspolitikken framover?
-</tittel>
+      <tittel>om hva som er regjeringens _ambisjoner for regional- og distriktspolitikken_ framover</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -289,8 +346,25 @@ Det man må spørre seg etter å ha lest regjeringens erklæring og sett hvordan
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-13T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <emne_liste />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>7</d4p1:int>
+      </direkte_bundne_emnen>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58409</id>
@@ -331,10 +405,7 @@ Det man må spørre seg etter å ha lest regjeringens erklæring og sett hvordan
       <sporsmal_til_minister_id>ABS</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>arbeids- og sosialministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Statsråden gjør helt riktig i å bli stående, for mitt spørsmål handler også om arbeid.
-Arbeid handler om menneskeverd. Det gjør noe med oss når vi som kan og vil jobbe, har muligheten til å kunne realisere oss selv gjennom arbeid. Det gir oss sosiale nettverk og muligheten til å realisere oss selv, og arbeid er nøkkelen til å komme seg ut av fattigdom. Så det er viktig for enkeltmennesket, men det er også viktig for samfunnet. Det flotte for statsråden er at hvis han lykkes med å inkludere flest mulig mennesker i arbeid, lønner det seg også økonomisk for staten.
-Selv om Norge har lav arbeidsledighet, har vi mange som står uten arbeid og som kjemper for å komme tilbake i jobb. I 2005 var det ca. 150 000 mennesker som ble definert som at de hadde nedsatt arbeidsevne, at de trengte hjelp og bistand fra staten og Nav for å komme tilbake i jobb, nå er det over 200 000 mennesker. Situasjonen for disse menneskene er at det er altfor lang ventetid før de får hjelp. Mange må stå to–tre år i kø før innsatsen kommer. Det er firkantede systemer for de ulike tiltakene som tilbys, og kvaliteten på tiltakene varierer i for stor grad – og også geografisk. Bedriftene gjør en iherdig innsats for å inkludere mennesker som har bygget opp kompetanse. De har selv etterspurt at noe må skje på feltet, etterspurt tiltak fra staten.
-Poenget er: Vi trenger en mer ambisiøs politikk for dem som har falt ut av arbeidslivet, og som trenger hjelp for å komme tilbake. Så mitt spørsmål er: Deler statsråden Kristelig Folkepartis utålmodighet? Og hva er statsrådens ambisjoner for å inkludere flere mennesker inn i arbeidslivet igjen?</tittel>
+      <tittel>om hva som er statsråden ambisjoner for å _inkludere flere mennesker inn i arbeidslivet_ igjen</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -355,8 +426,25 @@ Poenget er: Vi trenger en mer ambisiøs politikk for dem som har falt ut av arbe
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-13T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <emne_liste />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>186</d4p1:int>
+      </direkte_bundne_emnen>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58408</id>
@@ -397,10 +485,7 @@ Poenget er: Vi trenger en mer ambisiøs politikk for dem som har falt ut av arbe
       <sporsmal_til_minister_id>ABS</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>arbeids- og sosialministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Siden regjeringsskiftet, via regjeringsplattformen og den framlagte tilleggsproposisjonen til statsbudsjettet, har vi sett at denne regjeringas første uker i hovedsak er preget av løftebrudd. Aldri har så mange løfter blitt forlatt så fort. Til tross for mer penger i statsbudsjettet er det altså noen departementer som allikevel taper, og en av budsjettets klare tapere er arbeidsministeren, som også har ansvaret for dem som er avhengig av de sosiale tjenestene i Norge. Til tross for at regjeringa altså bruker mer penger på statsbudsjettet, og til tross for at regjeringa varsler økende arbeidsledighet, ser vi at tiltak for de arbeidsledige blir kuttet. Vi ser at permitteringsreglene blir svekket i en tid der bedriftene har utfordringer med å holde folk i arbeid, og vi ser at garantien for dem som mister jobben etter konkurs, blir svekket. Noen må altså betale for skattelettelsene. Det må de enslige forsørgerne. 
-De som kanskje har mest grunn til å være skuffet over statsbudsjettet, er landets pensjonister. Statsråd Eriksson har karakterisert pensjonsreformen som tidenes største velferdsran. Han har karakterisert avkortinga som grådig. Han har sterkt kritisert reguleringa av pensjonene, og han har sterkt kritisert at pensjonistene betaler for høy trygdeavgift. I årets budsjett økes trygdeavgifta. 
-Vil statsråd Eriksson beklage overfor landets pensjonister at alle de løfter han har gitt, ikke vil bli holdt? 
-</tittel>
+      <tittel>om hvorvidt statsråden vil beklage overfor landets pensjonister at løfter han har gitt, ikke vil bli holdt, med henvisning til at trygdeavgifta økes i årets budsjett</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -421,8 +506,18 @@ Vil statsråd Eriksson beklage overfor landets pensjonister at alle de løfter h
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-07T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <emne_liste />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>61</d4p1:int>
+      </direkte_bundne_emnen>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58318</id>
@@ -485,8 +580,40 @@ Hvordan vil statsråden følge opp planene om å bygge sentre for partikkelterap
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-07T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <emne_liste />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>87</d4p1:int>
+        <d4p1:int>173</d4p1:int>
+      </direkte_bundne_emnen>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>87</id>
+          <navn>BANKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58317</id>
@@ -549,8 +676,40 @@ Hva vil statsråden gjøre for å sikre at norske interesser blir ivaretatt i de
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-07T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <emne_liste />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>69</d4p1:int>
+        <d4p1:int>82</d4p1:int>
+      </direkte_bundne_emnen>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>69</id>
+          <navn>LANDBRUKSPRODUKTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>82</id>
+          <navn>TOLL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58316</id>
@@ -613,8 +772,25 @@ Hva er regjeringens politikk vedrørende ostetollen videre fremover?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-07T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <emne_liste />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>128</d4p1:int>
+      </direkte_bundne_emnen>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>128</id>
+          <navn>JORDBRUK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58313</id>
@@ -1181,8 +1357,18 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-04T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <emne_liste />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>46</d4p1:int>
+      </direkte_bundne_emnen>
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58279</id>
