@@ -2246,8 +2246,8 @@ for sikkerhet og samarbeid i Europa (OSSE)
       <innstilling_id>-1</innstilling_id>
       <komite>
         <versjon>1.0</versjon>
-        <id>FAMKULT</id>
-        <navn>Familie- og kulturkomiteen</navn>
+        <id>ARBSOS</id>
+        <navn>Arbeids- og sosialkomiteen</navn>
       </komite>
       <korttittel>Frihet og likeverd - Om mennesker med utviklingshemming</korttittel>
       <sak_fremmet_id>57764</sak_fremmet_id>
@@ -3409,12 +3409,37 @@ for sikkerhet og samarbeid i Europa (OSSE)
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>21</d4p1:int>
         <d4p1:int>58</d4p1:int>
+        <d4p1:int>71</d4p1:int>
+        <d4p1:int>80</d4p1:int>
         <d4p1:int>185</d4p1:int>
+        <d4p1:int>186</d4p1:int>
         <d4p1:int>191</d4p1:int>
       </direkte_bundne_emnen>
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
@@ -3425,8 +3450,36 @@ for sikkerhet og samarbeid i Europa (OSSE)
         <emne>
           <versjon>1.0</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <id>71</id>
+          <navn>ELEKTRISITET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>80</id>
+          <navn>AVGIFTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
           <id>185</id>
           <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>186</id>
+          <navn>TRYGDER</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -11330,19 +11383,7 @@ for sikkerhet og samarbeid i Europa (OSSE)
       </komite>
       <korttittel>Grunnlovsforslag om endringer i Grunnloven §§ 4 og 16 (om forholdet stat/kirke)</korttittel>
       <sak_fremmet_id>54647</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Thorheim</etternavn>
-          <foedselsdato>1948-06-23T00:00:00</foedselsdato>
-          <fornavn>Helge</fornavn>
-          <id>HTHO</id>
-          <kjoenn>mann</kjoenn>
-          <fylke i:nil="true" />
-          <parti i:nil="true" />
-        </representant>
-      </saksordfoerer_liste>
+      <saksordfoerer_liste />
       <sist_oppdatert_dato>2012-09-28T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Grunnlovsforslag fra Trine Skei Grande og Borghild Tenden om endringer i Grunnloven §§ 4 og 16 (om forholdet stat/kirke)</tittel>
@@ -11638,19 +11679,7 @@ for sikkerhet og samarbeid i Europa (OSSE)
       </komite>
       <korttittel>Grunnlovsforslag om rett til asyl</korttittel>
       <sak_fremmet_id>54673</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Thorheim</etternavn>
-          <foedselsdato>1948-06-23T00:00:00</foedselsdato>
-          <fornavn>Helge</fornavn>
-          <id>HTHO</id>
-          <kjoenn>mann</kjoenn>
-          <fylke i:nil="true" />
-          <parti i:nil="true" />
-        </representant>
-      </saksordfoerer_liste>
+      <saksordfoerer_liste />
       <sist_oppdatert_dato>2012-09-28T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Grunnlovsforslag fra Trine Skei Grande og Hallgeir H. Langeland om rett til asyl</tittel>
@@ -11712,23 +11741,7 @@ for sikkerhet og samarbeid i Europa (OSSE)
       </komite>
       <korttittel>Grunnlovsforslag om endringer i Grunnloven § 100 (om ytringsfrihet og religion)</korttittel>
       <sak_fremmet_id>54674</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Tetzschner</etternavn>
-          <foedselsdato>1954-02-09T00:00:00</foedselsdato>
-          <fornavn>Michael</fornavn>
-          <id>MIT</id>
-          <kjoenn>mann</kjoenn>
-          <fylke i:nil="true" />
-          <parti>
-            <versjon>1.0</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
+      <saksordfoerer_liste />
       <sist_oppdatert_dato>2012-09-28T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Grunnlovsforslag fra Trine Skei Grande, Marit Nybakk, Jette F. Christensen, Hallgeir H. Langeland, Anders Anundsen og Ulf Erik Knudsen om endringer i Grunnloven § 100 (om ytringsfrihet og religion)</tittel>
@@ -12305,19 +12318,7 @@ for sikkerhet og samarbeid i Europa (OSSE)
       </komite>
       <korttittel>Grunnlovsforslag om endringer i Grunnloven §§ 2, 4 og 16 (endelig avskaffelse av statskirkeordningen)</korttittel>
       <sak_fremmet_id>54671</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.0</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Thorheim</etternavn>
-          <foedselsdato>1948-06-23T00:00:00</foedselsdato>
-          <fornavn>Helge</fornavn>
-          <id>HTHO</id>
-          <kjoenn>mann</kjoenn>
-          <fylke i:nil="true" />
-          <parti i:nil="true" />
-        </representant>
-      </saksordfoerer_liste>
+      <saksordfoerer_liste />
       <sist_oppdatert_dato>2012-09-28T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Grunnlovsforslag fra Hallgeir H. Langeland og Rannveig Kvifte Andresen om endringer i Grunnloven §§ 2, 4 og 16 (endelig avskaffelse av statskirkeordningen)</tittel>
