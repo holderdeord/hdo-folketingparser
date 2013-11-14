@@ -3410,6 +3410,7 @@ for sikkerhet og samarbeid i Europa (OSSE)
       <behandlet_sesjon_id i:nil="true" />
       <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
         <d4p1:int>21</d4p1:int>
+        <d4p1:int>57</d4p1:int>
         <d4p1:int>58</d4p1:int>
         <d4p1:int>71</d4p1:int>
         <d4p1:int>80</d4p1:int>
@@ -3438,6 +3439,13 @@ for sikkerhet og samarbeid i Europa (OSSE)
           <er_hovedemne>false</er_hovedemne>
           <id>21</id>
           <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>57</id>
+          <navn>SKATTEFRADRAG</navn>
           <underemne_liste />
         </emne>
         <emne>
