@@ -116,9 +116,26 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>29</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>29</id>
+          <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 3:1 (2013-2014)</henvisning>
       <id>58453</id>
       <innstilling_id>-1</innstilling_id>
@@ -134,9 +151,34 @@
     <sak>
       <versjon>1.0</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:int>29</d4p1:int>
+        <d4p1:int>61</d4p1:int>
+      </direkte_bundne_emnen>
       <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <id>29</id>
+          <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.0</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 3:3 (2013-2014)</henvisning>
       <id>58454</id>
       <innstilling_id>-1</innstilling_id>
@@ -392,7 +434,27 @@
       </komite>
       <korttittel>Innlemmelse i EØS-avtalen av forordning (EF) nr. 924/2009 om betalinger på tvers av landegrensene, og forordning (EU) nr. 260/2012 om tekniske krav til kredittoverføringer</korttittel>
       <sak_fremmet_id>58325</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Limi</etternavn>
+          <foedselsdato>1960-09-26T00:00:00</foedselsdato>
+          <fornavn>Hans Andreas</fornavn>
+          <id>HLI</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-11-13T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Samtykke til godkjenning av EØS-komiteens beslutning nr. 86/2013 av 3. mai 2013 om innlemmelse i EØS-avtalen av forordning (EF) nr. 924/2009 om betalinger på tvers av landegrensene, og forordning (EU) nr. 260/2012 om tekniske krav til kredittoverføringer og direkte debiteringer i euro</tittel>
@@ -619,7 +681,27 @@
       </komite>
       <korttittel>Endringer i finansieringsvirksomhetsloven og eiendomsmeglingsloven mv.</korttittel>
       <sak_fremmet_id>57904</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Lunde</etternavn>
+          <foedselsdato>1973-02-03T00:00:00</foedselsdato>
+          <fornavn>Heidi Nordby</fornavn>
+          <id>HENL</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-11-13T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i finansieringsvirksomhetsloven og eiendomsmeglingsloven mv. (klagenemndbehandling, oppgjør av eiendomshandler mv.)</tittel>
@@ -666,7 +748,27 @@
       </komite>
       <korttittel>Endringer i utlendingsloven (behandling av omgjøringsanmodninger)</korttittel>
       <sak_fremmet_id>56307</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Sivertsen</etternavn>
+          <foedselsdato>1971-03-17T00:00:00</foedselsdato>
+          <fornavn>Eirik</fornavn>
+          <id>EIRS</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>No</id>
+            <navn>Nordland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-11-13T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i utlendingsloven (behandling av omgjøringsanmodninger)</tittel>
@@ -728,7 +830,27 @@
       </komite>
       <korttittel>Endringer i utlendingsloven mv.</korttittel>
       <sak_fremmet_id>57720</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Bøhler</etternavn>
+          <foedselsdato>1952-03-01T00:00:00</foedselsdato>
+          <fornavn>Jan</fornavn>
+          <id>JBO</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-11-13T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i utlendingsloven mv. (heving av strafferammen ved brudd på innreiseforbud)</tittel>
@@ -1016,7 +1138,27 @@
       </komite>
       <korttittel>Endring av skatteavtalen av mellom Norge og Tyskland</korttittel>
       <sak_fremmet_id>57905</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Støre</etternavn>
+          <foedselsdato>1960-08-25T00:00:00</foedselsdato>
+          <fornavn>Jonas Gahr</fornavn>
+          <id>JGS</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-11-12T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Samtykke til å sette i kraft en protokoll til endring av skatteavtalen av 4. oktober 1991 mellom Norge og Tyskland, undertegnet i Berlin 24. juni 2013</tittel>
@@ -1638,7 +1780,27 @@
       </komite>
       <korttittel>Datatilsynets og Personvernnemndas årsmeldinger for 2012</korttittel>
       <sak_fremmet_id>57907</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Schou</etternavn>
+          <foedselsdato>1955-01-20T00:00:00</foedselsdato>
+          <fornavn>Ingjerd</fornavn>
+          <id>ISC</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Øs</id>
+            <navn>Østfold</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-11-12T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Datatilsynets og Personvernnemndas årsmeldinger for 2012</tittel>
@@ -2133,7 +2295,27 @@
       </komite>
       <korttittel>Representantforslag om å fase ut investeringene i fossil energi i Statens pensjonsfond utland</korttittel>
       <sak_fremmet_id>58303</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Vedum</etternavn>
+          <foedselsdato>1978-12-01T00:00:00</foedselsdato>
+          <fornavn>Trygve Slagsvold</fornavn>
+          <id>TMV</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>He</id>
+            <navn>Hedmark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-11-12T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Snorre Serigstad Valen, Karin Andersen, Bård Vegar Solhjell og Heikki Eidsvoll Holmås om å fase ut investeringene i fossil energi i Statens pensjonsfond utland</tittel>
@@ -2396,7 +2578,27 @@
       </komite>
       <korttittel>Sametingets virksomhet 2012</korttittel>
       <sak_fremmet_id>58145</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Lødemel</etternavn>
+          <foedselsdato>1958-08-19T00:00:00</foedselsdato>
+          <fornavn>Bjørn</fornavn>
+          <id>BLO</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>SF</id>
+            <navn>Sogn og Fjordane</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-11-12T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Sametingets virksomhet 2012</tittel>
@@ -2622,7 +2824,27 @@
       </komite>
       <korttittel>Lov om tjenestepensjon (tjenestepensjonsloven)</korttittel>
       <sak_fremmet_id>58144</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Hille</etternavn>
+          <foedselsdato>1950-05-06T00:00:00</foedselsdato>
+          <fornavn>Sigurd</fornavn>
+          <id>SHIL</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-11-12T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Lov om tjenestepensjon (tjenestepensjonsloven)</tittel>
@@ -2810,7 +3032,27 @@
       </komite>
       <korttittel>Endringer i introduksjonsloven (personer med begrensninger i oppholdstillatelsen i påvente av dokumentert identitet)</korttittel>
       <sak_fremmet_id>58172</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.0</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Andersen</etternavn>
+          <foedselsdato>1952-12-16T00:00:00</foedselsdato>
+          <fornavn>Karin</fornavn>
+          <id>KAAN</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.0</versjon>
+            <id>He</id>
+            <navn>Hedmark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.0</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-11-12T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i introduksjonsloven (personer med begrensninger i oppholdstillatelsen i påvente av dokumentert identitet)</tittel>
