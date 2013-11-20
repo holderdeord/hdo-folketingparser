@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sporsmal_oversikt xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://data.stortinget.no">
-  <versjon>1.0</versjon>
+  <versjon>1.1</versjon>
   <sesjon_id>2005-2006</sesjon_id>
   <sporsmal_liste>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bekkemellem</etternavn>
         <foedselsdato>1965-01-15T00:00:00</foedselsdato>
@@ -21,43 +21,27 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-05-15T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>40</d4p1:int>
-        <d4p1:int>65</d4p1:int>
-        <d4p1:int>186</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
           <id>40</id>
           <navn>FAMILIE</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>65</id>
           <navn>SVANGERSKAP</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
           <id>186</id>
           <navn>TRYGDER</navn>
           <underemne_liste />
@@ -72,7 +56,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Grimstad</etternavn>
         <foedselsdato>1968-01-31T00:00:00</foedselsdato>
@@ -80,19 +64,19 @@
         <id>MHG</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>MR</id>
           <navn>Møre og Romsdal</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>KrF</id>
           <navn>Kristelig Folkeparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>58</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bekkemellem</etternavn>
         <foedselsdato>1965-01-15T00:00:00</foedselsdato>
@@ -107,9 +91,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bekkemellem</etternavn>
         <foedselsdato>1965-01-15T00:00:00</foedselsdato>
@@ -124,51 +108,35 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-05-09T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>16</d4p1:int>
-        <d4p1:int>19</d4p1:int>
-        <d4p1:int>40</d4p1:int>
-        <d4p1:int>41</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
           <id>16</id>
           <navn>KRIMINALOMSORG</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
           <id>19</id>
           <navn>FENGSLER</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
           <id>40</id>
           <navn>FAMILIE</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>40</id>
-          <navn>FAMILIE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
           <id>41</id>
           <navn>BARN</navn>
           <underemne_liste />
@@ -178,7 +146,7 @@
       <fremsatt_av_annen i:nil="true" />
       <id>34580</id>
       <rette_vedkommende>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bekkemellem</etternavn>
         <foedselsdato>1965-01-15T00:00:00</foedselsdato>
@@ -191,7 +159,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Syversen</etternavn>
         <foedselsdato>1966-11-25T00:00:00</foedselsdato>
@@ -199,19 +167,19 @@
         <id>HOSY</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>KrF</id>
           <navn>Kristelig Folkeparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>55</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
         <foedselsdato>1964-10-06T00:00:00</foedselsdato>
@@ -226,9 +194,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
         <foedselsdato>1964-10-06T00:00:00</foedselsdato>
@@ -243,28 +211,19 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-05-08T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>16</d4p1:int>
-        <d4p1:int>19</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
           <id>16</id>
           <navn>KRIMINALOMSORG</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
           <id>19</id>
           <navn>FENGSLER</navn>
           <underemne_liste />
@@ -272,7 +231,7 @@
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Thorkildsen</etternavn>
         <foedselsdato>1976-07-02T00:00:00</foedselsdato>
@@ -280,7 +239,11 @@
         <id>IMT</id>
         <kjoenn>kvinne</kjoenn>
         <fylke i:nil="true" />
-        <parti i:nil="true" />
+        <parti>
+          <versjon>1.1</versjon>
+          <id>SV</id>
+          <navn>Sosialistisk Venstreparti</navn>
+        </parti>
       </fremsatt_av_annen>
       <id>34578</id>
       <rette_vedkommende i:nil="true" />
@@ -289,7 +252,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Ballo</etternavn>
         <foedselsdato>1956-10-22T00:00:00</foedselsdato>
@@ -297,19 +260,19 @@
         <id>OLGB</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Fi</id>
           <navn>Finnmark</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>SV</id>
           <navn>Sosialistisk Venstreparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>54</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
         <foedselsdato>1964-10-06T00:00:00</foedselsdato>
@@ -324,9 +287,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Djupedal</etternavn>
         <foedselsdato>1960-05-05T00:00:00</foedselsdato>
@@ -341,22 +304,13 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-05-04T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>31</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
           <id>31</id>
           <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>32</id>
-          <navn>UTDANNING</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -369,7 +323,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Jensen</etternavn>
         <foedselsdato>1973-01-29T00:00:00</foedselsdato>
@@ -377,19 +331,19 @@
         <id>LEJ</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Tr</id>
           <navn>Troms</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>SV</id>
           <navn>Sosialistisk Venstreparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>53</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Djupedal</etternavn>
         <foedselsdato>1960-05-05T00:00:00</foedselsdato>
@@ -404,9 +358,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
         <foedselsdato>1960-08-25T00:00:00</foedselsdato>
@@ -421,28 +375,19 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-04-28T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>163</d4p1:int>
-        <d4p1:int>200</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
           <id>163</id>
           <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
           <id>200</id>
           <navn>INTERNASJONAL RETT</navn>
           <underemne_liste />
@@ -457,7 +402,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Vedum</etternavn>
         <foedselsdato>1978-12-01T00:00:00</foedselsdato>
@@ -465,19 +410,19 @@
         <id>TMV</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>He</id>
           <navn>Hedmark</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Sp</id>
           <navn>Senterpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>52</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
         <foedselsdato>1960-08-25T00:00:00</foedselsdato>
@@ -492,9 +437,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Giske</etternavn>
         <foedselsdato>1966-11-07T00:00:00</foedselsdato>
@@ -509,20 +454,11 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-04-27T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>68</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>6</id>
-          <navn>KULTUR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
           <id>68</id>
           <navn>KUNST</navn>
           <underemne_liste />
@@ -537,7 +473,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Thommessen</etternavn>
         <foedselsdato>1956-04-18T00:00:00</foedselsdato>
@@ -545,19 +481,19 @@
         <id>OLET</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Op</id>
           <navn>Oppland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>51</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Giske</etternavn>
         <foedselsdato>1966-11-07T00:00:00</foedselsdato>
@@ -572,9 +508,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -589,36 +525,27 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-04-25T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>14</d4p1:int>
-        <d4p1:int>61</d4p1:int>
-        <d4p1:int>141</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
           <id>14</id>
           <navn>STRAFFERETT</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>61</id>
           <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
           <id>141</id>
           <navn>POLITI OG PÅTALEMYNDIGHET</navn>
           <underemne_liste />
@@ -633,7 +560,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aspaker</etternavn>
         <foedselsdato>1962-10-16T00:00:00</foedselsdato>
@@ -641,19 +568,19 @@
         <id>EAS</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Tr</id>
           <navn>Troms</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>50</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -668,9 +595,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -685,43 +612,27 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-04-24T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>48</d4p1:int>
-        <d4p1:int>61</d4p1:int>
-        <d4p1:int>66</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
           <id>48</id>
           <navn>ELDREOMSORG</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>61</id>
           <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>66</id>
           <navn>SYKDOMMER</navn>
           <underemne_liste />
@@ -736,7 +647,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sjøli</etternavn>
         <foedselsdato>1949-06-06T00:00:00</foedselsdato>
@@ -744,19 +655,19 @@
         <id>SONS</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ak</id>
           <navn>Akershus</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>49</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -771,9 +682,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -788,28 +699,19 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-04-20T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>61</d4p1:int>
-        <d4p1:int>63</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>61</id>
           <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>63</id>
           <navn>SYKEHUS</navn>
           <underemne_liste />
@@ -824,7 +726,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>2013-03-24T00:00:00</doedsdato>
         <etternavn>Lønning</etternavn>
         <foedselsdato>1938-02-20T00:00:00</foedselsdato>
@@ -832,19 +734,19 @@
         <id>INL</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>48</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -859,9 +761,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Djupedal</etternavn>
         <foedselsdato>1960-05-05T00:00:00</foedselsdato>
@@ -876,51 +778,35 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-04-18T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>45</d4p1:int>
-        <d4p1:int>67</d4p1:int>
-        <d4p1:int>124</d4p1:int>
-        <d4p1:int>159</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>6</id>
-          <navn>KULTUR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>32</id>
-          <navn>UTDANNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>45</hovedemne_id>
           <id>45</id>
           <navn>FORSKNING</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
           <id>67</id>
           <navn>BIBLIOTEK OG LITTERATUR</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
           <id>124</id>
           <navn>SPRÅK</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
           <id>159</id>
           <navn>HØYERE UTDANNING</navn>
           <underemne_liste />
@@ -935,7 +821,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Reikvam</etternavn>
         <foedselsdato>1948-03-12T00:00:00</foedselsdato>
@@ -943,19 +829,19 @@
         <id>RHRE</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ak</id>
           <navn>Akershus</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>SV</id>
           <navn>Sosialistisk Venstreparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>47</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Djupedal</etternavn>
         <foedselsdato>1960-05-05T00:00:00</foedselsdato>
@@ -970,9 +856,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bjørnøy</etternavn>
         <foedselsdato>1954-02-18T00:00:00</foedselsdato>
@@ -987,43 +873,27 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-04-07T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>52</d4p1:int>
-        <d4p1:int>157</d4p1:int>
-        <d4p1:int>184</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>52</id>
           <navn>KOMMUNER</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>155</id>
-          <navn>STATSFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>155</hovedemne_id>
           <id>157</id>
           <navn>STATSEIENDOMMER</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>184</id>
           <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
@@ -1033,7 +903,7 @@
       <fremsatt_av_annen i:nil="true" />
       <id>34387</id>
       <rette_vedkommende>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bjørnøy</etternavn>
         <foedselsdato>1954-02-18T00:00:00</foedselsdato>
@@ -1046,7 +916,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Dørum</etternavn>
         <foedselsdato>1943-10-12T00:00:00</foedselsdato>
@@ -1054,19 +924,19 @@
         <id>ODDØ</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>V</id>
           <navn>Venstre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>46</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Navarsete</etternavn>
         <foedselsdato>1958-10-23T00:00:00</foedselsdato>
@@ -1081,9 +951,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Halvorsen</etternavn>
         <foedselsdato>1960-09-02T00:00:00</foedselsdato>
@@ -1098,43 +968,27 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-04-07T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>87</d4p1:int>
-        <d4p1:int>98</d4p1:int>
-        <d4p1:int>192</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
           <id>87</id>
           <navn>BANKER</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
           <id>98</id>
           <navn>FORBRUKERSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>113</id>
-          <navn>NÆRINGSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
           <id>192</id>
           <navn>AKSJER</navn>
           <underemne_liste />
@@ -1149,7 +1003,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aasen</etternavn>
         <foedselsdato>1967-02-21T00:00:00</foedselsdato>
@@ -1157,19 +1011,19 @@
         <id>MAAA</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ak</id>
           <navn>Akershus</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>45</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Halvorsen</etternavn>
         <foedselsdato>1960-09-02T00:00:00</foedselsdato>
@@ -1184,9 +1038,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bekkemellem</etternavn>
         <foedselsdato>1965-01-15T00:00:00</foedselsdato>
@@ -1201,20 +1055,11 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-04-07T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>43</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>40</id>
-          <navn>FAMILIE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
           <id>43</id>
           <navn>BARNEVERN</navn>
           <underemne_liste />
@@ -1229,7 +1074,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Grimstad</etternavn>
         <foedselsdato>1968-01-31T00:00:00</foedselsdato>
@@ -1237,19 +1082,19 @@
         <id>MHG</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>MR</id>
           <navn>Møre og Romsdal</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>KrF</id>
           <navn>Kristelig Folkeparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>44</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bekkemellem</etternavn>
         <foedselsdato>1965-01-15T00:00:00</foedselsdato>
@@ -1264,9 +1109,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Eriksen</etternavn>
         <foedselsdato>1955-03-11T00:00:00</foedselsdato>
@@ -1281,43 +1126,27 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-04-07T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>4</d4p1:int>
-        <d4p1:int>71</d4p1:int>
-        <d4p1:int>114</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>4</hovedemne_id>
           <id>4</id>
           <navn>ENERGI</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>4</id>
-          <navn>ENERGI</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>4</hovedemne_id>
           <id>71</id>
           <navn>ELEKTRISITET</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>113</id>
-          <navn>NÆRINGSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
           <id>114</id>
           <navn>NÆRINGSUTVIKLING</navn>
           <underemne_liste />
@@ -1332,7 +1161,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Malvik</etternavn>
         <foedselsdato>1971-04-03T00:00:00</foedselsdato>
@@ -1340,19 +1169,19 @@
         <id>INVM</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>ST</id>
           <navn>Sør-Trøndelag</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>SV</id>
           <navn>Sosialistisk Venstreparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>43</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Eriksen</etternavn>
         <foedselsdato>1955-03-11T00:00:00</foedselsdato>
@@ -1367,9 +1196,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bjørnøy</etternavn>
         <foedselsdato>1954-02-18T00:00:00</foedselsdato>
@@ -1384,30 +1213,21 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-04-07T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>4</d4p1:int>
-        <d4p1:int>21</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>4</hovedemne_id>
           <id>4</id>
           <navn>ENERGI</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
           <id>21</id>
           <navn>FORURENSNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>139</id>
-          <navn>MILJØVERN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -1420,7 +1240,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hjemdal</etternavn>
         <foedselsdato>1971-10-18T00:00:00</foedselsdato>
@@ -1428,19 +1248,19 @@
         <id>LHH</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Øs</id>
           <navn>Østfold</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>KrF</id>
           <navn>Kristelig Folkeparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>42</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bjørnøy</etternavn>
         <foedselsdato>1954-02-18T00:00:00</foedselsdato>
@@ -1455,9 +1275,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Djupedal</etternavn>
         <foedselsdato>1960-05-05T00:00:00</foedselsdato>
@@ -1472,36 +1292,27 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-04-06T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>33</d4p1:int>
-        <d4p1:int>45</d4p1:int>
-        <d4p1:int>160</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>32</id>
-          <navn>UTDANNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
           <id>33</id>
           <navn>PRIVATSKOLER</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>45</hovedemne_id>
           <id>45</id>
           <navn>FORSKNING</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
           <id>160</id>
           <navn>HØGSKOLER</navn>
           <underemne_liste />
@@ -1516,7 +1327,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Lånke</etternavn>
         <foedselsdato>1948-03-18T00:00:00</foedselsdato>
@@ -1524,19 +1335,19 @@
         <id>OTL</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>ST</id>
           <navn>Sør-Trøndelag</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>KrF</id>
           <navn>Kristelig Folkeparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>41</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Djupedal</etternavn>
         <foedselsdato>1960-05-05T00:00:00</foedselsdato>
@@ -1551,9 +1362,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Haga</etternavn>
         <foedselsdato>1959-10-21T00:00:00</foedselsdato>
@@ -1568,22 +1379,13 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-04-06T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>52</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>52</id>
           <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -1596,7 +1398,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
@@ -1604,19 +1406,19 @@
         <id>BENH</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ro</id>
           <navn>Rogaland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>40</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Haga</etternavn>
         <foedselsdato>1959-10-21T00:00:00</foedselsdato>
@@ -1631,9 +1433,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Djupedal</etternavn>
         <foedselsdato>1960-05-05T00:00:00</foedselsdato>
@@ -1648,37 +1450,21 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-04-06T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>34</d4p1:int>
-        <d4p1:int>49</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>32</id>
-          <navn>UTDANNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
           <id>34</id>
           <navn>SPESIALUNDERVISNING</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>49</id>
           <navn>FUNKSJONSHEMMEDE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -1691,7 +1477,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Søreide</etternavn>
         <foedselsdato>1976-05-02T00:00:00</foedselsdato>
@@ -1699,19 +1485,19 @@
         <id>IME</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>39</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Djupedal</etternavn>
         <foedselsdato>1960-05-05T00:00:00</foedselsdato>
@@ -1726,9 +1512,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Giske</etternavn>
         <foedselsdato>1966-11-07T00:00:00</foedselsdato>
@@ -1743,45 +1529,29 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-04-03T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>6</d4p1:int>
-        <d4p1:int>18</d4p1:int>
-        <d4p1:int>68</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
           <id>6</id>
           <navn>KULTUR</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>6</id>
-          <navn>KULTUR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>18</id>
           <navn>INNVANDRERE</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
           <id>68</id>
           <navn>KUNST</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -1794,7 +1564,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Knutsen</etternavn>
         <foedselsdato>1951-01-14T00:00:00</foedselsdato>
@@ -1802,19 +1572,19 @@
         <id>TKK</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Tr</id>
           <navn>Troms</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>38</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Giske</etternavn>
         <foedselsdato>1966-11-07T00:00:00</foedselsdato>
@@ -1829,9 +1599,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -1846,36 +1616,27 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-03-31T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>61</d4p1:int>
-        <d4p1:int>63</d4p1:int>
-        <d4p1:int>66</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>61</id>
           <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>63</id>
           <navn>SYKEHUS</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>66</id>
           <navn>SYKDOMMER</navn>
           <underemne_liste />
@@ -1890,7 +1651,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Dåvøy</etternavn>
         <foedselsdato>1948-08-11T00:00:00</foedselsdato>
@@ -1898,19 +1659,19 @@
         <id>LD</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>KrF</id>
           <navn>Kristelig Folkeparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>37</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -1925,9 +1686,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Navarsete</etternavn>
         <foedselsdato>1958-10-23T00:00:00</foedselsdato>
@@ -1942,45 +1703,29 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-03-30T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>21</d4p1:int>
-        <d4p1:int>47</d4p1:int>
-        <d4p1:int>106</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>2</id>
-          <navn>KOMMUNIKASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
           <id>21</id>
           <navn>FORURENSNING</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
           <id>47</id>
           <navn>VEGTRAFIKK</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
           <id>106</id>
           <navn>SAMFERDSEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>139</id>
-          <navn>MILJØVERN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -1993,7 +1738,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sahl</etternavn>
         <foedselsdato>1950-04-20T00:00:00</foedselsdato>
@@ -2001,19 +1746,19 @@
         <id>JSA</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>No</id>
           <navn>Nordland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>KrF</id>
           <navn>Kristelig Folkeparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>36</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Navarsete</etternavn>
         <foedselsdato>1958-10-23T00:00:00</foedselsdato>
@@ -2028,9 +1773,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Giske</etternavn>
         <foedselsdato>1966-11-07T00:00:00</foedselsdato>
@@ -2045,13 +1790,11 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-03-30T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>6</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
           <id>6</id>
           <navn>KULTUR</navn>
           <underemne_liste />
@@ -2066,7 +1809,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Thommessen</etternavn>
         <foedselsdato>1956-04-18T00:00:00</foedselsdato>
@@ -2074,19 +1817,19 @@
         <id>OLET</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Op</id>
           <navn>Oppland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>35</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Giske</etternavn>
         <foedselsdato>1966-11-07T00:00:00</foedselsdato>
@@ -2101,9 +1844,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
         <foedselsdato>1960-08-25T00:00:00</foedselsdato>
@@ -2118,28 +1861,19 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-03-28T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>22</d4p1:int>
-        <d4p1:int>167</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
           <id>22</id>
           <navn>INTERNASJONALT SAMARBEID</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
           <id>167</id>
           <navn>MENNESKERETTIGHETER</navn>
           <underemne_liste />
@@ -2154,7 +1888,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Nybakk</etternavn>
         <foedselsdato>1947-02-14T00:00:00</foedselsdato>
@@ -2162,19 +1896,19 @@
         <id>MN</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>34</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
         <foedselsdato>1960-08-25T00:00:00</foedselsdato>
@@ -2189,9 +1923,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Eriksen</etternavn>
         <foedselsdato>1955-03-11T00:00:00</foedselsdato>
@@ -2206,13 +1940,11 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-03-24T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>113</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
           <id>113</id>
           <navn>NÆRINGSLIV</navn>
           <underemne_liste />
@@ -2227,7 +1959,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Eldegard</etternavn>
         <foedselsdato>1963-04-14T00:00:00</foedselsdato>
@@ -2235,19 +1967,19 @@
         <id>GUE</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ak</id>
           <navn>Akershus</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>33</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Eriksen</etternavn>
         <foedselsdato>1955-03-11T00:00:00</foedselsdato>
@@ -2262,9 +1994,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Haga</etternavn>
         <foedselsdato>1959-10-21T00:00:00</foedselsdato>
@@ -2279,28 +2011,19 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-03-22T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>52</d4p1:int>
-        <d4p1:int>184</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>52</id>
           <navn>KOMMUNER</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>184</id>
           <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
@@ -2315,7 +2038,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Tørresdal</etternavn>
         <foedselsdato>1958-09-24T00:00:00</foedselsdato>
@@ -2323,19 +2046,19 @@
         <id>BJT</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ro</id>
           <navn>Rogaland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>KrF</id>
           <navn>Kristelig Folkeparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>32</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Haga</etternavn>
         <foedselsdato>1959-10-21T00:00:00</foedselsdato>
@@ -2350,9 +2073,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
         <foedselsdato>1964-10-06T00:00:00</foedselsdato>
@@ -2367,37 +2090,21 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-03-17T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>18</d4p1:int>
-        <d4p1:int>141</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>18</id>
           <navn>INNVANDRERE</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
           <id>141</id>
           <navn>POLITI OG PÅTALEMYNDIGHET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -2410,7 +2117,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bøhler</etternavn>
         <foedselsdato>1952-03-01T00:00:00</foedselsdato>
@@ -2418,19 +2125,19 @@
         <id>JBO</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>31</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
         <foedselsdato>1964-10-06T00:00:00</foedselsdato>
@@ -2445,9 +2152,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bekkemellem</etternavn>
         <foedselsdato>1965-01-15T00:00:00</foedselsdato>
@@ -2462,22 +2169,13 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-03-16T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>98</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
           <id>98</id>
           <navn>FORBRUKERSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>113</id>
-          <navn>NÆRINGSLIV</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -2485,7 +2183,7 @@
       <fremsatt_av_annen i:nil="true" />
       <id>34128</id>
       <rette_vedkommende>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bekkemellem</etternavn>
         <foedselsdato>1965-01-15T00:00:00</foedselsdato>
@@ -2498,7 +2196,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Duesund</etternavn>
         <foedselsdato>1944-04-18T00:00:00</foedselsdato>
@@ -2506,19 +2204,19 @@
         <id>ADV</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>AA</id>
           <navn>Aust-Agder</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>KrF</id>
           <navn>Kristelig Folkeparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>30</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
         <foedselsdato>1962-11-01T00:00:00</foedselsdato>
@@ -2533,9 +2231,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -2550,28 +2248,19 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-03-16T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>48</d4p1:int>
-        <d4p1:int>61</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
           <id>48</id>
           <navn>ELDREOMSORG</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>61</id>
           <navn>HELSEVESEN</navn>
           <underemne_liste />
@@ -2586,7 +2275,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Dåvøy</etternavn>
         <foedselsdato>1948-08-11T00:00:00</foedselsdato>
@@ -2594,19 +2283,19 @@
         <id>LD</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>KrF</id>
           <navn>Kristelig Folkeparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>29</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -2621,9 +2310,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -2638,20 +2327,11 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-03-09T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>48</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
           <id>48</id>
           <navn>ELDREOMSORG</navn>
           <underemne_liste />
@@ -2666,7 +2346,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sundsbø</etternavn>
         <foedselsdato>1946-12-11T00:00:00</foedselsdato>
@@ -2674,19 +2354,19 @@
         <id>DAGS</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ak</id>
           <navn>Akershus</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Sp</id>
           <navn>Senterpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>28</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -2701,9 +2381,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bjørnøy</etternavn>
         <foedselsdato>1954-02-18T00:00:00</foedselsdato>
@@ -2718,35 +2398,19 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-03-09T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>23</d4p1:int>
-        <d4p1:int>220</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
           <id>23</id>
           <navn>NATURVERN</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>139</id>
-          <navn>MILJØVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>220</id>
           <navn>DISTRIKTSPOLITIKK</navn>
           <underemne_liste />
@@ -2761,7 +2425,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Gundersen</etternavn>
         <foedselsdato>1956-05-21T00:00:00</foedselsdato>
@@ -2769,19 +2433,19 @@
         <id>GAG</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>He</id>
           <navn>Hedmark</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>27</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bjørnøy</etternavn>
         <foedselsdato>1954-02-18T00:00:00</foedselsdato>
@@ -2796,9 +2460,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solheim</etternavn>
         <foedselsdato>1955-01-18T00:00:00</foedselsdato>
@@ -2813,35 +2477,19 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-03-08T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>24</d4p1:int>
-        <d4p1:int>174</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
           <id>24</id>
           <navn>LIKESTILLING</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>40</id>
-          <navn>FAMILIE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
           <id>174</id>
           <navn>UTVIKLINGSHJELP</navn>
           <underemne_liste />
@@ -2856,7 +2504,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Valle</etternavn>
         <foedselsdato>1945-05-26T00:00:00</foedselsdato>
@@ -2864,19 +2512,19 @@
         <id>AGV</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>SV</id>
           <navn>Sosialistisk Venstreparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>26</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solheim</etternavn>
         <foedselsdato>1955-01-18T00:00:00</foedselsdato>
@@ -2891,9 +2539,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
         <foedselsdato>1960-08-25T00:00:00</foedselsdato>
@@ -2908,28 +2556,19 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-03-07T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>163</d4p1:int>
-        <d4p1:int>167</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
           <id>163</id>
           <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
           <id>167</id>
           <navn>MENNESKERETTIGHETER</navn>
           <underemne_liste />
@@ -2944,7 +2583,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Vallersnes</etternavn>
         <foedselsdato>1945-12-27T00:00:00</foedselsdato>
@@ -2952,19 +2591,19 @@
         <id>FMV</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ro</id>
           <navn>Rogaland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>25</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
         <foedselsdato>1960-08-25T00:00:00</foedselsdato>
@@ -2979,9 +2618,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -2996,13 +2635,11 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-03-06T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>61</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>61</id>
           <navn>HELSEVESEN</navn>
           <underemne_liste />
@@ -3017,7 +2654,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Ballo</etternavn>
         <foedselsdato>1956-10-22T00:00:00</foedselsdato>
@@ -3025,19 +2662,19 @@
         <id>OLGB</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Fi</id>
           <navn>Finnmark</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>SV</id>
           <navn>Sosialistisk Venstreparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>24</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -3052,9 +2689,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
         <foedselsdato>1962-11-01T00:00:00</foedselsdato>
@@ -3069,36 +2706,27 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-03-06T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>18</d4p1:int>
-        <d4p1:int>52</d4p1:int>
-        <d4p1:int>184</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>18</id>
           <navn>INNVANDRERE</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>52</id>
           <navn>KOMMUNER</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>184</id>
           <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
@@ -3113,7 +2741,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Dørum</etternavn>
         <foedselsdato>1943-10-12T00:00:00</foedselsdato>
@@ -3121,19 +2749,19 @@
         <id>ODDØ</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>V</id>
           <navn>Venstre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>23</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
         <foedselsdato>1962-11-01T00:00:00</foedselsdato>
@@ -3148,9 +2776,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Eriksen</etternavn>
         <foedselsdato>1955-03-11T00:00:00</foedselsdato>
@@ -3165,22 +2793,13 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-03-03T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>99</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
           <id>99</id>
           <navn>UTENRIKSHANDEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>113</id>
-          <navn>NÆRINGSLIV</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -3193,7 +2812,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
@@ -3201,19 +2820,19 @@
         <id>JTS</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ak</id>
           <navn>Akershus</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>22</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Eriksen</etternavn>
         <foedselsdato>1955-03-11T00:00:00</foedselsdato>
@@ -3228,9 +2847,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -3245,36 +2864,27 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-03-02T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>45</d4p1:int>
-        <d4p1:int>61</d4p1:int>
-        <d4p1:int>66</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>45</hovedemne_id>
           <id>45</id>
           <navn>FORSKNING</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>61</id>
           <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>66</id>
           <navn>SYKDOMMER</navn>
           <underemne_liste />
@@ -3289,7 +2899,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Skjælaaen</etternavn>
         <foedselsdato>1954-01-23T00:00:00</foedselsdato>
@@ -3297,19 +2907,19 @@
         <id>RSK</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Sp</id>
           <navn>Senterpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>21</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -3324,9 +2934,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Giske</etternavn>
         <foedselsdato>1966-11-07T00:00:00</foedselsdato>
@@ -3341,52 +2951,29 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-03-01T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>1</d4p1:int>
-        <d4p1:int>121</d4p1:int>
-        <d4p1:int>135</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>105</hovedemne_id>
           <id>1</id>
           <navn>DEN NORSKE KIRKE</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>6</id>
-          <navn>KULTUR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>105</id>
-          <navn>TROSSAMFUNN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
           <id>121</id>
           <navn>KULTURVERN</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>135</id>
           <navn>KOMMUNENES ØKONOMI</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -3394,7 +2981,7 @@
       <fremsatt_av_annen i:nil="true" />
       <id>33940</id>
       <rette_vedkommende>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Giske</etternavn>
         <foedselsdato>1966-11-07T00:00:00</foedselsdato>
@@ -3407,7 +2994,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hjemdal</etternavn>
         <foedselsdato>1971-10-18T00:00:00</foedselsdato>
@@ -3415,19 +3002,19 @@
         <id>LHH</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Øs</id>
           <navn>Østfold</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>KrF</id>
           <navn>Kristelig Folkeparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>20</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bjørnøy</etternavn>
         <foedselsdato>1954-02-18T00:00:00</foedselsdato>
@@ -3442,9 +3029,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Riis-Johansen</etternavn>
         <foedselsdato>1968-03-15T00:00:00</foedselsdato>
@@ -3459,13 +3046,11 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-02-28T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>46</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
           <id>46</id>
           <navn>LANDBRUK</navn>
           <underemne_liste />
@@ -3480,7 +3065,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Asmyhr</etternavn>
         <foedselsdato>1970-02-26T00:00:00</foedselsdato>
@@ -3488,19 +3073,19 @@
         <id>HAFA</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ak</id>
           <navn>Akershus</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>FrP</id>
           <navn>Fremskrittspartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>19</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Riis-Johansen</etternavn>
         <foedselsdato>1968-03-15T00:00:00</foedselsdato>
@@ -3515,9 +3100,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Eriksen</etternavn>
         <foedselsdato>1955-03-11T00:00:00</foedselsdato>
@@ -3532,28 +3117,19 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-02-17T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>113</d4p1:int>
-        <d4p1:int>114</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
           <id>113</id>
           <navn>NÆRINGSLIV</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>113</id>
-          <navn>NÆRINGSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
           <id>114</id>
           <navn>NÆRINGSUTVIKLING</navn>
           <underemne_liste />
@@ -3568,7 +3144,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>2007-12-03T00:00:00</doedsdato>
         <etternavn>Løvik</etternavn>
         <foedselsdato>1949-07-11T00:00:00</foedselsdato>
@@ -3576,19 +3152,19 @@
         <id>PETL</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>MR</id>
           <navn>Møre og Romsdal</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>18</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Eriksen</etternavn>
         <foedselsdato>1955-03-11T00:00:00</foedselsdato>
@@ -3603,9 +3179,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Haga</etternavn>
         <foedselsdato>1959-10-21T00:00:00</foedselsdato>
@@ -3620,28 +3196,19 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-02-17T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>30</d4p1:int>
-        <d4p1:int>154</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
           <id>30</id>
           <navn>VALG</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>151</id>
-          <navn>STATSFORFATNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
           <id>154</id>
           <navn>POLITISKE PARTIER</navn>
           <underemne_liste />
@@ -3656,7 +3223,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solholm</etternavn>
         <foedselsdato>1949-03-14T00:00:00</foedselsdato>
@@ -3664,19 +3231,19 @@
         <id>LOSO</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>MR</id>
           <navn>Møre og Romsdal</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>FrP</id>
           <navn>Fremskrittspartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>17</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Haga</etternavn>
         <foedselsdato>1959-10-21T00:00:00</foedselsdato>
@@ -3691,9 +3258,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
         <foedselsdato>1964-10-06T00:00:00</foedselsdato>
@@ -3708,20 +3275,11 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-01-26T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>141</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
           <id>141</id>
           <navn>POLITI OG PÅTALEMYNDIGHET</navn>
           <underemne_liste />
@@ -3736,7 +3294,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Heggø</etternavn>
         <foedselsdato>1961-08-12T00:00:00</foedselsdato>
@@ -3744,19 +3302,19 @@
         <id>IHE</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>SF</id>
           <navn>Sogn og Fjordane</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>16</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
         <foedselsdato>1964-10-06T00:00:00</foedselsdato>
@@ -3771,9 +3329,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -3788,43 +3346,27 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-01-24T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>48</d4p1:int>
-        <d4p1:int>61</d4p1:int>
-        <d4p1:int>64</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
           <id>48</id>
           <navn>ELDREOMSORG</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>61</id>
           <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>64</id>
           <navn>HELSEPERSONELL</navn>
           <underemne_liste />
@@ -3839,7 +3381,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>2013-03-24T00:00:00</doedsdato>
         <etternavn>Lønning</etternavn>
         <foedselsdato>1938-02-20T00:00:00</foedselsdato>
@@ -3847,19 +3389,19 @@
         <id>INL</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>15</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -3874,9 +3416,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Enoksen</etternavn>
         <foedselsdato>1954-09-25T00:00:00</foedselsdato>
@@ -3891,20 +3433,11 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-01-24T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>71</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>4</id>
-          <navn>ENERGI</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>4</hovedemne_id>
           <id>71</id>
           <navn>ELEKTRISITET</navn>
           <underemne_liste />
@@ -3919,7 +3452,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>2007-12-03T00:00:00</doedsdato>
         <etternavn>Løvik</etternavn>
         <foedselsdato>1949-07-11T00:00:00</foedselsdato>
@@ -3927,19 +3460,19 @@
         <id>PETL</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>MR</id>
           <navn>Møre og Romsdal</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>14</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Enoksen</etternavn>
         <foedselsdato>1954-09-25T00:00:00</foedselsdato>
@@ -3954,9 +3487,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Djupedal</etternavn>
         <foedselsdato>1960-05-05T00:00:00</foedselsdato>
@@ -3971,36 +3504,27 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-01-20T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>45</d4p1:int>
-        <d4p1:int>159</d4p1:int>
-        <d4p1:int>160</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>32</id>
-          <navn>UTDANNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>45</hovedemne_id>
           <id>45</id>
           <navn>FORSKNING</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
           <id>159</id>
           <navn>HØYERE UTDANNING</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
           <id>160</id>
           <navn>HØGSKOLER</navn>
           <underemne_liste />
@@ -4015,7 +3539,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Søreide</etternavn>
         <foedselsdato>1976-05-02T00:00:00</foedselsdato>
@@ -4023,19 +3547,19 @@
         <id>IME</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>13</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Djupedal</etternavn>
         <foedselsdato>1960-05-05T00:00:00</foedselsdato>
@@ -4050,9 +3574,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Røys</etternavn>
         <foedselsdato>1967-05-06T00:00:00</foedselsdato>
@@ -4067,36 +3591,27 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-01-18T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>52</d4p1:int>
-        <d4p1:int>155</d4p1:int>
-        <d4p1:int>184</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>52</id>
           <navn>KOMMUNER</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>155</hovedemne_id>
           <id>155</id>
           <navn>STATSFORVALTNING</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>184</id>
           <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
@@ -4111,7 +3626,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
@@ -4119,19 +3634,19 @@
         <id>BENH</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ro</id>
           <navn>Rogaland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>12</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Røys</etternavn>
         <foedselsdato>1967-05-06T00:00:00</foedselsdato>
@@ -4146,9 +3661,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -4163,45 +3678,29 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-01-18T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>10</d4p1:int>
-        <d4p1:int>48</d4p1:int>
-        <d4p1:int>49</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
           <id>10</id>
           <navn>SOSIALVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
           <id>48</id>
           <navn>ELDREOMSORG</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>49</id>
           <navn>FUNKSJONSHEMMEDE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -4209,7 +3708,7 @@
       <fremsatt_av_annen i:nil="true" />
       <id>33493</id>
       <rette_vedkommende>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -4222,7 +3721,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
@@ -4230,19 +3729,19 @@
         <id>ES</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>11</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Stoltenberg</etternavn>
         <foedselsdato>1959-03-16T00:00:00</foedselsdato>
@@ -4257,9 +3756,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Røys</etternavn>
         <foedselsdato>1967-05-06T00:00:00</foedselsdato>
@@ -4274,37 +3773,21 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-01-13T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>83</d4p1:int>
-        <d4p1:int>98</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
           <id>83</id>
           <navn>PRISER OG KONKURRANSEFORHOLD</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
           <id>98</id>
           <navn>FORBRUKERSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>113</id>
-          <navn>NÆRINGSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -4317,7 +3800,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hansen</etternavn>
         <foedselsdato>1972-08-13T00:00:00</foedselsdato>
@@ -4325,19 +3808,19 @@
         <id>THA</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>10</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Røys</etternavn>
         <foedselsdato>1967-05-06T00:00:00</foedselsdato>
@@ -4352,9 +3835,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bekkemellem</etternavn>
         <foedselsdato>1965-01-15T00:00:00</foedselsdato>
@@ -4369,13 +3852,11 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2006-01-02T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>40</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
           <id>40</id>
           <navn>FAMILIE</navn>
           <underemne_liste />
@@ -4390,7 +3871,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Grimstad</etternavn>
         <foedselsdato>1968-01-31T00:00:00</foedselsdato>
@@ -4398,19 +3879,19 @@
         <id>MHG</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>MR</id>
           <navn>Møre og Romsdal</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>KrF</id>
           <navn>Kristelig Folkeparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>8</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bekkemellem</etternavn>
         <foedselsdato>1965-01-15T00:00:00</foedselsdato>
@@ -4425,9 +3906,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Halvorsen</etternavn>
         <foedselsdato>1960-09-02T00:00:00</foedselsdato>
@@ -4442,21 +3923,19 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2005-12-20T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>113</d4p1:int>
-        <d4p1:int>187</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
           <id>113</id>
           <navn>NÆRINGSLIV</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
           <id>187</id>
           <navn>FINANSER</navn>
           <underemne_liste />
@@ -4471,7 +3950,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Flåtten</etternavn>
         <foedselsdato>1944-10-14T00:00:00</foedselsdato>
@@ -4479,19 +3958,19 @@
         <id>SAF</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ve</id>
           <navn>Vestfold</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>9</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Halvorsen</etternavn>
         <foedselsdato>1960-09-02T00:00:00</foedselsdato>
@@ -4506,9 +3985,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -4523,43 +4002,27 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2005-12-07T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>24</d4p1:int>
-        <d4p1:int>61</d4p1:int>
-        <d4p1:int>66</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
           <id>24</id>
           <navn>LIKESTILLING</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>40</id>
-          <navn>FAMILIE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>61</id>
           <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>66</id>
           <navn>SYKDOMMER</navn>
           <underemne_liste />
@@ -4574,7 +4037,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Olsen</etternavn>
         <foedselsdato>1952-09-18T00:00:00</foedselsdato>
@@ -4582,19 +4045,19 @@
         <id>GUO</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Te</id>
           <navn>Telemark</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>7</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
         <foedselsdato>1966-12-19T00:00:00</foedselsdato>
@@ -4609,9 +4072,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Haga</etternavn>
         <foedselsdato>1959-10-21T00:00:00</foedselsdato>
@@ -4626,22 +4089,13 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2005-11-29T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>52</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>52</id>
           <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -4654,7 +4108,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Tørresdal</etternavn>
         <foedselsdato>1958-09-24T00:00:00</foedselsdato>
@@ -4662,19 +4116,19 @@
         <id>BJT</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ro</id>
           <navn>Rogaland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>KrF</id>
           <navn>Kristelig Folkeparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Haga</etternavn>
         <foedselsdato>1959-10-21T00:00:00</foedselsdato>
@@ -4689,9 +4143,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
         <foedselsdato>1960-08-25T00:00:00</foedselsdato>
@@ -4706,36 +4160,27 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2005-11-17T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>105</d4p1:int>
-        <d4p1:int>163</d4p1:int>
-        <d4p1:int>167</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>105</hovedemne_id>
           <id>105</id>
           <navn>TROSSAMFUNN</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
           <id>163</id>
           <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
           <id>167</id>
           <navn>MENNESKERETTIGHETER</navn>
           <underemne_liste />
@@ -4750,7 +4195,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>2006-08-21T00:00:00</doedsdato>
         <etternavn>Lilletun</etternavn>
         <foedselsdato>1945-10-23T00:00:00</foedselsdato>
@@ -4758,19 +4203,19 @@
         <id>JL</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>VA</id>
           <navn>Vest-Agder</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>KrF</id>
           <navn>Kristelig Folkeparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
         <foedselsdato>1960-08-25T00:00:00</foedselsdato>
@@ -4785,9 +4230,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
         <foedselsdato>1962-11-01T00:00:00</foedselsdato>
@@ -4802,35 +4247,19 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2005-11-14T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>7</d4p1:int>
-        <d4p1:int>64</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>5</id>
-          <navn>ARBEIDSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
           <id>7</id>
           <navn>SYSSELSETTING</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>64</id>
           <navn>HELSEPERSONELL</navn>
           <underemne_liste />
@@ -4845,7 +4274,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Engeset</etternavn>
         <foedselsdato>1964-07-20T00:00:00</foedselsdato>
@@ -4853,19 +4282,19 @@
         <id>MARE</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Øs</id>
           <navn>Østfold</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
         <foedselsdato>1962-11-01T00:00:00</foedselsdato>
@@ -4880,9 +4309,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Enoksen</etternavn>
         <foedselsdato>1954-09-25T00:00:00</foedselsdato>
@@ -4897,20 +4326,11 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2005-11-08T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>71</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>4</id>
-          <navn>ENERGI</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>4</hovedemne_id>
           <id>71</id>
           <navn>ELEKTRISITET</navn>
           <underemne_liste />
@@ -4925,7 +4345,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brende</etternavn>
         <foedselsdato>1965-09-25T00:00:00</foedselsdato>
@@ -4933,19 +4353,19 @@
         <id>BJØB</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>ST</id>
           <navn>Sør-Trøndelag</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Enoksen</etternavn>
         <foedselsdato>1954-09-25T00:00:00</foedselsdato>
@@ -4960,9 +4380,9 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
         <foedselsdato>1960-08-25T00:00:00</foedselsdato>
@@ -4977,28 +4397,19 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2005-11-01T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>163</d4p1:int>
-        <d4p1:int>167</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
           <id>163</id>
           <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
           <id>167</id>
           <navn>MENNESKERETTIGHETER</navn>
           <underemne_liste />
@@ -5013,7 +4424,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2005-2006</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høglund</etternavn>
         <foedselsdato>1965-07-16T00:00:00</foedselsdato>
@@ -5021,19 +4432,19 @@
         <id>MORH</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ak</id>
           <navn>Akershus</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>FrP</id>
           <navn>Fremskrittspartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
         <foedselsdato>1960-08-25T00:00:00</foedselsdato>

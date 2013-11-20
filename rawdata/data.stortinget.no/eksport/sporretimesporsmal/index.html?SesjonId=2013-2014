@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sporsmal_oversikt xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://data.stortinget.no">
-  <versjon>1.0</versjon>
+  <versjon>1.1</versjon>
   <sesjon_id>2013-2014</sesjon_id>
   <sporsmal_liste>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
@@ -21,20 +21,11 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-13T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>186</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
           <id>186</id>
           <navn>TRYGDER</navn>
           <underemne_liste />
@@ -49,7 +40,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Pedersen</etternavn>
         <foedselsdato>1973-01-13T00:00:00</foedselsdato>
@@ -57,19 +48,19 @@
         <id>HPED</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Fi</id>
           <navn>Finnmark</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
@@ -86,9 +77,9 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Eriksson</etternavn>
         <foedselsdato>1974-04-23T00:00:00</foedselsdato>
@@ -103,20 +94,11 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-13T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>186</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
           <id>186</id>
           <navn>TRYGDER</navn>
           <underemne_liste />
@@ -131,7 +113,7 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Andersen</etternavn>
         <foedselsdato>1952-12-16T00:00:00</foedselsdato>
@@ -139,19 +121,19 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
         <id>KAAN</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>He</id>
           <navn>Hedmark</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>SV</id>
           <navn>Sosialistisk Venstreparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Eriksson</etternavn>
         <foedselsdato>1974-04-23T00:00:00</foedselsdato>
@@ -168,9 +150,9 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Eriksson</etternavn>
         <foedselsdato>1974-04-23T00:00:00</foedselsdato>
@@ -185,13 +167,11 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-13T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>5</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
           <id>5</id>
           <navn>ARBEIDSLIV</navn>
           <underemne_liste />
@@ -206,7 +186,7 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Rotevatn</etternavn>
         <foedselsdato>1987-05-15T00:00:00</foedselsdato>
@@ -214,19 +194,19 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
         <id>SVR</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>SF</id>
           <navn>Sogn og Fjordane</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>V</id>
           <navn>Venstre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Eriksson</etternavn>
         <foedselsdato>1974-04-23T00:00:00</foedselsdato>
@@ -241,9 +221,9 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
@@ -258,28 +238,19 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-13T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>184</d4p1:int>
-        <d4p1:int>220</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>184</id>
           <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>220</id>
           <navn>DISTRIKTSPOLITIKK</navn>
           <underemne_liste />
@@ -294,7 +265,7 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Greni</etternavn>
         <foedselsdato>1962-07-03T00:00:00</foedselsdato>
@@ -302,19 +273,19 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
         <id>HEIG</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>ST</id>
           <navn>Sør-Trøndelag</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Sp</id>
           <navn>Senterpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
@@ -329,9 +300,9 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Eriksson</etternavn>
         <foedselsdato>1974-04-23T00:00:00</foedselsdato>
@@ -346,20 +317,11 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-13T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>7</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>5</id>
-          <navn>ARBEIDSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
           <id>7</id>
           <navn>SYSSELSETTING</navn>
           <underemne_liste />
@@ -374,7 +336,7 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Ropstad</etternavn>
         <foedselsdato>1985-06-01T00:00:00</foedselsdato>
@@ -382,19 +344,19 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
         <id>KJR</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>AA</id>
           <navn>Aust-Agder</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>KrF</id>
           <navn>Kristelig Folkeparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Eriksson</etternavn>
         <foedselsdato>1974-04-23T00:00:00</foedselsdato>
@@ -409,9 +371,9 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Eriksson</etternavn>
         <foedselsdato>1974-04-23T00:00:00</foedselsdato>
@@ -426,20 +388,11 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-13T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>186</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
           <id>186</id>
           <navn>TRYGDER</navn>
           <underemne_liste />
@@ -454,7 +407,7 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Andersen</etternavn>
         <foedselsdato>1957-05-27T00:00:00</foedselsdato>
@@ -462,19 +415,19 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
         <id>DTA</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ve</id>
           <navn>Vestfold</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Eriksson</etternavn>
         <foedselsdato>1974-04-23T00:00:00</foedselsdato>
@@ -489,9 +442,9 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
@@ -506,13 +459,11 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-07T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>61</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>61</id>
           <navn>HELSEVESEN</navn>
           <underemne_liste />
@@ -527,7 +478,7 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bøhler</etternavn>
         <foedselsdato>1952-03-01T00:00:00</foedselsdato>
@@ -535,19 +486,19 @@ Da er mitt spørsmål til Fremskrittspartiet følgende: Hvorfor mener Fremskritt
         <id>JBO</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
@@ -563,9 +514,9 @@ Hvordan vil statsråden følge opp planene om å bygge sentre for partikkelterap
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Jensen</etternavn>
         <foedselsdato>1969-06-01T00:00:00</foedselsdato>
@@ -580,37 +531,21 @@ Hvordan vil statsråden følge opp planene om å bygge sentre for partikkelterap
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-07T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>87</d4p1:int>
-        <d4p1:int>173</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
           <id>87</id>
           <navn>BANKER</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
           <id>173</id>
           <navn>EFTA/EU</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -623,7 +558,7 @@ Hvordan vil statsråden følge opp planene om å bygge sentre for partikkelterap
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Valen</etternavn>
         <foedselsdato>1984-09-16T00:00:00</foedselsdato>
@@ -631,19 +566,19 @@ Hvordan vil statsråden følge opp planene om å bygge sentre for partikkelterap
         <id>SNV</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>ST</id>
           <navn>Sør-Trøndelag</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>SV</id>
           <navn>Sosialistisk Venstreparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Jensen</etternavn>
         <foedselsdato>1969-06-01T00:00:00</foedselsdato>
@@ -659,9 +594,9 @@ Hva vil statsråden gjøre for å sikre at norske interesser blir ivaretatt i de
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Listhaug</etternavn>
         <foedselsdato>1977-12-25T00:00:00</foedselsdato>
@@ -676,37 +611,21 @@ Hva vil statsråden gjøre for å sikre at norske interesser blir ivaretatt i de
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-07T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>69</d4p1:int>
-        <d4p1:int>82</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>46</id>
-          <navn>LANDBRUK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
           <id>69</id>
           <navn>LANDBRUKSPRODUKTER</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
           <id>82</id>
           <navn>TOLL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>187</id>
-          <navn>FINANSER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -719,7 +638,7 @@ Hva vil statsråden gjøre for å sikre at norske interesser blir ivaretatt i de
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Juvik</etternavn>
         <foedselsdato>1966-05-21T00:00:00</foedselsdato>
@@ -727,19 +646,19 @@ Hva vil statsråden gjøre for å sikre at norske interesser blir ivaretatt i de
         <id>KJU</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>No</id>
           <navn>Nordland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>8</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Listhaug</etternavn>
         <foedselsdato>1977-12-25T00:00:00</foedselsdato>
@@ -755,9 +674,9 @@ Hva er regjeringens politikk vedrørende ostetollen videre fremover?</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Listhaug</etternavn>
         <foedselsdato>1977-12-25T00:00:00</foedselsdato>
@@ -772,20 +691,11 @@ Hva er regjeringens politikk vedrørende ostetollen videre fremover?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-07T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>128</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>46</id>
-          <navn>LANDBRUK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
           <id>128</id>
           <navn>JORDBRUK</navn>
           <underemne_liste />
@@ -800,7 +710,7 @@ Hva er regjeringens politikk vedrørende ostetollen videre fremover?</tittel>
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Lundteigen</etternavn>
         <foedselsdato>1953-04-18T00:00:00</foedselsdato>
@@ -808,19 +718,19 @@ Hva er regjeringens politikk vedrørende ostetollen videre fremover?</tittel>
         <id>POL</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Bu</id>
           <navn>Buskerud</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Sp</id>
           <navn>Senterpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>7</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Listhaug</etternavn>
         <foedselsdato>1977-12-25T00:00:00</foedselsdato>
@@ -836,9 +746,9 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
@@ -853,28 +763,19 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-06T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>7</d4p1:int>
-        <d4p1:int>94</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>5</id>
-          <navn>ARBEIDSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
           <id>7</id>
           <navn>SYSSELSETTING</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
           <id>94</id>
           <navn>ARBEIDSVILKÅR</navn>
           <underemne_liste />
@@ -889,7 +790,7 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Andersen</etternavn>
         <foedselsdato>1957-05-27T00:00:00</foedselsdato>
@@ -897,19 +798,19 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
         <id>DTA</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ve</id>
           <navn>Vestfold</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
@@ -924,9 +825,9 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
@@ -941,20 +842,11 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-06T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>42</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>40</id>
-          <navn>FAMILIE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
           <id>42</id>
           <navn>BARNEHAGER</navn>
           <underemne_liste />
@@ -969,7 +861,7 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Lysbakken</etternavn>
         <foedselsdato>1977-09-30T00:00:00</foedselsdato>
@@ -977,19 +869,19 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
         <id>ALYS</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>SV</id>
           <navn>Sosialistisk Venstreparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
@@ -1004,9 +896,9 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
@@ -1021,28 +913,19 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-06T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>17</d4p1:int>
-        <d4p1:int>163</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
           <id>17</id>
           <navn>PERSONVERN</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
           <id>163</id>
           <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
@@ -1057,7 +940,7 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Grande</etternavn>
         <foedselsdato>1969-10-02T00:00:00</foedselsdato>
@@ -1065,19 +948,19 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
         <id>TSG</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>V</id>
           <navn>Venstre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
@@ -1092,9 +975,9 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
@@ -1109,35 +992,19 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-06T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>141</d4p1:int>
-        <d4p1:int>220</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
           <id>141</id>
           <navn>POLITI OG PÅTALEMYNDIGHET</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>220</id>
           <navn>DISTRIKTSPOLITIKK</navn>
           <underemne_liste />
@@ -1152,7 +1019,7 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Navarsete</etternavn>
         <foedselsdato>1958-10-23T00:00:00</foedselsdato>
@@ -1160,19 +1027,19 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
         <id>LSN</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>SF</id>
           <navn>Sogn og Fjordane</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Sp</id>
           <navn>Senterpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
@@ -1187,9 +1054,9 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
@@ -1204,20 +1071,11 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-06T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>141</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
           <id>141</id>
           <navn>POLITI OG PÅTALEMYNDIGHET</navn>
           <underemne_liste />
@@ -1232,7 +1090,7 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hareide</etternavn>
         <foedselsdato>1972-11-23T00:00:00</foedselsdato>
@@ -1240,19 +1098,19 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
         <id>KNAH</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>KrF</id>
           <navn>Kristelig Folkeparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
@@ -1267,9 +1125,9 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
@@ -1284,13 +1142,11 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-06T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>187</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
           <id>187</id>
           <navn>FINANSER</navn>
           <underemne_liste />
@@ -1305,7 +1161,7 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Pedersen</etternavn>
         <foedselsdato>1973-01-13T00:00:00</foedselsdato>
@@ -1313,19 +1169,19 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
         <id>HPED</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Fi</id>
           <navn>Finnmark</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
@@ -1340,9 +1196,9 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Listhaug</etternavn>
         <foedselsdato>1977-12-25T00:00:00</foedselsdato>
@@ -1357,13 +1213,11 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-04T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>46</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
           <id>46</id>
           <navn>LANDBRUK</navn>
           <underemne_liste />
@@ -1378,7 +1232,7 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
         <foedselsdato>1964-10-06T00:00:00</foedselsdato>
@@ -1386,19 +1240,19 @@ Mener statsråden at jordbrukets gjeldsnivå og -utvikling er økonomisk forsvar
         <id>KNUS</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>He</id>
           <navn>Hedmark</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Listhaug</etternavn>
         <foedselsdato>1977-12-25T00:00:00</foedselsdato>
@@ -1414,9 +1268,9 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
@@ -1431,28 +1285,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-10-31T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>64</d4p1:int>
-        <d4p1:int>65</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>64</id>
           <navn>HELSEPERSONELL</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>65</id>
           <navn>SVANGERSKAP</navn>
           <underemne_liste />
@@ -1467,7 +1312,7 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Kjerkol</etternavn>
         <foedselsdato>1975-05-18T00:00:00</foedselsdato>
@@ -1475,19 +1320,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
         <id>INK</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>NT</id>
           <navn>Nord-Trøndelag</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>10</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
@@ -1502,9 +1347,9 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
@@ -1519,28 +1364,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-10-31T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>64</d4p1:int>
-        <d4p1:int>65</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>64</id>
           <navn>HELSEPERSONELL</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>65</id>
           <navn>SVANGERSKAP</navn>
           <underemne_liste />
@@ -1555,7 +1391,7 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Micaelsen</etternavn>
         <foedselsdato>1979-05-20T00:00:00</foedselsdato>
@@ -1563,19 +1399,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
         <id>TMI</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Bu</id>
           <navn>Buskerud</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>7</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
@@ -1590,9 +1426,9 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
@@ -1607,43 +1443,27 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-10-31T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>64</d4p1:int>
-        <d4p1:int>65</d4p1:int>
-        <d4p1:int>220</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>64</id>
           <navn>HELSEPERSONELL</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>65</id>
           <navn>SVANGERSKAP</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>220</id>
           <navn>DISTRIKTSPOLITIKK</navn>
           <underemne_liste />
@@ -1658,7 +1478,7 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Tung</etternavn>
         <foedselsdato>1984-01-21T00:00:00</foedselsdato>
@@ -1666,19 +1486,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
         <id>KAT</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>ST</id>
           <navn>Sør-Trøndelag</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>12</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
@@ -1694,9 +1514,9 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
@@ -1711,28 +1531,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-10-31T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>64</d4p1:int>
-        <d4p1:int>65</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>64</id>
           <navn>HELSEPERSONELL</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>65</id>
           <navn>SVANGERSKAP</navn>
           <underemne_liste />
@@ -1747,7 +1558,7 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Vågslid</etternavn>
         <foedselsdato>1986-03-17T00:00:00</foedselsdato>
@@ -1755,19 +1566,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
         <id>LVA</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Te</id>
           <navn>Telemark</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>8</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
@@ -1782,9 +1593,9 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
@@ -1799,43 +1610,27 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-10-31T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>64</d4p1:int>
-        <d4p1:int>65</d4p1:int>
-        <d4p1:int>220</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>64</id>
           <navn>HELSEPERSONELL</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>65</id>
           <navn>SVANGERSKAP</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>220</id>
           <navn>DISTRIKTSPOLITIKK</navn>
           <underemne_liste />
@@ -1850,7 +1645,7 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Ljunggren</etternavn>
         <foedselsdato>1984-06-13T00:00:00</foedselsdato>
@@ -1858,19 +1653,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
         <id>ALJ</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>No</id>
           <navn>Nordland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>11</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
@@ -1885,9 +1680,9 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
@@ -1902,36 +1697,27 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-10-31T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>35</d4p1:int>
-        <d4p1:int>159</d4p1:int>
-        <d4p1:int>160</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>32</id>
-          <navn>UTDANNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
           <id>35</id>
           <navn>UNIVERSITETER</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
           <id>159</id>
           <navn>HØYERE UTDANNING</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
           <id>160</id>
           <navn>HØGSKOLER</navn>
           <underemne_liste />
@@ -1946,7 +1732,7 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Vinje</etternavn>
         <foedselsdato>1963-06-10T00:00:00</foedselsdato>
@@ -1954,19 +1740,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
         <id>KRV</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>H</id>
           <navn>Høyre</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>15</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
@@ -1981,9 +1767,9 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
@@ -1995,7 +1781,7 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <besvart_av_minister_tittel>justis- og beredskapsministeren</besvart_av_minister_tittel>
       <besvart_dato>2013-11-06T00:00:00</besvart_dato>
       <besvart_pa_vegne_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Mæland</etternavn>
         <foedselsdato>1968-02-06T00:00:00</foedselsdato>
@@ -2006,35 +1792,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <besvart_pa_vegne_av_minister_id>NH</besvart_pa_vegne_av_minister_id>
       <besvart_pa_vegne_av_minister_tittel>næringsministeren</besvart_pa_vegne_av_minister_tittel>
       <datert_dato>2013-10-31T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>94</d4p1:int>
-        <d4p1:int>109</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>2</id>
-          <navn>KOMMUNIKASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>5</id>
-          <navn>ARBEIDSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
           <id>94</id>
           <navn>ARBEIDSVILKÅR</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
           <id>109</id>
           <navn>LUFTFART</navn>
           <underemne_liste />
@@ -2049,7 +1819,7 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Grøvan</etternavn>
         <foedselsdato>1953-11-01T00:00:00</foedselsdato>
@@ -2057,19 +1827,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
         <id>HFG</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>VA</id>
           <navn>Vest-Agder</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>KrF</id>
           <navn>Kristelig Folkeparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Mæland</etternavn>
         <foedselsdato>1968-02-06T00:00:00</foedselsdato>
@@ -2084,9 +1854,9 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
@@ -2101,28 +1871,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-10-31T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>64</d4p1:int>
-        <d4p1:int>65</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>64</id>
           <navn>HELSEPERSONELL</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>65</id>
           <navn>SVANGERSKAP</navn>
           <underemne_liste />
@@ -2137,7 +1898,7 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Christensen</etternavn>
         <foedselsdato>1983-06-01T00:00:00</foedselsdato>
@@ -2145,19 +1906,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
         <id>JFC</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>9</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
@@ -2172,9 +1933,9 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Widvey</etternavn>
         <foedselsdato>1956-01-09T00:00:00</foedselsdato>
@@ -2189,20 +1950,11 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-10-31T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>122</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>6</id>
-          <navn>KULTUR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
           <id>122</id>
           <navn>MASSEMEDIER</navn>
           <underemne_liste />
@@ -2217,7 +1969,7 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Liadal</etternavn>
         <foedselsdato>1972-11-29T00:00:00</foedselsdato>
@@ -2225,19 +1977,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
         <id>HHLI</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ro</id>
           <navn>Rogaland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Widvey</etternavn>
         <foedselsdato>1956-01-09T00:00:00</foedselsdato>
@@ -2252,9 +2004,9 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
@@ -2269,60 +2021,37 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-10-31T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>18</d4p1:int>
-        <d4p1:int>41</d4p1:int>
-        <d4p1:int>42</d4p1:int>
-        <d4p1:int>124</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>6</id>
-          <navn>KULTUR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>18</id>
           <navn>INNVANDRERE</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>40</id>
-          <navn>FAMILIE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
           <id>41</id>
           <navn>BARN</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
           <id>42</id>
           <navn>BARNEHAGER</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
           <id>124</id>
           <navn>SPRÅK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -2335,7 +2064,7 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Mandt</etternavn>
         <foedselsdato>1960-03-29T00:00:00</foedselsdato>
@@ -2343,19 +2072,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
         <id>SOM</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ve</id>
           <navn>Vestfold</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>14</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
@@ -2370,9 +2099,9 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
@@ -2387,36 +2116,27 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-10-31T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>14</d4p1:int>
-        <d4p1:int>141</d4p1:int>
-        <d4p1:int>181</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
           <id>14</id>
           <navn>STRAFFERETT</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
           <id>141</id>
           <navn>POLITI OG PÅTALEMYNDIGHET</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
           <id>181</id>
           <navn>SIVIL BEREDSKAP</navn>
           <underemne_liste />
@@ -2431,7 +2151,7 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bøhler</etternavn>
         <foedselsdato>1952-03-01T00:00:00</foedselsdato>
@@ -2439,19 +2159,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
         <id>JBO</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>A</id>
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>13</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
@@ -2466,9 +2186,9 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sundtoft</etternavn>
         <foedselsdato>1967-04-19T00:00:00</foedselsdato>
@@ -2483,22 +2203,13 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-10-31T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>23</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
           <id>23</id>
           <navn>NATURVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>139</id>
-          <navn>MILJØVERN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -2511,7 +2222,7 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Ropstad</etternavn>
         <foedselsdato>1985-06-01T00:00:00</foedselsdato>
@@ -2519,19 +2230,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
         <id>KJR</id>
         <kjoenn>mann</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>AA</id>
           <navn>Aust-Agder</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>KrF</id>
           <navn>Kristelig Folkeparti</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sundtoft</etternavn>
         <foedselsdato>1967-04-19T00:00:00</foedselsdato>
@@ -2546,9 +2257,9 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
@@ -2563,28 +2274,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-10-31T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>61</d4p1:int>
-        <d4p1:int>63</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>61</id>
           <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
           <id>63</id>
           <navn>SYKEHUS</navn>
           <underemne_liste />
@@ -2599,7 +2301,7 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Toppe</etternavn>
         <foedselsdato>1967-10-20T00:00:00</foedselsdato>
@@ -2607,19 +2309,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
         <id>KJT</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Sp</id>
           <navn>Senterpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
@@ -2634,9 +2336,9 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
@@ -2651,28 +2353,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-10-30T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>52</d4p1:int>
-        <d4p1:int>184</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>52</id>
           <navn>KOMMUNER</navn>
           <underemne_liste />
         </emne>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
           <id>184</id>
           <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
@@ -2687,7 +2380,7 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Greni</etternavn>
         <foedselsdato>1962-07-03T00:00:00</foedselsdato>
@@ -2695,19 +2388,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
         <id>HEIG</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>ST</id>
           <navn>Sør-Trøndelag</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Sp</id>
           <navn>Senterpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
@@ -2722,9 +2415,9 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
-      <versjon>1.0</versjon>
+      <versjon>1.1</versjon>
       <besvart_av>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sundtoft</etternavn>
         <foedselsdato>1967-04-19T00:00:00</foedselsdato>
@@ -2739,22 +2432,13 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-10-24T00:00:00</datert_dato>
-      <direkte_bundne_emnen xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:int>23</d4p1:int>
-      </direkte_bundne_emnen>
       <emne_liste>
         <emne>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
           <id>23</id>
           <navn>NATURVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.0</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <id>139</id>
-          <navn>MILJØVERN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -2767,7 +2451,7 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2013-2014</sesjon_id>
       <sporsmal_fra>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Wøien</etternavn>
         <foedselsdato>1965-06-18T00:00:00</foedselsdato>
@@ -2775,19 +2459,19 @@ Kan statsråden forklare og spesifisere hvilke støtteordninger som ikke har ras
         <id>ATW</id>
         <kjoenn>kvinne</kjoenn>
         <fylke>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Op</id>
           <navn>Oppland</navn>
         </fylke>
         <parti>
-          <versjon>1.0</versjon>
+          <versjon>1.1</versjon>
           <id>Sp</id>
           <navn>Senterpartiet</navn>
         </parti>
       </sporsmal_fra>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
-        <versjon>1.0</versjon>
+        <versjon>1.1</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sundtoft</etternavn>
         <foedselsdato>1967-04-19T00:00:00</foedselsdato>
