@@ -43,7 +43,27 @@
       </komite>
       <korttittel>Representantforslag om en handlingsplan mot antisemittisme</korttittel>
       <sak_fremmet_id>58393</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.1</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Keshvari</etternavn>
+          <foedselsdato>1981-03-05T00:00:00</foedselsdato>
+          <fornavn>Mazyar</fornavn>
+          <id>MKE</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.1</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.1</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-11-21T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Hans Olav Syversen, Line Henriette Hjemdal, Hans Fredrik Grøvan og Kjell Ingolf Ropstad om en handlingsplan mot antisemittisme</tittel>
@@ -208,10 +228,42 @@
       <emne_liste>
         <emne>
           <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>4</hovedemne_id>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>151</hovedemne_id>
           <id>29</id>
           <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
+          <id>211</id>
+          <navn>RUSMIDLER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
