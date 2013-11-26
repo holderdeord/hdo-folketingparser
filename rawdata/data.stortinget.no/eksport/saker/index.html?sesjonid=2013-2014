@@ -545,7 +545,24 @@
       <versjon>1.1</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>129</id>
+          <navn>HUSDYR</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 17 S (2013-2014)</henvisning>
       <id>58372</id>
       <innstilling_id>-1</innstilling_id>
