@@ -157,7 +157,16 @@
       <versjon>1.1</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>86</id>
+          <navn>STATSLÅN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 24 S (2013-2014)</henvisning>
       <id>58356</id>
       <innstilling_id>-1</innstilling_id>
@@ -211,7 +220,32 @@
       <versjon>1.1</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>155</hovedemne_id>
+          <id>51</id>
+          <navn>DEPARTEMENTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>59</hovedemne_id>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 10 S (2013-2014)</henvisning>
       <id>58362</id>
       <innstilling_id>-1</innstilling_id>
@@ -395,6 +429,22 @@
         <emne>
           <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>163</hovedemne_id>
           <id>22</id>
           <navn>INTERNASJONALT SAMARBEID</navn>
@@ -406,6 +456,54 @@
           <hovedemne_id>155</hovedemne_id>
           <id>51</id>
           <navn>DEPARTEMENTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>168</id>
+          <navn>FN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>169</id>
+          <navn>FN-STYRKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>174</id>
+          <navn>UTVIKLINGSHJELP</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>177</id>
+          <navn>NATO</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -561,6 +659,24 @@
       <sist_oppdatert_dato>2013-11-21T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Samtykke til godkjennelse av EØS-komiteens beslutning nr. 75/2013 av 3. mai 2013 om innlemmelse i EØS-avtalen av forordning 995/2010 om omsetning av tømmer og treprodukter, samt tilhørende forordninger 363/2012 og 607/2012</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.1</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 8:10 S (2013-2014)</henvisning>
+      <id>58485</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite i:nil="true" />
+      <korttittel>Representantforslag om innføring av to barnehageopptak i året</korttittel>
+      <sak_fremmet_id>58485</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-11-21T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Audun Lysbakken og Torgeir Knag Fylkesnes om innføring av to barnehageopptak i året</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -747,24 +863,6 @@
       <versjon>1.1</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Dokument 8:10 S (2013-2014)</henvisning>
-      <id>58485</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite i:nil="true" />
-      <korttittel>Representantforslag om innføring av to barnehageopptak i året</korttittel>
-      <sak_fremmet_id>58485</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-11-21T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Audun Lysbakken og Torgeir Knag Fylkesnes om innføring av to barnehageopptak i året</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.1</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste>
         <emne>
           <versjon>1.1</versjon>
@@ -794,6 +892,45 @@
       <sist_oppdatert_dato>2013-11-20T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
       <tittel>Representantforslag fra stortingsrepresentantene Bård Vegar Solhjell og Audun Lysbakken om en kommisjon som skal undersøke og vurdere den samlede overvåkningen som norske borgere er utsatt for</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.1</versjon>
+      <behandlet_sesjon_id>2013-2014</behandlet_sesjon_id>
+      <dokumentgruppe>innstillingssaker</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>151</id>
+          <navn>STATSFORFATNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>203</id>
+          <navn>STORTINGET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Innst. 29 S (2013-2014)</henvisning>
+      <id>58388</id>
+      <innstilling_id>11562</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
+      <komite>
+        <versjon>1.1</versjon>
+        <id>PRES</id>
+        <navn>Stortingets presidentskap</navn>
+      </komite>
+      <korttittel>Valg av medlemmer til Stortingets ansvarskommisjon</korttittel>
+      <sak_fremmet_id>58388</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2013-11-19T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Valg av medlemmer til Stortingets ansvarskommisjon</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -856,45 +993,6 @@
       <sist_oppdatert_dato>2013-11-19T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Valg av medlemmer og stedfortredere til Riksrettsutvalget</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.1</versjon>
-      <behandlet_sesjon_id>2013-2014</behandlet_sesjon_id>
-      <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.1</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>151</hovedemne_id>
-          <id>151</id>
-          <navn>STATSFORFATNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.1</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>151</hovedemne_id>
-          <id>203</id>
-          <navn>STORTINGET</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Innst. 29 S (2013-2014)</henvisning>
-      <id>58388</id>
-      <innstilling_id>11562</innstilling_id>
-      <innstilling_kode>innstilling_s</innstilling_kode>
-      <komite>
-        <versjon>1.1</versjon>
-        <id>PRES</id>
-        <navn>Stortingets presidentskap</navn>
-      </komite>
-      <korttittel>Valg av medlemmer til Stortingets ansvarskommisjon</korttittel>
-      <sak_fremmet_id>58388</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-11-19T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Valg av medlemmer til Stortingets ansvarskommisjon</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
