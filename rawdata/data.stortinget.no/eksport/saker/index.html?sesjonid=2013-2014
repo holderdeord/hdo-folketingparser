@@ -223,6 +223,22 @@
       <emne_liste>
         <emne>
           <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>15</id>
+          <navn>REDNINGSTJENESTE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>155</hovedemne_id>
           <id>51</id>
@@ -240,9 +256,41 @@
         <emne>
           <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>59</hovedemne_id>
+          <id>60</id>
+          <navn>FORSVARSMATERIELL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>6</hovedemne_id>
           <id>121</id>
           <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>177</id>
+          <navn>NATO</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>181</id>
+          <navn>SIVIL BEREDSKAP</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>59</hovedemne_id>
+          <id>193</id>
+          <navn>MILITÆRT PERSONELL</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -299,7 +347,16 @@
       <versjon>1.1</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>134</id>
+          <navn>FYLKESKOMMUNENES ØKONOMI</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 15 S (2013-2014)</henvisning>
       <id>58369</id>
       <innstilling_id>-1</innstilling_id>
@@ -712,7 +769,27 @@
       </komite>
       <korttittel>Endringer i rettsgebyrloven, kraftledningsregisterloven og tinglysingsloven</korttittel>
       <sak_fremmet_id>58440</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.1</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Henriksen</etternavn>
+          <foedselsdato>1965-03-01T00:00:00</foedselsdato>
+          <fornavn>Odd</fornavn>
+          <id>ODDH</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.1</versjon>
+            <id>No</id>
+            <navn>Nordland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.1</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-11-21T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i rettsgebyrloven, kraftledningsregisterloven og tinglysingsloven</tittel>
@@ -751,7 +828,27 @@
       </komite>
       <korttittel>Endringer i tinglysingsloven</korttittel>
       <sak_fremmet_id>58441</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.1</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Henriksen</etternavn>
+          <foedselsdato>1965-03-01T00:00:00</foedselsdato>
+          <fornavn>Odd</fornavn>
+          <id>ODDH</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.1</versjon>
+            <id>No</id>
+            <navn>Nordland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.1</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-11-21T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i tinglysingsloven</tittel>
