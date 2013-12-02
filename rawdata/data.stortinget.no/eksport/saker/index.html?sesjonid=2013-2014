@@ -6,7 +6,24 @@
       <versjon>1.1</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>8</hovedemne_id>
+          <id>8</id>
+          <navn>FISKERIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>45</hovedemne_id>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 28 L (2013-2014)</henvisning>
       <id>58359</id>
       <innstilling_id>-1</innstilling_id>
@@ -43,6 +60,14 @@
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
@@ -6082,7 +6107,7 @@ for sikkerhet og samarbeid i Europa (OSSE)
         <id>UFK</id>
         <navn>Utenriks- og forsvarskomiteen</navn>
       </komite>
-      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014 (svalbardbudsjettet 2014)</korttittel>
+      <korttittel>Endring av Prop. 1 S (2013-2014) Statsbudsjettet 2014</korttittel>
       <sak_fremmet_id>58328</sak_fremmet_id>
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2013-12-02T00:00:00</sist_oppdatert_dato>
