@@ -2987,7 +2987,16 @@
       <versjon>1.1</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>203</id>
+          <navn>STORTINGET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Innst. 52 S (2013-2014)</henvisning>
       <id>58614</id>
       <innstilling_id>11588</innstilling_id>
@@ -4184,7 +4193,24 @@
       <versjon>1.1</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>59</hovedemne_id>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:12 S (2013-2014)</henvisning>
       <id>58591</id>
       <innstilling_id>-1</innstilling_id>
@@ -6424,7 +6450,32 @@
       <versjon>1.1</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>69</id>
+          <navn>LANDBRUKSPRODUKTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>82</id>
+          <navn>TOLL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>99</id>
+          <navn>UTENRIKSHANDEL</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:11 S (2013-2014)</henvisning>
       <id>58517</id>
       <innstilling_id>-1</innstilling_id>
@@ -7024,10 +7075,10 @@
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste />
-      <henvisning>Prop. 12 S (2013-2014)</henvisning>
+      <henvisning>Prop. 12 S (2013-2014), Innst. 72 S (2013-2014)</henvisning>
       <id>58363</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <innstilling_id>11603</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
       <komite>
         <versjon>1.1</versjon>
         <id>HELSEOMS</id>
@@ -7056,7 +7107,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-11-26T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2013-12-10T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i statsbudsjettet 2013 under Helse- og omsorgsdepartementet</tittel>
       <type>budsjett</type>
@@ -7833,10 +7884,10 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 183 L (2012-2013)</henvisning>
+      <henvisning>Prop. 183 L (2012-2013), Innst. 71 L (2013-2014)</henvisning>
       <id>57766</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <innstilling_id>11602</innstilling_id>
+      <innstilling_kode>innstilling_l</innstilling_kode>
       <komite>
         <versjon>1.1</versjon>
         <id>JUSTIS</id>
@@ -7865,7 +7916,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-11-13T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2013-12-10T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i straffegjennomføringsloven mv. (navneendring for Kriminalomsorgens sentrale forvaltning mv.)</tittel>
       <type>lovsak</type>
@@ -8152,10 +8203,10 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 158 LS (2012-2013)</henvisning>
+      <henvisning>Prop. 158 LS (2012-2013), Innst. 70 L (2013-2014)</henvisning>
       <id>57466</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <innstilling_id>11601</innstilling_id>
+      <innstilling_kode>innstilling_l</innstilling_kode>
       <komite>
         <versjon>1.1</versjon>
         <id>JUSTIS</id>
@@ -8184,7 +8235,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2013-11-12T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2013-12-10T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringar i kjøpsloven og avtaleloven og samtykkje til å trekkje reservasjonen mot FN-konvensjonen 11. april 1980 om kontraktar for internasjonale lausøyrekjøp (CISG) del II om avtaleinngåing</tittel>
       <type>lovsak</type>
@@ -8227,10 +8278,10 @@
           <underemne_liste />
         </emne>
       </emne_liste>
-      <henvisning>Prop. 158 LS (2012-2013)</henvisning>
+      <henvisning>Prop. 158 LS (2012-2013), Innst. 69 S (2013-2014)</henvisning>
       <id>57467</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <innstilling_id>11600</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
       <komite>
         <versjon>1.1</versjon>
         <id>JUSTIS</id>
@@ -8239,7 +8290,7 @@
       <korttittel>Samtykkje til å trekkje reservasjonen mot FN-konvensjonen 11. april 1980 om kontraktar for internasjonale lausøyrekjøp (CISG) del II om avtaleinngåing</korttittel>
       <sak_fremmet_id>57466</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-11-12T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2013-12-10T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringar i kjøpsloven og avtaleloven og samtykkje til å trekkje reservasjonen mot FN-konvensjonen 11. april 1980 om kontraktar for internasjonale lausøyrekjøp (CISG) del II om avtaleinngåing</tittel>
       <type>alminneligsak</type>
