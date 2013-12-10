@@ -21,7 +21,32 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-14T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>64</id>
+          <navn>HELSEPERSONELL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58435</id>
@@ -62,8 +87,7 @@
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Rett til å ytre seg fritt og utan frykt for represaliar er ein grunnleggjande menneskerett og ein føresetnad for eit fungerande demokrati. Rett til ytringsfridom er nedfelt i Grunnlova § 100 og følgjer òg av Den europeiske menneskerettskonvensjon artikkel 10. I norsk helsevesen er ytringsfridom for tilsette og openheitskultur på arbeidsplassen også heilt grunnleggjande for kvalitet- og pasienttryggleiksarbeidet. Men undersøkingar og enkelthendingar tyder på at tilsette i norsk helsevesen ikkje er sikra ein slik openheitskultur. Dette er eit leiingsansvar. Helseføretaka har utvikla eit stort fokus på omdømme og omdømmebygging, og regulerer kommunikasjonen gjennom eigne kommunikasjonsstrategiar. Dette gir mindre rom for at fagfolk uttalar seg som fagpersonar.
-Kva vil statsråden gjere for å skape ein openheitskultur i norsk helsevesen og sikre alle tilsette reell ytringsfridom?</tittel>
+      <tittel>om å skape ein _openheitskultur i norsk helsevesen_ og sikre alle tilsette reell ytringsfridom</tittel>
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
