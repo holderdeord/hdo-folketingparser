@@ -669,7 +669,24 @@
       <versjon>1.1</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>166</id>
+          <navn>TRAKTATER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 30 LS (2013-2014)</henvisning>
       <id>58688</id>
       <innstilling_id>-1</innstilling_id>
@@ -705,7 +722,32 @@
       <versjon>1.1</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>143</hovedemne_id>
+          <id>143</id>
+          <navn>SJØFART</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>143</hovedemne_id>
+          <id>147</id>
+          <navn>HAVNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 32 S (2013-2014)</henvisning>
       <id>58691</id>
       <innstilling_id>-1</innstilling_id>
@@ -8719,7 +8761,27 @@
       </komite>
       <korttittel>Endringar i statsbudsjettet 2013 under Justis- og beredskapsdepartementet</korttittel>
       <sak_fremmet_id>58364</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.1</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Leirstein</etternavn>
+          <foedselsdato>1973-06-30T00:00:00</foedselsdato>
+          <fornavn>Ulf</fornavn>
+          <id>UIL</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.1</versjon>
+            <id>Øs</id>
+            <navn>Østfold</navn>
+          </fylke>
+          <parti>
+            <versjon>1.1</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-12-10T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringar i statsbudsjettet 2013 under Justis- og beredskapsdepartementet</tittel>
