@@ -165,7 +165,7 @@ Tror statsministeren dette vil bidra til færre eller flere innvandrerkvinner i 
       <sporsmal_til_minister_id>SMK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>statsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om statsministeren tror det vil bidra til å få _flere innvandrerkvinner i arbeidslivet_ når man øker kontantstøtten, kutter i barnehagetilbudet og gjeninnfører skatteklasse 2</tittel>
+      <tittel>om statsministeren tror at _flere innvandrerekvinner vil delta i arbeidslivet_ når man øker kontantstøtten, kutter i barnehagetilbudet og gjeninnfører skatteklasse 2</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -418,7 +418,7 @@ Tror statsministeren dette vil bidra til færre eller flere innvandrerkvinner i 
       <sporsmal_til_minister_id>SMK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>statsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hva som vil være _regjeringens næringspolitiske kurs framover_, og om regjeringen ser det som viktig med aktive og målrettede tiltak overfor fastlandsindustrien</tittel>
+      <tittel>om hva som vil være _regjeringens næringspolitiske kurs_ framover, og om regjeringen ser det som viktig med aktive og målrettede tiltak overfor fastlandsindustrien</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -568,7 +568,7 @@ Tror statsministeren dette vil bidra til færre eller flere innvandrerkvinner i 
       <sporsmal_til_minister_id>SMK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>statsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hvorvidt statsministeren er fornøyd med at det nå blir _7 000 færre barn i barnehage_, og at barnehageprisene går opp for første gang på svært mange år</tittel>
+      <tittel>om statsministeren er fornøyd med at det nå blir _7 000 færre barn i barnehage_, og at barnehageprisene går opp for første gang på svært mange år</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -589,7 +589,24 @@ Tror statsministeren dette vil bidra til færre eller flere innvandrerkvinner i 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-12T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
+          <id>179</id>
+          <navn>TELEKOMMUNIKASJONER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58678</id>
@@ -630,8 +647,7 @@ Tror statsministeren dette vil bidra til færre eller flere innvandrerkvinner i 
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Det har lenge vært kjent at den svenske FRA-loven åpner for at norske borgere overvåkes av svenske myndigheter. Det er et alvorlig problem at vår kommunikasjon overvåkes uten at norske myndigheter har kjennskap og påvirkningsmulighet i forhold til det, at rettsvesenet ikke er involvert, og at denne informasjonen kan gis videre til andre lands styresmakter.
-Er statsråden villig til å vurdere en ny internettkabel til det europeiske fastlandet slik at norsk internettrafikk kan rutes utenom Sverige?</tittel>
+      <tittel>om statsråden er villig til å vurdere en _ny internettkabel til det europeiske fastlandet_ slik at norsk internettrafikk kan rutes utenom Sverige</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -652,7 +668,24 @@ Er statsråden villig til å vurdere en ny internettkabel til det europeiske fas
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-12T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>24</id>
+          <navn>LIKESTILLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58677</id>
@@ -693,8 +726,7 @@ Er statsråden villig til å vurdere en ny internettkabel til det europeiske fas
       <sporsmal_til_minister_id>NH</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>næringsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Tidligere næringsminister fra Høyre Ansgar Gabrielsen løftet temaet likestilling i næringslivet med å innføre 40 pst. kjønnskvotering i ASA-styrene.
-Hvilke ambisjoner har statsråden for å sikre at flere kvinner tar lederposisjoner i næringslivet, som styreverv, lederroller og etablering av selskaper?</tittel>
+      <tittel>om hvilke ambisjoner statsråden har for å sikre at _flere kvinner tar lederposisjoner i næringslivet_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -715,7 +747,24 @@ Hvilke ambisjoner har statsråden for å sikre at flere kvinner tar lederposisjo
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-12T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
+          <id>23</id>
+          <navn>NATURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>52</id>
+          <navn>KOMMUNER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58675</id>
@@ -756,7 +805,7 @@ Hvilke ambisjoner har statsråden for å sikre at flere kvinner tar lederposisjo
       <sporsmal_til_minister_id>MDK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>klima- og miljøvernministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Hvordan mener statsråden at naturhensyn, friluftslivshensyn og hensyn til grunneiere blir bedre ivaretatt enn i dag ved å gjennomføre en omfattende liberalisering av scooterkjøringsreglene, og blir ikke et omfattende forsøk bare en vits når hun uansett tenker å gjennomføre lovendring med liberalisering av reglene for scooterkjøring uten å ha evaluert forsøkene skikkelig først?</tittel>
+      <tittel>om hvordan statsråden mener at naturhensyn, friluftslivshensyn og hensyn til grunneiere blir bedre ivaretatt enn i dag ved å gjennomføre en omfattende _liberalisering av reglene for scooterkjøring_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -777,7 +826,32 @@ Hvilke ambisjoner har statsråden for å sikre at flere kvinner tar lederposisjo
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-12T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
+          <id>179</id>
+          <navn>TELEKOMMUNIKASJONER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58674</id>
@@ -818,8 +892,7 @@ Hvilke ambisjoner har statsråden for å sikre at flere kvinner tar lederposisjo
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I Computerworld 12. august 2013 sa Bård Hoksrud: "Frp har hele tiden ment at Norge uansett burde ventet med vedtaket for å se hvordan dette spiller ut i EU. Vi skjønte ikke hvorfor det var så viktig å haste et direktiv gjennom, som fortsatt diskuteres og evalueres i EU." Senere har statsråden sagt at saken ikke skal opp til ny vurdering. 
-Hva vil EU-domstolens nye avklaring om datalagringsdirektivet ha å si for en eventuell innføring eller nye vurderinger av innføring i Norge?</tittel>
+      <tittel>om hva _EU-domstolens nye avklaring om datalagringsdirektivet_ vil ha å si for en eventuell innføring eller nye vurderinger av innføring i Norge</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -840,7 +913,32 @@ Hva vil EU-domstolens nye avklaring om datalagringsdirektivet ha å si for en ev
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-12T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
+          <id>179</id>
+          <navn>TELEKOMMUNIKASJONER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58673</id>
@@ -881,8 +979,7 @@ Hva vil EU-domstolens nye avklaring om datalagringsdirektivet ha å si for en ev
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Ved en eventuell innføring av EUs datalagringsdirektiv vil innbyggernes data- og teletrafikk lagres.
-Hvordan vil statsråden karakterisere et samfunn der data om alle menneskers data- og teletrafikk lagres?</tittel>
+      <tittel>om hvordan statsråden vil karakterisere et samfunn der data om _innbyggernes data- og teletrafikk_ lagres</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -903,7 +1000,32 @@ Hvordan vil statsråden karakterisere et samfunn der data om alle menneskers dat
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-12T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
+          <id>179</id>
+          <navn>TELEKOMMUNIKASJONER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58672</id>
@@ -944,8 +1066,7 @@ Hvordan vil statsråden karakterisere et samfunn der data om alle menneskers dat
       <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>En helt fersk anbefaling fra generaladvokat Pedro Cruz Villalón i EU-domstolen sier: "Datalagringsdirektivet er i sin helhet ikke kompatibelt med kravene som ligger i Den europeiske unions charter om grunnleggende rettigheter" og "Direktivet utgjør et alvorlig inngrep i den grunnleggende rettigheten personvern som borgerne har."
-Er statsråden enig i generaladvokatens anbefaling?</tittel>
+      <tittel>om hvorvidt statsråden er enig med generaladvokat Pedro Cruz Villalón i EU-domstolen som sier at _datalagringsdirektivet_ utgjør et alvorlig inngrep i den grunnleggende rettigheten personvern som borgerne har</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -966,7 +1087,32 @@ Er statsråden enig i generaladvokatens anbefaling?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-12T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
+          <id>179</id>
+          <navn>TELEKOMMUNIKASJONER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58670</id>
@@ -1007,8 +1153,7 @@ Er statsråden enig i generaladvokatens anbefaling?</tittel>
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I tråd med EØS-avtalen kan ikke Norge regulere hvor data som er samlet inn, blir lagret. EU-domstolens generaladvokat kritiserer datalagringsdirektivet for at data kan bli brukt ulovlig, at de ikke lagres i det landet innbyggerne bor, og at de ikke er på statens hånd.
-Avtalen mellom Ap og H sier mye om personvern, men i lys av Snowden og myndighetene i andre land sitt samarbeid med USA og andre, hvordan kan regjeringen garantere at opplysningene samlet inn i henhold til datalagringsdirektivet ikke skal havne på avveie?</tittel>
+      <tittel>om hvordan regjeringen kan garantere at _opplysninger samlet inn i henhold til datadirektivet ikke havner på avveie_, med henvisning til Snowden og myndighetene i andre land sitt samarbeid med USA og andre</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1029,7 +1174,16 @@ Avtalen mellom Ap og H sier mye om personvern, men i lys av Snowden og myndighet
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-12T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58669</id>
@@ -1070,8 +1224,7 @@ Avtalen mellom Ap og H sier mye om personvern, men i lys av Snowden og myndighet
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Tall fra Norsk institutt for landbruksforskning viser et inntektshopp i snitt for norske bønder i 2012 på 46 200 kroner. Gode avlinger, betydelige  effektivisering og politiske rammevilkår kan forklare noe av økningen. Lønnsomheten må likevel forsterkes ytterligere. 
-Vil statsråden legge til rette for ytterligere vekst i inntektene i årene som kommer, og i så fall hvordan?</tittel>
+      <tittel>om hvorvidt statsråden vil legge til rette for ytterligere _vekst i inntektene for norske bønder_ i årene som kommer, og i så fall hvordan</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1100,7 +1253,40 @@ Vil statsråden legge til rette for ytterligere vekst i inntektene i årene som 
       <besvart_pa_vegne_av_minister_id>UD</besvart_pa_vegne_av_minister_id>
       <besvart_pa_vegne_av_minister_tittel>utenriksministeren</besvart_pa_vegne_av_minister_tittel>
       <datert_dato>2013-12-12T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>65</id>
+          <navn>SVANGERSKAP</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>168</id>
+          <navn>FN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58667</id>
@@ -1141,8 +1327,7 @@ Vil statsråden legge til rette for ytterligere vekst i inntektene i årene som 
       <sporsmal_til_minister_id>UD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>utenriksministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Norge har i mange år arbeidet målrettet for å styrke kvinners rettigheter til reproduktiv helse. Internasjonalt har vi møtt motkrefter både mot økt åpenhet og i det forbyggende helsearbeidet på dette området.
-Hva vil utenriksministeren gjøre for å sikre kvinners rett til abort og prevensjon i land hvor dette er ikke er en del av helsevesenet, eller er forbudt?</tittel>
+      <tittel>om hva utenriksministeren vil gjøre for å sikre _kvinners rett til abort og prevensjon_ i land hvor dette er ikke er en del av helsevesenet, eller er forbudt</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1163,7 +1348,32 @@ Hva vil utenriksministeren gjøre for å sikre kvinners rett til abort og preven
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-12T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58666</id>
@@ -1204,8 +1414,7 @@ Hva vil utenriksministeren gjøre for å sikre kvinners rett til abort og preven
       <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Både Krisesentersekretariatet og Likestillingsombudet har advart mot regjeringens forslag i Sundvolden-erklæringen om at kravet til botid for permanent oppholdstillatelse heves fra tre til fem år, fordi de frykter at voldsutsatte kvinner blir værende lenger hos voldsutøveren.
-Deler statsråden denne bekymringen, og kan vi forvente at den varslede gjennomgangen av reglene knyttet til personer som opplever mishandling, vil føre til konkrete tiltak?</tittel>
+      <tittel>om hva vi kan forvente av den varslede gjennomgangen av _reglene knyttet til personer som opplever mishandling_, med henvisning til bekymring for at voldsutsatte kvinner blir værende lenger hos voldsutøveren med regjeringens forslag om økt krav til botid</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1226,7 +1435,40 @@ Deler statsråden denne bekymringen, og kan vi forvente at den varslede gjennomg
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-12T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>42</id>
+          <navn>BARNEHAGER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58662</id>
@@ -1267,8 +1509,7 @@ Deler statsråden denne bekymringen, og kan vi forvente at den varslede gjennomg
       <sporsmal_til_minister_id>BLID</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>barne-, likestillings- og inkluderingsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>27. august 2013 refererer NTB daværende stortingsrepresentant Solveig Hornes svar på hva hun mener er den største utfordringen innen likestilling i dag. NTB skriver: "Horne mener det er viktigere å få minoritetskvinner ut i arbeid i stede for "å bli giftet bort og være hjemme.""
-Mener statsråden dette er alternativene kvinnene har, og i så fall: Hvordan mener statsråd Horne uttalelsen til representanten Horne sammenfaller med regjeringens politikk om å prioritere kontantstøtte foran barnehager?</tittel>
+      <tittel>om hvordan statsrådens tidligere uttalelser om _viktigheten av å få minoritetskvinner ut i arbeid_ sammenfaller med regjeringens politikk om å prioritere kontantstøtte foran barnehager</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1289,7 +1530,40 @@ Mener statsråden dette er alternativene kvinnene har, og i så fall: Hvordan me
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-12T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>24</id>
+          <navn>LIKESTILLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>42</id>
+          <navn>BARNEHAGER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58661</id>
@@ -1330,8 +1604,7 @@ Mener statsråden dette er alternativene kvinnene har, og i så fall: Hvordan me
       <sporsmal_til_minister_id>BLID</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>barne-, likestillings- og inkluderingsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Over mange år har det vært jobbet for å gi kvinner og menn like muligheter til å delta i arbeidslivet. Enda ser vi store ulikheter mellom kjønn når det kommer til mulighet for heltid og lik lønn. På en rangering over likestillingsfremmende tiltak mener jeg at dette sammen med mulighet for barnehageplass til en lav pris,  kommer høyest.
-Hva mener statsråden er det mest likestillingsfremmende tiltak hos regjeringen?</tittel>
+      <tittel>om hva statsråden mener er det mest _likestillingsfremmende tiltak_ hos regjeringen</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1352,7 +1625,32 @@ Hva mener statsråden er det mest likestillingsfremmende tiltak hos regjeringen?
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-12T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
+          <id>179</id>
+          <navn>TELEKOMMUNIKASJONER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58660</id>
@@ -1393,8 +1691,7 @@ Hva mener statsråden er det mest likestillingsfremmende tiltak hos regjeringen?
       <sporsmal_til_minister_id>UDEU</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>ministeren ved Statsministerens kontor for samordning av EØS-saker og forholdet til EU</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>5. april 2011 vedtok Høgre og Arbeidarpartiet å innføre datalagringsdirektivet. No er det snart tre år sidan vedtaket vart gjort, og framleis er norske borgarar fri for statspålagt registrering. I mellomtida har direktivet blitt kjent grunnlovsstridig i alle EU-land,  der det har nådd landets øvste domstol, og EU skal no revidere direktivet.
-Vel skal statsråden sørgje for at vi er i forkant i Brussel, men kunne det ikkje i denne saka vere smart å halde litt igjen?</tittel>
+      <tittel>om at _datalagringsdirektivet_ har blitt kjent grunnlovsstridig i alle EU-land, der det har nådd landets øvste domstol, og om det ikkje kunne vere smart å halde litt igjen no som EU skal revidere direktivet</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1486,7 +1783,40 @@ Vel skal statsråden sørgje for at vi er i forkant i Brussel, men kunne det ikk
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-12T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
+          <id>179</id>
+          <navn>TELEKOMMUNIKASJONER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58658</id>
@@ -1527,8 +1857,7 @@ Vel skal statsråden sørgje for at vi er i forkant i Brussel, men kunne det ikk
       <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Når den amerikanske journalisten Edward Snowden kan få tilgang til store mengder data, må vi ta høyde for at også andre, også kriminelle, kan skaffe seg samme tilgang til lagret data.
-Står regjeringen fortsatt inne for innføring av EUs datalagringsdirektiv, i lys av det vi nå vet om hva som er realiteten rundt trygg og sikker datalagring?</tittel>
+      <tittel>om hvorvidt regjeringen fortsatt står inne for _innføring av EUs datalagringsdirektiv_, sett i lys av det vi nå vet om realiteten rundt trygg og sikker datalagring</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1549,7 +1878,32 @@ Står regjeringen fortsatt inne for innføring av EUs datalagringsdirektiv, i ly
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-12T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
+          <id>179</id>
+          <navn>TELEKOMMUNIKASJONER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58657</id>
@@ -1590,7 +1944,7 @@ Står regjeringen fortsatt inne for innføring av EUs datalagringsdirektiv, i ly
       <sporsmal_til_minister_id>UDEU</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>ministeren ved Statsministerens kontor for samordning av EØS-saker og forholdet til EU</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Kan statsråden redegjøre for status for Islands innføring av EUs datalagringsdirektiv, og hvilken betydning det vil ha for Norge at direktivet ikke er godkjent av alle EØS-landene?</tittel>
+      <tittel>om statsråden kan redegjøre for status for _Islands innføring av EUs datalagringsdirektiv_, og hvilken betydning det vil ha for Norge at direktivet ikke er godkjent av alle EØS-landene</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1611,7 +1965,24 @@ Står regjeringen fortsatt inne for innføring av EUs datalagringsdirektiv, i ly
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-11T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>24</id>
+          <navn>LIKESTILLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58656</id>
@@ -1652,8 +2023,7 @@ Står regjeringen fortsatt inne for innføring av EUs datalagringsdirektiv, i ly
       <sporsmal_til_minister_id>BLID</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>barne-, likestillings- og inkluderingsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Statsråd Horne har uttalt seg i ulike retningar når det gjeld likestilling. Vi har til dømes kunna lese at ho meiner at likestillinga har kome for langt, og at husmødre er meir diskriminert enn homofile.
-På kva for område ønskjer statsråden å reversere likestillinga, og kor langt tilbake må vi for å kome på eit ønskjeleg nivå?</tittel>
+      <tittel>om kva for område statsråden ønskjer å _reversere likestillinga_ på, og kor langt tilbake må vi for å kome på eit ønskjeleg nivå</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1674,7 +2044,24 @@ På kva for område ønskjer statsråden å reversere likestillinga, og kor lang
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-11T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58655</id>
@@ -1715,8 +2102,7 @@ På kva for område ønskjer statsråden å reversere likestillinga, og kor lang
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Norge har ett av de mest kjønnsdelte arbeidsmarkedene i Europa. Dette skyldes i stor grad kjønnsbaserte utdanningsvalg.
-Hva mener statsråden om det, og hvilke tiltak ser han for seg kan bøte på dette problemet?</tittel>
+      <tittel>om hva statsråden mener om at Norge har _ett av de mest kjønnsdelte arbeidsmarkedene i Europa_, noe som i stor grad skyldes kjønnsbaserte utdanningsvalg, og hvilke tiltak som kan bøte på dette problemet</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1816,7 +2202,40 @@ Hva mener statsråden om det, og hvilke tiltak ser han for seg kan bøte på det
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-11T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>24</id>
+          <navn>LIKESTILLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>rette_vedkommende</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58647</id>
@@ -1865,8 +2284,7 @@ Hva mener statsråden om det, og hvilke tiltak ser han for seg kan bøte på det
       <sporsmal_til_minister_id>ABS</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>arbeids- og sosialministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Partene i arbeidslivet har gitt uttrykk for at økt kontantstøtte og redusert pappaperm vil svekke kvinnenes stilling i arbeidslivet, men også at det vil tappe næringslivet for viktig kompetanse.
-Hva er grunnen til at statsråden ikke deler partenes syn på dette?</tittel>
+      <tittel>om at partene i arbeidslivet mener _økt kontantstøtte og redusert pappaperm_ vil svekke kvinnenes stilling i arbeidslivet og tappe næringslivet for viktig kompetanse, og hvorfor ikke statsråden deler partenes syn på dette</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1887,7 +2305,24 @@ Hva er grunnen til at statsråden ikke deler partenes syn på dette?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-11T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>128</id>
+          <navn>JORDBRUK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58643</id>
@@ -1928,8 +2363,7 @@ Hva er grunnen til at statsråden ikke deler partenes syn på dette?</tittel>
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Norge produserer stadig mindre korn. Norge forbruker stadig mer korn.
-Hva betyr dette for Norges produksjon av jordbruksmatvarer?</tittel>
+      <tittel>om hva det betyr for _Norges produksjon av jordbruksmatvarer_ at vi produserer stadig mindre korn og forbruker stadig mer korn</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1950,7 +2384,32 @@ Hva betyr dette for Norges produksjon av jordbruksmatvarer?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-11T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>24</id>
+          <navn>LIKESTILLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58640</id>
@@ -1991,8 +2450,7 @@ Hva betyr dette for Norges produksjon av jordbruksmatvarer?</tittel>
       <sporsmal_til_minister_id>FIN</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>finansministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I merknadene til perspektivmeldingen sa regjeringspartiene seg enig med Stoltenberg-regjeringen i at vi er helt avhengige av at flere jobber, og det lenger. Regjeringen har likevel vedtatt et budsjett som svekker arbeidslinja, ved at det stimulerer kvinner til å stå utenfor arbeidslivet. Arbeidsgiver- og arbeidstakerorganisasjoner har advart mot denne politikken.
-Hvordan mener statsråden at disse kvinnene skal erstattes, og slik at sysselsettingen opprettholdes og økes?</tittel>
+      <tittel>om at regjeringen har vedtatt et _budsjett som svekker arbeidslinja_ og stimulerer kvinner til å stå utenfor arbeidslivet, og hvordan statsråden mener at disse kvinnene skal erstattes slik at sysselsettingen opprettholdes og økes</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -2021,7 +2479,24 @@ Hvordan mener statsråden at disse kvinnene skal erstattes, og slik at sysselset
       <besvart_pa_vegne_av_minister_id>UD</besvart_pa_vegne_av_minister_id>
       <besvart_pa_vegne_av_minister_tittel>utenriksministeren</besvart_pa_vegne_av_minister_tittel>
       <datert_dato>2013-12-11T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58639</id>
@@ -2062,8 +2537,7 @@ Hvordan mener statsråden at disse kvinnene skal erstattes, og slik at sysselset
       <sporsmal_til_minister_id>UD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>utenriksministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Den 18. desember 2013 er det 100 år siden Willy Brandt ble født. Hans lange politiske virke ble kjennetegnet av kampen for fred, forsoning og nedrustning. Brandt var en viktig støttespiller i arbeidet med å normalisere og utvikle Norges forhold til Tyskland. I dag ser vi i Norge en fornyet interesse for Tyskland, EUs tyngste medlemsland.
-Hvordan mener utenriksministeren at arven fra Brandt om tettere forhold mellom Norge og Tyskland best kan videreutvikles og styrkes?</tittel>
+      <tittel>om hvordan utenriksministeren mener at arven fra Willy Brandt om _tettere forhold mellom Norge og Tyskland_ best kan videreutvikles og styrkes</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -2084,7 +2558,32 @@ Hvordan mener utenriksministeren at arven fra Brandt om tettere forhold mellom N
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-10T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>155</hovedemne_id>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>220</id>
+          <navn>DISTRIKTSPOLITIKK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58635</id>
@@ -2125,8 +2624,7 @@ Hvordan mener utenriksministeren at arven fra Brandt om tettere forhold mellom N
       <sporsmal_til_minister_id>FIN</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>finansministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Finansdepartementet meldte nylig at Direktoratet for økonomistyring (DFØ) nå skal lokaliseres på tre geografiske steder, blant annet i Oslo, istedenfor på åtte steder fordelt på hele landet, som i dag. 25 statlige kompetansearbeidsplasser forsvinner dermed fra Nord-Norge.
-Kan statsråden se at en ønsket rasjonaliseringsgevinst ved eventuelle omorganiseringer like gjerne kan hentes ut ved at statlig virksomhet flyttes ut av hovedstaden istedenfor det motsatte?</tittel>
+      <tittel>om statsråden ser at en ønsket _rasjonaliseringsgevinst ved eventuelle omorganiseringer_ like gjerne kan hentes ut ved at statlig virksomhet flyttes ut av hovedstaden som det motsatte</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -2147,7 +2645,24 @@ Kan statsråden se at en ønsket rasjonaliseringsgevinst ved eventuelle omorgani
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-12-03T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>45</hovedemne_id>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58590</id>
@@ -2188,8 +2703,7 @@ Kan statsråden se at en ønsket rasjonaliseringsgevinst ved eventuelle omorgani
       <sporsmal_til_minister_id>NH</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>næringsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Hovedstyret i Innovasjon Norge har nylig vedtatt at de to nye såkornmandatene, som kom i revidert budsjett, skal gå til Proventure og Alliance Venture. Disse to fondene vil dekke de viktige sektorene energi og IT. Men tildelingen medfører imidlertid at tidligfaseselskapene innen den sårbare norske farma-/biotekindustrien blir stående uten såkornmidler.
-Hva vil regjeringen gjøre for å sikre fortsatt kapitaltilgang til oppstarts- og tidligfaseselskaper innen denne sektoren?</tittel>
+      <tittel>om hva regjeringen vil gjøre for å sikre fortsatt _kapitaltilgang til oppstarts- og tidligfaseselskaper_ innen den sårbare norske farma-/biotekindustrien</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -2210,7 +2724,16 @@ Hva vil regjeringen gjøre for å sikre fortsatt kapitaltilgang til oppstarts- o
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>33</id>
+          <navn>PRIVATSKOLER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58559</id>
@@ -2251,8 +2774,7 @@ Hva vil regjeringen gjøre for å sikre fortsatt kapitaltilgang til oppstarts- o
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Regjeringa har varsla en ny privatskolelov som åpner for flere privatskoler. I Sverige har SVT avslørt at en rekke private skoler systematisk siler ut elever med lave karakterer til tross for at det er ledige plasser på skolen, jf. oppslag i Vårt Land 31. oktober 2013, og at slik siling er i strid med svensk lovverk.
-På hvilken måte mener statsråden man kan forsikre seg mot en slik praksis i Norge etter innføring av en ny lov om private skoler?</tittel>
+      <tittel>om hvordan man kan forsikre seg mot at _private skoler siler ut elever med lave karakterer_ etter innføring av ny privatskolelov</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -2763,7 +3285,24 @@ På hvilken måte mener statsråden man kan forsikre seg mot en slik praksis i N
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2013-11-27T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>4</hovedemne_id>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>4</hovedemne_id>
+          <id>71</id>
+          <navn>ELEKTRISITET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>58544</id>
@@ -2804,8 +3343,7 @@ På hvilken måte mener statsråden man kan forsikre seg mot en slik praksis i N
       <sporsmal_til_minister_id>OED</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>olje- og energiministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>En viktig del av klimaløsningen er økt produksjon av fornybar energi. Norge har gjennom en kombinasjon av store havområder og offshoreteknologi en stor mulighet til utvikling av og produksjon av vindkraft til havs.
-Hvilke ambisjoner har statsråden for vindkraft til havs, og hvordan ser han for seg å nå disse ambisjonene?</tittel>
+      <tittel>om hvilke ambisjoner statsråden har for _vindkraft til havs_, og hvordan han ser for seg å nå disse ambisjonene</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
