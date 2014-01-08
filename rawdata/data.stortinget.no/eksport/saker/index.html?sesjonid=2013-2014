@@ -690,7 +690,16 @@
       <versjon>1.1</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:15 S (2013-2014)</henvisning>
       <id>58710</id>
       <innstilling_id>-1</innstilling_id>
@@ -14138,7 +14147,7 @@ for sikkerhet og samarbeid i Europa (OSSE)
         </representant>
         <representant>
           <versjon>1.1</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Helseth</etternavn>
           <foedselsdato>1955-01-11T00:00:00</foedselsdato>
           <fornavn>Are</fornavn>
