@@ -6515,6 +6515,14 @@
       <emne_liste>
         <emne>
           <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>8</hovedemne_id>
+          <id>8</id>
+          <navn>FISKERIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>8</hovedemne_id>
           <id>9</id>
@@ -6541,6 +6549,14 @@
           <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>113</hovedemne_id>
+          <id>98</id>
+          <navn>FORBRUKERSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
           <id>115</id>
           <navn>BERGVERK</navn>
           <underemne_liste />
@@ -6559,6 +6575,14 @@
           <hovedemne_id>187</hovedemne_id>
           <id>185</id>
           <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>188</id>
+          <navn>FOLKEHELSE</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -15096,7 +15120,7 @@ for sikkerhet og samarbeid i Europa (OSSE)
         </representant>
         <representant>
           <versjon>1.1</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Helseth</etternavn>
           <foedselsdato>1955-01-11T00:00:00</foedselsdato>
           <fornavn>Are</fornavn>
