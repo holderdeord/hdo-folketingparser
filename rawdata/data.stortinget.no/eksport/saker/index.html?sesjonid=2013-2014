@@ -33,7 +33,24 @@
       <versjon>1.1</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 37 S (2013-2014)</henvisning>
       <id>58853</id>
       <innstilling_id>-1</innstilling_id>
@@ -51,7 +68,32 @@
       <versjon>1.1</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>20</id>
+          <navn>HANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 38 S (2013-2014)</henvisning>
       <id>58854</id>
       <innstilling_id>-1</innstilling_id>
@@ -9452,7 +9494,7 @@
         <id>ARBSOS</id>
         <navn>Arbeids- og sosialkomiteen</navn>
       </komite>
-      <korttittel>Endringer i lønnsgarantiloven, permitteringsloven og folketrygdloven (samleproposisjon)</korttittel>
+      <korttittel>Endringer i lønnsgarantiloven, permitteringsloven, forskotteringsloven og folketrygdloven (samleproposisjon)</korttittel>
       <sak_fremmet_id>58352</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
@@ -9477,7 +9519,7 @@
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2013-12-09T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
-      <tittel>Endringer i lønnsgarantiloven, permitteringsloven og folketrygdloven (samleproposisjon)</tittel>
+      <tittel>Endringer i lønnsgarantiloven, permitteringslønnsloven, forskotteringsloven og folketrygdloven (samleproposisjon)</tittel>
       <type>lovsak</type>
     </sak>
     <sak>
@@ -11064,7 +11106,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.1</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Støre</etternavn>
           <foedselsdato>1960-08-25T00:00:00</foedselsdato>
           <fornavn>Jonas Gahr</fornavn>
