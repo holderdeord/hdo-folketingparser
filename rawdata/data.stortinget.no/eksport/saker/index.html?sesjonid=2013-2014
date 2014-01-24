@@ -10681,7 +10681,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.1</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Støre</etternavn>
           <foedselsdato>1960-08-25T00:00:00</foedselsdato>
           <fornavn>Jonas Gahr</fornavn>
@@ -11977,9 +11977,33 @@
         <emne>
           <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>29</id>
+          <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>182</id>
+          <navn>KONGEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>187</hovedemne_id>
           <id>185</id>
           <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>203</id>
+          <navn>STORTINGET</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
