@@ -309,7 +309,16 @@
       <versjon>1.1</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>43</id>
+          <navn>BARNEVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:17 S (2013-2014)</henvisning>
       <id>58824</id>
       <innstilling_id>-1</innstilling_id>
@@ -10672,7 +10681,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.1</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Støre</etternavn>
           <foedselsdato>1960-08-25T00:00:00</foedselsdato>
           <fornavn>Jonas Gahr</fornavn>
