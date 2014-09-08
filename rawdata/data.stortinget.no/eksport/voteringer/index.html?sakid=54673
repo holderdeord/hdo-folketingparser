@@ -2,5 +2,46 @@
 <sak_votering_oversikt xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://data.stortinget.no">
   <versjon>1.1</versjon>
   <sak_id>54673</sak_id>
-  <sak_votering_liste />
+  <sak_votering_liste>
+    <sak_votering>
+      <versjon>1.1</versjon>
+      <alternativ_votering_id>-1</alternativ_votering_id>
+      <antall_for>83</antall_for>
+      <antall_ikke_tilstede>1</antall_ikke_tilstede>
+      <antall_mot>85</antall_mot>
+      <behandlingsrekkefoelge>1</behandlingsrekkefoelge>
+      <dagsorden_sak_nummer>5</dagsorden_sak_nummer>
+      <fri_votering>false</fri_votering>
+      <kommentar i:nil="true" />
+      <mote_kart_nummer>68</mote_kart_nummer>
+      <personlig_votering>true</personlig_votering>
+      <president>
+        <versjon>1.1</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Thommessen</etternavn>
+        <foedselsdato>1956-04-18T00:00:00</foedselsdato>
+        <fornavn>Olemic</fornavn>
+        <id>OLET</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.1</versjon>
+          <id>Op</id>
+          <navn>Oppland</navn>
+        </fylke>
+        <parti>
+          <versjon>1.1</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+        </parti>
+      </president>
+      <sak_id>54673</sak_id>
+      <vedtatt>false</vedtatt>
+      <votering_id>4765</votering_id>
+      <votering_metode>ikke_spesifisert</votering_metode>
+      <votering_resultat_type>ikke_spesifisert</votering_resultat_type>
+      <votering_resultat_type_tekst i:nil="true" />
+      <votering_tema>Komiteens tilråding.</votering_tema>
+      <votering_tid>2014-05-13T20:17:18.237</votering_tid>
+    </sak_votering>
+  </sak_votering_liste>
 </sak_votering_oversikt>
