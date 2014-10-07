@@ -5,19 +5,19 @@
     <sak>
       <versjon>1.1</versjon>
       <behandlet_sesjon_id>2014-2015</behandlet_sesjon_id>
-      <dokumentgruppe>redegjorelse</dokumentgruppe>
+      <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
       <emne_liste />
       <henvisning i:nil="true" />
-      <id>60652</id>
+      <id>60785</id>
       <innstilling_id>-1</innstilling_id>
       <innstilling_kode>ikke_spesifisert</innstilling_kode>
       <komite i:nil="true" />
-      <korttittel>Trontale</korttittel>
-      <sak_fremmet_id>60652</sak_fremmet_id>
+      <korttittel>Saker som Stortinget ikke har behandlet i sesjonen 2013-2014</korttittel>
+      <sak_fremmet_id>60785</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2014-10-06T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Hans Majestet Kongens tale til det 159. storting ved dets åpning og melding om Noregs rikes tilstand og styring (trontale)</tittel>
+      <sist_oppdatert_dato>2014-10-07T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Saker som Stortinget ikke har behandlet i sesjonen 2013-2014</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -38,12 +38,16 @@
       <id>60802</id>
       <innstilling_id>-1</innstilling_id>
       <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite i:nil="true" />
+      <komite>
+        <versjon>1.1</versjon>
+        <id>KOMMFORV</id>
+        <navn>Kommunal- og forvaltningskomiteen</navn>
+      </komite>
       <korttittel>Sametingets virksomhet 2013</korttittel>
       <sak_fremmet_id>60802</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2014-10-03T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
+      <sist_oppdatert_dato>2014-10-07T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
       <tittel>Sametingets virksomhet 2013</tittel>
       <type>alminneligsak</type>
     </sak>
@@ -56,12 +60,36 @@
       <id>60803</id>
       <innstilling_id>-1</innstilling_id>
       <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite i:nil="true" />
+      <komite>
+        <versjon>1.1</versjon>
+        <id>FAMKULT</id>
+        <navn>Familie- og kulturkomiteen</navn>
+      </komite>
       <korttittel>Oppheving av lov om forbud mot profesjonell boksing</korttittel>
       <sak_fremmet_id>60803</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2014-10-03T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.1</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Aasrud</etternavn>
+          <foedselsdato>1960-06-26T00:00:00</foedselsdato>
+          <fornavn>Rigmor</fornavn>
+          <id>RIAJ</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.1</versjon>
+            <id>Op</id>
+            <navn>Oppland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.1</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2014-10-07T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
       <tittel>Oppheving av lov om forbud mot profesjonell boksing</tittel>
       <type>lovsak</type>
     </sak>
@@ -83,12 +111,16 @@
       <id>60804</id>
       <innstilling_id>-1</innstilling_id>
       <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite i:nil="true" />
+      <komite>
+        <versjon>1.1</versjon>
+        <id>UFK</id>
+        <navn>Utenriks- og forsvarskomiteen</navn>
+      </komite>
       <korttittel>Nordisk samarbeid</korttittel>
       <sak_fremmet_id>60804</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2014-10-03T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
+      <sist_oppdatert_dato>2014-10-07T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
       <tittel>Nordisk samarbeid</tittel>
       <type>alminneligsak</type>
     </sak>
@@ -101,13 +133,89 @@
       <id>60808</id>
       <innstilling_id>-1</innstilling_id>
       <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite i:nil="true" />
+      <komite>
+        <versjon>1.1</versjon>
+        <id>VALG</id>
+        <navn>Valgkomiteen</navn>
+      </komite>
       <korttittel>Innberetning fra valgkomiteen om endring i de faste komiteers sammensetning</korttittel>
       <sak_fremmet_id>60808</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2014-10-02T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
+      <sist_oppdatert_dato>2014-10-07T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
       <tittel>Innberetning fra valgkomiteen om endring i de faste komiteers sammensetning</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.1</versjon>
+      <behandlet_sesjon_id>2014-2015</behandlet_sesjon_id>
+      <dokumentgruppe>redegjorelse</dokumentgruppe>
+      <emne_liste />
+      <henvisning i:nil="true" />
+      <id>60652</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite i:nil="true" />
+      <korttittel>Trontale</korttittel>
+      <sak_fremmet_id>60652</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2014-10-06T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Hans Majestet Kongens tale til det 159. storting ved dets åpning og melding om Noregs rikes tilstand og styring (trontale)</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.1</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>redegjorelse</dokumentgruppe>
+      <emne_liste />
+      <henvisning i:nil="true" />
+      <id>60651</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite i:nil="true" />
+      <korttittel>Finansministerens redegjørelse om regjeringens forslag til statsbudsjett og om nasjonalbudsjettet for 2015</korttittel>
+      <sak_fremmet_id>60651</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2014-10-01T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Finansministerens redegjørelse om regjeringens forslag til statsbudsjett og om nasjonalbudsjettet for 2015</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.1</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>dokumentserien</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 15 (2014-2015)</henvisning>
+      <id>60823</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite i:nil="true" />
+      <korttittel>Spørsmål til skriftlig besvarelse med svar</korttittel>
+      <sak_fremmet_id>60823</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2014-10-01T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Spørsmål til skriftlig besvarelse med svar</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.1</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>dokumentserien</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 14 (2014-2015)</henvisning>
+      <id>60828</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite i:nil="true" />
+      <korttittel>Årsrapport fra Stortingets delegasjon for arktisk parlamentarisk samarbeid for perioden 1. oktober 2013 til 12. september 2014</korttittel>
+      <sak_fremmet_id>60828</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2014-10-01T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Årsrapport fra Stortingets delegasjon for arktisk parlamentarisk samarbeid for perioden 1. oktober 2013 til 12. september 2014</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -274,7 +382,27 @@
       </komite>
       <korttittel>Samtykke til å sette i kraft en endringsprotokoll til skatteavtalen mellom Norge og Brasil av 21. august 1980</korttittel>
       <sak_fremmet_id>60621</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.1</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Solberg</etternavn>
+          <foedselsdato>1985-03-02T00:00:00</foedselsdato>
+          <fornavn>Torstein Tvedt</fornavn>
+          <id>TTS</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.1</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.1</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2014-09-30T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Samtykke til å sette i kraft en endringsprotokoll til skatteavtalen mellom Norge og Brasil av 21. august 1980, undertegnet i Brasilia 20. februar 2014</tittel>
@@ -296,7 +424,27 @@
       </komite>
       <korttittel>Samtykke til å sette i kraft en skatteavtale mellom Norge og Bulgaria</korttittel>
       <sak_fremmet_id>60622</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.1</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Hagebakken</etternavn>
+          <foedselsdato>1961-01-08T00:00:00</foedselsdato>
+          <fornavn>Tore</fornavn>
+          <id>TOHA</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.1</versjon>
+            <id>Op</id>
+            <navn>Oppland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.1</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2014-09-30T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Samtykke til å sette i kraft en skatteavtale mellom Norge og Bulgaria, undertegnet i Sofia 22. juli 2014</tittel>
@@ -318,7 +466,27 @@
       </komite>
       <korttittel>Samtykke til inngåelse av protokoll om Russlands tiltredelse til konvensjon om bygging og drift av et europeisk synkrotronstråleanlegg (ESRF)</korttittel>
       <sak_fremmet_id>60648</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.1</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Vinje</etternavn>
+          <foedselsdato>1963-06-10T00:00:00</foedselsdato>
+          <fornavn>Kristin</fornavn>
+          <id>KRV</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.1</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.1</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2014-09-30T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Samtykke til inngåelse av protokoll av 23. juni 2014 om Russlands tiltredelse til konvensjon av 16. desember 1988 om bygging og drift av et europeisk synkrotronstråleanlegg (ESRF)</tittel>
@@ -406,7 +574,27 @@
       </komite>
       <korttittel>Representantforslag om bedre svømmeundervisning i grunnskolen</korttittel>
       <sak_fremmet_id>60268</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.1</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Nybø</etternavn>
+          <foedselsdato>1981-05-14T00:00:00</foedselsdato>
+          <fornavn>Iselin</fornavn>
+          <id>IN</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.1</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.1</versjon>
+            <id>V</id>
+            <navn>Venstre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2014-09-30T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Christian Tynning Bjørnø, Tone Merete Sønsterud og Marianne Aasen om bedre svømmeundervisning i grunnskolen</tittel>
@@ -428,7 +616,27 @@
       </komite>
       <korttittel>Representantforslag om at det svares merverdiavgift fra utenlandske selskaper som driver innenlandsk transport av personer og gods i Norge (kabotasje)</korttittel>
       <sak_fremmet_id>60269</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.1</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Wickholm</etternavn>
+          <foedselsdato>1978-10-15T00:00:00</foedselsdato>
+          <fornavn>Truls</fornavn>
+          <id>TRUW</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.1</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.1</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2014-09-30T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Sverre Myrli, Kjell-Idar Juvik, Per Olaf Lundteigen og Janne Sjelmo Nordås om at det svares merverdiavgift fra utenlandske selskaper som driver innenlandsk transport av personer og gods i Norge (kabotasje)</tittel>
@@ -536,7 +744,27 @@
       </komite>
       <korttittel>Representantforslag om å gi unge som er innvilget uføretrygd, tilgang på hjelp og tiltak fra Nav for å komme i arbeid</korttittel>
       <sak_fremmet_id>60273</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.1</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Lundteigen</etternavn>
+          <foedselsdato>1953-04-18T00:00:00</foedselsdato>
+          <fornavn>Per Olaf</fornavn>
+          <id>POL</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.1</versjon>
+            <id>Bu</id>
+            <navn>Buskerud</navn>
+          </fylke>
+          <parti>
+            <versjon>1.1</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2014-09-30T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Karin Andersen og Heikki Eidsvoll Holmås om å gi unge som er innvilget uføretrygd, tilgang på hjelp og tiltak fra Nav for å komme i arbeid</tittel>
@@ -558,7 +786,27 @@
       </komite>
       <korttittel>Representantforslag om å gi unge under 25 år som ikke er i skole eller arbeid, rett til utdanning, kompetansegivende aktivitet, veiledning og/eller jobbtilbud innen tre måneder</korttittel>
       <sak_fremmet_id>60274</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.1</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Lundteigen</etternavn>
+          <foedselsdato>1953-04-18T00:00:00</foedselsdato>
+          <fornavn>Per Olaf</fornavn>
+          <id>POL</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.1</versjon>
+            <id>Bu</id>
+            <navn>Buskerud</navn>
+          </fylke>
+          <parti>
+            <versjon>1.1</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2014-09-30T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Karin Andersen og Snorre Serigstad Valen om å gi unge under 25 år som ikke er i skole eller arbeid, rett til utdanning, kompetansegivende aktivitet, veiledning og/eller jobbtilbud innen tre måneder</tittel>
@@ -580,7 +828,27 @@
       </komite>
       <korttittel>Representantforslag om ein handlingsplan for å styrkja symjeferdigheitane hjå born og unge</korttittel>
       <sak_fremmet_id>60284</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.1</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Nybø</etternavn>
+          <foedselsdato>1981-05-14T00:00:00</foedselsdato>
+          <fornavn>Iselin</fornavn>
+          <id>IN</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.1</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.1</versjon>
+            <id>V</id>
+            <navn>Venstre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2014-09-30T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag frå stortingsrepresentantane Kjersti Toppe og Heidi Greni om ein handlingsplan for å styrkja symjeferdigheitane hjå born og unge</tittel>
@@ -602,7 +870,27 @@
       </komite>
       <korttittel>Representantforslag om tidlig innsats i grunnskolen gjennom økt lærertetthet på 1.-4. trinn</korttittel>
       <sak_fremmet_id>60285</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.1</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Fylkesnes</etternavn>
+          <foedselsdato>1975-06-04T00:00:00</foedselsdato>
+          <fornavn>Torgeir Knag</fornavn>
+          <id>TKF</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.1</versjon>
+            <id>Tr</id>
+            <navn>Troms</navn>
+          </fylke>
+          <parti>
+            <versjon>1.1</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2014-09-30T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Anders Tyvand, Hans Fredrik Grøvan, Rigmor Andersen Eide og Geir S. Toskedal om tidlig innsats i grunnskolen gjennom økt lærertetthet på 1.-4. trinn</tittel>
@@ -1098,7 +1386,27 @@
       </komite>
       <korttittel>Lov om finansforetak og finanskonsern (finansforetaksloven)</korttittel>
       <sak_fremmet_id>60254</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.1</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Lunde</etternavn>
+          <foedselsdato>1973-02-03T00:00:00</foedselsdato>
+          <fornavn>Heidi Nordby</fornavn>
+          <id>HENL</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.1</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.1</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2014-06-20T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Lov om finansforetak og finanskonsern (finansforetaksloven)</tittel>
@@ -1262,28 +1570,6 @@
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste />
-      <henvisning>Dokument 8:84 S (2013-2014)</henvisning>
-      <id>60181</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.1</versjon>
-        <id>KIRKE</id>
-        <navn>Kirke-, utdannings- og forskningskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om å oppheve kravet om sammenhengende uttak av retten til videregående opplæring</korttittel>
-      <sak_fremmet_id>60181</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2014-06-17T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Anne Tingelstad Wøien, Kjersti Toppe, Jenny Følling og Heidi Greni om å oppheve kravet om sammenhengende uttak av retten til videregående opplæring</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.1</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
       <henvisning>Dokument 8:81 S (2013-2014)</henvisning>
       <id>60179</id>
       <innstilling_id>-1</innstilling_id>
@@ -1299,6 +1585,48 @@
       <sist_oppdatert_dato>2014-06-17T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Trine Skei Grande, Iselin Nybø og Abid Q. Raja om å opprette en egen lovavdeling på Stortinget</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.1</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 8:84 S (2013-2014)</henvisning>
+      <id>60181</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.1</versjon>
+        <id>KIRKE</id>
+        <navn>Kirke-, utdannings- og forskningskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om å oppheve kravet om sammenhengende uttak av retten til videregående opplæring</korttittel>
+      <sak_fremmet_id>60181</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.1</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Gudmundsen</etternavn>
+          <foedselsdato>1978-03-05T00:00:00</foedselsdato>
+          <fornavn>Kent</fornavn>
+          <id>KEG</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.1</versjon>
+            <id>Tr</id>
+            <navn>Troms</navn>
+          </fylke>
+          <parti>
+            <versjon>1.1</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2014-06-17T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Anne Tingelstad Wøien, Kjersti Toppe, Jenny Følling og Heidi Greni om å oppheve kravet om sammenhengende uttak av retten til videregående opplæring</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -1322,50 +1650,6 @@
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Martin Kolberg, Per Olaf Lundteigen, Bård Vegar Solhjell, Jette F. Christensen, Marit Arnstad, Karin Andersen og Gunvor Eldegard om ny bestemmelse om opplysningsplikt for statsråder og statssekretærer om tidligere oppdragsgivere og politiske og næringsmessige interesser</tittel>
       <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.1</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Meld. St. 25 (2013-2014)</henvisning>
-      <id>60173</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.1</versjon>
-        <id>UFK</id>
-        <navn>Utenriks- og forsvarskomiteen</navn>
-      </komite>
-      <korttittel>Utdanning for utvikling</korttittel>
-      <sak_fremmet_id>60173</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2014-06-16T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Utdanning for utvikling</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.1</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Meld. St. 26 (2013-2014)</henvisning>
-      <id>60177</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.1</versjon>
-        <id>NÆRING</id>
-        <navn>Næringskomiteen</navn>
-      </komite>
-      <korttittel>Fiskeriavtalane Noreg har inngått med andre land for 2014 og fisket etter avtalane i 2012 og 2013</korttittel>
-      <sak_fremmet_id>60177</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2014-06-16T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Fiskeriavtalane Noreg har inngått med andre land for 2014 og fisket etter avtalane i 2012 og 2013</tittel>
-      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.1</versjon>
@@ -1452,6 +1736,50 @@
       <status>til_behandling</status>
       <tittel>Endringer i vernepliktsloven og heimevernloven (allmenn verneplikt - verneplikt for kvinner)</tittel>
       <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.1</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Meld. St. 25 (2013-2014)</henvisning>
+      <id>60173</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.1</versjon>
+        <id>UFK</id>
+        <navn>Utenriks- og forsvarskomiteen</navn>
+      </komite>
+      <korttittel>Utdanning for utvikling</korttittel>
+      <sak_fremmet_id>60173</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2014-06-16T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Utdanning for utvikling</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.1</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Meld. St. 26 (2013-2014)</henvisning>
+      <id>60177</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.1</versjon>
+        <id>NÆRING</id>
+        <navn>Næringskomiteen</navn>
+      </komite>
+      <korttittel>Fiskeriavtalane Noreg har inngått med andre land for 2014 og fisket etter avtalane i 2012 og 2013</korttittel>
+      <sak_fremmet_id>60177</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2014-06-16T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Fiskeriavtalane Noreg har inngått med andre land for 2014 og fisket etter avtalane i 2012 og 2013</tittel>
+      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.1</versjon>
@@ -2301,48 +2629,6 @@
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste />
-      <henvisning>Dokument 8:68 S (2013-2014)</henvisning>
-      <id>59893</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.1</versjon>
-        <id>HELSEOMS</id>
-        <navn>Helse- og omsorgskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om flere og bedre tiltak for å bekjempe føflekkreft</korttittel>
-      <sak_fremmet_id>59893</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.1</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Stensland</etternavn>
-          <foedselsdato>1972-11-06T00:00:00</foedselsdato>
-          <fornavn>Sveinung</fornavn>
-          <id>SVES</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.1</versjon>
-            <id>Ro</id>
-            <navn>Rogaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.1</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2014-05-20T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Tove Karoline Knutsen, Freddy de Ruiter, Ruth Mari Grung, Audun Otterstad og Torgeir Micaelsen om flere og bedre tiltak for å bekjempe føflekkreft</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.1</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
       <henvisning>Dokument 8:66 S (2013-2014)</henvisning>
       <id>59890</id>
       <innstilling_id>-1</innstilling_id>
@@ -2378,6 +2664,48 @@
       <sist_oppdatert_dato>2014-05-20T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Heidi Greni, Per Olaf Lundteigen, Janne Sjelmo Nordås og Kjersti Toppe om styrking av barnevernet gjennom ny organisasjonsmodell</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.1</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 8:68 S (2013-2014)</henvisning>
+      <id>59893</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.1</versjon>
+        <id>HELSEOMS</id>
+        <navn>Helse- og omsorgskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om flere og bedre tiltak for å bekjempe føflekkreft</korttittel>
+      <sak_fremmet_id>59893</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.1</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Stensland</etternavn>
+          <foedselsdato>1972-11-06T00:00:00</foedselsdato>
+          <fornavn>Sveinung</fornavn>
+          <id>SVES</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.1</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.1</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2014-05-20T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Tove Karoline Knutsen, Freddy de Ruiter, Ruth Mari Grung, Audun Otterstad og Torgeir Micaelsen om flere og bedre tiltak for å bekjempe føflekkreft</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -2756,24 +3084,6 @@
       <sist_oppdatert_dato>2014-02-25T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Kjell Ingolf Ropstad, Rigmor Andersen Eide og Olaug V. Bollestad om endringer i straffeloven om minstetid, permisjoner og ettervern for forvaringsdømte</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.1</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
-      <emne_liste />
-      <henvisning i:nil="true" />
-      <id>60785</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite i:nil="true" />
-      <korttittel>Saker som Stortinget ikke har behandlet i sesjonen 2013-2014</korttittel>
-      <sak_fremmet_id>60785</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2013-10-01T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Saker som Stortinget ikke har behandlet i sesjonen 2013-2014</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
