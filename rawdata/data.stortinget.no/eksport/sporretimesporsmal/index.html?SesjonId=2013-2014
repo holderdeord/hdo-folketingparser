@@ -2083,6 +2083,14 @@
           <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>66</id>
+          <navn>SYKDOMMER</navn>
+          <underemne_liste />
+        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -2154,6 +2162,14 @@
           <navn>LANDBRUK</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>95</id>
+          <navn>LØNN</navn>
+          <underemne_liste />
+        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -2195,7 +2211,7 @@
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om statsråden mener at en prosentvis lik inntektsutvikling de neste årene vil _øke eller redusere inntektsforskjellene mellom landbruket og andre grupper_</tittel>
+      <tittel>om statsråden mener at en prosentvis lik inntektsutvikling de neste årene vil øke eller redusere _inntektsforskjellene mellom landbruket og andre grupper_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -2217,6 +2233,14 @@
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2014-05-22T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>69</id>
+          <navn>LANDBRUKSPRODUKTER</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
@@ -2416,7 +2440,7 @@
       <sporsmal_til_minister_id>FD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>forsvarsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hvordan statsråden vurderer _status for gjennomføringen av den store og omfattende omstillingen i Luftforsvaret_</tittel>
+      <tittel>om hvordan statsråden vurderer status for gjennomføringen av den store og _omfattende omstillingen i Luftforsvaret_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -3112,6 +3136,14 @@
         </emne>
         <emne>
           <versjon>1.1</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>184</hovedemne_id>
           <id>220</id>
@@ -3159,7 +3191,7 @@
       <sporsmal_til_minister_id>KMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kommunal- og moderniseringsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om kommunalministeren kan bekrefte at han står ved sine tidligere uttalelser om at _berørte bedrifter skal kompenseres krone for krone_, eller har regjeringen på dette området løpt vekk fra sine tidligere utsagn og løfter</tittel>
+      <tittel>om kommunalministeren kan bekrefte at han står ved sine tidligere uttalelser om at _berørte bedrifter skal kompenseres for omlegging av arbeidsgiveravgift_, eller har regjeringen på dette området løpt vekk fra sine tidligere utsagn og løfter</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -3258,14 +3290,6 @@
           <hovedemne_id>40</hovedemne_id>
           <id>42</id>
           <navn>BARNEHAGER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.1</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>187</hovedemne_id>
-          <id>185</id>
-          <navn>STATSBUDSJETTET</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -4986,6 +5010,14 @@
           <hovedemne_id>4</hovedemne_id>
           <id>4</id>
           <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.1</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>4</hovedemne_id>
+          <id>71</id>
+          <navn>ELEKTRISITET</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
