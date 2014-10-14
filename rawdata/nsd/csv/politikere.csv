@@ -1,4 +1,4 @@
-person_id,personlegid,initials,first_name,last_name,position_no,position_en,party_id,period_id,constituency_code_new,constituency_name,rep_id,sup_id
+person_id,personal_id,initials,first_name,last_name,position_no,position_en,party_id,period_id,constituency_code_new,constituency_name,rep_id,sup_id
 10206,,,Joakim Sveder,,Læge,Physician,62,68,16011,,,1
 10206,,,Joakim Sveder,,Læge,"Physician, captain in the medi",62,71,88623,,4,
 10206,,,Joakim Sveder,,Læge,"Physician, captain in the medi",62,74,88623,,5,
@@ -244,7 +244,7 @@ person_id,personlegid,initials,first_name,last_name,position_no,position_en,part
 1193,1277,ALJA,Alf E.,Jakobsen,Kst. helsesjef,Acting head of (local) health services,21,134,20900,Finnmark fylke,,1
 1193,1277,ALJA,Alf E.,Jakobsen,Ordfører,Mayor,21,146,20900,Finnmark fylke,,1
 1193,1277,ALJA,Alf E.,Jakobsen,Ordfører,Mayor,21,150,20900,Finnmark fylke,,1
-31262,,,Alf Egil,Holmelid,Sivilingeniør,Civil Engineer,14,154,10900.0,Vest-Agder fylke,1,
+31262,,,Alf Egil,Holmelid,Sivilingeniør,Civil Engineer,14,154,10900,Vest-Agder fylke,1,
 26014,33,ALAN,Alf Henry,Andersen,,,21,90,2900,Akershus fylke,,2
 27091,2124,AIS,Alf Ivar,Samuelsen,"Helse, sosialsjef",Head of (local) health and social services,41,150,18900,Nordland fylke,7,
 12027,,,Alf Jensen Veum Hansen,Mjøen,Kaptein,Captain,32,62,5130,3.Toten,1,
@@ -798,7 +798,7 @@ person_id,personlegid,initials,first_name,last_name,position_no,position_en,part
 12472,,,Apollonius Liljedahl Johanness,Rosenlund,Kirkesanger,Precentor,31,65,14150,5. Nordfjord,1,
 2144,1896,ARN,Are,Næss,Professor,Professor,51,138,12900,Hordaland fylke,5,
 2144,1896,ARN,Are,Næss,Professor,Professor,51,142,12900,Hordaland fylke,2,
-31261,,,Are,Helseth,Lege,Physician,21,154,2900.0,Akershus fylke,,
+31261,,,Are,Helseth,Lege,Physician,21,154,2900,Akershus fylke,,
 322,1078,ARHE,Arent Mikal,Henriksen,Lærer,Teacher,13,118,16900,Sør-Trøndelag fylke,10,
 322,1078,ARHE,Arent Mikal,Henriksen,Instituttsjef,Head of institute,14,126,16900,Sør-Trøndelag fylke,10,
 322,1078,ARHE,Arent Mikal,Henriksen,Instituttsjef,Head of institute,14,130,16900,Sør-Trøndelag fylke,9,
@@ -1427,8 +1427,8 @@ person_id,personlegid,initials,first_name,last_name,position_no,position_en,part
 30686,5004433,BSA,Bjørg Kirsten,Sandal,,,21,150,11900,Rogaland fylke,,5
 30646,5004436,BTM,Bjørg Tysdal,Moe,,,51,150,11900,Rogaland fylke,,3
 30678,5004430,BJOO,Bjørg-Irene,Østrem,Psykiatrisk sykepleier,Psychiatric nurse,31,150,20900,Finnmark fylke,,1
-2086,760,BJFR,Bjørgulv,Froyn,Bussjåfør,Bus driver,21,146,3900,Oslo,9,
-2086,760,BJFR,Bjørgulv Bjønnes,Froyn,,,14,122,3900,Oslo,,2
+2086,760,BJFR,Bjørgulv Bjønnes,Froyn,Bussjåfør,Bus driver,21,146,3900,Oslo,9,
+2086,760,BJFR,Bjørgulv Bjønnes,Froyn,Bussjåfør,,14,122,3900,Oslo,,2
 827,2592,BJUE,Bjørn,Unneberg,Kontorsjef,Office manager,41,114,2900,Akershus fylke,4,
 827,2592,BJUE,Bjørn,Unneberg,Kontorsjef,Office manager,41,118,2900,Akershus fylke,7,
 1352,2368,BJST,Bjørn,Stordrange,Vitenskaplig assistent,Scientific assistant,71,126,10900,Vest-Agder fylke,,1
@@ -1536,7 +1536,7 @@ person_id,personlegid,initials,first_name,last_name,position_no,position_en,part
 26884,1133,BÅH,Bård André,Hoksrud,"Organisasjonssekretær, formann FpU","Organizational secretary, leader of the Progress P",81,146,8900,Telemark fylke,,1
 2206,747,BÅFF,Bård Folke,Fredriksen,Student,Student,71,138,3900,Oslo,,3
 30467,5004043,BGP,Bård Glad,Pedersen,Siviløkonom,Master of Business Administration,71,146,18900,Nordland fylke,,2
-31094,,,Bård Vegar,Solhjell,,,14,154,2900.0,Akershus fylke,1,
+31094,,,Bård Vegar,Solhjell,,,14,154,2900,Akershus fylke,1,
 30435,5004060,CJ,Camilla,Johannessen,,,71,146,7900,Vestfold fylke,,2
 11792,,,Carelius Pedersen,Larsmon,Gaardbruker,Farmer,31,59,4130,3. Vinger og Odalen,1,
 325,1084,CAHE,Carl,Henry,Forretningsfører,Business manager,21,90,7840,"Holmestrand, Horten, Tønsberg, Sandefjord, Larvik, Stavern",3,
@@ -2705,7 +2705,7 @@ person_id,personlegid,initials,first_name,last_name,position_no,position_en,part
 263,887,FIGU,Finn Rudolf,Gustavsen,Journalist,Journalist,13,118,3900,Oslo,5,
 2171,1187,FISH,Finn Sture,Hultgreen,Bonde,Farmer,14,138,18900,Nordland fylke,,1
 11599,,,Francis,Kjeldsberg,"Kjøbmann, vicekonsul","Merchant, vice-consul",71,74,88623,Trondhjem og Levanger,,1
-31264,,,Frank Bakke,Jensen,,,71,154,20900.0,Finnmark fylke,,
+31264,,,Frank Bakke,Jensen,,,71,154,20900,Finnmark fylke,,
 30352,5004082,FES,Frank Edvard,Sve,Selvstendig næringsdrivende,Self-employed,81,146,15900,Møre og Romsdal fylke,,4
 4071,1527,FWL,Frank Willy,Larsen,Lærer,Teacher,21,142,6900,Buskerud fylke,,1
 10478,,,Frantz,Bull,Kjøbmand,Merchant,98,7,7050,Tønsberg,1,
@@ -4294,7 +4294,7 @@ person_id,personlegid,initials,first_name,last_name,position_no,position_en,part
 2077,2669,INVL,Ingebjørg,Vaale,,,51,122,8900,Telemark fylke,,2
 13243,2763,INØI,Ingebjørg,Øisang,Husmor,Housewife,21,86,88623,Trondhjem og Levanger,,1
 26327,1985,INPS,Ingebjørg,Prestegard,,,41,118,12900,Hordaland fylke,,2
-31255,,,Ingebjørg,Godskesen,,,81,154,9900.0,Aust-Agder fylke,,
+31255,,,Ingebjørg,Godskesen,,,81,154,9900,Aust-Agder fylke,,
 26466,2740,INWÆ,Ingebjørg Ninni,Wærstad,,,41,118,8900,Telemark fylke,,2
 82,366,INBO,Ingeborg,Botnen,Biblioteksjef,Library manager,21,126,8900,Telemark fylke,3,
 82,366,INBO,Ingeborg,Botnen,Biblioteksjef,Library manager,21,130,8900,Telemark fylke,1,
@@ -4417,8 +4417,8 @@ person_id,personlegid,initials,first_name,last_name,position_no,position_en,part
 30393,5004123,IIO,Ingrid I.,Opedal,"Tunvert, fysioterapeut","Yard host, physiotherapist",14,150,15900,Møre og Romsdal fylke,,1
 871,2720,INWI,Ingrid Isaachsen,Willoch,Husmor,Housewife,71,130,7900,Vestfold fylke,3,
 871,2720,INWI,Ingrid Isaachsen,Willoch,Husmor,Housewife,71,134,7900,Vestfold fylke,5,
-871,2720,INWI,Ingrid Isaachsen Willoch,Bjanger,Husmor,Housewife,71,122,7900,Vestfold fylke,,1
-871,2720,INWI,Ingrid Isaachsen Willoch,Willoch,Husmor,Housewife,71,126,7900,Vestfold fylke,7,
+871,2720,INWI,Ingrid Isaachsen,Willoch,Husmor,Housewife,71,122,7900,Vestfold fylke,,1
+871,2720,INWI,Ingrid Isaachsen,Willoch,Husmor,Housewife,71,126,7900,Vestfold fylke,7,
 26371,2252,INSO,Ingrid Johanna,Skotte,,,21,98,2900,Akershus fylke,,3
 30878,5004510,IAF,Ingunn,Foss,,,71,150,10900,Vest-Agder fylke,,2
 30883,5004514,IGJ,Ingunn,Gjerstad,,,14,150,3900,Oslo,,3
@@ -7291,7 +7291,7 @@ person_id,personlegid,initials,first_name,last_name,position_no,position_en,part
 724,2270,MASM,Martin,Smeby,Fabrikkarbeider,Factory worker,21,94,5900,Oppland fylke,4,
 724,2270,MASM,Martin,Smeby,Fabrikkarbeider,Factory worker,21,98,5900,Oppland fylke,4,
 2025,1428,MAKO,Martin,Kolberg,Sekretariatsleder,Leader of (party-) secretariat,21,146,6900,Buskerud fylke,,1
-2025,1428,MAKO,Martin,Kolberg,,,21,154,6900.0,Buskerud fylke,,
+2025,1428,MAKO,Martin,Kolberg,,,21,154,6900,Buskerud fylke,,
 2185,616,MARE,Martin,Engeset,Revisjonsmedarbeider,Revision co-worker,71,138,1900,Østfold fylke,,1
 2185,616,MARE,Martin,Engeset,Selvstendig næringsdrivende,Self-employed,71,146,1900,Østfold fylke,2,
 2185,616,MARE,Martin,Engeset,Selvstendig næringsdrivende,Self-employed,71,150,1900,Østfold fylke,5,
@@ -9480,7 +9480,7 @@ person_id,personlegid,initials,first_name,last_name,position_no,position_en,part
 221,767,PEFU,Petter Verner,Furberg,Kalkulatør,Calculator,21,122,7900,Vestfold fylke,3,
 2191,1652,PETL,Petter Åsmund,Løvik,Kjøpmann,Merchant,71,138,15900,Møre og Romsdal fylke,,1
 2191,1652,PETL,Petter Åsmund,Løvik,Siviløkonom,Master of Business Administration,71,142,15900,Møre og Romsdal fylke,5,
-30156,5004240,PLD,Phu  Quoc,Le Duong,,,71,146,2900.0,Akershus fylke,,8
+30156,5004240,PLD,Phu  Quoc,Le Duong,,,71,146,2900,Akershus fylke,,8
 ,,Læge,Physician,62,68,16011,,,1,,,
 ,,Læge,"Physician, captain in the medi",62,71,88623,,4,,,,
 ,,Læge,"Physician, captain in the medi",62,74,88623,,5,,,,
@@ -10177,7 +10177,7 @@ person_id,personlegid,initials,first_name,last_name,position_no,position_en,part
 30746,5004389,SAG,Svein,Gjelseth,,,21,150,15900,Møre og Romsdal fylke,,1
 30746,5004389,SAG,Svein,Gjelseth,,,21,154,15900,Møre og Romsdal fylke,,1
 30749,5004645,SBRE,Svein,Brevik,,,81,150,16900,Sør-Trøndelag fylke,,4
-31258,,,Svein,Harberg,,,71,154,9900.0,Aust-Agder fylke,,
+31258,,,Svein,Harberg,,,71,154,9900,Aust-Agder fylke,,
 30434,4030,SAF,Svein Arne,Flåtten,Bedriftsleder,Company manager,71,146,7900,Vestfold fylke,1,
 2281,2059,SVAR,Svein Atle,Roseth,Distriktssjef,District manager,51,138,15900,Møre og Romsdal fylke,,2
 2281,2059,SVAR,Svein Atle,Roseth,"Investeringsrådgjevar, spesialpeda","Investeringsrådgjevar, educationalist (Norw. <em>'",51,146,15900,Møre og Romsdal fylke,,3
