@@ -1,0 +1,149 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+require 'csv'
+require 'pry'
+require 'json'
+
+#
+# usage: ./tools/nsd-denormalize-votes rawdata/nsd/csv/voteringer.122.124.csv
+#
+
+SESSIONS = {
+  "124" => "1979-1980",
+  "125" => "1980-1981",
+  "126" => "1981-1982",
+  "127" => "1982-1983",
+  "128" => "1983-1984",
+  "129" => "1984-1985",
+  "130" => "1985-1986",
+  "131" => "1986-1987",
+  "132" => "1987-1988",
+  "133" => "1988-1989",
+  "134" => "1989-1990",
+  "135" => "1990-1991",
+  "136" => "1991-1992",
+  "137" => "1992-1993",
+  "138" => "1993-1994",
+  "139" => "1994-1995",
+  "140" => "1995-1996",
+  "141" => "1996-1997",
+  "142" => "1997-1998",
+  "143" => "1998-1999",
+  "144" => "1999-2000",
+  "145" => "2000-2001",
+  "146" => "2001-2002",
+  "147" => "2002-2003",
+  "148" => "2003-2004",
+  "149" => "2004-2005",
+  "150" => "2005-2006",
+  "151" => "2006-2007",
+  "152" => "2007-2008",
+  "153" => "2008-2009",
+  "154" => "2009-2010"
+}
+
+# http://www.nsd.uib.no/polsys/index.cfm?urlname=storting&lan=&tabellnavn=Vot_personvotering&nlab=39&MenuItem=N1_1&ChildItem=&State=collapse
+PARTIES = {
+  '11'  => 'Rød Valgallianse',
+  '13'  => 'Sosialistisk Valgforbund',
+  '14'  => 'Sosialistisk Venstreparti',
+  '21'  => 'Arbeiderpartier',
+  '23'  => 'Folkeaksjonen Framtid for Finnmark',
+  '24'  => 'Tverrpolitisk Folkevalgte',
+  '31'  => 'Venstre',
+  '41'  => 'Senterpartier',
+  '51'  => 'Kristelig Folkeparti',
+  '61'  => 'Det Nye Folkepartiet / Det Liberale Folkepartiet',
+  '71'  => 'Høyre',
+  '81'  => 'Fremskrittspartiet',
+  '98'  => 'Uavhengige',
+  '238' => 'Kystpartiet'
+}
+
+CHAMBERS = {
+  "1" => "Stortinget i plenum",
+  "2" => "Odelsting"
+}
+
+RESULTS = {
+  '1' => 'for',
+  '2' => 'against'
+}
+
+
+def denorm(mem, name, obj) 
+  prefix = "#{name}_"
+  obj.each { |k,v| mem[k.start_with?(prefix) ? k : "#{prefix}#{k}" ] = v }
+end
+
+def find_right_person(vote, people)
+  found = nil
+
+  if people.size == 1
+    found = people.first 
+  else
+    begin
+      raise "multiple initials found for a person_id: #{JSON.pretty_generate(people)}" unless people.map { |e| e['initials'] }.sort.uniq.size == 1
+      raise "multiple first_name for a person_id: #{JSON.pretty_generate(people)}" unless people.map { |e| e['first_name'] }.sort.uniq.size == 1
+      raise "multiple last_name for a person_id: #{JSON.pretty_generate(people)}" unless people.map { |e| e['last_name'] }.sort.uniq.size == 1
+    rescue
+      if %w[].include?(people.first['initials'])
+        return
+      else
+        raise
+      end
+    end
+
+    period = vote['PERIODE']
+    period_matches = people.select { |e| e['period_id'] == period }
+    
+    found = if period_matches.size == 1
+              period_matches.first
+            elsif period_matches.size > 1
+              period_matches.sort_by { |e| e.values.compact.size }.last
+            else
+              people.sort_by { |e| e.values.compact.size }.last
+            end
+  end
+
+  if vote['PARTI'] != found['party_id'] 
+    a, b = PARTIES.fetch(vote['PARTI']), PARTIES.fetch(found['party_id'])
+    STDERR.puts "party id mismatch - #{a} vs #{b}\nvote: #{JSON.generate vote.to_h}\npeople: #{JSON.pretty_generate people}"
+    STDERR.puts '*' * 80
+  else
+    found['party_name'] = PARTIES.fetch(found['party_id'])
+  end
+
+  found
+end
+
+politikere = Hash.new { |h,k| h[k] = [] }
+politician_archive_file = File.expand_path('../../rawdata/nsd/csv/politikere.csv', __FILE__)
+CSV.parse(File.open(politician_archive_file, 'r'), headers: true).each do |row|
+  politikere[row['person_id']] << row.to_h
+end
+
+result = []
+
+input_file = ARGV.first
+CSV.parse(File.read(input_file), headers: true).each do |row|
+  r = {}
+
+  found = politikere[row['PERSON']]
+
+  if found.empty?
+    raise "not found: #{row.inspect}" 
+  end
+
+  person = find_right_person(row, found) or next
+  denorm(r, 'person', person)
+  row.to_h.each { |k,v| r[k.downcase] = v }
+
+  r['session_name'] = SESSIONS.fetch(r['ses'])
+  r['chamber_name'] = CHAMBERS.fetch(r['sal'])
+  r['result']       = RESULTS.fetch(r['votering'])
+
+  result << r
+
+  puts JSON.pretty_generate r
+end
