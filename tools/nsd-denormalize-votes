@@ -228,9 +228,11 @@ CSV.parse(File.read(input_file), headers: true).each do |row|
   denorm(r, 'person', person)
   row.to_h.each { |k,v| r[k.downcase] = v }
 
-  r['session_name'] = SESSIONS.fetch(r['ses'])
-  r['chamber_name'] = CHAMBERS.fetch(r['sal'])
-  r['result']       = RESULTS.fetch(r['votering'])
+  r['vote_id']      = r.delete('num')
+  r['period_id']    = r.delete('periode')
+  r['session_name'] = SESSIONS.fetch(r.delete('ses'))
+  r['chamber_name'] = CHAMBERS.fetch(r.delete('sal'))
+  r['vote_result']  = RESULTS.fetch(r.delete('votering'))
 
   result << r
 
