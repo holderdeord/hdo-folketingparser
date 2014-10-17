@@ -189,36 +189,46 @@ def find_right_person(vote, people)
   found
 end
 
-politikere = Hash.new { |h,k| h[k] = [] }
+politicians = Hash.new { |h,k| h[k] = [] }
 politician_archive_file = File.expand_path('../../rawdata/nsd/csv/politikere.csv', __FILE__)
 CSV.parse(File.open(politician_archive_file, 'r'), headers: true).each do |row|
-  politikere[row['person_id']] << row.to_h
+  politicians[row['person_id']] << row.to_h
+end
+
+def issue_key(obj)
+  [obj['PERIODE'], obj['SES'], obj['SAL'], obj['KART'], obj['SAK'], obj['VOTNR']]
+end
+
+issues = Hash.new { |h,k| h[k] = [] }
+issues_file = File.expand_path('../../rawdata/nsd/csv/saker.csv', __FILE__)
+CSV.parse(File.open(issues_file, 'r'), headers: true).each do |row|
+  issues[issue_key(row)] = row.to_h
 end
 
 csvstr = CSV.generate do |csv|
-  ARGV.each do |file, file_idx|
+  ARGV.each_with_index do |file, file_idx|
     CSV.parse(File.read(file), headers: true).each_with_index do |row, row_idx|
       r = {}
       row.to_h.keys.sort.each { |k,v| r[k.downcase] = row[k] }
 
-      found = politikere[row['PERSON']]
+      people = politicians[row['PERSON']]
 
-      if found.any?
-        person = find_right_person(row, found)
-
-        r['person_id']                    = person && person['person_id']
-        r['person_initials']              = person && person['person_initials']
-        r['person_first_name']            = person && person['last_name']
-        r['person_position_no']           = person && person['position_no']
-        r['person_position_en']           = person && person['position_en']
-        r['person_party_id']              = person && person['party_id']
-        r['person_party_name']            = person && person['party_name']
-        r['person_constituency_code_new'] = person && person['constituency_code_new']
-        r['person_constituency_name']     = person && person['constituency_name']
-        r['person_rep_id']                = person && person['rep_id']
-        r['person_sup_id']                = person && person['sup_id']
+      if people.any?
+        person = find_right_person(row, people)
+      else
+        person = nil
       end
 
+      r['person_id']                = person && person['person_id']
+      r['person_initials']          = person && person['initials']
+      r['person_first_name']        = person && person['first_name']
+      r['person_last_name']         = person && person['last_name']
+      r['person_position_no']       = person && person['position_no']
+      r['person_position_en']       = person && person['position_en']
+      r['person_party_id']          = person && person['party_id']
+      r['person_party_name']        = person && person['party_name']
+      r['person_constituency_code'] = person && person['constituency_code_new']
+      r['person_constituency_name'] = person && person['constituency_name']
 
       r['vote_id']           = 'nsd-' + r.delete('num')
       r['vote_period_id']    = r.delete('periode')
@@ -227,11 +237,33 @@ csvstr = CSV.generate do |csv|
       r['vote_session_name'] = SESSIONS.fetch(r.delete('ses'))
       r['vote_chamber_name'] = CHAMBERS.fetch(r.delete('sal'))
       r['vote_result']       = RESULTS.fetch(r.delete('votering'))
-      r['vote_map']          = r.delete('kart')
-      r['vote_issue']        = r.delete('sak')
       r['vote_number']       = r.delete('votnr')
       r['vote_seat_number']  = r.delete('setenr')
 
+      # TODO: issue data
+      issue = issues[issue_key(row)]
+      issue or raise "no issue for #{r.inspect}" 
+      
+      r['issue_date']                 = issue['DATO']
+      r['issue_time']                 = issue['TID']
+      r['issue_type']                 = issue['TYPSAK']
+      # r['issue_type_name']       ## TODO
+      r['issue_vote_type']            = issue['VOTTYP']
+      # r['issue_vote_type_name']  ## TODO     
+      r['issue_committee']            = issue['KOMITE']
+      # r['issue_committee_name']  ## TODO          
+      r['issue_reference']            = issue['SAKSREFERANSE']
+      r['issue_register']             = issue['SAKSREGISTER']
+      r['issue_subject']              = issue['EMNE']
+      # r['issue_subject_name']    ## TODO       
+      r['issue_president']            = issue['PRESIDENT']
+      r['issue_president_party_id']   = issue['PRESIDENTPARTI']
+      r['issue_president_party_name'] = PARTIES[issue['PRESIDENTPARTI']]
+      r['issue_internal_comment']     = issue['INTERNKOMMENTAR']
+      r['issue_href']                 = issue['Lenke']
+
+      r.delete('kart')
+      r.delete('sak')
       r.delete('person')
 
       if file_idx == 0 && row_idx == 0
