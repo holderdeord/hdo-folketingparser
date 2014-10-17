@@ -171,17 +171,7 @@ def find_right_person(vote, people)
   if people.size == 1
     found = people.first 
   else
-    begin
-      raise "multiple initials found for a person_id: #{JSON.pretty_generate(people)}" unless people.map { |e| e['initials'] }.sort.uniq.size == 1
-      raise "multiple first_name for a person_id: #{JSON.pretty_generate(people)}" unless people.map { |e| e['first_name'] }.sort.uniq.size == 1
-      raise "multiple last_name for a person_id: #{JSON.pretty_generate(people)}" unless people.map { |e| e['last_name'] }.sort.uniq.size == 1
-    rescue
-      if %w[].include?(people.first['initials'])
-        return
-      else
-        raise
-      end
-    end
+    raise "multiple initials found for a person_id: #{JSON.pretty_generate(people)}" unless people.map { |e| e['initials'] }.sort.uniq.size == 1
 
     period = vote['PERIODE']
     period_matches = people.select { |e| e['period_id'] == period }
@@ -195,14 +185,7 @@ def find_right_person(vote, people)
             end
   end
 
-  if vote['PARTI'] != found['party_id'] 
-    a, b = PARTIES.fetch(vote['PARTI']), PARTIES.fetch(found['party_id'])
-    STDERR.puts "party id mismatch - #{a} vs #{b}\nvote: #{JSON.generate vote.to_h}\npeople: #{JSON.pretty_generate people}"
-    STDERR.puts '*' * 80
-  else
-    found['party_name'] = PARTIES.fetch(found['party_id'])
-  end
-
+  found['party_name'] = PARTIES.fetch(found['party_id'])
   found
 end
 
@@ -212,29 +195,52 @@ CSV.parse(File.open(politician_archive_file, 'r'), headers: true).each do |row|
   politikere[row['person_id']] << row.to_h
 end
 
-result = []
+csvstr = CSV.generate do |csv|
+  ARGV.each do |file, file_idx|
+    CSV.parse(File.read(file), headers: true).each_with_index do |row, row_idx|
+      r = {}
+      row.to_h.keys.sort.each { |k,v| r[k.downcase] = row[k] }
 
-input_file = ARGV.first
-CSV.parse(File.read(input_file), headers: true).each do |row|
-  r = {}
+      found = politikere[row['PERSON']]
 
-  found = politikere[row['PERSON']]
+      if found.any?
+        person = find_right_person(row, found)
 
-  if found.empty?
-    raise "not found: #{row.inspect}" 
+        r['person_id']                    = person && person['person_id']
+        r['person_initials']              = person && person['person_initials']
+        r['person_first_name']            = person && person['last_name']
+        r['person_position_no']           = person && person['position_no']
+        r['person_position_en']           = person && person['position_en']
+        r['person_party_id']              = person && person['party_id']
+        r['person_party_name']            = person && person['party_name']
+        r['person_constituency_code_new'] = person && person['constituency_code_new']
+        r['person_constituency_name']     = person && person['constituency_name']
+        r['person_rep_id']                = person && person['rep_id']
+        r['person_sup_id']                = person && person['sup_id']
+      end
+
+
+      r['vote_id']           = 'nsd-' + r.delete('num')
+      r['vote_period_id']    = r.delete('periode')
+      r['vote_party_id']     = r['parti']
+      r['vote_party_name']   = PARTIES.fetch(r.delete('parti'))
+      r['vote_session_name'] = SESSIONS.fetch(r.delete('ses'))
+      r['vote_chamber_name'] = CHAMBERS.fetch(r.delete('sal'))
+      r['vote_result']       = RESULTS.fetch(r.delete('votering'))
+      r['vote_map']          = r.delete('kart')
+      r['vote_issue']        = r.delete('sak')
+      r['vote_number']       = r.delete('votnr')
+      r['vote_seat_number']  = r.delete('setenr')
+
+      r.delete('person')
+
+      if file_idx == 0 && row_idx == 0
+        csv << r.keys
+      end
+
+      csv << r.values
+    end
   end
-
-  person = find_right_person(row, found) or next
-  denorm(r, 'person', person)
-  row.to_h.each { |k,v| r[k.downcase] = v }
-
-  r['vote_id']      = r.delete('num')
-  r['period_id']    = r.delete('periode')
-  r['session_name'] = SESSIONS.fetch(r.delete('ses'))
-  r['chamber_name'] = CHAMBERS.fetch(r.delete('sal'))
-  r['vote_result']  = RESULTS.fetch(r.delete('votering'))
-
-  result << r
-
-  puts JSON.pretty_generate r
 end
+
+puts csvstr
