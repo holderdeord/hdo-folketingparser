@@ -159,6 +159,98 @@ RESULTS = {
   '2' => 'against'
 }
 
+ISSUE_TYPES = {
+  "1"  => "Innstilling til Stortinget på bakgrunn av stortingsproposisjon",
+  "2"  => "Innstilling til Stortinget på bakgrunn av stortingsmelding",
+  "3"  => "Innstilling til Stortinget på bakgrunn av andre dokument (Dok.nr.)",
+  "4"  => "Budsjettinnstilling til Stortinget",
+  "5"  => "Innstilling til Odelstinget på bakgrunn av odelstingsproposisjon",
+  "6"  => "Innstilling til Odelstinget på bakgrunn av odelstingsmelding",
+  "7"  => "Innstilling til Odelstinget på bakgrunn av andre dokument (Dok.nr.)",
+  "8"  => "Uaktuell",
+  "9"  => "Mangler data",
+  "10" => "Innstilling til Stortinget på bakgrunn av stortingsproposisjon og stortingsmelding",
+  "11" => "Innstilling til Stortinget på bakgrunn av stortingsproposisjon og andre dokument",
+  "12" => "Innstilling til Stortinget på bakgrunn av stortingsmelding og andre dokument",
+  "13" => "Innstilling til Odelstinget på bakgrunn av odeltingsproposisjon og andre dokument",
+  "14" => "Innstilling til Odelstinget på bakgrunn av odeltingsproposisjon og odeltingsmelding"
+}
+
+VOTE_TYPES = {
+  "1" => "Votering over innstillingens forslag",
+  "2" => "Votering over personlig forslag",
+  "3" => "Alternativ votering mellom innstillingen og det personlige forslag",
+  "4" => "Alternativ votering mellom to personlige forslag",
+  "9" => "Mangler data (prosedyre, president, Lagting, Odelsting)"
+}
+
+COMMITTEES = {
+  "20"    => "Justiskomiteen (av 1919)",
+  "40"    => "Landbrukskomiteen",
+  "60"    => "Sjøfarts- og fiskerikomiteen",
+  "70"    => "Sosialkomiteen",
+  "90"    => "Utenrikskomiteen",
+  "91"    => "Utenriks- og konstitusjonskomiteen",
+  "110"   => "Finanskomiteen (av 1967)",
+  "120"   => "Forsvarskomiteen",
+  "130"   => "Energi- og industrikomiteen",
+  "131"   => "Industrikomiteen",
+  "141"   => "Kommunal- og miljøvernkomiteen",
+  "150"   => "Forbruker- og administrasjonskomiteen",
+  "151"   => "Administrasjonskomiteen",
+  "160"   => "Kirke- og undervisningskomiteen",
+  "170"   => "Samferdselskomiteen",
+  "180"   => "Energi- og miljøkomiteen",
+  "190"   => "Familie-, kultur- og administrasjonskomiteen",
+  "200"   => "Kirke-, utdannings- og forskningskomiteen",
+  "210"   => "Kontroll- og konstitusjonskomiteen",
+  "220"   => "Næringskomiteen",
+  "300"   => "Arbeids- og sosialkomiteen",
+  "310"   => "Familie- og kulturkomiteen",
+  "320"   => "Helse- og omsorgskomiteen",
+  "330"   => "Kommunal- og forvaltningskomiteen",
+  "340"   => "Transport- og kommunikasjonskomiteen",
+  "1010"  => "Den utvidede utenrikskomiteen",
+  "1030"  => "Den forberedende fullmaktskomite",
+  "1040"  => "Fullmaktskomiteen",
+  "1050"  => "Valgkomiteen",
+  "1070"  => "Kontrollkomiteen",
+  "8000"  => "Lagtinget",
+  "8010"  => "Odelstinget",
+  "8020"  => "Redegjørelse",
+  "8030"  => "Trontale",
+  "8040"  => "Interpellasjon",
+  "8050"  => "Referatsak",
+  "8060"  => "Diverse",
+  "9000"  => "Presidentskapet",
+  "99999" => "Korrekt komité ikke verifisert"
+}
+
+SUBJECTS = {
+  "1000"  => "ARBEIDSLIV",
+  "2000"  => "ENERGI",
+  "3000"  => "FAMILIE",
+  "4000"  => "FINANSER",
+  "5000"  => "FISKERIER",
+  "6000"  => "FORSVAR",
+  "7000"  => "HANDEL",
+  "8000"  => "HELSEVESEN",
+  "9000"  => "INDUSTRI",
+  "10000" => "DEN NORSKE KIRKE",
+  "11000" => "KOMMUNIKASJON",
+  "12000" => "KULTUR",
+  "13000" => "LANDBRUK",
+  "14000" => "LOKALFORVALTNINGEN",
+  "15000" => "MILJØVERN",
+  "16000" => "RETTSVESEN",
+  "17000" => "SJØFART",
+  "18000" => "SOSIALVESEN",
+  "19000" => "STATSFORFATNING",
+  "20000" => "STATSFORVALTNINGEN",
+  "21000" => "UTDANNING",
+  "22000" => "UTENRIKSSAKER"
+}
+
 
 def denorm(mem, name, obj) 
   prefix = "#{name}_"
@@ -189,18 +281,28 @@ def find_right_person(vote, people)
   found
 end
 
-politicians = Hash.new { |h,k| h[k] = [] }
-politician_archive_file = File.expand_path('../../rawdata/nsd/csv/politikere.csv', __FILE__)
-CSV.parse(File.open(politician_archive_file, 'r'), headers: true).each do |row|
-  politicians[row['person_id']] << row.to_h
+def issue_key(obj)
+  key = if obj.key?('PERIODE')
+          obj.values_at('PERIODE', 'SES', 'SAL', 'KART', 'SAK', 'VOTNR')
+        elsif obj.key?('period')
+          obj.values_at('period', 'session', 'chamber', 'map', 'issue', 'vote_number')
+        end
+
+  if key.nil? || key.include?(nil)
+    raise "invalid key for #{obj.inspect}"
+  end
+
+  key
 end
 
-def issue_key(obj)
-  [obj['PERIODE'], obj['SES'], obj['SAL'], obj['KART'], obj['SAK'], obj['VOTNR']]
+representatives = Hash.new { |h,k| h[k] = [] }
+representatives_file = File.expand_path('../../rawdata/nsd/csv/representatives.csv', __FILE__)
+CSV.parse(File.open(representatives_file, 'r'), headers: true).each do |row|
+  representatives[row['person_id']] << row.to_h
 end
 
 issues = Hash.new { |h,k| h[k] = [] }
-issues_file = File.expand_path('../../rawdata/nsd/csv/saker.csv', __FILE__)
+issues_file = File.expand_path('../../rawdata/nsd/csv/issues.csv', __FILE__)
 CSV.parse(File.open(issues_file, 'r'), headers: true).each do |row|
   issues[issue_key(row)] = row.to_h
 end
@@ -211,7 +313,7 @@ csvstr = CSV.generate do |csv|
       r = {}
       row.to_h.keys.sort.each { |k,v| r[k.downcase] = row[k] }
 
-      people = politicians[row['PERSON']]
+      people = representatives[row['PERSON']]
 
       if people.any?
         person = find_right_person(row, people)
@@ -244,23 +346,24 @@ csvstr = CSV.generate do |csv|
       issue = issues[issue_key(row)]
       issue or raise "no issue for #{r.inspect}" 
       
-      r['issue_date']                 = issue['DATO']
-      r['issue_time']                 = issue['TID']
-      r['issue_type']                 = issue['TYPSAK']
-      # r['issue_type_name']       ## TODO
-      r['issue_vote_type']            = issue['VOTTYP']
-      # r['issue_vote_type_name']  ## TODO     
-      r['issue_committee']            = issue['KOMITE']
-      # r['issue_committee_name']  ## TODO          
-      r['issue_reference']            = issue['SAKSREFERANSE']
-      r['issue_register']             = issue['SAKSREGISTER']
-      r['issue_subject']              = issue['EMNE']
-      # r['issue_subject_name']    ## TODO       
-      r['issue_president']            = issue['PRESIDENT']
-      r['issue_president_party_id']   = issue['PRESIDENTPARTI']
-      r['issue_president_party_name'] = PARTIES[issue['PRESIDENTPARTI']]
-      r['issue_internal_comment']     = issue['INTERNKOMMENTAR']
-      r['issue_href']                 = issue['Lenke']
+      r['issue_date']                 = issue['date']
+      r['issue_time']                 = issue['time']
+      r['issue_type']                 = issue['issue_type']
+      r['issue_type_text']            = ISSUE_TYPES.fetch(issue['issue_type'])
+      r['issue_vote_type']            = issue['vote_type']
+      r['issue_vote_type_text']       = VOTE_TYPES.fetch(issue['vote_type'])
+      r['issue_committee']            = issue['committee']
+      r['issue_committee_name']       = COMMITTEES.fetch(issue['committee'])
+      r['issue_reference']            = issue['issue_reference']
+      r['issue_register']             = issue['issue_subject']
+      r['issue_subject']              = issue['subject']
+      r['issue_subject_name']         = SUBJECTS.fetch(issue['subject'])
+      r['issue_president']            = issue['president']
+      r['issue_president_initials']   = representatives[issue['president']].first['initials']
+      r['issue_president_party_id']   = issue['president_party']
+      r['issue_president_party_name'] = PARTIES[issue['president_party']]
+      r['issue_internal_comment']     = issue['internal_comment']
+      r['issue_minutes_url']          = issue['url']
 
       r.delete('kart')
       r.delete('sak')
