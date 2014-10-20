@@ -173,7 +173,8 @@ ISSUE_TYPES = {
   "11" => "Innstilling til Stortinget på bakgrunn av stortingsproposisjon og andre dokument",
   "12" => "Innstilling til Stortinget på bakgrunn av stortingsmelding og andre dokument",
   "13" => "Innstilling til Odelstinget på bakgrunn av odeltingsproposisjon og andre dokument",
-  "14" => "Innstilling til Odelstinget på bakgrunn av odeltingsproposisjon og odeltingsmelding"
+  "14" => "Innstilling til Odelstinget på bakgrunn av odeltingsproposisjon og odeltingsmelding",
+  "NULL" => ""
 }
 
 VOTE_TYPES = {
@@ -181,7 +182,9 @@ VOTE_TYPES = {
   "2" => "Votering over personlig forslag",
   "3" => "Alternativ votering mellom innstillingen og det personlige forslag",
   "4" => "Alternativ votering mellom to personlige forslag",
-  "9" => "Mangler data (prosedyre, president, Lagting, Odelsting)"
+  "5" => "",
+  "9" => "Mangler data (prosedyre, president, Lagting, Odelsting)",
+  "NULL" => ""
 }
 
 COMMITTEES = {
@@ -195,6 +198,7 @@ COMMITTEES = {
   "120"   => "Forsvarskomiteen",
   "130"   => "Energi- og industrikomiteen",
   "131"   => "Industrikomiteen",
+  "140"   => "Kommunalkomiteen (av 1993)",
   "141"   => "Kommunal- og miljøvernkomiteen",
   "150"   => "Forbruker- og administrasjonskomiteen",
   "151"   => "Administrasjonskomiteen",
@@ -223,7 +227,8 @@ COMMITTEES = {
   "8050"  => "Referatsak",
   "8060"  => "Diverse",
   "9000"  => "Presidentskapet",
-  "99999" => "Korrekt komité ikke verifisert"
+  "99999" => "Korrekt komité ikke verifisert",
+  "NULL"  => ""
 }
 
 SUBJECTS = {
@@ -248,11 +253,12 @@ SUBJECTS = {
   "19000" => "STATSFORFATNING",
   "20000" => "STATSFORVALTNINGEN",
   "21000" => "UTDANNING",
-  "22000" => "UTENRIKSSAKER"
+  "22000" => "UTENRIKSSAKER",
+  "NULL"  => ""
 }
 
 
-def denorm(mem, name, obj) 
+def denorm(mem, name, obj)
   prefix = "#{name}_"
   obj.each { |k,v| mem[k.start_with?(prefix) ? k : "#{prefix}#{k}" ] = v }
 end
@@ -261,13 +267,13 @@ def find_right_person(vote, people)
   found = nil
 
   if people.size == 1
-    found = people.first 
+    found = people.first
   else
     raise "multiple initials found for a person_id: #{JSON.pretty_generate(people)}" unless people.map { |e| e['initials'] }.sort.uniq.size == 1
 
     period = vote['PERIODE']
     period_matches = people.select { |e| e['period_id'] == period }
-    
+
     found = if period_matches.size == 1
               period_matches.first
             elsif period_matches.size > 1
@@ -301,14 +307,25 @@ CSV.parse(File.open(representatives_file, 'r'), headers: true).each do |row|
   representatives[row['person_id']] << row.to_h
 end
 
-issues = Hash.new { |h,k| h[k] = [] }
+issues = {}
 issues_file = File.expand_path('../../rawdata/nsd/csv/issues.csv', __FILE__)
 CSV.parse(File.open(issues_file, 'r'), headers: true).each do |row|
-  issues[issue_key(row)] = row.to_h
+  issue = row.to_h
+
+  if issue['vote_type'] == 'NULL'
+    issue['vote_type'] = nil
+  end
+
+  if issue['subject'] == 'NULL'
+    issue['subject'] = nil
+  end
+
+  issues[issue_key(row)] = issue
 end
 
 csvstr = CSV.generate do |csv|
   ARGV.each_with_index do |file, file_idx|
+    STDERR.puts file
     CSV.parse(File.read(file), headers: true).each_with_index do |row, row_idx|
       r = {}
       row.to_h.keys.sort.each { |k,v| r[k.downcase] = row[k] }
@@ -339,34 +356,37 @@ csvstr = CSV.generate do |csv|
       r['vote_session_name'] = SESSIONS.fetch(r.delete('ses'))
       r['vote_chamber_name'] = CHAMBERS.fetch(r.delete('sal'))
       r['vote_result']       = RESULTS.fetch(r.delete('votering'))
+      r['vote_map']          = r.delete('kart')
+      r['vote_issue']        = r.delete('sak')
       r['vote_number']       = r.delete('votnr')
       r['vote_seat_number']  = r.delete('setenr')
 
       # TODO: issue data
       issue = issues[issue_key(row)]
-      issue or raise "no issue for #{r.inspect}" 
-      
-      r['issue_date']                 = issue['date']
-      r['issue_time']                 = issue['time']
-      r['issue_type']                 = issue['issue_type']
-      r['issue_type_text']            = ISSUE_TYPES.fetch(issue['issue_type'])
-      r['issue_vote_type']            = issue['vote_type']
-      r['issue_vote_type_text']       = VOTE_TYPES.fetch(issue['vote_type'])
-      r['issue_committee']            = issue['committee']
-      r['issue_committee_name']       = COMMITTEES.fetch(issue['committee'])
-      r['issue_reference']            = issue['issue_reference']
-      r['issue_register']             = issue['issue_subject']
-      r['issue_subject']              = issue['subject']
-      r['issue_subject_name']         = SUBJECTS.fetch(issue['subject'])
-      r['issue_president']            = issue['president']
-      r['issue_president_initials']   = representatives[issue['president']].first['initials']
-      r['issue_president_party_id']   = issue['president_party']
-      r['issue_president_party_name'] = PARTIES[issue['president_party']]
-      r['issue_internal_comment']     = issue['internal_comment']
-      r['issue_minutes_url']          = issue['url']
 
-      r.delete('kart')
-      r.delete('sak')
+      if issue.nil?
+        STDERR.puts "missing issue: #{row.to_h}"
+      end
+
+      r['issue_date']                 = issue && issue['date']
+      r['issue_time']                 = issue && issue['time']
+      r['issue_type']                 = issue && issue['issue_type']
+      r['issue_type_text']            = issue && ISSUE_TYPES.fetch(issue['issue_type'])
+      r['issue_vote_type']            = issue && issue['vote_type']
+      r['issue_vote_type_text']       = issue && issue['vote_type'] && VOTE_TYPES.fetch(issue['vote_type'])
+      r['issue_committee']            = issue && issue['committee']
+      r['issue_committee_name']       = issue && COMMITTEES.fetch(issue['committee'])
+      r['issue_reference']            = issue && issue['issue_reference']
+      r['issue_register']             = issue && issue['issue_register']
+      r['issue_subject']              = issue && issue['subject']
+      r['issue_subject_name']         = issue && issue['subject'] && SUBJECTS.fetch(issue['subject'])
+      r['issue_president']            = issue && issue['president']
+      r['issue_president_initials']   = issue && representatives[issue['president']].first['initials']
+      r['issue_president_party_id']   = issue && issue['president_party']
+      r['issue_president_party_name'] = issue && PARTIES[issue['president_party']]
+      r['issue_internal_comment']     = issue && issue['internal_comment']
+      r['issue_minutes_url']          = issue && issue['url']
+
       r.delete('person')
 
       if file_idx == 0 && row_idx == 0
