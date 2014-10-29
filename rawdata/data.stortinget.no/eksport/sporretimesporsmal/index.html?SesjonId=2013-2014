@@ -5271,6 +5271,14 @@
           <navn>STRAFFERETT</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -5312,7 +5320,7 @@
       <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om han meiner at såkalla _sovevaldtekter kan jamstillast med alle andre typar valdtekt_.</tittel>
+      <tittel>om statsråden meiner at såkalla _sovevaldtekter kan jamstillast med alle andre typar valdtekt_</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -5383,7 +5391,7 @@
       <sporsmal_til_minister_id>KLD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>klima- og miljøministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om kva for dialog det er mellom klimaministeren og dei andre ministrane i regjeringa i _arbeidet med å møte klimaforliket_.</tittel>
+      <tittel>om kva for dialog det er mellom klimaministeren og dei andre ministrane i regjeringa i _arbeidet med å møte klimaforliket_</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -5407,10 +5415,10 @@
       <emne_liste>
         <emne>
           <versjon>1.2</versjon>
-          <er_hovedemne>true</er_hovedemne>
+          <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>139</hovedemne_id>
-          <id>139</id>
-          <navn>MILJØVERN</navn>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -5454,7 +5462,7 @@
       <sporsmal_til_minister_id>KLD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>klima- og miljøministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om statsråden vil gi kommunene nye verktøy for _å bedre luftkvaliteten_.</tittel>
+      <tittel>om statsråden vil gi kommunene nye verktøy for _å bedre luftkvaliteten_</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -5476,6 +5484,14 @@
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2014-05-07T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.2</versjon>
           <er_hovedemne>false</er_hovedemne>
@@ -5604,7 +5620,7 @@
       <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om regjeringen vil _avskaffe den historiske ordningen med kirkeasyl_ og dermed ikke lenger vise samme respekt for kirker og andre gudshus.</tittel>
+      <tittel>om regjeringen vil _avskaffe den historiske ordningen med kirkeasyl_ og dermed ikke lenger vise samme respekt for kirker og andre gudshus</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -5853,6 +5869,14 @@
           <hovedemne_id>113</hovedemne_id>
           <id>113</id>
           <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>155</hovedemne_id>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -6226,7 +6250,7 @@
       <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om statsråden meiner at praksisen med at mange politimeistrar som er utnemnte i kortvarige konstitusjonar kan halde fram</tittel>
+      <tittel>om statsråden meiner at praksisen med at mange _politimeistrar som er utnemnte i kortvarige konstitusjonar_ kan halde fram</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -6329,10 +6353,10 @@
       <emne_liste>
         <emne>
           <versjon>1.2</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>61</hovedemne_id>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
+          <id>48</id>
+          <navn>ELDREOMSORG</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -6422,6 +6446,14 @@
           <navn>INNVANDRERE</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
+          <id>211</id>
+          <navn>RUSMIDLER</navn>
+          <underemne_liste />
+        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -6463,7 +6495,7 @@
       <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hvor mange tilfeller lovhjemmelen om at _asylsøkere som begår kriminalitet_ i tillegg til den vanlige straffen, kan pålegges meldeplikt ved et bestemt asylmottak er brukt til nå</tittel>
+      <tittel>om hvor mange tilfeller lovhjemmelen om at _asylsøkere som begår kriminalitet kan pålegges meldeplikt_ i tillegg til den vanlige straffen er brukt til nå</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -6487,18 +6519,18 @@
       <emne_liste>
         <emne>
           <versjon>1.2</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>11</hovedemne_id>
-          <id>13</id>
-          <navn>SIVILRETT</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.2</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
           <id>61</id>
           <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>97</id>
+          <navn>VAREHANDEL</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -6542,7 +6574,7 @@
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om statsråden vil gå vidare med innføring av nettapotek utan å vurdere konsekvensane for distriktsapoteka</tittel>
+      <tittel>om statsråden vil gå vidare med _innføring av nettapotek_ utan å vurdere konsekvensane for distriktsapoteka</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -6708,7 +6740,7 @@
       <sporsmal_til_minister_id>UD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>utenriksministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om medlemmer av _regjeringen vil møte Dalai Lama_ når han kommer til Oslo, og hvorvidt det er menneskerettigheter eller handelsinteresser som er viktigst for oss i forholdet til Kina</tittel>
+      <tittel>om hvorvidt medlemmer av _regjeringen vil møte Dalai Lama_ når han kommer til Oslo, og om det er menneskerettigheter eller handelsinteresser som er viktigst for oss i forholdet til Kina</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -7774,7 +7806,7 @@
       <sporsmal_til_minister_id>ASD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>arbeids- og sosialministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om korleis regjeringa skal følgje opp og _implementere handhevingsdirektivet i norsk arbeidsliv_, og om korleis regjeringa skal fortsette arbeidet mot sosial dumping med full styrke</tittel>
+      <tittel>om korleis regjeringa skal følgje opp og _implementere handhevingsdirektivet i norsk arbeidsliv_, og fortsette arbeidet mot sosial dumping med full styrke</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -7881,6 +7913,14 @@
           <hovedemne_id>5</hovedemne_id>
           <id>7</id>
           <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -8907,6 +8947,14 @@
       <emne_liste>
         <emne>
           <versjon>1.2</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>4</hovedemne_id>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>4</hovedemne_id>
           <id>71</id>
@@ -9207,7 +9255,7 @@
       <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hvilke grep statsråden mener kan gjøre for at _norsk politi skal bli bedre på håndtering_ av saker som omhandler vold mot kvinner i nære relaskjoner</tittel>
+      <tittel>om hvilke grep statsråden mener kan gjøres for at _norsk politi skal bli bedre på håndtering_ av saker som omhandler vold mot kvinner i nære relasjoner</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -9659,6 +9707,14 @@
         <emne>
           <versjon>1.2</versjon>
           <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>98</id>
+          <navn>FORBRUKERSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
           <id>188</id>
           <navn>FOLKEHELSE</navn>
@@ -9903,7 +9959,7 @@
       <sporsmal_til_minister_id>KLD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>klima- og miljøministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hvilke tiltak statsråden mener må på plass for å _bedre luftkvaliteten i norske byer_, og om statsråden vil lage en handlingsplan for å bedre situasjonen</tittel>
+      <tittel>om hvilke tiltak som statsråden mener må på plass for å _bedre luftkvaliteten i norske byer_, og om statsråden vil lage en handlingsplan for å bedre situasjonen</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -9974,7 +10030,7 @@
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om statsråden vil innføre en _innsnevring av begrepet "en kabotasjetur"_ slik Finland har gjort</tittel>
+      <tittel>om statsråden vil innføre en _innsnevring av begrepet «en kabotasjetur»_ slik Finland har gjort</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -10168,6 +10224,14 @@
           <hovedemne_id>61</hovedemne_id>
           <id>188</id>
           <navn>FOLKEHELSE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>205</id>
+          <navn>ARBEIDSMILJØ</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -10389,6 +10453,14 @@
           <hovedemne_id>5</hovedemne_id>
           <id>7</id>
           <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -10764,7 +10836,7 @@
       <sporsmal_til_minister_id>FIN</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>finansministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om statsråden vil si at hennes politikk mest er en _støtte til hardtarbeidende lavtlønnede kvinner og folk flest, eller en direkte oppfordring til mer lønnsfest for rike direktører_</tittel>
+      <tittel>om statsråden vil si at hennes politikk mest er en støtte til hardtarbeidende lavtlønnede kvinner og folk flest, eller en direkte oppfordring til _mer lønnsfest for rike direktører_</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -11260,6 +11332,14 @@
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2014-03-20T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>25</id>
+          <navn>REGJERINGEN</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.2</versjon>
           <er_hovedemne>false</er_hovedemne>
@@ -12242,10 +12322,10 @@
         </emne>
         <emne>
           <versjon>1.2</versjon>
-          <er_hovedemne>true</er_hovedemne>
+          <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>113</hovedemne_id>
-          <id>113</id>
-          <navn>NÆRINGSLIV</navn>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -12698,7 +12778,7 @@
       <sporsmal_til_minister_id>BLID</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>barne-, likestillings- og inkluderingsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hvorfor det kuttes i midler som skal bidra til _bosetting av barn som sitter alene på asylmottak_, hvis statsråden selv ønsker raskere bosetting, særlig av barn</tittel>
+      <tittel>om hvorfor det kuttes i midler som skal bidra til _bosetting av barn som sitter alene på asylmottak_, hvis statsråden selv ønsker raskere bosetting</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
