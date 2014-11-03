@@ -6,7 +6,16 @@
       <versjon>1.2</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 1 S Tillegg 2 (2014-2015)</henvisning>
       <id>61111</id>
       <innstilling_id>-1</innstilling_id>
@@ -78,7 +87,16 @@
       <versjon>1.2</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Prop. 1 S Tillegg 1 (2014-2015)</henvisning>
       <id>61115</id>
       <innstilling_id>-1</innstilling_id>
@@ -145,6 +163,24 @@
       <status>mottatt</status>
       <tittel>Endringer i stiftelsesloven (stiftelsesklagenemnd)</tittel>
       <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.2</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>redegjorelse</dokumentgruppe>
+      <emne_liste />
+      <henvisning i:nil="true" />
+      <id>61119</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite i:nil="true" />
+      <korttittel>Redegjørelse av statsministeren om norske bidrag til Irak og Afghanistan</korttittel>
+      <sak_fremmet_id>61119</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2014-10-31T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Redegjørelse av statsministeren om norske bidrag til Irak og Afghanistan</tittel>
+      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.2</versjon>
@@ -1248,7 +1284,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.2</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Knutsen</etternavn>
           <foedselsdato>1988-10-28T00:00:00</foedselsdato>
           <fornavn>Eigil</fornavn>
@@ -2703,24 +2739,6 @@
       <status>til_behandling</status>
       <tittel>Lov om endringer i stortingsgodtgjørelsesloven (yrkesskadedekning og tilbakebetaling)</tittel>
       <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.2</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>redegjorelse</dokumentgruppe>
-      <emne_liste />
-      <henvisning i:nil="true" />
-      <id>61119</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite i:nil="true" />
-      <korttittel>Redegjørelse av statsministeren om norske bidrag til Irak og Afghanistan</korttittel>
-      <sak_fremmet_id>61119</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2014-10-01T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Redegjørelse av statsministeren om norske bidrag til Irak og Afghanistan</tittel>
-      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.2</versjon>
@@ -5329,7 +5347,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.2</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Otterstad</etternavn>
           <foedselsdato>1991-06-14T00:00:00</foedselsdato>
           <fornavn>Audun</fornavn>
