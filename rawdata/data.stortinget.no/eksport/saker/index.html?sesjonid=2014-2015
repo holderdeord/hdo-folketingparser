@@ -24,8 +24,17 @@
       <versjon>1.2</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Prop. 1 S Tillegg 3 (2014-2015)</henvisning>
+      <emne_liste>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Prop. 1 S Tillegg 3 (2014-2015), kap. 228 og 2309</henvisning>
       <id>61184</id>
       <innstilling_id>-1</innstilling_id>
       <innstilling_kode>ikke_spesifisert</innstilling_kode>
@@ -6985,7 +6994,11 @@
           <fornavn>Kenneth</fornavn>
           <id>KES</id>
           <kjoenn>mann</kjoenn>
-          <fylke i:nil="true" />
+          <fylke>
+            <versjon>1.2</versjon>
+            <id>No</id>
+            <navn>Nordland</navn>
+          </fylke>
           <parti>
             <versjon>1.2</versjon>
             <id>FrP</id>
@@ -7199,7 +7212,11 @@
           <fornavn>Per Olaf</fornavn>
           <id>POL</id>
           <kjoenn>mann</kjoenn>
-          <fylke i:nil="true" />
+          <fylke>
+            <versjon>1.2</versjon>
+            <id>Bu</id>
+            <navn>Buskerud</navn>
+          </fylke>
           <parti>
             <versjon>1.2</versjon>
             <id>Sp</id>
@@ -7259,7 +7276,11 @@
           <fornavn>Kenneth</fornavn>
           <id>KES</id>
           <kjoenn>mann</kjoenn>
-          <fylke i:nil="true" />
+          <fylke>
+            <versjon>1.2</versjon>
+            <id>No</id>
+            <navn>Nordland</navn>
+          </fylke>
           <parti>
             <versjon>1.2</versjon>
             <id>FrP</id>
@@ -7385,7 +7406,11 @@
           <fornavn>Jette F.</fornavn>
           <id>JFC</id>
           <kjoenn>kvinne</kjoenn>
-          <fylke i:nil="true" />
+          <fylke>
+            <versjon>1.2</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
           <parti>
             <versjon>1.2</versjon>
             <id>A</id>
@@ -7423,7 +7448,11 @@
           <fornavn>Michael</fornavn>
           <id>MIT</id>
           <kjoenn>mann</kjoenn>
-          <fylke i:nil="true" />
+          <fylke>
+            <versjon>1.2</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
           <parti>
             <versjon>1.2</versjon>
             <id>H</id>
@@ -7461,7 +7490,11 @@
           <fornavn>Martin</fornavn>
           <id>MAKO</id>
           <kjoenn>mann</kjoenn>
-          <fylke i:nil="true" />
+          <fylke>
+            <versjon>1.2</versjon>
+            <id>Bu</id>
+            <navn>Buskerud</navn>
+          </fylke>
           <parti>
             <versjon>1.2</versjon>
             <id>A</id>
