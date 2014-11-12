@@ -483,7 +483,24 @@
       <versjon>1.2</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>29</id>
+          <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>119</id>
+          <navn>STATSBEDRIFTER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 3:2 (2014-2015)</henvisning>
       <id>61187</id>
       <innstilling_id>-1</innstilling_id>
@@ -779,70 +796,6 @@
       <status>til_behandling</status>
       <tittel>Endring av Prop. 1 S (2014-2015) om statsbudsjettet 2015 under Utenriksdepartementet</tittel>
       <type>budsjett</type>
-    </sak>
-    <sak>
-      <versjon>1.2</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Dokument 8:16 S (2014-2015)</henvisning>
-      <id>60988</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.2</versjon>
-        <id>JUSTIS</id>
-        <navn>Justiskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om å godkjenne Harstad som friby for en forfulgt musiker</korttittel>
-      <sak_fremmet_id>60988</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2014-11-04T00:00:00</sist_oppdatert_dato>
-      <status>trukket</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Hege Haukeland Liadal, Hadia Tajik og Tove Karoline Knutsen om å godkjenne Harstad som friby for en forfulgt musiker</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.2</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Dokument 8:17 S (2014-2015)</henvisning>
-      <id>60989</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.2</versjon>
-        <id>HELSEOMS</id>
-        <navn>Helse- og omsorgskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om oppretting av Rjukan spesialistsenter, oppgaver og finansiering</korttittel>
-      <sak_fremmet_id>60989</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.2</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Johnsen</etternavn>
-          <foedselsdato>1953-03-08T00:00:00</foedselsdato>
-          <fornavn>Kristin Ørmen</fornavn>
-          <id>KOJ</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.2</versjon>
-            <id>Bu</id>
-            <navn>Buskerud</navn>
-          </fylke>
-          <parti>
-            <versjon>1.2</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2014-11-04T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Kjersti Toppe, Per Olaf Lundteigen og Janne Sjelmo Nordås om oppretting av Rjukan spesialistsenter, oppgaver og finansiering</tittel>
-      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.2</versjon>
@@ -1352,6 +1305,70 @@
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste />
+      <henvisning>Dokument 8:16 S (2014-2015)</henvisning>
+      <id>60988</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.2</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om å godkjenne Harstad som friby for en forfulgt musiker</korttittel>
+      <sak_fremmet_id>60988</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2014-11-04T00:00:00</sist_oppdatert_dato>
+      <status>trukket</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Hege Haukeland Liadal, Hadia Tajik og Tove Karoline Knutsen om å godkjenne Harstad som friby for en forfulgt musiker</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.2</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 8:17 S (2014-2015)</henvisning>
+      <id>60989</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.2</versjon>
+        <id>HELSEOMS</id>
+        <navn>Helse- og omsorgskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om oppretting av Rjukan spesialistsenter, oppgaver og finansiering</korttittel>
+      <sak_fremmet_id>60989</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.2</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Johnsen</etternavn>
+          <foedselsdato>1953-03-08T00:00:00</foedselsdato>
+          <fornavn>Kristin Ørmen</fornavn>
+          <id>KOJ</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.2</versjon>
+            <id>Bu</id>
+            <navn>Buskerud</navn>
+          </fylke>
+          <parti>
+            <versjon>1.2</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2014-11-04T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Kjersti Toppe, Per Olaf Lundteigen og Janne Sjelmo Nordås om oppretting av Rjukan spesialistsenter, oppgaver og finansiering</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.2</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
       <henvisning>Dokument 8:18 S (2014-2015)</henvisning>
       <id>61015</id>
       <innstilling_id>-1</innstilling_id>
@@ -1409,6 +1426,24 @@
       <sist_oppdatert_dato>2014-11-04T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Bård Vegar Solhjell og Audun Lysbakken om anerkjennelse av Palestina som egen stat</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.2</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
+      <emne_liste />
+      <henvisning i:nil="true" />
+      <id>60925</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite i:nil="true" />
+      <korttittel>Den Norske Nobelkomité meddeler at Nobels fredspris for 2014 er tildelt Kailash Satyarthi og Malala Yousafzay</korttittel>
+      <sak_fremmet_id>60925</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2014-10-21T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Den Norske Nobelkomité meddeler at Nobels fredspris for 2014 er tildelt Kailash Satyarthi og Malala Yousafzay</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -1660,26 +1695,105 @@
     <sak>
       <versjon>1.2</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
-      <emne_liste />
-      <henvisning i:nil="true" />
-      <id>60925</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite i:nil="true" />
-      <korttittel>Den Norske Nobelkomité meddeler at Nobels fredspris for 2014 er tildelt Kailash Satyarthi og Malala Yousafzay</korttittel>
-      <sak_fremmet_id>60925</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2014-10-21T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Den Norske Nobelkomité meddeler at Nobels fredspris for 2014 er tildelt Kailash Satyarthi og Malala Yousafzay</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.2</versjon>
-      <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>105</hovedemne_id>
+          <id>1</id>
+          <navn>DEN NORSKE KIRKE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>4</hovedemne_id>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>29</id>
+          <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>59</hovedemne_id>
+          <id>60</id>
+          <navn>FORSVARSMATERIELL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>4</hovedemne_id>
+          <id>72</id>
+          <navn>ATOMKRAFT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>155</hovedemne_id>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>174</id>
+          <navn>UTVIKLINGSHJELP</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>183</id>
+          <navn>GRUNNSKOLE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 3:1 (2014-2015)</henvisning>
       <id>60951</id>
       <innstilling_id>-1</innstilling_id>
@@ -2099,87 +2213,6 @@
     </sak>
     <sak>
       <versjon>1.2</versjon>
-      <behandlet_sesjon_id>2014-2015</behandlet_sesjon_id>
-      <dokumentgruppe>innberetning</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.2</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>151</hovedemne_id>
-          <id>26</id>
-          <navn>STORTINGSREPRESENTANTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.2</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>151</hovedemne_id>
-          <id>203</id>
-          <navn>STORTINGET</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <henvisning>Innberetning 2 (2014-2015)</henvisning>
-      <id>60936</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.2</versjon>
-        <id>VALG</id>
-        <navn>Valgkomiteen</navn>
-      </komite>
-      <korttittel>Innberetning fra valgkomiteen om endring i de faste komiteers sammensetning</korttittel>
-      <sak_fremmet_id>60936</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2014-10-16T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Innberetning fra valgkomiteen om endring i de faste komiteers sammensetning</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.2</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
-      <henvisning>Dokument 8:14 S (2014-2015)</henvisning>
-      <id>60921</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.2</versjon>
-        <id>NÆRING</id>
-        <navn>Næringskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om å sikre konkurransedyktige rammebetingelser i meierisektoren</korttittel>
-      <sak_fremmet_id>60921</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.2</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Trellevik</etternavn>
-          <foedselsdato>1965-08-15T00:00:00</foedselsdato>
-          <fornavn>Ove</fornavn>
-          <id>OBT</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.2</versjon>
-            <id>Ho</id>
-            <navn>Hordaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.2</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2014-10-16T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Knut Storberget, Else-May Botten og Ingvild Kjerkol om å sikre konkurransedyktige rammebetingelser i meierisektoren</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.2</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste />
@@ -2571,6 +2604,87 @@
       <sist_oppdatert_dato>2014-10-16T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Iselin Nybø og Trine Skei Grande om økt rekruttering av lærere og redusert skolebyråkrati</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.2</versjon>
+      <behandlet_sesjon_id>2014-2015</behandlet_sesjon_id>
+      <dokumentgruppe>innberetning</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>26</id>
+          <navn>STORTINGSREPRESENTANTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>203</id>
+          <navn>STORTINGET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <henvisning>Innberetning 2 (2014-2015)</henvisning>
+      <id>60936</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.2</versjon>
+        <id>VALG</id>
+        <navn>Valgkomiteen</navn>
+      </komite>
+      <korttittel>Innberetning fra valgkomiteen om endring i de faste komiteers sammensetning</korttittel>
+      <sak_fremmet_id>60936</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2014-10-16T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Innberetning fra valgkomiteen om endring i de faste komiteers sammensetning</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.2</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
+      <henvisning>Dokument 8:14 S (2014-2015)</henvisning>
+      <id>60921</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.2</versjon>
+        <id>NÆRING</id>
+        <navn>Næringskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om å sikre konkurransedyktige rammebetingelser i meierisektoren</korttittel>
+      <sak_fremmet_id>60921</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.2</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Trellevik</etternavn>
+          <foedselsdato>1965-08-15T00:00:00</foedselsdato>
+          <fornavn>Ove</fornavn>
+          <id>OBT</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.2</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.2</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2014-10-16T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Knut Storberget, Else-May Botten og Ingvild Kjerkol om å sikre konkurransedyktige rammebetingelser i meierisektoren</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
