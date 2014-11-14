@@ -142,7 +142,7 @@
       <behandlet_sesjon_id>2014-2015</behandlet_sesjon_id>
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste />
-      <henvisning>Prop. 128 L (2013-2014), Innst. 30 L (2014-2015)</henvisning>
+      <henvisning>Prop. 128 L (2013-2014), Innst. 30 L (2014-2015), Lovvedtak 2 (2014-2015)</henvisning>
       <id>60253</id>
       <innstilling_id>11883</innstilling_id>
       <innstilling_kode>innstilling_l</innstilling_kode>
@@ -5222,7 +5222,11 @@
       <id>60176</id>
       <innstilling_id>11898</innstilling_id>
       <innstilling_kode>innstilling_l</innstilling_kode>
-      <komite i:nil="true" />
+      <komite>
+        <versjon>1.2</versjon>
+        <id>ENERGI</id>
+        <navn>Energi- og miljøkomiteen</navn>
+      </komite>
       <korttittel>Endringer i plan- og bygningsloven (forenklinger mv. i plandelen)</korttittel>
       <sak_fremmet_id>60176</sak_fremmet_id>
       <saksordfoerer_liste />
