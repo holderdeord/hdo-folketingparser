@@ -24,14 +24,6 @@
       <emne_liste>
         <emne>
           <versjon>1.2</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>151</hovedemne_id>
-          <id>25</id>
-          <navn>REGJERINGEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.2</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>59</hovedemne_id>
           <id>59</id>
@@ -253,18 +245,18 @@
       <emne_liste>
         <emne>
           <versjon>1.2</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>59</hovedemne_id>
-          <id>59</id>
-          <navn>FORSVAR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.2</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>59</hovedemne_id>
           <id>60</id>
           <navn>FORSVARSMATERIELL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -316,7 +308,7 @@
       <sporsmal_til_minister_id>FD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>forsvarsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hvorvidt det er forsvarsministerens syn at det ut fra et forsvars- og sikkerhetsperspektiv ikke spiller noen rolle _hvem som eier Kongsberg Gruppen_, eller var forsvarsministeren ikke med på prosessen med å utarbeide eierskapsmeldingen</tittel>
+      <tittel>om hvorvidt det er forsvarsministerens syn at det ut fra et forsvars- og sikkerhetsperspektiv ikke spiller noen rolle _hvem som eier Kongsberg Gruppen_, eller om forsvarsministeren ikke var med på prosessen med å utarbeide eierskapsmeldingen</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -935,6 +927,22 @@
           <versjon>1.2</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>163</hovedemne_id>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
           <id>175</id>
           <navn>POLAROMRÅDER</navn>
           <underemne_liste />
@@ -1097,6 +1105,14 @@
       <besvart_pa_vegne_av_minister_tittel>statsministeren</besvart_pa_vegne_av_minister_tittel>
       <datert_dato>2014-11-13T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.2</versjon>
           <er_hovedemne>false</er_hovedemne>
