@@ -490,10 +490,10 @@
       <emne_liste>
         <emne>
           <versjon>1.2</versjon>
-          <er_hovedemne>true</er_hovedemne>
+          <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>4</hovedemne_id>
-          <id>4</id>
-          <navn>ENERGI</navn>
+          <id>71</id>
+          <navn>ELEKTRISITET</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -502,6 +502,14 @@
           <hovedemne_id>163</hovedemne_id>
           <id>175</id>
           <navn>POLAROMRÅDER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>220</id>
+          <navn>DISTRIKTSPOLITIKK</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -893,7 +901,7 @@
       <sporsmal_til_minister_id>NFDFISK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>fiskeriministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om statsråden delar Arbeiderpartiet sitt syn om at ei _fiskareigd flåte er avgjerande for busetting_ og verdiskaping i nord</tittel>
+      <tittel>om statsråden deler Arbeidarpartiet sitt syn om at ein _fiskareigd flåte er avgjerande for busetting_ og verdiskaping i nord</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1191,7 +1199,24 @@
       <besvart_pa_vegne_av_minister_id>NFD</besvart_pa_vegne_av_minister_id>
       <besvart_pa_vegne_av_minister_tittel>næringsministeren</besvart_pa_vegne_av_minister_tittel>
       <datert_dato>2014-11-13T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>115</id>
+          <navn>BERGVERK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>61246</id>
@@ -1452,14 +1477,6 @@
       <emne_liste>
         <emne>
           <versjon>1.2</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>32</hovedemne_id>
-          <id>35</id>
-          <navn>UNIVERSITETER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.2</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>45</hovedemne_id>
           <id>45</id>
@@ -1470,8 +1487,8 @@
           <versjon>1.2</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>32</hovedemne_id>
-          <id>160</id>
-          <navn>HØGSKOLER</navn>
+          <id>159</id>
+          <navn>HØYERE UTDANNING</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -2886,7 +2903,7 @@ Dersom regjeringen mener et snev av alvor med å ville redusere klimagassutslipp
           <navn>Arbeiderpartiet</navn>
         </parti>
       </sporsmal_fra>
-      <sporsmal_nummer>5</sporsmal_nummer>
+      <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.2</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
