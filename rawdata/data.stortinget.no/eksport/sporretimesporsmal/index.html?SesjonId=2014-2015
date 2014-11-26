@@ -8,6 +8,69 @@
       <besvart_av>
         <versjon>1.2</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Sundtoft</etternavn>
+        <foedselsdato>1967-04-19T00:00:00</foedselsdato>
+        <fornavn>Tine</fornavn>
+        <id>TISU</id>
+        <kjoenn>kvinne</kjoenn>
+      </besvart_av>
+      <besvart_av_minister_id>KLD</besvart_av_minister_id>
+      <besvart_av_minister_tittel>klima- og miljøministeren</besvart_av_minister_tittel>
+      <besvart_dato>2014-11-26T00:00:00</besvart_dato>
+      <besvart_pa_vegne_av i:nil="true" />
+      <besvart_pa_vegne_av_minister_id i:nil="true" />
+      <besvart_pa_vegne_av_minister_tittel i:nil="true" />
+      <datert_dato>2014-11-26T00:00:00</datert_dato>
+      <emne_liste />
+      <flyttet_til>ikke_spesifisert</flyttet_til>
+      <fremsatt_av_annen i:nil="true" />
+      <id>61374</id>
+      <rette_vedkommende i:nil="true" />
+      <rette_vedkommende_minister_id i:nil="true" />
+      <rette_vedkommende_minister_tittel i:nil="true" />
+      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sesjon_id>2014-2015</sesjon_id>
+      <sporsmal_fra>
+        <versjon>1.2</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Hansen</etternavn>
+        <foedselsdato>1973-03-05T00:00:00</foedselsdato>
+        <fornavn>Eva Kristin</fornavn>
+        <id>EVH</id>
+        <kjoenn>kvinne</kjoenn>
+        <fylke>
+          <versjon>1.2</versjon>
+          <id>ST</id>
+          <navn>Sør-Trøndelag</navn>
+        </fylke>
+        <parti>
+          <versjon>1.2</versjon>
+          <id>A</id>
+          <navn>Arbeiderpartiet</navn>
+        </parti>
+      </sporsmal_fra>
+      <sporsmal_nummer>1</sporsmal_nummer>
+      <sporsmal_til>
+        <versjon>1.2</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Sundtoft</etternavn>
+        <foedselsdato>1967-04-19T00:00:00</foedselsdato>
+        <fornavn>Tine</fornavn>
+        <id>TISU</id>
+        <kjoenn>kvinne</kjoenn>
+      </sporsmal_til>
+      <sporsmal_til_minister_id>KLD</sporsmal_til_minister_id>
+      <sporsmal_til_minister_tittel>klima- og miljøministeren</sporsmal_til_minister_tittel>
+      <status>besvart</status>
+      <tittel>Jeg synes det er artig at statsråden nevner samarbeidsavtalen og budsjettforliket. Jeg har lyst til å komme inn på klimakvoter, som vi vet er viktig for å oppfylle Norges internasjonale klimaforpliktelser.
+I forliket mellom regjeringspartiene og Kristelig Folkeparti og Venstre har man blitt enig om å sette summen null for kjøp av klimakvoter for neste år, man nuller altså ut. I dag skriver Dagens Næringsliv at statsråden langer ut – vil jeg kalle det – mot egen regjering og budsjettforliket og mener dette ikke er realistisk budsjettering. Hennes statssekretær blir sitert på at det ikke er realistisk å kutte hele beløpet, og at man må komme tilbake til Stortinget og be om en tilleggsbevilgning. Da lurer jeg virkelig på hva statsråden synes om arbeidet hennes venner har gjort her på Stortinget, som lager et budsjettforlik som forutsetter en tilleggsbevilgning. Man vet altså nå, før finansinnstillingen er vedtatt, at man må hente mer penger. Hva synes statsråden om dette arbeidet? Er dette godt budsjettarbeid? Er dette noe hun vil anbefale?</tittel>
+      <type>muntlig_sporsmal</type>
+    </sporsmal>
+    <sporsmal>
+      <versjon>1.2</versjon>
+      <besvart_av>
+        <versjon>1.2</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Søreide</etternavn>
         <foedselsdato>1976-05-02T00:00:00</foedselsdato>
         <fornavn>Ine M. Eriksen</fornavn>
@@ -2771,7 +2834,32 @@ Dersom regjeringen mener et snev av alvor med å ville redusere klimagassutslipp
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2014-11-05T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>61366</id>
@@ -2812,16 +2900,7 @@ Dersom regjeringen mener et snev av alvor med å ville redusere klimagassutslipp
       <sporsmal_til_minister_id>ASD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>arbeids- og sosialministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>De færreste planlegger å bli gravid når man er ung uten utdanning, eller er alene. Like lite planlegger man samlivsbrudd idet man går inn i et forhold. Likevel skjer det. Det er fordi livet er en praktisk sak – og ikke en teoretisk øvelse. Spørsmålet er om vi ønsker å legge forholdene til rette for at unger som vokser opp med aleneforsørger, skal få en stabil og selvstendig økonomi og en trygghet i bunnen, eller om det å være alene skal være en fattigdomsfelle.
- 
-Overgangsstønaden gjør at man har en liten, men likevel trygg inntekt idet man skaffer seg en utdanning og kvalifiserer seg for arbeidslivet. Anne Kristine Lehn er aleneforsørger. Hun har fortalt til Dagbladet:
- 
-
-«… med 10 000 kroner i måneden utbetalt i overgangsstønad kan vi leve et nøkternt liv med penger nok til mat, og til klær etter hvert som hun vokser til.» – og her kommer noe viktig – «Stønaden har gitt meg roen til å tørre å gå på skole.»
- 
-I samme sak forteller arbeidsministeren at det fortsatt skal være mulig å få støtte lenger enn ett år, men sier ikke noe om hvordan dette skal kombineres med å redusere stønaden fra tre til to år.
- 
-Jeg lurer på: Kan statsråden garantere at alle som er i samme situasjon som dem som i dag er i aktivitet, også i framtiden kan få overgangsstønad til å skaffe seg selv og ungene sine et trygt liv?</tittel>
+      <tittel>om å garantere at _aleneforsørgere i fremtiden kan få overgangsstønad_, slik at man har en liten, men likevel trygg inntekt for seg og ungene idet man skaffer seg en utdanning og kvalifiserer seg for arbeidslivet</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
