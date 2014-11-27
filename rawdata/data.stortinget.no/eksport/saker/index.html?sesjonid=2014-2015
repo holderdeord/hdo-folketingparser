@@ -24,7 +24,16 @@
       <versjon>1.2</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:33 S (2014-2015)</henvisning>
       <id>61313</id>
       <innstilling_id>-1</innstilling_id>
@@ -3114,7 +3123,27 @@
       </komite>
       <korttittel>Riksrevisjonens kontroll med forvaltningen av statlige selskaper for 2013</korttittel>
       <sak_fremmet_id>61187</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.2</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Skutle</etternavn>
+          <foedselsdato>1990-01-07T00:00:00</foedselsdato>
+          <fornavn>Erik</fornavn>
+          <id>ERIS</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.2</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.2</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2014-11-11T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Riksrevisjonens kontroll med forvaltningen av statlige selskaper for 2013</tittel>
@@ -5602,10 +5631,10 @@
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste />
-      <henvisning>Prop. 3 L (2014-2015)</henvisning>
+      <henvisning>Prop. 3 L (2014-2015), Innst. 69 L (2014-2015)</henvisning>
       <id>60923</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <innstilling_id>11920</innstilling_id>
+      <innstilling_kode>innstilling_l</innstilling_kode>
       <komite>
         <versjon>1.2</versjon>
         <id>NÆRING</id>
@@ -5634,7 +5663,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2014-10-14T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2014-11-27T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i matloven (Mattilsynets organisering, gebyr og virkemidler)</tittel>
       <type>lovsak</type>
@@ -11426,10 +11455,10 @@
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste />
-      <henvisning>Prop. 129 S (2013-2014)</henvisning>
+      <henvisning>Prop. 129 S (2013-2014), Innst. 68 S (2014-2015)</henvisning>
       <id>60251</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <innstilling_id>11919</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
       <komite>
         <versjon>1.2</versjon>
         <id>NÆRING</id>
@@ -11458,7 +11487,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2014-06-20T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2014-11-27T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Samtykke til inngåelse av avtale mellom Norge og EU om gjensidig adgang til fiske i Skagerrak for fartøyer som fører dansk, norsk eller svensk flagg</tittel>
       <type>alminneligsak</type>
