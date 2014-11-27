@@ -16705,6 +16705,14 @@
           <navn>ARBEIDSVILKÅR</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>220</id>
+          <navn>DISTRIKTSPOLITIKK</navn>
+          <underemne_liste />
+        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -17658,22 +17666,6 @@
         <emne>
           <versjon>1.2</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>155</hovedemne_id>
-          <id>51</id>
-          <navn>DEPARTEMENTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.2</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>139</hovedemne_id>
-          <id>139</id>
-          <navn>MILJØVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.2</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>4</hovedemne_id>
           <id>190</id>
           <navn>OLJEUTVINNING</navn>
@@ -17829,14 +17821,6 @@
           <navn>FORURENSNING</navn>
           <underemne_liste />
         </emne>
-        <emne>
-          <versjon>1.2</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>139</hovedemne_id>
-          <id>139</id>
-          <navn>MILJØVERN</navn>
-          <underemne_liste />
-        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -17903,17 +17887,17 @@
         <emne>
           <versjon>1.2</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>4</hovedemne_id>
-          <id>71</id>
-          <navn>ELEKTRISITET</navn>
+          <hovedemne_id>139</hovedemne_id>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.2</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>139</hovedemne_id>
-          <id>139</id>
-          <navn>MILJØVERN</navn>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>4</hovedemne_id>
+          <id>71</id>
+          <navn>ELEKTRISITET</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -18147,6 +18131,14 @@
       <emne_liste>
         <emne>
           <versjon>1.2</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>40</hovedemne_id>
           <id>41</id>
@@ -18297,7 +18289,7 @@
       <sporsmal_til_minister_id>OED</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>olje- og energiministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om statsråden vil sikre at også løsningen med _200 MW integrert på Johan Sverdrup-feltet som sikrer at områdeelektrifisering_, blir utredet</tittel>
+      <tittel>om statsråden vil sikre utredning av løsning med områdeelektrifisering _på Johan Sverdrup-feltet_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -18376,7 +18368,7 @@
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om statsråden har igangsatt arbeidet med å _etablere en forsøksordning med statlig finansiering av eldreomsorgen_, og i så fall, når kan vi vente at ordningen er på plass</tittel>
+      <tittel>om statsråden har igangsatt arbeidet med å _etablere en forsøksordning med statlig finansiering av eldreomsorgen_, og når vi i så fall kan vente at ordningen er på plass</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -18534,7 +18526,7 @@
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om statsråden er fornøgd med _praktiseringa av ytringsfridom helsevesenet_ når sjukepleiarar svarer i ei fersk undersøking at dei har vegra seg for å delta i offentlig debatt på grunn av lojalitetsplikta</tittel>
+      <tittel>om statsråden er fornøgd med _praktiseringa av ytringsfridom i helsevesenet_ når sjukepleiarar svarer i ei fersk undersøking at dei har vegra seg for å delta i offentlig debatt på grunn av lojalitetsplikta</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -19182,7 +19174,7 @@
       <sporsmal_til_minister_id>KMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kommunal- og moderniseringsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om statsråden kan utdype på hvilken måte _ILO-konvensjon nr. 169 fører til segregering_, slik statssekretær i Kommunal- og moderniseringsdepartementet Per-Willy Amundsen har uttalt</tittel>
+      <tittel>om statsråden kan utdype på hvilken måte _ILO-konvensjon nr. 169 fører til segregering_, slik statssekretær i Kommunal- og moderniseringsdepartementet har uttalt</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -19204,6 +19196,14 @@
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2014-02-05T00:00:00</datert_dato>
       <emne_liste>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.2</versjon>
           <er_hovedemne>false</er_hovedemne>
@@ -20235,6 +20235,14 @@
           <hovedemne_id>187</hovedemne_id>
           <id>57</id>
           <navn>SKATTEFRADRAG</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>200</id>
+          <navn>INTERNASJONAL RETT</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
