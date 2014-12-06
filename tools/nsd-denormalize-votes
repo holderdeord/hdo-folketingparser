@@ -1,0 +1,401 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+require 'csv'
+require 'pry'
+require 'json'
+
+#
+# usage: ./tools/nsd-denormalize-votes rawdata/nsd/csv/voteringer.122.124.csv
+#
+
+SESSIONS = {
+  "124" => "1979-1980",
+  "125" => "1980-1981",
+  "126" => "1981-1982",
+  "127" => "1982-1983",
+  "128" => "1983-1984",
+  "129" => "1984-1985",
+  "130" => "1985-1986",
+  "131" => "1986-1987",
+  "132" => "1987-1988",
+  "133" => "1988-1989",
+  "134" => "1989-1990",
+  "135" => "1990-1991",
+  "136" => "1991-1992",
+  "137" => "1992-1993",
+  "138" => "1993-1994",
+  "139" => "1994-1995",
+  "140" => "1995-1996",
+  "141" => "1996-1997",
+  "142" => "1997-1998",
+  "143" => "1998-1999",
+  "144" => "1999-2000",
+  "145" => "2000-2001",
+  "146" => "2001-2002",
+  "147" => "2002-2003",
+  "148" => "2003-2004",
+  "149" => "2004-2005",
+  "150" => "2005-2006",
+  "151" => "2006-2007",
+  "152" => "2007-2008",
+  "153" => "2008-2009",
+  "154" => "2009-2010"
+}
+
+# http://www.nsd.uib.no/polsys/index.cfm?urlname=storting&lan=&tabellnavn=Stortingssammensetning&nlab=1000&MenuItem=N1_1&ChildItem=&State=collapse
+PARTIES = {
+  "0"   => "Ingen partitilknytning",
+  "11"  => "Rød Valgallianse",
+  "12"  => "Norges kommunistiske parti",
+  "13"  => "Sosialistisk Valgforbund",
+  "14"  => "Sosialistisk Venstreparti",
+  "16"  => "Arbeidernes Kommunistparti(m-l)",
+  "21"  => "Det Norske Arbeiderparti",
+  "22"  => "Norges Socialdemokratiske Arbeiderparti",
+  "23"  => "Folkeaksjonen Framtid for Finnmark",
+  "24"  => "Tverrpolitisk Folkevalgte",
+  "31"  => "Venstre",
+  "32"  => "Arbeiderdemokratene",
+  "41"  => "Senterpartiet",
+  "51"  => "Kristelig Folkeparti",
+  "52"  => "Det Moderate Venstre",
+  "53"  => "Samfundspartiet",
+  "54"  => "Centrum",
+  "61"  => "Det Liberale Folkepartiet",
+  "62"  => "Det Frisinnede Venstre",
+  "63"  => "Samlingspartiet",
+  "64"  => "Det Liberale Parti",
+  "71"  => "Høyre",
+  "81"  => "Fremskrittspartiet",
+  "92"  => "Nasjonal Samling",
+  "97"  => "Felles Programmer",
+  "98"  => "Uavhengige",
+  "99"  => "Manglende parti",
+  "101" => "Akers Samlingsparti",
+  "102" => "Avholdspartiet",
+  "103" => "Fedrelandslaget",
+  "104" => "Forsvarsprogram",
+  "105" => "Norges Fredsforening",
+  "106" => "Kvindernes Enhetsfront",
+  "107" => "Kirkepartiet",
+  "108" => "Kvindernes Vælgerforening",
+  "112" => "Kvinnelige Velgeres Landsforbund",
+  "115" => "Noregs Mållag",
+  "116" => "Den Nationale Legion",
+  "117" => "Riksmålsforbundet",
+  "118" => "Norsk Bonde-og Småbrukerforbund",
+  "150" => "Arbeiderbevegelsens informasjonskomite",
+  "161" => "Det Liberale Folkepartiet",
+  "200" => "Felles Fremtid",
+  "201" => "Frihetspartiet mot EF-unionen",
+  "202" => "Fedrelandspartiet",
+  "203" => "Felleslisten mot fremmedinnvandring",
+  "204" => "Kristent Konservativt Parti",
+  "205" => "Miljøpartiet De Grønne",
+  "206" => "Naturlovpartiet",
+  "207" => "Norske Samers Riksforbund",
+  "208" => "Pensjonistpartiet",
+  "209" => "Samlingspartiet Ny Fremtid",
+  "215" => "Politisk Alternativ Hordaland",
+  "216" => "Felleslista Stopp innvandringen",
+  "217" => "Kristent Samlingsparti",
+  "218" => "Stopp innvandringen",
+  "219" => "Fellesliste pensjonistpartiet/ Felles framtid",
+  "221" => "Rettferdighetspartiet",
+  "222" => "Hvit Valgallianse",
+  "223" => "To foreldre-listen",
+  "224" => "Samfunnspartiet",
+  "231" => "Det Politiske Parti",
+  "232" => "Nasjonalalliansen",
+  "233" => "Hordalandslista",
+  "234" => "Folkeaksjonen mot bompenger",
+  "235" => "Hedmarkslista",
+  "236" => "Nordlandslista",
+  "237" => "Samefolkets Parti",
+  "238" => "Kystpartiet",
+  "239" => "Sykehuslisten for bevaring av Vestfold lokalsykehus",
+  "240" => "Sørlandslista",
+  "241" => "Troms-lista",
+  "242" => "Tverrpolitiske kyst- og distriktsparti",
+  "243" => "Østfoldlista",
+  "244" => "Oslo-lista",
+  "245" => "Sosialdemokratene",
+  "246" => "Sørlandslista Aust Agder",
+  "247" => "Opplandslista",
+  "248" => "DirekteDemokratene",
+  "249" => "Demokratene",
+  "250" => "Fellesliste Miljøpartiet De Grønne/Rød Valgallianse",
+  "251" => "Sunnmørslista",
+  "252" => "Fellesliste Senterpartiet/Miljøpartiet De Grønne",
+  "253" => "Oslo Byaksjon",
+  "254" => "Foreldrelista",
+  "255" => "Vestfoldlisten mot bomringer",
+  "256" => "Fellesliste Sunnmørslista / Tverrpolitisk liste for Sunnmøre",
+  "257" => "Norsk Folkeparti Rogaland",
+  "300" => "Abort-motstandernes liste",
+  "301" => "Reformpartiet",
+  "303" => "Pilsens Samlingsparti",
+  "304" => "Norsk Republikansk Allianse",
+  "305" => "Demokratisk alternativ",
+  "306" => "Innvandrerpartiet",
+  "307" => "Ett (skrift)språk",
+  "308" => "Vigrid",
+  "309" => "NorgesPatriotene",
+  "310" => "Rødt",
+  "311" => "Sentrumsalliansen",
+  "312" => "Samtidspartiet",
+  "313" => "Samfunnsdemokratane",
+  "314" => "Byluftslisten",
+  "999" => "Andre"
+}
+
+CHAMBERS = {
+  "1" => "Stortinget i plenum",
+  "2" => "Odelsting"
+}
+
+RESULTS = {
+  '1' => 'for',
+  '2' => 'against'
+}
+
+ISSUE_TYPES = {
+  "1"  => "Innstilling til Stortinget på bakgrunn av stortingsproposisjon",
+  "2"  => "Innstilling til Stortinget på bakgrunn av stortingsmelding",
+  "3"  => "Innstilling til Stortinget på bakgrunn av andre dokument (Dok.nr.)",
+  "4"  => "Budsjettinnstilling til Stortinget",
+  "5"  => "Innstilling til Odelstinget på bakgrunn av odelstingsproposisjon",
+  "6"  => "Innstilling til Odelstinget på bakgrunn av odelstingsmelding",
+  "7"  => "Innstilling til Odelstinget på bakgrunn av andre dokument (Dok.nr.)",
+  "8"  => "Uaktuell",
+  "9"  => "Mangler data",
+  "10" => "Innstilling til Stortinget på bakgrunn av stortingsproposisjon og stortingsmelding",
+  "11" => "Innstilling til Stortinget på bakgrunn av stortingsproposisjon og andre dokument",
+  "12" => "Innstilling til Stortinget på bakgrunn av stortingsmelding og andre dokument",
+  "13" => "Innstilling til Odelstinget på bakgrunn av odeltingsproposisjon og andre dokument",
+  "14" => "Innstilling til Odelstinget på bakgrunn av odeltingsproposisjon og odeltingsmelding",
+  "NULL" => ""
+}
+
+VOTE_TYPES = {
+  "1" => "Votering over innstillingens forslag",
+  "2" => "Votering over personlig forslag",
+  "3" => "Alternativ votering mellom innstillingen og det personlige forslag",
+  "4" => "Alternativ votering mellom to personlige forslag",
+  "5" => "",
+  "9" => "Mangler data (prosedyre, president, Lagting, Odelsting)",
+  "NULL" => ""
+}
+
+COMMITTEES = {
+  "20"    => "Justiskomiteen (av 1919)",
+  "40"    => "Landbrukskomiteen",
+  "60"    => "Sjøfarts- og fiskerikomiteen",
+  "70"    => "Sosialkomiteen",
+  "90"    => "Utenrikskomiteen",
+  "91"    => "Utenriks- og konstitusjonskomiteen",
+  "110"   => "Finanskomiteen (av 1967)",
+  "120"   => "Forsvarskomiteen",
+  "130"   => "Energi- og industrikomiteen",
+  "131"   => "Industrikomiteen",
+  "140"   => "Kommunalkomiteen (av 1993)",
+  "141"   => "Kommunal- og miljøvernkomiteen",
+  "150"   => "Forbruker- og administrasjonskomiteen",
+  "151"   => "Administrasjonskomiteen",
+  "160"   => "Kirke- og undervisningskomiteen",
+  "170"   => "Samferdselskomiteen",
+  "180"   => "Energi- og miljøkomiteen",
+  "190"   => "Familie-, kultur- og administrasjonskomiteen",
+  "200"   => "Kirke-, utdannings- og forskningskomiteen",
+  "210"   => "Kontroll- og konstitusjonskomiteen",
+  "220"   => "Næringskomiteen",
+  "300"   => "Arbeids- og sosialkomiteen",
+  "310"   => "Familie- og kulturkomiteen",
+  "320"   => "Helse- og omsorgskomiteen",
+  "330"   => "Kommunal- og forvaltningskomiteen",
+  "340"   => "Transport- og kommunikasjonskomiteen",
+  "1010"  => "Den utvidede utenrikskomiteen",
+  "1030"  => "Den forberedende fullmaktskomite",
+  "1040"  => "Fullmaktskomiteen",
+  "1050"  => "Valgkomiteen",
+  "1070"  => "Kontrollkomiteen",
+  "8000"  => "Lagtinget",
+  "8010"  => "Odelstinget",
+  "8020"  => "Redegjørelse",
+  "8030"  => "Trontale",
+  "8040"  => "Interpellasjon",
+  "8050"  => "Referatsak",
+  "8060"  => "Diverse",
+  "9000"  => "Presidentskapet",
+  "99999" => "Korrekt komité ikke verifisert",
+  "NULL"  => ""
+}
+
+SUBJECTS = {
+  "1000"  => "ARBEIDSLIV",
+  "2000"  => "ENERGI",
+  "3000"  => "FAMILIE",
+  "4000"  => "FINANSER",
+  "5000"  => "FISKERIER",
+  "6000"  => "FORSVAR",
+  "7000"  => "HANDEL",
+  "8000"  => "HELSEVESEN",
+  "9000"  => "INDUSTRI",
+  "10000" => "DEN NORSKE KIRKE",
+  "11000" => "KOMMUNIKASJON",
+  "12000" => "KULTUR",
+  "13000" => "LANDBRUK",
+  "14000" => "LOKALFORVALTNINGEN",
+  "15000" => "MILJØVERN",
+  "16000" => "RETTSVESEN",
+  "17000" => "SJØFART",
+  "18000" => "SOSIALVESEN",
+  "19000" => "STATSFORFATNING",
+  "20000" => "STATSFORVALTNINGEN",
+  "21000" => "UTDANNING",
+  "22000" => "UTENRIKSSAKER",
+  "NULL"  => ""
+}
+
+
+def denorm(mem, name, obj)
+  prefix = "#{name}_"
+  obj.each { |k,v| mem[k.start_with?(prefix) ? k : "#{prefix}#{k}" ] = v }
+end
+
+def find_right_person(vote, people)
+  found = nil
+
+  if people.size == 1
+    found = people.first
+  else
+    raise "multiple initials found for a person_id: #{JSON.pretty_generate(people)}" unless people.map { |e| e['initials'] }.sort.uniq.size == 1
+
+    period = vote['PERIODE']
+    period_matches = people.select { |e| e['period_id'] == period }
+
+    found = if period_matches.size == 1
+              period_matches.first
+            elsif period_matches.size > 1
+              period_matches.sort_by { |e| e.values.compact.size }.last
+            else
+              people.sort_by { |e| e.values.compact.size }.last
+            end
+  end
+
+  found['party_name'] = PARTIES.fetch(found['party_id'])
+  found
+end
+
+def issue_key(obj)
+  key = if obj.key?('PERIODE')
+          obj.values_at('PERIODE', 'SES', 'SAL', 'KART', 'SAK', 'VOTNR')
+        elsif obj.key?('period')
+          obj.values_at('period', 'session', 'chamber', 'map', 'issue', 'vote_number')
+        end
+
+  if key.nil? || key.include?(nil)
+    raise "invalid key for #{obj.inspect}"
+  end
+
+  key
+end
+
+representatives = Hash.new { |h,k| h[k] = [] }
+representatives_file = File.expand_path('../../rawdata/nsd/csv/representatives.csv', __FILE__)
+CSV.parse(File.open(representatives_file, 'r'), headers: true).each do |row|
+  representatives[row['person_id']] << row.to_h
+end
+
+issues = {}
+issues_file = File.expand_path('../../rawdata/nsd/csv/issues.csv', __FILE__)
+CSV.parse(File.open(issues_file, 'r'), headers: true).each do |row|
+  issue = row.to_h
+
+  if issue['vote_type'] == 'NULL'
+    issue['vote_type'] = nil
+  end
+
+  if issue['subject'] == 'NULL'
+    issue['subject'] = nil
+  end
+
+  issues[issue_key(row)] = issue
+end
+
+csvstr = CSV.generate do |csv|
+  ARGV.each_with_index do |file, file_idx|
+    STDERR.puts file
+    CSV.parse(File.read(file), headers: true).each_with_index do |row, row_idx|
+      r = {}
+      row.to_h.keys.sort.each { |k,v| r[k.downcase] = row[k] }
+
+      people = representatives[row['PERSON']]
+
+      if people.any?
+        person = find_right_person(row, people)
+      else
+        person = nil
+      end
+
+      r['person_id']                = person && person['person_id']
+      r['person_initials']          = person && person['initials']
+      r['person_first_name']        = person && person['first_name']
+      r['person_last_name']         = person && person['last_name']
+      r['person_position_no']       = person && person['position_no']
+      r['person_position_en']       = person && person['position_en']
+      r['person_party_id']          = person && person['party_id']
+      r['person_party_name']        = person && person['party_name']
+      r['person_constituency_code'] = person && person['constituency_code_new']
+      r['person_constituency_name'] = person && person['constituency_name']
+
+      r['vote_id']           = 'nsd-' + r.delete('num')
+      r['vote_period_id']    = r.delete('periode')
+      r['vote_party_id']     = r['parti']
+      r['vote_party_name']   = PARTIES.fetch(r.delete('parti'))
+      r['vote_session_name'] = SESSIONS.fetch(r.delete('ses'))
+      r['vote_chamber_name'] = CHAMBERS.fetch(r.delete('sal'))
+      r['vote_result']       = RESULTS.fetch(r.delete('votering'))
+      r['vote_map']          = r.delete('kart')
+      r['vote_issue']        = r.delete('sak')
+      r['vote_number']       = r.delete('votnr')
+      r['vote_seat_number']  = r.delete('setenr')
+
+      # TODO: issue data
+      issue = issues[issue_key(row)]
+
+      if issue.nil?
+        STDERR.puts "missing issue: #{row.to_h}"
+      end
+
+      r['issue_date']                 = issue && issue['date']
+      r['issue_time']                 = issue && issue['time']
+      r['issue_type']                 = issue && issue['issue_type']
+      r['issue_type_text']            = issue && ISSUE_TYPES.fetch(issue['issue_type'])
+      r['issue_vote_type']            = issue && issue['vote_type']
+      r['issue_vote_type_text']       = issue && issue['vote_type'] && VOTE_TYPES.fetch(issue['vote_type'])
+      r['issue_committee']            = issue && issue['committee']
+      r['issue_committee_name']       = issue && COMMITTEES.fetch(issue['committee'])
+      r['issue_reference']            = issue && issue['issue_reference']
+      r['issue_register']             = issue && issue['issue_register']
+      r['issue_subject']              = issue && issue['subject']
+      r['issue_subject_name']         = issue && issue['subject'] && SUBJECTS.fetch(issue['subject'])
+      r['issue_president']            = issue && issue['president']
+      r['issue_president_initials']   = issue && representatives[issue['president']].first['initials']
+      r['issue_president_party_id']   = issue && issue['president_party']
+      r['issue_president_party_name'] = issue && PARTIES[issue['president_party']]
+      r['issue_internal_comment']     = issue && issue['internal_comment']
+      r['issue_minutes_url']          = issue && issue['url']
+
+      r.delete('person')
+
+      if file_idx == 0 && row_idx == 0
+        csv << r.keys
+      end
+
+      csv << r.values
+    end
+  end
+end
+
+puts csvstr
