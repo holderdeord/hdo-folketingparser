@@ -42,7 +42,24 @@
       <versjon>1.2</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>30</id>
+          <navn>VALG</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Dokument 8:50 L (2014-2015)</henvisning>
       <id>61679</id>
       <innstilling_id>-1</innstilling_id>
@@ -4695,7 +4712,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.2</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Wickholm</etternavn>
           <foedselsdato>1978-10-15T00:00:00</foedselsdato>
           <fornavn>Truls</fornavn>
@@ -10360,7 +10377,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.2</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Raustein</etternavn>
           <foedselsdato>1965-07-27T00:00:00</foedselsdato>
           <fornavn>Kari</fornavn>
@@ -10427,7 +10444,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.2</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Raustein</etternavn>
           <foedselsdato>1965-07-27T00:00:00</foedselsdato>
           <fornavn>Kari</fornavn>
@@ -18315,12 +18332,32 @@
         <id>KONTROLL</id>
         <navn>Kontroll- og konstitusjonskomiteen</navn>
       </komite>
-      <korttittel>Vedrørende utsendelse av lengeværende asylbarn </korttittel>
+      <korttittel>Vedrørende utsendelse av lengeværende asylbarn</korttittel>
       <sak_fremmet_id>61285</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.2</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Solhjell</etternavn>
+          <foedselsdato>1971-12-22T00:00:00</foedselsdato>
+          <fornavn>Bård Vegar</fornavn>
+          <id>BVS</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.2</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.2</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2014-10-01T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
-      <tittel>Vedrørende utsendelse av lengeværende asylbarn </tittel>
+      <tittel>Vedrørende utsendelse av lengeværende asylbarn</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -18337,12 +18374,32 @@
         <id>KONTROLL</id>
         <navn>Kontroll- og konstitusjonskomiteen</navn>
       </komite>
-      <korttittel>Helse- og omsorgsdepartementets eierstyring knyttet til nytt sykehus i Nordmøre og Romsdal </korttittel>
+      <korttittel>Helse- og omsorgsdepartementets eierstyring knyttet til nytt sykehus i Nordmøre og Romsdal</korttittel>
       <sak_fremmet_id>61285</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.2</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Lundteigen</etternavn>
+          <foedselsdato>1953-04-18T00:00:00</foedselsdato>
+          <fornavn>Per Olaf</fornavn>
+          <id>POL</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.2</versjon>
+            <id>Bu</id>
+            <navn>Buskerud</navn>
+          </fylke>
+          <parti>
+            <versjon>1.2</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2014-10-01T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
-      <tittel>Helse- og omsorgsdepartementets eierstyring knyttet til nytt sykehus i Nordmøre og Romsdal </tittel>
+      <tittel>Helse- og omsorgsdepartementets eierstyring knyttet til nytt sykehus i Nordmøre og Romsdal</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -18926,7 +18983,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.2</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Wickholm</etternavn>
           <foedselsdato>1978-10-15T00:00:00</foedselsdato>
           <fornavn>Truls</fornavn>
