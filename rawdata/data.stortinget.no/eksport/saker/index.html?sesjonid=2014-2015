@@ -833,12 +833,36 @@
       <id>61678</id>
       <innstilling_id>-1</innstilling_id>
       <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite i:nil="true" />
+      <komite>
+        <versjon>1.2</versjon>
+        <id>TRANSKOM</id>
+        <navn>Transport- og kommunikasjonskomiteen</navn>
+      </komite>
       <korttittel>Representantforslag om økt kapasitet og frekvens i lokaltogtrafikken</korttittel>
       <sak_fremmet_id>61678</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.2</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Myrli</etternavn>
+          <foedselsdato>1971-08-26T00:00:00</foedselsdato>
+          <fornavn>Sverre</fornavn>
+          <id>SMY</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.2</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.2</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2015-01-06T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
+      <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Abid Q. Raja, Ola Elvestuen, Trine Skei Grande, André N. Skjelstad, Terje Breivik, Iselin Nybø og Ketil Kjenseth om økt kapasitet og frekvens i lokaltogtrafikken</tittel>
       <type>alminneligsak</type>
     </sak>
@@ -14350,10 +14374,10 @@
         </emne>
         <emne>
           <versjon>1.2</versjon>
-          <er_hovedemne>true</er_hovedemne>
+          <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>184</hovedemne_id>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
+          <id>136</id>
+          <navn>BYGNINGSVESEN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -15091,8 +15115,8 @@
           <versjon>1.2</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>113</hovedemne_id>
-          <id>20</id>
-          <navn>HANDEL</navn>
+          <id>97</id>
+          <navn>VAREHANDEL</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -18631,7 +18655,16 @@
       <versjon>1.2</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>203</id>
+          <navn>STORTINGET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <henvisning>Innst. 134 L (2014-2015)</henvisning>
       <id>61717</id>
       <innstilling_id>11988</innstilling_id>
