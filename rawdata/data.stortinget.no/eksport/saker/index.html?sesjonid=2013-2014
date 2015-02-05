@@ -3036,14 +3036,6 @@
         <emne>
           <versjon>1.2</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>11</hovedemne_id>
-          <id>17</id>
-          <navn>PERSONVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.2</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>184</hovedemne_id>
           <id>37</id>
           <navn>FYLKER</navn>
@@ -3055,6 +3047,14 @@
           <hovedemne_id>184</hovedemne_id>
           <id>52</id>
           <navn>KOMMUNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.2</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -3092,7 +3092,7 @@
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2014-11-25T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
-      <tittel>Endringar i kommunelova m.m. (teieplikta til revisor m.m.)</tittel>
+      <tittel>Endringar i kommunelova m.m. (teieplikta til revisor m.m.) </tittel>
       <type>lovsak</type>
     </sak>
     <sak>
