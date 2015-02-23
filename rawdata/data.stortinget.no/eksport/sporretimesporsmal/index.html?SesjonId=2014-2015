@@ -1322,7 +1322,16 @@ Vil statsråden bekrefte dette overfor helseforetakene ved beslutning i foretaks
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-02-09T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>63</id>
+          <navn>SYKEHUS</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>61967</id>
@@ -1363,8 +1372,7 @@ Vil statsråden bekrefte dette overfor helseforetakene ved beslutning i foretaks
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Nærmere 700 000 mennesker i Norge lever med en hørselshemning. Hørselshemmedes Landsforbunds fagblad Din Hørsel har kartlagt ventetiden for utredning for, og tilpasning av, høreapparater for hørselshemmede ved landets sykehus. Vestre Viken HF, avdeling Drammen, er ett av sykehusene som kommer dårligst ut, med ventetider i 2014 på opp mot ett år.
-Hva vil statsråden gjøre for å korte ned ventetiden for denne pasientgruppen i Norge generelt, og i Drammen spesielt?</tittel>
+      <tittel>om hva statsråden vil gjøre for å korte ned ventetiden for pasientgruppen som lever med en hørselshemning i Norge generelt, og i Drammen spesielt</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
