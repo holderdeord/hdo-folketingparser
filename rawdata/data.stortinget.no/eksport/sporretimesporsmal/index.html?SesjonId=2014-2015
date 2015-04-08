@@ -6440,7 +6440,24 @@ Mitt enkle spørsmål og formålet med hele spørsmålet er: Vil statsråden avk
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-01-29T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>4</hovedemne_id>
+          <id>190</id>
+          <navn>OLJEUTVINNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>61877</id>
@@ -6481,8 +6498,7 @@ Mitt enkle spørsmål og formålet med hele spørsmålet er: Vil statsråden avk
       <sporsmal_til_minister_id>OED</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>olje- og energiministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I forbindelse med 23. konsesjonsrunde har 40 selskaper søkt om å delta. Av disse var det bare 11 som betalte skatt til Norge i 2013. Det betyr at 29 av selskapene vil få nesten 80 prosent av sine kostnader direkte utbetalt ved boring av tørre brønner eller ikke drivverdige funn. De 11 siste vil kunne trekke fra disse utgiftene via skatten. Bellona hevder at med en letekostnad på 800 millioner pr. brønn og et anslag på 5 letebrønner pr. blokk risikerer staten et direkte tap på 150-200 milliarder kroner.
-Er dette riktig?</tittel>
+      <tittel>om statsråden vil si seg enig i Bellona sin påstand om at med en letekostnad på 800 millioner pr. brønn og et anslag på 5 letebrønner pr. blokk _risikerer staten et direkte tap på 150-200 milliarder kroner i skatteinntekter_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
