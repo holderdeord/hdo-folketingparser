@@ -25,7 +25,40 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>4</hovedemne_id>
+          <id>74</id>
+          <navn>OLJE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>88</id>
+          <navn>NORGES BANK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>192</id>
+          <navn>AKSJER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Meld. St. 21 (2014-2015)</henvisning>
       <id>62444</id>
@@ -44,7 +77,40 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>87</id>
+          <navn>BANKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>88</id>
+          <navn>NORGES BANK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>172</id>
+          <navn>ØKONOMISK SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Meld. St. 22 (2014-2015)</henvisning>
       <id>62445</id>
@@ -214,8 +280,7 @@
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2015-04-10T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
-      <tittel>Endringer i vegtrafikkloven mv. (vilkårsparkering)
-</tittel>
+      <tittel>Endringer i vegtrafikkloven mv. (vilkårsparkering)</tittel>
       <type>lovsak</type>
     </sak>
     <sak>
@@ -1325,7 +1390,8 @@
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2015-04-07T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Ingjerd Schou, Helge André Njåstad, Geir S. Toskedal, Ola Elvestuen og Jorodd Asphjell om endring av offentleglova (unnta fra innsynsretten byrådsnotater og drøftingsdokumenter til byrådskonferanser og forberedende byråd i kommuner/fylkeskommuner med parlamentarisk styreform)</tittel>
+      <tittel>Representantforslag fra stortingsrepresentantene Ingjerd Schou, Helge André Njåstad, Geir S. Toskedal,
+Ola Elvestuen og Jorodd Asphjell om endring av offentleglova (unnta fra innsynsretten byrådsnotater og drøftingsdokumenter til byrådskonferanser og forberedende byråd i kommuner/fylkeskommuner med parlamentarisk styreform)</tittel>
       <type>lovsak</type>
     </sak>
     <sak>
@@ -1555,7 +1621,16 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Prop. 87 L (2014-2015)</henvisning>
       <id>62377</id>
@@ -1739,12 +1814,12 @@
       <innstilling_id>-1</innstilling_id>
       <innstilling_kode>ikke_spesifisert</innstilling_kode>
       <komite i:nil="true" />
-      <korttittel>Initiativdebatt om virkningene av uførereformen</korttittel>
+      <korttittel>Initiativdebatt om virkningene av uførereformen (initiativ fra arbeids- og sosialkomiteen)</korttittel>
       <sak_fremmet_id>62041</sak_fremmet_id>
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2015-04-07T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
-      <tittel>Initiativdebatt om virkningene av uførereformen</tittel>
+      <tittel>Initiativdebatt om virkningene av uførereformen (initiativ fra arbeids- og sosialkomiteen)</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -1911,7 +1986,24 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>35</id>
+          <navn>UNIVERSITETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>160</id>
+          <navn>HØGSKOLER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Meld. St. 18 (2014-2015)</henvisning>
       <id>61824</id>
@@ -1922,7 +2014,7 @@
         <id>KIRKE</id>
         <navn>Kirke-, utdannings- og forskningskomiteen</navn>
       </komite>
-      <korttittel>Konsentrasjon for kvalitet - Strukturreform i universitets- og høyskolesektoren</korttittel>
+      <korttittel>Konsentrasjon for kvalitet. Strukturreform i universitets- og høyskolesektoren</korttittel>
       <sak_fremmet_id>61824</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
@@ -1947,14 +2039,23 @@
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2015-04-07T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
-      <tittel>Konsentrasjon for kvalitet - Strukturreform i universitets- og høyskolesektoren</tittel>
+      <tittel>Konsentrasjon for kvalitet. Strukturreform i universitets- og høyskolesektoren</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>8</hovedemne_id>
+          <id>8</id>
+          <navn>FISKERIER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Meld. St. 17 (2014-2015)</henvisning>
       <id>61833</id>
@@ -2022,7 +2123,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Tokerud</etternavn>
           <foedselsdato>1990-05-24T00:00:00</foedselsdato>
           <fornavn>Niclas</fornavn>
@@ -2137,8 +2238,7 @@
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2015-04-07T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
-      <tittel>Folkehelsemeldingen - Mestring og muligheter
-</tittel>
+      <tittel>Folkehelsemeldingen - Mestring og muligheter</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -12540,7 +12640,7 @@
         </representant>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Steinnes</etternavn>
           <foedselsdato>1959-01-19T00:00:00</foedselsdato>
           <fornavn>Sigmund</fornavn>
@@ -12597,7 +12697,7 @@
         </representant>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Toften</etternavn>
           <foedselsdato>1967-03-13T00:00:00</foedselsdato>
           <fornavn>Tone-Helen</fornavn>
