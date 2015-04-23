@@ -264,7 +264,16 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Prop. 103 L (2014-2015)</henvisning>
       <id>62511</id>
@@ -283,7 +292,24 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>64</id>
+          <navn>HELSEPERSONELL</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Prop. 99 L (2014-2015)</henvisning>
       <id>62512</id>
