@@ -85,7 +85,24 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>52</id>
+          <navn>KOMMUNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Meld. St. 26 (2014-2015)</henvisning>
       <id>62404</id>
@@ -213,7 +230,7 @@
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2015-05-07T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
-      <tittel>Representantforslag fra Rasmus Hansson om å prioritere kollektivtrafikk og sykkel foran kapasitetsøkende veiprosjekter i storbyområdene</tittel>
+      <tittel>Representantforslag fra stortingsrepresentant Rasmus Hansson om å prioritere kollektivtrafikk og sykkel foran kapasitetsøkende veiprosjekter i storbyområdene</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -366,7 +383,65 @@
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2015-05-07T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Eirin Sund, Heikki Eidsvoll Holmås, Janne Sjelmo Nordås, Kjell-Idar Juvik, Ingvild Kjerkol, Magne Rommetveit og Sverre Myrli om å gi tilslutning til streknings-ATK på særlig ulykkesutsatte streknínger og i lengre tunneler</tittel>
+      <tittel>Representantforslag fra stortingsrepresentantene Eirin Sund, Heikki Eidsvoll Holmås, Janne Sjelmo Nordås, Kjell-Idar Juvik, Ingvild Kjerkol, Magne Rommetveit og Sverre Myrli om å gi tilslutning til streknings-ATK på særlig ulykkesutsatte strekninger og i lengre tunneler</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
+      <forslagstiller_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Klinge</etternavn>
+          <foedselsdato>1975-11-28T00:00:00</foedselsdato>
+          <fornavn>Jenny</fornavn>
+          <id>JKL</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>MR</id>
+            <navn>Møre og Romsdal</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Toppe</etternavn>
+          <foedselsdato>1967-10-20T00:00:00</foedselsdato>
+          <fornavn>Kjersti</fornavn>
+          <id>KJT</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+      </forslagstiller_liste>
+      <henvisning>Dokument 8:112 S (2014-2015)</henvisning>
+      <id>62672</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite i:nil="true" />
+      <korttittel>Representantforslag om å styrke jordmortjenesten i norske kommuner</korttittel>
+      <sak_fremmet_id>62672</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2015-05-06T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Kjersti Toppe og Jenny Klinge om å styrke jordmortjenesten i norske kommuner</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -2773,7 +2848,7 @@
       <sak_fremmet_id>62538</sak_fremmet_id>
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2015-04-30T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
+      <status>behandlet</status>
       <tittel>Redegjørelse av statsministeren om situasjonen i Middelhavet og om den humanitære krisen i Syria og Irak</tittel>
       <type>alminneligsak</type>
     </sak>
@@ -11776,7 +11851,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Wickholm</etternavn>
           <foedselsdato>1978-10-15T00:00:00</foedselsdato>
           <fornavn>Truls</fornavn>
@@ -14567,7 +14642,7 @@
         </representant>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Wickholm</etternavn>
           <foedselsdato>1978-10-15T00:00:00</foedselsdato>
           <fornavn>Truls</fornavn>
@@ -26143,7 +26218,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Wickholm</etternavn>
           <foedselsdato>1978-10-15T00:00:00</foedselsdato>
           <fornavn>Truls</fornavn>
@@ -40888,7 +40963,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Høie</etternavn>
           <foedselsdato>1971-05-04T00:00:00</foedselsdato>
           <fornavn>Bent</fornavn>
@@ -41525,7 +41600,7 @@
         </representant>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Wickholm</etternavn>
           <foedselsdato>1978-10-15T00:00:00</foedselsdato>
           <fornavn>Truls</fornavn>
