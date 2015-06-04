@@ -21,7 +21,32 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-06-03T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>25</id>
+          <navn>REGJERINGEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>63</id>
+          <navn>SYKEHUS</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>62896</id>
@@ -62,7 +87,7 @@
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hvordan statsråden vil forklare sammenhengen i regjeringas helsepolitikk</tittel>
+      <tittel>om hvordan statsråden vil forklare sammenhengen i regjeringas _sentraliserende helsepolitikk_, med eksempel i nedleggelse av akuttkirurgi ved lokalsykehus og kutt i  ambulansetjenesten i nord</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -148,7 +173,32 @@ Så mitt spørsmål er: Hvordan skal regjeringen nå sitt mål om vekst i oppdre
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-05-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>195</id>
+          <navn>VERFTSINDUSTRI</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>62853</id>
@@ -189,8 +239,7 @@ Så mitt spørsmål er: Hvordan skal regjeringen nå sitt mål om vekst i oppdre
       <sporsmal_til_minister_id>NFD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>næringsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>På Vestlandet har vi nå en situasjon med økende arbeidsledighet, spesielt på grunn av nedskjæringer innen olje og offshore. Da er det viktig med en aktiv næringspolitikk som kan stimulere til en ny type aktivitet som et ledd i det "grønne skiftet".
-Vil statsråden ta initiativ til en gjennomgang av regelverket og virkemiddelapparatet knyttet til skipsbygging, for å stimulere til at flere skip kan bygges i Norge, f.eks. fiskebåter, brønnbåter, ferjer og båter tilrettelagt for vindkraftutbygging?</tittel>
+      <tittel>om statsråden vil ta initiativ til en gjennomgang av regelverket og _virkemiddelapparatet knyttet til skipsbygging_, for å stimulere til at flere skip kan bygges i Norge</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -211,7 +260,24 @@ Vil statsråden ta initiativ til en gjennomgang av regelverket og virkemiddelapp
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-05-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
+          <id>127</id>
+          <navn>IDRETT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>183</id>
+          <navn>GRUNNSKOLE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>62852</id>
@@ -252,8 +318,7 @@ Vil statsråden ta initiativ til en gjennomgang av regelverket og virkemiddelapp
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Elever på 4. trinn skal bl.a. svømme 200 meter (mage/rygg), med innlagt dykk og 3 minutter hvile, ifølge ny læreplan for kroppsøving. Rektor ved Vålerenga skole og Norges Svømmeforbunds president sier i VG at målene er urealistiske, flere Oslo-skoler har 10 årlige svømmetimer og kun halvparten av norske 13-åringer kunne svømme i 2013.
-Vil statsråden gjøre noe, utover å vise til kommunenes ansvar (VG 27.5), for å sikre at elevene kan nå målene?</tittel>
+      <tittel>om å sikre at elevene kan nå _målene for svømming på 4. trinn_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -274,7 +339,32 @@ Vil statsråden gjøre noe, utover å vise til kommunenes ansvar (VG 27.5), for 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-05-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>14</id>
+          <navn>STRAFFERETT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>43</id>
+          <navn>BARNEVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>62851</id>
@@ -315,8 +405,7 @@ Vil statsråden gjøre noe, utover å vise til kommunenes ansvar (VG 27.5), for 
       <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I 2010 ble straffeloven § 139 endret slik at det ble straffbart å ikke melde fra når man har kunnskap om vold og overgrep mot barn. Senere har vi hatt en rekke alvorlige saker, bl.a. på Mortensrud i Oslo, Vanvikan i Trøndelag og nå sist i Tromsø hvor det kan være spørsmål om meldeplikten er kjent og praktisert. Aftenposten skrev for en tid tilbake at ingen er dømt for brudd på meldeplikten i Norge. Fagfolk har ment at lovhjemlene er for kompliserte. 
-Hva vil statsråden gjøre for å sikre bedre oppfølging av meldeplikten?</tittel>
+      <tittel>om å sikre bedre oppfølging av meldeplikten, med bakgrunn i at det er straffbart å ikke _melde fra når man har kunnskap om vold og overgrep mot barn_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -337,7 +426,32 @@ Hva vil statsråden gjøre for å sikre bedre oppfølging av meldeplikten?</titt
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-05-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>62850</id>
@@ -378,8 +492,7 @@ Hva vil statsråden gjøre for å sikre bedre oppfølging av meldeplikten?</titt
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Regjeringen har i sine budsjettforslag vist minimal vilje til å øke antall studieplasser. Dette i en situasjon hvor ledigheten øker, samtidig som det er dokumentert at bedrifter og virksomheter i offentlig sektor mangler kompetent arbeidskraft.
-Er statsråden uenig i at antall studieplasser er et politisk virkemiddel som kan brukes til å få til omstilling for norsk arbeidsliv?</tittel>
+      <tittel>om statsråden er uenig i at antall _studieplasser er et politisk virkemiddel_ som kan brukes til å få til omstilling for norsk arbeidsliv</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -400,7 +513,32 @@ Er statsråden uenig i at antall studieplasser er et politisk virkemiddel som ka
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-05-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>105</hovedemne_id>
+          <id>105</id>
+          <navn>TROSSAMFUNN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>62849</id>
@@ -441,8 +579,7 @@ Er statsråden uenig i at antall studieplasser er et politisk virkemiddel som ka
       <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Statsråden har tidligere slått fast at krenkelse av enkeltpersoner som er motivert av religiøs forankring, vil bli sett på som hatkriminalitet. Undertegnede har fått flere henvendelser om saker der konvertitter har blitt utsatt for sjikanering, overgrep og drapstrusler på grunn av sin nye tro. Utfordringen er at få vil anmelde, og det finnes lite statistikk. Men alt fra prester, biskop og PST-sjef er bekymret.
-Hva kan statsråden gjøre for å få flere saker frem i lyset og sikre beskyttelse for konvertitter?</tittel>
+      <tittel>om hva statsråden kan gjøre for å få flere saker frem i lyset og _sikre beskyttelse for konvertitter_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -471,7 +608,32 @@ Hva kan statsråden gjøre for å få flere saker frem i lyset og sikre beskytte
       <besvart_pa_vegne_av_minister_id>UD</besvart_pa_vegne_av_minister_id>
       <besvart_pa_vegne_av_minister_tittel>utenriksministeren</besvart_pa_vegne_av_minister_tittel>
       <datert_dato>2015-05-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>62848</id>
@@ -512,8 +674,7 @@ Hva kan statsråden gjøre for å få flere saker frem i lyset og sikre beskytte
       <sporsmal_til_minister_id>UD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>utenriksministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Den israelske varslaren Mordechai Vanunu gifta seg tysdag med ei kvinne med norsk statsborgarskap. Vanunu har tidlegare spesifikt bedt om lov til å kome til Noreg. Men sidan Vanunu blir nekta reisedokument av Israel, har han ingen legal måte å forlate landet på. Noreg har tidlegare ikkje vore villig til å utskrive pass til Vanunu utan at han er på norsk jord, og dermed har saka vore låst.
-Vil utanriksministeren syta for at Vanunu, som no har gifta seg med ei norsk kvinne, kan få søka om norsk pass frå Israel?</tittel>
+      <tittel>om å syta for at _Vanunu kan få søka om norsk pass frå Israel_, no som han har gifta seg med ei norsk kvinne</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -534,7 +695,24 @@ Vil utanriksministeren syta for at Vanunu, som no har gifta seg med ei norsk kvi
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-05-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>43</id>
+          <navn>BARNEVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>83</id>
+          <navn>PRISER OG KONKURRANSEFORHOLD</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>62847</id>
@@ -575,8 +753,7 @@ Vil utanriksministeren syta for at Vanunu, som no har gifta seg med ei norsk kvi
       <sporsmal_til_minister_id>BLID</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>barne-, likestillings- og inkluderingsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Ideelt Barnevernsforum viser i en uttalelse til at det nye anbudet som skal legges ut for kjøp av barnevernstjenester, ikke vil gi tilstrekkelig skjerming for de ideelle fordi konkurransen tidsmessig faller sammen med den åpne konkurransen. I tillegg sies det at det blir færre plasser som skal kjøpes, og at pris vektlegges mer enn tidligere.
-Er kriteriene som Ideelt Barnevernsforum viser til, i samsvar med føringer statsråden har gitt for gjennomføring av anbudskonkurransen?</tittel>
+      <tittel>om hvorvidt uttalelser fra Ideelt Barnevernsforum, som viser til at det nye _anbudet for kjøp av barnevernstjenester_ ikke vil gi tilstrekkelig skjerming for de ideelle, er i samsvar med føringer statsråden har gitt for gjennomføring av anbudskonkurransen</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -597,7 +774,16 @@ Er kriteriene som Ideelt Barnevernsforum viser til, i samsvar med føringer stat
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-05-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>62846</id>
@@ -638,8 +824,7 @@ Er kriteriene som Ideelt Barnevernsforum viser til, i samsvar med føringer stat
       <sporsmal_til_minister_id>ASD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>arbeids- og sosialministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Arbeidspolitisk talsperson i FrP, Erlend Wiborg, skriv i Dagbladet 21. mai at "arbeidsmarkedssituasjonen i Norge er fortsatt god sammenliknet med de fleste andre land. Derfor er det ikke riktig å gi full gass, selv om enkelte populistiske stemmer i opposisjonen ber om det".
-Er statsråden einig i denne uttalen, og dermed i at fleire tiltak for å motverke arbeidsløyse ikkje er naudsynt, eller er dette endå eit døme på eit framstegsparti som meiner éin ting i regjering og noko anna i Stortinget?</tittel>
+      <tittel>om statsråden er einig i uttalen om at fleire _tiltak for å motverke arbeidsløyse ikkje er naudsynt_, eller er dette endå eit døme på eit framstegsparti som meiner éin ting i regjering og noko anna i Stortinget</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -660,7 +845,32 @@ Er statsråden einig i denne uttalen, og dermed i at fleire tiltak for å motver
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-05-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>8</hovedemne_id>
+          <id>8</id>
+          <navn>FISKERIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>220</id>
+          <navn>DISTRIKTSPOLITIKK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>62845</id>
@@ -701,8 +911,7 @@ Er statsråden einig i denne uttalen, og dermed i at fleire tiltak for å motver
       <sporsmal_til_minister_id>NFDFISK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>fiskeriministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Landindustrien innan fiskerisektoren slit med å få heilårs arbeidsplassar, mykje pga. mangel på råstoff året rundt. Garantiordninga for forskottering av 70 prosent av oppgjeret er no opphøyrt. Dette gjer at fiskarane/reiarlaga kan måtte slakte fisken tidlegare pga. likviditetsomsyn. Neste sesong kan diverre konsekvensen vera at kvantum levendelagring av torsk vert vesentleg mindre.
-Kan statsråden love at denne garantien vert gjeninnført, som eit bidrag til fleire heilårsarbeidsplassar langs kysten?</tittel>
+      <tittel>om at landindustrien innan _fiskerisektoren slit med å få heilårs arbeidsplassar_, og om statsråden, som eit bidrag til fleire arbeidsplassar langs kysten, kan love at garantien  for forskottering av 70 prosent av oppgjeret vert gjeninnført</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -723,7 +932,24 @@ Kan statsråden love at denne garantien vert gjeninnført, som eit bidrag til fl
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-05-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>223</id>
+          <navn>INDUSTRI</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>62844</id>
@@ -764,8 +990,7 @@ Kan statsråden love at denne garantien vert gjeninnført, som eit bidrag til fl
       <sporsmal_til_minister_id>NFD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>næringsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Ferdigvareindustrien består av en rekke bedrifter innen bl.a. møbel, tekstil, elektriske produkter og byggevarer. Industrien har et stort potensial for å videreutvikle seg, og vil kunne ha en viktig rolle som et ledd i det "grønne skiftet". Den 12. mars 2015 lanserte Norsk Industri en nasjonal strategi for utvikling av ferdigvareindustrien, der det bl.a. pekes på at det er behov for å opprette nye programmer i virkemiddelapparatet for å øke konkurransekraften til bedriftene i næringen.
-Vil statsråden følge opp denne strategien?</tittel>
+      <tittel>om statsråden vil følge opp Norsk Industris nasjonale strategi for _utvikling av ferdigvareindustrien_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -786,7 +1011,32 @@ Vil statsråden følge opp denne strategien?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-05-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>94</id>
+          <navn>ARBEIDSVILKÅR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>62843</id>
@@ -827,8 +1077,7 @@ Vil statsråden følge opp denne strategien?</tittel>
       <sporsmal_til_minister_id>ASD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>arbeids- og sosialministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I forbindelse med finanskrisen i 2009 ble det åpnet for at bedriftsintern opplæring midlertidig kunne brukes av bedrifter som ble rammet av markedssvikt, med varighet opp til 26 uker. 
-I dagens situasjon, der ledigheten er den høyeste på 10 år, hvorfor foreslår ikke regjeringen det samme nå?</tittel>
+      <tittel>Invalid XML</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -849,7 +1098,24 @@ I dagens situasjon, der ledigheten er den høyeste på 10 år, hvorfor foreslår
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-05-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>69</id>
+          <navn>LANDBRUKSPRODUKTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>97</id>
+          <navn>VAREHANDEL</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>62842</id>
@@ -890,8 +1156,7 @@ I dagens situasjon, der ledigheten er den høyeste på 10 år, hvorfor foreslår
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Vi kaster for mye mat i Norge. Husholdningene, butikker og andre kaster over 25 prosent av maten. Eksempelvis er det anslått at vi i Norge kaster 190 000 brød daglig. I Frankrike er det nylig vedtatt lovgivning som bidrar til at de store dagligvarekjedene i stedet for å kaste mat, donerer mat som er spiselig.
-Er dette et tiltak regjeringen mener vil kunne være aktuelt, og hva slags andre tiltak vil regjeringen iverksette for å redusere omfanget av mat som vi kaster?</tittel>
+      <tittel>om hva slags tiltak regjeringen vil iverksette for å _redusere omfanget av mat som vi kaster_med henvisning til nylig vedtatt lovgivning i Frankrike som bidrar til at de store dagligvarekjedene donerer mat som er spiselig</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -912,7 +1177,16 @@ Er dette et tiltak regjeringen mener vil kunne være aktuelt, og hva slags andre
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-05-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>62840</id>
@@ -953,8 +1227,7 @@ Er dette et tiltak regjeringen mener vil kunne være aktuelt, og hva slags andre
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I revidert nasjonalbudsjett varsles en omfattende omorganisering av helseforvaltningen fra 1. januar 2016. Arbeiderpartiet støtter en grundig og kritisk gjennomgang av ressursbruken i helseforvaltningen. Over tid har vi sett helsebyråkratiet vokse betydelig, og det er viktig at statlige etater lokaliseres også utenfor hovedstaden. Men omfattende omlegginger bør være utredet. Ansatte ved berørte instanser reagerer på manglende prosess- og kunnskapsgrunnlag.
-Kan statsråden redegjøre for prosessen så langt?</tittel>
+      <tittel>om statsråden kan redegjøre for prosessen med _omorganisering av helseforvaltningen_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1338,7 +1611,24 @@ Kan statsråden redegjøre for prosessen så langt?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-05-27T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
+          <id>67</id>
+          <navn>BIBLIOTEK OG LITTERATUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>rette_vedkommende</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>62832</id>
@@ -1387,8 +1677,7 @@ Kan statsråden redegjøre for prosessen så langt?</tittel>
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Stiftelsen Arkivet ønsker å etablere et nasjonalt senter for krigsseilerhistorie. Et år hvor krigens begynnelse og slutt markeres så massivt som vi nå opplever, kan ikke forløpe uten at krigsseilernes historie sikres en forsvarlig forvaltning for ettertiden.
-Hvordan vil regjeringen følge opp krigsseilerhistorien slik at denne blir forvaltet på en forsvarlig og verdig måte?</tittel>
+      <tittel>om å _følge opp krigsseilerhistorien_ slik at denne blir forvaltet på en forsvarlig og verdig måte</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1409,7 +1698,32 @@ Hvordan vil regjeringen følge opp krigsseilerhistorien slik at denne blir forva
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-05-26T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>45</hovedemne_id>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>66</id>
+          <navn>SYKDOMMER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen>
         <versjon>1.3</versjon>
@@ -1464,8 +1778,7 @@ Hvordan vil regjeringen følge opp krigsseilerhistorien slik at denne blir forva
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>2015 er det internasjonale hjerneåret. Sykdom i hjernen rammer 1 av 3, og mange får alvorlige kroniske sykdommer. Nevrologiske sykdommer krever mer ressurser enn kreft og hjerte- og karsykdommer til sammen. Det er derfor et paradoks at det nettopp er i hjerneåret at Nevroplan 2015 avsluttes uten at ny plan foreligger. Forskningsrådets NevroNor avsluttes, selv om ny kunnskap har gitt økt livskvalitet til nye pasientgrupper.
-Hva vil statsråden gjøre for å styrke nevrofeltet innen forskning, behandling, rehabilitering og forebygging?</tittel>
+      <tittel>om å _styrke nevrofeltet_ innen forskning, behandling, rehabilitering og forebygging, med henvisning til at sykdom i hjernen rammer 1 av 3</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
