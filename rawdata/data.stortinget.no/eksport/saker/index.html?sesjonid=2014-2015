@@ -1416,7 +1416,56 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>69</id>
+          <navn>LANDBRUKSPRODUKTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>112</id>
+          <navn>REISELIVSNÆRING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>128</id>
+          <navn>JORDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>129</id>
+          <navn>HUSDYR</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Meld. St. 31 (2014-2015)</henvisning>
       <id>62916</id>
@@ -4567,10 +4616,10 @@
         </emne>
       </emne_liste>
       <forslagstiller_liste />
-      <henvisning>Prop. 129 S (2014-2015)</henvisning>
+      <henvisning>Prop. 129 S (2014-2015), Innst. 365 S (2014-2015)</henvisning>
       <id>61766</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <innstilling_id>12223</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
       <komite>
         <versjon>1.3</versjon>
         <id>ARBSOS</id>
@@ -4599,7 +4648,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-06-01T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2015-06-09T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Pensjonar frå statskassa</tittel>
       <type>alminneligsak</type>
@@ -11645,10 +11694,10 @@
           </parti>
         </representant>
       </forslagstiller_liste>
-      <henvisning>Dokument 8:104 S (2014-2015)</henvisning>
+      <henvisning>Dokument 8:104 S (2014-2015), Innst. 368 S (2014-2015)</henvisning>
       <id>62590</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <innstilling_id>12220</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
       <komite>
         <versjon>1.3</versjon>
         <id>ARBSOS</id>
@@ -11677,7 +11726,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-05-05T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2015-06-09T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Per Olaf Lundteigen, Heidi Greni, Liv Signe Navarsete og Kjersti Toppe om å forby visse typer ansettelseskontrakter i norskregistrerte foretak</tittel>
       <type>alminneligsak</type>
@@ -11725,10 +11774,10 @@
           </parti>
         </representant>
       </forslagstiller_liste>
-      <henvisning>Dokument 8:106 S (2014-2015)</henvisning>
+      <henvisning>Dokument 8:106 S (2014-2015), Innst. 364 S (2014-2015)</henvisning>
       <id>62592</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <innstilling_id>12216</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
       <komite>
         <versjon>1.3</versjon>
         <id>TRANSKOM</id>
@@ -11737,6 +11786,25 @@
       <korttittel>Representantforslag om å sikre at det settes et klimamål for samferdselssektoren ved planlegging av ny Nasjonal transportplan</korttittel>
       <sak_fremmet_id>62592</sak_fremmet_id>
       <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Helseth</etternavn>
+          <foedselsdato>1955-01-11T00:00:00</foedselsdato>
+          <fornavn>Are</fornavn>
+          <id>AREH</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
@@ -11757,7 +11825,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-05-05T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2015-06-09T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentant Heikki Eidsvoll Holmås om å sikre at det settes et klimamål for samferdselssektoren ved planlegging av ny Nasjonal transportplan</tittel>
       <type>alminneligsak</type>
@@ -12015,10 +12083,10 @@
           </parti>
         </representant>
       </forslagstiller_liste>
-      <henvisning>Dokument 8:107 S (2014-2015)</henvisning>
+      <henvisning>Dokument 8:107 S (2014-2015), Innst. 363 S (2014-2015)</henvisning>
       <id>62620</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <innstilling_id>12217</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
       <komite>
         <versjon>1.3</versjon>
         <id>TRANSKOM</id>
@@ -12027,6 +12095,25 @@
       <korttittel>Representantforslag om å sikre at ny E18 planlegges i tråd med klimaforliket og om opprettelsen av miljøfelt</korttittel>
       <sak_fremmet_id>62620</sak_fremmet_id>
       <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Helseth</etternavn>
+          <foedselsdato>1955-01-11T00:00:00</foedselsdato>
+          <fornavn>Are</fornavn>
+          <id>AREH</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
@@ -12047,7 +12134,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-05-05T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2015-06-09T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Heikki Eidsvoll Holmås og Bård Vegar Solhjell om å sikre at ny E18 planlegges i tråd med klimaforliket og om opprettelsen av miljøfelt</tittel>
       <type>alminneligsak</type>
@@ -12752,10 +12839,10 @@
           </parti>
         </representant>
       </forslagstiller_liste>
-      <henvisning>Dokument 8:103 S (2014-2015)</henvisning>
+      <henvisning>Dokument 8:103 S (2014-2015), Innst. 369 S (2014-2015)</henvisning>
       <id>62584</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <innstilling_id>12219</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
       <komite>
         <versjon>1.3</versjon>
         <id>ARBSOS</id>
@@ -12784,7 +12871,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-04-30T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2015-06-09T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Kirsti Bergstø, Karin Andersen og Snorre Serigstad Valen om å sikre en varig kompensasjonsordning for uføre etter uførereformen</tittel>
       <type>alminneligsak</type>
@@ -15239,10 +15326,10 @@
         </emne>
       </emne_liste>
       <forslagstiller_liste />
-      <henvisning>Meld. St. 25 (2014-2015)</henvisning>
+      <henvisning>Meld. St. 25 (2014-2015), Innst. 362 S (2014-2015)</henvisning>
       <id>62522</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <innstilling_id>12218</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
       <komite>
         <versjon>1.3</versjon>
         <id>TRANSKOM</id>
@@ -15271,7 +15358,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-04-28T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2015-06-09T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>På rett vei - Reformer i veisektoren
 </tittel>
@@ -20597,10 +20684,10 @@
           </parti>
         </representant>
       </forslagstiller_liste>
-      <henvisning>Dokument 8:76 S (2014-2015)</henvisning>
+      <henvisning>Dokument 8:76 S (2014-2015), Innst. 366 S (2014-2015)</henvisning>
       <id>62296</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <innstilling_id>12222</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
       <komite>
         <versjon>1.3</versjon>
         <id>FAMKULT</id>
@@ -20629,7 +20716,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-03-24T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2015-06-09T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Terje Breivik, Trine Skei Grande, Ola Elvestuen og André N. Skjelstad om å styrke retten til ettervern i barnevernet</tittel>
       <type>alminneligsak</type>
@@ -20995,10 +21082,10 @@
           </parti>
         </representant>
       </forslagstiller_liste>
-      <henvisning>Dokument 8:73 S (2014-2015)</henvisning>
+      <henvisning>Dokument 8:73 S (2014-2015), Innst. 367 S (2014-2015)</henvisning>
       <id>62262</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <innstilling_id>12221</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
       <komite>
         <versjon>1.3</versjon>
         <id>FAMKULT</id>
@@ -21027,7 +21114,7 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-03-24T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2015-06-09T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Lene Vågslid, Christian Tynning Bjørnø, Tove Karoline Knutsen, Stine Renate Håheim, Lise Christoffersen, Sonja Mandt og Knut Storberget om kvalitet i krisesentertilbudet</tittel>
       <type>alminneligsak</type>
