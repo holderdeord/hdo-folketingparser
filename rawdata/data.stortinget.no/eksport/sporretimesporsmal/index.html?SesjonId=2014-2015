@@ -292,7 +292,32 @@ Fra nord til sør har statsrådens uttale gjort folk utrygge. Signala har destab
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-06-03T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>63</id>
+          <navn>SYKEHUS</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>220</id>
+          <navn>DISTRIKTSPOLITIKK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>62925</id>
@@ -333,20 +358,7 @@ Fra nord til sør har statsrådens uttale gjort folk utrygge. Signala har destab
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Det er godt at statsråden blir stående, for mitt spørsmål går til statsråd Høie.
-
-Sykehus og tryggheten for at en får den hjelpen en trenger når livet er sårbart og sykdom rammer, ligger sentralt hos oss alle. Da er legevakt, akuttberedskap og gode, kompetente folk i luftambulanse og i sykebil sentralt for å kjenne at vi blir godt ivaretatt.
-
-Statsråden har varslet en helse- og sykehusplan som Stortinget skal behandle til høsten. I sin sykehustale i januar i 2015 la statsråden fram tre alternativer til sykehusdrift med akuttkirurgi. Akuttkirurgi, kirurgi og indremedisin er sentrale elementer i et sykehus. For min og for Kristelig Folkepartis del henger dette ufattelig nøye sammen.
-
-Det som henger igjen etter sykehustalen i januar, er 60 000–80 000 innbyggere som nedslagsfelt for å kunne opprettholde akuttkirurgi. Statsrådens skisse har skapt uro i mange fagmiljøer og i Distrikts-Norge. Noen har til og med sagt at det blir nesten ikke et lokalsykehus igjen nord for Trondheim.
-
-Legeforeningen kom i sitt siste landsstyremøte med en resolusjon som sier følgende:
-
-«Befolkningen må sikres gode akuttilbud uavhengig av bosted. Velfungerende lokalsykehus er nødvendige i den akuttmedisinske behandlingskjeden. Reisetid, geografi og værforhold er tungtveiende faktorer som krever lokalsykehus med full akuttberedskap.» 
-
-Hva vil statsråden gjøre for at akuttkirurgien og gode lokalsykehus med høy kompetanse er tilgjengelig for alle innbyggere? Og hvorfor flagger statsråden innbyggertall som et avgjørende, dominerende kriterium så tidlig i prosessen om en nasjonal helse- og sykehusplan?
-</tittel>
+      <tittel>om hva statsråden vil gjøre for at _akuttkirurgien og gode lokalsykehus_ med høy kompetanse er tilgjengelig for alle innbyggere, og hvorfor innbyggertall flagges som et avgjørende, dominerende kriterium så tidlig i prosessen om en nasjonal helse- og sykehusplan</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -370,14 +382,6 @@ Hva vil statsråden gjøre for at akuttkirurgien og gode lokalsykehus med høy k
       <emne_liste>
         <emne>
           <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>151</hovedemne_id>
-          <id>25</id>
-          <navn>REGJERINGEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
           <id>61</id>
@@ -390,6 +394,22 @@ Hva vil statsråden gjøre for at akuttkirurgien og gode lokalsykehus med høy k
           <hovedemne_id>61</hovedemne_id>
           <id>63</id>
           <navn>SYKEHUS</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>135</id>
+          <navn>KOMMUNENES ØKONOMI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>220</id>
+          <navn>DISTRIKTSPOLITIKK</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
