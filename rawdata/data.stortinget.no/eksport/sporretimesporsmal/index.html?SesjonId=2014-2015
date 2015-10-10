@@ -227,7 +227,32 @@ Men det vil fortsatt være stort behov for spesialisthelsetjenesten også. Norge
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-06-03T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>63</id>
+          <navn>SYKEHUS</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>220</id>
+          <navn>DISTRIKTSPOLITIKK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>62926</id>
@@ -268,10 +293,7 @@ Men det vil fortsatt være stort behov for spesialisthelsetjenesten også. Norge
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Statsråd Høie skapte stor uro i Helse-Noreg på grunn av si sjukehustale i januar i år. Der slo statsråden fast: «For å drive akuttkirurgi kreves et pasientgrunnlag på minst 60 til 80 000 innbyggere. Det betyr at minst halvparten av dagens norske sykehus har for lite pasientgrunnlag.»
-
-Fra nord til sør har statsrådens uttale gjort folk utrygge. Signala har destabilisert sjukehusorganisasjonen. Sterke fagmiljø har vorte i tvil om framtida for eigen arbeidsplass. I påvente av vedtaket til Stortinget i Nasjonal helse- og sjukehusplan, har utviklinga stoppa opp, og det har oppstått eit fagleg vakuum. Det fører sjølvsagt til dårlegare rekruttering og ei svekking av kvaliteten. Legeforeningen har no slått fast at forsvarligheit, god beredskap og tryggheit for befolkninga må vega tyngst i landets sjukehusstruktur. Foreininga meiner - i motsetning til statsråd Høie - at kombinasjonen av spesialitetane i indremedisin, kirurgi og anestesi er ein føresetnad for god fagleg kvalitet og behandling av akuttpasientar i sjukehus. Legeforeningen representerer svært mange dyktige fagfolk, og dei konkluderer altså med at akuttkirurgi er ein føresetnad for kvalitet. Mitt spørsmål til statsråden er overordna: Korleis kan han få seg til å setje sjukehus-Noreg ut i ein så utrygg og uforutsigbar situasjon for veldig viktige sentrale velferdstilbod, og kva er dei faglege argumenta for eigentleg å halda på slik?
-</tittel>
+      <tittel>om _pasientgrunnlag for å drive akuttkirurgi_, og kva som er dei faglege argumenta for å setja Sjukehus-Noreg i ein utrygg og uføreseieleg situasjon</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
