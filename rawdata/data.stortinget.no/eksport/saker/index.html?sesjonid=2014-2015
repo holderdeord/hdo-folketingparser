@@ -1052,7 +1052,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Spurkeland</etternavn>
           <foedselsdato>1987-08-12T00:00:00</foedselsdato>
           <fornavn>Charlotte</fornavn>
@@ -3319,82 +3319,6 @@
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Thorheim</etternavn>
-          <foedselsdato>1948-06-23T00:00:00</foedselsdato>
-          <fornavn>Helge</fornavn>
-          <id>HTHO</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ro</id>
-            <navn>Rogaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>FrP</id>
-            <navn>Fremskrittspartiet</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Christensen</etternavn>
-          <foedselsdato>1983-06-01T00:00:00</foedselsdato>
-          <fornavn>Jette F.</fornavn>
-          <id>JFC</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ho</id>
-            <navn>Hordaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Svendsen</etternavn>
-          <foedselsdato>1954-08-02T00:00:00</foedselsdato>
-          <fornavn>Kenneth</fornavn>
-          <id>KES</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>No</id>
-            <navn>Nordland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>FrP</id>
-            <navn>Fremskrittspartiet</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Kolberg</etternavn>
-          <foedselsdato>1949-02-24T00:00:00</foedselsdato>
-          <fornavn>Martin</fornavn>
-          <id>MAKO</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Bu</id>
-            <navn>Buskerud</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Hussaini</etternavn>
           <foedselsdato>1987-10-25T00:00:00</foedselsdato>
           <fornavn>Mani</fornavn>
@@ -3466,6 +3390,82 @@
             <versjon>1.3</versjon>
             <id>MDG</id>
             <navn>Miljøpartiet De Grønne</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Thorheim</etternavn>
+          <foedselsdato>1948-06-23T00:00:00</foedselsdato>
+          <fornavn>Helge</fornavn>
+          <id>HTHO</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Christensen</etternavn>
+          <foedselsdato>1983-06-01T00:00:00</foedselsdato>
+          <fornavn>Jette F.</fornavn>
+          <id>JFC</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Svendsen</etternavn>
+          <foedselsdato>1954-08-02T00:00:00</foedselsdato>
+          <fornavn>Kenneth</fornavn>
+          <id>KES</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>No</id>
+            <navn>Nordland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Kolberg</etternavn>
+          <foedselsdato>1949-02-24T00:00:00</foedselsdato>
+          <fornavn>Martin</fornavn>
+          <id>MAKO</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Bu</id>
+            <navn>Buskerud</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
           </parti>
         </representant>
       </saksordfoerer_liste>
@@ -14228,44 +14228,6 @@
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Raja</etternavn>
-          <foedselsdato>1975-11-05T00:00:00</foedselsdato>
-          <fornavn>Abid Q.</fornavn>
-          <id>ABIR</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ak</id>
-            <navn>Akershus</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>V</id>
-            <navn>Venstre</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Skutle</etternavn>
-          <foedselsdato>1990-01-07T00:00:00</foedselsdato>
-          <fornavn>Erik</fornavn>
-          <id>ERIS</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ho</id>
-            <navn>Hordaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Eldegard</etternavn>
           <foedselsdato>1963-04-14T00:00:00</foedselsdato>
           <fornavn>Gunvor</fornavn>
@@ -14299,44 +14261,6 @@
             <versjon>1.3</versjon>
             <id>KrF</id>
             <navn>Kristelig Folkeparti</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Thorheim</etternavn>
-          <foedselsdato>1948-06-23T00:00:00</foedselsdato>
-          <fornavn>Helge</fornavn>
-          <id>HTHO</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ro</id>
-            <navn>Rogaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>FrP</id>
-            <navn>Fremskrittspartiet</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Christensen</etternavn>
-          <foedselsdato>1983-06-01T00:00:00</foedselsdato>
-          <fornavn>Jette F.</fornavn>
-          <id>JFC</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ho</id>
-            <navn>Hordaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
           </parti>
         </representant>
         <representant>
@@ -14418,6 +14342,44 @@
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Raja</etternavn>
+          <foedselsdato>1975-11-05T00:00:00</foedselsdato>
+          <fornavn>Abid Q.</fornavn>
+          <id>ABIR</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>V</id>
+            <navn>Venstre</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Skutle</etternavn>
+          <foedselsdato>1990-01-07T00:00:00</foedselsdato>
+          <fornavn>Erik</fornavn>
+          <id>ERIS</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Hansson</etternavn>
           <foedselsdato>1954-09-04T00:00:00</foedselsdato>
           <fornavn>Rasmus</fornavn>
@@ -14432,6 +14394,44 @@
             <versjon>1.3</versjon>
             <id>MDG</id>
             <navn>Miljøpartiet De Grønne</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Thorheim</etternavn>
+          <foedselsdato>1948-06-23T00:00:00</foedselsdato>
+          <fornavn>Helge</fornavn>
+          <id>HTHO</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Christensen</etternavn>
+          <foedselsdato>1983-06-01T00:00:00</foedselsdato>
+          <fornavn>Jette F.</fornavn>
+          <id>JFC</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
           </parti>
         </representant>
       </saksordfoerer_liste>
@@ -15609,7 +15609,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Anundsen</etternavn>
           <foedselsdato>1975-11-17T00:00:00</foedselsdato>
           <fornavn>Anders</fornavn>
@@ -15812,7 +15812,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Anundsen</etternavn>
           <foedselsdato>1975-11-17T00:00:00</foedselsdato>
           <fornavn>Anders</fornavn>
@@ -19422,25 +19422,6 @@
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Raja</etternavn>
-          <foedselsdato>1975-11-05T00:00:00</foedselsdato>
-          <fornavn>Abid Q.</fornavn>
-          <id>ABIR</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ak</id>
-            <navn>Akershus</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>V</id>
-            <navn>Venstre</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Skutle</etternavn>
           <foedselsdato>1990-01-07T00:00:00</foedselsdato>
           <fornavn>Erik</fornavn>
@@ -19474,25 +19455,6 @@
             <versjon>1.3</versjon>
             <id>A</id>
             <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Grøvan</etternavn>
-          <foedselsdato>1953-11-01T00:00:00</foedselsdato>
-          <fornavn>Hans Fredrik</fornavn>
-          <id>HFG</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>VA</id>
-            <navn>Vest-Agder</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>KrF</id>
-            <navn>Kristelig Folkeparti</navn>
           </parti>
         </representant>
         <representant>
@@ -19593,6 +19555,25 @@
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Raja</etternavn>
+          <foedselsdato>1975-11-05T00:00:00</foedselsdato>
+          <fornavn>Abid Q.</fornavn>
+          <id>ABIR</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>V</id>
+            <navn>Venstre</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Lundteigen</etternavn>
           <foedselsdato>1953-04-18T00:00:00</foedselsdato>
           <fornavn>Per Olaf</fornavn>
@@ -19626,6 +19607,25 @@
             <versjon>1.3</versjon>
             <id>MDG</id>
             <navn>Miljøpartiet De Grønne</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Grøvan</etternavn>
+          <foedselsdato>1953-11-01T00:00:00</foedselsdato>
+          <fornavn>Hans Fredrik</fornavn>
+          <id>HFG</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>VA</id>
+            <navn>Vest-Agder</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>KrF</id>
+            <navn>Kristelig Folkeparti</navn>
           </parti>
         </representant>
       </saksordfoerer_liste>
@@ -22179,7 +22179,7 @@
         </representant>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Gjerstad</etternavn>
           <foedselsdato>1963-05-26T00:00:00</foedselsdato>
           <fornavn>Ingunn</fornavn>
@@ -23371,7 +23371,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Spurkeland</etternavn>
           <foedselsdato>1987-08-12T00:00:00</foedselsdato>
           <fornavn>Charlotte</fornavn>
@@ -23672,7 +23672,7 @@
         </representant>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Gjerstad</etternavn>
           <foedselsdato>1963-05-26T00:00:00</foedselsdato>
           <fornavn>Ingunn</fornavn>
@@ -26798,7 +26798,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Otterstad</etternavn>
           <foedselsdato>1991-06-14T00:00:00</foedselsdato>
           <fornavn>Audun</fornavn>
@@ -28075,7 +28075,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Spurkeland</etternavn>
           <foedselsdato>1987-08-12T00:00:00</foedselsdato>
           <fornavn>Charlotte</fornavn>
@@ -28681,7 +28681,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Gjerstad</etternavn>
           <foedselsdato>1963-05-26T00:00:00</foedselsdato>
           <fornavn>Ingunn</fornavn>
@@ -29989,7 +29989,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Otterstad</etternavn>
           <foedselsdato>1991-06-14T00:00:00</foedselsdato>
           <fornavn>Audun</fornavn>
@@ -31160,6 +31160,63 @@
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Lundteigen</etternavn>
+          <foedselsdato>1953-04-18T00:00:00</foedselsdato>
+          <fornavn>Per Olaf</fornavn>
+          <id>POL</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Bu</id>
+            <navn>Buskerud</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Tetzschner</etternavn>
+          <foedselsdato>1954-02-09T00:00:00</foedselsdato>
+          <fornavn>Michael</fornavn>
+          <id>MIT</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Hansson</etternavn>
+          <foedselsdato>1954-09-04T00:00:00</foedselsdato>
+          <fornavn>Rasmus</fornavn>
+          <id>RAJH</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>MDG</id>
+            <navn>Miljøpartiet De Grønne</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Grøvan</etternavn>
           <foedselsdato>1953-11-01T00:00:00</foedselsdato>
           <fornavn>Hans Fredrik</fornavn>
@@ -31250,63 +31307,6 @@
             <versjon>1.3</versjon>
             <id>A</id>
             <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Tetzschner</etternavn>
-          <foedselsdato>1954-02-09T00:00:00</foedselsdato>
-          <fornavn>Michael</fornavn>
-          <id>MIT</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Lundteigen</etternavn>
-          <foedselsdato>1953-04-18T00:00:00</foedselsdato>
-          <fornavn>Per Olaf</fornavn>
-          <id>POL</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Bu</id>
-            <navn>Buskerud</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>Sp</id>
-            <navn>Senterpartiet</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Hansson</etternavn>
-          <foedselsdato>1954-09-04T00:00:00</foedselsdato>
-          <fornavn>Rasmus</fornavn>
-          <id>RAJH</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>MDG</id>
-            <navn>Miljøpartiet De Grønne</navn>
           </parti>
         </representant>
       </saksordfoerer_liste>
@@ -35163,7 +35163,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Otterstad</etternavn>
           <foedselsdato>1991-06-14T00:00:00</foedselsdato>
           <fornavn>Audun</fornavn>
@@ -43319,7 +43319,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Otterstad</etternavn>
           <foedselsdato>1991-06-14T00:00:00</foedselsdato>
           <fornavn>Audun</fornavn>
@@ -43475,7 +43475,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Otterstad</etternavn>
           <foedselsdato>1991-06-14T00:00:00</foedselsdato>
           <fornavn>Audun</fornavn>
@@ -45014,7 +45014,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Otterstad</etternavn>
           <foedselsdato>1991-06-14T00:00:00</foedselsdato>
           <fornavn>Audun</fornavn>
@@ -45170,7 +45170,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Otterstad</etternavn>
           <foedselsdato>1991-06-14T00:00:00</foedselsdato>
           <fornavn>Audun</fornavn>
@@ -48989,7 +48989,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Spurkeland</etternavn>
           <foedselsdato>1987-08-12T00:00:00</foedselsdato>
           <fornavn>Charlotte</fornavn>
@@ -49418,7 +49418,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Høie</etternavn>
           <foedselsdato>1971-05-04T00:00:00</foedselsdato>
           <fornavn>Bent</fornavn>
@@ -50278,7 +50278,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Anundsen</etternavn>
           <foedselsdato>1975-11-17T00:00:00</foedselsdato>
           <fornavn>Anders</fornavn>
@@ -50417,7 +50417,7 @@
         </representant>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Anundsen</etternavn>
           <foedselsdato>1975-11-17T00:00:00</foedselsdato>
           <fornavn>Anders</fornavn>
@@ -50499,7 +50499,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Anundsen</etternavn>
           <foedselsdato>1975-11-17T00:00:00</foedselsdato>
           <fornavn>Anders</fornavn>
@@ -51216,7 +51216,7 @@
         </representant>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Anundsen</etternavn>
           <foedselsdato>1975-11-17T00:00:00</foedselsdato>
           <fornavn>Anders</fornavn>
