@@ -351,29 +351,6 @@
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste />
       <forslagstiller_liste />
-      <henvisning>Prop. 151 S (2014-2015)</henvisning>
-      <id>63306</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>NÆRING</id>
-        <navn>Næringskomiteen</navn>
-      </komite>
-      <korttittel>Endringer i statsbudsjettet 2015 under Nærings- og fiskeridepartementet</korttittel>
-      <sak_fremmet_id>63306</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2015-09-30T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endringer i statsbudsjettet 2015 under Nærings- og fiskeridepartementet (Tilleggsbevilgninger til Innovasjon Norge)</tittel>
-      <type>budsjett</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
-      <forslagstiller_liste />
       <henvisning>Prop. 149 L (2014-2015)</henvisning>
       <id>61844</id>
       <innstilling_id>-1</innstilling_id>
@@ -438,7 +415,24 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>64</id>
+          <navn>HELSEPERSONELL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Prop. 156 L (2014-2015)</henvisning>
       <id>63389</id>
@@ -481,7 +475,24 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>45</hovedemne_id>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Prop. 157 L (2014-2015), Innst. 23 L (2015-2016)</henvisning>
       <id>63390</id>
@@ -519,6 +530,29 @@
       <status>til_behandling</status>
       <tittel>Lov om konsortium for europeisk forskingsinfrastruktur (ERIC-lova)</tittel>
       <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste />
+      <forslagstiller_liste />
+      <henvisning>Prop. 151 S (2014-2015)</henvisning>
+      <id>63306</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>NÆRING</id>
+        <navn>Næringskomiteen</navn>
+      </komite>
+      <korttittel>Endringer i statsbudsjettet 2015 under Nærings- og fiskeridepartementet</korttittel>
+      <sak_fremmet_id>63306</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2015-09-30T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endringer i statsbudsjettet 2015 under Nærings- og fiskeridepartementet (Tilleggsbevilgninger til Innovasjon Norge)</tittel>
+      <type>budsjett</type>
     </sak>
     <sak>
       <versjon>1.3</versjon>
@@ -1052,7 +1086,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Spurkeland</etternavn>
           <foedselsdato>1987-08-12T00:00:00</foedselsdato>
           <fornavn>Charlotte</fornavn>
@@ -15609,7 +15643,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Anundsen</etternavn>
           <foedselsdato>1975-11-17T00:00:00</foedselsdato>
           <fornavn>Anders</fornavn>
@@ -15812,7 +15846,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Anundsen</etternavn>
           <foedselsdato>1975-11-17T00:00:00</foedselsdato>
           <fornavn>Anders</fornavn>
@@ -22179,7 +22213,7 @@
         </representant>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Gjerstad</etternavn>
           <foedselsdato>1963-05-26T00:00:00</foedselsdato>
           <fornavn>Ingunn</fornavn>
@@ -23371,7 +23405,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Spurkeland</etternavn>
           <foedselsdato>1987-08-12T00:00:00</foedselsdato>
           <fornavn>Charlotte</fornavn>
@@ -23672,7 +23706,7 @@
         </representant>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Gjerstad</etternavn>
           <foedselsdato>1963-05-26T00:00:00</foedselsdato>
           <fornavn>Ingunn</fornavn>
@@ -26798,7 +26832,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Otterstad</etternavn>
           <foedselsdato>1991-06-14T00:00:00</foedselsdato>
           <fornavn>Audun</fornavn>
@@ -28075,7 +28109,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Spurkeland</etternavn>
           <foedselsdato>1987-08-12T00:00:00</foedselsdato>
           <fornavn>Charlotte</fornavn>
@@ -28681,7 +28715,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Gjerstad</etternavn>
           <foedselsdato>1963-05-26T00:00:00</foedselsdato>
           <fornavn>Ingunn</fornavn>
@@ -29989,7 +30023,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Otterstad</etternavn>
           <foedselsdato>1991-06-14T00:00:00</foedselsdato>
           <fornavn>Audun</fornavn>
@@ -35163,7 +35197,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Otterstad</etternavn>
           <foedselsdato>1991-06-14T00:00:00</foedselsdato>
           <fornavn>Audun</fornavn>
@@ -43319,7 +43353,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Otterstad</etternavn>
           <foedselsdato>1991-06-14T00:00:00</foedselsdato>
           <fornavn>Audun</fornavn>
@@ -43475,7 +43509,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Otterstad</etternavn>
           <foedselsdato>1991-06-14T00:00:00</foedselsdato>
           <fornavn>Audun</fornavn>
@@ -45014,7 +45048,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Otterstad</etternavn>
           <foedselsdato>1991-06-14T00:00:00</foedselsdato>
           <fornavn>Audun</fornavn>
@@ -45170,7 +45204,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Otterstad</etternavn>
           <foedselsdato>1991-06-14T00:00:00</foedselsdato>
           <fornavn>Audun</fornavn>
@@ -48989,7 +49023,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Spurkeland</etternavn>
           <foedselsdato>1987-08-12T00:00:00</foedselsdato>
           <fornavn>Charlotte</fornavn>
@@ -49418,7 +49452,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Høie</etternavn>
           <foedselsdato>1971-05-04T00:00:00</foedselsdato>
           <fornavn>Bent</fornavn>
@@ -50278,7 +50312,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Anundsen</etternavn>
           <foedselsdato>1975-11-17T00:00:00</foedselsdato>
           <fornavn>Anders</fornavn>
@@ -50417,7 +50451,7 @@
         </representant>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Anundsen</etternavn>
           <foedselsdato>1975-11-17T00:00:00</foedselsdato>
           <fornavn>Anders</fornavn>
@@ -50499,7 +50533,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Anundsen</etternavn>
           <foedselsdato>1975-11-17T00:00:00</foedselsdato>
           <fornavn>Anders</fornavn>
@@ -51216,7 +51250,7 @@
         </representant>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Anundsen</etternavn>
           <foedselsdato>1975-11-17T00:00:00</foedselsdato>
           <fornavn>Anders</fornavn>
