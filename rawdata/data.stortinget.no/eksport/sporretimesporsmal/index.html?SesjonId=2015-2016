@@ -7,7 +7,7 @@
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Aspaker</etternavn>
         <foedselsdato>1962-10-16T00:00:00</foedselsdato>
         <fornavn>Elisabeth</fornavn>
@@ -21,18 +21,43 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-10-14T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>45</hovedemne_id>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>8</hovedemne_id>
+          <id>92</id>
+          <navn>HAVBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>63725</id>
       <rette_vedkommende i:nil="true" />
       <rette_vedkommende_minister_id i:nil="true" />
       <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sendt_dato>0001-01-01T00:00:00Z</sendt_dato>
       <sesjon_id>2015-2016</sesjon_id>
       <sporsmal_fra>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Heggø</etternavn>
         <foedselsdato>1961-08-12T00:00:00</foedselsdato>
         <fornavn>Ingrid</fornavn>
@@ -52,7 +77,7 @@
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Aspaker</etternavn>
         <foedselsdato>1962-10-16T00:00:00</foedselsdato>
         <fornavn>Elisabeth</fornavn>
@@ -62,18 +87,14 @@
       <sporsmal_til_minister_id>NFDFISK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>fiskeriministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Mitt spørsmål går til fiskeriministeren: I Fiskeribladet Fiskaren fredag 9. oktober kunne vi lesa overskrifta «Pinglet på forskning». På leiarplass i same avis er overskrifta «Kreativ bokføring». Ser vi fiskeri- og havbruksområdet under eitt, er budsjettet faktisk redusert med 36,5 mill. kr, og regjeringa flyttar midlane som kjem frå auken i forskningsavgifta til andre postar og latar som om dette er påplussing til andre gode formål. Nær 150 mill. kr av dei 170 kjem frå omposteringar av forskingsavgifta og auken i denne. Det som skal gå til anna marin forsking og utvikling står stille i departementet sitt budsjett, og Fiskeridirektoratet får eit kutt på 0,5 pst. 
-
-Nei, dette er ikkje berre mine ord, men sitat frå leiaren i Fiskeribladet Fiskaren den 9. oktober. I same avis, på første sida, kan vi òg lesa om harnisk over uthuling av satsing på infrastrukturtiltak. Manglande vilje til å satsa på sjømatnæringa, på forsking, på kunnskap – det er openbert òg i årets budsjett frå Høgre og Framstegspartiet. Vi kan slå fast at regjeringa si satsing på sjømatnæringa berre er til bruk i festtalar – berre ord, ikkje handling. 
-
-Når skal regjeringa visa handlekraft, og når vil vi sjå ei reell satsing på sjømatnæringa, som dei ofte likar å omtala som framtidsnæring?</tittel>
+      <tittel>om når regjeringa skal visa handlekraft, og når vil vi sjå ei reell _satsing på sjømatnæringa_, som dei ofte likar å omtala som framtidsnæring</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -87,18 +108,59 @@ Når skal regjeringa visa handlekraft, og når vil vi sjå ei reell satsing på 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-10-14T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>4</hovedemne_id>
+          <id>4</id>
+          <navn>ENERGI</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>45</hovedemne_id>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>63724</id>
       <rette_vedkommende i:nil="true" />
       <rette_vedkommende_minister_id i:nil="true" />
       <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sendt_dato>0001-01-01T00:00:00Z</sendt_dato>
       <sesjon_id>2015-2016</sesjon_id>
       <sporsmal_fra>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Fylkesnes</etternavn>
         <foedselsdato>1975-06-04T00:00:00</foedselsdato>
         <fornavn>Torgeir Knag</fornavn>
@@ -118,7 +180,7 @@ Når skal regjeringa visa handlekraft, og når vil vi sjå ei reell satsing på 
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -128,22 +190,14 @@ Når skal regjeringa visa handlekraft, og når vil vi sjå ei reell satsing på 
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Mitt spørsmål går til kunnskapsministeren. 
-
-La meg først – mens han kjem på plass – gi statsråden ros for å ha lagt fram eit solid forskingsbudsjett. Samtidig har faktisk den delen av statsbudsjettet som går til forsking, gått ned fordi regjeringa bruker mange oljemilliardar og føreslår store skattekutt. 
-
-Vi står framfor ei omstilling av det norske samfunnet, av arbeidslivet og næringslivet, der utdanning, forsking og innovasjon blir avgjerande faktorar for endring. Skal vi lykkast med det grøne skiftet, må ein større del av dei samla ressursane i samfunnet gå til kunnskap. Men kunnskapsinvesteringane må brukast rett, om vi skal få til omstilling. Vi må sørgje for at dei pengane vi investerer, akselererer det grøne skiftet og ikkje bremsar det. 
-
-I vår behandla vi langtidsplanen for forsking og høgare utdanning. Der blei seks område framheva som viktige forskingssatsingar. Hav, miljø og mogleggjerande teknologiar var blant dei seks. Petroleum var ikkje nemnt. Likevel er petroforsking den store budsjettvinnaren og den største enkeltsatsinga i regjeringas forskingsbudsjett. Programmet Demo 2000 skal ifølgje statsbudsjettet oppnå auka utvinning av olje og gass og avhjelpe norsk olje- og gassnæring i ein vanskeleg fase. Programmet blir tilført 100 friske millionar i årets statsbudsjett. Til samanlikning får fornybarprogrammet ENERGIX og FME ei mykje meir beskjeden auking. Ved opptakta til eit historisk viktig klimatoppmøte i Paris føreslår altså regjeringa å bruke to og ein halv gonger så mykje på fossilforsking som på fornybarforsking i OEDs budsjett. 
-
-Meiner forskingsstatsråden at denne prioriteringa vil framskynde eller forsinke det grøne skiftet? </tittel>
+      <tittel>om statsråden meiner at _prioriteringa av forsking i budsjettet_ vil fremskynde eller forsinke det grøne skiftet</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Aspaker</etternavn>
         <foedselsdato>1962-10-16T00:00:00</foedselsdato>
         <fornavn>Elisabeth</fornavn>
@@ -157,18 +211,35 @@ Meiner forskingsstatsråden at denne prioriteringa vil framskynde eller forsinke
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-10-14T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
+          <id>23</id>
+          <navn>NATURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>8</hovedemne_id>
+          <id>92</id>
+          <navn>HAVBRUK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>63723</id>
       <rette_vedkommende i:nil="true" />
       <rette_vedkommende_minister_id i:nil="true" />
       <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sendt_dato>0001-01-01T00:00:00Z</sendt_dato>
       <sesjon_id>2015-2016</sesjon_id>
       <sporsmal_fra>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Farstad</etternavn>
         <foedselsdato>1959-04-01T00:00:00</foedselsdato>
         <fornavn>Pål</fornavn>
@@ -188,7 +259,7 @@ Meiner forskingsstatsråden at denne prioriteringa vil framskynde eller forsinke
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Aspaker</etternavn>
         <foedselsdato>1962-10-16T00:00:00</foedselsdato>
         <fornavn>Elisabeth</fornavn>
@@ -198,22 +269,14 @@ Meiner forskingsstatsråden at denne prioriteringa vil framskynde eller forsinke
       <sporsmal_til_minister_id>NFDFISK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>fiskeriministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Mitt spørsmål skal handle om lakselus, og spørsmålet går rimeligvis til fiskeriministeren. 
-
-Havbruksnæringen er en av våre viktigste næringer. Lakseoppdrett har en økende betydning for norske eksportinntekter og norsk økonomi – direkte og indirekte for næringen selv, for leverandørindustri og annen tilstøtende virksomhet. Det er en næring av stor betydning for mange kystsamfunn. 
-
-Hvis næringsutøverne, oppdrettsselskapene, håndterer voksesmertene på en god måte og myndighet og forvaltning stiller de riktige kravene til næringen, har havbruksnæringen potensial til å bli en av landets mest solide pilarer for det norske velferdssamfunnet. Dette opplevde jeg var en viktig premiss i forbindelse med Stortingets behandling av havbruksmeldingen i juni i år. Stortinget besluttet å legge oppdretterens evne til å holde lakselusnivået nede som betingelse for at oppdretteren skal få anledning til vekst i sin virksomhet. 
-
-Nå opplever vi at lakselus er en stor utfordring for havbruksnæringen og for miljøet, i tillegg til at næringen har en urovekkende kjemikaliebruk for å bli kvitt lakselusa. Utfordringene ser ikke ut til å bli mindre. Dette bekymrer Venstre når det gjelder både miljøet og villfisksektoren, f.eks. reker og ulike fiskeslag som lever nær fiskeoppdrettsanlegg. Flere medieoppslag i løpet av de siste ukene har underbygd dette. 
-
-Mitt spørsmål er: Hva tenker fiskeriministeren om lakselussituasjonen, og hva er statsrådens svar på disse utfordringene nå, altså på kort sikt? </tittel>
+      <tittel>om hva fiskeriministeren tenker om _lakselussituasjonen_, og hva som er statsrådens svar på utfordringene på kort sikt</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Listhaug</etternavn>
         <foedselsdato>1977-12-25T00:00:00</foedselsdato>
         <fornavn>Sylvi</fornavn>
@@ -227,18 +290,43 @@ Mitt spørsmål er: Hva tenker fiskeriministeren om lakselussituasjonen, og hva 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-10-14T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>58</id>
+          <navn>SKATTER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>63722</id>
       <rette_vedkommende i:nil="true" />
       <rette_vedkommende_minister_id i:nil="true" />
       <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sendt_dato>0001-01-01T00:00:00Z</sendt_dato>
       <sesjon_id>2015-2016</sesjon_id>
       <sporsmal_fra>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Pollestad</etternavn>
         <foedselsdato>1978-08-13T00:00:00</foedselsdato>
         <fornavn>Geir</fornavn>
@@ -258,7 +346,7 @@ Mitt spørsmål er: Hva tenker fiskeriministeren om lakselussituasjonen, og hva 
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Listhaug</etternavn>
         <foedselsdato>1977-12-25T00:00:00</foedselsdato>
         <fornavn>Sylvi</fornavn>
@@ -268,22 +356,14 @@ Mitt spørsmål er: Hva tenker fiskeriministeren om lakselussituasjonen, og hva 
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Mitt spørsmål går til landbruks- og matministeren: Det er en realitet at landets bønder hadde lave forventninger til dagens regjering og til hva de ville gjøre for å styrke lønnsomheten i norsk matproduksjon. Men på ett område hadde en klare forventninger, og det var på området skatt og avgifter, både med bakgrunn i løftet som Høyre og Fremskrittspartiet hadde gitt i valgkampen, og ikke minst etter følgende formulering i regjeringsplattformen: 
-
-«Regjeringen vil bruke målrettede skatteendringer for å styrke bondes økonomiske stilling.» 
-
-Politiske løfter gitt etter et valg burde en kunne stole på. Derfor er det et skattesjokk for mange når regjeringen i statsbudsjettet foreslår en kraftig skatteskjerpelse på overdragelse av gårdsbruk innen familien. Det vil gjøre generasjonsskifter langt dyrere, og det vil ramme selve bærebjelken i norsk landbruk, familiebruket. Det er ingen tvil om at ved overdragelse av aktive bruk innen familien vil mange få en skatteregning på hundretusenvis av kroner og oppover. Det vil gjøre generasjonsskifter dyrere og vanskelige. 
-
-Skatt ved generasjonsskifte er ikke den eneste skatteskjerpelsen til landets bønder fra regjeringen. En kan nevne den historiske økningen i dieselavgiften. I 2014 mistet man det såkalte diskontinuitetsprinsippet ved generasjonsskifte. I tillegg til skatt ved generasjonsskifte innfører en dette året en ny skatt på salg av mindre tomter på gården, og til neste år har en varslet kutt i avskrivningssatsene, og det innføres skatt på enkelte tilskudd. 
-
-Så mitt spørsmål er: Hvorfor sender Fremskrittspartiet og Høyre en stor skatteregning til landets familiebruk når en har lovet skatteendringer for å styrke bondens økonomiske stilling? </tittel>
+      <tittel>om hvorfor Fremskrittspartiet og Høyre sender en stor _skatteregning til landets familiebruk_ når en har lovet skatteendringer for å styrke bondens økonomiske stilling</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -297,18 +377,51 @@ Så mitt spørsmål er: Hvorfor sender Fremskrittspartiet og Høyre en stor skat
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-10-14T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>52</id>
+          <navn>KOMMUNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>183</id>
+          <navn>GRUNNSKOLE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>63721</id>
       <rette_vedkommende i:nil="true" />
       <rette_vedkommende_minister_id i:nil="true" />
       <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sendt_dato>0001-01-01T00:00:00Z</sendt_dato>
       <sesjon_id>2015-2016</sesjon_id>
       <sporsmal_fra>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Tyvand</etternavn>
         <foedselsdato>1980-05-19T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -328,7 +441,7 @@ Så mitt spørsmål er: Hvorfor sender Fremskrittspartiet og Høyre en stor skat
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -338,14 +451,14 @@ Så mitt spørsmål er: Hvorfor sender Fremskrittspartiet og Høyre en stor skat
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel> om i hvilken grad norsk skole er rustet til å _ta imot de barna som nå kommer til landet_, med bakgrunn i store variasjoner fra kommune til kommune i det skoletilbudet som gis til asylsøkere i skolepliktig alder</tittel>
+      <tittel>om i hvilken grad norsk skole er rustet til å _ta imot de barna som nå kommer til landet_, med bakgrunn i store variasjoner fra kommune til kommune i det skoletilbudet som gis til asylsøkere i skolepliktig alder</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -399,11 +512,11 @@ Så mitt spørsmål er: Hvorfor sender Fremskrittspartiet og Høyre en stor skat
       <rette_vedkommende i:nil="true" />
       <rette_vedkommende_minister_id i:nil="true" />
       <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sendt_dato>0001-01-01T00:00:00Z</sendt_dato>
       <sesjon_id>2015-2016</sesjon_id>
       <sporsmal_fra>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Giske</etternavn>
         <foedselsdato>1966-11-07T00:00:00</foedselsdato>
         <fornavn>Trond</fornavn>
@@ -423,7 +536,7 @@ Så mitt spørsmål er: Hvorfor sender Fremskrittspartiet og Høyre en stor skat
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -440,7 +553,7 @@ Så mitt spørsmål er: Hvorfor sender Fremskrittspartiet og Høyre en stor skat
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Listhaug</etternavn>
         <foedselsdato>1977-12-25T00:00:00</foedselsdato>
         <fornavn>Sylvi</fornavn>
@@ -454,18 +567,51 @@ Så mitt spørsmål er: Hvorfor sender Fremskrittspartiet og Høyre en stor skat
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-10-08T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>66</id>
+          <navn>SYKDOMMER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>129</id>
+          <navn>HUSDYR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>133</id>
+          <navn>VETERINÆRVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>188</id>
+          <navn>FOLKEHELSE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>63691</id>
       <rette_vedkommende i:nil="true" />
       <rette_vedkommende_minister_id i:nil="true" />
       <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sendt_dato>0001-01-01T00:00:00Z</sendt_dato>
       <sesjon_id>2015-2016</sesjon_id>
       <sporsmal_fra>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Lundteigen</etternavn>
         <foedselsdato>1953-04-18T00:00:00</foedselsdato>
         <fornavn>Per Olaf</fornavn>
@@ -485,7 +631,7 @@ Så mitt spørsmål er: Hvorfor sender Fremskrittspartiet og Høyre en stor skat
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Listhaug</etternavn>
         <foedselsdato>1977-12-25T00:00:00</foedselsdato>
         <fornavn>Sylvi</fornavn>
@@ -495,15 +641,14 @@ Så mitt spørsmål er: Hvorfor sender Fremskrittspartiet og Høyre en stor skat
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Forekomsten av antibiotikaresistente tarmbakterier (ESBL-produserende og kinolonresistente E. coli) i norsk fjørfe og fjørfekjøtt er en trussel mot folkehelsa. Antibiotikumet narasin er markedsføringsgodkjent i Norge som et koksidiostatika med antibakteriell virkning. Narasin ble patentgodkjent som et antibiotikum i USA 3. august 1982.
-Mener statsråden at narasin ikke er et antibiotikum?</tittel>
+      <tittel>om statsråden mener at narasin ikke er et antibiotikum, med henvisning til at forekomsten av _antibiotikaresistente tarmbakterier i norsk fjørfe_ og fjørfekjøtt er en trussel mot folkehelsa</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Listhaug</etternavn>
         <foedselsdato>1977-12-25T00:00:00</foedselsdato>
         <fornavn>Sylvi</fornavn>
@@ -517,18 +662,51 @@ Mener statsråden at narasin ikke er et antibiotikum?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-10-08T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>69</id>
+          <navn>LANDBRUKSPRODUKTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>83</id>
+          <navn>PRISER OG KONKURRANSEFORHOLD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>97</id>
+          <navn>VAREHANDEL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>98</id>
+          <navn>FORBRUKERSAKER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>63690</id>
       <rette_vedkommende i:nil="true" />
       <rette_vedkommende_minister_id i:nil="true" />
       <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sendt_dato>0001-01-01T00:00:00Z</sendt_dato>
       <sesjon_id>2015-2016</sesjon_id>
       <sporsmal_fra>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Hansson</etternavn>
         <foedselsdato>1954-09-04T00:00:00</foedselsdato>
         <fornavn>Rasmus</fornavn>
@@ -548,7 +726,7 @@ Mener statsråden at narasin ikke er et antibiotikum?</tittel>
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Listhaug</etternavn>
         <foedselsdato>1977-12-25T00:00:00</foedselsdato>
         <fornavn>Sylvi</fornavn>
@@ -558,15 +736,14 @@ Mener statsråden at narasin ikke er et antibiotikum?</tittel>
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I dag har vi tre svært dominerende dagligvarekjeder i Norge. Ifølge NRK vil regjeringen ikke fremme en ny lov om god handelsskikk, tross råd fra Dagligvarelovutvalget og bekymringer fra Matkjedeutvalget. Ett virkemiddel er å senke grensen for dominerende aktører i bransjen fra 40 til 30 prosent, som i Finland, men Miljøpartiet De Grønne ble nedstemt da vi foreslo dette.
-Hvordan vil statsråden sikre bedre konkurranse, forbrukermakt og effektivitet i dagligvarebransjen, slik Stortinget ba om i februar i år?</tittel>
+      <tittel>om hvordan statsråden vil sikre bedre _konkurranse, forbrukermakt og effektivitet i dagligvarebransjen_, slik Stortinget ba om i februar i år</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -580,18 +757,43 @@ Hvordan vil statsråden sikre bedre konkurranse, forbrukermakt og effektivitet i
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-10-08T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>38</id>
+          <navn>BOLIGSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>138</id>
+          <navn>HUSBANKEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>63689</id>
       <rette_vedkommende i:nil="true" />
       <rette_vedkommende_minister_id i:nil="true" />
       <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sendt_dato>0001-01-01T00:00:00Z</sendt_dato>
       <sesjon_id>2015-2016</sesjon_id>
       <sporsmal_fra>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Greni</etternavn>
         <foedselsdato>1962-07-03T00:00:00</foedselsdato>
         <fornavn>Heidi</fornavn>
@@ -611,7 +813,7 @@ Hvordan vil statsråden sikre bedre konkurranse, forbrukermakt og effektivitet i
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -621,15 +823,14 @@ Hvordan vil statsråden sikre bedre konkurranse, forbrukermakt og effektivitet i
       <sporsmal_til_minister_id>KMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kommunal- og moderniseringsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Statsråden har vist til at Husbanken og deres låneordninger er viktige i arbeidet med å øke tilfanget av boliger, og vil dermed lette kommunenes arbeid med å bosette flyktninger.
-Er vilkårene for de ulike låneordningene i Husbanken tilpasset behovet for å få finansiert istandsetting av eksisterende bolighus og andre eiendommer som kan inngå i kommunenes boligtilbud til flyktninger, og hvis ikke, hva vil statsråden gjøre for at Husbanken får en mer sentral rolle i arbeidet for flere boliger til bosetting av flyktninger?</tittel>
+      <tittel>om hva statsråden vil gjøre for at Husbanken får en mer sentral rolle i arbeidet for flere _boliger til bosetting av flyktninger_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Mæland</etternavn>
         <foedselsdato>1968-02-06T00:00:00</foedselsdato>
         <fornavn>Monica</fornavn>
@@ -643,18 +844,43 @@ Er vilkårene for de ulike låneordningene i Husbanken tilpasset behovet for å 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-10-08T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>115</id>
+          <navn>BERGVERK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>176</id>
+          <navn>SVALBARD</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>63688</id>
       <rette_vedkommende i:nil="true" />
       <rette_vedkommende_minister_id i:nil="true" />
       <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sendt_dato>0001-01-01T00:00:00Z</sendt_dato>
       <sesjon_id>2015-2016</sesjon_id>
       <sporsmal_fra>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Pollestad</etternavn>
         <foedselsdato>1978-08-13T00:00:00</foedselsdato>
         <fornavn>Geir</fornavn>
@@ -674,7 +900,7 @@ Er vilkårene for de ulike låneordningene i Husbanken tilpasset behovet for å 
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Mæland</etternavn>
         <foedselsdato>1968-02-06T00:00:00</foedselsdato>
         <fornavn>Monica</fornavn>
@@ -684,15 +910,14 @@ Er vilkårene for de ulike låneordningene i Husbanken tilpasset behovet for å 
       <sporsmal_til_minister_id>NFD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>næringsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Svalbard-samfunnet er i en vanskelig situasjon som følge av fall i kullprisene og tilhørende nedbemanninger innen kulldriften.
-Hva gjør regjeringen for å sikre fremtiden for Svalbard?</tittel>
+      <tittel>om hva regjeringen gjør for å _sikre fremtiden for Svalbard_, med henvisning til fall i kullprisene og tilhørende nedbemanninger innen kulldriften</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -706,18 +931,35 @@ Hva gjør regjeringen for å sikre fremtiden for Svalbard?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-10-08T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>43</id>
+          <navn>BARNEVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>63685</id>
       <rette_vedkommende i:nil="true" />
       <rette_vedkommende_minister_id i:nil="true" />
       <rette_vedkommende_minister_tittel i:nil="true" />
-      <sendt_dato>0001-01-01T00:00:00</sendt_dato>
+      <sendt_dato>0001-01-01T00:00:00Z</sendt_dato>
       <sesjon_id>2015-2016</sesjon_id>
       <sporsmal_fra>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Toppe</etternavn>
         <foedselsdato>1967-10-20T00:00:00</foedselsdato>
         <fornavn>Kjersti</fornavn>
@@ -737,7 +979,7 @@ Hva gjør regjeringen for å sikre fremtiden for Svalbard?</tittel>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -747,8 +989,7 @@ Hva gjør regjeringen for å sikre fremtiden for Svalbard?</tittel>
       <sporsmal_til_minister_id>BLID</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>barne-, likestillings- og inkluderingsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I 2004 blei barnevernet lovpålagt alltid å undersøke om nokon i slekta kan vere fosterheim, før born blir plassert hos framande. I det siste er det omtalt fleire saker i media der omsorgsplassering er skjedd utan at familien er vurdert. Berre kvart femte barn blir plassert hos slekt. Ifølgje NRK 23. september kontrollerer ikkje fylkesnemndene om slektsplassering er vurdert, og fylkesmennene fører heller ikkje slikt tilsyn.
-Korleis vil statsråden sikre at barnevernet følgjer opp pålegget om slektsvurdering?</tittel>
+      <tittel>om korleis statsråden vil sikre at _barnevernet følgjer opp pålegget om slektsvurdering_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
   </sporsmal_liste>
