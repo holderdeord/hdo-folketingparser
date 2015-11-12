@@ -7,7 +7,7 @@
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
         <fornavn>Bent</fornavn>
@@ -21,7 +21,40 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-11-11T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>62</id>
+          <navn>HELSEINSTITUSJONER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>63</id>
+          <navn>SYKEHUS</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>83</id>
+          <navn>PRISER OG KONKURRANSEFORHOLD</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>63945</id>
@@ -52,7 +85,7 @@
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
         <fornavn>Bent</fornavn>
@@ -62,31 +95,14 @@
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Mitt spørsmål går til helseminister Bent Høie, som har forsøkt å framstille regjeringas prestisjereform fritt behandlingsvalg, som en ny valgfrihet for pasientene. I realiteten har norske pasienter hatt fri rett til å velge behandlingssted helt fra 2001, da reformen fritt sykehusvalg ble innført – en ordning som ble utvidet under den rød-grønne regjeringa, og som Arbeiderpartiet vil fortsette å videreutvikle. 
-
-Helseministerens påstand om fritt behandlingsvalg er at nå skal all såkalt ledig kapasitet tas i bruk, køer skal elimineres, og behovet for helseforsikringer skal forsvinne – alt til en lavere stykkpris enn den laveste anbudsprisen i markedet, men med like god behandlingskvalitet. 
-
-Nå ser det ut til at denne formodningen får seg et kraftig skudd for baugen. «Skivebom», sier direktøren for privatsykehuset i Haugesund, Turid Staveland Nygaard, til Dagens Næringsliv om prisene som er fastsatt for fritt behandlingsvalg, og legger til at hun aldri ville latt seg operere til så lave kostander: 
-
-«Vi kommer ikke til å melde oss på. Gjør vi det, så går vi konk.» 
-
-Hun sier videre: 
-
-«Da blir det som før, vi får levere til dem som har råd til å betale for behandlingen, og til pasienter med helseforsikring.» 
-
-Direktøren ved Aleris, Grethe Aasved, uttrykte også stor skepsis, og som om ikke det var nok, kommer de ideelle med samme melding: Virke mener prisene ikke er seriøse, Blå Kors kan ikke levere på sånne vilkår, Modum Bad melder at dette ikke holder, og sånn er meldingene stort sett over hele linja. 
-
-Fritt behandlingsvalg er utformet som en byråkratisk, omstendelig og relativt dyr ordning å administrere, og derfor spør jeg om følgende: 
-
-Vil helseministeren godta lavere behandlingskvalitet, tilby en høyere pris til private aktører på bekostning av offentlige sykehusbudsjetter for å lykkes, eller vil ha rett og slett vurdere å legge bort heile forsøket slik det er utformet?
-</tittel>
+      <tittel>om helseministeren vil godta lavere behandlingskvalitet eller høyere pris for å _lykkes med fritt behandlingsvalg_, med bakgrunn i at prisene ikke er seriøse ifølge private og ideelle aktører</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Brende</etternavn>
         <foedselsdato>1965-09-25T00:00:00</foedselsdato>
         <fornavn>Børge</fornavn>
@@ -100,7 +116,40 @@ Vil helseministeren godta lavere behandlingskvalitet, tilby en høyere pris til 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-11-11T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>168</id>
+          <navn>FN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>174</id>
+          <navn>UTVIKLINGSHJELP</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>63944</id>
@@ -131,7 +180,7 @@ Vil helseministeren godta lavere behandlingskvalitet, tilby en høyere pris til 
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Brende</etternavn>
         <foedselsdato>1965-09-25T00:00:00</foedselsdato>
         <fornavn>Børge</fornavn>
@@ -141,19 +190,14 @@ Vil helseministeren godta lavere behandlingskvalitet, tilby en høyere pris til 
       <sporsmal_til_minister_id>UD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>utenriksministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>På klimatoppmøtet i København i 2009 lovet rike land minst 100 mrd. dollar årlig i klimafinansiering til fattige land innen 2020. Løftet har vært veldig viktig for å bygge tillit mellom rike og fattige land i klimaforhandlingene, og det har vært viktig for klimaets skyld. Vi i rike land må bare krysse fingrene og håpe at fattige land ser at energirevolusjonen er mer basert på fornybare energikilder enn det vår egen utvikling har vært. Derfor betyr klimafinansiering støtte til fornybar elektrifisering av landsbygden, leselys til barn, strøm til kuvøser på sykehus og næringsutvikling. Vi vet samtidig at fattige land rammes hardest av klimaendringene. Derfor betyr klimafinansiering at fattige land kan få støtte til å tilpasse jordbruket sitt til klimaendringene. Det er viktig i en verden som skal sørge for nok mat til alle i klimaendringenes tid. 
-
-Nå går det mot klimatoppmøtet i Paris. Regjeringen har foreslått at Norge skal reise til klimaforhandlingene med et kutt i kofferten på til sammen 1,5 mrd. kr i støtte til fattige lands klimainnsats. Over 1 mrd. kr er dette kuttet på budsjettet til utenriksminister Børge Brende, som han er ansvarlig for. Regjeringen har begrunnet det kraftige bistandskuttet med flyktningkrisen. Men alvorlig talt, verden må klare å håndtere mer enn én krise. 
-
-Hvorfor vil statsråd Børge Brende trappe ned klimastøtten til fattige land når Norge og andre rike land har lovet å trappe den opp? Er det ikke nettopp sånne løftebrudd som ødelegger tilliten som trengs mellom rike og fattige land for å få til en best mulig avtale i Paris? 
-</tittel>
+      <tittel>om hvorfor statsråden vil _trappe ned klimastøtten til fattige land_ når Norge og andre rike land har lovet å trappe den opp, og hvorvidt det ikke nettopp er sånne løftebrudd som ødelegger tilliten som trengs mellom rike og fattige land for å få til en best mulig avtale i Paris</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
         <fornavn>Bent</fornavn>
@@ -167,7 +211,24 @@ Hvorfor vil statsråd Børge Brende trappe ned klimastøtten til fattige land n�
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-11-11T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>63943</id>
@@ -198,7 +259,7 @@ Hvorfor vil statsråd Børge Brende trappe ned klimastøtten til fattige land n�
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
         <fornavn>Bent</fornavn>
@@ -208,20 +269,14 @@ Hvorfor vil statsråd Børge Brende trappe ned klimastøtten til fattige land n�
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Migrasjon er en global utfordring som i disse dager siger inn i selv de minste norske kommuner, ja sågar helt til fjells og inn i våre nasjonalparker. Flott natur kan være bra for kropp og sjel, men for mange av de nyankomne, som har vært på flukt og har undertrykt både sykdom og overgrep, venter ulike helseutfordringer. For norsk helsesektor venter kapasitetsutfordringer. 
-
-En nylig publisert kommentar i The New England Journal of Medicine beskriver mottaket på jernbanestasjonen i München med opptil 20 000 ankomster i løpet av en helg, altså litt mindre enn det antallet vi har tatt imot i Norge på ti måneder. Her fant man enkelte tilfeller av torturerte flyktninger, enkeltsykdommer som diabetes, astma og ubehandlede skader, mange traumatiserte barn og mange som var dehydrert. En må anta at det samme sykdomsbildet gjenspeiles i befolkningen som kommer til Norge – en relativt frisk befolkning som ikke medfører særlig smittefare, som er trøtt, uttørket og med spredte somatiske sykdommer, men som i ulik grad er traumatisert av opplevelser av vold eller av frykt og usikkerhet etter lang flukt. 
-
-Helsedirektoratet har gitt råd om undersøkelse av tarmparasitter, syfilis, hepatitt C ved ankomst i tillegg til tuberkulose og MRSA-virus. Det nye mottakssenteret i Råde har betydelig kapasitet for somatiske undersøkelser. Tilsvarende planlegges forhåpentlig ved Storskog og vil avhjelpe en allerede presset kapasitet ved sykehus og i enkelte kommuner. 
-
-Hvordan vil statsråden følge opp at den psykiske helsetilstanden blir kartlagt og fulgt opp på linje med den somatiske helsa til nyankomne flyktninger og migranter?</tittel>
+      <tittel>om hvordan statsråden vil følge opp at den _psykiske helsetilstanden til nyankomne flyktninger_ blir kartlagt og fulgt opp på linje med den somatiske helsa</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
         <fornavn>Bent</fornavn>
@@ -283,7 +338,7 @@ Hvordan vil statsråden følge opp at den psykiske helsetilstanden blir kartlagt
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
         <fornavn>Bent</fornavn>
@@ -300,7 +355,7 @@ Hvordan vil statsråden følge opp at den psykiske helsetilstanden blir kartlagt
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
         <fornavn>Bent</fornavn>
@@ -370,7 +425,7 @@ Hvordan vil statsråden følge opp at den psykiske helsetilstanden blir kartlagt
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
         <fornavn>Bent</fornavn>
@@ -387,7 +442,7 @@ Hvordan vil statsråden følge opp at den psykiske helsetilstanden blir kartlagt
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Brende</etternavn>
         <foedselsdato>1965-09-25T00:00:00</foedselsdato>
         <fornavn>Børge</fornavn>
@@ -441,7 +496,7 @@ Hvordan vil statsråden følge opp at den psykiske helsetilstanden blir kartlagt
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Brende</etternavn>
         <foedselsdato>1965-09-25T00:00:00</foedselsdato>
         <fornavn>Børge</fornavn>
@@ -458,7 +513,7 @@ Hvordan vil statsråden følge opp at den psykiske helsetilstanden blir kartlagt
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solvik-Olsen</etternavn>
         <foedselsdato>1972-02-14T00:00:00</foedselsdato>
         <fornavn>Ketil</fornavn>
@@ -472,7 +527,24 @@ Hvordan vil statsråden følge opp at den psykiske helsetilstanden blir kartlagt
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-11-05T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
+          <id>21</id>
+          <navn>FORURENSNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
+          <id>109</id>
+          <navn>LUFTFART</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>63905</id>
@@ -503,7 +575,7 @@ Hvordan vil statsråden følge opp at den psykiske helsetilstanden blir kartlagt
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solvik-Olsen</etternavn>
         <foedselsdato>1972-02-14T00:00:00</foedselsdato>
         <fornavn>Ketil</fornavn>
@@ -513,15 +585,14 @@ Hvordan vil statsråden følge opp at den psykiske helsetilstanden blir kartlagt
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I dag flyr nordmenn mest av alle i Europa, dobbelt så mye som svenskene. Mellom 2004 og 2010 økte utslippene fra norsk luftfart med én million tonn CO2 årlig, tilsvarende 420 000 biler. Norge har nå forpliktet seg til 40 pst. kutt i klimagassutslipp på 15 år. Stikk i strid med dette planlegges nå en tredje rullebane på Gardermoen, som har som eneste hensikt å øke flytrafikken enda mer.
-Har statsråden vurdert klimakonsekvensene ved en ny rullebane på Gardermoen?</tittel>
+      <tittel>om statsråden har vurdert _klimakonsekvensene ved en ny rullebane på Gardermoen_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Brende</etternavn>
         <foedselsdato>1965-09-25T00:00:00</foedselsdato>
         <fornavn>Børge</fornavn>
@@ -535,7 +606,16 @@ Har statsråden vurdert klimakonsekvensene ved en ny rullebane på Gardermoen?</
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-11-05T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>174</id>
+          <navn>UTVIKLINGSHJELP</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen>
         <versjon>1.3</versjon>
@@ -580,7 +660,7 @@ Har statsråden vurdert klimakonsekvensene ved en ny rullebane på Gardermoen?</
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Brende</etternavn>
         <foedselsdato>1965-09-25T00:00:00</foedselsdato>
         <fornavn>Børge</fornavn>
@@ -590,15 +670,14 @@ Har statsråden vurdert klimakonsekvensene ved en ny rullebane på Gardermoen?</
       <sporsmal_til_minister_id>UD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>utenriksministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>For knappe to måneder siden kunne Liberia erklære seg ebolafritt. Katastrofen forsinket gjenoppbyggingen av en energiforsyning i landet, et arbeid som Norge har vært en langsiktig støttespiller for. Landet har betydelig potensial både for vannkraft, solenergi og bioenergi. Elvekraftanlegget Mount Coffee ble ødelagt under borgerkrigen og skal gjenoppbygges.
-Kommer Norge til å fortsette støtten til Liberias arbeid med dette i 2016, slik at gjenoppbyggingen blir en realitet?</tittel>
+      <tittel>om Norge vil fortsette _støtten til Liberias arbeid med gjenoppbyggingen av en energiforsyning_ i landet, som ble kraftig forsinket på grunn av ebolakatastrofen</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -643,7 +722,7 @@ Kommer Norge til å fortsette støtten til Liberias arbeid med dette i 2016, sli
       <sporsmal_nummer>12</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -661,7 +740,7 @@ Hvilke resultater forventer statsråden at likestillingsmeldingen vil gi for lik
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Lien</etternavn>
         <foedselsdato>1975-09-10T00:00:00</foedselsdato>
         <fornavn>Tord</fornavn>
@@ -706,7 +785,7 @@ Hvilke resultater forventer statsråden at likestillingsmeldingen vil gi for lik
       <sporsmal_nummer>23</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Lien</etternavn>
         <foedselsdato>1975-09-10T00:00:00</foedselsdato>
         <fornavn>Tord</fornavn>
@@ -724,7 +803,7 @@ Hvordan vil statsråden gå frem for å sikre at fremtidig drift av TCM blir avk
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Lien</etternavn>
         <foedselsdato>1975-09-10T00:00:00</foedselsdato>
         <fornavn>Tord</fornavn>
@@ -769,7 +848,7 @@ Hvordan vil statsråden gå frem for å sikre at fremtidig drift av TCM blir avk
       <sporsmal_nummer>22</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Lien</etternavn>
         <foedselsdato>1975-09-10T00:00:00</foedselsdato>
         <fornavn>Tord</fornavn>
@@ -786,7 +865,7 @@ Hvordan vil statsråden gå frem for å sikre at fremtidig drift av TCM blir avk
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -845,7 +924,7 @@ Hvordan vil statsråden gå frem for å sikre at fremtidig drift av TCM blir avk
       <sporsmal_nummer>14</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -863,7 +942,7 @@ Mener statsråden det er en verdi i at fedre tar en større del av omsorgen for 
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Lien</etternavn>
         <foedselsdato>1975-09-10T00:00:00</foedselsdato>
         <fornavn>Tord</fornavn>
@@ -908,7 +987,7 @@ Mener statsråden det er en verdi i at fedre tar en større del av omsorgen for 
       <sporsmal_nummer>21</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Lien</etternavn>
         <foedselsdato>1975-09-10T00:00:00</foedselsdato>
         <fornavn>Tord</fornavn>
@@ -926,7 +1005,7 @@ Vil statsråden legge til rette for framskyndet brønnplugging der det er aktuel
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Lien</etternavn>
         <foedselsdato>1975-09-10T00:00:00</foedselsdato>
         <fornavn>Tord</fornavn>
@@ -971,7 +1050,7 @@ Vil statsråden legge til rette for framskyndet brønnplugging der det er aktuel
       <sporsmal_nummer>20</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Lien</etternavn>
         <foedselsdato>1975-09-10T00:00:00</foedselsdato>
         <fornavn>Tord</fornavn>
@@ -989,7 +1068,7 @@ Hvordan vil dette prege arbeidet til internasjonal avdeling i Norges vassdrags- 
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -1034,7 +1113,7 @@ Hvordan vil dette prege arbeidet til internasjonal avdeling i Norges vassdrags- 
       <sporsmal_nummer>13</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -1052,7 +1131,7 @@ Vil regjeringen ta et lignende initiativ overfor KS?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -1097,7 +1176,7 @@ Vil regjeringen ta et lignende initiativ overfor KS?</tittel>
       <sporsmal_nummer>19</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -1115,7 +1194,7 @@ Kvifor respekterer ikkje statsråden stortingsfleirtalet og sender LAR-pasientar
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -1160,7 +1239,7 @@ Kvifor respekterer ikkje statsråden stortingsfleirtalet og sender LAR-pasientar
       <sporsmal_nummer>10</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -1178,7 +1257,7 @@ Blir det fleire kvinnelege leiarar av det?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Eriksson</etternavn>
         <foedselsdato>1974-04-23T00:00:00</foedselsdato>
         <fornavn>Robert</fornavn>
@@ -1223,7 +1302,7 @@ Blir det fleire kvinnelege leiarar av det?</tittel>
       <sporsmal_nummer>16</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Eriksson</etternavn>
         <foedselsdato>1974-04-23T00:00:00</foedselsdato>
         <fornavn>Robert</fornavn>
@@ -1241,7 +1320,7 @@ Hvordan kan statsråden sikre at Arbeidstilsynet og statseide selskaper tar regj
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Brende</etternavn>
         <foedselsdato>1965-09-25T00:00:00</foedselsdato>
         <fornavn>Børge</fornavn>
@@ -1255,7 +1334,24 @@ Hvordan kan statsråden sikre at Arbeidstilsynet og statseide selskaper tar regj
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-11-05T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>31</id>
+          <navn>SKOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>180</id>
+          <navn>FREDSARBEID</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen>
         <versjon>1.3</versjon>
@@ -1300,7 +1396,7 @@ Hvordan kan statsråden sikre at Arbeidstilsynet og statseide selskaper tar regj
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Brende</etternavn>
         <foedselsdato>1965-09-25T00:00:00</foedselsdato>
         <fornavn>Børge</fornavn>
@@ -1310,15 +1406,14 @@ Hvordan kan statsråden sikre at Arbeidstilsynet og statseide selskaper tar regj
       <sporsmal_til_minister_id>UD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>utenriksministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Leger uten grenser identifiserer 10 glemte kriser i skoleprosjektet '10 glemte kriser'. Jeg har besøkt 10. klasse ved Åheim skole i Vanylven kommune. De jobbet spesielt med fem av disse krisene. Elevene har jobbet godt med å finne frem til hvordan de glemte kriser kan håndteres, og gir sine anbefalinger til norske myndigheter.
-Hva vil utenriksministeren gjøre for å bidra til å øke fokuset på, og ikke minst adressere, de glemte kriser i verden, som Leger uten grenser løfter frem i sitt skoleprosjekt?</tittel>
+      <tittel>om hva utenriksministeren vil gjøre for å bidra til å øke fokuset på _de glemte kriser i verden_, som Leger uten grenser løfter frem i sitt skoleprosjekt</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -1363,7 +1458,7 @@ Hva vil utenriksministeren gjøre for å bidra til å øke fokuset på, og ikke 
       <sporsmal_nummer>9</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -1381,7 +1476,7 @@ Kva ny kunnskap er det statsråden no sit med, som gjer at desse innvendingane i
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
         <fornavn>Bent</fornavn>
@@ -1401,7 +1496,7 @@ Kva ny kunnskap er det statsråden no sit med, som gjer at desse innvendingane i
       <id>63884</id>
       <rette_vedkommende>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
         <fornavn>Bent</fornavn>
@@ -1434,7 +1529,7 @@ Kva ny kunnskap er det statsråden no sit med, som gjer at desse innvendingane i
       <sporsmal_nummer>8</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -1452,7 +1547,7 @@ Vil statsråden være pådriver i regjeringen for at det skal åpnes for at kvin
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -1497,7 +1592,7 @@ Vil statsråden være pådriver i regjeringen for at det skal åpnes for at kvin
       <sporsmal_nummer>18</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -1515,7 +1610,7 @@ Vil statsråden vurdere å opprette en arbeidsgruppe for å lage et system for b
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -1577,7 +1672,7 @@ Vil statsråden vurdere å opprette en arbeidsgruppe for å lage et system for b
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -1594,7 +1689,7 @@ Vil statsråden vurdere å opprette en arbeidsgruppe for å lage et system for b
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -1656,7 +1751,7 @@ Vil statsråden vurdere å opprette en arbeidsgruppe for å lage et system for b
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -1673,7 +1768,7 @@ Vil statsråden vurdere å opprette en arbeidsgruppe for å lage et system for b
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -1743,7 +1838,7 @@ Vil statsråden vurdere å opprette en arbeidsgruppe for å lage et system for b
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -1760,7 +1855,7 @@ Vil statsråden vurdere å opprette en arbeidsgruppe for å lage et system for b
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -1822,7 +1917,7 @@ Vil statsråden vurdere å opprette en arbeidsgruppe for å lage et system for b
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -1840,7 +1935,7 @@ Vil statsråden vurdere å opprette en arbeidsgruppe for å lage et system for b
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -1894,7 +1989,7 @@ Vil statsråden vurdere å opprette en arbeidsgruppe for å lage et system for b
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -1911,7 +2006,7 @@ Vil statsråden vurdere å opprette en arbeidsgruppe for å lage et system for b
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -1973,7 +2068,7 @@ Vil statsråden vurdere å opprette en arbeidsgruppe for å lage et system for b
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -1990,7 +2085,7 @@ Vil statsråden vurdere å opprette en arbeidsgruppe for å lage et system for b
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
         <fornavn>Bent</fornavn>
@@ -2035,7 +2130,7 @@ Vil statsråden vurdere å opprette en arbeidsgruppe for å lage et system for b
       <sporsmal_nummer>15</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
         <fornavn>Bent</fornavn>
@@ -2053,7 +2148,7 @@ Vil statsråden ta initiativ til en tilsvarende lovbestemmelse?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solvik-Olsen</etternavn>
         <foedselsdato>1972-02-14T00:00:00</foedselsdato>
         <fornavn>Ketil</fornavn>
@@ -2067,7 +2162,40 @@ Vil statsråden ta initiativ til en tilsvarende lovbestemmelse?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-11-04T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
+          <id>47</id>
+          <navn>VEGTRAFIKK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>81</id>
+          <navn>MERVERDIAVGIFT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>83</id>
+          <navn>PRISER OG KONKURRANSEFORHOLD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
+          <id>106</id>
+          <navn>SAMFERDSEL</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen>
         <versjon>1.3</versjon>
@@ -2112,7 +2240,7 @@ Vil statsråden ta initiativ til en tilsvarende lovbestemmelse?</tittel>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solvik-Olsen</etternavn>
         <foedselsdato>1972-02-14T00:00:00</foedselsdato>
         <fornavn>Ketil</fornavn>
@@ -2122,15 +2250,14 @@ Vil statsråden ta initiativ til en tilsvarende lovbestemmelse?</tittel>
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I statsbudsjettet for 2016 foreslår regjeringen å øke merverdiavgiften på persontransporttjenester fra 8 til 10 pst. Økt moms på kollektivtrafikk vil enten medføre økt pris for kundene eller tapte inntekter for fylkeskommunene. Samferdselsministeren har tidligere gitt uttrykk for at økte kostnader som følge av økt moms vil bli kompensert gjennom forslag til statsbudsjett.
-Kan statsråden garantere at prisen på kollektivreiser med buss ikke blir dyrere når momsen nå går opp?</tittel>
+      <tittel>om statsråden kan garantere at _prisen på kollektivreiser med buss_ ikke blir dyrere når momsen nå går opp</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -2175,7 +2302,7 @@ Kan statsråden garantere at prisen på kollektivreiser med buss ikke blir dyrer
       <sporsmal_nummer>24</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -2193,7 +2320,7 @@ Hva er statsrådens vurdering av dette, og hvilke tiltak vurderer statsråden å
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -2238,7 +2365,7 @@ Hva er statsrådens vurdering av dette, og hvilke tiltak vurderer statsråden å
       <sporsmal_nummer>17</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -2256,7 +2383,7 @@ Mitt spørsmål er om statsråden mener det er riktig av Politidirektoratet å v
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -2268,7 +2395,7 @@ Mitt spørsmål er om statsråden mener det er riktig av Politidirektoratet å v
       <besvart_dato>2015-11-11T00:00:00</besvart_dato>
       <besvart_pa_vegne_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Widvey</etternavn>
         <foedselsdato>1956-01-09T00:00:00</foedselsdato>
         <fornavn>Thorhild</fornavn>
@@ -2309,7 +2436,7 @@ Mitt spørsmål er om statsråden mener det er riktig av Politidirektoratet å v
       <sporsmal_nummer>7</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Widvey</etternavn>
         <foedselsdato>1956-01-09T00:00:00</foedselsdato>
         <fornavn>Thorhild</fornavn>
@@ -2327,7 +2454,7 @@ Hvilke nye kriterier er lagt til grunn for at statsråden har foreslått økning
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Widvey</etternavn>
         <foedselsdato>1956-01-09T00:00:00</foedselsdato>
         <fornavn>Thorhild</fornavn>
@@ -2372,7 +2499,7 @@ Hvilke nye kriterier er lagt til grunn for at statsråden har foreslått økning
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Widvey</etternavn>
         <foedselsdato>1956-01-09T00:00:00</foedselsdato>
         <fornavn>Thorhild</fornavn>
@@ -2390,7 +2517,7 @@ Vil statsråden leggja ytterlegare press for at UiO utarbeider rettleiinga?</tit
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Brende</etternavn>
         <foedselsdato>1965-09-25T00:00:00</foedselsdato>
         <fornavn>Børge</fornavn>
@@ -2404,7 +2531,32 @@ Vil statsråden leggja ytterlegare press for at UiO utarbeider rettleiinga?</tit
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-10-29T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>59</hovedemne_id>
+          <id>93</id>
+          <navn>ATOMVÅPEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>168</id>
+          <navn>FN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>180</id>
+          <navn>FREDSARBEID</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>63865</id>
@@ -2435,7 +2587,7 @@ Vil statsråden leggja ytterlegare press for at UiO utarbeider rettleiinga?</tit
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Brende</etternavn>
         <foedselsdato>1965-09-25T00:00:00</foedselsdato>
         <fornavn>Børge</fornavn>
@@ -2445,15 +2597,14 @@ Vil statsråden leggja ytterlegare press for at UiO utarbeider rettleiinga?</tit
       <sporsmal_til_minister_id>UD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>utenriksministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I svar på skriftlig spørsmål nr. 54 og 82 (2015-2016) har utenriksministeren nylig gjort det klart at regjeringen ikke vil støtte resolusjonene på FNs generalforsamling om atomvåpens humanitære konsekvenser og om staters etiske ansvar for å forby og avskaffe atomvåpen. Dette oppleves som et klart linjeskift fra regjeringen, og et brudd med Norges lederrolle i arbeidet for et forbud mot atomvåpen.
-Kan utenriksministeren redegjøre for hva som ligger bak regjeringens linjeskift, og hva som har endret seg siden debatten i vår?</tittel>
+      <tittel>om å redegjøre for hva som ligger bak regjeringens linjeskift og _brudd med Norges lederrolle i arbeidet for et forbud mot atomvåpen_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sundtoft</etternavn>
         <foedselsdato>1967-04-19T00:00:00</foedselsdato>
         <fornavn>Tine</fornavn>
@@ -2498,7 +2649,7 @@ Kan utenriksministeren redegjøre for hva som ligger bak regjeringens linjeskift
       <sporsmal_nummer>7</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sundtoft</etternavn>
         <foedselsdato>1967-04-19T00:00:00</foedselsdato>
         <fornavn>Tine</fornavn>
@@ -2516,7 +2667,7 @@ Vil statsråden ta verneplanen opp av skuffen og gjøre noe for å hindre disse 
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -2561,7 +2712,7 @@ Vil statsråden ta verneplanen opp av skuffen og gjøre noe for å hindre disse 
       <sporsmal_nummer>8</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -2579,7 +2730,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -2616,7 +2767,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <id>63819</id>
       <rette_vedkommende>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -2649,7 +2800,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -2666,7 +2817,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sundtoft</etternavn>
         <foedselsdato>1967-04-19T00:00:00</foedselsdato>
         <fornavn>Tine</fornavn>
@@ -2711,7 +2862,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sundtoft</etternavn>
         <foedselsdato>1967-04-19T00:00:00</foedselsdato>
         <fornavn>Tine</fornavn>
@@ -2728,7 +2879,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -2786,7 +2937,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sesjon_id>2015-2016</sesjon_id>
       <sporsmal_fra>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Odnes</etternavn>
         <foedselsdato>1963-05-25T00:00:00</foedselsdato>
         <fornavn>Ivar</fornavn>
@@ -2806,7 +2957,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -2823,7 +2974,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solvik-Olsen</etternavn>
         <foedselsdato>1972-02-14T00:00:00</foedselsdato>
         <fornavn>Ketil</fornavn>
@@ -2893,7 +3044,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solvik-Olsen</etternavn>
         <foedselsdato>1972-02-14T00:00:00</foedselsdato>
         <fornavn>Ketil</fornavn>
@@ -2910,7 +3061,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -2988,7 +3139,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -3005,7 +3156,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solvik-Olsen</etternavn>
         <foedselsdato>1972-02-14T00:00:00</foedselsdato>
         <fornavn>Ketil</fornavn>
@@ -3067,7 +3218,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solvik-Olsen</etternavn>
         <foedselsdato>1972-02-14T00:00:00</foedselsdato>
         <fornavn>Ketil</fornavn>
@@ -3084,7 +3235,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solvik-Olsen</etternavn>
         <foedselsdato>1972-02-14T00:00:00</foedselsdato>
         <fornavn>Ketil</fornavn>
@@ -3138,7 +3289,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solvik-Olsen</etternavn>
         <foedselsdato>1972-02-14T00:00:00</foedselsdato>
         <fornavn>Ketil</fornavn>
@@ -3155,7 +3306,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Jensen</etternavn>
         <foedselsdato>1969-06-01T00:00:00</foedselsdato>
         <fornavn>Siv</fornavn>
@@ -3225,7 +3376,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Jensen</etternavn>
         <foedselsdato>1969-06-01T00:00:00</foedselsdato>
         <fornavn>Siv</fornavn>
@@ -3242,7 +3393,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -3304,7 +3455,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -3321,7 +3472,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Jensen</etternavn>
         <foedselsdato>1969-06-01T00:00:00</foedselsdato>
         <fornavn>Siv</fornavn>
@@ -3383,7 +3534,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Jensen</etternavn>
         <foedselsdato>1969-06-01T00:00:00</foedselsdato>
         <fornavn>Siv</fornavn>
@@ -3400,7 +3551,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -3445,7 +3596,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>9</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -3462,7 +3613,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
         <fornavn>Bent</fornavn>
@@ -3524,7 +3675,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Høie</etternavn>
         <foedselsdato>1971-05-04T00:00:00</foedselsdato>
         <fornavn>Bent</fornavn>
@@ -3541,7 +3692,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Aspaker</etternavn>
         <foedselsdato>1962-10-16T00:00:00</foedselsdato>
         <fornavn>Elisabeth</fornavn>
@@ -3611,7 +3762,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Aspaker</etternavn>
         <foedselsdato>1962-10-16T00:00:00</foedselsdato>
         <fornavn>Elisabeth</fornavn>
@@ -3628,7 +3779,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -3714,7 +3865,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -3731,7 +3882,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Aspaker</etternavn>
         <foedselsdato>1962-10-16T00:00:00</foedselsdato>
         <fornavn>Elisabeth</fornavn>
@@ -3793,7 +3944,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Aspaker</etternavn>
         <foedselsdato>1962-10-16T00:00:00</foedselsdato>
         <fornavn>Elisabeth</fornavn>
@@ -3810,7 +3961,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Listhaug</etternavn>
         <foedselsdato>1977-12-25T00:00:00</foedselsdato>
         <fornavn>Sylvi</fornavn>
@@ -3880,7 +4031,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Listhaug</etternavn>
         <foedselsdato>1977-12-25T00:00:00</foedselsdato>
         <fornavn>Sylvi</fornavn>
@@ -3897,7 +4048,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -3975,7 +4126,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -3992,7 +4143,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -4070,7 +4221,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -4087,7 +4238,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -4157,7 +4308,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -4174,7 +4325,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Listhaug</etternavn>
         <foedselsdato>1977-12-25T00:00:00</foedselsdato>
         <fornavn>Sylvi</fornavn>
@@ -4252,7 +4403,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Listhaug</etternavn>
         <foedselsdato>1977-12-25T00:00:00</foedselsdato>
         <fornavn>Sylvi</fornavn>
@@ -4269,7 +4420,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Listhaug</etternavn>
         <foedselsdato>1977-12-25T00:00:00</foedselsdato>
         <fornavn>Sylvi</fornavn>
@@ -4347,7 +4498,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Listhaug</etternavn>
         <foedselsdato>1977-12-25T00:00:00</foedselsdato>
         <fornavn>Sylvi</fornavn>
@@ -4364,7 +4515,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -4434,7 +4585,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -4451,7 +4602,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Mæland</etternavn>
         <foedselsdato>1968-02-06T00:00:00</foedselsdato>
         <fornavn>Monica</fornavn>
@@ -4521,7 +4672,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Mæland</etternavn>
         <foedselsdato>1968-02-06T00:00:00</foedselsdato>
         <fornavn>Monica</fornavn>
@@ -4538,7 +4689,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -4600,7 +4751,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
