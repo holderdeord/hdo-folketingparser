@@ -6292,7 +6292,24 @@ Derfor er det viktig å få vite når statsministeren ser for seg at det er sann
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-10-29T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>42</id>
+          <navn>BARNEHAGER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>83</id>
+          <navn>PRISER OG KONKURRANSEFORHOLD</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>63826</id>
@@ -6333,8 +6350,7 @@ Derfor er det viktig å få vite når statsministeren ser for seg at det er sann
       <sporsmal_til_minister_id>BLID</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>barne-, likestillings- og inkluderingsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I Stortingets spørretime den 20. mai svarte statsråden, på spørsmål om videreføring av gratis kjernetid for alle fire- og femåringer i bydelene i Groruddalen og Søndre Nordstrand med områdesatsinger, at: 'Denne ordningen vil fortsette ut avtaleperioden for områdesatsing, henholdsvis 2016 og 2017'. I statsbudsjettet er imidlertid bevilgningene til dette kuttet fra vel 60 millioner til 39 millioner kroner og bydelene har fått beskjed om at gratis kjernetid for alle avsluttes etter juni 2016.
-Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
+      <tittel>om statsråden vil følge opp det hun sa i mai, om videreføring av _gratis kjernetid for alle fire- og femåringer i bydelene i Groruddalen og Søndre Nordstrand_ ut avtaleperioden</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -7176,7 +7192,16 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2015-10-15T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>12</id>
+          <navn>DOMSTOLER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>63757</id>
@@ -7217,7 +7242,7 @@ Vil statsråden følge opp det hun svarte i Stortinget i mai?</tittel>
       <sporsmal_til_minister_id>JBD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>justis- og beredskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Vil Stortinget få anledning til å behandle eventuelle endringer i tingrettsstrukturen, eller vil dette avgjøres i departementet?</tittel>
+      <tittel>om Stortinget vil få anledning til å behandle eventuelle _endringer i tingrettsstrukturen_, eller om dette vil avgjøres i departementet</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
