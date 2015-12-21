@@ -842,7 +842,24 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>14</id>
+          <navn>STRAFFERETT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Prop. 42 L (2015-2016)</henvisning>
       <id>63656</id>
@@ -865,7 +882,24 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>52</id>
+          <navn>KOMMUNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Prop. 45 L (2015-2016)</henvisning>
       <id>63658</id>
@@ -1085,94 +1119,58 @@
     </sak>
     <sak>
       <versjon>1.3</versjon>
-      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
-      <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste />
-      <forslagstiller_liste />
-      <henvisning>Innst. 140 S (2015-2016)</henvisning>
-      <id>64222</id>
-      <innstilling_id>12398</innstilling_id>
-      <innstilling_kode>innstilling_s</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>VALG</id>
-        <navn>Valgkomiteen</navn>
-      </komite>
-      <korttittel>Endringer i de faste komiteers sammensetning</korttittel>
-      <sak_fremmet_id>64222</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2015-12-18T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Endringer i de faste komiteers sammensetning</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste />
-      <forslagstiller_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Lysbakken</etternavn>
-          <foedselsdato>1977-09-30T00:00:00</foedselsdato>
-          <fornavn>Audun</fornavn>
-          <id>ALYS</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ho</id>
-            <navn>Hordaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>SV</id>
-            <navn>Sosialistisk Venstreparti</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Andersen</etternavn>
-          <foedselsdato>1952-12-16T00:00:00</foedselsdato>
-          <fornavn>Karin</fornavn>
-          <id>KAAN</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>He</id>
-            <navn>Hedmark</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>SV</id>
-            <navn>Sosialistisk Venstreparti</navn>
-          </parti>
-        </representant>
-      </forslagstiller_liste>
-      <henvisning>Dokument 8:29 S (2015-2016)</henvisning>
-      <id>64223</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>KOMMFORV</id>
-        <navn>Kommunal- og forvaltningskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om å sikre integrering</korttittel>
-      <sak_fremmet_id>64223</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2015-12-18T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Representantforslag fra stortingsrepresentantene  Karin Andersen og Audun Lysbakken om å sikre integrering</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>14</id>
+          <navn>STRAFFERETT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>168</id>
+          <navn>FN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>59</hovedemne_id>
+          <id>193</id>
+          <navn>MILITÆRT PERSONELL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>200</id>
+          <navn>INTERNASJONAL RETT</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Prop. 44 L (2015-2016)</henvisning>
       <id>64247</id>
@@ -1195,7 +1193,16 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
+          <id>23</id>
+          <navn>NATURVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Meld. St. 14 (2015-2016)</henvisning>
       <id>64248</id>
@@ -1218,7 +1225,32 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>52</id>
+          <navn>KOMMUNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>136</id>
+          <navn>BYGNINGSVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Prop. 43 L (2015-2016)</henvisning>
       <id>64249</id>
@@ -1241,7 +1273,24 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>35</id>
+          <navn>UNIVERSITETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>160</id>
+          <navn>HØGSKOLER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Prop. 41 L (2015-2016)</henvisning>
       <id>64250</id>
@@ -1392,6 +1441,91 @@
       <sist_oppdatert_dato>2015-12-18T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Jonas Gahr Støre, Trond Helleland, Harald Tom Nesvik, Knut Arild Hareide, Marit Arnstad og Trine Skei Grande om et felles løft for god integrering</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
+      <dokumentgruppe>innstillingssaker</dokumentgruppe>
+      <emne_liste />
+      <forslagstiller_liste />
+      <henvisning>Innst. 140 S (2015-2016)</henvisning>
+      <id>64222</id>
+      <innstilling_id>12398</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>VALG</id>
+        <navn>Valgkomiteen</navn>
+      </komite>
+      <korttittel>Endringer i de faste komiteers sammensetning</korttittel>
+      <sak_fremmet_id>64222</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2015-12-18T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Endringer i de faste komiteers sammensetning</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste />
+      <forslagstiller_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Lysbakken</etternavn>
+          <foedselsdato>1977-09-30T00:00:00</foedselsdato>
+          <fornavn>Audun</fornavn>
+          <id>ALYS</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Andersen</etternavn>
+          <foedselsdato>1952-12-16T00:00:00</foedselsdato>
+          <fornavn>Karin</fornavn>
+          <id>KAAN</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>He</id>
+            <navn>Hedmark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+      </forslagstiller_liste>
+      <henvisning>Dokument 8:29 S (2015-2016)</henvisning>
+      <id>64223</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>KOMMFORV</id>
+        <navn>Kommunal- og forvaltningskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om å sikre integrering</korttittel>
+      <sak_fremmet_id>64223</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2015-12-18T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Karin Andersen og Audun Lysbakken om å sikre integrering</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -1690,6 +1824,83 @@
     <sak>
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>grunnlovsforslag</dokumentgruppe>
+      <emne_liste />
+      <forslagstiller_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Solhjell</etternavn>
+          <foedselsdato>1971-12-22T00:00:00</foedselsdato>
+          <fornavn>Bård Vegar</fornavn>
+          <id>BVS</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Holmås</etternavn>
+          <foedselsdato>1972-06-28T00:00:00</foedselsdato>
+          <fornavn>Heikki Eidsvoll</fornavn>
+          <id>HEH</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Andersen</etternavn>
+          <foedselsdato>1952-12-16T00:00:00</foedselsdato>
+          <fornavn>Karin</fornavn>
+          <id>KAAN</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>He</id>
+            <navn>Hedmark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+      </forslagstiller_liste>
+      <henvisning>Dokument 12:2 (2015-2016)</henvisning>
+      <id>64274</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite i:nil="true" />
+      <korttittel>Grunnlovsforslag om endringer i Grunnloven (grunnlovsfesting av allemannsretten)</korttittel>
+      <sak_fremmet_id>64274</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2015-12-17T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Grunnlovsforslag fra Karin Andersen, Heikki Eidsvoll Holmås og Bård Vegar Solhjell om endringer i Grunnloven (grunnlovsfesting av allemannsretten)</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste />
       <forslagstiller_liste>
@@ -1852,12 +2063,12 @@
       <innstilling_id>-1</innstilling_id>
       <innstilling_kode>ikke_spesifisert</innstilling_kode>
       <komite i:nil="true" />
-      <korttittel>Representantforslag om behovet for et sterkere vern av varslere</korttittel>
+      <korttittel>Representantforslag om behovet for et sterkere vern av varsler</korttittel>
       <sak_fremmet_id>64233</sak_fremmet_id>
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2015-12-17T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Hadia Tajik, Lise Christoffersen, Dag Terje Andersen, Fredric Holen Bjørdal og Rigmor Aasrud om behovet for et sterkere vern av varslere</tittel>
+      <tittel>Representantforslag fra stortingsrepresentantene Hadia Tajik, Lise Christoffersen, Dag Terje Andersen, Fredric Holen Bjørdal og Rigmor Aasrud om behovet for et sterkere vern av varsler</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -1948,12 +2159,12 @@
       <innstilling_id>-1</innstilling_id>
       <innstilling_kode>ikke_spesifisert</innstilling_kode>
       <komite i:nil="true" />
-      <korttittel>Representantforslag om å beholde strenge miljøkrav til oppvarming i ny byggeforskrift (TEK)</korttittel>
+      <korttittel>Representantforslag om å beholde strenge miljøkrav til oppvarming i ny byggeforskrift (TEK 15)</korttittel>
       <sak_fremmet_id>64236</sak_fremmet_id>
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2015-12-17T00:00:00</sist_oppdatert_dato>
       <status>mottatt</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Ola Elvestuen, Heikki Eidsvoll Holmås, Karin Andersen og André N. Skjelstad om å beholde strenge miljøkrav til oppvarming i ny byggeforskrift (TEK)</tittel>
+      <tittel>Representantforslag fra stortingsrepresentantene Ola Elvestuen, Heikki Eidsvoll Holmås, Karin Andersen og André N. Skjelstad om å beholde strenge miljøkrav til oppvarming i ny byggeforskrift (TEK 15)</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
