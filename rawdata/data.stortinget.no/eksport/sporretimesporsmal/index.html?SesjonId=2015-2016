@@ -543,7 +543,24 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-02-04T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
+          <id>23</id>
+          <navn>NATURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>52</id>
+          <navn>KOMMUNER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>64640</id>
@@ -584,8 +601,7 @@
       <sporsmal_til_minister_id>KLD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>klima- og miljøministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Lyngen kommune har innført skuddpremie på gaupe. Gaupe er en sterkt truet art på norsk rødliste. I 1845 vedtok Stortinget å utrydde gaupe, ulv, bjørn og jerv, og innførte derfor skuddpremie på rovdyrene. Først i 1980 ble skuddpremien avviklet, da var bestanden på randen av utryddelse. Skuddpremie burde være et forhistorisk virkemiddel som ikke har noen plass i moderne miljøforvaltning. 
-Mener statsråden det er greit at kommuner innfører skuddpremie på gaupe i Norge?</tittel>
+      <tittel>om hvorvidt statsråden mener at det er greit at _kommuner innfører skuddpremie på gaupe_ i Norge</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -606,7 +622,32 @@ Mener statsråden det er greit at kommuner innfører skuddpremie på gaupe i Nor
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-02-04T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>69</id>
+          <navn>LANDBRUKSPRODUKTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>133</id>
+          <navn>VETERINÆRVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>64632</id>
@@ -647,8 +688,7 @@ Mener statsråden det er greit at kommuner innfører skuddpremie på gaupe i Nor
       <sporsmal_til_minister_id>LMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>landbruks- og matministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Forskerne Magne Kaldhusdal, Anne Margrete Urdahl og Kari Grave ved Veterinærinstituttet skriver i Nationen 23. desember 2015: 'Narasin er et antibiotikum, men det er ikke slik at alle antibiotika er årsak til den typen resistens vi snakker om her'. Veterinærinstituttet er en virksomhet under Landbruks- og matdepartementet. 
-Kan statsråden bekrefte at narasin er et antibiotikum, slik forskerne ved Veterinærinstituttet skriver?</tittel>
+      <tittel>om statsråden kan bekrefte at _narasin er et antibiotikum_, slik forskerne ved Veterinærinstituttet skriver</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1135,7 +1175,16 @@ Kan statsråden bekrefte at narasin er et antibiotikum, slik forskerne ved Veter
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-02-03T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>64614</id>
@@ -1176,8 +1225,7 @@ Kan statsråden bekrefte at narasin er et antibiotikum, slik forskerne ved Veter
       <sporsmal_til_minister_id>ASD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>arbeids- og sosialministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>127 000 personer står uten jobb, og arbeidsledigheten er høyere enn lagt til grunn i statsbudsjettet. I en interpellasjon i juni 2014 om økende arbeidsledighet sa statsministeren at det er 'viktig å ha høy oppmerksomhet om utviklingen'. Senere har regjeringsmedlemmer sagt at det ikke er krise og at deres politikk virker. Nylig sa likevel finansministeren at det kan bli aktuelt med nye tiltak, noe Arbeiderpartiet lenge har etterspurt.
-På hvilket nivå må ledigheten være før regjeringen setter inn nye tiltak mot økende ledighet?</tittel>
+      <tittel>om hvilket _nivå arbeidsledigheten_ må være før regjeringen setter inn nye tiltak</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1198,7 +1246,32 @@ På hvilket nivå må ledigheten være før regjeringen setter inn nye tiltak mo
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-02-03T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>53</id>
+          <navn>SKATTEADMINISTRASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
+          <id>68</id>
+          <navn>KUNST</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>81</id>
+          <navn>MERVERDIAVGIFT</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>64613</id>
@@ -1239,7 +1312,7 @@ På hvilket nivå må ledigheten være før regjeringen setter inn nye tiltak mo
       <sporsmal_til_minister_id>FIN</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>finansministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om å rydde opp slik at det urimelige kravet fra Skatt Vest og Skatt Sør, om at _Stavanger konserthus og Kilden Teater- og Konserthus i Kristiansand må tilbakebetale_ totalt 550 mill. kroner i mottatt momskompensasjon, frafalles</tittel>
+      <tittel>om å rydde opp slik at det urimelige kravet fra Skatt Vest og Skatt Sør frafalles, om at _Stavanger konserthus og Kilden Teater- og Konserthus i Kristiansand må tilbakebetale momskompensasjon_ på totalt 550 mill. kroner</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1260,7 +1333,32 @@ På hvilket nivå må ledigheten være før regjeringen setter inn nye tiltak mo
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-02-01T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>25</id>
+          <navn>REGJERINGEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>136</id>
+          <navn>BYGNINGSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>64587</id>
@@ -1301,8 +1399,7 @@ På hvilket nivå må ledigheten være før regjeringen setter inn nye tiltak mo
       <sporsmal_til_minister_id>KMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kommunal- og moderniseringsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Det nye regjeringskvartalet vil bli et av de største, offentlige byggeprosjektene i årene fremover. Det må legges til grunn at et så omfattende og viktig prosjekt realiseres med høye krav til kvalitet, lave eller ingen utslipp både i bygge- og driftsfasen og ikke minst en god innpassing i bymiljøet i hovedstaden. Regjeringskvartalet fremstår som en god kandidat til å bli et av FutureBuilts 50 forbildeprosjekter.
-Vil statsråden sørge for at regjeringskvartalet realiseres som et FutureBuilt-prosjekt?</tittel>
+      <tittel>om statsråden vil sørge for at _regjeringskvartalet realiseres som et FutureBuilt-prosjekt_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1592,7 +1689,32 @@ Vil statsråden sørge for at regjeringskvartalet realiseres som et FutureBuilt-
       <besvart_pa_vegne_av_minister_id>HOD</besvart_pa_vegne_av_minister_id>
       <besvart_pa_vegne_av_minister_tittel>helse- og omsorgsministeren</besvart_pa_vegne_av_minister_tittel>
       <datert_dato>2016-01-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>63</id>
+          <navn>SYKEHUS</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>65</id>
+          <navn>SVANGERSKAP</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>64562</id>
@@ -1633,8 +1755,7 @@ Vil statsråden sørge for at regjeringskvartalet realiseres som et FutureBuilt-
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Sykehuset i Arendal har over 1 000 fødsler i året, men til tross for dette og store protester ble nyfødtposten lagt ned. Vi fryktet særlig at tilbudet til akutt syke nyfødte skulle bli dårligere. I Agderposten 28. januar går ledelsen ved fødeavdelingen på sykehuset i Arendal ut og uttrykker sin bekymring over at det kan ta opptil 9 timer etter fødselen før mor og barn kommer fra fødeavdelingen i Arendal til nyfødtposten i Kristiansand, samtidig som sykehuset i Arendal har kompetanse og muligheter til å ta seg av disse barna.
-Synes statsråden det er greit at nyfødte og deres foreldre unødig utsettes for disse ekstrabelastningene, og kan statsråden garantere at dette ikke går ut over pasientsikkerheten?</tittel>
+      <tittel>om at det kan ta opptil 9 timer etter fødselen før mor og barn kommer _fra fødeavdelingen i Arendal til nyfødtposten i Kristiansand_, og om statsråden synes det er greit at nyfødte og deres foreldre utsettes for disse ekstrabelastningene</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
