@@ -1058,58 +1058,6 @@
       <emne_liste>
         <emne>
           <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>163</hovedemne_id>
-          <id>168</id>
-          <navn>FN</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Meld. St. 36 (2014-2015), Innst. 104 S (2015-2016)</henvisning>
-      <id>63051</id>
-      <innstilling_id>12361</innstilling_id>
-      <innstilling_kode>innstilling_s</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>UFK</id>
-        <navn>Utenriks- og forsvarskomiteen</navn>
-      </komite>
-      <korttittel>Noregs deltaking i den 69. ordinære generalforsamlinga i Dei sameinte nasjonane (FN)</korttittel>
-      <sak_fremmet_id>63051</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Halleraker</etternavn>
-          <foedselsdato>1951-10-27T00:00:00</foedselsdato>
-          <fornavn>Øyvind</fornavn>
-          <id>ØYVH</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ho</id>
-            <navn>Hordaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-01-19T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Noregs deltaking i den 69. ordinære generalforsamlinga i Dei sameinte nasjonane (FN)</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
-      <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>45</hovedemne_id>
           <id>45</id>
@@ -1290,6 +1238,58 @@
       <status>behandlet</status>
       <tittel>Endringer i lov om Innovasjon Norge (eierforhold og forvaltning av selskapet)</tittel>
       <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>168</id>
+          <navn>FN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Meld. St. 36 (2014-2015), Innst. 104 S (2015-2016)</henvisning>
+      <id>63051</id>
+      <innstilling_id>12361</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>UFK</id>
+        <navn>Utenriks- og forsvarskomiteen</navn>
+      </komite>
+      <korttittel>Noregs deltaking i den 69. ordinære generalforsamlinga i Dei sameinte nasjonane (FN)</korttittel>
+      <sak_fremmet_id>63051</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Halleraker</etternavn>
+          <foedselsdato>1951-10-27T00:00:00</foedselsdato>
+          <fornavn>Øyvind</fornavn>
+          <id>ØYVH</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-01-19T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Noregs deltaking i den 69. ordinære generalforsamlinga i Dei sameinte nasjonane (FN)</tittel>
+      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.3</versjon>
@@ -2118,6 +2118,14 @@
           <navn>FORBRUKERSAKER</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
       </emne_liste>
       <forslagstiller_liste>
         <representant>
@@ -2222,10 +2230,10 @@
       <emne_liste>
         <emne>
           <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>139</hovedemne_id>
-          <id>23</id>
-          <navn>NATURVERN</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>46</id>
+          <navn>LANDBRUK</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -2358,6 +2366,105 @@
       <sist_oppdatert_dato>2015-12-08T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Representantforslag fra stortingsrepresentantene Tove Karoline Knutsen, Martin Henriksen, Helga Pedersen og Tor Arne Bell Ljunggren om å sikre Veterinærinstituttets avdelinger innen grønn sektor og havbruk i Nord-Norge</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
+          <id>10</id>
+          <navn>SOSIALVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Bergstø</etternavn>
+          <foedselsdato>1981-07-01T00:00:00</foedselsdato>
+          <fornavn>Kirsti</fornavn>
+          <id>KIB</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Fi</id>
+            <navn>Finnmark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Andersen</etternavn>
+          <foedselsdato>1952-12-16T00:00:00</foedselsdato>
+          <fornavn>Karin</fornavn>
+          <id>KAAN</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>He</id>
+            <navn>Hedmark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+      </forslagstiller_liste>
+      <henvisning>Dokument 8:122 S (2014-2015), Innst. 66 S (2015-2016)</henvisning>
+      <id>62791</id>
+      <innstilling_id>12327</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>ARBSOS</id>
+        <navn>Arbeids- og sosialkomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om barnefattigdom</korttittel>
+      <sak_fremmet_id>62791</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Aasrud</etternavn>
+          <foedselsdato>1960-06-26T00:00:00</foedselsdato>
+          <fornavn>Rigmor</fornavn>
+          <id>RIAJ</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Op</id>
+            <navn>Oppland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2015-12-07T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Kirsti Bergstø og Karin Andersen om barnefattigdom</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -2595,178 +2702,6 @@
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>10</hovedemne_id>
-          <id>186</id>
-          <navn>TRYGDER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 139 L (2014-2015), Innst. 77 L (2015-2016), Lovvedtak 17 (2015-2016)</henvisning>
-      <id>61770</id>
-      <innstilling_id>12330</innstilling_id>
-      <innstilling_kode>innstilling_l</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>ARBSOS</id>
-        <navn>Arbeids- og sosialkomiteen</navn>
-      </komite>
-      <korttittel>Endringer i lov om anke til Trygderetten (lovrevisjon)</korttittel>
-      <sak_fremmet_id>61770</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Wenstøb</etternavn>
-          <foedselsdato>1963-02-26T00:00:00</foedselsdato>
-          <fornavn>Bengt Morten</fornavn>
-          <id>BMW</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Øs</id>
-            <navn>Østfold</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-12-07T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Endringer i lov om anke til Trygderetten (lovrevisjon)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>40</hovedemne_id>
-          <id>41</id>
-          <navn>BARN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>163</hovedemne_id>
-          <id>200</id>
-          <navn>INTERNASJONAL RETT</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 143 L (2014-2015), Innst. 87 L (2015-2016), Lovvedtak 20 (2015-2016)</henvisning>
-      <id>63057</id>
-      <innstilling_id>12345</innstilling_id>
-      <innstilling_kode>innstilling_l</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>JUSTIS</id>
-        <navn>Justiskomiteen</navn>
-      </komite>
-      <korttittel>Endringer i barnebortføringsloven, barnevernloven, straffeloven 2005 og rettshjelploven (internasjonal barnebortføring)</korttittel>
-      <sak_fremmet_id>63057</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Vågslid</etternavn>
-          <foedselsdato>1986-03-17T00:00:00</foedselsdato>
-          <fornavn>Lene</fornavn>
-          <id>LVA</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Te</id>
-            <navn>Telemark</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-12-07T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Endringer i barnebortføringsloven, barnevernloven, straffeloven 2005 og rettshjelploven (internasjonal barnebortføring)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>61</hovedemne_id>
-          <id>64</id>
-          <navn>HELSEPERSONELL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>10</hovedemne_id>
-          <id>186</id>
-          <navn>TRYGDER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 156 L (2014-2015), Innst. 76 L (2015-2016), Lovvedtak 19 (2015-2016)</henvisning>
-      <id>63389</id>
-      <innstilling_id>12331</innstilling_id>
-      <innstilling_kode>innstilling_l</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>ARBSOS</id>
-        <navn>Arbeids- og sosialkomiteen</navn>
-      </komite>
-      <korttittel>Endringer i lov om Statens pensjonskasse mv. (minstegrense for rett til medlemskap)</korttittel>
-      <sak_fremmet_id>63389</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Christoffersen</etternavn>
-          <foedselsdato>1955-08-05T00:00:00</foedselsdato>
-          <fornavn>Lise</fornavn>
-          <id>LIC</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Bu</id>
-            <navn>Buskerud</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-12-07T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Endringer i lov om Statens pensjonskasse mv. (minstegrense for rett til medlemskap)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>5</hovedemne_id>
           <id>94</id>
           <navn>ARBEIDSVILKÅR</navn>
@@ -2822,8 +2757,76 @@
     <sak>
       <versjon>1.3</versjon>
       <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 139 L (2014-2015), Innst. 77 L (2015-2016), Lovvedtak 17 (2015-2016)</henvisning>
+      <id>61770</id>
+      <innstilling_id>12330</innstilling_id>
+      <innstilling_kode>innstilling_l</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>ARBSOS</id>
+        <navn>Arbeids- og sosialkomiteen</navn>
+      </komite>
+      <korttittel>Endringer i lov om anke til Trygderetten (lovrevisjon)</korttittel>
+      <sak_fremmet_id>61770</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Wenstøb</etternavn>
+          <foedselsdato>1963-02-26T00:00:00</foedselsdato>
+          <fornavn>Bengt Morten</fornavn>
+          <id>BMW</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Øs</id>
+            <navn>Østfold</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2015-12-07T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Endringer i lov om anke til Trygderetten (lovrevisjon)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
@@ -3103,117 +3106,18 @@
       <emne_liste>
         <emne>
           <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>10</hovedemne_id>
-          <id>10</id>
-          <navn>SOSIALVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>40</hovedemne_id>
-          <id>41</id>
-          <navn>BARN</navn>
+          <hovedemne_id>184</hovedemne_id>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
           <underemne_liste />
         </emne>
-      </emne_liste>
-      <forslagstiller_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Bergstø</etternavn>
-          <foedselsdato>1981-07-01T00:00:00</foedselsdato>
-          <fornavn>Kirsti</fornavn>
-          <id>KIB</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Fi</id>
-            <navn>Finnmark</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>SV</id>
-            <navn>Sosialistisk Venstreparti</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Andersen</etternavn>
-          <foedselsdato>1952-12-16T00:00:00</foedselsdato>
-          <fornavn>Karin</fornavn>
-          <id>KAAN</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>He</id>
-            <navn>Hedmark</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>SV</id>
-            <navn>Sosialistisk Venstreparti</navn>
-          </parti>
-        </representant>
-      </forslagstiller_liste>
-      <henvisning>Dokument 8:122 S (2014-2015), Innst. 66 S (2015-2016)</henvisning>
-      <id>62791</id>
-      <innstilling_id>12327</innstilling_id>
-      <innstilling_kode>innstilling_s</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>ARBSOS</id>
-        <navn>Arbeids- og sosialkomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om barnefattigdom</korttittel>
-      <sak_fremmet_id>62791</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Aasrud</etternavn>
-          <foedselsdato>1960-06-26T00:00:00</foedselsdato>
-          <fornavn>Rigmor</fornavn>
-          <id>RIAJ</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Op</id>
-            <navn>Oppland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-12-07T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Kirsti Bergstø og Karin Andersen om barnefattigdom</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>11</hovedemne_id>
           <id>141</id>
           <navn>POLITI OG PÅTALEMYNDIGHET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>163</hovedemne_id>
-          <id>167</id>
-          <navn>MENNESKERETTIGHETER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -3321,17 +3225,17 @@
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>11</hovedemne_id>
-          <id>141</id>
-          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <hovedemne_id>184</hovedemne_id>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>163</hovedemne_id>
-          <id>167</id>
-          <navn>MENNESKERETTIGHETER</navn>
+          <hovedemne_id>11</hovedemne_id>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -3411,6 +3315,126 @@
       <status>behandlet</status>
       <tittel>Representantforslag frå stortingsrepresentantane Jenny Klinge og Per Olaf Lundteigen om endring av straffelova slik at utleigar kan haldast ansvarleg ved ulovleg verksemd i lokale som blir leigd ut</tittel>
       <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>200</id>
+          <navn>INTERNASJONAL RETT</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 143 L (2014-2015), Innst. 87 L (2015-2016), Lovvedtak 20 (2015-2016)</henvisning>
+      <id>63057</id>
+      <innstilling_id>12345</innstilling_id>
+      <innstilling_kode>innstilling_l</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
+      <korttittel>Endringer i barnebortføringsloven, barnevernloven, straffeloven 2005 og rettshjelploven (internasjonal barnebortføring)</korttittel>
+      <sak_fremmet_id>63057</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Vågslid</etternavn>
+          <foedselsdato>1986-03-17T00:00:00</foedselsdato>
+          <fornavn>Lene</fornavn>
+          <id>LVA</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Te</id>
+            <navn>Telemark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2015-12-07T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Endringer i barnebortføringsloven, barnevernloven, straffeloven 2005 og rettshjelploven (internasjonal barnebortføring)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>64</id>
+          <navn>HELSEPERSONELL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 156 L (2014-2015), Innst. 76 L (2015-2016), Lovvedtak 19 (2015-2016)</henvisning>
+      <id>63389</id>
+      <innstilling_id>12331</innstilling_id>
+      <innstilling_kode>innstilling_l</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>ARBSOS</id>
+        <navn>Arbeids- og sosialkomiteen</navn>
+      </komite>
+      <korttittel>Endringer i lov om Statens pensjonskasse mv. (minstegrense for rett til medlemskap)</korttittel>
+      <sak_fremmet_id>63389</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Christoffersen</etternavn>
+          <foedselsdato>1955-08-05T00:00:00</foedselsdato>
+          <fornavn>Lise</fornavn>
+          <id>LIC</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Bu</id>
+            <navn>Buskerud</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2015-12-07T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Endringer i lov om Statens pensjonskasse mv. (minstegrense for rett til medlemskap)</tittel>
+      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.3</versjon>
@@ -3646,10 +3670,10 @@
       <emne_liste>
         <emne>
           <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>139</hovedemne_id>
-          <id>139</id>
-          <navn>MILJØVERN</navn>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
+          <id>142</id>
+          <navn>LOTTERI OG SPILL</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -3657,47 +3681,34 @@
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Hansson</etternavn>
-          <foedselsdato>1954-09-04T00:00:00</foedselsdato>
-          <fornavn>Rasmus</fornavn>
-          <id>RAJH</id>
+          <etternavn>Bekkevold</etternavn>
+          <foedselsdato>1963-11-19T00:00:00</foedselsdato>
+          <fornavn>Geir Jørgen</fornavn>
+          <id>GJB</id>
           <kjoenn>mann</kjoenn>
           <fylke>
             <versjon>1.3</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
+            <id>Te</id>
+            <navn>Telemark</navn>
           </fylke>
           <parti>
             <versjon>1.3</versjon>
-            <id>MDG</id>
-            <navn>Miljøpartiet De Grønne</navn>
+            <id>KrF</id>
+            <navn>Kristelig Folkeparti</navn>
           </parti>
         </representant>
-      </forslagstiller_liste>
-      <henvisning>Dokument 8:118 S (2014-2015), Innst. 70 S (2015-2016)</henvisning>
-      <id>62718</id>
-      <innstilling_id>12323</innstilling_id>
-      <innstilling_kode>innstilling_s</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>ENERGI</id>
-        <navn>Energi- og miljøkomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om en storsatsing på flytende vindkraft i Norge</korttittel>
-      <sak_fremmet_id>62718</sak_fremmet_id>
-      <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Henriksen</etternavn>
-          <foedselsdato>1960-03-14T00:00:00</foedselsdato>
-          <fornavn>Per Rune</fornavn>
-          <id>PRH</id>
-          <kjoenn>mann</kjoenn>
+          <etternavn>Aasrud</etternavn>
+          <foedselsdato>1960-06-26T00:00:00</foedselsdato>
+          <fornavn>Rigmor</fornavn>
+          <id>RIAJ</id>
+          <kjoenn>kvinne</kjoenn>
           <fylke>
             <versjon>1.3</versjon>
-            <id>Ho</id>
-            <navn>Hordaland</navn>
+            <id>Op</id>
+            <navn>Oppland</navn>
           </fylke>
           <parti>
             <versjon>1.3</versjon>
@@ -3705,10 +3716,42 @@
             <navn>Arbeiderpartiet</navn>
           </parti>
         </representant>
+      </forslagstiller_liste>
+      <henvisning>Dokument 8:102 S (2014-2015), Innst. 44 S (2015-2016)</henvisning>
+      <id>62585</id>
+      <innstilling_id>12298</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>FAMKULT</id>
+        <navn>Familie- og kulturkomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om en ansvarlig og solidarisk spillpolitikk</korttittel>
+      <sak_fremmet_id>62585</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Thomsen</etternavn>
+          <foedselsdato>1961-10-06T00:00:00</foedselsdato>
+          <fornavn>Ib</fornavn>
+          <id>IBTH</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2015-12-01T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentant Rasmus Hansson om en storsatsing på flytende vindkraft i Norge</tittel>
+      <tittel>Representantforslag fra stortingsrepresentantene Geir Jørgen Bekkevold og Rigmor Aasrud om en ansvarlig og solidarisk spillpolitikk</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -3836,10 +3879,10 @@
       <emne_liste>
         <emne>
           <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>6</hovedemne_id>
-          <id>142</id>
-          <navn>LOTTERI OG SPILL</navn>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -3847,34 +3890,47 @@
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Bekkevold</etternavn>
-          <foedselsdato>1963-11-19T00:00:00</foedselsdato>
-          <fornavn>Geir Jørgen</fornavn>
-          <id>GJB</id>
+          <etternavn>Hansson</etternavn>
+          <foedselsdato>1954-09-04T00:00:00</foedselsdato>
+          <fornavn>Rasmus</fornavn>
+          <id>RAJH</id>
           <kjoenn>mann</kjoenn>
           <fylke>
             <versjon>1.3</versjon>
-            <id>Te</id>
-            <navn>Telemark</navn>
+            <id>Os</id>
+            <navn>Oslo</navn>
           </fylke>
           <parti>
             <versjon>1.3</versjon>
-            <id>KrF</id>
-            <navn>Kristelig Folkeparti</navn>
+            <id>MDG</id>
+            <navn>Miljøpartiet De Grønne</navn>
           </parti>
         </representant>
+      </forslagstiller_liste>
+      <henvisning>Dokument 8:118 S (2014-2015), Innst. 70 S (2015-2016)</henvisning>
+      <id>62718</id>
+      <innstilling_id>12323</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>ENERGI</id>
+        <navn>Energi- og miljøkomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om en storsatsing på flytende vindkraft i Norge</korttittel>
+      <sak_fremmet_id>62718</sak_fremmet_id>
+      <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Aasrud</etternavn>
-          <foedselsdato>1960-06-26T00:00:00</foedselsdato>
-          <fornavn>Rigmor</fornavn>
-          <id>RIAJ</id>
-          <kjoenn>kvinne</kjoenn>
+          <etternavn>Henriksen</etternavn>
+          <foedselsdato>1960-03-14T00:00:00</foedselsdato>
+          <fornavn>Per Rune</fornavn>
+          <id>PRH</id>
+          <kjoenn>mann</kjoenn>
           <fylke>
             <versjon>1.3</versjon>
-            <id>Op</id>
-            <navn>Oppland</navn>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
           </fylke>
           <parti>
             <versjon>1.3</versjon>
@@ -3882,42 +3938,10 @@
             <navn>Arbeiderpartiet</navn>
           </parti>
         </representant>
-      </forslagstiller_liste>
-      <henvisning>Dokument 8:102 S (2014-2015), Innst. 44 S (2015-2016)</henvisning>
-      <id>62585</id>
-      <innstilling_id>12298</innstilling_id>
-      <innstilling_kode>innstilling_s</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>FAMKULT</id>
-        <navn>Familie- og kulturkomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om en ansvarlig og solidarisk spillpolitikk</korttittel>
-      <sak_fremmet_id>62585</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Thomsen</etternavn>
-          <foedselsdato>1961-10-06T00:00:00</foedselsdato>
-          <fornavn>Ib</fornavn>
-          <id>IBTH</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ak</id>
-            <navn>Akershus</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>FrP</id>
-            <navn>Fremskrittspartiet</navn>
-          </parti>
-        </representant>
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2015-12-01T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Geir Jørgen Bekkevold og Rigmor Aasrud om en ansvarlig og solidarisk spillpolitikk</tittel>
+      <tittel>Representantforslag fra stortingsrepresentant Rasmus Hansson om en storsatsing på flytende vindkraft i Norge</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -4600,78 +4624,6 @@
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>40</hovedemne_id>
-          <id>42</id>
-          <navn>BARNEHAGER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Lysbakken</etternavn>
-          <foedselsdato>1977-09-30T00:00:00</foedselsdato>
-          <fornavn>Audun</fornavn>
-          <id>ALYS</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ho</id>
-            <navn>Hordaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>SV</id>
-            <navn>Sosialistisk Venstreparti</navn>
-          </parti>
-        </representant>
-      </forslagstiller_liste>
-      <henvisning>Dokument 8:101 S (2014-2015), Innst. 47 S (2015-2016)</henvisning>
-      <id>62580</id>
-      <innstilling_id>12299</innstilling_id>
-      <innstilling_kode>innstilling_s</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>FAMKULT</id>
-        <navn>Familie- og kulturkomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om kompetanseløft i barnehagen</korttittel>
-      <sak_fremmet_id>62580</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Bekkevold</etternavn>
-          <foedselsdato>1963-11-19T00:00:00</foedselsdato>
-          <fornavn>Geir Jørgen</fornavn>
-          <id>GJB</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Te</id>
-            <navn>Telemark</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>KrF</id>
-            <navn>Kristelig Folkeparti</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-11-24T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentant Audun Lysbakken om kompetanseløft i barnehagen</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>184</hovedemne_id>
           <id>52</id>
           <navn>KOMMUNER</navn>
@@ -4960,6 +4912,78 @@
     <sak>
       <versjon>1.3</versjon>
       <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>42</id>
+          <navn>BARNEHAGER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Lysbakken</etternavn>
+          <foedselsdato>1977-09-30T00:00:00</foedselsdato>
+          <fornavn>Audun</fornavn>
+          <id>ALYS</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+      </forslagstiller_liste>
+      <henvisning>Dokument 8:101 S (2014-2015), Innst. 47 S (2015-2016)</henvisning>
+      <id>62580</id>
+      <innstilling_id>12299</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>FAMKULT</id>
+        <navn>Familie- og kulturkomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om kompetanseløft i barnehagen</korttittel>
+      <sak_fremmet_id>62580</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Bekkevold</etternavn>
+          <foedselsdato>1963-11-19T00:00:00</foedselsdato>
+          <fornavn>Geir Jørgen</fornavn>
+          <id>GJB</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Te</id>
+            <navn>Telemark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>KrF</id>
+            <navn>Kristelig Folkeparti</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2015-11-24T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentant Audun Lysbakken om kompetanseløft i barnehagen</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste>
         <emne>
@@ -5024,6 +5048,66 @@
       <status>behandlet</status>
       <tittel>Samtykke til godkjennelse av EØS-komiteens beslutning nr. 186/2015 av 10. juli om innlemmelse i EØS-avtalen av beslutning (EU) nr. 585/2014 om innføring av den samvirkende eCall-tjenesten på EU-plan</tittel>
       <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>45</hovedemne_id>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 151 S (2014-2015), Innst. 37 S (2015-2016)</henvisning>
+      <id>63306</id>
+      <innstilling_id>12294</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>NÆRING</id>
+        <navn>Næringskomiteen</navn>
+      </komite>
+      <korttittel>Endringer i statsbudsjettet 2015 under Nærings- og fiskeridepartementet</korttittel>
+      <sak_fremmet_id>63306</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Pollestad</etternavn>
+          <foedselsdato>1978-08-13T00:00:00</foedselsdato>
+          <fornavn>Geir</fornavn>
+          <id>GP</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2015-11-19T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Endringer i statsbudsjettet 2015 under Nærings- og fiskeridepartementet (Tilleggsbevilgninger til Innovasjon Norge)</tittel>
+      <type>budsjett</type>
     </sak>
     <sak>
       <versjon>1.3</versjon>
@@ -5144,66 +5228,6 @@
       <status>behandlet</status>
       <tittel>Samtykke til godkjennelse av EØS-komiteens beslutning nr. 102/2015 av 30. april 2015 om innlemmelse i EØS-avtalen av forordning (EU) nr. 1024/2012 om forvaltningssamarbeid gjennom informasjonssystemet for det indre marked ("IMI-forordningen")</tittel>
       <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>45</hovedemne_id>
-          <id>45</id>
-          <navn>FORSKNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>113</hovedemne_id>
-          <id>114</id>
-          <navn>NÆRINGSUTVIKLING</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 151 S (2014-2015), Innst. 37 S (2015-2016)</henvisning>
-      <id>63306</id>
-      <innstilling_id>12294</innstilling_id>
-      <innstilling_kode>innstilling_s</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>NÆRING</id>
-        <navn>Næringskomiteen</navn>
-      </komite>
-      <korttittel>Endringer i statsbudsjettet 2015 under Nærings- og fiskeridepartementet</korttittel>
-      <sak_fremmet_id>63306</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Pollestad</etternavn>
-          <foedselsdato>1978-08-13T00:00:00</foedselsdato>
-          <fornavn>Geir</fornavn>
-          <id>GP</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ro</id>
-            <navn>Rogaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>Sp</id>
-            <navn>Senterpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-11-19T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Endringer i statsbudsjettet 2015 under Nærings- og fiskeridepartementet (Tilleggsbevilgninger til Innovasjon Norge)</tittel>
-      <type>budsjett</type>
     </sak>
     <sak>
       <versjon>1.3</versjon>
@@ -5388,6 +5412,66 @@
     <sak>
       <versjon>1.3</versjon>
       <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>187</id>
+          <navn>FINANSER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 142 L (2014-2015), Innst. 30 L (2015-2016), Lovvedtak 3-4 (2015-2016)</henvisning>
+      <id>63055</id>
+      <innstilling_id>12287</innstilling_id>
+      <innstilling_kode>innstilling_l</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>FINANS</id>
+        <navn>Finanskomiteen</navn>
+      </komite>
+      <korttittel>Lov om fastsettelse av referanserenter og lov om endringer i finanslovgivningen mv.</korttittel>
+      <sak_fremmet_id>63055</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Johansen</etternavn>
+          <foedselsdato>1961-01-07T00:00:00</foedselsdato>
+          <fornavn>Irene</fornavn>
+          <id>IJ</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Øs</id>
+            <navn>Østfold</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2015-11-12T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Lov om fastsettelse av referanserenter og lov om endringer i finanslovgivningen mv.</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
       <dokumentgruppe>melding</dokumentgruppe>
       <emne_liste>
         <emne>
@@ -5443,66 +5527,6 @@
       <sist_oppdatert_dato>2015-11-12T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Fremtidens primærhelsetjeneste - nærhet og helhet</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
-      <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>11</hovedemne_id>
-          <id>17</id>
-          <navn>PERSONVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>2</hovedemne_id>
-          <id>179</id>
-          <navn>TELEKOMMUNIKASJONER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Meld. St. 34 (2014-2015), Innst. 28 S (2015-2016)</henvisning>
-      <id>61813</id>
-      <innstilling_id>12284</innstilling_id>
-      <innstilling_kode>innstilling_s</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>KOMMFORV</id>
-        <navn>Kommunal- og forvaltningskomiteen</navn>
-      </komite>
-      <korttittel>Datatilsynets og Personvernnemndas årsmeldinger for 2014</korttittel>
-      <sak_fremmet_id>61813</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Schou</etternavn>
-          <foedselsdato>1955-01-20T00:00:00</foedselsdato>
-          <fornavn>Ingjerd</fornavn>
-          <id>ISC</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Øs</id>
-            <navn>Østfold</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-11-12T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Datatilsynets og Personvernnemndas årsmeldinger for 2014</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -5683,45 +5707,45 @@
     <sak>
       <versjon>1.3</versjon>
       <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <dokumentgruppe>melding</dokumentgruppe>
       <emne_liste>
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>163</hovedemne_id>
-          <id>173</id>
-          <navn>EFTA/EU</navn>
+          <hovedemne_id>11</hovedemne_id>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>187</hovedemne_id>
-          <id>187</id>
-          <navn>FINANSER</navn>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
+          <id>179</id>
+          <navn>TELEKOMMUNIKASJONER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
       <forslagstiller_liste />
-      <henvisning>Prop. 142 L (2014-2015), Innst. 30 L (2015-2016), Lovvedtak 3-4 (2015-2016)</henvisning>
-      <id>63055</id>
-      <innstilling_id>12287</innstilling_id>
-      <innstilling_kode>innstilling_l</innstilling_kode>
+      <henvisning>Meld. St. 34 (2014-2015), Innst. 28 S (2015-2016)</henvisning>
+      <id>61813</id>
+      <innstilling_id>12284</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
       <komite>
         <versjon>1.3</versjon>
-        <id>FINANS</id>
-        <navn>Finanskomiteen</navn>
+        <id>KOMMFORV</id>
+        <navn>Kommunal- og forvaltningskomiteen</navn>
       </komite>
-      <korttittel>Lov om fastsettelse av referanserenter og lov om endringer i finanslovgivningen mv.</korttittel>
-      <sak_fremmet_id>63055</sak_fremmet_id>
+      <korttittel>Datatilsynets og Personvernnemndas årsmeldinger for 2014</korttittel>
+      <sak_fremmet_id>61813</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Johansen</etternavn>
-          <foedselsdato>1961-01-07T00:00:00</foedselsdato>
-          <fornavn>Irene</fornavn>
-          <id>IJ</id>
+          <etternavn>Schou</etternavn>
+          <foedselsdato>1955-01-20T00:00:00</foedselsdato>
+          <fornavn>Ingjerd</fornavn>
+          <id>ISC</id>
           <kjoenn>kvinne</kjoenn>
           <fylke>
             <versjon>1.3</versjon>
@@ -5730,15 +5754,15 @@
           </fylke>
           <parti>
             <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
+            <id>H</id>
+            <navn>Høyre</navn>
           </parti>
         </representant>
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2015-11-12T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
-      <tittel>Lov om fastsettelse av referanserenter og lov om endringer i finanslovgivningen mv.</tittel>
-      <type>lovsak</type>
+      <tittel>Datatilsynets og Personvernnemndas årsmeldinger for 2014</tittel>
+      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.3</versjon>
@@ -6025,97 +6049,6 @@
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>10</hovedemne_id>
-          <id>186</id>
-          <navn>TRYGDER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Bergstø</etternavn>
-          <foedselsdato>1981-07-01T00:00:00</foedselsdato>
-          <fornavn>Kirsti</fornavn>
-          <id>KIB</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Fi</id>
-            <navn>Finnmark</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>SV</id>
-            <navn>Sosialistisk Venstreparti</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Andersen</etternavn>
-          <foedselsdato>1952-12-16T00:00:00</foedselsdato>
-          <fornavn>Karin</fornavn>
-          <id>KAAN</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>He</id>
-            <navn>Hedmark</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>SV</id>
-            <navn>Sosialistisk Venstreparti</navn>
-          </parti>
-        </representant>
-      </forslagstiller_liste>
-      <henvisning>Dokument 8:93 S (2014-2015), Innst. 31 S (2015-2016)</henvisning>
-      <id>62476</id>
-      <innstilling_id>12286</innstilling_id>
-      <innstilling_kode>innstilling_s</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>ARBSOS</id>
-        <navn>Arbeids- og sosialkomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om bedre muligheter for Nav til å bruke skjønn og løse feil som oppstår i enkle saker som ikke omhandler trygdesvindel</korttittel>
-      <sak_fremmet_id>62476</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Rotevatn</etternavn>
-          <foedselsdato>1987-05-15T00:00:00</foedselsdato>
-          <fornavn>Sveinung</fornavn>
-          <id>SVR</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>SF</id>
-            <navn>Sogn og Fjordane</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>V</id>
-            <navn>Venstre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-11-10T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Karin Andersen og Kirsti Bergstø om bedre muligheter for Nav til å bruke skjønn og løse feil som oppstår i enkle saker som ikke omhandler trygdesvindel</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>32</hovedemne_id>
           <id>183</id>
           <navn>GRUNNSKOLE</navn>
@@ -6326,6 +6259,97 @@
       <sist_oppdatert_dato>2015-11-10T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Representantforslag fra stortingsrepresentant Audun Lysbakken om innføring av et gratis skolemåltid i grunnskolen</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Bergstø</etternavn>
+          <foedselsdato>1981-07-01T00:00:00</foedselsdato>
+          <fornavn>Kirsti</fornavn>
+          <id>KIB</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Fi</id>
+            <navn>Finnmark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Andersen</etternavn>
+          <foedselsdato>1952-12-16T00:00:00</foedselsdato>
+          <fornavn>Karin</fornavn>
+          <id>KAAN</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>He</id>
+            <navn>Hedmark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+      </forslagstiller_liste>
+      <henvisning>Dokument 8:93 S (2014-2015), Innst. 31 S (2015-2016)</henvisning>
+      <id>62476</id>
+      <innstilling_id>12286</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>ARBSOS</id>
+        <navn>Arbeids- og sosialkomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om bedre muligheter for Nav til å bruke skjønn og løse feil som oppstår i enkle saker som ikke omhandler trygdesvindel</korttittel>
+      <sak_fremmet_id>62476</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Rotevatn</etternavn>
+          <foedselsdato>1987-05-15T00:00:00</foedselsdato>
+          <fornavn>Sveinung</fornavn>
+          <id>SVR</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>SF</id>
+            <navn>Sogn og Fjordane</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>V</id>
+            <navn>Venstre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2015-11-10T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Karin Andersen og Kirsti Bergstø om bedre muligheter for Nav til å bruke skjønn og løse feil som oppstår i enkle saker som ikke omhandler trygdesvindel</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -6562,6 +6586,134 @@
       <sist_oppdatert_dato>2015-10-06T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Saker som Stortinget ikke har behandlet i sesjonen 2014-2015</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>dokumentserien</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>29</id>
+          <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>188</id>
+          <navn>FOLKEHELSE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Dokument 3:11 (2014-2015)</henvisning>
+      <id>63118</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>KONTROLL</id>
+        <navn>Kontroll- og konstitusjonskomiteen</navn>
+      </komite>
+      <korttittel>Riksrevisjonens undersøkelse av offentlig folkehelsearbeid</korttittel>
+      <sak_fremmet_id>63118</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Tetzschner</etternavn>
+          <foedselsdato>1954-02-09T00:00:00</foedselsdato>
+          <fornavn>Michael</fornavn>
+          <id>MIT</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2015-09-30T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Riksrevisjonens undersøkelse av offentlig folkehelsearbeid</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>dokumentserien</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>29</id>
+          <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>64</id>
+          <navn>HELSEPERSONELL</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Dokument 3:12 (2014-2015)</henvisning>
+      <id>63375</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>KONTROLL</id>
+        <navn>Kontroll- og konstitusjonskomiteen</navn>
+      </komite>
+      <korttittel>Riksrevisjonens undersøkelse av styring av pleieressursene i helseforetakene</korttittel>
+      <sak_fremmet_id>63375</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Tetzschner</etternavn>
+          <foedselsdato>1954-02-09T00:00:00</foedselsdato>
+          <fornavn>Michael</fornavn>
+          <id>MIT</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2015-09-30T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Riksrevisjonens undersøkelse av styring av pleieressursene i helseforetakene</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -7392,46 +7544,54 @@
     <sak>
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>dokumentserien</dokumentgruppe>
+      <dokumentgruppe>melding</dokumentgruppe>
       <emne_liste>
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>151</hovedemne_id>
-          <id>29</id>
-          <navn>RIKSREVISJONEN</navn>
+          <hovedemne_id>113</hovedemne_id>
+          <id>99</id>
+          <navn>UTENRIKSHANDEL</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>61</hovedemne_id>
-          <id>188</id>
-          <navn>FOLKEHELSE</navn>
+          <hovedemne_id>113</hovedemne_id>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>174</id>
+          <navn>UTVIKLINGSHJELP</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
       <forslagstiller_liste />
-      <henvisning>Dokument 3:11 (2014-2015)</henvisning>
-      <id>63118</id>
+      <henvisning>Meld. St. 35 (2014-2015)</henvisning>
+      <id>63050</id>
       <innstilling_id>-1</innstilling_id>
       <innstilling_kode>ikke_spesifisert</innstilling_kode>
       <komite>
         <versjon>1.3</versjon>
-        <id>KONTROLL</id>
-        <navn>Kontroll- og konstitusjonskomiteen</navn>
+        <id>UFK</id>
+        <navn>Utenriks- og forsvarskomiteen</navn>
       </komite>
-      <korttittel>Riksrevisjonens undersøkelse av offentlig folkehelsearbeid</korttittel>
-      <sak_fremmet_id>63118</sak_fremmet_id>
+      <korttittel>Sammen om jobben - Næringsutvikling innenfor utviklingssamarbeidet</korttittel>
+      <sak_fremmet_id>63050</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Tetzschner</etternavn>
-          <foedselsdato>1954-02-09T00:00:00</foedselsdato>
-          <fornavn>Michael</fornavn>
-          <id>MIT</id>
-          <kjoenn>mann</kjoenn>
+          <etternavn>Nybakk</etternavn>
+          <foedselsdato>1947-02-14T00:00:00</foedselsdato>
+          <fornavn>Marit</fornavn>
+          <id>MN</id>
+          <kjoenn>kvinne</kjoenn>
           <fylke>
             <versjon>1.3</versjon>
             <id>Os</id>
@@ -7439,71 +7599,79 @@
           </fylke>
           <parti>
             <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-09-30T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2015-06-19T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
-      <tittel>Riksrevisjonens undersøkelse av offentlig folkehelsearbeid</tittel>
+      <tittel>Sammen om jobben - Næringsutvikling innenfor utviklingssamarbeidet</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>dokumentserien</dokumentgruppe>
+      <dokumentgruppe>melding</dokumentgruppe>
       <emne_liste>
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>151</hovedemne_id>
-          <id>29</id>
-          <navn>RIKSREVISJONEN</navn>
+          <hovedemne_id>163</hovedemne_id>
+          <id>22</id>
+          <navn>INTERNASJONALT SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>61</hovedemne_id>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
+          <hovedemne_id>163</hovedemne_id>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
           <underemne_liste />
         </emne>
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>61</hovedemne_id>
-          <id>64</id>
-          <navn>HELSEPERSONELL</navn>
+          <hovedemne_id>2</hovedemne_id>
+          <id>179</id>
+          <navn>TELEKOMMUNIKASJONER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
       <forslagstiller_liste />
-      <henvisning>Dokument 3:12 (2014-2015)</henvisning>
-      <id>63375</id>
+      <henvisning>Meld. St. 37 (2014-2015)</henvisning>
+      <id>63052</id>
       <innstilling_id>-1</innstilling_id>
       <innstilling_kode>ikke_spesifisert</innstilling_kode>
       <komite>
         <versjon>1.3</versjon>
-        <id>KONTROLL</id>
-        <navn>Kontroll- og konstitusjonskomiteen</navn>
+        <id>UFK</id>
+        <navn>Utenriks- og forsvarskomiteen</navn>
       </komite>
-      <korttittel>Riksrevisjonens undersøkelse av styring av pleieressursene i helseforetakene</korttittel>
-      <sak_fremmet_id>63375</sak_fremmet_id>
+      <korttittel>Globale sikkerhetsutfordringer i utenrikspolitikken - Terrorisme, organisert kriminalitet, piratvirksomhet og sikkerhetsutfordringer i det digitale rom</korttittel>
+      <sak_fremmet_id>63052</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Tetzschner</etternavn>
-          <foedselsdato>1954-02-09T00:00:00</foedselsdato>
-          <fornavn>Michael</fornavn>
-          <id>MIT</id>
+          <etternavn>Halleraker</etternavn>
+          <foedselsdato>1951-10-27T00:00:00</foedselsdato>
+          <fornavn>Øyvind</fornavn>
+          <id>ØYVH</id>
           <kjoenn>mann</kjoenn>
           <fylke>
             <versjon>1.3</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
           </fylke>
           <parti>
             <versjon>1.3</versjon>
@@ -7512,9 +7680,61 @@
           </parti>
         </representant>
       </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-09-30T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2015-06-19T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
-      <tittel>Riksrevisjonens undersøkelse av styring av pleieressursene i helseforetakene</tittel>
+      <tittel>Globale sikkerhetsutfordringer i utenrikspolitikken - Terrorisme, organisert kriminalitet, piratvirksomhet og sikkerhetsutfordringer i det digitale rom</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
+          <id>70</id>
+          <navn>KRINGKASTING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Meld. St. 38 (2014-2015)</henvisning>
+      <id>63059</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>FAMKULT</id>
+        <navn>Familie- og kulturkomiteen</navn>
+      </komite>
+      <korttittel>Open og opplyst - Allmennkringkasting og mediemangfald</korttittel>
+      <sak_fremmet_id>63059</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Løvaas</etternavn>
+          <foedselsdato>1967-11-10T00:00:00</foedselsdato>
+          <fornavn>Kårstein Eidem</fornavn>
+          <id>KAEL</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ve</id>
+            <navn>Vestfold</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2015-06-19T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Open og opplyst - Allmennkringkasting og mediemangfald</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -7741,202 +7961,6 @@
       <sist_oppdatert_dato>2015-06-19T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Representantforslag fra stortingsrepresentantene Mazyar Keshvari og Christian Tybring-Gjedde om folkeavstemning om mottak av syriske flyktninger og en økning av hjelpen i nærområdene med én mrd. kroner</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>163</hovedemne_id>
-          <id>22</id>
-          <navn>INTERNASJONALT SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>11</hovedemne_id>
-          <id>141</id>
-          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>163</hovedemne_id>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>2</hovedemne_id>
-          <id>179</id>
-          <navn>TELEKOMMUNIKASJONER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Meld. St. 37 (2014-2015)</henvisning>
-      <id>63052</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>UFK</id>
-        <navn>Utenriks- og forsvarskomiteen</navn>
-      </komite>
-      <korttittel>Globale sikkerhetsutfordringer i utenrikspolitikken. Terrorisme, organisert kriminalitet, piratvirksomhet og sikkerhetsutfordringer i det digitale rom</korttittel>
-      <sak_fremmet_id>63052</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Halleraker</etternavn>
-          <foedselsdato>1951-10-27T00:00:00</foedselsdato>
-          <fornavn>Øyvind</fornavn>
-          <id>ØYVH</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ho</id>
-            <navn>Hordaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-06-19T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Globale sikkerhetsutfordringer i utenrikspolitikken. Terrorisme, organisert kriminalitet, piratvirksomhet og sikkerhetsutfordringer i det digitale rom</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>6</hovedemne_id>
-          <id>70</id>
-          <navn>KRINGKASTING</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Meld. St. 38 (2014-2015)</henvisning>
-      <id>63059</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>FAMKULT</id>
-        <navn>Familie- og kulturkomiteen</navn>
-      </komite>
-      <korttittel>Open og opplyst. Allmennkringkasting og mediemangfald</korttittel>
-      <sak_fremmet_id>63059</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Løvaas</etternavn>
-          <foedselsdato>1967-11-10T00:00:00</foedselsdato>
-          <fornavn>Kårstein Eidem</fornavn>
-          <id>KAEL</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ve</id>
-            <navn>Vestfold</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-06-19T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Open og opplyst. Allmennkringkasting og mediemangfald</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>113</hovedemne_id>
-          <id>99</id>
-          <navn>UTENRIKSHANDEL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>113</hovedemne_id>
-          <id>114</id>
-          <navn>NÆRINGSUTVIKLING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>163</hovedemne_id>
-          <id>174</id>
-          <navn>UTVIKLINGSHJELP</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Meld. St. 35 (2014-2015)</henvisning>
-      <id>63050</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>UFK</id>
-        <navn>Utenriks- og forsvarskomiteen</navn>
-      </komite>
-      <korttittel>Sammen om jobben. Næringsutvikling innenfor utviklingssamarbeidet</korttittel>
-      <sak_fremmet_id>63050</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Nybakk</etternavn>
-          <foedselsdato>1947-02-14T00:00:00</foedselsdato>
-          <fornavn>Marit</fornavn>
-          <id>MN</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-06-19T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Sammen om jobben. Næringsutvikling innenfor utviklingssamarbeidet</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -17771,7 +17795,7 @@
         <id>NÆRING</id>
         <navn>Næringskomiteen</navn>
       </komite>
-      <korttittel>Garden som ressurs - marknaden som mål - Vekst og gründerskap innan landbruksbaserte næringar</korttittel>
+      <korttittel>Garden som ressurs - marknaden som mål. Vekst og gründerskap innan landbruksbaserte næringar</korttittel>
       <sak_fremmet_id>62916</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
@@ -17796,7 +17820,7 @@
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2015-06-05T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
-      <tittel>Garden som ressurs - marknaden som mål - Vekst og gründerskap innan landbruksbaserte næringar</tittel>
+      <tittel>Garden som ressurs - marknaden som mål. Vekst og gründerskap innan landbruksbaserte næringar</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -20862,6 +20886,74 @@
     <sak>
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>12</id>
+          <navn>DOMSTOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>14</id>
+          <navn>STRAFFERETT</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>16</id>
+          <navn>KRIMINALOMSORG</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 122 L (2014-2015)</henvisning>
+      <id>61804</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
+      <korttittel>Endringer i straffeloven 2005 mv. (strafferettslige særreaksjoner m.m.)</korttittel>
+      <sak_fremmet_id>61804</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Henriksen</etternavn>
+          <foedselsdato>1955-08-10T00:00:00</foedselsdato>
+          <fornavn>Kari</fornavn>
+          <id>KARH</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>VA</id>
+            <navn>Vest-Agder</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2015-05-26T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endringer i straffeloven 2005 mv. (strafferettslige særreaksjoner m.m.)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste>
         <emne>
@@ -20976,74 +21068,6 @@
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Marit Arnstad, Heidi Greni og Janne Sjelmo Nordås om tiltak for å redusere rovdyrproblemene for samisk reindrift</tittel>
       <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>11</hovedemne_id>
-          <id>12</id>
-          <navn>DOMSTOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>11</hovedemne_id>
-          <id>14</id>
-          <navn>STRAFFERETT</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>11</hovedemne_id>
-          <id>16</id>
-          <navn>KRIMINALOMSORG</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 122 L (2014-2015)</henvisning>
-      <id>61804</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>JUSTIS</id>
-        <navn>Justiskomiteen</navn>
-      </komite>
-      <korttittel>Endringer i straffeloven 2005 mv. (strafferettslige særreaksjoner m.m.)</korttittel>
-      <sak_fremmet_id>61804</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Henriksen</etternavn>
-          <foedselsdato>1955-08-10T00:00:00</foedselsdato>
-          <fornavn>Kari</fornavn>
-          <id>KARH</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>VA</id>
-            <navn>Vest-Agder</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2015-05-26T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endringer i straffeloven 2005 mv. (strafferettslige særreaksjoner m.m.)</tittel>
-      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.3</versjon>
