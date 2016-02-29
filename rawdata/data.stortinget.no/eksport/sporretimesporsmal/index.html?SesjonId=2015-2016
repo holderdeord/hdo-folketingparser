@@ -876,7 +876,16 @@ Hvordan vurderer statsråden dette, og hvordan vil den videre prosessen bli lagt
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-02-11T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>183</id>
+          <navn>GRUNNSKOLE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>64739</id>
@@ -917,8 +926,7 @@ Hvordan vurderer statsråden dette, og hvordan vil den videre prosessen bli lagt
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Høsten 2012 vedtok den rød-grønne regjeringen å styrke ungdomstrinnet med 600 nye lærerstillinger fra høsten 2013. I retningslinjene fra departementet ble det slått fast at tiltaket skulle følgeevalueres. I media er vi gjort kjent med at en slik evaluering ikke er gjennomført, og at regjeringen vil stoppe lærersatsingen til tross for at denne har hatt positiv effekt på læringsutbyttet.
-Kan statsråden bekrefte at prosjektet ikke er følgeevaluert, og i så fall, hvorfor er dette ikke gjort?</tittel>
+      <tittel>om statsråden kan bekrefte at den rød-grønne regjeringens vedtak om _styrking av ungdomstrinnet med 600 nye lærerstillinger_ fra 2013 ikke er følgeevaluert, og i så fall, hvorfor dette ikke er gjort</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1136,7 +1144,24 @@ Hvorfor åpner ikke regjeringen for at tilskudd til bedriftsintern opplæring ka
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-02-11T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>8</hovedemne_id>
+          <id>92</id>
+          <navn>HAVBRUK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>64732</id>
@@ -1177,8 +1202,7 @@ Hvorfor åpner ikke regjeringen for at tilskudd til bedriftsintern opplæring ka
       <sporsmal_til_minister_id>NFDFISK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>fiskeriministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Arbeidsløysa innan havbruk er aukande. Eit ubrukt verktøy for auka sysselsetting innan havbrukssektoren er å innføre rullerande MTB.
-Vil statsråden ta i bruk dette verktøyet?</tittel>
+      <tittel>om statsråden vil ta i bruk _rullerande MTB som verktøy for auka sysselsetting innan havbrukssektoren_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1584,7 +1608,32 @@ Hvor langt er statsråden kommet i sin behandling av de forslag Kulturrådet ang
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-02-11T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>63</id>
+          <navn>SYKEHUS</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>64</id>
+          <navn>HELSEPERSONELL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>205</id>
+          <navn>ARBEIDSMILJØ</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>64719</id>
@@ -1625,8 +1674,7 @@ Hvor langt er statsråden kommet i sin behandling av de forslag Kulturrådet ang
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I DNs reportasje den 23. januar 2016, kalt 'Frykt og avmakt i hvitt', advarer ansatte om en sterk fryktkultur ved norske sykehus. 30 sykehuskilder er intervjuet, og de fleste sier at omfanget er så utbredt at de kaller det et problem i helsevesenet. Sanksjoner rammer oftest tillitsvalgte. Direktør i Helsetilsynet bekrefter at det finnes "endel ondsinnede arbeidskulturer som kan ramme både de ansatte og pasientsikkerheten".
-Hva er statsrådens tiltak for å sikre åpenhet og hindre fryktkultur ved norske sykehus?</tittel>
+      <tittel>om hva som er statsrådens tiltak for å _sikre åpenhet og hindre fryktkultur ved norske sykehus_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -2169,7 +2217,16 @@ Hva er statsrådens tiltak for å sikre åpenhet og hindre fryktkultur ved norsk
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-02-10T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>63</id>
+          <navn>SYKEHUS</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>64699</id>
@@ -2210,8 +2267,7 @@ Hva er statsrådens tiltak for å sikre åpenhet og hindre fryktkultur ved norsk
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Ved Universitetssykehuset Nord-Norge i Tromsø har man i et ekstraordinært styremøte vedtatt å bygge nye administrasjonslokaliteter i tilknytning til det planlagte nye PET-senteret, gjennom en ordning med OPS.
-Tatt i betraktning at man i mange land har dårlige erfaringer med bruk av OPS i slike sammenhenger; hvordan stiller statsråden seg til at man nå åpner for bruk av OPS ved realisering av nybygg ved våre sykehus?</tittel>
+      <tittel>om hvordan statsråden stiller seg til at man åpner for _bruk av OPS ved realisering av nybygg ved våre sykehus_, tatt i betraktning at man i mange land har dårlige erfaringer med bruk av OPS i slike sammenhenger</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -2477,7 +2533,16 @@ Tatt i betraktning at man i mange land har dårlige erfaringer med bruk av OPS i
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-02-04T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>64637</id>
@@ -2518,8 +2583,7 @@ Tatt i betraktning at man i mange land har dårlige erfaringer med bruk av OPS i
       <sporsmal_til_minister_id>ASD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>arbeids- og sosialministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Det har vært normalt i det norske arbeidsmarkedet at folk velger å forlate arbeidsstyrken når arbeidsledigheten øker, eksempelvis ved førtidspensjonering og lengre utdanning. Nå øker imidlertid arbeidsstyrken.
-Hva er statsrådens forklaring på at arbeidskrafttilgangen øker samtidig som arbeidsledigheten øker?</tittel>
+      <tittel>om hva som er statsrådens forklaring på at _arbeidskrafttilgangen øker samtidig som arbeidsledigheten øker_, med henvisning til at det er normalt at folk velger å forlate arbeidsstyrken når arbeidsledigheten øker, eksempelvis ved førtidspensjonering og lengre utdanning</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
