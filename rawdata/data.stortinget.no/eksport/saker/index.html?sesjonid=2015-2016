@@ -518,7 +518,24 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Prop. 63 L (2015-2016)</henvisning>
       <id>64466</id>
@@ -541,7 +558,24 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>62</id>
+          <navn>HELSEINSTITUSJONER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Prop. 61 L (2015-2016)</henvisning>
       <id>64487</id>
@@ -584,7 +618,32 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>12</id>
+          <navn>DOMSTOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>155</hovedemne_id>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Prop. 62 L (2015-2016)</henvisning>
       <id>64495</id>
@@ -607,7 +666,40 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>36</id>
+          <navn>STUDIEFINANSIERING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>212</id>
+          <navn>VOKSENOPPLÆRING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Meld. St. 16 (2015-2016)</henvisning>
       <id>64526</id>
@@ -813,29 +905,29 @@
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>10</hovedemne_id>
-          <id>186</id>
-          <navn>TRYGDER</navn>
+          <hovedemne_id>11</hovedemne_id>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
       <forslagstiller_liste />
-      <henvisning>Prop. 64 S (2015-2016)</henvisning>
-      <id>64846</id>
+      <henvisning>Prop. 60 L (2015-2016)</henvisning>
+      <id>64500</id>
       <innstilling_id>-1</innstilling_id>
       <innstilling_kode>ikke_spesifisert</innstilling_kode>
       <komite>
         <versjon>1.3</versjon>
-        <id>ARBSOS</id>
-        <navn>Arbeids- og sosialkomiteen</navn>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
       </komite>
-      <korttittel>Endringer i statsbudsjettet 2016 under Arbeids- og sosialdepartementet (tilleggsbevilgning som følge av endringer i dagpengeregelverket)</korttittel>
-      <sak_fremmet_id>64846</sak_fremmet_id>
+      <korttittel>Endringer i politiloven (utnevning av visepolitimestere på åremål)</korttittel>
+      <sak_fremmet_id>64500</sak_fremmet_id>
       <saksordfoerer_liste />
       <sist_oppdatert_dato>2016-03-01T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
-      <tittel>Endringer i statsbudsjettet 2016 under Arbeids- og sosialdepartementet (tilleggsbevilgning som følge av endringer i dagpengeregelverket)</tittel>
-      <type>budsjett</type>
+      <tittel>Endringer i politiloven (utnevning av visepolitimestere på åremål)</tittel>
+      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.3</versjon>
@@ -922,24 +1014,53 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
-      <henvisning>Prop. 60 L (2015-2016)</henvisning>
-      <id>64500</id>
+      <henvisning>Prop. 64 S (2015-2016)</henvisning>
+      <id>64846</id>
       <innstilling_id>-1</innstilling_id>
       <innstilling_kode>ikke_spesifisert</innstilling_kode>
       <komite>
         <versjon>1.3</versjon>
-        <id>JUSTIS</id>
-        <navn>Justiskomiteen</navn>
+        <id>ARBSOS</id>
+        <navn>Arbeids- og sosialkomiteen</navn>
       </komite>
-      <korttittel>Endringer i politiloven (utnevning av visepolitimestere på åremål)</korttittel>
-      <sak_fremmet_id>64500</sak_fremmet_id>
-      <saksordfoerer_liste />
+      <korttittel>Endringer i statsbudsjettet 2016 under Arbeids- og sosialdepartementet (tilleggsbevilgning som følge av endringer i dagpengeregelverket)</korttittel>
+      <sak_fremmet_id>64846</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Kambe</etternavn>
+          <foedselsdato>1974-11-25T00:00:00</foedselsdato>
+          <fornavn>Arve</fornavn>
+          <id>ARK</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
       <sist_oppdatert_dato>2016-03-01T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
-      <tittel>Endringer i politiloven (utnevning av visepolitimestere på åremål)</tittel>
-      <type>lovsak</type>
+      <tittel>Endringer i statsbudsjettet 2016 under Arbeids- og sosialdepartementet (tilleggsbevilgning som følge av endringer i dagpengeregelverket)</tittel>
+      <type>budsjett</type>
     </sak>
     <sak>
       <versjon>1.3</versjon>
@@ -1461,6 +1582,82 @@
     <sak>
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>53</id>
+          <navn>SKATTEADMINISTRASJON</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>82</id>
+          <navn>TOLL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 57 L (2015-2016)</henvisning>
+      <id>64534</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>NÆRING</id>
+        <navn>Næringskomiteen</navn>
+      </komite>
+      <korttittel>Endringer i lov om offentlig støtte m.m. (opprettelse av nasjonalt register for offentlig støtte)</korttittel>
+      <sak_fremmet_id>64534</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Trellevik</etternavn>
+          <foedselsdato>1965-08-15T00:00:00</foedselsdato>
+          <fornavn>Ove</fornavn>
+          <id>OBT</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-02-16T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endringer i lov om offentlig støtte m.m. (opprettelse av nasjonalt register for offentlig støtte)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste />
       <forslagstiller_liste>
@@ -1630,82 +1827,6 @@
       <status>til_behandling</status>
       <tittel>Endringer i statsbudsjettet 2016 under Justis- og beredskapsdepartementet og Barne-, likestillings- og inkluderingsdepartementet (endringer i ansvarsfordelingen for integreringsområdet mv.)</tittel>
       <type>budsjett</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>187</hovedemne_id>
-          <id>53</id>
-          <navn>SKATTEADMINISTRASJON</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>187</hovedemne_id>
-          <id>82</id>
-          <navn>TOLL</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>113</hovedemne_id>
-          <id>113</id>
-          <navn>NÆRINGSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>163</hovedemne_id>
-          <id>173</id>
-          <navn>EFTA/EU</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 57 L (2015-2016)</henvisning>
-      <id>64534</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>NÆRING</id>
-        <navn>Næringskomiteen</navn>
-      </komite>
-      <korttittel>Endringer i lov om offentlig støtte m.m. (opprettelse av nasjonalt register for offentlig støtte)</korttittel>
-      <sak_fremmet_id>64534</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Trellevik</etternavn>
-          <foedselsdato>1965-08-15T00:00:00</foedselsdato>
-          <fornavn>Ove</fornavn>
-          <id>OBT</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ho</id>
-            <navn>Hordaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-02-16T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endringer i lov om offentlig støtte m.m. (opprettelse av nasjonalt register for offentlig støtte)</tittel>
-      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.3</versjon>
@@ -2952,7 +3073,7 @@
         <id>ENERGI</id>
         <navn>Energi- og miljøkomiteen</navn>
       </komite>
-      <korttittel>Representantforslag om en intemasjonal konvensjon for å begrense utslipp, ressursbruk, forsøpling og miljøskade fra plast</korttittel>
+      <korttittel>Representantforslag om en internasjonal konvensjon for å begrense utslipp, ressursbruk, forsøpling og miljøskade fra plast</korttittel>
       <sak_fremmet_id>64620</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
@@ -3206,6 +3327,66 @@
       <sist_oppdatert_dato>2016-02-09T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Audun Lysbakken, Siv Elin Hansen og Heikki Eidsvoll Holmås om konsekvenser for norsk oljepolitikk av klimaavtalen i Paris</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>25</id>
+          <navn>REGJERINGEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>203</id>
+          <navn>STORTINGET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Meld. St. 15 (2015-2016)</henvisning>
+      <id>64545</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>KONTROLL</id>
+        <navn>Kontroll- og konstitusjonskomiteen</navn>
+      </komite>
+      <korttittel>Anmodnings- og utredningsvedtak i stortingssesjonen 2014-2015</korttittel>
+      <sak_fremmet_id>64545</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Eldegard</etternavn>
+          <foedselsdato>1963-04-14T00:00:00</foedselsdato>
+          <fornavn>Gunvor</fornavn>
+          <id>GUE</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-02-09T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Anmodnings- og utredningsvedtak i stortingssesjonen 2014-2015</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -3485,66 +3666,6 @@
       <sist_oppdatert_dato>2016-02-09T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Ola Elvestuen og Ketil Kjenseth om mikroplast</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>151</hovedemne_id>
-          <id>25</id>
-          <navn>REGJERINGEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>151</hovedemne_id>
-          <id>203</id>
-          <navn>STORTINGET</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Meld. St. 15 (2015-2016)</henvisning>
-      <id>64545</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>KONTROLL</id>
-        <navn>Kontroll- og konstitusjonskomiteen</navn>
-      </komite>
-      <korttittel>Anmodnings- og utredningsvedtak i stortingssesjonen 2014-2015</korttittel>
-      <sak_fremmet_id>64545</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Eldegard</etternavn>
-          <foedselsdato>1963-04-14T00:00:00</foedselsdato>
-          <fornavn>Gunvor</fornavn>
-          <id>GUE</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ak</id>
-            <navn>Akershus</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-02-09T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Anmodnings- og utredningsvedtak i stortingssesjonen 2014-2015</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
