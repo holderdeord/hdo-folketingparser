@@ -7,7 +7,7 @@
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sandberg</etternavn>
         <foedselsdato>1960-02-06T00:00:00</foedselsdato>
         <fornavn>Per</fornavn>
@@ -27,7 +27,7 @@
       <id>65003</id>
       <rette_vedkommende>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sandberg</etternavn>
         <foedselsdato>1960-02-06T00:00:00</foedselsdato>
         <fornavn>Per</fornavn>
@@ -60,7 +60,7 @@
       <sporsmal_nummer>7</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -401,7 +401,7 @@ Mener statsråden denne situasjonen er holdbar, og hva foretar statsråden seg i
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -463,7 +463,7 @@ Mener statsråden denne situasjonen er holdbar, og hva foretar statsråden seg i
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -757,7 +757,7 @@ Mener statsråden denne situasjonen er holdbar, og hva foretar statsråden seg i
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -835,7 +835,7 @@ Mener statsråden denne situasjonen er holdbar, og hva foretar statsråden seg i
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -1263,7 +1263,7 @@ Hvordan har statsråden i mellomtida fulgt opp dette overfor sine etater, og hva
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -1277,7 +1277,16 @@ Hvordan har statsråden i mellomtida fulgt opp dette overfor sine etater, og hva
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-02-25T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>183</id>
+          <navn>GRUNNSKOLE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>64890</id>
@@ -1308,7 +1317,7 @@ Hvordan har statsråden i mellomtida fulgt opp dette overfor sine etater, og hva
       <sporsmal_nummer>11</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -1318,15 +1327,14 @@ Hvordan har statsråden i mellomtida fulgt opp dette overfor sine etater, og hva
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Kunnskapsdepartementet trakk anbudet for en evaluering av forsøket med økt lærertetthet i ungdomsskolen 9. desember 2013. Likevel uttalte statsråden dette til Aftenposten 23. september 2014: 'Når det gjelder å vurdere en nasjonal norm, som den forrige regjeringen heller ikke var for, mener jeg vi først bør evaluere lærerløftet i ungdomsskolen med 600 ekstra stillinger, som vi har videreført.' På dette tidspunktet hadde ikke statsråden informert Stortinget om at evalueringen var stanset.
-Visste statsråden at følgeevalueringen var stanset da han kom med uttalelsen, og hvorfor valgte han i så fall å gi inntrykk av det motsatte?</tittel>
+      <tittel>om hvorfor statsråden uttalte at forsøket med _økt lærertetthet i ungdomsskolen bør evalueres_ etter at anbudet for en evaluering var trukket</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -1340,7 +1348,16 @@ Visste statsråden at følgeevalueringen var stanset da han kom med uttalelsen, 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-02-25T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>158</id>
+          <navn>VIDEREGÅENDE SKOLER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>64888</id>
@@ -1351,7 +1368,7 @@ Visste statsråden at følgeevalueringen var stanset da han kom med uttalelsen, 
       <sesjon_id>2015-2016</sesjon_id>
       <sporsmal_fra>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Hansen</etternavn>
         <foedselsdato>1974-08-10T00:00:00</foedselsdato>
         <fornavn>Siv Elin</fornavn>
@@ -1371,7 +1388,7 @@ Visste statsråden at følgeevalueringen var stanset da han kom med uttalelsen, 
       <sporsmal_nummer>10</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -1381,8 +1398,7 @@ Visste statsråden at følgeevalueringen var stanset da han kom med uttalelsen, 
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Troms fylkeskommune har de siste årene arbeidet med alternative undervisningsløsninger for å gi elevene et bredest mulig fagtilbud selv om elevtallene går ned. I dette arbeidet er det tatt i bruk fjernundervisning i flere fag i tillegg til at man arbeider med tids- og stedsuavhengige undervisningsformer.
-Mener statsråden at Troms fylkeskommunes strategier om alternative undervisningsformer kan betraktes å være innenfor opplæringskravene så lenge faglige og tekniske løsninger er ivaretatt?</tittel>
+      <tittel>om hvorvidt _Troms fylkeskommunes strategier om alternative undervisningsformer_ kan betraktes å være innenfor opplæringskravene så lenge faglige og tekniske løsninger er ivaretatt</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1715,7 +1731,24 @@ Kristelig Folkeparti er villig til å gå i en dialog for å se om det er mulig 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-02-23T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>64865</id>
@@ -1756,15 +1789,14 @@ Kristelig Folkeparti er villig til å gå i en dialog for å se om det er mulig 
       <sporsmal_til_minister_id>ASD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>arbeids- og sosialministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>UDI/UNE har avslått oppholdstillatelse for en amerikansk lærer med begrunnelse at hun har to deltidsarbeidsgivere og ikke én slik regelverket krever. I desember 2015 stilte jeg skriftlig spørsmål til arbeidsministeren om denne saken, og svaret var at saken skulle følges nøye og at regelverket kunne oppfattes som urimelig.
-Vil statsråden følge opp denne saken, og ta initiativ til nødvendige regelendringer?</tittel>
+      <tittel>om at UDI/UNE har _avslått oppholdstillatelse for en amerikansk lærer med begrunnelse at hun har to deltidsarbeidsgivere_ og ikke én slik regelverket krever, og hvorvidt statsråden vil følge opp saken og ta initiativ til regelendringer</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -1818,7 +1850,7 @@ Vil statsråden følge opp denne saken, og ta initiativ til nødvendige regelend
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -1847,7 +1879,7 @@ Vil statsråden følge opp denne saken, og ta initiativ til nødvendige regelend
       <besvart_dato>2016-03-02T00:00:00</besvart_dato>
       <besvart_pa_vegne_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sandberg</etternavn>
         <foedselsdato>1960-02-06T00:00:00</foedselsdato>
         <fornavn>Per</fornavn>
@@ -1857,7 +1889,16 @@ Vil statsråden følge opp denne saken, og ta initiativ til nødvendige regelend
       <besvart_pa_vegne_av_minister_id>NFDFISK</besvart_pa_vegne_av_minister_id>
       <besvart_pa_vegne_av_minister_tittel>fiskeriministeren</besvart_pa_vegne_av_minister_tittel>
       <datert_dato>2016-02-22T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>8</hovedemne_id>
+          <id>8</id>
+          <navn>FISKERIER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>64860</id>
@@ -1888,7 +1929,7 @@ Vil statsråden følge opp denne saken, og ta initiativ til nødvendige regelend
       <sporsmal_nummer>12</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sandberg</etternavn>
         <foedselsdato>1960-02-06T00:00:00</foedselsdato>
         <fornavn>Per</fornavn>
@@ -1898,15 +1939,14 @@ Vil statsråden følge opp denne saken, og ta initiativ til nødvendige regelend
       <sporsmal_til_minister_id>NFDFISK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>fiskeriministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Det har vore brei politisk einigheit om ein differensiert flåte i Noreg. Statsråden har 12. januar sendt instruks vedrørande 'hjemmelslengde og største lengde og forholdsmessighet mellom båtens kvotegrunnlag og lengde'. Ein kan no samle fartøykvoter frå 11-15 meter på båter opptil 55-60 meter, då begrensinga berre er på lastevolum under 500 m3. Noregs Fiskarlag har bedt om justering på instruksen mellom anna absolutt skott ved 21 meter for hjemmelslengde 11-14,9 meter. 
-Vil statsråden etterkomme kravet, og sikre at vi framleis skal ha ein variert flåte?</tittel>
+      <tittel>om statsråden vil _sikre at vi framleis skal ha ein variert flåte_ og etterkomme kravet om justering på instruks vedrørande "hjemmelslengde og største lengde og forholdsmessighet mellom båtens kvotegrunnlag og lengde"</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -1920,7 +1960,16 @@ Vil statsråden etterkomme kravet, og sikre at vi framleis skal ha ein variert f
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-02-18T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>183</id>
+          <navn>GRUNNSKOLE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>64827</id>
@@ -1951,7 +2000,7 @@ Vil statsråden etterkomme kravet, og sikre at vi framleis skal ha ein variert f
       <sporsmal_nummer>9</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -1961,8 +2010,7 @@ Vil statsråden etterkomme kravet, og sikre at vi framleis skal ha ein variert f
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I spørretimen 17. februar sa kunnskapsministeren at han ikke valgte å prioritere en omfattende følgeevaluering av tilskuddsordningen til 600 lærerstillinger i ungdomsskolen, og at på det tidspunktet regjeringen overtok, var midlene allerede fordelt til konkrete skoler. Statsråden sa videre at det ikke ville være mulig å gjennomføre en effektstudie i streng forstand. Følgeevaluering var sendt på anbud høsten 2013, men ble så trukket tilbake av statsråden.
-Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
+      <tittel>om hvilke nye moment som gjorde at kunnskapsministeren valgte ikke å prioritere en omfattende _følgeevaluering av tilskuddsordningen til 600 lærerstillinger i ungdomsskolen_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -2781,7 +2829,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -2835,7 +2883,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>13</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -3089,7 +3137,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sandberg</etternavn>
         <foedselsdato>1960-02-06T00:00:00</foedselsdato>
         <fornavn>Per</fornavn>
@@ -3151,7 +3199,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>14</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sandberg</etternavn>
         <foedselsdato>1960-02-06T00:00:00</foedselsdato>
         <fornavn>Per</fornavn>
@@ -3656,7 +3704,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -3734,7 +3782,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -3751,7 +3799,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -3813,7 +3861,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -3830,7 +3878,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -3908,7 +3956,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -3925,7 +3973,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -3995,7 +4043,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -4012,7 +4060,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -4074,7 +4122,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -4091,7 +4139,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -4161,7 +4209,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -4652,7 +4700,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -4706,7 +4754,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -4723,7 +4771,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -4785,7 +4833,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -4802,7 +4850,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -4872,7 +4920,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -4889,7 +4937,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -4951,7 +4999,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -4968,7 +5016,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -5022,7 +5070,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -5276,7 +5324,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -5346,7 +5394,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -5529,7 +5577,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -5541,7 +5589,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <besvart_dato>2016-02-03T00:00:00</besvart_dato>
       <besvart_pa_vegne_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Aspaker</etternavn>
         <foedselsdato>1962-10-16T00:00:00</foedselsdato>
         <fornavn>Elisabeth</fornavn>
@@ -5574,7 +5622,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <id>64563</id>
       <rette_vedkommende>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Aspaker</etternavn>
         <foedselsdato>1962-10-16T00:00:00</foedselsdato>
         <fornavn>Elisabeth</fornavn>
@@ -5607,7 +5655,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -5719,7 +5767,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -5798,7 +5846,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Søreide</etternavn>
         <foedselsdato>1976-05-02T00:00:00</foedselsdato>
         <fornavn>Ine M. Eriksen</fornavn>
@@ -5860,7 +5908,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Søreide</etternavn>
         <foedselsdato>1976-05-02T00:00:00</foedselsdato>
         <fornavn>Ine M. Eriksen</fornavn>
@@ -6122,7 +6170,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Søreide</etternavn>
         <foedselsdato>1976-05-02T00:00:00</foedselsdato>
         <fornavn>Ine M. Eriksen</fornavn>
@@ -6192,7 +6240,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Søreide</etternavn>
         <foedselsdato>1976-05-02T00:00:00</foedselsdato>
         <fornavn>Ine M. Eriksen</fornavn>
@@ -6304,7 +6352,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sandberg</etternavn>
         <foedselsdato>1960-02-06T00:00:00</foedselsdato>
         <fornavn>Per</fornavn>
@@ -6358,7 +6406,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>8</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sandberg</etternavn>
         <foedselsdato>1960-02-06T00:00:00</foedselsdato>
         <fornavn>Per</fornavn>
@@ -6525,7 +6573,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -6587,7 +6635,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>7</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -6604,7 +6652,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -6658,7 +6706,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -6841,7 +6889,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -6911,7 +6959,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -6928,7 +6976,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -7006,7 +7054,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -7023,7 +7071,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -7093,7 +7141,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -7110,7 +7158,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -7172,7 +7220,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -7189,7 +7237,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -7251,7 +7299,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -7268,7 +7316,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -7346,7 +7394,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -7703,7 +7751,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -7773,7 +7821,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -7877,7 +7925,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -7939,7 +7987,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -7956,7 +8004,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -8034,7 +8082,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -8051,7 +8099,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -8121,7 +8169,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -8138,7 +8186,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -8216,7 +8264,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -8233,7 +8281,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -8311,7 +8359,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -8328,7 +8376,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -8398,7 +8446,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -8415,7 +8463,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -8485,7 +8533,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>11</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -9000,7 +9048,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -9062,7 +9110,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>8</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -9352,7 +9400,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -9406,7 +9454,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -9613,7 +9661,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -9683,7 +9731,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -9700,7 +9748,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -9762,7 +9810,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -10111,7 +10159,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -10165,7 +10213,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>8</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -10182,7 +10230,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -10252,7 +10300,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -10269,7 +10317,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -10339,7 +10387,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -10451,7 +10499,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -10513,7 +10561,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -10530,7 +10578,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -10600,7 +10648,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -10696,7 +10744,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -10766,7 +10814,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>7</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -10949,7 +10997,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -11027,7 +11075,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -11793,7 +11841,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -11855,7 +11903,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>12</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -12054,7 +12102,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -12146,7 +12194,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>14</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -12313,7 +12361,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -12375,7 +12423,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>13</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -12392,7 +12440,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -12470,7 +12518,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>19</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -12487,7 +12535,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -12549,7 +12597,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>10</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -12746,7 +12794,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -12816,7 +12864,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>9</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -12911,7 +12959,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>8</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -12928,7 +12976,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -12990,7 +13038,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>18</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -13007,7 +13055,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -13069,7 +13117,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -13086,7 +13134,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -13148,7 +13196,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -13165,7 +13213,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -13235,7 +13283,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -13252,7 +13300,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -13314,7 +13362,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -13332,7 +13380,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -13386,7 +13434,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -13403,7 +13451,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -13465,7 +13513,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Solberg</etternavn>
         <foedselsdato>1961-02-24T00:00:00</foedselsdato>
         <fornavn>Erna</fornavn>
@@ -13662,7 +13710,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -13732,7 +13780,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>24</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -13749,7 +13797,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -13811,7 +13859,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>17</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -13828,7 +13876,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -14160,7 +14208,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -14222,7 +14270,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>8</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -14239,7 +14287,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -14276,7 +14324,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <id>63819</id>
       <rette_vedkommende>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -14309,7 +14357,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -14388,7 +14436,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -14466,7 +14514,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -14570,7 +14618,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -14648,7 +14696,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -14902,7 +14950,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -14964,7 +15012,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -15060,7 +15108,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -15114,7 +15162,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>9</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Anundsen</etternavn>
         <foedselsdato>1975-11-17T00:00:00</foedselsdato>
         <fornavn>Anders</fornavn>
@@ -15210,7 +15258,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Aspaker</etternavn>
         <foedselsdato>1962-10-16T00:00:00</foedselsdato>
         <fornavn>Elisabeth</fornavn>
@@ -15280,7 +15328,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Aspaker</etternavn>
         <foedselsdato>1962-10-16T00:00:00</foedselsdato>
         <fornavn>Elisabeth</fornavn>
@@ -15297,7 +15345,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -15383,7 +15431,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -15400,7 +15448,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Aspaker</etternavn>
         <foedselsdato>1962-10-16T00:00:00</foedselsdato>
         <fornavn>Elisabeth</fornavn>
@@ -15462,7 +15510,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Aspaker</etternavn>
         <foedselsdato>1962-10-16T00:00:00</foedselsdato>
         <fornavn>Elisabeth</fornavn>
@@ -15566,7 +15614,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -15644,7 +15692,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -15661,7 +15709,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -15739,7 +15787,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Isaksen</etternavn>
         <foedselsdato>1978-07-28T00:00:00</foedselsdato>
         <fornavn>Torbjørn Røe</fornavn>
@@ -15756,7 +15804,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -15826,7 +15874,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -16033,7 +16081,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -16103,7 +16151,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Sanner</etternavn>
         <foedselsdato>1965-05-06T00:00:00</foedselsdato>
         <fornavn>Jan Tore</fornavn>
@@ -16207,7 +16255,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <versjon>1.3</versjon>
       <besvart_av>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
@@ -16269,7 +16317,7 @@ Hvilke nye moment gjorde det umulig å gjennomføre evalueringen?</tittel>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Horne</etternavn>
         <foedselsdato>1969-01-12T00:00:00</foedselsdato>
         <fornavn>Solveig</fornavn>
