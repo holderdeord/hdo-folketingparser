@@ -535,7 +535,40 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-03-10T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>8</hovedemne_id>
+          <id>8</id>
+          <navn>FISKERIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>25</id>
+          <navn>REGJERINGEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>35</id>
+          <navn>UNIVERSITETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>45</hovedemne_id>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>rette_vedkommende</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>65003</id>
@@ -584,8 +617,7 @@
       <sporsmal_til_minister_id>KUND</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kunnskapsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Fiskeriminister Per Sandberg har i Aftenposten uttalt at han vil ta et oppgjør med 'mørke motkrefter' som svekker norsk fiskerinæring. På direkte spørsmål om hvem det er, svarer han at det er både 'politikere, professorer, institusjoner, de finnes på universitetene våre og i akademia'. Dette er et alvorlig angrep på den akademiske frihet som i Norge er nedfelt i lov.
-Er disse holdningene til universiteter og forskere i tråd med regjeringens kunnskaps- og forskningspolitikk?</tittel>
+      <tittel>om _fiskeriministerens holdninger til universiteter og forskere_ er i tråd med regjeringens kunnskaps- og forskningspolitikk</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -867,7 +899,32 @@ Er disse holdningene til universiteter og forskere i tråd med regjeringens kunn
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-03-09T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>52</id>
+          <navn>KOMMUNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>64</id>
+          <navn>HELSEPERSONELL</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>64983</id>
@@ -908,8 +965,7 @@ Er disse holdningene til universiteter og forskere i tråd med regjeringens kunn
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Alle kommuner er nå pålagt å ha akutte døgnplasser. De store kommunene har utfordringer med å rekruttere leger i 100-prosentstillinger, så lenge praksisen ikke blir tellende tjeneste for allmennlegespesialiteten. Alternativet med mange små stillinger gir dårlig kontinuitet, svakere kompetanse og mindre forsvarlighet. Samhandlingsreformen ble vedtatt i 2012. Det har vært god tid for å få dette på plass.
-Ser ikke statsråden at det både haster og er mulig med unntak for å få samhandlingsreformen til å fungere best mulig?</tittel>
+      <tittel>om at alle _kommuner er pålagt akutte døgnplasser_, og om det er mulig med unntak for å få samhandlingsreformen til å fungere best mulig, da de store kommunene har utfordringer med å rekruttere leger i 100-prosentstillinger, så lenge praksisen ikke blir tellende tjeneste for allmennlegespesialiteten</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
