@@ -406,7 +406,16 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
+          <id>23</id>
+          <navn>NATURVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Prop. 92 L (2015-2016)</henvisning>
       <id>65332</id>
@@ -562,7 +571,7 @@
         </representant>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Berge</etternavn>
           <foedselsdato>1954-04-03T00:00:00</foedselsdato>
           <fornavn>Gerd Eli</fornavn>
@@ -620,7 +629,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Byrknes</etternavn>
           <foedselsdato>1963-04-09T00:00:00</foedselsdato>
           <fornavn>Astrid Aarhus</fornavn>
@@ -16107,7 +16116,7 @@
         </representant>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
           <etternavn>Toften</etternavn>
           <foedselsdato>1967-03-13T00:00:00</foedselsdato>
           <fornavn>Tone-Helen</fornavn>
@@ -34904,14 +34913,6 @@
           <hovedemne_id>40</hovedemne_id>
           <id>41</id>
           <navn>BARN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>61</hovedemne_id>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
