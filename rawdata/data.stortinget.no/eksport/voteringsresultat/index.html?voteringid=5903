@@ -999,6 +999,31 @@
       <representant>
         <versjon>1.3</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <etternavn>Fylkesnes</etternavn>
+        <foedselsdato>1975-06-04T00:00:00</foedselsdato>
+        <fornavn>Torgeir Knag</fornavn>
+        <id>TKF</id>
+        <kjoenn>mann</kjoenn>
+        <fylke>
+          <versjon>1.3</versjon>
+          <id>Tr</id>
+          <navn>Troms</navn>
+        </fylke>
+        <parti>
+          <versjon>1.3</versjon>
+          <id>SV</id>
+          <navn>Sosialistisk Venstreparti</navn>
+        </parti>
+      </representant>
+      <vara_for i:nil="true" />
+      <votering>mot</votering>
+    </representant_voteringsresultat>
+    <representant_voteringsresultat>
+      <versjon>1.3</versjon>
+      <fast_vara_for i:nil="true" />
+      <representant>
+        <versjon>1.3</versjon>
+        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Giske</etternavn>
         <foedselsdato>1966-11-07T00:00:00</foedselsdato>
         <fornavn>Trond</fornavn>
@@ -2230,31 +2255,6 @@
       <representant>
         <versjon>1.3</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
-        <etternavn>Fylkesnes</etternavn>
-        <foedselsdato>1975-06-04T00:00:00</foedselsdato>
-        <fornavn>Torgeir Knag</fornavn>
-        <id>TKF</id>
-        <kjoenn>mann</kjoenn>
-        <fylke>
-          <versjon>1.3</versjon>
-          <id>Tr</id>
-          <navn>Troms</navn>
-        </fylke>
-        <parti>
-          <versjon>1.3</versjon>
-          <id>SV</id>
-          <navn>Sosialistisk Venstreparti</navn>
-        </parti>
-      </representant>
-      <vara_for i:nil="true" />
-      <votering>mot</votering>
-    </representant_voteringsresultat>
-    <representant_voteringsresultat>
-      <versjon>1.3</versjon>
-      <fast_vara_for i:nil="true" />
-      <representant>
-        <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Knutsen</etternavn>
         <foedselsdato>1951-01-14T00:00:00</foedselsdato>
         <fornavn>Tove Karoline</fornavn>
@@ -2481,7 +2481,7 @@
       </representant>
       <vara_for>
         <versjon>1.3</versjon>
-        <doedsdato>0001-01-01T00:00:00</doedsdato>
+        <doedsdato>0001-01-01T00:00:00Z</doedsdato>
         <etternavn>Berg-Hansen</etternavn>
         <foedselsdato>1963-03-14T00:00:00</foedselsdato>
         <fornavn>Lisbeth</fornavn>
