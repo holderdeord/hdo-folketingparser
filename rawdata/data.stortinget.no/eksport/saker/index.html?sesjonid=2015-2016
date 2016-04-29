@@ -1131,7 +1131,7 @@
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Byrknes</etternavn>
           <foedselsdato>1963-04-09T00:00:00</foedselsdato>
           <fornavn>Astrid Aarhus</fornavn>
@@ -3016,6 +3016,66 @@
     <sak>
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>155</hovedemne_id>
+          <id>44</id>
+          <navn>STATENS PERSONALPOLITIKK</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 112 L (2015-2016)</henvisning>
+      <id>64460</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>ARBSOS</id>
+        <navn>Arbeids- og sosialkomiteen</navn>
+      </komite>
+      <korttittel>Endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (økt minste pensjonsnivå til enslige alderspensjonister og andre endringer)</korttittel>
+      <sak_fremmet_id>64460</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Rotevatn</etternavn>
+          <foedselsdato>1987-05-15T00:00:00</foedselsdato>
+          <fornavn>Sveinung</fornavn>
+          <id>SVR</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>SF</id>
+            <navn>Sogn og Fjordane</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>V</id>
+            <navn>Venstre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-04-26T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (økt minste pensjonsnivå til enslige alderspensjonister og andre endringer)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>melding</dokumentgruppe>
       <emne_liste>
         <emne>
@@ -3080,66 +3140,6 @@
       <status>til_behandling</status>
       <tittel>Årsmelding 2015 for pensjonsordninga for stortingsrepresentantar og regjeringsmedlemer</tittel>
       <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>155</hovedemne_id>
-          <id>44</id>
-          <navn>STATENS PERSONALPOLITIKK</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>10</hovedemne_id>
-          <id>186</id>
-          <navn>TRYGDER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 112 L (2015-2016)</henvisning>
-      <id>64460</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>ARBSOS</id>
-        <navn>Arbeids- og sosialkomiteen</navn>
-      </komite>
-      <korttittel>Endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (økt minste pensjonsnivå til enslige alderspensjonister og andre endringer)</korttittel>
-      <sak_fremmet_id>64460</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Rotevatn</etternavn>
-          <foedselsdato>1987-05-15T00:00:00</foedselsdato>
-          <fornavn>Sveinung</fornavn>
-          <id>SVR</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>SF</id>
-            <navn>Sogn og Fjordane</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>V</id>
-            <navn>Venstre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-04-26T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (økt minste pensjonsnivå til enslige alderspensjonister og andre endringer)</tittel>
-      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.3</versjon>
@@ -3852,6 +3852,25 @@
     </sak>
     <sak>
       <versjon>1.3</versjon>
+      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
+      <dokumentgruppe>redegjorelse</dokumentgruppe>
+      <emne_liste />
+      <forslagstiller_liste />
+      <henvisning i:nil="true" />
+      <id>65190</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite i:nil="true" />
+      <korttittel>Redegjørelse av klima- og miljøministeren om oppfølging av Paris-avtalen</korttittel>
+      <sak_fremmet_id>65190</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2016-04-14T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Redegjørelse av klima- og miljøministeren om oppfølging av Paris-avtalen</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste>
@@ -3875,7 +3894,7 @@
       <forslagstiller_liste>
         <representant>
           <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00Z</doedsdato>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
           <etternavn>Byrknes</etternavn>
           <foedselsdato>1963-04-09T00:00:00</foedselsdato>
           <fornavn>Astrid Aarhus</fornavn>
@@ -4244,25 +4263,6 @@
     </sak>
     <sak>
       <versjon>1.3</versjon>
-      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
-      <dokumentgruppe>redegjorelse</dokumentgruppe>
-      <emne_liste />
-      <forslagstiller_liste />
-      <henvisning i:nil="true" />
-      <id>65190</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite i:nil="true" />
-      <korttittel>Redegjørelse av klima- og miljøministeren om oppfølging av Paris-avtalen</korttittel>
-      <sak_fremmet_id>65190</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2016-04-14T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Redegjørelse av klima- og miljøministeren om oppfølging av Paris-avtalen</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>dokumentserien</dokumentgruppe>
       <emne_liste>
@@ -4420,6 +4420,66 @@
       <sist_oppdatert_dato>2016-04-12T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag frå stortingsrepresentantane Sveinung Rotevatn, Iselin Nybø og Ola Elvestuen om innsynsrett i kongehuset</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>26</id>
+          <navn>STORTINGSREPRESENTANTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>222</id>
+          <navn>STORTINGETS FORRETNINGSORDEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Fylkesnes</etternavn>
+          <foedselsdato>1975-06-04T00:00:00</foedselsdato>
+          <fornavn>Torgeir Knag</fornavn>
+          <id>TKF</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Tr</id>
+            <navn>Troms</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+      </forslagstiller_liste>
+      <henvisning>Dokument 8:22 S (2015-2016), Innst. 221 S (2015-2016)</henvisning>
+      <id>64143</id>
+      <innstilling_id>12479</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>PRES</id>
+        <navn>Stortingets presidentskap</navn>
+      </komite>
+      <korttittel>Representantforslag om endring av Stortingets forretningsorden for å sikre åpenhet om representantenes økonomiske interesser</korttittel>
+      <sak_fremmet_id>64143</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2016-04-12T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Representantforslag fra stortingsrepresentant Torgeir Knag Fylkesnes om endring av Stortingets forretningsorden for å sikre åpenhet om representantenes økonomiske interesser</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -4620,66 +4680,6 @@
       <sist_oppdatert_dato>2016-04-12T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Representantforslag fra stortingsrepresentantene Olaug V. Bollestad, Hans Fredrik Grøvan, Line Henriette Hjemdal og Anders Tyvand om å innføre prosjektet "Livsmestring i skolen" på skolens ungdomstrinn</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>151</hovedemne_id>
-          <id>26</id>
-          <navn>STORTINGSREPRESENTANTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>151</hovedemne_id>
-          <id>222</id>
-          <navn>STORTINGETS FORRETNINGSORDEN</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Fylkesnes</etternavn>
-          <foedselsdato>1975-06-04T00:00:00</foedselsdato>
-          <fornavn>Torgeir Knag</fornavn>
-          <id>TKF</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Tr</id>
-            <navn>Troms</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>SV</id>
-            <navn>Sosialistisk Venstreparti</navn>
-          </parti>
-        </representant>
-      </forslagstiller_liste>
-      <henvisning>Dokument 8:22 S (2015-2016), Innst. 221 S (2015-2016)</henvisning>
-      <id>64143</id>
-      <innstilling_id>12479</innstilling_id>
-      <innstilling_kode>innstilling_s</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>PRES</id>
-        <navn>Stortingets presidentskap</navn>
-      </komite>
-      <korttittel>Representantforslag om endring av Stortingets forretningsorden for å sikre åpenhet om representantenes økonomiske interesser</korttittel>
-      <sak_fremmet_id>64143</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2016-04-12T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Representantforslag fra stortingsrepresentant Torgeir Knag Fylkesnes om endring av Stortingets forretningsorden for å sikre åpenhet om representantenes økonomiske interesser</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -10454,48 +10454,284 @@
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>10</hovedemne_id>
-          <id>186</id>
-          <navn>TRYGDER</navn>
+          <hovedemne_id>32</hovedemne_id>
+          <id>31</id>
+          <navn>SKOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>37</id>
+          <navn>FYLKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>158</id>
+          <navn>VIDEREGÅENDE SKOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>183</id>
+          <navn>GRUNNSKOLE</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
       <forslagstiller_liste />
-      <henvisning>Prop. 82 L (2015-2016)</henvisning>
-      <id>64462</id>
+      <henvisning>Prop. 72 L (2015-2016)</henvisning>
+      <id>64520</id>
       <innstilling_id>-1</innstilling_id>
       <innstilling_kode>ikke_spesifisert</innstilling_kode>
       <komite>
         <versjon>1.3</versjon>
-        <id>ARBSOS</id>
-        <navn>Arbeids- og sosialkomiteen</navn>
+        <id>KIRKE</id>
+        <navn>Kirke-, utdannings- og forskningskomiteen</navn>
       </komite>
-      <korttittel>Endringar i folketrygdlova (arbeidsavklaringspengar - bistand til å skaffe seg eller behalde arbeid)</korttittel>
-      <sak_fremmet_id>64462</sak_fremmet_id>
+      <korttittel>Endringar i opplæringslova (friare skoleval over fylkesgrenser, praksisbrevordning m.m.)</korttittel>
+      <sak_fremmet_id>64520</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Rotevatn</etternavn>
-          <foedselsdato>1987-05-15T00:00:00</foedselsdato>
-          <fornavn>Sveinung</fornavn>
-          <id>SVR</id>
+          <etternavn>Tyvand</etternavn>
+          <foedselsdato>1980-05-19T00:00:00</foedselsdato>
+          <fornavn>Anders</fornavn>
+          <id>ATY</id>
           <kjoenn>mann</kjoenn>
           <fylke>
             <versjon>1.3</versjon>
-            <id>SF</id>
-            <navn>Sogn og Fjordane</navn>
+            <id>Ve</id>
+            <navn>Vestfold</navn>
           </fylke>
           <parti>
             <versjon>1.3</versjon>
-            <id>V</id>
-            <navn>Venstre</navn>
+            <id>KrF</id>
+            <navn>Kristelig Folkeparti</navn>
           </parti>
         </representant>
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2016-03-29T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
-      <tittel>Endringar i folketrygdlova (arbeidsavklaringspengar - bistand til å skaffe seg eller behalde arbeid)</tittel>
+      <tittel>Endringar i opplæringslova (friare skoleval over fylkesgrenser, praksisbrevordning m.m.)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>32</id>
+          <navn>UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>35</id>
+          <navn>UNIVERSITETER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>159</id>
+          <navn>HØYERE UTDANNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>160</id>
+          <navn>HØGSKOLER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 81 L (2015-2016)</henvisning>
+      <id>64521</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>KIRKE</id>
+        <navn>Kirke-, utdannings- og forskningskomiteen</navn>
+      </komite>
+      <korttittel>Endringer i universitets- og høyskoleloven (NOKUTs tilsyn, nasjonal vitnemålsportal mv.)</korttittel>
+      <sak_fremmet_id>64521</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Vinje</etternavn>
+          <foedselsdato>1963-06-10T00:00:00</foedselsdato>
+          <fornavn>Kristin</fornavn>
+          <id>KRV</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-03-29T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endringer i universitets- og høyskoleloven (NOKUTs tilsyn, nasjonal vitnemålsportal mv.)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>17</id>
+          <navn>PERSONVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>155</hovedemne_id>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>167</id>
+          <navn>MENNESKERETTIGHETER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 87 L (2015-2016)</henvisning>
+      <id>64468</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
+      <korttittel>Lov om informasjonstilgang m.m. for Barnevoldsutvalget</korttittel>
+      <sak_fremmet_id>64468</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Ebbesen</etternavn>
+          <foedselsdato>1962-09-04T00:00:00</foedselsdato>
+          <fornavn>Margunn</fornavn>
+          <id>MEBB</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>No</id>
+            <navn>Nordland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-03-29T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Lov om informasjonstilgang m.m. for Barnevoldsutvalget</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 85 L (2015-2016)</henvisning>
+      <id>64469</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>FAMKULT</id>
+        <navn>Familie- og kulturkomiteen</navn>
+      </komite>
+      <korttittel>Endringar i barnelova m.m. (oppheving av tidsfristar i farskapssaker m.m.)</korttittel>
+      <sak_fremmet_id>64469</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Tønder</etternavn>
+          <foedselsdato>1969-11-03T00:00:00</foedselsdato>
+          <fornavn>Mette</fornavn>
+          <id>MET</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-03-29T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endringar i barnelova m.m. (oppheving av tidsfristar i farskapssaker m.m.)</tittel>
       <type>lovsak</type>
     </sak>
     <sak>
@@ -10745,286 +10981,6 @@
       <emne_liste>
         <emne>
           <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>32</hovedemne_id>
-          <id>31</id>
-          <navn>SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>184</hovedemne_id>
-          <id>37</id>
-          <navn>FYLKER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>32</hovedemne_id>
-          <id>158</id>
-          <navn>VIDEREGÅENDE SKOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>32</hovedemne_id>
-          <id>183</id>
-          <navn>GRUNNSKOLE</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 72 L (2015-2016)</henvisning>
-      <id>64520</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>KIRKE</id>
-        <navn>Kirke-, utdannings- og forskningskomiteen</navn>
-      </komite>
-      <korttittel>Endringar i opplæringslova (friare skoleval over fylkesgrenser, praksisbrevordning m.m.)</korttittel>
-      <sak_fremmet_id>64520</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Tyvand</etternavn>
-          <foedselsdato>1980-05-19T00:00:00</foedselsdato>
-          <fornavn>Anders</fornavn>
-          <id>ATY</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ve</id>
-            <navn>Vestfold</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>KrF</id>
-            <navn>Kristelig Folkeparti</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-03-29T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endringar i opplæringslova (friare skoleval over fylkesgrenser, praksisbrevordning m.m.)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>32</hovedemne_id>
-          <id>32</id>
-          <navn>UTDANNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>32</hovedemne_id>
-          <id>35</id>
-          <navn>UNIVERSITETER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>32</hovedemne_id>
-          <id>159</id>
-          <navn>HØYERE UTDANNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>32</hovedemne_id>
-          <id>160</id>
-          <navn>HØGSKOLER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 81 L (2015-2016)</henvisning>
-      <id>64521</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>KIRKE</id>
-        <navn>Kirke-, utdannings- og forskningskomiteen</navn>
-      </komite>
-      <korttittel>Endringer i universitets- og høyskoleloven (NOKUTs tilsyn, nasjonal vitnemålsportal mv.)</korttittel>
-      <sak_fremmet_id>64521</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Vinje</etternavn>
-          <foedselsdato>1963-06-10T00:00:00</foedselsdato>
-          <fornavn>Kristin</fornavn>
-          <id>KRV</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-03-29T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endringer i universitets- og høyskoleloven (NOKUTs tilsyn, nasjonal vitnemålsportal mv.)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>6</hovedemne_id>
-          <id>6</id>
-          <navn>KULTUR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>6</hovedemne_id>
-          <id>68</id>
-          <navn>KUNST</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>6</hovedemne_id>
-          <id>121</id>
-          <navn>KULTURVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>163</hovedemne_id>
-          <id>200</id>
-          <navn>INTERNASJONAL RETT</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 71 S (2015-2016)</henvisning>
-      <id>64548</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>ENERGI</id>
-        <navn>Energi- og miljøkomiteen</navn>
-      </komite>
-      <korttittel>Samtykke til tiltredelse av annen protokoll til Haag-konvensjonen av 1954 om beskyttelse av kulturverdier i tilfelle av væpnet konflikt av 26. mars 1999</korttittel>
-      <sak_fremmet_id>64548</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Elvestuen</etternavn>
-          <foedselsdato>1967-10-09T00:00:00</foedselsdato>
-          <fornavn>Ola</fornavn>
-          <id>OLE</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>V</id>
-            <navn>Venstre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-03-29T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Samtykke til tiltredelse av annen protokoll til Haag-konvensjonen av 1954 om beskyttelse av kulturverdier i tilfelle av væpnet konflikt av 26. mars 1999</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>46</hovedemne_id>
-          <id>132</id>
-          <navn>REINDRIFT</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 77 S (2015-2016)</henvisning>
-      <id>64529</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>NÆRING</id>
-        <navn>Næringskomiteen</navn>
-      </komite>
-      <korttittel>Reindriftsavtalen 2016/2017, og endringer i statsbudsjettet 2016 m.m.</korttittel>
-      <sak_fremmet_id>64529</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Bakke-Jensen</etternavn>
-          <foedselsdato>1965-03-08T00:00:00</foedselsdato>
-          <fornavn>Frank</fornavn>
-          <id>FBJ</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Fi</id>
-            <navn>Finnmark</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-03-29T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Reindriftsavtalen 2016/2017, og endringer i statsbudsjettet 2016 m.m.</tittel>
-      <type>budsjett</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>143</hovedemne_id>
           <id>143</id>
@@ -11128,6 +11084,134 @@
       <sist_oppdatert_dato>2016-03-29T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Noregs fiskeriavtalar for 2016 og fisket etter avtalane i 2014 og 2015</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>46</hovedemne_id>
+          <id>132</id>
+          <navn>REINDRIFT</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 77 S (2015-2016)</henvisning>
+      <id>64529</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>NÆRING</id>
+        <navn>Næringskomiteen</navn>
+      </komite>
+      <korttittel>Reindriftsavtalen 2016/2017, og endringer i statsbudsjettet 2016 m.m.</korttittel>
+      <sak_fremmet_id>64529</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Bakke-Jensen</etternavn>
+          <foedselsdato>1965-03-08T00:00:00</foedselsdato>
+          <fornavn>Frank</fornavn>
+          <id>FBJ</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Fi</id>
+            <navn>Finnmark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-03-29T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Reindriftsavtalen 2016/2017, og endringer i statsbudsjettet 2016 m.m.</tittel>
+      <type>budsjett</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
+          <id>68</id>
+          <navn>KUNST</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>200</id>
+          <navn>INTERNASJONAL RETT</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 71 S (2015-2016)</henvisning>
+      <id>64548</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>ENERGI</id>
+        <navn>Energi- og miljøkomiteen</navn>
+      </komite>
+      <korttittel>Samtykke til tiltredelse av annen protokoll til Haag-konvensjonen av 1954 om beskyttelse av kulturverdier i tilfelle av væpnet konflikt av 26. mars 1999</korttittel>
+      <sak_fremmet_id>64548</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Elvestuen</etternavn>
+          <foedselsdato>1967-10-09T00:00:00</foedselsdato>
+          <fornavn>Ola</fornavn>
+          <id>OLE</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>V</id>
+            <navn>Venstre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-03-29T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Samtykke til tiltredelse av annen protokoll til Haag-konvensjonen av 1954 om beskyttelse av kulturverdier i tilfelle av væpnet konflikt av 26. mars 1999</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -11258,132 +11342,48 @@
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>11</hovedemne_id>
-          <id>17</id>
-          <navn>PERSONVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>40</hovedemne_id>
-          <id>41</id>
-          <navn>BARN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>155</hovedemne_id>
-          <id>155</id>
-          <navn>STATSFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>163</hovedemne_id>
-          <id>167</id>
-          <navn>MENNESKERETTIGHETER</navn>
+          <hovedemne_id>10</hovedemne_id>
+          <id>186</id>
+          <navn>TRYGDER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
       <forslagstiller_liste />
-      <henvisning>Prop. 87 L (2015-2016)</henvisning>
-      <id>64468</id>
+      <henvisning>Prop. 82 L (2015-2016)</henvisning>
+      <id>64462</id>
       <innstilling_id>-1</innstilling_id>
       <innstilling_kode>ikke_spesifisert</innstilling_kode>
       <komite>
         <versjon>1.3</versjon>
-        <id>JUSTIS</id>
-        <navn>Justiskomiteen</navn>
+        <id>ARBSOS</id>
+        <navn>Arbeids- og sosialkomiteen</navn>
       </komite>
-      <korttittel>Lov om informasjonstilgang m.m. for Barnevoldsutvalget</korttittel>
-      <sak_fremmet_id>64468</sak_fremmet_id>
+      <korttittel>Endringar i folketrygdlova (arbeidsavklaringspengar - bistand til å skaffe seg eller behalde arbeid)</korttittel>
+      <sak_fremmet_id>64462</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Ebbesen</etternavn>
-          <foedselsdato>1962-09-04T00:00:00</foedselsdato>
-          <fornavn>Margunn</fornavn>
-          <id>MEBB</id>
-          <kjoenn>kvinne</kjoenn>
+          <etternavn>Rotevatn</etternavn>
+          <foedselsdato>1987-05-15T00:00:00</foedselsdato>
+          <fornavn>Sveinung</fornavn>
+          <id>SVR</id>
+          <kjoenn>mann</kjoenn>
           <fylke>
             <versjon>1.3</versjon>
-            <id>No</id>
-            <navn>Nordland</navn>
+            <id>SF</id>
+            <navn>Sogn og Fjordane</navn>
           </fylke>
           <parti>
             <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
+            <id>V</id>
+            <navn>Venstre</navn>
           </parti>
         </representant>
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2016-03-29T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
-      <tittel>Lov om informasjonstilgang m.m. for Barnevoldsutvalget</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>40</hovedemne_id>
-          <id>40</id>
-          <navn>FAMILIE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>40</hovedemne_id>
-          <id>41</id>
-          <navn>BARN</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 85 L (2015-2016)</henvisning>
-      <id>64469</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>FAMKULT</id>
-        <navn>Familie- og kulturkomiteen</navn>
-      </komite>
-      <korttittel>Endringar i barnelova m.m. (oppheving av tidsfristar i farskapssaker m.m.)</korttittel>
-      <sak_fremmet_id>64469</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Tønder</etternavn>
-          <foedselsdato>1969-11-03T00:00:00</foedselsdato>
-          <fornavn>Mette</fornavn>
-          <id>MET</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ak</id>
-            <navn>Akershus</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-03-29T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endringar i barnelova m.m. (oppheving av tidsfristar i farskapssaker m.m.)</tittel>
+      <tittel>Endringar i folketrygdlova (arbeidsavklaringspengar - bistand til å skaffe seg eller behalde arbeid)</tittel>
       <type>lovsak</type>
     </sak>
     <sak>
@@ -15367,55 +15367,123 @@
     </sak>
     <sak>
       <versjon>1.3</versjon>
-      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
+      <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste>
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>187</hovedemne_id>
-          <id>83</id>
-          <navn>PRISER OG KONKURRANSEFORHOLD</navn>
+          <hovedemne_id>5</hovedemne_id>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
+          <id>179</id>
+          <navn>TELEKOMMUNIKASJONER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
+          <id>186</id>
+          <navn>TRYGDER</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
       <forslagstiller_liste />
-      <henvisning>Prop. 37 L (2015-2016), Innst. 192 L (2015-2016), Lovvedtak 44 (2015-2016)</henvisning>
-      <id>64190</id>
-      <innstilling_id>12450</innstilling_id>
-      <innstilling_kode>innstilling_l</innstilling_kode>
+      <henvisning>Prop. 67 S (2015-2016)</henvisning>
+      <id>64724</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
       <komite>
         <versjon>1.3</versjon>
-        <id>NÆRING</id>
-        <navn>Næringskomiteen</navn>
+        <id>ARBSOS</id>
+        <navn>Arbeids- og sosialkomiteen</navn>
       </komite>
-      <korttittel>Endringer i konkurranseloven (Konkurranseklagenemnda, kartellforlik mm.)</korttittel>
-      <sak_fremmet_id>64190</sak_fremmet_id>
+      <korttittel>Oppstart av Prosjekt 2 i modernisering av IKT i Arbeids- og velferdsetaten</korttittel>
+      <sak_fremmet_id>64724</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Trellevik</etternavn>
-          <foedselsdato>1965-08-15T00:00:00</foedselsdato>
-          <fornavn>Ove</fornavn>
-          <id>OBT</id>
+          <etternavn>Lundteigen</etternavn>
+          <foedselsdato>1953-04-18T00:00:00</foedselsdato>
+          <fornavn>Per Olaf</fornavn>
+          <id>POL</id>
           <kjoenn>mann</kjoenn>
           <fylke>
             <versjon>1.3</versjon>
-            <id>Ho</id>
-            <navn>Hordaland</navn>
+            <id>Bu</id>
+            <navn>Buskerud</navn>
           </fylke>
           <parti>
             <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
           </parti>
         </representant>
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2016-03-10T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Endringer i konkurranseloven (Konkurranseklagenemnda, kartellforlik mm.)</tittel>
-      <type>lovsak</type>
+      <status>til_behandling</status>
+      <tittel>Oppstart av Prosjekt 2 i modernisering av IKT i Arbeids- og velferdsetaten</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>43</id>
+          <navn>BARNEVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Meld. St. 17 (2015-2016)</henvisning>
+      <id>64471</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>FAMKULT</id>
+        <navn>Familie- og kulturkomiteen</navn>
+      </komite>
+      <korttittel>Trygghet og omsorg. Fosterhjem til barns beste</korttittel>
+      <sak_fremmet_id>64471</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Mandt</etternavn>
+          <foedselsdato>1960-03-29T00:00:00</foedselsdato>
+          <fornavn>Sonja</fornavn>
+          <id>SOM</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ve</id>
+            <navn>Vestfold</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-03-10T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Trygghet og omsorg. Fosterhjem til barns beste</tittel>
+      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.3</versjon>
@@ -15487,8 +15555,60 @@
     </sak>
     <sak>
       <versjon>1.3</versjon>
+      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>83</id>
+          <navn>PRISER OG KONKURRANSEFORHOLD</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 37 L (2015-2016), Innst. 192 L (2015-2016), Lovvedtak 44 (2015-2016)</henvisning>
+      <id>64190</id>
+      <innstilling_id>12450</innstilling_id>
+      <innstilling_kode>innstilling_l</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>NÆRING</id>
+        <navn>Næringskomiteen</navn>
+      </komite>
+      <korttittel>Endringer i konkurranseloven (Konkurranseklagenemnda, kartellforlik mm.)</korttittel>
+      <sak_fremmet_id>64190</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Trellevik</etternavn>
+          <foedselsdato>1965-08-15T00:00:00</foedselsdato>
+          <fornavn>Ove</fornavn>
+          <id>OBT</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-03-10T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Endringer i konkurranseloven (Konkurranseklagenemnda, kartellforlik mm.)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>melding</dokumentgruppe>
+      <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste>
         <emne>
           <versjon>1.3</versjon>
@@ -15498,32 +15618,98 @@
           <navn>BARNEVERN</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
       </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Meld. St. 17 (2015-2016)</henvisning>
-      <id>64471</id>
+      <forslagstiller_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Bekkevold</etternavn>
+          <foedselsdato>1963-11-19T00:00:00</foedselsdato>
+          <fornavn>Geir Jørgen</fornavn>
+          <id>GJB</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Te</id>
+            <navn>Telemark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>KrF</id>
+            <navn>Kristelig Folkeparti</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Ropstad</etternavn>
+          <foedselsdato>1985-06-01T00:00:00</foedselsdato>
+          <fornavn>Kjell Ingolf</fornavn>
+          <id>KJR</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>AA</id>
+            <navn>Aust-Agder</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>KrF</id>
+            <navn>Kristelig Folkeparti</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Bollestad</etternavn>
+          <foedselsdato>1961-11-04T00:00:00</foedselsdato>
+          <fornavn>Olaug V.</fornavn>
+          <id>OVB</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>KrF</id>
+            <navn>Kristelig Folkeparti</navn>
+          </parti>
+        </representant>
+      </forslagstiller_liste>
+      <henvisning>Dokument 8:55 S (2015-2016)</henvisning>
+      <id>64826</id>
       <innstilling_id>-1</innstilling_id>
       <innstilling_kode>ikke_spesifisert</innstilling_kode>
       <komite>
         <versjon>1.3</versjon>
-        <id>FAMKULT</id>
-        <navn>Familie- og kulturkomiteen</navn>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
       </komite>
-      <korttittel>Trygghet og omsorg. Fosterhjem til barns beste</korttittel>
-      <sak_fremmet_id>64471</sak_fremmet_id>
+      <korttittel>Representantforslag fra stortingsrepresentantene om behandling av barn og unge som begår overgrep</korttittel>
+      <sak_fremmet_id>64826</sak_fremmet_id>
       <saksordfoerer_liste>
         <representant>
           <versjon>1.3</versjon>
           <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Mandt</etternavn>
-          <foedselsdato>1960-03-29T00:00:00</foedselsdato>
-          <fornavn>Sonja</fornavn>
-          <id>SOM</id>
+          <etternavn>Henriksen</etternavn>
+          <foedselsdato>1955-08-10T00:00:00</foedselsdato>
+          <fornavn>Kari</fornavn>
+          <id>KARH</id>
           <kjoenn>kvinne</kjoenn>
           <fylke>
             <versjon>1.3</versjon>
-            <id>Ve</id>
-            <navn>Vestfold</navn>
+            <id>VA</id>
+            <navn>Vest-Agder</navn>
           </fylke>
           <parti>
             <versjon>1.3</versjon>
@@ -15534,75 +15720,7 @@
       </saksordfoerer_liste>
       <sist_oppdatert_dato>2016-03-10T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
-      <tittel>Trygghet og omsorg. Fosterhjem til barns beste</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>5</hovedemne_id>
-          <id>7</id>
-          <navn>SYSSELSETTING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>2</hovedemne_id>
-          <id>179</id>
-          <navn>TELEKOMMUNIKASJONER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>10</hovedemne_id>
-          <id>186</id>
-          <navn>TRYGDER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 67 S (2015-2016)</henvisning>
-      <id>64724</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>ARBSOS</id>
-        <navn>Arbeids- og sosialkomiteen</navn>
-      </komite>
-      <korttittel>Oppstart av Prosjekt 2 i modernisering av IKT i Arbeids- og velferdsetaten</korttittel>
-      <sak_fremmet_id>64724</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Lundteigen</etternavn>
-          <foedselsdato>1953-04-18T00:00:00</foedselsdato>
-          <fornavn>Per Olaf</fornavn>
-          <id>POL</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Bu</id>
-            <navn>Buskerud</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>Sp</id>
-            <navn>Senterpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-03-10T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Oppstart av Prosjekt 2 i modernisering av IKT i Arbeids- og velferdsetaten</tittel>
+      <tittel>Representantforslag fra stortingsrepresentantene Kjell Ingolf Ropstad, Olaug V. Bollestad og Geir Jørgen Bekkevold om behandling av barn og unge som begår overgrep</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -16043,124 +16161,6 @@
     </sak>
     <sak>
       <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>40</hovedemne_id>
-          <id>43</id>
-          <navn>BARNEVERN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>61</hovedemne_id>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Bekkevold</etternavn>
-          <foedselsdato>1963-11-19T00:00:00</foedselsdato>
-          <fornavn>Geir Jørgen</fornavn>
-          <id>GJB</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Te</id>
-            <navn>Telemark</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>KrF</id>
-            <navn>Kristelig Folkeparti</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Ropstad</etternavn>
-          <foedselsdato>1985-06-01T00:00:00</foedselsdato>
-          <fornavn>Kjell Ingolf</fornavn>
-          <id>KJR</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>AA</id>
-            <navn>Aust-Agder</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>KrF</id>
-            <navn>Kristelig Folkeparti</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Bollestad</etternavn>
-          <foedselsdato>1961-11-04T00:00:00</foedselsdato>
-          <fornavn>Olaug V.</fornavn>
-          <id>OVB</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ro</id>
-            <navn>Rogaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>KrF</id>
-            <navn>Kristelig Folkeparti</navn>
-          </parti>
-        </representant>
-      </forslagstiller_liste>
-      <henvisning>Dokument 8:55 S (2015-2016)</henvisning>
-      <id>64826</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>JUSTIS</id>
-        <navn>Justiskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag fra stortingsrepresentantene om behandling av barn og unge som begår overgrep</korttittel>
-      <sak_fremmet_id>64826</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Henriksen</etternavn>
-          <foedselsdato>1955-08-10T00:00:00</foedselsdato>
-          <fornavn>Kari</fornavn>
-          <id>KARH</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>VA</id>
-            <navn>Vest-Agder</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-03-10T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Kjell Ingolf Ropstad, Olaug V. Bollestad og Geir Jørgen Bekkevold om behandling av barn og unge som begår overgrep</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
       <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste>
@@ -16531,77 +16531,6 @@
     <sak>
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
-      <emne_liste />
-      <forslagstiller_liste />
-      <henvisning i:nil="true" />
-      <id>65059</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite i:nil="true" />
-      <korttittel>Initiativdebatt om seriøsitet i bygge- og anleggsnæringen (initiativ fra kommunal - og forvaltningskomiteen)</korttittel>
-      <sak_fremmet_id>65059</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2016-03-03T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Initiativdebatt om seriøsitet i bygge- og anleggsnæringen (initiativ fra kommunal - og forvaltningskomiteen)</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>151</hovedemne_id>
-          <id>203</id>
-          <navn>STORTINGET</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Dokument 16 (2015-2016)</henvisning>
-      <id>64908</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>KONTROLL</id>
-        <navn>Kontroll- og konstitusjonskomiteen</navn>
-      </komite>
-      <korttittel>Evaluering av EOS-utvalgets kontroll med etterretnings-, overvåkings- og sikkerhetstjeneste</korttittel>
-      <sak_fremmet_id>64908</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Christensen</etternavn>
-          <foedselsdato>1983-06-01T00:00:00</foedselsdato>
-          <fornavn>Jette F.</fornavn>
-          <id>JFC</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ho</id>
-            <navn>Hordaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-03-03T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Rapport til Stortinget fra Evalueringsutvalget for Stortingets kontrollutvalg for etterretnings-, overvåkings- og sikkerhetstjeneste (EOS-utvalget)</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste>
         <emne>
@@ -16727,6 +16656,511 @@
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Kari Henriksen, Anette Trettebergstuen, Stine Renate Håheim og Lene Vågslid om kvinner i fengsel</tittel>
       <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
+      <emne_liste />
+      <forslagstiller_liste />
+      <henvisning i:nil="true" />
+      <id>65059</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite i:nil="true" />
+      <korttittel>Initiativdebatt om seriøsitet i bygge- og anleggsnæringen (initiativ fra kommunal - og forvaltningskomiteen)</korttittel>
+      <sak_fremmet_id>65059</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2016-03-03T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Initiativdebatt om seriøsitet i bygge- og anleggsnæringen (initiativ fra kommunal - og forvaltningskomiteen)</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>dokumentserien</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>203</id>
+          <navn>STORTINGET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Dokument 16 (2015-2016)</henvisning>
+      <id>64908</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>KONTROLL</id>
+        <navn>Kontroll- og konstitusjonskomiteen</navn>
+      </komite>
+      <korttittel>Evaluering av EOS-utvalgets kontroll med etterretnings-, overvåkings- og sikkerhetstjeneste</korttittel>
+      <sak_fremmet_id>64908</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Christensen</etternavn>
+          <foedselsdato>1983-06-01T00:00:00</foedselsdato>
+          <fornavn>Jette F.</fornavn>
+          <id>JFC</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-03-03T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Rapport til Stortinget fra Evalueringsutvalget for Stortingets kontrollutvalg for etterretnings-, overvåkings- og sikkerhetstjeneste (EOS-utvalget)</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>94</id>
+          <navn>ARBEIDSVILKÅR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>139</hovedemne_id>
+          <id>139</id>
+          <navn>MILJØVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Wøien</etternavn>
+          <foedselsdato>1965-06-18T00:00:00</foedselsdato>
+          <fornavn>Anne Tingelstad</fornavn>
+          <id>ATW</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Op</id>
+            <navn>Oppland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Bekkevold</etternavn>
+          <foedselsdato>1963-11-19T00:00:00</foedselsdato>
+          <fornavn>Geir Jørgen</fornavn>
+          <id>GJB</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Te</id>
+            <navn>Telemark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>KrF</id>
+            <navn>Kristelig Folkeparti</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Bastholm</etternavn>
+          <foedselsdato>1986-01-14T00:00:00</foedselsdato>
+          <fornavn>Une Aina</fornavn>
+          <id>UAB</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>MDG</id>
+            <navn>Miljøpartiet De Grønne</navn>
+          </parti>
+        </representant>
+      </forslagstiller_liste>
+      <henvisning>Dokument 8:58 S (2015-2016)</henvisning>
+      <id>64819</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>FAMKULT</id>
+        <navn>Familie- og kulturkomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om oppretting av lov om etikkinformasjon</korttittel>
+      <sak_fremmet_id>64819</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Thomsen</etternavn>
+          <foedselsdato>1961-10-06T00:00:00</foedselsdato>
+          <fornavn>Ib</fornavn>
+          <id>IBTH</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-03-01T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Anne Tingelstad Wøien, Une Aina Bastholm og Geir Jørgen Bekkevold om oppretting av lov om etikkinformasjon</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>40</hovedemne_id>
+          <id>41</id>
+          <navn>BARN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>10</hovedemne_id>
+          <id>186</id>
+          <navn>TRYGDER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 63 L (2015-2016)</henvisning>
+      <id>64466</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>FAMKULT</id>
+        <navn>Familie- og kulturkomiteen</navn>
+      </komite>
+      <korttittel>Endringer i barnetrygdloven (barnetrygd ved opphold i utlandet)</korttittel>
+      <sak_fremmet_id>64466</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Trettebergstuen</etternavn>
+          <foedselsdato>1981-05-25T00:00:00</foedselsdato>
+          <fornavn>Anette</fornavn>
+          <id>ATR</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>He</id>
+            <navn>Hedmark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-03-01T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endringer i barnetrygdloven (barnetrygd ved opphold i utlandet)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>62</id>
+          <navn>HELSEINSTITUSJONER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 61 L (2015-2016)</henvisning>
+      <id>64487</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>HELSEOMS</id>
+        <navn>Helse- og omsorgskomiteen</navn>
+      </komite>
+      <korttittel>Endringer i pasient- og brukerrettighetsloven mv. (utvidelse av retten til fritt behandlingsvalg til å omfatte private rehabiliteringsinstitusjoner m.m.)</korttittel>
+      <sak_fremmet_id>64487</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Knutsen</etternavn>
+          <foedselsdato>1951-01-14T00:00:00</foedselsdato>
+          <fornavn>Tove Karoline</fornavn>
+          <id>TKK</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Tr</id>
+            <navn>Troms</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-03-01T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endringer i pasient- og brukerrettighetsloven mv. (utvidelse av retten til fritt behandlingsvalg til å omfatte private rehabiliteringsinstitusjoner m.m.)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>12</id>
+          <navn>DOMSTOLER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>155</hovedemne_id>
+          <id>155</id>
+          <navn>STATSFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 62 L (2015-2016), Innst. 243 L (2015-2016)</henvisning>
+      <id>64495</id>
+      <innstilling_id>12502</innstilling_id>
+      <innstilling_kode>innstilling_l</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
+      <korttittel>Endringer i forvaltningsloven mv. (administrative sanksjoner mv.)</korttittel>
+      <sak_fremmet_id>64495</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Elvenes</etternavn>
+          <foedselsdato>1959-06-17T00:00:00</foedselsdato>
+          <fornavn>Hårek</fornavn>
+          <id>ELV</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-04-26T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endringer i forvaltningsloven mv. (administrative sanksjoner mv.)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>melding</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>36</id>
+          <navn>STUDIEFINANSIERING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>32</hovedemne_id>
+          <id>212</id>
+          <navn>VOKSENOPPLÆRING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Meld. St. 16 (2015-2016)</henvisning>
+      <id>64526</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>KIRKE</id>
+        <navn>Kirke-, utdannings- og forskningskomiteen</navn>
+      </komite>
+      <korttittel>Fra utenforskap til ny sjanse. Samordnet innsats for voksnes læring</korttittel>
+      <sak_fremmet_id>64526</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Henriksen</etternavn>
+          <foedselsdato>1979-01-05T00:00:00</foedselsdato>
+          <fornavn>Martin</fornavn>
+          <id>MHE</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Tr</id>
+            <navn>Troms</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-03-01T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Fra utenforskap til ny sjanse. Samordnet innsats for voksnes læring</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 60 L (2015-2016)</henvisning>
+      <id>64500</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>JUSTIS</id>
+        <navn>Justiskomiteen</navn>
+      </komite>
+      <korttittel>Endringer i politiloven (utnevning av visepolitimestere på åremål)</korttittel>
+      <sak_fremmet_id>64500</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Leirstein</etternavn>
+          <foedselsdato>1973-06-30T00:00:00</foedselsdato>
+          <fornavn>Ulf</fornavn>
+          <id>UIL</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Øs</id>
+            <navn>Østfold</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>FrP</id>
+            <navn>Fremskrittspartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-03-01T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endringer i politiloven (utnevning av visepolitimestere på åremål)</tittel>
+      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.3</versjon>
@@ -16903,440 +17337,6 @@
       <sist_oppdatert_dato>2016-03-01T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Regulering av lønnen for Høyesteretts medlemmer</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>melding</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>5</hovedemne_id>
-          <id>7</id>
-          <navn>SYSSELSETTING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>184</hovedemne_id>
-          <id>18</id>
-          <navn>INNVANDRERE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>32</hovedemne_id>
-          <id>36</id>
-          <navn>STUDIEFINANSIERING</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>32</hovedemne_id>
-          <id>212</id>
-          <navn>VOKSENOPPLÆRING</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Meld. St. 16 (2015-2016)</henvisning>
-      <id>64526</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>KIRKE</id>
-        <navn>Kirke-, utdannings- og forskningskomiteen</navn>
-      </komite>
-      <korttittel>Fra utenforskap til ny sjanse. Samordnet innsats for voksnes læring</korttittel>
-      <sak_fremmet_id>64526</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Henriksen</etternavn>
-          <foedselsdato>1979-01-05T00:00:00</foedselsdato>
-          <fornavn>Martin</fornavn>
-          <id>MHE</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Tr</id>
-            <navn>Troms</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-03-01T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Fra utenforskap til ny sjanse. Samordnet innsats for voksnes læring</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>11</hovedemne_id>
-          <id>141</id>
-          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 60 L (2015-2016)</henvisning>
-      <id>64500</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>JUSTIS</id>
-        <navn>Justiskomiteen</navn>
-      </komite>
-      <korttittel>Endringer i politiloven (utnevning av visepolitimestere på åremål)</korttittel>
-      <sak_fremmet_id>64500</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Leirstein</etternavn>
-          <foedselsdato>1973-06-30T00:00:00</foedselsdato>
-          <fornavn>Ulf</fornavn>
-          <id>UIL</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Øs</id>
-            <navn>Østfold</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>FrP</id>
-            <navn>Fremskrittspartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-03-01T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endringer i politiloven (utnevning av visepolitimestere på åremål)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>11</hovedemne_id>
-          <id>11</id>
-          <navn>RETTSVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>11</hovedemne_id>
-          <id>12</id>
-          <navn>DOMSTOLER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>155</hovedemne_id>
-          <id>155</id>
-          <navn>STATSFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 62 L (2015-2016), Innst. 243 L (2015-2016)</henvisning>
-      <id>64495</id>
-      <innstilling_id>12502</innstilling_id>
-      <innstilling_kode>innstilling_l</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>JUSTIS</id>
-        <navn>Justiskomiteen</navn>
-      </komite>
-      <korttittel>Endringer i forvaltningsloven mv. (administrative sanksjoner mv.)</korttittel>
-      <sak_fremmet_id>64495</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Elvenes</etternavn>
-          <foedselsdato>1959-06-17T00:00:00</foedselsdato>
-          <fornavn>Hårek</fornavn>
-          <id>ELV</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ak</id>
-            <navn>Akershus</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-04-26T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endringer i forvaltningsloven mv. (administrative sanksjoner mv.)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>40</hovedemne_id>
-          <id>41</id>
-          <navn>BARN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>10</hovedemne_id>
-          <id>186</id>
-          <navn>TRYGDER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 63 L (2015-2016)</henvisning>
-      <id>64466</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>FAMKULT</id>
-        <navn>Familie- og kulturkomiteen</navn>
-      </komite>
-      <korttittel>Endringer i barnetrygdloven (barnetrygd ved opphold i utlandet)</korttittel>
-      <sak_fremmet_id>64466</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Trettebergstuen</etternavn>
-          <foedselsdato>1981-05-25T00:00:00</foedselsdato>
-          <fornavn>Anette</fornavn>
-          <id>ATR</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>He</id>
-            <navn>Hedmark</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-03-01T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endringer i barnetrygdloven (barnetrygd ved opphold i utlandet)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>61</hovedemne_id>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>61</hovedemne_id>
-          <id>62</id>
-          <navn>HELSEINSTITUSJONER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 61 L (2015-2016)</henvisning>
-      <id>64487</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>HELSEOMS</id>
-        <navn>Helse- og omsorgskomiteen</navn>
-      </komite>
-      <korttittel>Endringer i pasient- og brukerrettighetsloven mv. (utvidelse av retten til fritt behandlingsvalg til å omfatte private rehabiliteringsinstitusjoner m.m.)</korttittel>
-      <sak_fremmet_id>64487</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Knutsen</etternavn>
-          <foedselsdato>1951-01-14T00:00:00</foedselsdato>
-          <fornavn>Tove Karoline</fornavn>
-          <id>TKK</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Tr</id>
-            <navn>Troms</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-03-01T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endringer i pasient- og brukerrettighetsloven mv. (utvidelse av retten til fritt behandlingsvalg til å omfatte private rehabiliteringsinstitusjoner m.m.)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>5</hovedemne_id>
-          <id>94</id>
-          <navn>ARBEIDSVILKÅR</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>139</hovedemne_id>
-          <id>139</id>
-          <navn>MILJØVERN</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Wøien</etternavn>
-          <foedselsdato>1965-06-18T00:00:00</foedselsdato>
-          <fornavn>Anne Tingelstad</fornavn>
-          <id>ATW</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Op</id>
-            <navn>Oppland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>Sp</id>
-            <navn>Senterpartiet</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Bekkevold</etternavn>
-          <foedselsdato>1963-11-19T00:00:00</foedselsdato>
-          <fornavn>Geir Jørgen</fornavn>
-          <id>GJB</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Te</id>
-            <navn>Telemark</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>KrF</id>
-            <navn>Kristelig Folkeparti</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Bastholm</etternavn>
-          <foedselsdato>1986-01-14T00:00:00</foedselsdato>
-          <fornavn>Une Aina</fornavn>
-          <id>UAB</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>MDG</id>
-            <navn>Miljøpartiet De Grønne</navn>
-          </parti>
-        </representant>
-      </forslagstiller_liste>
-      <henvisning>Dokument 8:58 S (2015-2016)</henvisning>
-      <id>64819</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>FAMKULT</id>
-        <navn>Familie- og kulturkomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om oppretting av lov om etikkinformasjon</korttittel>
-      <sak_fremmet_id>64819</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Thomsen</etternavn>
-          <foedselsdato>1961-10-06T00:00:00</foedselsdato>
-          <fornavn>Ib</fornavn>
-          <id>IBTH</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ak</id>
-            <navn>Akershus</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>FrP</id>
-            <navn>Fremskrittspartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-03-01T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Anne Tingelstad Wøien, Une Aina Bastholm og Geir Jørgen Bekkevold om oppretting av lov om etikkinformasjon</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -18228,74 +18228,6 @@
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>184</hovedemne_id>
-          <id>18</id>
-          <navn>INNVANDRERE</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>11</hovedemne_id>
-          <id>141</id>
-          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>163</hovedemne_id>
-          <id>163</id>
-          <navn>UTENRIKSSAKER</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 58 L (2015-2016), Innst. 247 L (2015-2016)</henvisning>
-      <id>64497</id>
-      <innstilling_id>12505</innstilling_id>
-      <innstilling_kode>innstilling_l</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>KOMMFORV</id>
-        <navn>Kommunal- og forvaltningskomiteen</navn>
-      </komite>
-      <korttittel>Endringer i utlendingsloven (bortvisning av hensyn til grunnleggende nasjonale interesser eller utenrikspolitiske hensyn m.m.)</korttittel>
-      <sak_fremmet_id>64497</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Lauvås</etternavn>
-          <foedselsdato>1965-05-03T00:00:00</foedselsdato>
-          <fornavn>Stein Erik</fornavn>
-          <id>SEL</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Øs</id>
-            <navn>Østfold</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-04-28T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endringer i utlendingsloven (bortvisning av hensyn til grunnleggende nasjonale interesser eller utenrikspolitiske hensyn m.m.)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>187</hovedemne_id>
           <id>53</id>
           <navn>SKATTEADMINISTRASJON</navn>
@@ -18362,6 +18294,74 @@
       <sist_oppdatert_dato>2016-04-14T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Endringer i lov om offentlig støtte m.m. (opprettelse av nasjonalt register for offentlig støtte)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 58 L (2015-2016), Innst. 247 L (2015-2016)</henvisning>
+      <id>64497</id>
+      <innstilling_id>12505</innstilling_id>
+      <innstilling_kode>innstilling_l</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>KOMMFORV</id>
+        <navn>Kommunal- og forvaltningskomiteen</navn>
+      </komite>
+      <korttittel>Endringer i utlendingsloven (bortvisning av hensyn til grunnleggende nasjonale interesser eller utenrikspolitiske hensyn m.m.)</korttittel>
+      <sak_fremmet_id>64497</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Lauvås</etternavn>
+          <foedselsdato>1965-05-03T00:00:00</foedselsdato>
+          <fornavn>Stein Erik</fornavn>
+          <id>SEL</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Øs</id>
+            <navn>Østfold</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-04-28T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endringer i utlendingsloven (bortvisning av hensyn til grunnleggende nasjonale interesser eller utenrikspolitiske hensyn m.m.)</tittel>
       <type>lovsak</type>
     </sak>
     <sak>
@@ -19243,58 +19243,6 @@
     <sak>
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>105</hovedemne_id>
-          <id>1</id>
-          <navn>DEN NORSKE KIRKE</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 55 L (2015-2016)</henvisning>
-      <id>64519</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>KIRKE</id>
-        <navn>Kirke-, utdannings- og forskningskomiteen</navn>
-      </komite>
-      <korttittel>Endringer i kirkeloven (omdanning av Den norske kirke til eget rettssubjekt m.m.)</korttittel>
-      <sak_fremmet_id>64519</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Benestad</etternavn>
-          <foedselsdato>1956-11-08T00:00:00</foedselsdato>
-          <fornavn>Norunn Tveiten</fornavn>
-          <id>NTB</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>VA</id>
-            <navn>Vest-Agder</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-02-09T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Endringer i kirkeloven (omdanning av Den norske kirke til eget rettssubjekt m.m.)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>melding</dokumentgruppe>
       <emne_liste>
         <emne>
@@ -20010,6 +19958,58 @@
     </sak>
     <sak>
       <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>105</hovedemne_id>
+          <id>1</id>
+          <navn>DEN NORSKE KIRKE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 55 L (2015-2016)</henvisning>
+      <id>64519</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>KIRKE</id>
+        <navn>Kirke-, utdannings- og forskningskomiteen</navn>
+      </komite>
+      <korttittel>Endringer i kirkeloven (omdanning av Den norske kirke til eget rettssubjekt m.m.)</korttittel>
+      <sak_fremmet_id>64519</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Benestad</etternavn>
+          <foedselsdato>1956-11-08T00:00:00</foedselsdato>
+          <fornavn>Norunn Tveiten</fornavn>
+          <id>NTB</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>VA</id>
+            <navn>Vest-Agder</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-02-09T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Endringer i kirkeloven (omdanning av Den norske kirke til eget rettssubjekt m.m.)</tittel>
+      <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
       <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
       <dokumentgruppe>dokumentserien</dokumentgruppe>
       <emne_liste>
@@ -20435,124 +20435,6 @@
     <sak>
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>representantforslag</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>151</hovedemne_id>
-          <id>25</id>
-          <navn>REGJERINGEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>113</hovedemne_id>
-          <id>113</id>
-          <navn>NÆRINGSLIV</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Pollestad</etternavn>
-          <foedselsdato>1978-08-13T00:00:00</foedselsdato>
-          <fornavn>Geir</fornavn>
-          <id>GP</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ro</id>
-            <navn>Rogaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>Sp</id>
-            <navn>Senterpartiet</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Greni</etternavn>
-          <foedselsdato>1962-07-03T00:00:00</foedselsdato>
-          <fornavn>Heidi</fornavn>
-          <id>HEIG</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>ST</id>
-            <navn>Sør-Trøndelag</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>Sp</id>
-            <navn>Senterpartiet</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Vedum</etternavn>
-          <foedselsdato>1978-12-01T00:00:00</foedselsdato>
-          <fornavn>Trygve Slagsvold</fornavn>
-          <id>TMV</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>He</id>
-            <navn>Hedmark</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>Sp</id>
-            <navn>Senterpartiet</navn>
-          </parti>
-        </representant>
-      </forslagstiller_liste>
-      <henvisning>Dokument 8:40 S (2015-2016), Innst. 249 S (2015-2016)</henvisning>
-      <id>64380</id>
-      <innstilling_id>12507</innstilling_id>
-      <innstilling_kode>innstilling_s</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>KOMMFORV</id>
-        <navn>Kommunal- og forvaltningskomiteen</navn>
-      </komite>
-      <korttittel>Representantforslag om anbudskriterier for nytt regjeringskvartal som sikrer at norsk næringsliv kan være konkurransedyktig</korttittel>
-      <sak_fremmet_id>64380</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Bøhler</etternavn>
-          <foedselsdato>1952-03-01T00:00:00</foedselsdato>
-          <fornavn>Jan</fornavn>
-          <id>JBO</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-04-28T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Representantforslag fra stortingsrepresentantene Heidi Greni, Geir Pollestad og Trygve Slagsvold Vedum om anbudskriterier for nytt regjeringskvartal som sikrer at norsk næringsliv kan være konkurransedyktig</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste>
         <emne>
@@ -20678,6 +20560,124 @@
       <tittel>Lov om offentlige anskaffelser (anskaffelsesloven)
 </tittel>
       <type>lovsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>representantforslag</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>25</id>
+          <navn>REGJERINGEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>113</id>
+          <navn>NÆRINGSLIV</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Pollestad</etternavn>
+          <foedselsdato>1978-08-13T00:00:00</foedselsdato>
+          <fornavn>Geir</fornavn>
+          <id>GP</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ro</id>
+            <navn>Rogaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Greni</etternavn>
+          <foedselsdato>1962-07-03T00:00:00</foedselsdato>
+          <fornavn>Heidi</fornavn>
+          <id>HEIG</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>ST</id>
+            <navn>Sør-Trøndelag</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Vedum</etternavn>
+          <foedselsdato>1978-12-01T00:00:00</foedselsdato>
+          <fornavn>Trygve Slagsvold</fornavn>
+          <id>TMV</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>He</id>
+            <navn>Hedmark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>Sp</id>
+            <navn>Senterpartiet</navn>
+          </parti>
+        </representant>
+      </forslagstiller_liste>
+      <henvisning>Dokument 8:40 S (2015-2016), Innst. 249 S (2015-2016)</henvisning>
+      <id>64380</id>
+      <innstilling_id>12507</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>KOMMFORV</id>
+        <navn>Kommunal- og forvaltningskomiteen</navn>
+      </komite>
+      <korttittel>Representantforslag om anbudskriterier for nytt regjeringskvartal som sikrer at norsk næringsliv kan være konkurransedyktig</korttittel>
+      <sak_fremmet_id>64380</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Bøhler</etternavn>
+          <foedselsdato>1952-03-01T00:00:00</foedselsdato>
+          <fornavn>Jan</fornavn>
+          <id>JBO</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-04-28T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Representantforslag fra stortingsrepresentantene Heidi Greni, Geir Pollestad og Trygve Slagsvold Vedum om anbudskriterier for nytt regjeringskvartal som sikrer at norsk næringsliv kan være konkurransedyktig</tittel>
+      <type>alminneligsak</type>
     </sak>
     <sak>
       <versjon>1.3</versjon>
@@ -21809,49 +21809,6 @@
     </sak>
     <sak>
       <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste />
-      <forslagstiller_liste />
-      <henvisning i:nil="true" />
-      <id>64379</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>KONTROLL</id>
-        <navn>Kontroll- og konstitusjonskomiteen</navn>
-      </komite>
-      <korttittel>Statstilskudd til høyskolene NITH, Westerdals og NISS</korttittel>
-      <sak_fremmet_id>63860</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Christensen</etternavn>
-          <foedselsdato>1983-06-01T00:00:00</foedselsdato>
-          <fornavn>Jette F.</fornavn>
-          <id>JFC</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ho</id>
-            <navn>Hordaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-01-19T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Statstilskudd til høyskolene NITH, Westerdals og NISS</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
       <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
       <dokumentgruppe>innstillingssaker</dokumentgruppe>
       <emne_liste>
@@ -21920,6 +21877,237 @@
       <sist_oppdatert_dato>2016-01-19T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Vedrørende granskingskommisjon for brannen på Scandinavian Star</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>innstillingssaker</dokumentgruppe>
+      <emne_liste />
+      <forslagstiller_liste />
+      <henvisning i:nil="true" />
+      <id>64379</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>KONTROLL</id>
+        <navn>Kontroll- og konstitusjonskomiteen</navn>
+      </komite>
+      <korttittel>Statstilskudd til høyskolene NITH, Westerdals og NISS</korttittel>
+      <sak_fremmet_id>63860</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Christensen</etternavn>
+          <foedselsdato>1983-06-01T00:00:00</foedselsdato>
+          <fornavn>Jette F.</fornavn>
+          <id>JFC</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-01-19T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Statstilskudd til høyskolene NITH, Westerdals og NISS</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>dokumentserien</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>29</id>
+          <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Dokument 3:5 (2015-2016)</henvisning>
+      <id>64283</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>KONTROLL</id>
+        <navn>Kontroll- og konstitusjonskomiteen</navn>
+      </komite>
+      <korttittel>Riksrevisjonens undersøkelse av ressursutnyttelse og kvalitet i helsetjenesten etter innføringen av samhandlingsreformen</korttittel>
+      <sak_fremmet_id>64283</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Tetzschner</etternavn>
+          <foedselsdato>1954-02-09T00:00:00</foedselsdato>
+          <fornavn>Michael</fornavn>
+          <id>MIT</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-01-12T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Riksrevisjonens undersøkelse av ressursutnyttelse og kvalitet i helsetjenesten etter innføringen av samhandlingsreformen</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>dokumentserien</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>29</id>
+          <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>52</id>
+          <navn>KOMMUNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Dokument 3:6 (2015-2016)</henvisning>
+      <id>64284</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>KONTROLL</id>
+        <navn>Kontroll- og konstitusjonskomiteen</navn>
+      </komite>
+      <korttittel>Riksrevisjonens undersøkelse om digitalisering av kommunale tjenester</korttittel>
+      <sak_fremmet_id>64284</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Kolberg</etternavn>
+          <foedselsdato>1949-02-24T00:00:00</foedselsdato>
+          <fornavn>Martin</fornavn>
+          <id>MAKO</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Bu</id>
+            <navn>Buskerud</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>A</id>
+            <navn>Arbeiderpartiet</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-01-12T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Riksrevisjonens undersøkelse om digitalisering av kommunale tjenester</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>166</id>
+          <navn>TRAKTATER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>172</id>
+          <navn>ØKONOMISK SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 46 S (2015-2016), Innst. 222 S (2015-2016)</henvisning>
+      <id>64299</id>
+      <innstilling_id>12480</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>NÆRING</id>
+        <navn>Næringskomiteen</navn>
+      </komite>
+      <korttittel>Samtykke til ratifikasjon av protokoll av 18. september 2015 om endring av frihandelsavtalen mellom EFTA-statene og Albania</korttittel>
+      <sak_fremmet_id>64299</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Trellevik</etternavn>
+          <foedselsdato>1965-08-15T00:00:00</foedselsdato>
+          <fornavn>Ove</fornavn>
+          <id>OBT</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ho</id>
+            <navn>Hordaland</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-03-31T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Samtykke til ratifikasjon av protokoll av 18. september 2015 om endring av frihandelsavtalen mellom EFTA-statene og Albania</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -22886,194 +23074,6 @@
       <sist_oppdatert_dato>2016-04-14T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Terje Breivik, Iselin Nybø, Hans Fredrik Grøvan, Kjell Ingolf Ropstad, Torill Eidsheim, Ingunn Foss, Sivert Bjørnstad, Åse Michaelsen, Terje Aasland og Odd Omland om strategi for utbygging av fiberkabler og grønne datasentre</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>151</hovedemne_id>
-          <id>29</id>
-          <navn>RIKSREVISJONEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>61</hovedemne_id>
-          <id>61</id>
-          <navn>HELSEVESEN</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Dokument 3:5 (2015-2016)</henvisning>
-      <id>64283</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>KONTROLL</id>
-        <navn>Kontroll- og konstitusjonskomiteen</navn>
-      </komite>
-      <korttittel>Riksrevisjonens undersøkelse av ressursutnyttelse og kvalitet i helsetjenesten etter innføringen av samhandlingsreformen</korttittel>
-      <sak_fremmet_id>64283</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Tetzschner</etternavn>
-          <foedselsdato>1954-02-09T00:00:00</foedselsdato>
-          <fornavn>Michael</fornavn>
-          <id>MIT</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-01-12T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Riksrevisjonens undersøkelse av ressursutnyttelse og kvalitet i helsetjenesten etter innføringen av samhandlingsreformen</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>151</hovedemne_id>
-          <id>29</id>
-          <navn>RIKSREVISJONEN</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>184</hovedemne_id>
-          <id>52</id>
-          <navn>KOMMUNER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>184</hovedemne_id>
-          <id>184</id>
-          <navn>LOKALFORVALTNING</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Dokument 3:6 (2015-2016)</henvisning>
-      <id>64284</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>KONTROLL</id>
-        <navn>Kontroll- og konstitusjonskomiteen</navn>
-      </komite>
-      <korttittel>Riksrevisjonens undersøkelse om digitalisering av kommunale tjenester</korttittel>
-      <sak_fremmet_id>64284</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Kolberg</etternavn>
-          <foedselsdato>1949-02-24T00:00:00</foedselsdato>
-          <fornavn>Martin</fornavn>
-          <id>MAKO</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Bu</id>
-            <navn>Buskerud</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>A</id>
-            <navn>Arbeiderpartiet</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-01-12T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Riksrevisjonens undersøkelse om digitalisering av kommunale tjenester</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>163</hovedemne_id>
-          <id>166</id>
-          <navn>TRAKTATER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>163</hovedemne_id>
-          <id>172</id>
-          <navn>ØKONOMISK SAMARBEID</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 46 S (2015-2016), Innst. 222 S (2015-2016)</henvisning>
-      <id>64299</id>
-      <innstilling_id>12480</innstilling_id>
-      <innstilling_kode>innstilling_s</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>NÆRING</id>
-        <navn>Næringskomiteen</navn>
-      </komite>
-      <korttittel>Samtykke til ratifikasjon av protokoll av 18. september 2015 om endring av frihandelsavtalen mellom EFTA-statene og Albania</korttittel>
-      <sak_fremmet_id>64299</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Trellevik</etternavn>
-          <foedselsdato>1965-08-15T00:00:00</foedselsdato>
-          <fornavn>Ove</fornavn>
-          <id>OBT</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ho</id>
-            <navn>Hordaland</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-03-31T00:00:00</sist_oppdatert_dato>
-      <status>til_behandling</status>
-      <tittel>Samtykke til ratifikasjon av protokoll av 18. september 2015 om endring av frihandelsavtalen mellom EFTA-statene og Albania</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -24577,6 +24577,46 @@
     </sak>
     <sak>
       <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>innberetning</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>26</id>
+          <navn>STORTINGSREPRESENTANTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>203</id>
+          <navn>STORTINGET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Innberetning 2 (2015-2016)</henvisning>
+      <id>64244</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>VALG</id>
+        <navn>Valgkomiteen</navn>
+      </komite>
+      <korttittel>Innberetning fra valgkomiteen om endringer i de faste komiteers sammensetning</korttittel>
+      <sak_fremmet_id>64244</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2015-12-18T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Innberetning fra valgkomiteen om endringer i de faste komiteers sammensetning</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
       <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
       <dokumentgruppe>innstillingssaker</dokumentgruppe>
       <emne_liste>
@@ -24696,46 +24736,6 @@
       <sist_oppdatert_dato>2015-12-18T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
       <tittel>Representantforslag fra stortingsrepresentantene Karin Andersen og Audun Lysbakken om å sikre integrering</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>innberetning</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>151</hovedemne_id>
-          <id>26</id>
-          <navn>STORTINGSREPRESENTANTER</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>151</hovedemne_id>
-          <id>203</id>
-          <navn>STORTINGET</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Innberetning 2 (2015-2016)</henvisning>
-      <id>64244</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>VALG</id>
-        <navn>Valgkomiteen</navn>
-      </komite>
-      <korttittel>Innberetning fra valgkomiteen om endringer i de faste komiteers sammensetning</korttittel>
-      <sak_fremmet_id>64244</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2015-12-18T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Innberetning fra valgkomiteen om endringer i de faste komiteers sammensetning</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -24952,83 +24952,6 @@
     </sak>
     <sak>
       <versjon>1.3</versjon>
-      <behandlet_sesjon_id i:nil="true" />
-      <dokumentgruppe>grunnlovsforslag</dokumentgruppe>
-      <emne_liste />
-      <forslagstiller_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Solhjell</etternavn>
-          <foedselsdato>1971-12-22T00:00:00</foedselsdato>
-          <fornavn>Bård Vegar</fornavn>
-          <id>BVS</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ak</id>
-            <navn>Akershus</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>SV</id>
-            <navn>Sosialistisk Venstreparti</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Holmås</etternavn>
-          <foedselsdato>1972-06-28T00:00:00</foedselsdato>
-          <fornavn>Heikki Eidsvoll</fornavn>
-          <id>HEH</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Os</id>
-            <navn>Oslo</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>SV</id>
-            <navn>Sosialistisk Venstreparti</navn>
-          </parti>
-        </representant>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Andersen</etternavn>
-          <foedselsdato>1952-12-16T00:00:00</foedselsdato>
-          <fornavn>Karin</fornavn>
-          <id>KAAN</id>
-          <kjoenn>kvinne</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>He</id>
-            <navn>Hedmark</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>SV</id>
-            <navn>Sosialistisk Venstreparti</navn>
-          </parti>
-        </representant>
-      </forslagstiller_liste>
-      <henvisning>Dokument 12:2 (2015-2016)</henvisning>
-      <id>64274</id>
-      <innstilling_id>-1</innstilling_id>
-      <innstilling_kode>ikke_spesifisert</innstilling_kode>
-      <komite i:nil="true" />
-      <korttittel>Grunnlovsforslag om endringer i Grunnloven (grunnlovfesting av allemannsretten)</korttittel>
-      <sak_fremmet_id>64274</sak_fremmet_id>
-      <saksordfoerer_liste />
-      <sist_oppdatert_dato>2015-12-17T00:00:00</sist_oppdatert_dato>
-      <status>mottatt</status>
-      <tittel>Grunnlovsforslag fra Karin Andersen, Heikki Eidsvoll Holmås og Bård Vegar Solhjell om endringer i Grunnloven (grunnlovfesting av allemannsretten)</tittel>
-      <type>alminneligsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
       <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
       <dokumentgruppe>innstillingssaker</dokumentgruppe>
       <emne_liste>
@@ -25145,6 +25068,83 @@
       <sist_oppdatert_dato>2015-12-17T00:00:00</sist_oppdatert_dato>
       <status>behandlet</status>
       <tittel>Val av Stortingets delegasjon for samband med Europaparlamentet</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>grunnlovsforslag</dokumentgruppe>
+      <emne_liste />
+      <forslagstiller_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Solhjell</etternavn>
+          <foedselsdato>1971-12-22T00:00:00</foedselsdato>
+          <fornavn>Bård Vegar</fornavn>
+          <id>BVS</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Holmås</etternavn>
+          <foedselsdato>1972-06-28T00:00:00</foedselsdato>
+          <fornavn>Heikki Eidsvoll</fornavn>
+          <id>HEH</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Os</id>
+            <navn>Oslo</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Andersen</etternavn>
+          <foedselsdato>1952-12-16T00:00:00</foedselsdato>
+          <fornavn>Karin</fornavn>
+          <id>KAAN</id>
+          <kjoenn>kvinne</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>He</id>
+            <navn>Hedmark</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>SV</id>
+            <navn>Sosialistisk Venstreparti</navn>
+          </parti>
+        </representant>
+      </forslagstiller_liste>
+      <henvisning>Dokument 12:2 (2015-2016)</henvisning>
+      <id>64274</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite i:nil="true" />
+      <korttittel>Grunnlovsforslag om endringer i Grunnloven (grunnlovfesting av allemannsretten)</korttittel>
+      <sak_fremmet_id>64274</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2015-12-17T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Grunnlovsforslag fra Karin Andersen, Heikki Eidsvoll Holmås og Bård Vegar Solhjell om endringer i Grunnloven (grunnlovfesting av allemannsretten)</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
@@ -31335,6 +31335,14 @@
       <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
       <dokumentgruppe>proposisjon</dokumentgruppe>
       <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>119</id>
+          <navn>STATSBEDRIFTER</navn>
+          <underemne_liste />
+        </emne>
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
@@ -39925,10 +39933,18 @@
       <emne_liste>
         <emne>
           <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
+          <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>40</hovedemne_id>
-          <id>43</id>
-          <navn>BARNEVERN</navn>
+          <id>40</id>
+          <navn>FAMILIE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
