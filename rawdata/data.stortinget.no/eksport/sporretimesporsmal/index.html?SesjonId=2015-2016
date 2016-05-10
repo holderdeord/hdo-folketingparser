@@ -21,7 +21,32 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-05-04T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>59</hovedemne_id>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>59</hovedemne_id>
+          <id>60</id>
+          <navn>FORSVARSMATERIELL</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>185</id>
+          <navn>STATSBUDSJETTET</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>65595</id>
@@ -62,7 +87,7 @@
       <sporsmal_til_minister_id>SMK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>statsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om statsministeren tar ansvar for at Norges forsvarsevne er svekket på hennes vakt</tittel>
+      <tittel>om statsministeren tar ansvar for at _Norges forsvarsevne er svekket_ på hennes vakt, med henvisning til at regjeringa til alt overmål brukte mindre penger på forsvar i 2015 enn det det lå an til i den rød-grønne langtidsplanen</tittel>
       <type>muntlig_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -510,7 +535,24 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-04-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>63</id>
+          <navn>SYKEHUS</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>65484</id>
@@ -551,8 +593,7 @@
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>På et debattmøte mandag 25. april kom OUS-direktør Erikstein med den positive nyheten om at Oslo universitetssykehus (OUS) vil prioritere å bygge nytt lokalsykehus på Aker parallelt med at Oslo kommune bygger ny storbylegevakt der, og at forprosjektet vil kunne starte alt 1. desember i år. Statsråden har tidligere sagt at han er åpen for nytt lokalsykehus på Aker, dersom helseforetaket går inn for det.
-Vil statsråden nå støtte OUS' plan om å prioritere lokalsykehus på Aker og følge opp dette på eiermøter framover?</tittel>
+      <tittel>om statsråden vil støtte _Oslo universitetssykehus' plan om å prioritere lokalsykehus på Aker_ og følge opp dette på eiermøter framover</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -739,7 +780,32 @@ Vil statsråden nå støtte OUS' plan om å prioritere lokalsykehus på Aker og 
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-04-28T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>63</id>
+          <navn>SYKEHUS</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>64</id>
+          <navn>HELSEPERSONELL</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>65479</id>
@@ -780,8 +846,7 @@ Vil statsråden nå støtte OUS' plan om å prioritere lokalsykehus på Aker og 
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Fylkesmannen i Telemark har gjennomført tilsyn med forsvarleg pasientbehandling ved overbelegg ved Sykehuset Telemark HF. I utkast til rapport, datert 21. april 2016, er det konstatert tre avvik. Sykehuset Telemark HF har eit periodevis uforsvarleg høgt pasientbelegg, dei har ikkje sikra forsvarleg oppfølging av såkalla 'satelittpasientar' og manglar styringsverktøy for å registrere og overvake pasientbelegg.
-Vil statsråden redegjere for Stortinget om situasjonen ved Sykehuset Telemark HF?</tittel>
+      <tittel>om statsråden vil redegjere for Stortinget om _situasjonen ved Sykehuset Telemark HF_, med bakgrunn i at Fylkesmannen har gjennomført tilsyn med forsvarleg pasientbehandling ved overbelegg og konstatert avvik</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1292,7 +1357,32 @@ Vil statsråden redegjere for Stortinget om situasjonen ved Sykehuset Telemark H
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-04-27T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>11</id>
+          <navn>RETTSVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>64</id>
+          <navn>HELSEPERSONELL</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>65444</id>
@@ -1354,7 +1444,24 @@ Vil statsråden redegjere for Stortinget om situasjonen ved Sykehuset Telemark H
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-04-26T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>59</hovedemne_id>
+          <id>59</id>
+          <navn>FORSVAR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
+          <id>68</id>
+          <navn>KUNST</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>65443</id>
@@ -1395,8 +1502,7 @@ Vil statsråden redegjere for Stortinget om situasjonen ved Sykehuset Telemark H
       <sporsmal_til_minister_id>KD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kulturministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Det pågående arbeidet med langtidsplan for Forsvaret kan komme til å få store konsekvenser for kulturtilbudet i landet vårt. Forsvarets musikkorps, som i tillegg til å ha en viktig seremoniell og kulturell betydning i Forsvaret og for forsvarskulturen også er et viktig ansikt utad for Forsvaret mot det sivile samfunn om i så måte en viktig kulturaktør.
-Har statsråden, med det overordnede ansvar for kultur i Norge, noen formening om at den kulturelle infrastrukturen kan bli vesentlig endret?</tittel>
+      <tittel>om statsråden har noen formening om at _den kulturelle infrastrukturen kan bli vesentlig endret med det pågående arbeidet med langtidsplan for Forsvaret_, som kan komme til å få store konsekvenser for kulturtilbudet i landet vår</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1417,7 +1523,32 @@ Har statsråden, med det overordnede ansvar for kultur i Norge, noen formening o
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-04-21T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>8</hovedemne_id>
+          <id>8</id>
+          <navn>FISKERIER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>65461</id>
@@ -1458,8 +1589,7 @@ Har statsråden, med det overordnede ansvar for kultur i Norge, noen formening o
       <sporsmal_til_minister_id>NFDFISK</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>fiskeriministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Islendingene er vesentlig bedre enn Norge å sikre at fiskeindustrien bruker hele fisken. Næringens fremtid er å utnytte alt råstoffet. I en tid der Norge mer enn på lenge trenger kraftfull satsing på nye arbeidsplasser og økt verdiskaping, trenger vi offensiv politikk og støtte fra myndighetene for å fremme innovasjon og nyskaping.
-Hvordan vil statsråden bidra til økt sysselsetting og verdiskaping gjennom utnytting av hele fisken, og hvor fort vil arbeidet komme i gang?</tittel>
+      <tittel>om hvordan statsråden vil bidra til økt sysselsetting og _verdiskaping gjennom utnytting av hele fisken_, og hvor fort arbeidet vil komme i gang</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
