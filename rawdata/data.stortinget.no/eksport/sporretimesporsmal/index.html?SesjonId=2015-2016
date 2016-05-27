@@ -857,7 +857,40 @@ Kva meiner statsråden er dei viktigaste grepa ein kunne tatt for å sikre at be
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-05-19T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>65</id>
+          <navn>SVANGERSKAP</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>163</id>
+          <navn>UTENRIKSSAKER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>174</id>
+          <navn>UTVIKLINGSHJELP</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>188</id>
+          <navn>FOLKEHELSE</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>65683</id>
@@ -898,8 +931,7 @@ Kva meiner statsråden er dei viktigaste grepa ein kunne tatt for å sikre at be
       <sporsmal_til_minister_id>UD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>utenriksministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Seksuell og reproduktiv helse og mødrehelse har de senere år vært en hovedprioritet i norsk bistand. Norge tok bl.a. et ansvar for de gamle tusenårsmålene 4 og 5. For to uker siden var lederen av den afghanske jordmorforeningen i Oslo for å be om økt støtte til dette arbeidet i Afghanistan.
-Vil utenriksministeren sørge for fortsatt støtte til mødrehelse i Afghanistan?</tittel>
+      <tittel>om utenriksministeren vil sørge for fortsatt _støtte til mødrehelse i Afghanistan_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1725,7 +1757,32 @@ Hvilke tiltak vil statsråden sette i gang for å avdekke og bekjempe slike fors
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-05-04T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>66</id>
+          <navn>SYKDOMMER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>188</id>
+          <navn>FOLKEHELSE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>205</id>
+          <navn>ARBEIDSMILJØ</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>65625</id>
@@ -1766,8 +1823,7 @@ Hvilke tiltak vil statsråden sette i gang for å avdekke og bekjempe slike fors
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Vi er nå inne i en tidsperiode (2010-2020) hvor asbestarbeidere med eksponering før 1980, mens bruk av asbest ennå var utbredt, har økt fare for å bli rammet av lungekreft, anslagsvis 200-400 tilfeller årlig. Tidlig oppdagelse er helt avgjørende for muligheten til å behandle lungekreft. Organisert CT-screening av tidligere asbesteksponerte arbeidere er etablert i flere land. 
-Hvilke tiltak vil statsråden sette inn for at vi skal kunne ha mulighet til å oppdage og behandle lungekreft tidligst mulig i denne risikogruppa?</tittel>
+      <tittel>om hvilke tiltak statsråden vil sette inn for at vi skal kunne ha mulighet til å _oppdage og behandle lungekreft tidligst mulig_ i risikogruppen av tidligere asbesteksponerte arbeidere</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
