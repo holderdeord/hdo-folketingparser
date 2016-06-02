@@ -2017,7 +2017,16 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>38</id>
+          <navn>BOLIGSAKER</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Prop. 134 L (2015-2016)</henvisning>
       <id>65782</id>
@@ -5726,7 +5735,24 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
       <dokumentgruppe>innstillingssaker</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>26</id>
+          <navn>STORTINGSREPRESENTANTER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>173</id>
+          <navn>EFTA/EU</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Innst. 290 S (2015-2016)</henvisning>
       <id>65647</id>
@@ -46343,12 +46369,54 @@
         <id>PRES</id>
         <navn>Stortingets presidentskap</navn>
       </komite>
-      <korttittel>Innstilling fra Stortingets presidentskap om valg av medlemmer til Stortingets ansvarskommisjon</korttittel>
+      <korttittel>Valg av medlemmer til Stortingets ansvarskommisjon</korttittel>
       <sak_fremmet_id>65817</sak_fremmet_id>
       <saksordfoerer_liste />
-      <sist_oppdatert_dato>2016-06-01T00:00:00</sist_oppdatert_dato>
+      <sist_oppdatert_dato>2016-06-02T00:00:00</sist_oppdatert_dato>
       <status>til_behandling</status>
-      <tittel>Innstilling fra Stortingets presidentskap om valg av medlemmer til Stortingets ansvarskommisjon</tittel>
+      <tittel>Valg av medlemmer til Stortingets ansvarskommisjon</tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>innstillingssaker</dokumentgruppe>
+      <emne_liste />
+      <forslagstiller_liste />
+      <henvisning>Innst. 355 S (2015-2016)</henvisning>
+      <id>65824</id>
+      <innstilling_id>12615</innstilling_id>
+      <innstilling_kode>innstilling_s</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>PRES</id>
+        <navn>Stortingets presidentskap</navn>
+      </komite>
+      <korttittel>Godtgjørelser for stortingsrepresentantene og regjeringens medlemmer </korttittel>
+      <sak_fremmet_id>65824</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2016-06-02T00:00:00</sist_oppdatert_dato>
+      <status>til_behandling</status>
+      <tittel>Godtgjørelser for stortingsrepresentantene og regjeringens medlemmer </tittel>
+      <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id i:nil="true" />
+      <dokumentgruppe>ikke_spesifisert</dokumentgruppe>
+      <emne_liste />
+      <forslagstiller_liste />
+      <henvisning i:nil="true" />
+      <id>65828</id>
+      <innstilling_id>-1</innstilling_id>
+      <innstilling_kode>ikke_spesifisert</innstilling_kode>
+      <komite i:nil="true" />
+      <korttittel>Forelegg for Stortinget av overenskomster inngått med fremmede makter i 2015</korttittel>
+      <sak_fremmet_id>65828</sak_fremmet_id>
+      <saksordfoerer_liste />
+      <sist_oppdatert_dato>2015-10-01T00:00:00</sist_oppdatert_dato>
+      <status>mottatt</status>
+      <tittel>Forelegg for Stortinget av overenskomster inngått med fremmede makter i 2014</tittel>
       <type>alminneligsak</type>
     </sak>
     <sak>
