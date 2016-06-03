@@ -999,7 +999,32 @@ Kan statsråden berolige alle om at anbudet går som planlagt slik at man får e
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-05-26T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>7</id>
+          <navn>SYSSELSETTING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>184</id>
+          <navn>LOKALFORVALTNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>220</id>
+          <navn>DISTRIKTSPOLITIKK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>65757</id>
@@ -1040,8 +1065,7 @@ Kan statsråden berolige alle om at anbudet går som planlagt slik at man får e
       <sporsmal_til_minister_id>KMD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kommunal- og moderniseringsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Det er viktig å legge til rette for at folk kan bo og jobbe i hele Norge. Slik unngår vi også unødvendig sentralisering med de utfordringer det representerer. Gjennom regjeringens sentraliseringsiver, kutt i regionale utviklingsmidler og politikk på flere andre områder går Norge nå i motsatt retning.
-Vil statsråden ta initiativ for å snu denne negative utviklingen og bidra til at folk også i framtida kan jobbe - og leve - i hele landet?</tittel>
+      <tittel>om statsråden vil ta initiativ for å snu den negative utviklingen og _legge til rette for at folk også i framtida kan bo og jobbe i hele landet_, med bakgrunn i regjeringens sentraliseringsiver og kutt i regionale utviklingsmidler</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
