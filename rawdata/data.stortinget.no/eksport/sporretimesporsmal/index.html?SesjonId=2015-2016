@@ -835,7 +835,16 @@ Hvilke konkrete grep vil statsråden gjøre for å stoppe denne utviklingen og s
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-05-26T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
+          <id>189</id>
+          <navn>VEGVESEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>65760</id>
@@ -876,8 +885,7 @@ Hvilke konkrete grep vil statsråden gjøre for å stoppe denne utviklingen og s
       <sporsmal_til_minister_id>SD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>samferdselsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>I Statens vegvesen (SVV) sin handlingsplan for 2014-2017 lå E6 Helgeland inne, et av prosjektene er oppstart av strekningen Brattås-Lien i 2016/2017. SVV er godt i gang med planleggingen og skulle etter planen legge prosjektet ut på anbud høsten 2016 med oppstart 2017. Nå er det stor usikkerhet om dette vil skje, da man i etatenes utkast til ny NTP 2018-2029 først har en oppstart i 2018 på høy ramme og først i 2024 på middels ramme.
-Kan statsråden berolige alle om at anbudet går som planlagt slik at man får en oppstart 2017?</tittel>
+      <tittel>om statsråden kan berolige alle om at anbudet går som planlagt slik at man får en oppstart av _strekningen Brattås-Lien på E6_ i 2017</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1583,7 +1591,32 @@ Er dette noko statsråden har planer om å følgje opp?</tittel>
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-05-26T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>45</hovedemne_id>
+          <id>45</id>
+          <navn>FORSKNING</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>61</hovedemne_id>
+          <id>61</id>
+          <navn>HELSEVESEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>114</id>
+          <navn>NÆRINGSUTVIKLING</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>65746</id>
@@ -1624,8 +1657,7 @@ Er dette noko statsråden har planer om å følgje opp?</tittel>
       <sporsmal_til_minister_id>NFD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>næringsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Konkurranseevnen i næringslivet er avhengig av bedriftenes evne til kontinuerlig innovasjon og fornyelse. Gode klynger som tilrettelegger for samhandling mellom bedrifter, kunnskapsmiljøer, kunder, brukere og internasjonale nettverk påvirker innovasjonsevnen. Oslo Cancer Cluster er en slik klynge innen helseindustri, som nylig er blitt del av et prestisjetungt EU-samarbeid.
-Hvordan vil statsråden ta initiativ til å få på plass rammebetingelser tilpasset OCC og vekstpotensial i norsk helseindustri?</tittel>
+      <tittel>om hvordan statsråden vil ta initiativ til å få på plass rammebetingelser tilpasset _Oslo Cancer Cluster og vekstpotensial i norsk helseindustri_</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
