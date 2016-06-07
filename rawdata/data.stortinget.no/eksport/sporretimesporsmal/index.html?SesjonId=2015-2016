@@ -614,7 +614,16 @@
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-05-26T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
+          <id>121</id>
+          <navn>KULTURVERN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>65764</id>
@@ -655,8 +664,7 @@
       <sporsmal_til_minister_id>KD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kulturministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>Arkivverket har et stort behov for arkivutviklingsmidler, bare 4 mill. kroner er tilgjengelig. De har i år mottatt 55 søknader med et samlet søknadsbeløp på 24 mill. kroner. Arkivverket kan bare i særlige tilfeller gi støtte til privatarkiv.
-Hva vil statsråden gjøre for å bedre finansieringen av privatarkivarbeidet?</tittel>
+      <tittel>om hva statsråden vil gjøre for å _bedre finansieringen av privatarkivarbeidet_, med henvisning til at Arkivverket har et stort behov for arkivutviklingsmidler</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
@@ -1846,7 +1854,32 @@ Hva vil statsråden gjøre for å bedre finansieringen av privatarkivarbeidet?</
       <besvart_pa_vegne_av_minister_id i:nil="true" />
       <besvart_pa_vegne_av_minister_tittel i:nil="true" />
       <datert_dato>2016-05-26T00:00:00</datert_dato>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>6</hovedemne_id>
+          <id>6</id>
+          <navn>KULTUR</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>187</hovedemne_id>
+          <id>83</id>
+          <navn>PRISER OG KONKURRANSEFORHOLD</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>113</hovedemne_id>
+          <id>97</id>
+          <navn>VAREHANDEL</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
       <id>65745</id>
@@ -1887,7 +1920,7 @@ Hva vil statsråden gjøre for å bedre finansieringen av privatarkivarbeidet?</
       <sporsmal_til_minister_id>KD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>kulturministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om hvorfor statsråden vil skape ny usikkerhet og bruke ressurser på en _utredning av helligdagsfredloven_ kort etter den forrige, da verken arbeidsgivere eller arbeidstakere i bransjen selv ønsket å søndagsåpne flere butikker</tittel>
+      <tittel>om hvorfor statsråden vil skape ny usikkerhet og bruke ressurser på en _utredning av helligdagsfredloven_ kort tid etter den forrige, da det store flertallet ønsker å beholde søndag som en annerledesdag og verken arbeidsgivere eller arbeidstakere i bransjen ønsket å søndagsåpne flere butikker</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
