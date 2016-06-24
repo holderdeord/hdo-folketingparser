@@ -6,7 +6,32 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>29</id>
+          <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Dokument 3:14 (2015-2016)</henvisning>
       <id>66015</id>
@@ -25,7 +50,48 @@
       <versjon>1.3</versjon>
       <behandlet_sesjon_id i:nil="true" />
       <dokumentgruppe>dokumentserien</dokumentgruppe>
-      <emne_liste />
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>true</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>5</id>
+          <navn>ARBEIDSLIV</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>184</hovedemne_id>
+          <id>18</id>
+          <navn>INNVANDRERE</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>151</hovedemne_id>
+          <id>29</id>
+          <navn>RIKSREVISJONEN</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>11</hovedemne_id>
+          <id>141</id>
+          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>205</id>
+          <navn>ARBEIDSMILJØ</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
       <forslagstiller_liste />
       <henvisning>Dokument 3:15 (2015-2016)</henvisning>
       <id>66016</id>
@@ -6470,58 +6536,6 @@
     <sak>
       <versjon>1.3</versjon>
       <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
-      <dokumentgruppe>proposisjon</dokumentgruppe>
-      <emne_liste>
-        <emne>
-          <versjon>1.3</versjon>
-          <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>2</hovedemne_id>
-          <id>47</id>
-          <navn>VEGTRAFIKK</navn>
-          <underemne_liste />
-        </emne>
-      </emne_liste>
-      <forslagstiller_liste />
-      <henvisning>Prop. 138 L (2015-2016), Innst. 395 L (2015-2016), Lovvedtak 108 (2015-2016)</henvisning>
-      <id>65843</id>
-      <innstilling_id>12655</innstilling_id>
-      <innstilling_kode>innstilling_l</innstilling_kode>
-      <komite>
-        <versjon>1.3</versjon>
-        <id>TRANSKOM</id>
-        <navn>Transport- og kommunikasjonskomiteen</navn>
-      </komite>
-      <korttittel>Endringer i vegtrafikkloven (sykkelritt på veg)</korttittel>
-      <sak_fremmet_id>65843</sak_fremmet_id>
-      <saksordfoerer_liste>
-        <representant>
-          <versjon>1.3</versjon>
-          <doedsdato>0001-01-01T00:00:00</doedsdato>
-          <etternavn>Jegstad</etternavn>
-          <foedselsdato>1950-12-12T00:00:00</foedselsdato>
-          <fornavn>Nils Aage</fornavn>
-          <id>NAJ</id>
-          <kjoenn>mann</kjoenn>
-          <fylke>
-            <versjon>1.3</versjon>
-            <id>Ak</id>
-            <navn>Akershus</navn>
-          </fylke>
-          <parti>
-            <versjon>1.3</versjon>
-            <id>H</id>
-            <navn>Høyre</navn>
-          </parti>
-        </representant>
-      </saksordfoerer_liste>
-      <sist_oppdatert_dato>2016-06-10T00:00:00</sist_oppdatert_dato>
-      <status>behandlet</status>
-      <tittel>Endringer i vegtrafikkloven (sykkelritt på veg)</tittel>
-      <type>lovsak</type>
-    </sak>
-    <sak>
-      <versjon>1.3</versjon>
-      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
       <dokumentgruppe>representantforslag</dokumentgruppe>
       <emne_liste />
       <forslagstiller_liste>
@@ -6595,6 +6609,58 @@
       <status>behandlet</status>
       <tittel>Representantforslag fra stortingsrepresentantene Trygve Slagsvold Vedum, Marit Arnstad og Liv Signe Navarsete om en uavhengig juridisk betenkning om suverenitetsavståelse over tilsyn av finansmarkedet i Norge og forholdet til Grunnloven</tittel>
       <type>alminneligsak</type>
+    </sak>
+    <sak>
+      <versjon>1.3</versjon>
+      <behandlet_sesjon_id>2015-2016</behandlet_sesjon_id>
+      <dokumentgruppe>proposisjon</dokumentgruppe>
+      <emne_liste>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>2</hovedemne_id>
+          <id>47</id>
+          <navn>VEGTRAFIKK</navn>
+          <underemne_liste />
+        </emne>
+      </emne_liste>
+      <forslagstiller_liste />
+      <henvisning>Prop. 138 L (2015-2016), Innst. 395 L (2015-2016), Lovvedtak 108 (2015-2016)</henvisning>
+      <id>65843</id>
+      <innstilling_id>12655</innstilling_id>
+      <innstilling_kode>innstilling_l</innstilling_kode>
+      <komite>
+        <versjon>1.3</versjon>
+        <id>TRANSKOM</id>
+        <navn>Transport- og kommunikasjonskomiteen</navn>
+      </komite>
+      <korttittel>Endringer i vegtrafikkloven (sykkelritt på veg)</korttittel>
+      <sak_fremmet_id>65843</sak_fremmet_id>
+      <saksordfoerer_liste>
+        <representant>
+          <versjon>1.3</versjon>
+          <doedsdato>0001-01-01T00:00:00</doedsdato>
+          <etternavn>Jegstad</etternavn>
+          <foedselsdato>1950-12-12T00:00:00</foedselsdato>
+          <fornavn>Nils Aage</fornavn>
+          <id>NAJ</id>
+          <kjoenn>mann</kjoenn>
+          <fylke>
+            <versjon>1.3</versjon>
+            <id>Ak</id>
+            <navn>Akershus</navn>
+          </fylke>
+          <parti>
+            <versjon>1.3</versjon>
+            <id>H</id>
+            <navn>Høyre</navn>
+          </parti>
+        </representant>
+      </saksordfoerer_liste>
+      <sist_oppdatert_dato>2016-06-10T00:00:00</sist_oppdatert_dato>
+      <status>behandlet</status>
+      <tittel>Endringer i vegtrafikkloven (sykkelritt på veg)</tittel>
+      <type>lovsak</type>
     </sak>
     <sak>
       <versjon>1.3</versjon>
