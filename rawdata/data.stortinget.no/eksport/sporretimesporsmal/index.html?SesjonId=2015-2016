@@ -24866,14 +24866,6 @@ Kristelig Folkeparti er villig til å gå i en dialog for å se om det er mulig 
       <emne_liste>
         <emne>
           <versjon>1.3</versjon>
-          <er_hovedemne>true</er_hovedemne>
-          <hovedemne_id>5</hovedemne_id>
-          <id>5</id>
-          <navn>ARBEIDSLIV</navn>
-          <underemne_liste />
-        </emne>
-        <emne>
-          <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>40</hovedemne_id>
           <id>24</id>
@@ -25157,6 +25149,14 @@ Kristelig Folkeparti er villig til å gå i en dialog for å se om det er mulig 
           <navn>SVANGERSKAP</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>5</hovedemne_id>
+          <id>94</id>
+          <navn>ARBEIDSVILKÅR</navn>
+          <underemne_liste />
+        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen>
@@ -25398,6 +25398,14 @@ Kristelig Folkeparti er villig til å gå i en dialog for å se om det er mulig 
           <hovedemne_id>184</hovedemne_id>
           <id>52</id>
           <navn>KOMMUNER</navn>
+          <underemne_liste />
+        </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>171</id>
+          <navn>NORDISK SAMARBEID</navn>
           <underemne_liste />
         </emne>
       </emne_liste>
@@ -25648,9 +25656,9 @@ Kristelig Folkeparti er villig til å gå i en dialog for å se om det er mulig 
         <emne>
           <versjon>1.3</versjon>
           <er_hovedemne>false</er_hovedemne>
-          <hovedemne_id>11</hovedemne_id>
-          <id>141</id>
-          <navn>POLITI OG PÅTALEMYNDIGHET</navn>
+          <hovedemne_id>184</hovedemne_id>
+          <id>136</id>
+          <navn>BYGNINGSVESEN</navn>
           <underemne_liste />
         </emne>
         <emne>
@@ -26617,6 +26625,14 @@ Kristelig Folkeparti er villig til å gå i en dialog for å se om det er mulig 
           <navn>HELSEPERSONELL</navn>
           <underemne_liste />
         </emne>
+        <emne>
+          <versjon>1.3</versjon>
+          <er_hovedemne>false</er_hovedemne>
+          <hovedemne_id>163</hovedemne_id>
+          <id>171</id>
+          <navn>NORDISK SAMARBEID</navn>
+          <underemne_liste />
+        </emne>
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen i:nil="true" />
@@ -26658,7 +26674,7 @@ Kristelig Folkeparti er villig til å gå i en dialog for å se om det er mulig 
       <sporsmal_til_minister_id>HOD</sporsmal_til_minister_id>
       <sporsmal_til_minister_tittel>helse- og omsorgsministeren</sporsmal_til_minister_tittel>
       <status>besvart</status>
-      <tittel>om statsråden vil ta initiativ til en tilsvarende lovbestemmelse som den danske regjeringen, som vil fremme et lovforslag som skal _hindre leger i å praktisere i andre nordiske land når de er fratatt autorisasjonen_ i ett av landene</tittel>
+      <tittel>om statsråden vil ta initiativ til en tilsvarende lovbestemmelse som den danske regjeringen, som vil _hindre leger i å praktisere i andre nordiske land når de er fratatt autorisasjonen_ i ett av landene</tittel>
       <type>sporretime_sporsmal</type>
     </sporsmal>
     <sporsmal>
