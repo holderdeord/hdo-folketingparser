@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sporsmal_oversikt xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://data.stortinget.no">
-  <respons_dato_tid>2017-01-27T09:13:01.394077+01:00</respons_dato_tid>
+  <respons_dato_tid>2017-01-27T11:57:25.8777503+01:00</respons_dato_tid>
   <versjon>1.4</versjon>
   <sesjon_id>2008-2009</sesjon_id>
   <sporsmal_liste>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:15:49.4438506+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.284588+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
@@ -26,7 +26,7 @@
       <datert_dato>2009-05-18T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>163</hovedemne_id>
@@ -44,7 +44,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solberg</etternavn>
@@ -59,12 +59,18 @@
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>69</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:15:49.4438506+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.284588+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
@@ -80,10 +86,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.2851795+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Andersen</etternavn>
@@ -101,7 +107,7 @@
       <datert_dato>2009-05-14T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>5</hovedemne_id>
@@ -119,7 +125,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Duesund</etternavn>
@@ -134,12 +140,18 @@
           <id>AA</id>
           <navn>Aust-Agder</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>68</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.2851795+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Andersen</etternavn>
@@ -155,10 +167,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:15:49.4438506+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.284588+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
@@ -176,7 +188,7 @@
       <datert_dato>2009-05-14T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>163</hovedemne_id>
@@ -185,7 +197,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>163</hovedemne_id>
@@ -198,7 +210,7 @@
       <fremsatt_av_annen i:nil="true" />
       <id>43547</id>
       <rette_vedkommende>
-        <respons_dato_tid>2017-01-27T08:15:49.4438506+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.284588+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
@@ -212,7 +224,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Syversen</etternavn>
@@ -227,12 +239,18 @@
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>67</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T09:12:41.2214777+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.9153128+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solheim</etternavn>
@@ -248,10 +266,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.2851795+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Andersen</etternavn>
@@ -269,7 +287,7 @@
       <datert_dato>2009-05-06T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>5</hovedemne_id>
@@ -278,7 +296,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>5</hovedemne_id>
@@ -296,7 +314,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Duesund</etternavn>
@@ -311,12 +329,18 @@
           <id>AA</id>
           <navn>Aust-Agder</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>66</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.2851795+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Andersen</etternavn>
@@ -332,10 +356,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.3782879+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Huitfeldt</etternavn>
@@ -353,7 +377,7 @@
       <datert_dato>2009-04-29T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>40</hovedemne_id>
@@ -362,7 +386,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>40</hovedemne_id>
@@ -380,7 +404,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Grimstad</etternavn>
@@ -395,12 +419,18 @@
           <id>MR</id>
           <navn>Møre og Romsdal</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>65</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.3782879+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Huitfeldt</etternavn>
@@ -416,10 +446,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.1602457+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brekk</etternavn>
@@ -437,7 +467,7 @@
       <datert_dato>2009-04-28T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>46</hovedemne_id>
@@ -455,7 +485,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Ballo</etternavn>
@@ -470,12 +500,18 @@
           <id>Fi</id>
           <navn>Finnmark</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>SV</id>
+          <navn>Sosialistisk Venstreparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>64</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.1602457+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brekk</etternavn>
@@ -491,10 +527,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -512,7 +548,7 @@
       <datert_dato>2009-04-28T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -521,7 +557,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>10</hovedemne_id>
@@ -539,7 +575,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Ballo</etternavn>
@@ -554,12 +590,18 @@
           <id>Fi</id>
           <navn>Finnmark</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>SV</id>
+          <navn>Sosialistisk Venstreparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>63</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -575,10 +617,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -596,7 +638,7 @@
       <datert_dato>2009-04-23T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -605,7 +647,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -614,7 +656,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>10</hovedemne_id>
@@ -632,7 +674,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Dåvøy</etternavn>
@@ -647,12 +689,18 @@
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>62</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -668,10 +716,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T09:12:48.4717555+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:29.3059812+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aasland</etternavn>
@@ -689,7 +737,7 @@
       <datert_dato>2009-04-01T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>32</hovedemne_id>
@@ -698,7 +746,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>45</hovedemne_id>
@@ -707,7 +755,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>163</hovedemne_id>
@@ -716,7 +764,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>163</hovedemne_id>
@@ -734,7 +782,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Lånke</etternavn>
@@ -749,12 +797,18 @@
           <id>ST</id>
           <navn>Sør-Trøndelag</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>61</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T09:12:48.4717555+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:29.3059812+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aasland</etternavn>
@@ -770,10 +824,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:13:17.9093926+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:29.1184557+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Riis-Johansen</etternavn>
@@ -791,7 +845,7 @@
       <datert_dato>2009-03-31T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>4</hovedemne_id>
@@ -809,7 +863,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Lien</etternavn>
@@ -824,12 +878,18 @@
           <id>ST</id>
           <navn>Sør-Trøndelag</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>60</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:13:17.9093926+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:29.1184557+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Riis-Johansen</etternavn>
@@ -845,10 +905,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:45.8331313+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.5818724+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
@@ -866,7 +926,7 @@
       <datert_dato>2009-03-25T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>11</hovedemne_id>
@@ -884,7 +944,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aspaker</etternavn>
@@ -899,12 +959,18 @@
           <id>Tr</id>
           <navn>Troms</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>59</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:45.8331313+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.5818724+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
@@ -920,10 +986,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:15:49.4282237+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:06.9416228+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solhjell</etternavn>
@@ -941,7 +1007,7 @@
       <datert_dato>2009-03-24T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>32</hovedemne_id>
@@ -952,7 +1018,7 @@
       </emne_liste>
       <flyttet_til>ikke_spesifisert</flyttet_til>
       <fremsatt_av_annen>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Søreide</etternavn>
@@ -961,7 +1027,13 @@
         <id>IME</id>
         <kjoenn>kvinne</kjoenn>
         <fylke i:nil="true" />
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </fremsatt_av_annen>
       <id>43059</id>
@@ -971,7 +1043,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Isaksen</etternavn>
@@ -986,12 +1058,18 @@
           <id>Te</id>
           <navn>Telemark</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>58</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:15:49.4282237+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:06.9416228+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solhjell</etternavn>
@@ -1007,10 +1085,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.1602457+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brekk</etternavn>
@@ -1028,7 +1106,7 @@
       <datert_dato>2009-03-19T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>46</hovedemne_id>
@@ -1037,7 +1115,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>8</hovedemne_id>
@@ -1046,7 +1124,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>113</hovedemne_id>
@@ -1064,7 +1142,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Asmyhr</etternavn>
@@ -1079,12 +1157,18 @@
           <id>Ak</id>
           <navn>Akershus</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>57</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.1602457+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brekk</etternavn>
@@ -1100,10 +1184,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.1602457+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brekk</etternavn>
@@ -1121,7 +1205,7 @@
       <datert_dato>2009-03-18T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>184</hovedemne_id>
@@ -1130,7 +1214,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>46</hovedemne_id>
@@ -1148,7 +1232,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hjemdal</etternavn>
@@ -1163,12 +1247,18 @@
           <id>Øs</id>
           <navn>Østfold</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>56</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.1602457+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brekk</etternavn>
@@ -1184,10 +1274,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T09:12:41.2528718+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
@@ -1205,7 +1295,7 @@
       <datert_dato>2009-03-18T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>5</hovedemne_id>
@@ -1214,7 +1304,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>113</hovedemne_id>
@@ -1223,7 +1313,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>184</hovedemne_id>
@@ -1241,7 +1331,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sørfonn</etternavn>
@@ -1256,12 +1346,18 @@
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>55</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T09:12:41.2528718+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
@@ -1277,10 +1373,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T09:12:41.2682755+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:14.4841185+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Halvorsen</etternavn>
@@ -1298,7 +1394,7 @@
       <datert_dato>2009-03-17T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>5</hovedemne_id>
@@ -1307,7 +1403,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>113</hovedemne_id>
@@ -1316,7 +1412,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>187</hovedemne_id>
@@ -1334,7 +1430,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sanner</etternavn>
@@ -1349,12 +1445,18 @@
           <id>Ak</id>
           <navn>Akershus</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>54</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T09:12:41.2682755+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:14.4841185+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Halvorsen</etternavn>
@@ -1370,10 +1472,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -1391,7 +1493,7 @@
       <datert_dato>2009-03-17T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -1400,7 +1502,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -1418,7 +1520,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sjøli</etternavn>
@@ -1433,12 +1535,18 @@
           <id>Ak</id>
           <navn>Akershus</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>53</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -1454,10 +1562,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T09:12:41.2528718+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
@@ -1475,7 +1583,7 @@
       <datert_dato>2009-03-17T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>187</hovedemne_id>
@@ -1484,7 +1592,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>143</hovedemne_id>
@@ -1502,7 +1610,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hansen</etternavn>
@@ -1517,12 +1625,18 @@
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>52</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T09:12:41.2528718+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
@@ -1538,10 +1652,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:45.8331313+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.5818724+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
@@ -1559,7 +1673,7 @@
       <datert_dato>2009-03-13T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>11</hovedemne_id>
@@ -1577,7 +1691,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Ellingsen</etternavn>
@@ -1592,12 +1706,18 @@
           <id>No</id>
           <navn>Nordland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>51</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:45.8331313+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.5818724+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
@@ -1613,10 +1733,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.644338+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Giske</etternavn>
@@ -1634,7 +1754,7 @@
       <datert_dato>2009-03-12T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>6</hovedemne_id>
@@ -1652,7 +1772,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Lånke</etternavn>
@@ -1667,12 +1787,18 @@
           <id>ST</id>
           <navn>Sør-Trøndelag</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>50</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.644338+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Giske</etternavn>
@@ -1688,10 +1814,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.3782879+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Huitfeldt</etternavn>
@@ -1709,7 +1835,7 @@
       <datert_dato>2009-03-12T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>40</hovedemne_id>
@@ -1727,7 +1853,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Grande</etternavn>
@@ -1742,12 +1868,18 @@
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>V</id>
+          <navn>Venstre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>49</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.3782879+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Huitfeldt</etternavn>
@@ -1763,10 +1895,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -1784,7 +1916,7 @@
       <datert_dato>2009-03-12T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -1802,7 +1934,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Dåvøy</etternavn>
@@ -1817,12 +1949,18 @@
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>48</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -1838,10 +1976,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:15:49.4438506+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.284588+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
@@ -1859,7 +1997,7 @@
       <datert_dato>2009-03-05T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>163</hovedemne_id>
@@ -1868,7 +2006,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>163</hovedemne_id>
@@ -1886,7 +2024,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solberg</etternavn>
@@ -1901,12 +2039,18 @@
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>47</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:15:49.4438506+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.284588+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
@@ -1922,10 +2066,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:13:17.9093926+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:29.1184557+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Riis-Johansen</etternavn>
@@ -1943,7 +2087,7 @@
       <datert_dato>2009-02-26T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>45</hovedemne_id>
@@ -1952,7 +2096,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>4</hovedemne_id>
@@ -1970,7 +2114,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solvik-Olsen</etternavn>
@@ -1985,12 +2129,18 @@
           <id>Ro</id>
           <navn>Rogaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>46</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:13:17.9093926+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:29.1184557+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Riis-Johansen</etternavn>
@@ -2006,10 +2156,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:15:49.4438506+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.284588+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
@@ -2027,7 +2177,7 @@
       <datert_dato>2009-02-26T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>59</hovedemne_id>
@@ -2036,7 +2186,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>163</hovedemne_id>
@@ -2045,7 +2195,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>163</hovedemne_id>
@@ -2063,7 +2213,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.940231+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sahl</etternavn>
@@ -2078,12 +2228,18 @@
           <id>No</id>
           <navn>Nordland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>44</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:15:49.4438506+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.284588+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
@@ -2099,10 +2255,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:45.8331313+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.5818724+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
@@ -2120,7 +2276,7 @@
       <datert_dato>2009-02-20T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>11</hovedemne_id>
@@ -2138,7 +2294,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Dørum</etternavn>
@@ -2153,12 +2309,18 @@
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>V</id>
+          <navn>Venstre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>43</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:45.8331313+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.5818724+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
@@ -2174,10 +2336,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:13:17.9093926+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:29.1184557+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Riis-Johansen</etternavn>
@@ -2195,7 +2357,7 @@
       <datert_dato>2009-02-16T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>4</hovedemne_id>
@@ -2204,7 +2366,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>4</hovedemne_id>
@@ -2222,7 +2384,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Kristiansen</etternavn>
@@ -2237,12 +2399,18 @@
           <id>No</id>
           <navn>Nordland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>42</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:13:17.9093926+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:29.1184557+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Riis-Johansen</etternavn>
@@ -2258,10 +2426,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -2279,7 +2447,7 @@
       <datert_dato>2009-02-11T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -2288,7 +2456,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -2306,7 +2474,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sjøli</etternavn>
@@ -2321,12 +2489,18 @@
           <id>Ak</id>
           <navn>Akershus</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>41</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -2342,10 +2516,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -2363,7 +2537,7 @@
       <datert_dato>2009-02-11T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>10</hovedemne_id>
@@ -2372,7 +2546,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -2390,7 +2564,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Giltun</etternavn>
@@ -2405,12 +2579,18 @@
           <id>Øs</id>
           <navn>Østfold</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>40</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -2426,10 +2606,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.2851795+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Andersen</etternavn>
@@ -2447,7 +2627,7 @@
       <datert_dato>2009-02-03T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>5</hovedemne_id>
@@ -2456,7 +2636,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -2474,7 +2654,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Engeset</etternavn>
@@ -2489,12 +2669,18 @@
           <id>Øs</id>
           <navn>Østfold</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>39</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.2851795+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Andersen</etternavn>
@@ -2510,10 +2696,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.4407509+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Navarsete</etternavn>
@@ -2531,7 +2717,7 @@
       <datert_dato>2009-01-22T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>2</hovedemne_id>
@@ -2540,7 +2726,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>113</hovedemne_id>
@@ -2549,7 +2735,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>184</hovedemne_id>
@@ -2567,7 +2753,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sahl</etternavn>
@@ -2582,12 +2768,18 @@
           <id>No</id>
           <navn>Nordland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>38</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.4407509+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Navarsete</etternavn>
@@ -2603,10 +2795,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T09:12:48.4717555+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:29.3059812+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aasland</etternavn>
@@ -2624,7 +2816,7 @@
       <datert_dato>2009-01-20T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>32</hovedemne_id>
@@ -2642,7 +2834,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Søreide</etternavn>
@@ -2657,12 +2849,18 @@
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>37</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T09:12:48.4717555+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:29.3059812+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aasland</etternavn>
@@ -2678,10 +2876,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:45.8331313+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.5818724+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
@@ -2699,7 +2897,7 @@
       <datert_dato>2009-01-20T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>184</hovedemne_id>
@@ -2708,7 +2906,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>11</hovedemne_id>
@@ -2726,7 +2924,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Chaudhry</etternavn>
@@ -2741,12 +2939,18 @@
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>SV</id>
+          <navn>Sosialistisk Venstreparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>36</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:45.8331313+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.5818724+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
@@ -2762,10 +2966,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:45.8331313+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.5818724+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
@@ -2783,7 +2987,7 @@
       <datert_dato>2009-01-14T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>11</hovedemne_id>
@@ -2792,7 +2996,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>11</hovedemne_id>
@@ -2810,7 +3014,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Ellingsen</etternavn>
@@ -2825,12 +3029,18 @@
           <id>No</id>
           <navn>Nordland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>35</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:45.8331313+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.5818724+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
@@ -2846,10 +3056,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:15:49.4438506+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.284588+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
@@ -2867,7 +3077,7 @@
       <datert_dato>2009-01-14T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>163</hovedemne_id>
@@ -2876,7 +3086,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>163</hovedemne_id>
@@ -2885,7 +3095,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>163</hovedemne_id>
@@ -2894,7 +3104,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>163</hovedemne_id>
@@ -2912,7 +3122,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Vallersnes</etternavn>
@@ -2927,12 +3137,18 @@
           <id>Ro</id>
           <navn>Rogaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>34</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:15:49.4438506+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.284588+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Støre</etternavn>
@@ -2948,10 +3164,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:45.8331313+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.5818724+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
@@ -2969,7 +3185,7 @@
       <datert_dato>2008-12-19T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>184</hovedemne_id>
@@ -2978,7 +3194,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>11</hovedemne_id>
@@ -2987,7 +3203,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>10</hovedemne_id>
@@ -3005,7 +3221,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Syversen</etternavn>
@@ -3020,12 +3236,18 @@
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>33</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:45.8331313+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.5818724+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
@@ -3041,10 +3263,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -3062,7 +3284,7 @@
       <datert_dato>2008-12-16T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -3071,7 +3293,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -3080,7 +3302,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -3098,7 +3320,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.4878043+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>2013-03-24T00:00:00</doedsdato>
         <etternavn>Lønning</etternavn>
@@ -3113,12 +3335,18 @@
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>32</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -3134,10 +3362,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -3155,7 +3383,7 @@
       <datert_dato>2008-12-11T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -3164,7 +3392,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>10</hovedemne_id>
@@ -3182,7 +3410,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Dåvøy</etternavn>
@@ -3197,12 +3425,18 @@
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>31</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -3218,10 +3452,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:15:49.4282237+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:06.9416228+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solhjell</etternavn>
@@ -3239,7 +3473,7 @@
       <datert_dato>2008-12-05T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>32</hovedemne_id>
@@ -3257,7 +3491,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Gundersen</etternavn>
@@ -3272,12 +3506,18 @@
           <id>He</id>
           <navn>Hedmark</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>30</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:15:49.4282237+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:06.9416228+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solhjell</etternavn>
@@ -3293,10 +3533,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:15:49.4282237+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:06.9416228+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solhjell</etternavn>
@@ -3314,7 +3554,7 @@
       <datert_dato>2008-12-04T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>32</hovedemne_id>
@@ -3323,7 +3563,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>184</hovedemne_id>
@@ -3341,7 +3581,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Anundsen</etternavn>
@@ -3356,12 +3596,18 @@
           <id>Ve</id>
           <navn>Vestfold</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>29</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:15:49.4282237+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:06.9416228+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solhjell</etternavn>
@@ -3377,10 +3623,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -3398,7 +3644,7 @@
       <datert_dato>2008-11-27T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -3407,7 +3653,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -3425,7 +3671,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Giltun</etternavn>
@@ -3440,12 +3686,18 @@
           <id>Øs</id>
           <navn>Østfold</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>28</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -3461,10 +3713,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T09:12:41.2214777+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.9153128+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solheim</etternavn>
@@ -3482,7 +3734,7 @@
       <datert_dato>2008-11-26T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>139</hovedemne_id>
@@ -3491,7 +3743,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>113</hovedemne_id>
@@ -3509,7 +3761,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solvik-Olsen</etternavn>
@@ -3524,12 +3776,18 @@
           <id>Ro</id>
           <navn>Rogaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>27</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T09:12:41.2214777+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.9153128+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solheim</etternavn>
@@ -3545,10 +3803,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:13:17.9093926+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:29.1184557+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Riis-Johansen</etternavn>
@@ -3566,7 +3824,7 @@
       <datert_dato>2008-11-26T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>4</hovedemne_id>
@@ -3575,7 +3833,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>113</hovedemne_id>
@@ -3593,7 +3851,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solvik-Olsen</etternavn>
@@ -3608,12 +3866,18 @@
           <id>Ro</id>
           <navn>Rogaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>26</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:13:17.9093926+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:29.1184557+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Riis-Johansen</etternavn>
@@ -3629,10 +3893,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T09:12:48.4717555+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:29.3059812+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aasland</etternavn>
@@ -3650,7 +3914,7 @@
       <datert_dato>2008-11-20T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>32</hovedemne_id>
@@ -3659,7 +3923,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>32</hovedemne_id>
@@ -3668,7 +3932,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>10</hovedemne_id>
@@ -3686,7 +3950,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Eriksen</etternavn>
@@ -3701,12 +3965,18 @@
           <id>VA</id>
           <navn>Vest-Agder</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>25</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T09:12:48.4717555+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:29.3059812+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Aasland</etternavn>
@@ -3722,10 +3992,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -3743,7 +4013,7 @@
       <datert_dato>2008-11-18T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -3752,7 +4022,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -3770,7 +4040,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Fredriksen</etternavn>
@@ -3785,12 +4055,18 @@
           <id>Fi</id>
           <navn>Finnmark</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>24</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -3806,10 +4082,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T09:12:41.2528718+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
@@ -3827,7 +4103,7 @@
       <datert_dato>2008-11-18T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>113</hovedemne_id>
@@ -3836,7 +4112,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>163</hovedemne_id>
@@ -3854,7 +4130,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Asmyhr</etternavn>
@@ -3869,12 +4145,18 @@
           <id>Ak</id>
           <navn>Akershus</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>23</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T09:12:41.2528718+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
@@ -3890,10 +4172,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.1602457+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brekk</etternavn>
@@ -3911,7 +4193,7 @@
       <datert_dato>2008-11-18T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>46</hovedemne_id>
@@ -3920,7 +4202,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>187</hovedemne_id>
@@ -3938,7 +4220,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Asmyhr</etternavn>
@@ -3953,12 +4235,18 @@
           <id>Ak</id>
           <navn>Akershus</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>22</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.1602457+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brekk</etternavn>
@@ -3974,10 +4262,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -3995,7 +4283,7 @@
       <datert_dato>2008-11-17T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -4013,7 +4301,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>2013-03-24T00:00:00</doedsdato>
         <etternavn>Lønning</etternavn>
@@ -4028,12 +4316,18 @@
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>21</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -4049,10 +4343,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -4070,7 +4364,7 @@
       <datert_dato>2008-11-11T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -4079,7 +4373,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -4097,7 +4391,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Nesvik</etternavn>
@@ -4112,12 +4406,18 @@
           <id>MR</id>
           <navn>Møre og Romsdal</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>20</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -4133,10 +4433,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.4407509+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Navarsete</etternavn>
@@ -4154,7 +4454,7 @@
       <datert_dato>2008-11-05T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>2</hovedemne_id>
@@ -4163,7 +4463,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>2</hovedemne_id>
@@ -4172,7 +4472,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>2</hovedemne_id>
@@ -4190,7 +4490,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sortevik</etternavn>
@@ -4205,12 +4505,18 @@
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>19</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.4407509+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Navarsete</etternavn>
@@ -4226,10 +4532,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -4247,7 +4553,7 @@
       <datert_dato>2008-10-31T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -4256,7 +4562,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -4265,7 +4571,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -4283,7 +4589,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Bøhler</etternavn>
@@ -4298,12 +4604,18 @@
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>A</id>
+          <navn>Arbeiderpartiet</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>18</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -4319,10 +4631,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.2851795+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Andersen</etternavn>
@@ -4340,7 +4652,7 @@
       <datert_dato>2008-10-21T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>5</hovedemne_id>
@@ -4349,7 +4661,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>10</hovedemne_id>
@@ -4367,7 +4679,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Svendsen</etternavn>
@@ -4382,12 +4694,18 @@
           <id>No</id>
           <navn>Nordland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>17</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.2851795+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Andersen</etternavn>
@@ -4403,10 +4721,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.3782879+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Huitfeldt</etternavn>
@@ -4424,7 +4742,7 @@
       <datert_dato>2008-10-17T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>184</hovedemne_id>
@@ -4433,7 +4751,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>40</hovedemne_id>
@@ -4442,7 +4760,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>40</hovedemne_id>
@@ -4451,7 +4769,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>184</hovedemne_id>
@@ -4469,7 +4787,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Lysklætt</etternavn>
@@ -4484,12 +4802,18 @@
           <id>Fi</id>
           <navn>Finnmark</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>V</id>
+          <navn>Venstre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>16</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.3782879+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Huitfeldt</etternavn>
@@ -4505,10 +4829,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T09:12:41.2528718+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
@@ -4526,7 +4850,7 @@
       <datert_dato>2008-10-10T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>5</hovedemne_id>
@@ -4535,7 +4859,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>113</hovedemne_id>
@@ -4544,7 +4868,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>187</hovedemne_id>
@@ -4562,7 +4886,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hansen</etternavn>
@@ -4577,12 +4901,18 @@
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>15</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T09:12:41.2528718+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
@@ -4598,10 +4928,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T09:12:41.2682755+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:14.4841185+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Halvorsen</etternavn>
@@ -4619,7 +4949,7 @@
       <datert_dato>2008-10-02T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>4</hovedemne_id>
@@ -4628,7 +4958,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>187</hovedemne_id>
@@ -4646,7 +4976,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Sanner</etternavn>
@@ -4661,12 +4991,18 @@
           <id>Ak</id>
           <navn>Akershus</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>14</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T09:12:41.2682755+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:14.4841185+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Halvorsen</etternavn>
@@ -4682,10 +5018,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -4703,7 +5039,7 @@
       <datert_dato>2008-10-02T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -4712,7 +5048,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -4730,7 +5066,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Dåvøy</etternavn>
@@ -4745,12 +5081,18 @@
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>2</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -4766,10 +5108,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -4787,7 +5129,7 @@
       <datert_dato>2008-10-02T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>2</hovedemne_id>
@@ -4796,7 +5138,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -4814,7 +5156,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Kvassheim</etternavn>
@@ -4829,12 +5171,18 @@
           <id>Ro</id>
           <navn>Rogaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>V</id>
+          <navn>Venstre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>1</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -4850,10 +5198,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -4871,7 +5219,7 @@
       <datert_dato>2008-09-26T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -4889,7 +5237,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Andersen</etternavn>
@@ -4904,12 +5252,18 @@
           <id>He</id>
           <navn>Hedmark</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>SV</id>
+          <navn>Sosialistisk Venstreparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>12</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -4925,10 +5279,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:45.8331313+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.5818724+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
@@ -4946,7 +5300,7 @@
       <datert_dato>2008-09-24T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>40</hovedemne_id>
@@ -4955,7 +5309,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>40</hovedemne_id>
@@ -4964,7 +5318,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>10</hovedemne_id>
@@ -4977,7 +5331,7 @@
       <fremsatt_av_annen i:nil="true" />
       <id>40995</id>
       <rette_vedkommende>
-        <respons_dato_tid>2017-01-27T08:14:45.8331313+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.5818724+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
@@ -4991,7 +5345,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Duesund</etternavn>
@@ -5006,12 +5360,18 @@
           <id>AA</id>
           <navn>Aust-Agder</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>11</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:48.7081902+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:08.3782879+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Huitfeldt</etternavn>
@@ -5027,10 +5387,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:15:49.4282237+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:06.9416228+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solhjell</etternavn>
@@ -5048,7 +5408,7 @@
       <datert_dato>2008-09-23T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>32</hovedemne_id>
@@ -5057,7 +5417,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>32</hovedemne_id>
@@ -5075,7 +5435,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Holmberg</etternavn>
@@ -5090,12 +5450,18 @@
           <id>Te</id>
           <navn>Telemark</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>10</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:15:49.4282237+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:06.9416228+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solhjell</etternavn>
@@ -5111,10 +5477,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:45.8331313+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.6809219+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Røys</etternavn>
@@ -5132,7 +5498,7 @@
       <datert_dato>2008-09-23T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>11</hovedemne_id>
@@ -5150,7 +5516,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Høie</etternavn>
@@ -5165,12 +5531,18 @@
           <id>Ro</id>
           <navn>Rogaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>9</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:45.8331313+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.6809219+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Røys</etternavn>
@@ -5186,10 +5558,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T09:12:41.2214777+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.9153128+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solheim</etternavn>
@@ -5207,7 +5579,7 @@
       <datert_dato>2008-09-22T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>163</hovedemne_id>
@@ -5225,7 +5597,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Vallersnes</etternavn>
@@ -5240,12 +5612,18 @@
           <id>Ro</id>
           <navn>Rogaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>13</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T09:12:41.2214777+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.9153128+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solheim</etternavn>
@@ -5261,10 +5639,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:45.8331313+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.5818724+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
@@ -5282,7 +5660,7 @@
       <datert_dato>2008-09-16T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>11</hovedemne_id>
@@ -5291,7 +5669,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>163</hovedemne_id>
@@ -5309,7 +5687,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Syversen</etternavn>
@@ -5324,12 +5702,18 @@
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>8</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T08:14:45.8331313+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:07.5818724+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Storberget</etternavn>
@@ -5345,10 +5729,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T09:01:29.9130576+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:13.5627769+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Stoltenberg</etternavn>
@@ -5366,7 +5750,7 @@
       <datert_dato>2008-06-30T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>184</hovedemne_id>
@@ -5375,7 +5759,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>155</hovedemne_id>
@@ -5384,7 +5768,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>187</hovedemne_id>
@@ -5402,7 +5786,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Solberg</etternavn>
@@ -5417,12 +5801,18 @@
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>7</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T09:01:29.9130576+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:21:13.5627769+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Stoltenberg</etternavn>
@@ -5438,10 +5828,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -5454,7 +5844,7 @@
       <besvart_av_minister_tittel>helse- og omsorgsministeren</besvart_av_minister_tittel>
       <besvart_dato>2008-10-14T00:00:00</besvart_dato>
       <besvart_pa_vegne_av>
-        <respons_dato_tid>2017-01-27T09:12:41.2528718+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
@@ -5468,7 +5858,7 @@
       <datert_dato>2008-06-20T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -5477,7 +5867,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -5495,7 +5885,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Dåvøy</etternavn>
@@ -5510,12 +5900,18 @@
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>6</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T09:12:41.2528718+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
@@ -5531,10 +5927,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -5547,7 +5943,7 @@
       <besvart_av_minister_tittel>helse- og omsorgsministeren</besvart_av_minister_tittel>
       <besvart_dato>2008-10-14T00:00:00</besvart_dato>
       <besvart_pa_vegne_av>
-        <respons_dato_tid>2017-01-27T09:12:41.2528718+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
@@ -5561,7 +5957,7 @@
       <datert_dato>2008-06-16T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>10</hovedemne_id>
@@ -5570,7 +5966,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -5579,7 +5975,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -5597,7 +5993,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>2013-03-24T00:00:00</doedsdato>
         <etternavn>Lønning</etternavn>
@@ -5612,12 +6008,18 @@
           <id>Os</id>
           <navn>Oslo</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>H</id>
+          <navn>Høyre</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>5</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T09:12:41.2528718+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
@@ -5633,10 +6035,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -5649,7 +6051,7 @@
       <besvart_av_minister_tittel>helse- og omsorgsministeren</besvart_av_minister_tittel>
       <besvart_dato>2008-10-14T00:00:00</besvart_dato>
       <besvart_pa_vegne_av>
-        <respons_dato_tid>2017-01-27T09:12:41.2528718+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
@@ -5663,7 +6065,7 @@
       <datert_dato>2008-06-10T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>true</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -5672,7 +6074,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -5690,7 +6092,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Dåvøy</etternavn>
@@ -5705,12 +6107,18 @@
           <id>Ho</id>
           <navn>Hordaland</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>KrF</id>
+          <navn>Kristelig Folkeparti</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>4</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T09:12:41.2528718+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
@@ -5726,10 +6134,10 @@
       <type>interpellasjon</type>
     </sporsmal>
     <sporsmal>
-      <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+      <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
       <versjon>1.4</versjon>
       <besvart_av>
-        <respons_dato_tid>2017-01-27T08:14:21.0982312+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Hanssen</etternavn>
@@ -5742,7 +6150,7 @@
       <besvart_av_minister_tittel>helse- og omsorgsministeren</besvart_av_minister_tittel>
       <besvart_dato>2008-10-14T00:00:00</besvart_dato>
       <besvart_pa_vegne_av>
-        <respons_dato_tid>2017-01-27T09:12:41.2528718+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
@@ -5756,7 +6164,7 @@
       <datert_dato>2008-05-29T00:00:00</datert_dato>
       <emne_liste>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>10</hovedemne_id>
@@ -5765,7 +6173,7 @@
           <underemne_liste />
         </emne>
         <emne>
-          <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+          <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
           <versjon>1.4</versjon>
           <er_hovedemne>false</er_hovedemne>
           <hovedemne_id>61</hovedemne_id>
@@ -5783,7 +6191,7 @@
       <sendt_dato>0001-01-01T00:00:00</sendt_dato>
       <sesjon_id>2008-2009</sesjon_id>
       <sporsmal_fra>
-        <respons_dato_tid>2017-01-27T09:13:01.5034337+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:57:25.9558406+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Nesvik</etternavn>
@@ -5798,12 +6206,18 @@
           <id>MR</id>
           <navn>Møre og Romsdal</navn>
         </fylke>
-        <parti i:nil="true" />
+        <parti>
+          <respons_dato_tid>2017-01-27T11:21:06.0983673+01:00</respons_dato_tid>
+          <versjon>1.4</versjon>
+          <id>FrP</id>
+          <navn>Fremskrittspartiet</navn>
+          <representert_parti>true</representert_parti>
+        </parti>
         <vara_representant>false</vara_representant>
       </sporsmal_fra>
       <sporsmal_nummer>3</sporsmal_nummer>
       <sporsmal_til>
-        <respons_dato_tid>2017-01-27T09:12:41.2528718+01:00</respons_dato_tid>
+        <respons_dato_tid>2017-01-27T11:05:28.4621674+01:00</respons_dato_tid>
         <versjon>1.4</versjon>
         <doedsdato>0001-01-01T00:00:00</doedsdato>
         <etternavn>Brustad</etternavn>
