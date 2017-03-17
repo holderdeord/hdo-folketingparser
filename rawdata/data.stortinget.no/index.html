@@ -1,185 +1,495 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xml:lang="no" xmlns="http://www.w3.org/1999/xhtml">
-
+<!DOCTYPE html>
+<html>
     <head>
- 
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge, Chrome=1" />
+            <title>Forside | Stortinget | &#229;pne data </title>
+    <meta charset="utf-8">
+    <meta httpequiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{this.props.description}/">
+    <meta name="author" content="">
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/favicons/apple-touch-icon.png">
+    <link rel="icon" type="/image/png" href="/public/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="/image/png" href="/public/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/public/favicons/manifest.json">
+    <link rel="mask-icon" href="/public/favicons/safari-pinned-tab.svg" color="#cf0a2c ">
+    <meta name="apple-mobile-web-app-title" content="Stortinget">
+    <meta name="application-name" content="Stortinget">
+    <meta name="theme-color" content="#ffffff ">
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/hybrid.min.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/app.css" media="screen, projection, handheld">
+    <link rel="stylesheet" type="text/css" href="/public/css/print.css" media="print">
+    <script src="/public/js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 
-        <title>Forsiden - data.stortinget.no</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link href="/Styles/style.css" rel="stylesheet" type="text/css" />
-
-
-
-<link rel="shortcut icon" href="/favicon.ico" />
-
-<script type="text/javascript" src="/N2/Resources/Js/jquery-1.6.1.min.js"></script>
-<script type="text/javascript" src="/N2/Resources/Js/jquery.ui.ashx?v=2.2.0.0"></script>
-<script type="text/javascript" src="/Scripts/effects.js"></script>
-<script type="text/javascript" src="/Scripts/SyntaxHighlighter/shCore.js"></script>
-<script type="text/javascript" src="/Scripts/SyntaxHighlighter/shAutoloader.js"></script>
-<script type="text/javascript" src="/Scripts/stickysidebar.jquery.js"></script>    
-<script type="text/javascript" src="/Scripts/init_N2.js"></script>
-        <script type="text/javascript">
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-20877829-1']);
-            _gaq.push(['_gat._anonymizeIp']);
-            _gaq.push(['_setDomainName', '.stortinget.no']);
-            _gaq.push(['_setAllowLinker', true]);
-            _gaq.push(['_trackPageview']);
-            (function () {
-                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-            })();
-        </script>
-
-    </head>
+</head>
 <body>
-    
-    <div class="headerWrapper clearfix">
-        <div id="header" class="clearfix">
+    <div id="app">
+        <div class="main-container">
+            <h1 class="visuallyhidden">Stortinget.no</h1>
             
-            <a href="/" id="logo">
-                <img src="/Media/logo.png" alt="Logo" />
-            </a>
+            
 
-            <div id="mainMenu">
-                <div class="topShadow"></div>
-    <ul>
-        
-            <li>
-                <a class="" href="/om-tjenesten">
-                    <div class="leftShadow"></div>
-                    <div class="topShadow"></div>
-                    
 
-                    <span>Om tjenesten</span>
-                    
 
-                </a>
-            </li>       
-            <li>
-                <a class="" href="/eksport">
-                    <div class="leftShadow"></div>
-                    <div class="topShadow"></div>
-                    
+<header class="apenData-header header" role="banner" data-header="true">
+    <div class="header-bg">
+        <div class="bg-red"></div>
+    </div>
+    <a href="#main-content" class="skip-link">Til hovedinnhold</a>
+    <div class="header-curtain" data-nav-primary-curtain="true"></div>
+    <div class="header-container">
+        <div class="row">
+            <div class="large-12 columns small-collapse">
+                <div class="border">
+                    <div class="header-actions">
+                        <a href="/" class="logo"><img src="/public/gfx/logo.svg" alt="Stortinget"></a>
+                                <div class="apne-data">&#197;PNE DATA</div>
 
-                    <span>Dataeksport</span>
-                    
+                        <button type="button" class="nav-primary-toggle" data-toggle-nav-primary="true">
+                            <span class="nav-primary-toggle-open">Meny</span><span class="nav-primary-toggle-close">Lukk</span>
+                        </button>
+                    </div>
+                    <div class="header-bar" data-header-bar="true">
+                        <nav class="apenData-nav-primary nav-primary" role="navigation" data-nav-primary="">
+                            <h2 class="visuallyhidden">Hovednavigasjon</h2>
+                            <ul class="level-1">
+                                <li class="language-selector-mobile">
 
-                </a>
-            </li>       
-            <li>
-                <a class="" href="/eksempler">
-                    <div class="leftShadow"></div>
-                    <div class="topShadow"></div>
-                    
+                                </li>
+                                        <li>
+                                            <a href="#" role="button">Om datatjenesten</a>
+                                            <div class="col-container">
+                                                    <div class="section-link">
+        <a href="/om-datatjenesten/">
+Om datatjenesten
+        </a>
 
-                    <span>Eksempler</span>
-                    
+    </div>
+    <div class="col">
+        <ul class="level-2">
+                    <li>
+                        <a href="/bruksvilkar/">Bruksvilk&#229;r</a>
+                    </li>
+                    <li>
+                        <a href="/personvern/">Personvern og informasjonskapsler</a>
+                    </li>
+        </ul>
+    </div>
+    <div class="col">
+        <ul class="level-2">
+                    <li>
+                        <a href="/nyhetsoversikt/">Nyhetsoversikt</a>
+                    </li>
+                    <li>
+                        <a href="/eksempler/">Eksempler p&#229; bruk av datatjenesten</a>
+                    </li>
+        </ul>
+    </div>
 
-                </a>
-            </li>       
-            <li>
-                <a class="" href="/bygger">
-                    <div class="leftShadow"></div>
-                    <div class="topShadow"></div>
-                    
-                        <div class="rightShadow"></div>
+                                                <div class="close-wrapper">
+                                                    <button type="button" class="close-menu close-button">Lukk</button>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" role="button">Dataeksport</a>
+                                            <div class="col-container">
+                                                    <div class="section-link">
+        <a href="/eksport/">
+Dataeksport
+        </a>
 
-                    <span>Databyggere</span>
-                    
+    </div>
+    <div class="col">
+        <ul class="level-2">
+                    <li>
+                        <a href="/last-ned-datasett/">Last ned datasett (kommer)</a>
+                    </li>
+        </ul>
+    </div>
+    <div class="col">
+        <ul class="level-2">
+                    <li>
+                        <a href="/bygger/">Om databyggerne</a>
+                    </li>
+                    <li>
+                        <a href="/bygger/saksfordeling/">Sakers databygger</a>
+                    </li>
+                    <li>
+                        <a href="/bygger/representantfordeling/">Representantfordeling databygger</a>
+                    </li>
+                    <li>
+                        <a href="/bygger/sporsmalsfordeling/">Sp&#248;rsm&#229;lsdatabygger</a>
+                    </li>
+                    <li>
+                        <a href="/bygger/votering/">Voteringsdatabygger</a>
+                    </li>
+        </ul>
+    </div>
 
-                </a>
-            </li>       
- 
-    </ul>
+                                                <div class="close-wrapper">
+                                                    <button type="button" class="close-menu close-button">Lukk</button>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" role="button">Dokumentasjon og hjelp</a>
+                                            <div class="col-container">
+                                                    <div class="section-link">
+        <a href="/dokumentasjon-og-hjelp/">
+Dokumentasjon og hjelp
+        </a>
+
+    </div>
+    <div class="col">
+        <ul class="level-2">
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/viktige-termer/">Viktige termer</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/stortingsperioder/">Stortingsperioder</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/sesjoner/">Sesjoner</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/fylker/">Fylker</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/emner/">Emner</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/partier/">Partier</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/alle-partier/">Alle partier</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/komiteer/">Komiteer</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/alle-komiteer/">Alle kommiteer</a>
+                    </li>
+        </ul>
+    </div>
+    <div class="col">
+        <ul class="level-2">
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/representanter/">Representanter</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/dagens-representanter/">Dagens representanter</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/person/">Person</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/personbilde/">Personbilde</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/kodet-personbiografi/">Kodet personbiografi</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/regjering/">Regjering</a>
+                    </li>
+        </ul>
+    </div>
+    <div class="col">
+        <ul class="level-2">
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/sporsmal/">Sp&#248;rsm&#229;l</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/saksganger/">Saksganger</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/saker/">Saker</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/sak/">Sak</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/voteringer/">Voteringer</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/voteringsforslag/">Voteringsforslag</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/voteringsvedtak/">Voteringsvedtak</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/voteringsresultat/">Voteringsresultat</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/kommentar-til-datagrunnlaget-for-voteringer/">Kommentar til datagrunnlaget for voteringer</a>
+                    </li>
+        </ul>
+    </div>
+    <div class="col">
+        <ul class="level-2">
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/moter/">M&#248;ter</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/dagsorden/">Dagsorden</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/talerliste/">Talerliste</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/horinger/">H&#248;ringer</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/horingsprogram/">H&#248;ringsprogram</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/publikasjoner/">Publikasjoner</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/publikasjon/">Publikasjon</a>
+                    </li>
+        </ul>
+    </div>
+
+                                                <div class="close-wrapper">
+                                                    <button type="button" class="close-menu close-button">Lukk</button>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                            </ul>
+                        </nav>
+                        <nav class="apenData-nav-secondary" role="navigation" data-nav-secondary="true">
+                            <h2 class="visuallyhidden">Globale verkt&#xF8;y</h2>
+                            <ul>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
             </div>
+        </div>
+    </div>
+</header>
 
+            <div class="row">
+    <div class="large-12 columns">
+        <div class="action-bar">
+            <nav class="breadcrumb" role="navigation">
+                <h2 id="breadcrumbslabel" class="breadcrumb-label visuallyhidden">Du er her:</h2>
+                <ul class="no-bullet" aria-labelledby="breadcrumbslabel">
+                    <li class="sectional breadcrumb-label"></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+            <main id="main-content" class="content-container" role="main" tabindex="-1">
+                <div class="apenData-container apenData-frontpage">
+<div class="row">
+    <div class="large-8 columns">
+        <h1>Stortingets datatjeneste</h1>
+
+
+        <p class="page-ingress">Stortingets datatjeneste tilbyr uttrekk&nbsp;fra databaser som benyttes i Stortingets&nbsp;parlamentariske saksbehandling. Dette innebærer hovedsakelig data om voteringer, saker, spørsmål, representanter, stortingsmøter, høringer og publikasjoner.</p>
+
+            <p>
+        <p>Dataene er gratis og tilgjengelig for alle.</p>
+<p>Denne datatjenesten gir&nbsp;de som ønsker det&nbsp;mulighet til å gjenbruke dataene i ulike sammenhenger.</p>
+    </p>
+
+    </div>
+</div>
+
+
+    <div class="row large-bottom-margin">
+        <div class="large-12 columns">
+            <div class="medium-6 columns step-container darkened">
+                <h2 class="">Slik benytter du Stortinget sine &#229;pne data:</h2>
+                            <a class="link-icon apenData-icon-download" href="/last-ned-datasett/" tooltiop="Last ned datasett"><span>Last ned datasett (kommer)</span></a>
+
+            </div>
+            <div class="medium-6 columns step-container">
+                <h2 class="">Eller:</h2>
+                <ol>
+                    <li>
+                                    <a class="link-icon apenData-icon-register" href="/registreringsside/" tooltiop="Registrer deg"><span>Registrer deg</span></a>
+
+                    </li>
+                    <li>
+                                    <a class="link-icon apenData-icon-api" href="/eksport/" tooltiop="Bruk API"><span>Bruk Api</span></a>
+
+                    </li>
+                </ol>
+                            <a class="" href="/bruksvilkar/" tooltiop="/link/78b57580fa6e46fe8b0686964665c799.aspx?epslanguage=no"><span>Bruksvilk&#229;r</span></a>
+
+            </div>
         </div>
     </div>
 
-    <div class="dropShadow floatLeft"></div>    
 
-        <div id="mainwrapper" class="clearfix">
-            
-            <div class="subMenuWrapper">
-                
-                <div class="redHeading">[data.stortinget.no]</div>
-            
-    <ul class="subMenu">
-    
     
 
 
+<div class="row">
+    <div class="large-12 columns">
+        <h2 class="center">Utvalgte datasett</h2>
+        
 
-    </ul>
-            
-            </div>
-                                                                                                             
-            <div class="breadcrumb"><span class="smalltext">Du er her:&nbsp;</span>
+<!-- The "inner foor" of this, could be placed in Block\DataSet\index.cshtml, a "global" view for a DataSetPage as a Block, always printing out <a><p>... By using PropFor(dataSet, DisplayType.Block)... -->
+
+<ul class="flex-container">
+                <li class="flex-item-25 dataset">
+                    <a href="/dokumentasjon-og-hjelp/saker/">Saker</a>
+                    <p>
+                        Liste over alle saker fordelt på sesjoner.
+                    </p>
+                </li>
+                <li class="flex-item-25 dataset">
+                    <a href="/dokumentasjon-og-hjelp/sporsmal/">Sp&#248;rsm&#229;l</a>
+                    <p>
+                        <span>Oversikt over alle spørsmål som er tilknyttet en spesifisert sesjon</span>
+                    </p>
+                </li>
+                <li class="flex-item-25 dataset">
+                    <a href="/dokumentasjon-og-hjelp/dagens-representanter/">Dagens representanter</a>
+                    <p>
+                        <p><span>Oversikt over alle dagens møtende representanter.</span></p>
+                    </p>
+                </li>
+                <li class="flex-item-25 dataset">
+                    <a href="/dokumentasjon-og-hjelp/moter/">M&#248;ter</a>
+                    <p>
+                        <span>Oversikt over alle møter for en spesifisert sesjon.</span>
+                    </p>
+                </li>
+                <li class="flex-item-25 dataset">
+                    <a href="/dokumentasjon-og-hjelp/voteringer/">Voteringer</a>
+                    <p>
+                        Oversikt over alle voteringer for en spesifisert sak.
+                    </p>
+                </li>
+                <li class="flex-item-25 dataset">
+                    <a href="/dokumentasjon-og-hjelp/horinger/">H&#248;ringer</a>
+                    <p>
+                        <span>Oversikt over alle høringer for en spesifisert sesjon.</span>
+                    </p>
+                </li>
+                <li class="flex-item-25 dataset">
+                    <a href="/dokumentasjon-og-hjelp/partier/">Partier</a>
+                    <p>
+                        <span>Oversikt over alle partier som er representert på Stortinget i en spesifisert sesjon.</span>
+                    </p>
+                </li>
+                <li class="flex-item-25 dataset">
+                    <a href="/dokumentasjon-og-hjelp/publikasjoner/">Publikasjoner</a>
+                    <p>
+                        <span>Oversikt over alle publikasjoner av en spesifisert type i en spesifisert sesjon.</span>
+                    </p>
+                </li>
+
+</ul>
 
 
-
-
-       <span class="smalltext">Forsiden</span>
-</div>    
-            
-            <div class="articleContainer clearfix">
-                
-                <div class="shadowSides leftShadow"></div>
-                <div class="shadow topShadowMain"></div>
-                <div class="shadowSides rightShadowMain"></div>
-                <div class="shadow bottomShadowMain"></div>
-                
-                <div class="clear"></div>
-
-                    <div class="articleContent">
-
-        <div id="content"><h2>Stortingets datatjeneste</h2>
-<p>&nbsp;</p>
-<p>Den 2. mai 2012 ble Stortingets datatjeneste tilgjengeliggjort.</p>
-<p>&nbsp;</p>
-<p>Stortingets datatjeneste tilbyr uttrekk&nbsp;fra databaser som benyttes i Stortingets&nbsp;parlamentariske saksbehandling. Forel&oslash;pig inneb&aelig;rer dette, hovedsakelig, data om voteringer, saker, sp&oslash;rsm&aring;l og&nbsp;representanter. Dataene er gratis og tilgjengelig for alle.</p>
-<p>&nbsp;&nbsp;&nbsp;</p>
-<p>Denne datatjenesten gir&nbsp;de som &oslash;nsker det&nbsp;mulighet til &aring; gjenbruke dataene i ulike sammenhenger.</p></div>
-
+    </div>
 </div>
 
-                <div class="rightColumn clearfix"></div>
 
-            </div>
-            
+<div class="row">
+    <div class="large-12 columns align-center">
+        
+                    <a class="full-width-button" href="/eksport/" tooltiop="Alle datasett"><span>Alle datasett</span></a>
+
+    </div>
+</div>
+
+    
+
+
+<div class="row">
+    <div class="large-12 columns">
+        <h2 class="center">Siste nyheter</h2>
+        
+
+
+<ul class="flex-container">
+            <li class="flex-item-25 news">
+                <span class="date">17.03.2017 09:00:00</span><a href="/nyhetsoversikt/data.stortinget.no-fornyes/">Data.stortinget.no fornyes</a>
+            </li>
+            <li class="flex-item-25 news">
+                <span class="date">08.12.2016 12:01:00</span><a href="/nyhetsoversikt/referater-biografier-representantaktivitet-og-feilrettinger/">Referater, biografier, representantaktivitet og feilrettinger</a>
+            </li>
+            <li class="flex-item-25 news">
+                <span class="date">20.10.2016 12:00:00</span><a href="/nyhetsoversikt/nye-xml-filer-for-referater.-nye-datasett-for-regjeringen-historiske-fylker-og-vararepresentanter/">Nye XML-filer for referater. Nye datasett for regjeringen, historiske fylker og vararepresentanter</a>
+            </li>
+            <li class="flex-item-25 news">
+                <span class="date">12.02.2015 12:00:00</span><a href="/nyhetsoversikt/nye-og-oppdaterte-datasett/">Nye og oppdaterte datasett</a>
+            </li>
+
+</ul>
+
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="large-12 columns align-center">
+                    <a class="full-width-button" href="/nyhetsoversikt/" tooltiop="Alle nyheter"><span>Alle nyheter</span></a>
+
+    </div>
+</div>
+
+
+
+</div>
+            </main>
+            <footer class="apenData-footer" role="contentinfo">
+    <h2 class="visuallyhidden">Om Stortinget</h2>
+    <div class="row row-5">
+        <div class="large-6 medium-12 columns logo hide-for-print" style="margin-right:0;padding-right:0;">
+            <a href="/" class="logo-wrapper"><img src="/public/gfx/logo-white.svg" class="logo" alt="Stortinget"></a>
+                    <div class="apne-data">&#197;PNE DATA</div>
+
         </div>
-        <div class="clear"></div>
+        <div class="medium-12 large-3 columns">
+            <p>Stortingets nettvakt</p>
+<p>Tlf: +47 2331 3333<br /><a href="mailto:web@stortinget.no">web@stortinget.no</a><br /><br /></p>
+<p>Nettredaktør: Lars Henie Barstad<br /><br /></p>
+<p>Ansvarlig redaktør: Siv Nordrum</p>
+        </div>
+        <div class="medium-12 large-2 columns hide-for-print">
+    Om nettstedet
+    <ul>
+                <li>
+                        <a class="" href="/om-datatjenesten/"><span>Om datatjenesten</span></a>
 
-    <div id="bottomwrapper">
-        
-        <div id="footer" class="clearfix">
-            <div class="container">
-                <div class="watermark"></div>
-                <div class="column1">
-                    <p>Stortingets informasjonstjeneste</p>
-                    <p>Tlf. +47 2331 3333<br/><a href="mailto:info@stortinget.no">info@stortinget.no</a></p><br />
-                    <p>Nettredaktør:<br />Lars Henie Barstad</p>
-                </div>
-                <div class="column2">
-                    <p>Stortinget</p><br/>
-                <p>
-                    Sentralbord:<br/>Tlf. +47 2331 3050<br/><br /><p>Ansvarlig redaktør:<br/>Siv Nordrum</p><br/>
-                </p>
-                </div>
-                <div class="column3">
-                    <a href="//www.stortinget.no" class="greenLink">Til stortinget.no</a>
-                </div>
-            </div>
-        </div><!-- end footer -->
-        
-    </div><!-- end bottomwrapper -->
+                </li>
+                <li>
+                        <a class="" href="/bruksvilkar/"><span>Bruksvilk&#229;r</span></a>
 
+                </li>
+                <li>
+                        <a class="" href="/personvern/"><span>Personvern og informasjonskapsler</span></a>
+
+                </li>
+                <li>
+                        <a class="" href="https://www.stortinget.no/"><span>www.stortinget.no</span></a>
+
+                </li>
+
+    </ul>
+</div>
+    
+    </div>
+</footer>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="/public/js/vendor/enquire.min.js"></script>
+<script>var jspath = '/public/js/';</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+<script src="/public/js/app.js"></script>
 </body>
 </html>
