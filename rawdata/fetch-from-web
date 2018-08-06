@@ -3,9 +3,9 @@ set -e
 
 # Uses tools from the poppler-utils debian package
 extract_interests() {
-  URLPATH='www.stortinget.no/Global/pdf/register%20for%20stortingsrepresentantenes%20og%20regjeringsmedlemmenes%20verv%20og%20okonomiske%20interesser.pdf'
+  URLPATH='www.stortinget.no/globalassets/pdf/register-for-stortingsrepresentantenes-og-regjeringsmedlemmenes-verv-og-okonomiske-interesser.pdf'
   mkdir -p "$(dirname $URLPATH)"
-  GET http://$URLPATH > $URLPATH
+  GET https://$URLPATH > $URLPATH
   pdftohtml -xml $URLPATH
   pdftotext $URLPATH
 }
