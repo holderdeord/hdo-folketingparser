@@ -12,7 +12,7 @@ extract_interests() {
 
 attendence() {
   URLPATH=www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representantfordeling/
-  GET http://$URLPATH > ${URLPATH}index.html
+  GET https://$URLPATH > ${URLPATH}index.html
 }
 
 today=$(date +%Y-%m-%d)
