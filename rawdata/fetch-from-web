@@ -5,7 +5,7 @@ set -e
 extract_interests() {
   URLPATH='www.stortinget.no/globalassets/pdf/register-for-stortingsrepresentantenes-og-regjeringsmedlemmenes-verv-og-okonomiske-interesser.pdf'
   mkdir -p "$(dirname $URLPATH)"
-  GET https://$URLPATH > $URLPATH
+  GET https://$URLPATH > $URLPATH.new && mv $URLPATH.new $URLPATH
   pdftohtml -xml $URLPATH
   pdftotext $URLPATH
 }
@@ -14,7 +14,9 @@ attendence() {
   URLPATH=www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representantfordeling/
   GET https://$URLPATH > ${URLPATH}index.html
 }
-
-today=$(date +%Y-%m-%d)
-attendence && extract_interests &&
+commit() {
   git commit -m "Inn med web page data fra $today." www.stortinget.no
+}
+today=$(date +%Y-%m-%d)
+attendence && commit
+extract_interests && commit
