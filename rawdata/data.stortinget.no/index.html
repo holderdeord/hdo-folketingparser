@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html>
-    <head>
-            <title>Forside | Stortinget | &#229;pne data </title>
+<html lang="no">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PGSWWGT');</script>
+    <!-- End Google Tag Manager -->
+        <title>Forside | Stortinget | &#229;pne data </title>
     <meta charset="utf-8">
     <meta httpequiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{this.props.description}/">
+        <meta name="description" content="Stortingets datatjeneste tilbyr uttrekk fra databaser som benyttes i Stortingets parlamentariske saksbehandling. Dette inneb&#230;rer hovedsakelig data om voteringer, saker, sp&#248;rsm&#229;l, representanter, stortingsm&#248;ter, h&#248;ringer og publikasjoner.">
     <meta name="author" content="">
     <link rel="apple-touch-icon" sizes="180x180" href="/public/favicons/apple-touch-icon.png">
     <link rel="icon" type="/image/png" href="/public/favicons/favicon-32x32.png" sizes="32x32">
@@ -17,13 +24,19 @@
     <meta name="theme-color" content="#ffffff ">
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/hybrid.min.css">
-    <link rel="stylesheet" type="text/css" href="/public/css/app.css" media="screen, projection, handheld">
+    <link rel="stylesheet" type="text/css" href="/public/css/app-data-stortinget.min.css" media="screen, projection, handheld">
     <link rel="stylesheet" type="text/css" href="/public/css/print.css" media="print">
     <script src="/public/js/vendor/modernizr-2.6.2.min.js"></script>
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGSWWGT"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div id="app">
         <div class="main-container">
             <h1 class="visuallyhidden">Stortinget.no</h1>
@@ -43,7 +56,7 @@
             <div class="large-12 columns small-collapse">
                 <div class="border">
                     <div class="header-actions">
-                        <a href="/" class="logo"><img src="/public/gfx/logo.svg" alt="Stortinget"></a>
+                        <a href="/link/e6ffc30be2b9484eadc00a6aa5d45350.aspx" class="logo"><img src="/public/gfx/logo.svg" alt="Stortinget"></a>
                                 <div class="apne-data">&#197;PNE DATA</div>
 
                         <button type="button" class="nav-primary-toggle" data-toggle-nav-primary="true">
@@ -51,17 +64,16 @@
                         </button>
                     </div>
                     <div class="header-bar" data-header-bar="true">
-                        <nav class="apenData-nav-primary nav-primary" role="navigation" data-nav-primary="">
-                            <h2 class="visuallyhidden">Hovednavigasjon</h2>
+                        <nav class="apenData-nav-primary nav-primary" role="navigation" data-nav-primary="" aria-label="Hovednavigasjon">
                             <ul class="level-1">
                                 <li class="language-selector-mobile">
 
                                 </li>
                                         <li>
-                                            <a href="#" role="button">Om datatjenesten</a>
-                                            <div class="col-container">
+                                            <a href="#" class="topMenuItem" aria-controls="sub-menu1" aria-expanded="false">Om datatjenesten</a>
+                                            <div class="col-container" id="sub-menu1">
                                                     <div class="section-link">
-        <a href="/no/om-datatjenesten/">
+        <a href="/om-datatjenesten/">
 Om datatjenesten
         </a>
 
@@ -69,20 +81,20 @@ Om datatjenesten
     <div class="col">
         <ul class="level-2">
                     <li>
-                        <a href="/no/bruksvilkar/">Bruksvilk&#229;r</a>
+                        <a href="/bruksvilkar/">Bruksvilk&#229;r</a>
                     </li>
                     <li>
-                        <a href="/no/personvern/">Personvern og informasjonskapsler</a>
+                        <a href="/personvern/">Personvern og informasjonskapsler</a>
                     </li>
         </ul>
     </div>
     <div class="col">
         <ul class="level-2">
                     <li>
-                        <a href="/no/nyhetsoversikt/">Nyhetsoversikt</a>
+                        <a href="/nyhetsoversikt/">Nyhetsoversikt</a>
                     </li>
                     <li>
-                        <a href="/no/eksempler/">Eksempler p&#229; bruk av datatjenesten</a>
+                        <a href="/eksempler/">Eksempler p&#229; bruk av datatjenesten</a>
                     </li>
         </ul>
     </div>
@@ -93,10 +105,10 @@ Om datatjenesten
                                             </div>
                                         </li>
                                         <li>
-                                            <a href="#" role="button">Dataeksport</a>
-                                            <div class="col-container">
+                                            <a href="#" class="topMenuItem" aria-controls="sub-menu2" aria-expanded="false">Dataeksport</a>
+                                            <div class="col-container" id="sub-menu2">
                                                     <div class="section-link">
-        <a href="/no/eksport/">
+        <a href="/eksport/">
 Dataeksport
         </a>
 
@@ -104,26 +116,35 @@ Dataeksport
     <div class="col">
         <ul class="level-2">
                     <li>
-                        <a href="/no/last-ned-datasett/">Last ned datasett (kommer)</a>
+                        <a href="/last-ned-datasett/">Last ned datasett</a>
+                    </li>
+                    <li>
+                        <a href="/last-ned-datasett/nedlasting-av-publikasjoner/">Publikasjoner</a>
+                    </li>
+                    <li>
+                        <a href="/last-ned-datasett/nedlasting-av-representantinformasjon/">Representantinformasjon</a>
                     </li>
         </ul>
     </div>
     <div class="col">
         <ul class="level-2">
                     <li>
-                        <a href="/no/bygger/">Om databyggerne</a>
+                        <a href="/bygger/">Om databyggerne</a>
                     </li>
                     <li>
-                        <a href="/no/bygger/saksfordeling/">Sakers databygger</a>
+                        <a href="/bygger/saksfordeling/">Sakers databygger</a>
                     </li>
                     <li>
-                        <a href="/no/bygger/representantfordeling/">Representantfordeling databygger</a>
+                        <a href="/bygger/representantfordeling/">Representantfordeling databygger</a>
                     </li>
                     <li>
-                        <a href="/no/bygger/sporsmalsfordeling/">Sp&#248;rsm&#229;lsdatabygger</a>
+                        <a href="/bygger/sporsmalsfordeling/">Sp&#248;rsm&#229;lsdatabygger</a>
                     </li>
                     <li>
-                        <a href="/no/bygger/votering/">Voteringsdatabygger</a>
+                        <a href="/bygger/votering/">Voteringsdatabygger</a>
+                    </li>
+                    <li>
+                        <a href="/bygger/taletid-i-stortingsmotene/">Taletid i stortingsm&#248;tene</a>
                     </li>
         </ul>
     </div>
@@ -134,10 +155,10 @@ Dataeksport
                                             </div>
                                         </li>
                                         <li>
-                                            <a href="#" role="button">Dokumentasjon og hjelp</a>
-                                            <div class="col-container">
+                                            <a href="#" class="topMenuItem" aria-controls="sub-menu3" aria-expanded="false">Dokumentasjon og hjelp</a>
+                                            <div class="col-container" id="sub-menu3">
                                                     <div class="section-link">
-        <a href="/no/dokumentasjon-og-hjelp/">
+        <a href="/dokumentasjon-og-hjelp/">
 Dokumentasjon og hjelp
         </a>
 
@@ -145,109 +166,142 @@ Dokumentasjon og hjelp
     <div class="col">
         <ul class="level-2">
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/viktige-termer/">Viktige termer</a>
+                        <a href="/dokumentasjon-og-hjelp/viktige-termer/">Viktige termer</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/stortingsperioder/">Stortingsperioder</a>
+                        <a href="/dokumentasjon-og-hjelp/api-nokkel/">Registrering og bruk av API-n&#248;kkel</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/sesjoner/">Sesjoner</a>
+                        <a href="/dokumentasjon-og-hjelp/stortingsperioder/">Stortingsperioder</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/fylker/">Fylker</a>
+                        <a href="/dokumentasjon-og-hjelp/sesjoner/">Sesjoner</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/emner/">Emner</a>
+                        <a href="/dokumentasjon-og-hjelp/fylker/">Fylker</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/partier/">Partier</a>
+                        <a href="/dokumentasjon-og-hjelp/emner/">Emner</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/alle-partier/">Alle partier</a>
+                        <a href="/dokumentasjon-og-hjelp/partier/">Partier</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/komiteer/">Komiteer</a>
+                        <a href="/dokumentasjon-og-hjelp/alle-partier/">Alle partier</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/alle-komiteer/">Alle kommiteer</a>
-                    </li>
-        </ul>
-    </div>
-    <div class="col">
-        <ul class="level-2">
-                    <li>
-                        <a href="/no/dokumentasjon-og-hjelp/representanter/">Representanter</a>
+                        <a href="/dokumentasjon-og-hjelp/komiteer/">Komiteer</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/dagens-representanter/">Dagens representanter</a>
+                        <a href="/dokumentasjon-og-hjelp/alle-komiteer/">Alle komiteer</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/person/">Person</a>
-                    </li>
-                    <li>
-                        <a href="/no/dokumentasjon-og-hjelp/personbilde/">Personbilde</a>
-                    </li>
-                    <li>
-                        <a href="/no/dokumentasjon-og-hjelp/kodet-personbiografi/">Kodet personbiografi</a>
-                    </li>
-                    <li>
-                        <a href="/no/dokumentasjon-og-hjelp/regjering/">Regjering</a>
+                        <a href="/dokumentasjon-og-hjelp/delegasjoner/">Delegasjoner</a>
                     </li>
         </ul>
     </div>
     <div class="col">
         <ul class="level-2">
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/sporsmal/">Sp&#248;rsm&#229;l</a>
+                        <a href="/dokumentasjon-og-hjelp/representanter/">Representanter</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/saksganger/">Saksganger</a>
+                        <a href="/dokumentasjon-og-hjelp/dagens-representanter/">Dagens representanter</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/saker/">Saker</a>
+                        <a href="/dokumentasjon-og-hjelp/person/">Person</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/sak/">Sak</a>
+                        <a href="/dokumentasjon-og-hjelp/personbilde/">Personbilde</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/voteringer/">Voteringer</a>
+                        <a href="/dokumentasjon-og-hjelp/kodet-personbiografi/">Kodet personbiografi</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/voteringsforslag/">Voteringsforslag</a>
+                        <a href="/dokumentasjon-og-hjelp/representanttaleaktivitet/">Representanttaleaktivitet</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/voteringsvedtak/">Voteringsvedtak</a>
+                        <a href="/dokumentasjon-og-hjelp/presidentskapet/">Presidentskapet</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/voteringsresultat/">Voteringsresultat</a>
-                    </li>
-                    <li>
-                        <a href="/no/dokumentasjon-og-hjelp/kommentar-til-datagrunnlaget-for-voteringer/">Kommentar til datagrunnlaget for voteringer</a>
+                        <a href="/dokumentasjon-og-hjelp/regjering/">Regjering</a>
                     </li>
         </ul>
     </div>
     <div class="col">
         <ul class="level-2">
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/moter/">M&#248;ter</a>
+                        <a href="/dokumentasjon-og-hjelp/sporsmal/">Sp&#248;rsm&#229;l</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/dagsorden/">Dagsorden</a>
+                        <a href="/dokumentasjon-og-hjelp/enkeltsporsmal/">Enkeltsp&#248;rsm&#229;l</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/talerliste/">Talerliste</a>
+                        <a href="/dokumentasjon-og-hjelp/saksganger/">Saksganger</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/horinger/">H&#248;ringer</a>
+                        <a href="/dokumentasjon-og-hjelp/ventedesaker/">Ventede saker</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/horingsprogram/">H&#248;ringsprogram</a>
+                        <a href="/dokumentasjon-og-hjelp/saker/">Saker</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/publikasjoner/">Publikasjoner</a>
+                        <a href="/dokumentasjon-og-hjelp/sak/">Sak</a>
                     </li>
                     <li>
-                        <a href="/no/dokumentasjon-og-hjelp/publikasjon/">Publikasjon</a>
+                        <a href="/dokumentasjon-og-hjelp/voteringer/">Voteringer</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/voteringsforslag/">Voteringsforslag</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/voteringsvedtak/">Voteringsvedtak</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/voteringsresultat/">Voteringsresultat</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/kommentar-til-datagrunnlaget-for-voteringer/">Kommentar til datagrunnlaget for voteringer</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/vedtak/">Vedtak</a>
+                    </li>
+        </ul>
+    </div>
+    <div class="col">
+        <ul class="level-2">
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/moter/">M&#248;ter</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/dagsorden/">Dagsorden</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/sporretime/">Sp&#248;rretimen</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/talerliste/">Talerliste</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/horinger/">H&#248;ringer</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/skriftlige-innspill/">Skriftlige innspill til h&#248;ringer</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/horingsprogram/">H&#248;ringsprogram</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/horingsinnspill/">H&#248;ringsinnspill</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/publikasjoner/">Publikasjoner</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/publikasjon/">Publikasjon</a>
+                    </li>
+                    <li>
+                        <a href="/dokumentasjon-og-hjelp/publikasjonsfigur/">Publikasjonsfigur</a>
                     </li>
         </ul>
     </div>
@@ -260,8 +314,7 @@ Dokumentasjon og hjelp
 
                             </ul>
                         </nav>
-                        <nav class="apenData-nav-secondary" role="navigation" data-nav-secondary="true">
-                            <h2 class="visuallyhidden">Globale verkt&#xF8;y</h2>
+                        <nav class="apenData-nav-secondary" role="navigation" data-nav-secondary="true" aria-label="Globale verkt&#xF8;y">
                             <ul>
 
                             </ul>
@@ -287,17 +340,18 @@ Dokumentasjon og hjelp
 </div>
 
             <main id="main-content" class="content-container" role="main" tabindex="-1">
-                <div class="apenData-container apenData-frontpage">
+                
+<div class="apenData-container apenData-frontpage">
 <div class="row">
     <div class="large-8 columns">
         <h1>Stortingets datatjeneste</h1>
 
 
-        <p class="page-ingress">Stortingets datatjeneste tilbyr uttrekk&nbsp;fra databaser som benyttes i Stortingets&nbsp;parlamentariske saksbehandling. Dette innebærer hovedsakelig data om voteringer, saker, spørsmål, representanter, stortingsmøter, høringer og publikasjoner.</p>
+        <div class="page-ingress"><p>Stortingets datatjeneste tilbyr uttrekk fra databaser som benyttes i Stortingets parlamentariske saksbehandling. Dette inneb&aelig;rer hovedsakelig data om voteringer, saker, sp&oslash;rsm&aring;l, representanter, stortingsm&oslash;ter, h&oslash;ringer og publikasjoner.</p></div>
 
             <p>
-        <p>Dataene er gratis og tilgjengelig for alle.</p>
-<p>Denne datatjenesten gir&nbsp;de som ønsker det&nbsp;mulighet til å gjenbruke dataene i ulike sammenhenger.</p>
+        <p>Denne datatjenesten gir&nbsp;de som &oslash;nsker det&nbsp;mulighet til &aring; gjenbruke dataene i ulike sammenhenger.</p>
+<p>Dataene er gratis og tilgjengelig for alle.</p>
     </p>
 
     </div>
@@ -307,23 +361,27 @@ Dokumentasjon og hjelp
     <div class="row large-bottom-margin">
         <div class="large-12 columns">
             <div class="medium-6 columns step-container darkened">
-                <h2 class="">Slik benytter du Stortinget sine &#229;pne data:</h2>
-                            <a class="link-icon apenData-icon-download" href="/no/last-ned-datasett/" tooltiop="Last ned datasett"><span>Last ned datasett (kommer)</span></a>
+                <h2 class="" >
+                    Slik benytter du Stortingets &#229;pne data:
+                </h2>
+                            <a class="link-icon apenData-icon-download" href="/last-ned-datasett/" tooltiop="Last ned datasett"><span>Last ned datasett</span></a>
 
             </div>
             <div class="medium-6 columns step-container">
-                <h2 class="">Eller:</h2>
+                <h2 class="" >
+                    Eller:
+                </h2>
                 <ol>
                     <li>
-                                    <a class="link-icon apenData-icon-register" href="/no/registreringsside/" tooltiop="Registrer deg"><span>Registrer deg</span></a>
+                                    <a class="link-icon apenData-icon-register" href="/registreringsside/" tooltiop="Registrer deg"><span>Registrer deg</span></a>
 
                     </li>
                     <li>
-                                    <a class="link-icon apenData-icon-api" href="/no/eksport/" tooltiop="Bruk API"><span>Bruk Api</span></a>
+                                    <a class="link-icon apenData-icon-api" href="/eksport/" tooltiop="Bruk API"><span>Bruk Api</span></a>
 
                     </li>
                 </ol>
-                            <a class="" href="/no/bruksvilkar/" tooltiop="/link/78b57580fa6e46fe8b0686964665c799.aspx?epslanguage=no"><span>Bruksvilk&#229;r</span></a>
+                            <a class="" href="/bruksvilkar/" tooltiop="/link/78b57580fa6e46fe8b0686964665c799.aspx"><span>Bruksvilk&#229;r</span></a>
 
             </div>
         </div>
@@ -335,56 +393,58 @@ Dokumentasjon og hjelp
 
 <div class="row">
     <div class="large-12 columns">
-        <h2 class="center">Utvalgte datasett</h2>
+        <h2 class="center" >
+            Utvalgte datasett
+        </h2>
         
 
 <!-- The "inner foor" of this, could be placed in Block\DataSet\index.cshtml, a "global" view for a DataSetPage as a Block, always printing out <a><p>... By using PropFor(dataSet, DisplayType.Block)... -->
 
 <ul class="flex-container">
                 <li class="flex-item-25 dataset">
-                    <a href="/no/dokumentasjon-og-hjelp/saker/">Saker</a>
+                    <a href="/dokumentasjon-og-hjelp/saker/">Saker</a>
                     <p>
                         Liste over alle saker fordelt på sesjoner.
                     </p>
                 </li>
                 <li class="flex-item-25 dataset">
-                    <a href="/no/dokumentasjon-og-hjelp/sporsmal/">Sp&#248;rsm&#229;l</a>
+                    <a href="/dokumentasjon-og-hjelp/sporsmal/">Sp&#248;rsm&#229;l</a>
                     <p>
                         <span>Oversikt over alle spørsmål som er tilknyttet en spesifisert sesjon</span>
                     </p>
                 </li>
                 <li class="flex-item-25 dataset">
-                    <a href="/no/dokumentasjon-og-hjelp/dagens-representanter/">Dagens representanter</a>
+                    <a href="/dokumentasjon-og-hjelp/dagens-representanter/">Dagens representanter</a>
                     <p>
                         <p><span>Oversikt over alle dagens møtende representanter.</span></p>
                     </p>
                 </li>
                 <li class="flex-item-25 dataset">
-                    <a href="/no/dokumentasjon-og-hjelp/moter/">M&#248;ter</a>
+                    <a href="/dokumentasjon-og-hjelp/moter/">M&#248;ter</a>
                     <p>
                         <span>Oversikt over alle møter for en spesifisert sesjon.</span>
                     </p>
                 </li>
                 <li class="flex-item-25 dataset">
-                    <a href="/no/dokumentasjon-og-hjelp/voteringer/">Voteringer</a>
+                    <a href="/dokumentasjon-og-hjelp/voteringer/">Voteringer</a>
                     <p>
                         Oversikt over alle voteringer for en spesifisert sak.
                     </p>
                 </li>
                 <li class="flex-item-25 dataset">
-                    <a href="/no/dokumentasjon-og-hjelp/horinger/">H&#248;ringer</a>
+                    <a href="/dokumentasjon-og-hjelp/horinger/">H&#248;ringer</a>
                     <p>
                         <span>Oversikt over alle høringer for en spesifisert sesjon.</span>
                     </p>
                 </li>
                 <li class="flex-item-25 dataset">
-                    <a href="/no/dokumentasjon-og-hjelp/partier/">Partier</a>
+                    <a href="/dokumentasjon-og-hjelp/partier/">Partier</a>
                     <p>
                         <span>Oversikt over alle partier som er representert på Stortinget i en spesifisert sesjon.</span>
                     </p>
                 </li>
                 <li class="flex-item-25 dataset">
-                    <a href="/no/dokumentasjon-og-hjelp/publikasjoner/">Publikasjoner</a>
+                    <a href="/dokumentasjon-og-hjelp/publikasjoner/">Publikasjoner</a>
                     <p>
                         <span>Oversikt over alle publikasjoner av en spesifisert type i en spesifisert sesjon.</span>
                     </p>
@@ -399,8 +459,7 @@ Dokumentasjon og hjelp
 
 <div class="row">
     <div class="large-12 columns align-center">
-        
-                    <a class="full-width-button" href="/no/eksport/" tooltiop="Alle datasett"><span>Alle datasett</span></a>
+                    <a class="full-width-button" href="/eksport/" tooltiop="Alle datasett"><span>Alle datasett</span></a>
 
     </div>
 </div>
@@ -410,22 +469,28 @@ Dokumentasjon og hjelp
 
 <div class="row">
     <div class="large-12 columns">
-        <h2 class="center">Siste nyheter</h2>
+        <h2 class="center" >
+                Siste nyheter
+            </h2>
         
 
 
 <ul class="flex-container">
             <li class="flex-item-25 news">
-                <span class="date">17.03.2017 09:00:00</span><a href="/no/nyhetsoversikt/data.stortinget.no-fornyes/">Data.stortinget.no fornyes</a>
+                <span class="date">30.06.2021 12:05</span>
+                <h2><a href="/nyhetsoversikt/ny-databygger-for-taletid/">Ny databygger for taletid</a></h2>
             </li>
             <li class="flex-item-25 news">
-                <span class="date">08.12.2016 12:01:00</span><a href="/no/nyhetsoversikt/referater-biografier-representantaktivitet-og-feilrettinger/">Referater, biografier, representantaktivitet og feilrettinger</a>
+                <span class="date">02.02.2021 11:00</span>
+                <h2><a href="/nyhetsoversikt/skriftlige-innspill/">Skriftlige innspill</a></h2>
             </li>
             <li class="flex-item-25 news">
-                <span class="date">20.10.2016 12:00:00</span><a href="/no/nyhetsoversikt/nye-xml-filer-for-referater.-nye-datasett-for-regjeringen-historiske-fylker-og-vararepresentanter/">Nye XML-filer for referater. Nye datasett for regjeringen, historiske fylker og vararepresentanter</a>
+                <span class="date">14.10.2020 17:55</span>
+                <h2><a href="/nyhetsoversikt/horingsnotat-endres-til-horingsinnspill/">H&#248;ringsnotat omd&#248;pes til H&#248;ringsinnspill</a></h2>
             </li>
             <li class="flex-item-25 news">
-                <span class="date">12.02.2015 12:00:00</span><a href="/no/nyhetsoversikt/nye-og-oppdaterte-datasett/">Nye og oppdaterte datasett</a>
+                <span class="date">16.10.2019 15:12</span>
+                <h2><a href="/nyhetsoversikt/vedtak-presidentskapet-og-horinger/">Vedtak, presidentskapet og h&#248;ringer</a></h2>
             </li>
 
 </ul>
@@ -436,7 +501,7 @@ Dokumentasjon og hjelp
 
 <div class="row">
     <div class="large-12 columns align-center">
-                    <a class="full-width-button" href="/no/nyhetsoversikt/" tooltiop="Alle nyheter"><span>Alle nyheter</span></a>
+                    <a class="full-width-button" href="/nyhetsoversikt/" tooltiop="Alle nyheter"><span>Alle nyheter</span></a>
 
     </div>
 </div>
@@ -447,7 +512,7 @@ Dokumentasjon og hjelp
             </main>
             <footer class="apenData-footer" role="contentinfo">
     <h2 class="visuallyhidden">Om Stortinget</h2>
-    <div class="row row-5">
+    <div class="row row-5 footer">
         <div class="large-6 medium-12 columns logo hide-for-print" style="margin-right:0;padding-right:0;">
             <a href="/" class="logo-wrapper"><img src="/public/gfx/logo-white.svg" class="logo" alt="Stortinget"></a>
                     <div class="apne-data">&#197;PNE DATA</div>
@@ -456,22 +521,21 @@ Dokumentasjon og hjelp
         <div class="medium-12 large-3 columns">
             <p>Stortingets nettvakt</p>
 <p>Tlf: +47 2331 3333<br /><a href="mailto:web@stortinget.no">web@stortinget.no</a><br /><br /></p>
-<p>Nettredaktør: Lars Henie Barstad<br /><br /></p>
-<p>Ansvarlig redaktør: Siv Nordrum</p>
+<p>Nettredakt&oslash;r: Anne Helene B&oslash;lstad<br />Ansvarlig redakt&oslash;r: Anita Blomberg</p>
         </div>
         <div class="medium-12 large-2 columns hide-for-print">
     Om nettstedet
     <ul>
                 <li>
-                        <a class="" href="/no/om-datatjenesten/"><span>Om datatjenesten</span></a>
+                        <a class="" href="/om-datatjenesten/"><span>Om datatjenesten</span></a>
 
                 </li>
                 <li>
-                        <a class="" href="/no/bruksvilkar/"><span>Bruksvilk&#229;r</span></a>
+                        <a class="" href="/bruksvilkar/"><span>Bruksvilk&#229;r</span></a>
 
                 </li>
                 <li>
-                        <a class="" href="/no/personvern/"><span>Personvern og informasjonskapsler</span></a>
+                        <a class="" href="/personvern/"><span>Personvern og informasjonskapsler</span></a>
 
                 </li>
                 <li>
@@ -486,10 +550,11 @@ Dokumentasjon og hjelp
 </footer>
         </div>
     </div>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="/public/js/vendor/enquire.min.js"></script>
-<script>var jspath = '/public/js/';</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
-<script src="/public/js/app.js"></script>
+    <script src="/public/js/vendor/enquire.min.js"></script>
+    <script>var jspath = '/public/js/src';</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+    <script src="/public/js/src/app.min.js"></script>
 </body>
 </html>
